@@ -1,0 +1,6 @@
+reference,test,small_recall,small_precision,cluster_recall,cluster_precision,cluster_area_ref,cluster_area_test
+A_offline,A_online,0.986,0.994,1.0,1.0,5038,5073
+A_offline,A_offline_noref,0.977,0.995,0.999,1.0,5038,4920
+B_offline,B_online,0.993,0.999,1.0,1.0,4659,4657
+B_offline,B_offline_noref,0.858,1.0,0.996,1.0,4659,4449
+B_offline,B_online_firstframe,0.682,0.858,0.593,0.475,4659,8353

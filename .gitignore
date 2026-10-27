@@ -1,0 +1,9 @@
+# Reproducible local environment and tool caches only.
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# During project testing, results/, data/raw/ and history/ are versioned.
