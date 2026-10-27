@@ -1,0 +1,883 @@
+{
+  "passed": true,
+  "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+  "mode": "normal",
+  "problems": [],
+  "recording": {
+    "passed": true,
+    "problems": [],
+    "received_window_frames": 1320,
+    "record_branch_frames": 1320,
+    "saved_frames": 1320,
+    "recording_extra_lost": 0,
+    "clock_comparison_max_error_ticks": 0,
+    "camera_play_count": 1,
+    "rtp_sequence_missing": 0,
+    "queue_overruns": {
+      "record_queue": 0,
+      "decode_queue": 0
+    },
+    "queue_max_buffers": {
+      "record_queue": 44,
+      "decode_queue": 2,
+      "latest_queue": 0
+    },
+    "decoded_frames_total": 1602
+  },
+  "analysis": {
+    "passed": true,
+    "problems": [],
+    "baseline_hz": 11.318181818181818,
+    "parallel_hz": 12.363636363636363,
+    "rate_ratio": 1.0923694779116466,
+    "p95_latency_limit_ms": 218.9369260892272,
+    "baseline": {
+      "window": {
+        "seconds": 22.0,
+        "first_seq": 274,
+        "last_seq": 1593,
+        "frames": 1320,
+        "ffmpeg_exit": 0
+      },
+      "processed": 249,
+      "analysis_hz": 11.318181818181818,
+      "actual_detector_and_piv_results": 249,
+      "processing_ms": {
+        "median": 83.460997993825,
+        "p95": 122.35295000136828,
+        "p99": 138.5941078793258,
+        "max": 150.39040500414558
+      },
+      "software_age_upper_bound_ms": {
+        "median": 133.3785619935952,
+        "p95": 182.44743840768933,
+        "p99": 215.86349681136215,
+        "max": 264.8312100209296
+      },
+      "completion_interval_ms": {
+        "median": 83.91554000263568,
+        "p95": 123.1123293648124,
+        "p99": 139.20060362521326,
+        "max": 151.09008800936863
+      },
+      "fresh_valid_results": 243,
+      "pipeline_error": null,
+      "recorder_dropped": 0,
+      "analysis_skipped": 925,
+      "bridge_overwritten": 368,
+      "threads_closed": true,
+      "latency_scope": "Windows 解码完成至分析完成的保守上界，不是曝光至结果的延迟"
+    },
+    "parallel": {
+      "window": {
+        "seconds": 22.0,
+        "first_seq": 274,
+        "last_seq": 1593,
+        "frames": 1320,
+        "ffmpeg_exit": 0
+      },
+      "processed": 272,
+      "analysis_hz": 12.363636363636363,
+      "actual_detector_and_piv_results": 272,
+      "processing_ms": {
+        "median": 78.94309000403155,
+        "p95": 94.64331421186216,
+        "p99": 128.10043826029872,
+        "max": 135.03645299351774
+      },
+      "software_age_upper_bound_ms": {
+        "median": 117.09137399157044,
+        "p95": 143.69908124790524,
+        "p99": 170.48738818702992,
+        "max": 184.97009598650038
+      },
+      "completion_interval_ms": {
+        "median": 79.38017600099556,
+        "p95": 94.8253375099739,
+        "p99": 128.37377190589905,
+        "max": 135.12746099149808
+      },
+      "fresh_valid_results": 110,
+      "pipeline_error": null,
+      "recorder_dropped": 0,
+      "analysis_skipped": 1091,
+      "bridge_overwritten": 178,
+      "threads_closed": true,
+      "latency_scope": "Windows 解码完成至分析完成的保守上界，不是曝光至结果的延迟"
+    }
+  },
+  "afg_passed": true,
+  "afg_status": "completed",
+  "clock_margin_s": 0.0001109000004362315,
+  "actions": [
+    {
+      "kind": "amplitude",
+      "channel": "PZT1",
+      "state": "ACTIVE",
+      "amplitude_vpp": 0.8,
+      "planned_s": 3,
+      "command_windows_s": 241249.9745064,
+      "write_returned_windows_s": 241249.9748437,
+      "confirmation_windows_s": 241251.0478719,
+      "readback": "8.000000e-01",
+      "status": "sent",
+      "action_id": "action_001",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 3.0001432000135537,
+      "confirmation_elapsed_s": 4.0735087000066414,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 181,
+        "last_frame": 182,
+        "video_from_s": 3.0166666666666666,
+        "video_to_s": 3.033333333333333,
+        "receive_bracket_ms": 38.826400006655604,
+        "video_bracket_ms": 16.666666666666607
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 245,
+        "last_frame": 246,
+        "video_from_s": 4.083333333333333,
+        "video_to_s": 4.1,
+        "receive_bracket_ms": 35.25069999159314,
+        "video_bracket_ms": 16.666666666666607
+      },
+      "software_confirmation_window_s": [
+        3.0166666666666666,
+        4.1
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT1",
+      "state": "IDLE",
+      "amplitude_vpp": 0.001,
+      "planned_s": 6,
+      "command_windows_s": 241252.9745792,
+      "write_returned_windows_s": 241252.9750954,
+      "confirmation_windows_s": 241254.0598237,
+      "readback": "1.000000e-03",
+      "status": "sent",
+      "action_id": "action_002",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 6.000216000014916,
+      "confirmation_elapsed_s": 7.0854605000058655,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 361,
+        "last_frame": 362,
+        "video_from_s": 6.016666666666667,
+        "video_to_s": 6.033333333333333,
+        "receive_bracket_ms": 16.677599982358515,
+        "video_bracket_ms": 16.666666666666607
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 426,
+        "last_frame": 427,
+        "video_from_s": 7.1,
+        "video_to_s": 7.116666666666666,
+        "receive_bracket_ms": 29.087300004903227,
+        "video_bracket_ms": 16.666666666666607
+      },
+      "software_confirmation_window_s": [
+        6.016666666666667,
+        7.116666666666666
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT2",
+      "state": "ACTIVE",
+      "amplitude_vpp": 0.8,
+      "planned_s": 6,
+      "command_windows_s": 241252.9752753,
+      "write_returned_windows_s": 241252.9755302,
+      "confirmation_windows_s": 241254.1679954,
+      "readback": "8.000000e-01",
+      "status": "sent",
+      "action_id": "action_003",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 6.000912100018468,
+      "confirmation_elapsed_s": 7.193632200011052,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 361,
+        "last_frame": 362,
+        "video_from_s": 6.016666666666667,
+        "video_to_s": 6.033333333333333,
+        "receive_bracket_ms": 16.677599982358515,
+        "video_bracket_ms": 16.666666666666607
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 432,
+        "last_frame": 433,
+        "video_from_s": 7.2,
+        "video_to_s": 7.216666666666667,
+        "receive_bracket_ms": 37.94999999809079,
+        "video_bracket_ms": 16.666666666666607
+      },
+      "software_confirmation_window_s": [
+        6.016666666666667,
+        7.216666666666667
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT2",
+      "state": "IDLE",
+      "amplitude_vpp": 0.001,
+      "planned_s": 9,
+      "command_windows_s": 241255.9747962,
+      "write_returned_windows_s": 241255.9756158,
+      "confirmation_windows_s": 241257.162479,
+      "readback": "1.000000e-03",
+      "status": "sent",
+      "action_id": "action_004",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 9.000433000008343,
+      "confirmation_elapsed_s": 10.188115800003288,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 541,
+        "last_frame": 542,
+        "video_from_s": 9.016666666666667,
+        "video_to_s": 9.033333333333333,
+        "receive_bracket_ms": 15.63990002614446,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 613,
+        "last_frame": 614,
+        "video_from_s": 10.216666666666667,
+        "video_to_s": 10.233333333333333,
+        "receive_bracket_ms": 20.781700004590675,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        9.016666666666667,
+        10.233333333333333
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT3",
+      "state": "ACTIVE",
+      "amplitude_vpp": 0.8,
+      "planned_s": 9,
+      "command_windows_s": 241255.9758755,
+      "write_returned_windows_s": 241255.9761773,
+      "confirmation_windows_s": 241257.242943,
+      "readback": "8.000000e-01",
+      "status": "sent",
+      "action_id": "action_005",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 9.001512300019385,
+      "confirmation_elapsed_s": 10.268579800002044,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 541,
+        "last_frame": 542,
+        "video_from_s": 9.016666666666667,
+        "video_to_s": 9.033333333333333,
+        "receive_bracket_ms": 15.63990002614446,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 619,
+        "last_frame": 620,
+        "video_from_s": 10.316666666666666,
+        "video_to_s": 10.333333333333334,
+        "receive_bracket_ms": 37.529900000663474,
+        "video_bracket_ms": 16.666666666667496
+      },
+      "software_confirmation_window_s": [
+        9.016666666666667,
+        10.333333333333334
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT3",
+      "state": "IDLE",
+      "amplitude_vpp": 0.001,
+      "planned_s": 12,
+      "command_windows_s": 241258.9746297,
+      "write_returned_windows_s": 241258.975238,
+      "confirmation_windows_s": 241260.2389018,
+      "readback": "1.000000e-03",
+      "status": "sent",
+      "action_id": "action_006",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 12.000266500021098,
+      "confirmation_elapsed_s": 13.264538600022206,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 723,
+        "last_frame": 724,
+        "video_from_s": 12.05,
+        "video_to_s": 12.066666666666666,
+        "receive_bracket_ms": 10.220299998763949,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 799,
+        "last_frame": 800,
+        "video_from_s": 13.316666666666666,
+        "video_to_s": 13.333333333333334,
+        "receive_bracket_ms": 27.090799994766712,
+        "video_bracket_ms": 16.666666666667496
+      },
+      "software_confirmation_window_s": [
+        12.05,
+        13.333333333333334
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT4",
+      "state": "ACTIVE",
+      "amplitude_vpp": 0.8,
+      "planned_s": 12,
+      "command_windows_s": 241258.9753823,
+      "write_returned_windows_s": 241258.9756101,
+      "confirmation_windows_s": 241260.3444235,
+      "readback": "8.000000e-01",
+      "status": "sent",
+      "action_id": "action_007",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 12.001019100018311,
+      "confirmation_elapsed_s": 13.37006030001794,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 723,
+        "last_frame": 724,
+        "video_from_s": 12.05,
+        "video_to_s": 12.066666666666666,
+        "receive_bracket_ms": 10.220299998763949,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 805,
+        "last_frame": 806,
+        "video_from_s": 13.416666666666666,
+        "video_to_s": 13.433333333333334,
+        "receive_bracket_ms": 6.24639997840859,
+        "video_bracket_ms": 16.666666666667496
+      },
+      "software_confirmation_window_s": [
+        12.05,
+        13.433333333333334
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT4",
+      "state": "IDLE",
+      "amplitude_vpp": 0.001,
+      "planned_s": 15,
+      "command_windows_s": 241261.9745172,
+      "write_returned_windows_s": 241261.9749157,
+      "confirmation_windows_s": 241263.3421024,
+      "readback": "1.000000e-03",
+      "status": "sent",
+      "action_id": "action_008",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 15.000154000008479,
+      "confirmation_elapsed_s": 16.367739200009964,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 902,
+        "last_frame": 903,
+        "video_from_s": 15.033333333333333,
+        "video_to_s": 15.05,
+        "receive_bracket_ms": 48.23509999550879,
+        "video_bracket_ms": 16.666666666667496
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 985,
+        "last_frame": 986,
+        "video_from_s": 16.416666666666668,
+        "video_to_s": 16.433333333333334,
+        "receive_bracket_ms": 50.93890000716783,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        15.033333333333333,
+        16.433333333333334
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT1",
+      "state": "ACTIVE",
+      "amplitude_vpp": 0.8,
+      "planned_s": 15,
+      "command_windows_s": 241261.9750446,
+      "write_returned_windows_s": 241261.9752449,
+      "confirmation_windows_s": 241263.0475383,
+      "readback": "8.000000e-01",
+      "status": "sent",
+      "action_id": "action_009",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 15.000681400008034,
+      "confirmation_elapsed_s": 16.07317509999848,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 902,
+        "last_frame": 903,
+        "video_from_s": 15.033333333333333,
+        "video_to_s": 15.05,
+        "receive_bracket_ms": 48.23509999550879,
+        "video_bracket_ms": 16.666666666667496
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 967,
+        "last_frame": 968,
+        "video_from_s": 16.116666666666667,
+        "video_to_s": 16.133333333333333,
+        "receive_bracket_ms": 19.23119998537004,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        15.033333333333333,
+        16.133333333333333
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT3",
+      "state": "ACTIVE",
+      "amplitude_vpp": 0.8,
+      "planned_s": 15,
+      "command_windows_s": 241261.9753475,
+      "write_returned_windows_s": 241261.9755278,
+      "confirmation_windows_s": 241263.2353362,
+      "readback": "8.000000e-01",
+      "status": "sent",
+      "action_id": "action_010",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 15.000984300015261,
+      "confirmation_elapsed_s": 16.260973000025842,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 902,
+        "last_frame": 903,
+        "video_from_s": 15.033333333333333,
+        "video_to_s": 15.05,
+        "receive_bracket_ms": 48.23509999550879,
+        "video_bracket_ms": 16.666666666667496
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 979,
+        "last_frame": 980,
+        "video_from_s": 16.316666666666666,
+        "video_to_s": 16.333333333333332,
+        "receive_bracket_ms": 38.84019999532029,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        15.033333333333333,
+        16.333333333333332
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT1",
+      "state": "IDLE",
+      "amplitude_vpp": 0.001,
+      "planned_s": 18,
+      "command_windows_s": 241264.9747644,
+      "write_returned_windows_s": 241264.9758986,
+      "confirmation_windows_s": 241266.0594605,
+      "readback": "1.000000e-03",
+      "status": "sent",
+      "action_id": "action_011",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 18.000401199999033,
+      "confirmation_elapsed_s": 19.085097300005145,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1083,
+        "last_frame": 1084,
+        "video_from_s": 18.05,
+        "video_to_s": 18.066666666666666,
+        "receive_bracket_ms": 18.878099974244833,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1148,
+        "last_frame": 1149,
+        "video_from_s": 19.133333333333333,
+        "video_to_s": 19.15,
+        "receive_bracket_ms": 2.542999980505556,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        18.05,
+        19.15
+      ]
+    },
+    {
+      "kind": "amplitude",
+      "channel": "PZT3",
+      "state": "IDLE",
+      "amplitude_vpp": 0.001,
+      "planned_s": 18,
+      "command_windows_s": 241264.9762554,
+      "write_returned_windows_s": 241264.9770093,
+      "confirmation_windows_s": 241266.2462783,
+      "readback": "1.000000e-03",
+      "status": "sent",
+      "action_id": "action_012",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 18.00189220000175,
+      "confirmation_elapsed_s": 19.271915100020124,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1083,
+        "last_frame": 1084,
+        "video_from_s": 18.05,
+        "video_to_s": 18.066666666666666,
+        "receive_bracket_ms": 18.878099974244833,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1160,
+        "last_frame": 1161,
+        "video_from_s": 19.333333333333332,
+        "video_to_s": 19.35,
+        "receive_bracket_ms": 10.255899978801608,
+        "video_bracket_ms": 16.666666666669272
+      },
+      "software_confirmation_window_s": [
+        18.05,
+        19.35
+      ]
+    },
+    {
+      "kind": "stop",
+      "channel": "PZT1",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": 20,
+      "command_windows_s": 241266.9744277,
+      "write_returned_windows_s": 241266.9749348,
+      "confirmation_windows_s": 241266.9760019,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_013",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.000064500025474,
+      "confirmation_elapsed_s": 20.00163870002143,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1203,
+        "last_frame": 1204,
+        "video_from_s": 20.05,
+        "video_to_s": 20.066666666666666,
+        "receive_bracket_ms": 14.93760000448674,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1203,
+        "last_frame": 1204,
+        "video_from_s": 20.05,
+        "video_to_s": 20.066666666666666,
+        "receive_bracket_ms": 14.93760000448674,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.05,
+        20.066666666666666
+      ]
+    },
+    {
+      "kind": "stop",
+      "channel": "PZT2",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": 20,
+      "command_windows_s": 241266.97601,
+      "write_returned_windows_s": 241266.9762095,
+      "confirmation_windows_s": 241267.012129,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_014",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.0016468000249,
+      "confirmation_elapsed_s": 20.03776580002159,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1203,
+        "last_frame": 1204,
+        "video_from_s": 20.05,
+        "video_to_s": 20.066666666666666,
+        "receive_bracket_ms": 14.93760000448674,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1206,
+        "last_frame": 1207,
+        "video_from_s": 20.1,
+        "video_to_s": 20.116666666666667,
+        "receive_bracket_ms": 18.69510000688024,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.05,
+        20.116666666666667
+      ]
+    },
+    {
+      "kind": "stop",
+      "channel": "PZT3",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": 20,
+      "command_windows_s": 241267.0121477,
+      "write_returned_windows_s": 241267.0123786,
+      "confirmation_windows_s": 241267.0252208,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_015",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.03778450001846,
+      "confirmation_elapsed_s": 20.05085759999929,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1206,
+        "last_frame": 1207,
+        "video_from_s": 20.1,
+        "video_to_s": 20.116666666666667,
+        "receive_bracket_ms": 18.69510000688024,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1207,
+        "last_frame": 1208,
+        "video_from_s": 20.116666666666667,
+        "video_to_s": 20.133333333333333,
+        "receive_bracket_ms": 15.411899978062138,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.1,
+        20.133333333333333
+      ]
+    },
+    {
+      "kind": "stop",
+      "channel": "PZT4",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": 20,
+      "command_windows_s": 241267.025235,
+      "write_returned_windows_s": 241267.0254388,
+      "confirmation_windows_s": 241267.0604577,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_016",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.050871800020104,
+      "confirmation_elapsed_s": 20.08609450000222,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1207,
+        "last_frame": 1208,
+        "video_from_s": 20.116666666666667,
+        "video_to_s": 20.133333333333333,
+        "receive_bracket_ms": 15.411899978062138,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1208,
+        "last_frame": 1209,
+        "video_from_s": 20.133333333333333,
+        "video_to_s": 20.15,
+        "receive_bracket_ms": 34.69630001927726,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.116666666666667,
+        20.15
+      ]
+    },
+    {
+      "kind": "stop_repeat",
+      "channel": "PZT1",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": null,
+      "command_windows_s": 241267.5566812,
+      "write_returned_windows_s": 241267.5571499,
+      "confirmation_windows_s": 241267.5630842,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_017",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.58231800000067,
+      "confirmation_elapsed_s": 20.588721000007354,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1238,
+        "last_frame": 1239,
+        "video_from_s": 20.633333333333333,
+        "video_to_s": 20.65,
+        "receive_bracket_ms": 21.931700001005083,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1238,
+        "last_frame": 1239,
+        "video_from_s": 20.633333333333333,
+        "video_to_s": 20.65,
+        "receive_bracket_ms": 21.931700001005083,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.633333333333333,
+        20.65
+      ]
+    },
+    {
+      "kind": "stop_repeat",
+      "channel": "PZT2",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": null,
+      "command_windows_s": 241267.5630965,
+      "write_returned_windows_s": 241267.5633048,
+      "confirmation_windows_s": 241267.5988444,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_018",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.5887333000137,
+      "confirmation_elapsed_s": 20.624481200007722,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1238,
+        "last_frame": 1239,
+        "video_from_s": 20.633333333333333,
+        "video_to_s": 20.65,
+        "receive_bracket_ms": 21.931700001005083,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1241,
+        "last_frame": 1242,
+        "video_from_s": 20.683333333333334,
+        "video_to_s": 20.7,
+        "receive_bracket_ms": 22.90979999816045,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.633333333333333,
+        20.7
+      ]
+    },
+    {
+      "kind": "stop_repeat",
+      "channel": "PZT3",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": null,
+      "command_windows_s": 241267.5988604,
+      "write_returned_windows_s": 241267.5991318,
+      "confirmation_windows_s": 241267.6223837,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_019",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.62449720001314,
+      "confirmation_elapsed_s": 20.648020500026178,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1241,
+        "last_frame": 1242,
+        "video_from_s": 20.683333333333334,
+        "video_to_s": 20.7,
+        "receive_bracket_ms": 22.90979999816045,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1242,
+        "last_frame": 1243,
+        "video_from_s": 20.7,
+        "video_to_s": 20.716666666666665,
+        "receive_bracket_ms": 26.552900002570823,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.683333333333334,
+        20.716666666666665
+      ]
+    },
+    {
+      "kind": "stop_repeat",
+      "channel": "PZT4",
+      "state": "STOP",
+      "amplitude_vpp": null,
+      "planned_s": null,
+      "command_windows_s": 241267.6223947,
+      "write_returned_windows_s": 241267.6226124,
+      "confirmation_windows_s": 241267.6576848,
+      "readback": "0",
+      "status": "confirmed",
+      "action_id": "action_020",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "command_elapsed_s": 20.648031500022626,
+      "confirmation_elapsed_s": 20.68332160002319,
+      "command_video": {
+        "mapped": true,
+        "first_frame": 1242,
+        "last_frame": 1243,
+        "video_from_s": 20.7,
+        "video_to_s": 20.716666666666665,
+        "receive_bracket_ms": 26.552900002570823,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "confirmation_video": {
+        "mapped": true,
+        "first_frame": 1245,
+        "last_frame": 1246,
+        "video_from_s": 20.75,
+        "video_to_s": 20.766666666666666,
+        "receive_bracket_ms": 31.869600003119558,
+        "video_bracket_ms": 16.66666666666572
+      },
+      "software_confirmation_window_s": [
+        20.7,
+        20.766666666666666
+      ]
+    }
+  ],
+  "max_command_receive_bracket_ms": 48.23509999550879,
+  "max_command_video_bracket_ms": 16.666666666667496,
+  "precision_notes": [
+    "两端为同一Windows主机的公共monotonic/QPC时钟，实验前后双向核对，不使用WSL计时器做差。",
+    "对应范围表示动作调用前后接收端收到的帧；接收时间取压缩帧解析后，解码时间另存。",
+    "AFG确认是切换后约1秒的稳定读回；发送到确认之间是软件确认区间，不是模拟电压变化区间。",
+    "时钟核对包络和帧范围不能覆盖未知的曝光、相机编码/网络传输和AFG模拟输出延迟；物理同步误差未知。",
+    "视频帧编号从0开始；工作段按真实命令发送推算，不表示已测得声波强弱。"
+  ]
+}

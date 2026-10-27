@@ -1,0 +1,14 @@
+{
+  "seq": 274,
+  "pts_ns": 5800000000,
+  "dts_ns": 18446744073709551615,
+  "received_windows_mono": 243792.247669,
+  "keyframe": true,
+  "bytes": 41135,
+  "nal_types": [
+    5,
+    7,
+    8,
+    9
+  ]
+}
