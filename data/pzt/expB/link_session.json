@@ -1,0 +1,23 @@
+{
+  "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+  "mode": "normal",
+  "action_seconds": 20,
+  "recording_seconds": 22,
+  "clock_domain": "same Windows host monotonic; never subtract WSL counter",
+  "active_vpp": 0.8,
+  "active_vpp_by_channel": {
+    "PZT1": 0.8,
+    "PZT2": 0.8,
+    "PZT3": 0.8,
+    "PZT4": 0.8
+  },
+  "frequency_hz_by_channel": {
+    "PZT1": 2500000,
+    "PZT2": 2500000,
+    "PZT3": 2500000,
+    "PZT4": 2500000
+  },
+  "idle_vpp": 0.001,
+  "requested_plan": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/two_action_video_20s.json",
+  "selected_plan": "selected_plan.json"
+}

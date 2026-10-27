@@ -1,0 +1,9 @@
+{
+  "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+  "mode": "normal",
+  "action_seconds": 20,
+  "recording_seconds": 22,
+  "clock_domain": "same Windows host monotonic; never subtract WSL counter",
+  "active_vpp": 0.8,
+  "idle_vpp": 0.001
+}
