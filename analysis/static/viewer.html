@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analysis check</title>
+<link rel="stylesheet" href="/static/viewer.css">
+</head>
+<body>
+<header class="top">
+  <div class="title">
+    <strong>Analysis check</strong>
+    <span class="muted" id="src">Loading…</span>
+  </div>
+  <div class="actions">
+    <label class="muted" for="moments">Key moments</label>
+    <select id="moments"><option value="">Choose a moment to check…</option></select>
+    <button type="button" id="btn-notes">Data-quality notes</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="list" aria-label="Objects">
+    <ol id="objects" class="objects"></ol>
+  </aside>
+
+  <section class="viewer">
+    <div class="stage">
+      <canvas id="view" aria-label="Video frame"></canvas>
+      <div id="stamp" class="stamp"></div>
+    </div>
+    <div id="readout" class="readout muted"></div>
+    <div class="transport">
+      <div class="group">
+        <button type="button" id="b-start" title="Start of the object (Home)">⏮</button>
+        <button type="button" id="b-back10" title="Back 10 frames (Shift+←)">−10</button>
+        <button type="button" id="b-back" title="Back 1 frame (←)">−1</button>
+        <button type="button" id="b-play" class="primary" title="Play / pause (Space)">Play</button>
+        <button type="button" id="b-fwd" title="Forward 1 frame (→)">+1</button>
+        <button type="button" id="b-fwd10" title="Forward 10 frames (Shift+→)">+10</button>
+        <button type="button" id="b-end" title="End of the object (End)">⏭</button>
+        <select id="speed" aria-label="Playback speed">
+          <option value="0.1">0.1×</option>
+          <option value="0.25">0.25×</option>
+          <option value="0.5" selected>0.5×</option>
+          <option value="1">1×</option>
+        </select>
+      </div>
+      <div class="group toggles">
+        <label><input type="checkbox" id="t-zoom"> Zoom to object (Z)</label>
+        <label><input type="checkbox" id="t-path" checked> Path</label>
+        <label><input type="checkbox" id="t-all" checked> All outlines</label>
+      </div>
+    </div>
+    <div class="legend">
+      <span><i class="sw sel"></i>Selected object</span>
+      <span><i class="sw confirmed"></i>Trusted</span>
+      <span><i class="sw uncertain"></i>Uncertain (unreviewed or untrusted, kept)</span>
+      <span><i class="sw excluded"></i>False target (left out)</span>
+    </div>
+  </section>
+
+  <section class="charts" aria-label="Curves">
+    <div class="chead">
+      <h2 id="c-title">Whole field</h2>
+      <div class="seg" role="group" aria-label="Time range">
+        <button type="button" id="r-obj" aria-pressed="true">This object</button>
+        <button type="button" id="r-all" aria-pressed="false">Whole video</button>
+      </div>
+    </div>
+    <p class="muted small" id="c-help">Click a curve to jump to that frame. Faint parts: shape shaped by a wall, or region cut by the image edge. Dashed lines: the trusted data are cut there.</p>
+    <canvas id="chart" aria-label="Curves; click to jump to a frame"></canvas>
+  </section>
+</main>
+
+<footer class="keys muted">
+  Keys: Space play/pause · ←/→ one frame · Shift+←/→ ten frames · Home/End start/end of the object ·
+  [ / ] previous/next object · Z zoom
+</footer>
+
+<div id="dialog" class="dialog" hidden role="dialog" aria-modal="true" aria-labelledby="dlg-title">
+  <div class="box">
+    <h2 id="dlg-title">Data-quality notes</h2>
+    <div id="dlg-body"></div>
+    <div class="btnrow"><button type="button" id="dlg-close" class="primary">Close</button></div>
+  </div>
+</div>
+<script src="/static/viewer.js"></script>
+</body>
+</html>
