@@ -1,0 +1,30 @@
+{
+ "video": "expB.mp4",
+ "mode": "offline",
+ "background": "self+ref",
+ "frames": 1320,
+ "fps": 60.00006060612183,
+ "ms_per_frame_mean": 14.18,
+ "ms_per_frame_p95": 16.48,
+ "confirmed_ids": 49,
+ "raw_ids": 79,
+ "events": {
+  "merge": 7,
+  "split": 6,
+  "appear": 41,
+  "lost": 27,
+  "enter": 2,
+  "exit": 2
+ },
+ "params": {
+  "bg": "offline",
+  "ref": [
+   "background.npy"
+  ],
+  "crop": null,
+  "lo": 0.06,
+  "hi": 0.12,
+  "min_area": 12,
+  "percentile": 90
+ }
+}

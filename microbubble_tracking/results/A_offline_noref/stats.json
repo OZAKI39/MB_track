@@ -1,0 +1,28 @@
+{
+ "video": "expA.mp4",
+ "mode": "offline",
+ "background": "self",
+ "frames": 1320,
+ "fps": 60.0,
+ "ms_per_frame_mean": 13.76,
+ "ms_per_frame_p95": 15.62,
+ "confirmed_ids": 102,
+ "raw_ids": 163,
+ "events": {
+  "merge": 22,
+  "split": 13,
+  "appear": 83,
+  "lost": 61,
+  "enter": 6,
+  "exit": 5
+ },
+ "params": {
+  "bg": "offline",
+  "ref": [],
+  "crop": null,
+  "lo": 0.06,
+  "hi": 0.12,
+  "min_area": 12,
+  "percentile": 90
+ }
+}

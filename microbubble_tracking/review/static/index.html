@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Track review</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="title">
+    <strong>Track review</strong>
+    <span class="muted" id="src">Loading…</span>
+  </div>
+  <div class="progress">
+    <div class="pbar" id="pbar" aria-hidden="true"><i class="t"></i><i class="u"></i></div>
+    <span id="ptext" class="muted"></span>
+  </div>
+  <div class="actions">
+    <span id="saved" class="muted"></span>
+    <button type="button" id="btn-undo" title="Undo the last change (Ctrl+Z)" disabled>Undo</button>
+    <button type="button" id="btn-export">Export &amp; check</button>
+    <button type="button" id="btn-video">Make check video</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="list" aria-label="Tracks">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-tracks" aria-selected="true">Objects <span id="n-tracks" class="muted"></span></button>
+      <button type="button" role="tab" id="tab-sugg" aria-selected="false">Same-object suggestions <span id="n-sugg" class="count"></span></button>
+    </div>
+    <div id="pane-tracks" class="pane">
+      <div class="filters">
+        <div class="row">
+          <div class="seg" role="group" aria-label="List">
+            <button type="button" id="v-object" aria-pressed="true" title="One row per object; linked IDs are combined">By object</button>
+            <button type="button" id="v-id" aria-pressed="false" title="One row per track ID">By ID</button>
+          </div>
+        </div>
+        <div class="row">
+          <input id="f-id" type="search" placeholder="ID" inputmode="numeric" aria-label="Find by ID">
+          <select id="f-sort" aria-label="Sort">
+            <option value="start">By start time</option>
+            <option value="id">By ID</option>
+            <option value="dur">By duration (long first)</option>
+            <option value="area">By area (large first)</option>
+            <option value="wall">By wall contact (high first)</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Duration ≥ <input id="f-dur" type="number" min="0" step="0.1" value="0"> s</label>
+          <label>Area ≥ <input id="f-area" type="number" min="0" step="50" value="0"> px</label>
+        </div>
+        <div class="row">
+          <select id="f-status" aria-label="Filter by review status">
+            <option value="all">All tracks</option>
+            <option value="todo">Has unreviewed parts</option>
+            <option value="bad">Has untrusted parts</option>
+            <option value="done">Fully reviewed</option>
+            <option value="linked">Linked to other IDs</option>
+          </select>
+          <span id="f-count" class="muted"></span>
+        </div>
+      </div>
+      <ol id="tracks" class="tracks"></ol>
+    </div>
+    <div id="pane-sugg" class="pane" hidden>
+      <p class="note">ID pairs that probably belong to one object: one ID ends and another starts later at almost the same place, with a similar size. Use <b>Show</b> to play across the gap, then <b>Link</b> or <b>Not same</b>.</p>
+      <ol id="sugg" class="sugg"></ol>
+    </div>
+  </aside>
+
+  <section class="viewer">
+    <div class="stage">
+      <canvas id="view" width="1280" height="1024" aria-label="Video frame"></canvas>
+      <div id="hint" class="hint" hidden></div>
+    </div>
+    <div class="transport">
+      <div class="group">
+        <button type="button" id="b-start" title="Go to start of track (Home)">⏮</button>
+        <button type="button" id="b-back10" title="Back 10 frames (Shift+←)">−10</button>
+        <button type="button" id="b-back" title="Back 1 frame (←)">−1</button>
+        <button type="button" id="b-play" class="primary" title="Play / pause (Space)">Play</button>
+        <button type="button" id="b-fwd" title="Forward 1 frame (→)">+1</button>
+        <button type="button" id="b-fwd10" title="Forward 10 frames (Shift+→)">+10</button>
+        <button type="button" id="b-end" title="Go to end of track (End)">⏭</button>
+      </div>
+      <div class="group">
+        <span id="clock" class="clock">Frame 0 · 0.000 s</span>
+        <select id="speed" aria-label="Playback speed">
+          <option value="0.1">0.1×</option>
+          <option value="0.25">0.25×</option>
+          <option value="0.5" selected>0.5×</option>
+          <option value="1">1×</option>
+        </select>
+      </div>
+      <div class="group toggles">
+        <label><input type="checkbox" id="t-follow"> Follow &amp; zoom (Z)</label>
+        <label><input type="checkbox" id="t-loop" checked> Loop selected range</label>
+        <label><input type="checkbox" id="t-all" checked> Show other objects</label>
+      </div>
+    </div>
+    <div class="tlhead">
+      <span class="muted">Timeline: click to jump, drag to select a range</span>
+      <div class="seg" role="group" aria-label="Timeline range">
+        <button type="button" id="tl-track" aria-pressed="true">This object</button>
+        <button type="button" id="tl-video" aria-pressed="false">Whole video</button>
+      </div>
+    </div>
+    <canvas id="timeline" height="104" aria-label="Timeline"></canvas>
+    <div class="legend">
+      <span><i class="sw trusted"></i>Trusted</span>
+      <span><i class="sw untrusted"></i>Untrusted</span>
+      <span><i class="sw unreviewed"></i>Unreviewed</span>
+      <span><i class="sw wall"></i>Touching wall or debris</span>
+      <span><i class="mk merge"></i>Merge</span>
+      <span><i class="mk split"></i>Split</span>
+      <span><i class="mk flag"></i>Hint (not necessarily an error)</span>
+      <span><i class="sw sel"></i>Selected range</span>
+      <span><i class="sw other"></i>Other IDs of this object</span>
+      <span><i class="sw cmp"></i>Suggested ID</span>
+    </div>
+  </section>
+
+  <aside class="panel" id="panel" aria-label="Review">
+    <div id="empty" class="empty">Click a track in the list, or an object on the image, to start reviewing.</div>
+    <div id="detail" hidden>
+      <h2 id="d-title">Track</h2>
+      <dl class="facts" id="d-facts"></dl>
+
+      <h3>Same object</h3>
+      <div id="grp" class="grp"></div>
+      <div class="linkrow">
+        <input id="link-ids" type="text" placeholder="e.g. 107, 111" aria-label="IDs to link with this track">
+        <button type="button" id="btn-link">Link with these IDs</button>
+      </div>
+      <ul id="d-sugg" class="dsugg"></ul>
+
+      <h3>1 · Select a range</h3>
+      <div class="range">
+        <label>Start frame <input id="r-start" type="number" step="1"></label>
+        <label>End frame <input id="r-end" type="number" step="1"></label>
+      </div>
+      <div class="range-sec muted" id="r-sec"></div>
+      <div class="btnrow">
+        <button type="button" id="r-in" title="I">Start = current frame</button>
+        <button type="button" id="r-out" title="O">End = current frame</button>
+        <button type="button" id="r-all" title="A">Whole track</button>
+        <button type="button" id="r-obj">Whole object</button>
+      </div>
+      <label class="check" id="obj-scope-wrap"><input type="checkbox" id="obj-scope" checked> Apply to all linked IDs of this object</label>
+
+      <h3>2 · Decide</h3>
+      <div class="btnrow status">
+        <button type="button" id="s-trusted" class="st trusted" title="T">Trusted</button>
+        <button type="button" id="s-untrusted" class="st untrusted" title="U">Untrusted</button>
+        <button type="button" id="s-clear" class="st unreviewed" title="C">Reset to unreviewed</button>
+      </div>
+      <label class="block">Reason (for untrusted)
+        <select id="reason"></select>
+      </label>
+      <label class="block">Note (optional)
+        <input id="note" type="text" placeholder="e.g. jumps to the cluster on the right after 5 s">
+      </label>
+
+      <h3>Marked ranges</h3>
+      <ul id="segs" class="segs"></ul>
+
+      <h3>Hints <span class="muted">(for guidance only, not necessarily errors)</span></h3>
+      <ul id="flags" class="flags"></ul>
+    </div>
+  </aside>
+</main>
+
+<footer class="keys muted">
+  Keys: Space play/pause · ←/→ one frame · Shift+←/→ ten frames · Home/End start/end of track · I/O set start/end ·
+  A whole track · T trusted · U untrusted · C reset · [ / ] previous/next track · Z follow &amp; zoom · Ctrl+Z undo
+</footer>
+
+<div id="dialog" class="dialog" hidden role="dialog" aria-modal="true" aria-labelledby="dlg-title">
+  <div class="box">
+    <h2 id="dlg-title">Export</h2>
+    <pre id="dlg-body"></pre>
+    <div class="btnrow"><button type="button" id="dlg-close" class="primary">Close</button></div>
+  </div>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

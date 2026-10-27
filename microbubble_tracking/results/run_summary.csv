@@ -1,0 +1,8 @@
+run,video,mode,background,frames,ms_mean,ms_p95,confirmed_ids,merge,split,appear,lost,enter,exit
+A_offline_noref,expA.mp4,offline,self,1320,13.76,15.62,102,22,13,83,61,6,5
+B_offline_noref,expB.mp4,offline,self,1320,14.6,17.25,65,4,5,53,42,7,7
+A_offline,expA.mp4,offline,self+ref,1320,14.58,15.97,118,23,13,99,76,6,5
+B_offline,expB.mp4,offline,self+ref,1320,15.22,17.25,49,7,6,41,27,2,2
+A_online,expA.mp4,online,ref,1320,14.98,16.51,116,24,15,95,73,6,5
+B_online,expB.mp4,online,ref,1320,14.89,16.81,48,7,7,38,25,3,3
+B_online_firstframe,expB.mp4,online,first-frame,1320,14.76,16.27,61,16,16,39,25,6,6

@@ -1,0 +1,8 @@
+# 跟踪主程序
+numpy>=1.21
+scipy>=1.7
+opencv-python>=4.5
+# 仅 tools/plot_summary.py 需要
+matplotlib>=3.5
+# 可选：系统里装有 ffmpeg 时，叠加视频用 H.264 编码（体积更小、兼容性更好）；
+# 没有 ffmpeg 时自动退回 OpenCV 的 mp4v 编码。
