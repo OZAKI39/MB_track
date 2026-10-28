@@ -1,0 +1,302 @@
+[
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 11,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 954,
+    "seed_box": [
+      518,
+      521,
+      84,
+      76
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 834
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 11,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 954,
+    "seed_box": [
+      518,
+      521,
+      84,
+      76
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 834
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 78,
+    "threshold": 100,
+    "first_frame": 823,
+    "stop_frame": 1319,
+    "seed_box": [
+      505,
+      0,
+      13,
+      3
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 78,
+    "threshold": 130,
+    "first_frame": 823,
+    "stop_frame": 1319,
+    "seed_box": [
+      505,
+      0,
+      13,
+      3
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 53,
+    "threshold": 100,
+    "first_frame": 377,
+    "stop_frame": 1319,
+    "seed_box": [
+      837,
+      934,
+      41,
+      50
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 53,
+    "threshold": 130,
+    "first_frame": 377,
+    "stop_frame": 1319,
+    "seed_box": [
+      837,
+      934,
+      41,
+      50
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 8,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 320,
+    "seed_box": [
+      461,
+      579,
+      64,
+      62
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 200
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 8,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 320,
+    "seed_box": [
+      461,
+      579,
+      64,
+      62
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 200
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 5,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      651,
+      763,
+      20,
+      19
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 5,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      651,
+      763,
+      20,
+      19
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 15,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 579,
+    "seed_box": [
+      501,
+      224,
+      29,
+      34
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 459
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 15,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 579,
+    "seed_box": [
+      501,
+      224,
+      29,
+      34
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 459
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 10,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      683,
+      521,
+      14,
+      12
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 10,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      683,
+      521,
+      14,
+      12
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 6,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 379,
+    "seed_box": [
+      433,
+      689,
+      31,
+      33
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 259
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 6,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 379,
+    "seed_box": [
+      433,
+      689,
+      31,
+      33
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 259
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 67,
+    "threshold": 100,
+    "first_frame": 617,
+    "stop_frame": 1082,
+    "seed_box": [
+      319,
+      640,
+      22,
+      15
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 962
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 67,
+    "threshold": 130,
+    "first_frame": 617,
+    "stop_frame": 1082,
+    "seed_box": [
+      319,
+      640,
+      22,
+      15
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 962
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 113,
+    "threshold": 100,
+    "first_frame": 1225,
+    "stop_frame": 1319,
+    "seed_box": [
+      241,
+      760,
+      24,
+      28
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1296
+  },
+  {
+    "output": "customer_workspace/validation/baseline_animations_20261028-154358",
+    "object_id": 113,
+    "threshold": 130,
+    "first_frame": 1225,
+    "stop_frame": 1319,
+    "seed_box": [
+      241,
+      760,
+      24,
+      28
+    ],
+    "fps": 60.0,
+    "last_reference_frame": 1296
+  }
+]

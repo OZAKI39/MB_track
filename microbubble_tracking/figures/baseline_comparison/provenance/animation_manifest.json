@@ -1,0 +1,167 @@
+{
+  "videos": [
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "81f56fdc2f4069d2e85128dd36949a1c622f44aa8505fd62c4b8444683c46278",
+      "file": "videos/01_detection_baseline.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "ed709ff9df512ec94abc67e8be19051beadedf242c9f8ad51356a2f1dd0afaae",
+      "file": "videos/01_detection_ours.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "4a0ca0c11274e2b01898b88aec23997cb402800c75e27419079910f5139c31f7",
+      "file": "videos/02_tracking_baseline.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "4bc3459a39295ba8c55d5d8ad770f9faa6e90cb15f86301635db2f22e0bd4f70",
+      "file": "videos/02_tracking_ours.mp4"
+    },
+    {
+      "frames": 426,
+      "duration_s": 14.2,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "571b26412ac86c867fb04316ea843d6e61c8b08a35ad30a4bc61b11d4ba5289e",
+      "file": "videos/03_events_baseline.mp4"
+    },
+    {
+      "frames": 426,
+      "duration_s": 14.2,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "c4250c6108f5924a98f7a831f92dc284fdfc6d34ee6c747840a35718e0998193",
+      "file": "videos/03_events_ours.mp4"
+    }
+  ],
+  "inputs_unchanged": true,
+  "source_roi": [
+    128,
+    0,
+    1024,
+    1024
+  ],
+  "event_clips": [
+    {
+      "name": "Merger",
+      "first": 170,
+      "last": 230,
+      "event_frame": 201,
+      "event_type": "merge",
+      "target": 8,
+      "ids": [
+        8,
+        11
+      ],
+      "message": "Merger: 8 + 11 → 11"
+    },
+    {
+      "name": "Separation",
+      "first": 590,
+      "last": 650,
+      "event_frame": 617,
+      "event_type": "split",
+      "target": 11,
+      "ids": [
+        11,
+        67
+      ],
+      "message": "Separation: 11 → 11 + 67"
+    },
+    {
+      "name": "Disappearance",
+      "first": 804,
+      "last": 894,
+      "event_frame": 834,
+      "event_type": "exit",
+      "target": 11,
+      "ids": [
+        11
+      ],
+      "message": "Exit: ID 11"
+    }
+  ],
+  "frame_interpolation": false,
+  "full_videos_preserve_every_source_frame": true,
+  "actual_arial": true,
+  "fonts": {
+    "/mnt/c/Windows/Fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "/mnt/c/Windows/Fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+  },
+  "renderer_sha256": "3867e60ada4f02189f7fb5ac051c155c7dd9af7c7b32ff107b99d31baf41be74",
+  "baseline_tracking_focus": [
+    {
+      "frames": [
+        0,
+        359
+      ],
+      "seed_target": 11
+    },
+    {
+      "frames": [
+        360,
+        539
+      ],
+      "seed_target": 15
+    },
+    {
+      "frames": [
+        540,
+        1319
+      ],
+      "seed_target": 10
+    }
+  ],
+  "ppt_playback_tested": false
+}

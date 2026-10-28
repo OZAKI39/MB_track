@@ -1,0 +1,9 @@
+{
+  "frames": 1320,
+  "fps": 60.0,
+  "confirmed_ids": 118,
+  "raw_ids": 192,
+  "ms_per_frame_mean": 25.210012084326284,
+  "background": "Frozen A_offline/background.npy",
+  "reviewed_labels_applied": false
+}
