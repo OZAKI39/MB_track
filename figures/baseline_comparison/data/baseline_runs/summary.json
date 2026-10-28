@@ -1,0 +1,169 @@
+{
+  "runs": [
+    {
+      "file": "target_078_threshold_100.csv",
+      "target_id": 78,
+      "threshold": 100,
+      "frames": 497,
+      "reported": 496,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_078_threshold_130.csv",
+      "target_id": 78,
+      "threshold": 130,
+      "frames": 497,
+      "reported": 497,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_011_threshold_130.csv",
+      "target_id": 11,
+      "threshold": 130,
+      "frames": 955,
+      "reported": 955,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_011_threshold_100.csv",
+      "target_id": 11,
+      "threshold": 100,
+      "frames": 955,
+      "reported": 955,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_008_threshold_100.csv",
+      "target_id": 8,
+      "threshold": 100,
+      "frames": 321,
+      "reported": 321,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_008_threshold_130.csv",
+      "target_id": 8,
+      "threshold": 130,
+      "frames": 321,
+      "reported": 321,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_053_threshold_100.csv",
+      "target_id": 53,
+      "threshold": 100,
+      "frames": 943,
+      "reported": 943,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_053_threshold_130.csv",
+      "target_id": 53,
+      "threshold": 130,
+      "frames": 943,
+      "reported": 943,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_015_threshold_100.csv",
+      "target_id": 15,
+      "threshold": 100,
+      "frames": 580,
+      "reported": 580,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_015_threshold_130.csv",
+      "target_id": 15,
+      "threshold": 130,
+      "frames": 580,
+      "reported": 580,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_005_threshold_130.csv",
+      "target_id": 5,
+      "threshold": 130,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_005_threshold_100.csv",
+      "target_id": 5,
+      "threshold": 100,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 2
+    },
+    {
+      "file": "target_006_threshold_100.csv",
+      "target_id": 6,
+      "threshold": 100,
+      "frames": 380,
+      "reported": 380,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_006_threshold_130.csv",
+      "target_id": 6,
+      "threshold": 130,
+      "frames": 380,
+      "reported": 380,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_067_threshold_100.csv",
+      "target_id": 67,
+      "threshold": 100,
+      "frames": 466,
+      "reported": 465,
+      "reinitializations": 2
+    },
+    {
+      "file": "target_010_threshold_130.csv",
+      "target_id": 10,
+      "threshold": 130,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_113_threshold_100.csv",
+      "target_id": 113,
+      "threshold": 100,
+      "frames": 95,
+      "reported": 94,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_010_threshold_100.csv",
+      "target_id": 10,
+      "threshold": 100,
+      "frames": 1320,
+      "reported": 1319,
+      "reinitializations": 2
+    },
+    {
+      "file": "target_113_threshold_130.csv",
+      "target_id": 113,
+      "threshold": 130,
+      "frames": 95,
+      "reported": 95,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_067_threshold_130.csv",
+      "target_id": 67,
+      "threshold": 130,
+      "frames": 466,
+      "reported": 466,
+      "reinitializations": 0
+    }
+  ],
+  "python": "3.12.3",
+  "opencv": "4.10.0",
+  "workers": 4,
+  "opencv_threads_per_worker": 1,
+  "note": "Independent single-target runs; their labels indicate the requested seed, not proven identity. Parallel execution times are not a controlled speed comparison."
+}

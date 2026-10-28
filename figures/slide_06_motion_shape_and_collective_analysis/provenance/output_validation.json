@@ -1,0 +1,129 @@
+{
+  "created": "2026-10-28T13:44:38.554500+01:00",
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+  "source_result": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline",
+  "source_fps": 60.0,
+  "source_frames": 1320,
+  "trusted_segments": 111,
+  "trusted_rows": 19708,
+  "font_files": {
+    "/mnt/c/Windows/Fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "/mnt/c/Windows/Fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+  },
+  "visible_font": "Arial",
+  "visible_language": "English",
+  "source_sha256": {
+    "customer_workspace/microbubble_tracking/data/raw/expA.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "customer_workspace/microbubble_tracking/results/A_offline/untrusted.csv": "d4ccc9ecd0a272653ba099a3c9fdd0afed032a6dea7f310dc0ad0a7719194e78",
+    "customer_workspace/microbubble_tracking/results/A_offline/events_reviewed.csv": "c17f5c1a4bc790b482d1d33bbe5e0746048ed326c43627796b49df8b1f949d47",
+    "customer_workspace/microbubble_tracking/results/A_offline/events.csv": "833a8fcf92acac53813de8f6a977437eb639ad17ad583212823478e0519b60bb",
+    "customer_workspace/microbubble_tracking/results/A_offline/objects.csv": "85d11d62a75647d85acc3e58c4433c6149b9a0da4ab8deef829be624e6a075d4",
+    "customer_workspace/microbubble_tracking/results/A_offline/review_report.txt": "1749f406420dd6c9ad7448f00022a4086a3a9fd1d4766cf936e42b02ce21815e",
+    "customer_workspace/microbubble_tracking/results/A_offline/unreviewed.csv": "c7ae7eaad010b9347d65ab379dcb1dfb4615796fc10cc44238762df7ceaec521",
+    "customer_workspace/microbubble_tracking/results/A_offline/review_overlay.mp4": "ee665fd9c5fbb16d842b2b9a90a8211a6fad4535d01217b90ca9d1656fb32cdb",
+    "customer_workspace/microbubble_tracking/results/A_offline/background.npy": "ab122a45cd3e0ddf8f17f99be58655b4b67a383afe0f6dd3df51d9399bb68941",
+    "customer_workspace/microbubble_tracking/results/A_offline/objects_reviewed.csv": "0443bbcfcb45abf998b8b174aea5405a479b29a4786136178bc80384f8a22c01",
+    "customer_workspace/microbubble_tracking/results/A_offline/stats.json": "ced0c134eda9a8826e1c10e9a990eaba00bb8a65e28568907dcdb2c930d48d6b",
+    "customer_workspace/microbubble_tracking/results/A_offline/contours.npz": "14e91e2509ec4bbacd4d54a48793ffae1a6681b3a9786a5377ddde16e815b30d",
+    "customer_workspace/microbubble_tracking/results/A_offline/trusted.csv": "f78c716f86364292fc29b80254748e96ab5640a1a23ac8f93a3c2c571e517519",
+    "customer_workspace/microbubble_tracking/results/A_offline/overlay.mp4": "9fbcfd849c079c7eb21456fb0e0b83cbd9359ac92f6603b6d642e4f5e93dd05d",
+    "customer_workspace/microbubble_tracking/results/A_offline/review.json": "fbe0f8a96ee4441e5a0f51be567b38ba6efdcf5c177181677a5eff977f0d28f5",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/field_events.csv": "ed0456b2da89731049452fa5a40f89e890d7f6f59520a353dcb42eaf73bd60b1",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/report.json": "660cb9dcb886fb88dd39d7db4cefc29cc2d738363c64bbfa3a57e0c0efca3b41",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/state.csv": "9ea4bf8929c79de3b960883fa9b7fc09a8c2373be66e82145c01693fe1259b10",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/segments.csv": "7916c7ee3a9f2658c68d5695247c68b68ab0abbb54e25659742b1a485208764e",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/collective.csv": "b6689318d6ebd1abc10e36b32575fb5c83e5020fa79741d6d83a934cc7be3772",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/motion.csv": "60666b2e644afd8877a9ec8742c809217b22a71e01dfe6c2344baa4f1d5dfad5",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/shape.csv": "fe2638d75e399445b947ebafcf3d407d2b92ffa30e62ef105ab5cf97c4156249",
+    "customer_workspace/microbubble_tracking/results/A_offline/analysis/onsets.csv": "6e92b02b62b3ad527d5207c6ee4941ec739b0427f50499b33246c84d006e8e81"
+  },
+  "original_files_unchanged": true,
+  "script_sha256": "5a04ebe60c9f73f7df4722489f4807bc6dd5236778b8d4a5b2ba3477fcfacec7",
+  "video_motion_check": {
+    "samples": 100,
+    "lag_s": 0.1,
+    "median_diff_px": 0.3210801149412879,
+    "p90_diff_px": 1.8489653635636614,
+    "corr_displacement": 0.997530999411178,
+    "max_displacement_px": 69.19705399798465,
+    "passed": true
+  },
+  "movies": {
+    "01_trajectory_segmentation.mp4": {
+      "frames": 384,
+      "duration_s": 12.8,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "88a2cd08ae5e6f7348845db0377d61627909dbca565ade871de1d166298820fd"
+    },
+    "02_kinematics.mp4": {
+      "frames": 240,
+      "duration_s": 8.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "5430cd1227ed622fedb78e4b2565d6e844d92eb06cbaa061b3d5c8e99c9cf659"
+    },
+    "03_morphology.mp4": {
+      "frames": 168,
+      "duration_s": 5.6,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "8c359af3ea1851f3c2eb26ffc1fec6473196395476a455cdf97b07b2c71aae59"
+    },
+    "04_collective_metrics.mp4": {
+      "frames": 660,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "967e1b30f098b8a10f077d78836b92390db59d8ed955af5f3aea6c6b183a2124"
+    },
+    "05_raw_video_validation.mp4": {
+      "frames": 384,
+      "duration_s": 12.8,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "1fc753e2d20771d442a352126448fe9661c1f2140e1440cad434c748e540badf"
+    }
+  },
+  "limitations": [
+    "The 0.32 px value is a median difference between centroid and template displacements, not absolute tracking accuracy.",
+    "The original 100-sample selection is reproduced with seed 1; eight displayed pairs span discrepancy quantiles including the maximum.",
+    "Template matching uses raw pixels; the existing check derives its initial crop and search radius from tracking geometry.",
+    "Saved outlines are simplified contours. Metrics come from original analysis values, not from the display polygons.",
+    "The ellipse uses region moments, not cv2.fitEllipse. Shape examples are marked good by the existing analysis.",
+    "Whole-field metrics include uncertain regions and exclude confirmed false targets. Entry and exit can change these metrics.",
+    "The spread circle is area-weighted RMS distance of region centroids, not an enclosing boundary.",
+    "Slow motion repeats source frames. The whole-field movie displays every second source frame at 30 fps for 1x playback.",
+    "No exposure timing, physical synchronization, hardware performance or micrometre calibration is inferred."
+  ]
+}

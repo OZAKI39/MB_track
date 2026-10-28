@@ -1,0 +1,12 @@
+# Baseline comparison (baseline/). Use a separate environment: the CSRT tracker of the original work
+# needs the OpenCV contrib trackers of OpenCV 4.x (cv2.TrackerCSRT_create), which OpenCV 5 no longer ships.
+opencv-contrib-python-headless==4.10.0.84
+numpy
+scipy
+matplotlib
+# Only for making the channel mask with MobileSAM (channel_mask.py):
+#   torch, torchvision, timm, and a checkout of https://github.com/ChaoningZhang/MobileSAM
+#   (it contains weights/mobile_sam.pt)
+torch
+torchvision
+timm

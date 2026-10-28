@@ -1,0 +1,428 @@
+{
+  "created_at": "2026-10-27T23:14:35+01:00",
+  "purpose": "Archived PZT commands, readbacks and existing video-time associations for the exact expA/expB videos.",
+  "copy_policy": "Files copied byte for byte with original timestamps; no new alignment, interpolation or experiment execution.",
+  "frame_index_base": 0,
+  "experiments": [
+    {
+      "name": "expA",
+      "kind": "four_pzt_sequence",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "video": "../raw/expA.mp4",
+      "video_bytes": 13771395,
+      "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_session": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal",
+      "source_report_directory": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/report_normal",
+      "source_video_matches_exactly": true,
+      "action_rows": 20,
+      "action_kinds": {
+        "amplitude": 12,
+        "stop": 4,
+        "stop_repeat": 4
+      },
+      "video_frame_rows": 1320,
+      "active_vpp": 0.8,
+      "idle_vpp": 0.001,
+      "frequency_hz_by_channel": {
+        "PZT1": 2500000,
+        "PZT2": 2500000,
+        "PZT3": 2500000,
+        "PZT4": 2500000
+      },
+      "original_report_passed": true,
+      "clock_margin_s": 0.0001109000004362315,
+      "precision_notes": [
+        "两端为同一Windows主机的公共monotonic/QPC时钟，实验前后双向核对，不使用WSL计时器做差。",
+        "对应范围表示动作调用前后接收端收到的帧；接收时间取压缩帧解析后，解码时间另存。",
+        "AFG确认是切换后约1秒的稳定读回；发送到确认之间是软件确认区间，不是模拟电压变化区间。",
+        "时钟核对包络和帧范围不能覆盖未知的曝光、相机编码/网络传输和AFG模拟输出延迟；物理同步误差未知。",
+        "视频帧编号从0开始；工作段按真实命令发送推算，不表示已测得声波强弱。"
+      ],
+      "files": [
+        {
+          "path": "expA/link_session.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/link_session.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/link_session.json",
+          "bytes": 247,
+          "sha256": "e195160acfcbf02c1a4e9ddba88b0429cd93534ef04dcabe0739fbdda8abf144",
+          "source_mtime_ns": 1792941298734264165
+        },
+        {
+          "path": "expA/afg_link_summary.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_link_summary.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_link_summary.json",
+          "bytes": 187213,
+          "sha256": "640b717550251db717a13c3053c811525e694cf91f67463c28e472976895ba2d",
+          "source_mtime_ns": 1792941334513547831
+        },
+        {
+          "path": "expA/afg_origin.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_origin.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_origin.json",
+          "bytes": 203,
+          "sha256": "7d98c70f70149540df6f8ce5d38f056256698e00f0174b1dece97a4be69b59d9",
+          "source_mtime_ns": 1792941313190262051
+        },
+        {
+          "path": "expA/afg_ready.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_ready.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_ready.json",
+          "bytes": 119,
+          "sha256": "bc34cc8cf1bf6663bfa6184eb9b9b374245780899db6ffeea798934d314e1f7d",
+          "source_mtime_ns": 1792941311202265006
+        },
+        {
+          "path": "expA/camera_clock.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/camera_clock.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/camera_clock.json",
+          "bytes": 523,
+          "sha256": "a5ce53014cca98c08972a8c540db499c69b95eb1f60590901fba3d5cd2825d68",
+          "source_mtime_ns": 1792941304667983106
+        },
+        {
+          "path": "expA/camera_clock_exchanges.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/camera_clock_exchanges.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/camera_clock_exchanges.json",
+          "bytes": 147795,
+          "sha256": "4a167312686e0c1dcf13c8aedc021dd30ff016a0f1c97befd27ab6b7c68b4d8a",
+          "source_mtime_ns": 1792941335310035555
+        },
+        {
+          "path": "expA/gst_session.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/gst_session.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/gst_session.json",
+          "bytes": 909770,
+          "sha256": "48ef3baff0dbd54e6da34400fadd78f15029e454469616755de58feb30ae4525",
+          "source_mtime_ns": 1792941335348967083
+        },
+        {
+          "path": "expA/recording/probe.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/probe.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/probe.json",
+          "bytes": 1744377,
+          "sha256": "ccc4a2f871500e63adb27ce0154471892db89b08862ba6646c31bd6a3babb991",
+          "source_mtime_ns": 1792941344486002543
+        },
+        {
+          "path": "expA/recording/frame_times.csv",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/frame_times.csv",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/frame_times.csv",
+          "bytes": 62599,
+          "sha256": "ff5b6bec01f8ab322e223955d395fea4b5439f7732b278e7c8d34bc89eee8791",
+          "source_mtime_ns": 1792941346626729464
+        },
+        {
+          "path": "expA/recording/recording_check.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/recording_check.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/recording_check.json",
+          "bytes": 1800,
+          "sha256": "19c8ec3fe00fe7580921d3289895e3f271e182c1d1482c14dacd432623611368",
+          "source_mtime_ns": 1792941346624095120
+        },
+        {
+          "path": "expA/recording_started.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording_started.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording_started.json",
+          "bytes": 217,
+          "sha256": "2b27bffad750ccda3f13e405fe560478e130ae6b5f4cfaeb214c6fba0499a0da",
+          "source_mtime_ns": 1792941313136262407
+        },
+        {
+          "path": "expA/recording_done.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording_done.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording_done.json",
+          "bytes": 105,
+          "sha256": "e720ad06e28ac638d61336f27c4801ef7ac8676e4ea09e18cdc0de68054a6e02",
+          "source_mtime_ns": 1792941335254051414
+        },
+        {
+          "path": "expA/runtime_origin.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/runtime_origin.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/runtime_origin.json",
+          "bytes": 100,
+          "sha256": "5c4c62ce79bf593458123121cd6445f9ff21f9949e6298393e484f6ecbef623a",
+          "source_mtime_ns": 1792941335603257069
+        },
+        {
+          "path": "expA/measurement_window.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/measurement_window.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/measurement_window.json",
+          "bytes": 99,
+          "sha256": "a495c594c2e2235aede4b2fab87d3624f377cd909e96fd8881c5655d065d9b6f",
+          "source_mtime_ns": 1792941335603295176
+        },
+        {
+          "path": "expA/afg_experiment/plan.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_experiment/plan.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_experiment/plan.json",
+          "bytes": 4150,
+          "sha256": "dab51a006bfd4557d067ee362b2a1b869c573bff512393426fd9653758fd414b",
+          "source_mtime_ns": 1792941309132683896
+        },
+        {
+          "path": "expA/afg_experiment/events.jsonl",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_experiment/events.jsonl",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_experiment/events.jsonl",
+          "bytes": 22671,
+          "sha256": "d44769e4ba38e21fe211139c572b26bbd373c103d270e5a3eea437b237cd8e8e",
+          "source_mtime_ns": 1792941333747626129
+        },
+        {
+          "path": "expA/afg_experiment/summary.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_experiment/summary.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/normal/afg_experiment/summary.json",
+          "bytes": 7002,
+          "sha256": "261edde402179875ca41d9193b529da7f543b2b0bec3300ba6742f117d0d2b57",
+          "source_mtime_ns": 1792941333751634795
+        },
+        {
+          "path": "expA/actions.csv",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/actions.csv",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/actions.csv",
+          "bytes": 7155,
+          "sha256": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7",
+          "source_mtime_ns": 1792941352664036357
+        },
+        {
+          "path": "expA/video_frames.csv",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/video_frames.csv",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/video_frames.csv",
+          "bytes": 114341,
+          "sha256": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2",
+          "source_mtime_ns": 1792941352663184012
+        },
+        {
+          "path": "expA/link_report.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/link_report.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/link_report.json",
+          "bytes": 27999,
+          "sha256": "e4516e595fc7572292fdc3238e48ef53eb464f25a90fa2c58fe2f08bfe507614",
+          "source_mtime_ns": 1792941352659603030
+        },
+        {
+          "path": "expA/timeline.png",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/timeline.png",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-161356_rerun/report_normal/timeline.png",
+          "bytes": 86368,
+          "sha256": "cd00352cf09032ca2030fce59a7314b2b653df618ae70928681b8b3b6daa11c2",
+          "source_mtime_ns": 1792941354477365428
+        }
+      ]
+    },
+    {
+      "name": "expB",
+      "kind": "two_action_aba",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "video": "../raw/expB.mp4",
+      "video_bytes": 13770778,
+      "video_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_session": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment",
+      "source_report_directory": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/report",
+      "source_video_matches_exactly": true,
+      "action_rows": 14,
+      "action_kinds": {
+        "amplitude": 6,
+        "stop": 4,
+        "stop_repeat": 4
+      },
+      "video_frame_rows": 1320,
+      "active_vpp": 0.8,
+      "idle_vpp": 0.001,
+      "frequency_hz_by_channel": {
+        "PZT1": 2500000,
+        "PZT2": 2500000,
+        "PZT3": 2500000,
+        "PZT4": 2500000
+      },
+      "original_report_passed": true,
+      "clock_margin_s": 9.53000271692872e-05,
+      "precision_notes": [
+        "两端为同一Windows主机的公共monotonic/QPC时钟，实验前后双向核对，不使用WSL计时器做差。",
+        "对应范围表示动作调用前后接收端收到的帧；接收时间取压缩帧解析后，解码时间另存。",
+        "AFG确认是切换后约1秒的稳定读回；发送到确认之间是软件确认区间，不是模拟电压变化区间。",
+        "时钟核对包络和帧范围不能覆盖未知的曝光、相机编码/网络传输和AFG模拟输出延迟；物理同步误差未知。",
+        "视频帧编号从0开始；工作段按真实命令发送推算，不表示已测得声波强弱。"
+      ],
+      "files": [
+        {
+          "path": "expB/link_session.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/link_session.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/link_session.json",
+          "bytes": 630,
+          "sha256": "158c29b5d0b15d4701140e2bcbb84660c2d788104c85308552902287502d1bac",
+          "source_mtime_ns": 1792943843562756669
+        },
+        {
+          "path": "expB/afg_link_summary.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_link_summary.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_link_summary.json",
+          "bytes": 164434,
+          "sha256": "e973bbc7bb3d7f69e6787ee8795e4ae2aa0d30ba8d2a137f21376e222350225a",
+          "source_mtime_ns": 1792943879784977287
+        },
+        {
+          "path": "expB/afg_origin.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_origin.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_origin.json",
+          "bytes": 202,
+          "sha256": "33965c25cd25df6b5db087cd036b77a10207305b6154d4d5a22c16029ea4e263",
+          "source_mtime_ns": 1792943858465590549
+        },
+        {
+          "path": "expB/afg_ready.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_ready.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_ready.json",
+          "bytes": 119,
+          "sha256": "55ecf08b7e01a8c774c972f8a053bf65ad0007271c37961d85f05ceadfb27e9d",
+          "source_mtime_ns": 1792943856666123019
+        },
+        {
+          "path": "expB/camera_clock.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/camera_clock.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/camera_clock.json",
+          "bytes": 523,
+          "sha256": "d179e768386875a74fd70bf7b06bfeb5d50cc83480d2a12fb9d4e5493b45dacb",
+          "source_mtime_ns": 1792943849317221614
+        },
+        {
+          "path": "expB/camera_clock_exchanges.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/camera_clock_exchanges.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/camera_clock_exchanges.json",
+          "bytes": 146488,
+          "sha256": "3792fde28574266fbfe9acd75b1c79d422dcf802755ed91241fa934261d26819",
+          "source_mtime_ns": 1792943880556299183
+        },
+        {
+          "path": "expB/gst_session.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/gst_session.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/gst_session.json",
+          "bytes": 909202,
+          "sha256": "e3f44bb9ff27543157c352337054108038855de0a32e043939c36c2c5dc2d73e",
+          "source_mtime_ns": 1792943880596723837
+        },
+        {
+          "path": "expB/recording/probe.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/probe.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/probe.json",
+          "bytes": 1744436,
+          "sha256": "e95eee5c4dbb0f52097b5ac15aee0b17b493044dfae5a271cf7c6aa3662c670f",
+          "source_mtime_ns": 1792943889688094817
+        },
+        {
+          "path": "expB/recording/frame_times.csv",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/frame_times.csv",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/frame_times.csv",
+          "bytes": 67866,
+          "sha256": "6b657c36608ea5f80d8250eacf9dc33ff48b7a390c25fb8bcb778839133e6e3c",
+          "source_mtime_ns": 1792943891991078578
+        },
+        {
+          "path": "expB/recording/recording_check.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/recording_check.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/recording_check.json",
+          "bytes": 1841,
+          "sha256": "b415626873ac40a17907c902068b958a546655e1d0a6a4c9a402d3b4bdabc2a4",
+          "source_mtime_ns": 1792943891987021617
+        },
+        {
+          "path": "expB/recording_started.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording_started.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording_started.json",
+          "bytes": 216,
+          "sha256": "c39e7ed151710c66230abedac7cf9ba0a0e2e4340290ea3b2baf3bead3ac3d4f",
+          "source_mtime_ns": 1792943858425184009
+        },
+        {
+          "path": "expB/recording_done.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording_done.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording_done.json",
+          "bytes": 105,
+          "sha256": "e720ad06e28ac638d61336f27c4801ef7ac8676e4ea09e18cdc0de68054a6e02",
+          "source_mtime_ns": 1792943880468110762
+        },
+        {
+          "path": "expB/runtime_origin.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/runtime_origin.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/runtime_origin.json",
+          "bytes": 100,
+          "sha256": "a47f506e71cabe84afda336a26c428a9aeb601290c347a8794fdd099af1df5b8",
+          "source_mtime_ns": 1792943880873148801
+        },
+        {
+          "path": "expB/measurement_window.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/measurement_window.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/measurement_window.json",
+          "bytes": 99,
+          "sha256": "a495c594c2e2235aede4b2fab87d3624f377cd909e96fd8881c5655d065d9b6f",
+          "source_mtime_ns": 1792943880873318837
+        },
+        {
+          "path": "expB/afg_experiment/plan.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/plan.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/plan.json",
+          "bytes": 3816,
+          "sha256": "726ce7e51a2d5bc2a9f13d7eb5b706745b410f01445a42d8bad2cd37af28ff56",
+          "source_mtime_ns": 1792943854594190018
+        },
+        {
+          "path": "expB/afg_experiment/events.jsonl",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/events.jsonl",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/events.jsonl",
+          "bytes": 16156,
+          "sha256": "6c102445617d7ad4a6c65b667238fce6c3376011ae7e6194f5a1dfa794a8d127",
+          "source_mtime_ns": 1792943879034741473
+        },
+        {
+          "path": "expB/afg_experiment/summary.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/summary.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/summary.json",
+          "bytes": 7011,
+          "sha256": "d9193e63be0137d497971d3572029d141442cb3d2af60ec676f64412dfe764d2",
+          "source_mtime_ns": 1792943879038770664
+        },
+        {
+          "path": "expB/actions.csv",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/report/actions.csv",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/report/actions.csv",
+          "bytes": 5386,
+          "sha256": "dafcd50ff6127b8216d774f79c81d5e04b5a74828f27de27896eace93d1e5721",
+          "source_mtime_ns": 1792943911054130089
+        },
+        {
+          "path": "expB/video_frames.csv",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/report/video_frames.csv",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/report/video_frames.csv",
+          "bytes": 119570,
+          "sha256": "b505124a09083355e35875fd775b1fb8ca4725e09cab30c44774521110a702bd",
+          "source_mtime_ns": 1792943911053769198
+        },
+        {
+          "path": "expB/link_report.json",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/report/link_report.json",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/report/link_report.json",
+          "bytes": 22908,
+          "sha256": "a22e255b22fbd741b92c6d8ba5cac007a7a6e2bad805c99e37e488e12358b927",
+          "source_mtime_ns": 1792943911049218894
+        },
+        {
+          "path": "expB/timeline.png",
+          "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/report/timeline.png",
+          "source_relative_to_project": "customer_workspace/validation/avsync_20261025-165523_two_action/report/timeline.png",
+          "bytes": 86129,
+          "sha256": "6c82b99ff81b6f8b947a042bbee1ee16ff6ec645e32309fada6a2606627da3fd",
+          "source_mtime_ns": 1792943915926673197
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "copied_files": 42,
+    "total_bytes": 6622090,
+    "all_file_hashes_match": true,
+    "all_original_mtimes_preserved": true,
+    "action_csv_matches_original_link_report": true,
+    "frame_indices_contiguous": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "output_frames": 660,
+  "duration_s": 22,
+  "frame_map_and_all_metrics_match_saved_data": true,
+  "original_inputs_and_previous_video_unchanged": true,
+  "cached_render_check": {
+    "plotted_data_and_labels_match_full_redraw": true,
+    "pixel_exact": false,
+    "difference_pixels": 6,
+    "difference_location": "Only cursor intersections with the bottom axis spines; drawing order changes antialiasing."
+  },
+  "powerpoint_playback_tested": false
+}

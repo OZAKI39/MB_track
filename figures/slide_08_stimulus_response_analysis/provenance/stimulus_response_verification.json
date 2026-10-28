@@ -1,0 +1,39 @@
+{
+  "frames": 227,
+  "duration_s": 7.566666666666666,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "all_frames_decoded": true,
+  "sha256": "5cb03b647852b16188bbcaa1cf45708b69802163d0438ba4341070de06852261",
+  "scientific_inputs_unchanged": true,
+  "saved_measurements_reproduced": true,
+  "actual_arial_verified": true,
+  "ppt_playback_tested": false,
+  "original_algorithms_unchanged": true,
+  "numeric_counts_checked": true,
+  "numerator_subset_of_denominator_checked": true,
+  "example_threshold_and_speed_checked": true,
+  "svg_text_converted_to_arial_paths": true,
+  "pdf_embedded_fonts": [
+    "CEBAPN+ArialMT",
+    "CVOPMQ+Arial-BoldMT",
+    "CYDJYX+ArialMT",
+    "VTKEJN+Arial-BoldMT"
+  ],
+  "inspected_output_frames": [
+    0,
+    74,
+    130,
+    226
+  ],
+  "layout_inspected": true,
+  "png_size": [
+    3600,
+    2025
+  ]
+}

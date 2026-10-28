@@ -1,0 +1,10 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "opencv": "4.10.0",
+  "numpy": "2.2.6",
+  "scipy": "1.17.1",
+  "av": "19.0.1",
+  "pillow": "13.0.0",
+  "device": "CPU; no hardware actions"
+}

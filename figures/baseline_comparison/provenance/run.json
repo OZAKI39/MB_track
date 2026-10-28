@@ -1,0 +1,63 @@
+{
+  "created": "2026-10-28T15:43:58.770421+01:00",
+  "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+  "source_fps": 60.0,
+  "source_frames": 1320,
+  "input_sha256": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline_noref/background.npy": "44a35e4f08bc11702f9f2d1840820d9151cb0006c06513e8725dc855dde95446",
+    "/mnt/c/Windows/Fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "/mnt/c/Windows/Fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/objects.csv": "85d11d62a75647d85acc3e58c4433c6149b9a0da4ab8deef829be624e6a075d4",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/events.csv": "833a8fcf92acac53813de8f6a977437eb639ad17ad583212823478e0519b60bb",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/contours.npz": "14e91e2509ec4bbacd4d54a48793ffae1a6681b3a9786a5377ddde16e815b30d",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/background.npy": "ab122a45cd3e0ddf8f17f99be58655b4b67a383afe0f6dd3df51d9399bb68941",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/stats.json": "ced0c134eda9a8826e1c10e9a990eaba00bb8a65e28568907dcdb2c930d48d6b",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/review.json": "fbe0f8a96ee4441e5a0f51be567b38ba6efdcf5c177181677a5eff977f0d28f5",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/analysis/report.json": "660cb9dcb886fb88dd39d7db4cefc29cc2d738363c64bbfa3a57e0c0efca3b41",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/analysis/field_events.csv": "ed0456b2da89731049452fa5a40f89e890d7f6f59520a353dcb42eaf73bd60b1",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/bubble_tracker.py": "8e63db0f87f50f1ebdd0e32e5785eb7153fca7047ed4a62aa26f113fbfb881aa",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/baseline/medany_baseline.py": "049f7b3f94590499ae511a72c8df12c1c59429e039748ed8740313716f06c161",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/baseline/channel_mask.py": "11ea212e9a31ded54606bbe97a6d568f8ff8f8c5aa371e7f7c7942947f5cfcc8"
+  },
+  "thresholds": [
+    100,
+    130
+  ],
+  "roi_xywh": [
+    128,
+    0,
+    1024,
+    1024
+  ],
+  "target_object_ids": [
+    11,
+    78,
+    53,
+    8,
+    5,
+    15,
+    10,
+    6,
+    67,
+    113
+  ],
+  "threshold_note": "100 is the baseline default; 130 comes from the existing README, not a new optimization.",
+  "reference_note": "Reviewed labels only choose initial boxes and interpret outputs. Our displayed IDs and events are automatic.",
+  "our_automatic_replay_matches_archive": true,
+  "ours_stats": {
+    "frames": 1320,
+    "fps": 60.0,
+    "confirmed_ids": 118,
+    "raw_ids": 192,
+    "ms_per_frame_mean": 25.210012084326284,
+    "background": "Frozen A_offline/background.npy",
+    "reviewed_labels_applied": false
+  },
+  "ours_directory": "ours_fixed_background",
+  "background_rebuild_diagnostic": {
+    "directory": "ours",
+    "used_in_animations": false,
+    "note": "Rebuilt combined background differed by up to 0.17953491 gray levels; retained separately. Frozen-background replay matches all archived rows and events."
+  }
+}

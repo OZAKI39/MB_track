@@ -1,0 +1,352 @@
+{
+  "inputs": {
+    "background.npy": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/background.npy",
+      "sha256": "ab122a45cd3e0ddf8f17f99be58655b4b67a383afe0f6dd3df51d9399bb68941"
+    },
+    "objects.csv": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/objects.csv",
+      "sha256": "85d11d62a75647d85acc3e58c4433c6149b9a0da4ab8deef829be624e6a075d4"
+    },
+    "events.csv": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/events.csv",
+      "sha256": "833a8fcf92acac53813de8f6a977437eb639ad17ad583212823478e0519b60bb"
+    },
+    "stats.json": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/stats.json",
+      "sha256": "ced0c134eda9a8826e1c10e9a990eaba00bb8a65e28568907dcdb2c930d48d6b"
+    },
+    "contours.npz": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/contours.npz",
+      "sha256": "14e91e2509ec4bbacd4d54a48793ffae1a6681b3a9786a5377ddde16e815b30d"
+    },
+    "video": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03"
+    },
+    "algorithm": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/bubble_tracker.py",
+      "sha256": "8e63db0f87f50f1ebdd0e32e5785eb7153fca7047ed4a62aa26f113fbfb881aa"
+    }
+  },
+  "renderer_sha256": "03a3501593f3cfc651735f8885a9854c167a86b7439e3b522f1d9d8b8df21a89",
+  "shared_renderer_sha256": "7ac18b37879f46e406dc9e92580d764d7709c3df2386f2abea87cfb3234c3d30",
+  "fonts": {
+    "arial.ttf": {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    "arialbd.ttf": {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  },
+  "motion_prediction": {
+    "frame": 745,
+    "id": 11,
+    "dx_px": 0.29706283627697083,
+    "dy_px": 4.246930969457937,
+    "roi_xywh": [
+      410,
+      770,
+      107,
+      107
+    ]
+  },
+  "overlap_example": {
+    "frame": 201,
+    "track_ids": [
+      6,
+      8,
+      11
+    ],
+    "original_region_indices": [
+      7,
+      10
+    ],
+    "displayed_region_names": [
+      "R1",
+      "R2"
+    ],
+    "overlap_pixels": [
+      [
+        710,
+        0
+      ],
+      [
+        0,
+        1740
+      ],
+      [
+        0,
+        3068
+      ]
+    ],
+    "assigned_cells_row_column": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "roi_xywh": [
+      495,
+      511,
+      215,
+      215
+    ],
+    "isolated_from_other_eligible_pairs": true,
+    "global_solver_assignments": [
+      [
+        6,
+        7
+      ],
+      [
+        11,
+        10
+      ]
+    ]
+  },
+  "events": [
+    {
+      "frame": 201,
+      "type": "merge",
+      "ids": [
+        8,
+        11
+      ],
+      "result": 11,
+      "x": 637.9767206477733,
+      "y": 583.0467611336032
+    },
+    {
+      "frame": 617,
+      "type": "split",
+      "ids": [
+        11,
+        67
+      ],
+      "result": 11,
+      "x": 458.6398305084746,
+      "y": 647.1398305084746
+    }
+  ],
+  "distance_matching": {
+    "rois_xywh": [
+      [
+        557,
+        512,
+        150,
+        150
+      ],
+      [
+        379,
+        624,
+        110,
+        110
+      ],
+      [
+        240,
+        955,
+        43,
+        43
+      ]
+    ],
+    "distance_frame": 731,
+    "distance_track_id": 1,
+    "overlap_px": 4,
+    "predicted_to_detected_distance_px": 7.898485880792246
+  },
+  "track_parameters": {
+    "min_overlap_px": 3,
+    "min_overlap_frac": 0.15,
+    "gate_px": 15.0,
+    "max_gap": 8,
+    "min_len": 5,
+    "border": 8,
+    "vel_alpha": 0.5
+  },
+  "kept_track_count": 118,
+  "discarded_short_track_count": 74,
+  "archived_runtime_ms": {
+    "mean": 14.46,
+    "p95": 16.38
+  },
+  "checks": {
+    "all_archived_rows_match_to_saved_precision": true,
+    "all_archived_event_frames_types_and_ids_match": true,
+    "displayed_overlap_matches_predicted_mask_pixels": true,
+    "all_visible_labels_Arial": true,
+    "sources_unchanged": true
+  },
+  "figures": [
+    "step_1_motion_prediction.png",
+    "step_1_motion_prediction.pdf",
+    "step_2_overlap_matrix.png",
+    "step_2_overlap_matrix.pdf",
+    "step_3_hungarian_assignment.png",
+    "step_3_hungarian_assignment.pdf",
+    "step_4_merge_split_distance.png",
+    "step_4_merge_split_distance.pdf",
+    "output_tracking.png",
+    "output_tracking.pdf"
+  ],
+  "text_audit": [
+    {
+      "figure": "step_1_motion_prediction",
+      "font_family": "Arial",
+      "labels": [
+        "1  Motion prediction",
+        "expA \u00b7 Frames 744\u2013745",
+        "Previous mask \u00b7 ID 11",
+        "Shifted mask",
+        "Prediction vs. new region",
+        "Shift: dx = +0.30 px, dy = +4.25 px",
+        "Cyan: predicted mask     Gold: current region"
+      ]
+    },
+    {
+      "figure": "step_2_overlap_matrix",
+      "font_family": "Arial",
+      "labels": [
+        "ID 6",
+        "ID 8",
+        "ID 11",
+        "R1",
+        "R2",
+        "710",
+        "0",
+        "0",
+        "1740",
+        "0",
+        "3068",
+        "R1",
+        "R2",
+        "ID 6",
+        "ID 8",
+        "ID 11",
+        "2  Overlap matrix",
+        "expA \u00b7 Frames 200\u2013201",
+        "Predicted tracks",
+        "Current regions",
+        "Overlap (pixels)"
+      ]
+    },
+    {
+      "figure": "step_3_hungarian_assignment",
+      "font_family": "Arial",
+      "labels": [
+        "710",
+        "0",
+        "0",
+        "1740",
+        "0",
+        "3068",
+        "R1",
+        "R2",
+        "ID 6",
+        "ID 8",
+        "ID 11",
+        "ID 6",
+        "ID 8",
+        "ID 11",
+        "R1 \u2192 ID 6",
+        "R2 \u2192 ID 11",
+        "Unassigned",
+        "3  Hungarian assignment",
+        "expA \u00b7 Frames 200\u2013201",
+        "One-to-one pairing with maximum total overlap",
+        "Shown matches: 3,778 overlapping pixels"
+      ]
+    },
+    {
+      "figure": "step_4_merge_split_distance",
+      "font_family": "Arial",
+      "labels": [
+        "8",
+        "11",
+        "11",
+        "11",
+        "11",
+        "67",
+        "1",
+        "1",
+        "4  Merge, split & distance matching",
+        "expA",
+        "Merge",
+        "Frame 200",
+        "Frame 201",
+        "Keep matched ID 11",
+        "Split",
+        "Frame 616",
+        "Frame 617",
+        "New ID 67 \u00b7 parent 11",
+        "Distance match",
+        "Predicted \u00b7 731",
+        "Frame 731",
+        "4 px overlap \u00b7 7.90 px distance"
+      ]
+    },
+    {
+      "figure": "output_tracking",
+      "font_family": "Arial",
+      "labels": [
+        "5",
+        "6",
+        "11",
+        "15",
+        "21",
+        "14.46",
+        "16.38",
+        "60 fps: 16.67 ms",
+        "ms / frame",
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "Mean",
+        "P95",
+        "Output  IDs, trajectories & track filtering",
+        "expA \u00b7 Frame 250",
+        "Tracked regions",
+        "Max matching gap: 8 frames",
+        "Keep \u2265 5 observations",
+        "118 tracks kept \u00b7 74 short tracks removed",
+        "Recorded processing time",
+        "Segmentation + tracking only"
+      ]
+    }
+  ],
+  "notes": [
+    "All replay arrays come from the current segment() and Tracker.step(); neither algorithm was edited.",
+    "Saved IDs are obtained using finalize() short-track removal and ID remapping.",
+    "R1 and R2 name current-frame detections, not track IDs; their original region indices are recorded.",
+    "The merge keeps the Hungarian-assigned host, not necessarily the larger numeric ID or larger area.",
+    "These are algorithmic region merge/split events, not proof of physical bubble coalescence.",
+    "Distance matching is allowed when overlap fails the significance gate; it need not be exactly zero.",
+    "max_gap=8 is current_frame-last_observed_frame <= 8, allowing seven intervening missing frames.",
+    "min_len=5 counts observed rows, not total elapsed lifetime including gaps.",
+    "Runtime is read from archived stats.json and covers segmentation/tracking only, excluding video decoding.",
+    "The 60 fps line is the nominal frame interval, not a new end-to-end real-time validation.",
+    "The output image shows five illustrative tracks with their observed centroid paths; other tracks are omitted."
+  ],
+  "outputs": {
+    "step_4_merge_split_distance.pdf": "b18ca7461340510cd81c72445971c52635bb27b713047c472cff4f03acdef448",
+    "output_tracking.pdf": "74131a206501798b93da1b48b5589c819925427019c6afeb53b9f2d983113500",
+    "output_tracking.png": "e061df844bde77ff3eb15c730b4b0da958fcf57f0f46067769aafd4a75a0a429",
+    "step_1_motion_prediction.pdf": "3deda37aeb6f9ad2f2ca8a08fb53ea129c387be32a1bfe6e56a7966daff20416",
+    "step_3_hungarian_assignment.pdf": "b998659815c4285bd1be5e71245e8e624cfa68fa4085f03d4d0077683e7c39a2",
+    "step_2_overlap_matrix.pdf": "8cd82387dbb32d6a6ac3baf2139b813aae35be40f6d0421d7fb10ff54e687a0d",
+    "step_3_hungarian_assignment.png": "8ced46d828f3c78ea57ae737b63f553a35fd6fb501f8302c94ff93d1c889a15f",
+    "step_2_overlap_matrix.png": "663db693b16de74dcc9b0a803d33156760991b82a53947be842da257756158bc",
+    "step_1_motion_prediction.png": "23c3579aa8fa9ecab9ec33b4f86e2da6ee7d8d99f15161ba9bd03963840c7927",
+    "step_4_merge_split_distance.png": "fa5b0deaa754b2203559b3a4846e455e9252be22dd78b5961e996fbf0eb1fce3",
+    "data/overlap_matrix.csv": "03376e21199cd2e583f780a5af6f87539704307527968a35b0f79d6eafe4211b",
+    "data/trajectory_excerpt.csv": "18b8f4c7313c16869ea9a25727935e783a8cb07333563535c5412c3d97dc40db",
+    "data/tracking_arrays.npz": "aca241ea54fd9eb05c7bbde0410661f1f10e7c9dae041d63f0b5b1feeee6af2d"
+  }
+}
