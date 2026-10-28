@@ -79,3 +79,12 @@ select { background: var(--panel-2); border: 1px solid var(--line); border-radiu
 .dialog h2 { margin: 0 0 10px; font-size: 16px; }
 .dialog li { margin: 0 0 8px; line-height: 1.45; }
 .dialog .btnrow { display: flex; justify-content: flex-end; margin-top: 10px; }
+
+.readout.pzt { color: var(--ink); }
+.readout.pzt .tag { display: inline-block; padding: 0 6px; border-radius: 4px; margin-right: 4px; background: var(--panel-2); border: 1px solid var(--line); }
+.readout.pzt .tag.on { color: #111; border-color: transparent; font-weight: 600; }
+.readout.pzt .warn { color: var(--uncertain); }
+.resp { font-size: 12.5px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 2px 14px; }
+.resp .h { grid-column: 1 / -1; font-weight: 600; margin-bottom: 2px; }
+.resp .k { color: var(--ink-2); }
+.resp .flags { grid-column: 1 / -1; color: var(--uncertain); }

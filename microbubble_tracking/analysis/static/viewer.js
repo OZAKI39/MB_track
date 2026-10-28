@@ -1,5 +1,6 @@
 'use strict';
-// Analysis check viewer: the video next to the round-2 curves. Click a curve to jump to that frame.
+// Analysis check viewer: the video next to the round-2 curves and the round-3 PZT actions.
+// Click a curve to jump to that frame.
 
 const PAL = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300', '#9085e9', '#e66767'];
 const ROLE = { confirmed: '#46c35a', uncertain: '#ff9f1c', excluded: '#ec4f4f' };
@@ -20,6 +21,10 @@ async function init() {
   S.meta = await api('/api/meta');
   S.field = await api('/api/field');
   S.fieldByFrame = new Map(S.field.rows.map((r) => [r.frame, r]));
+  if (S.meta.has_pzt) {
+    S.pzt = await api('/api/pzt').catch(() => null);
+    if (S.pzt) setupPzt();
+  }
   $('src').textContent = `${S.meta.video} · ${S.meta.result}`;
   buildList();
   buildMoments();
@@ -216,8 +221,142 @@ function readout() {
       : `#${S.sel} has no trusted data in this frame`;
   }
   $('readout').textContent = t;
+  pztReadout();
 }
 
+// ---------------------------------------------------------------- PZT actions (round 3)
+const PZTS = ['PZT1', 'PZT2', 'PZT3', 'PZT4'];
+const PZT_COLOR = { PZT1: PAL[0], PZT2: PAL[1], PZT3: PAL[2], PZT4: PAL[6] };
+const SWITCH = '#c77dff';
+
+function setupPzt() {
+  S.pzt.byNo = new Map(S.pzt.actions.map((a) => [a.action_no, a]));
+  const sel = $('actions-sel');
+  for (const a of S.pzt.actions) {
+    if (a.action_no === 0) continue;
+    const o = document.createElement('option');
+    o.value = String(a.action_no);
+    o.textContent = `${a.action_no} · ${a.switch_video_s.toFixed(2)} s — ${a.label}`;
+    sel.appendChild(o);
+  }
+  sel.hidden = false;
+  $('actions-label').hidden = false;
+  $('r-act').hidden = false;
+  $('pzt-readout').hidden = false;
+  sel.addEventListener('change', () => { if (sel.value !== '') gotoAction(Number(sel.value)); });
+}
+
+function actionAt(f) {
+  if (!S.pzt) return null;
+  const n = S.pzt.action_no[Math.max(0, Math.min(S.pzt.action_no.length - 1, f))];
+  return S.pzt.byNo.get(n) || null;
+}
+
+function gotoAction(n) {
+  const a = S.pzt.byNo.get(n);
+  if (!a) return;
+  $('actions-sel').value = String(n);
+  S.lastAction = n;
+  setRange('act');
+  togglePlay(false);
+  seek(Math.max(0, a.first_frame - Math.round(0.25 * S.meta.fps)));
+}
+
+function stepAction(d) {
+  if (!S.pzt) return;
+  let cur = actionAt(S.frame);
+  const last = S.lastAction !== undefined ? S.pzt.byNo.get(S.lastAction) : null;
+  if (last && S.frame >= last.first_frame - Math.round(0.25 * S.meta.fps) - 1 && S.frame < last.first_frame) cur = last;
+  const nos = S.pzt.actions.map((a) => a.action_no).filter((n) => n > 0);
+  let i = nos.indexOf(cur ? cur.action_no : 0);
+  if (i < 0) i = d > 0 ? -1 : 0;
+  const j = Math.max(0, Math.min(nos.length - 1, i + d));
+  gotoAction(nos[j]);
+}
+
+function pztReadout() {
+  if (!S.pzt) return;
+  const f = S.frame, fps = S.meta.fps;
+  const a = actionAt(f);
+  const trans = S.pzt.transition[f], conf = S.pzt.confirmed[f];
+  const tags = PZTS.map((ch) => {
+    const on = a.output[ch] === 'on' && a.vpp[ch] >= 0.1;
+    const txt = a.output[ch] === 'off' ? `${ch} off` : on ? `${ch} ${a.vpp[ch]} Vpp` : `${ch} idle`;
+    return `<span class="tag${on ? ' on' : ''}" style="${on ? `background:${PZT_COLOR[ch]}` : ''}">${txt}</span>`;
+  }).join('');
+  const since = a.action_no > 0 ? ` · ${((f - a.k_lo) / fps).toFixed(2)} s since the switch` : '';
+  $('pzt-readout').innerHTML = `<b>Action ${a.action_no}</b> ${a.label}${since} &nbsp; ${tags} `
+    + (trans ? '<span class="warn">· transition (switch moment uncertain)</span>' : '')
+    + (a.action_no > 0 && !conf ? ' <span class="muted">· readback not yet confirmed</span>' : '');
+  responseBox(a);
+}
+
+function responseBox(a) {
+  const box = $('resp');
+  if (!a || a.action_no === 0) { box.hidden = true; return; }
+  const ms = (v) => (v === null || v === undefined ? '–' : `${Math.round(v * 1000)} ms`);
+  const dirTxt = (d) => {
+    if (d === null || d === undefined) return '';
+    const names = ['right', 'upper right', 'up', 'upper left', 'left', 'lower left', 'down', 'lower right'];
+    return `, ${names[((Math.round(d / 45) % 8) + 8) % 8]} (${Math.round(d)}°)`;
+  };
+  let html;
+  if (S.sel === 'field') {
+    const r = S.pzt.responses.find((x) => x.entity === 'field' && x.action_no === a.action_no);
+    if (!r) { box.hidden = true; return; }
+    const chance = r.objects_responded_expected_by_chance;
+    html = `<div class="h">Action ${a.action_no} · ${a.label} — whole field (before → after)</div>`
+      + (r.objects_tracked ? `<div><span class="k">responded:</span> ${r.objects_responded} of ${r.objects_at_rest_before} at rest`
+        + (chance !== null && chance !== undefined ? ` (chance ${chance.toFixed(1)})` : '') + '</div>'
+        : '<div class="muted">no trusted objects (review this experiment first)</div>')
+      + `<div><span class="k">first change within:</span> ${ms(r.first_change_delay_max_s)}</div>`
+      + `<div><span class="k">clusters hold:</span> ${fmt(100 * r.cluster_share_before, 0)} → ${fmt(100 * r.cluster_share_after, 0)} %</div>`
+      + `<div><span class="k">spread:</span> ${fmt(r.spread_px_before, 0)} → ${fmt(r.spread_px_after, 0)} px</div>`
+      + `<div><span class="k">regions:</span> ${fmt(r.n_regions_before, 0)} → ${fmt(r.n_regions_after, 0)}</div>`
+      + `<div><span class="k">events:</span> connect ${r.connect_events}, separate ${r.separate_events}, enter ${r.enter_view_events}, leave ${r.leave_view_events}</div>`
+      + (r.field_quality !== 'good' ? `<div class="flags">field quality: ${r.field_quality}</div>` : '');
+  } else {
+    const r = S.pzt.responses.find((x) => x.entity === 'object' && x.object_id === S.sel && x.action_no === a.action_no);
+    if (!r) {
+      html = `<div class="h">Action ${a.action_no} · ${a.label} — #${S.sel}</div><div class="muted">No trusted data of #${S.sel} around this action.</div>`;
+    } else {
+      html = `<div class="h">Action ${a.action_no} · ${a.label} — #${S.sel}: ${r.motion}</div>`
+        + `<div><span class="k">first change:</span> ${r.first_change_frame !== null && r.first_change_frame !== undefined ? `frame ${r.first_change_frame}, within ${ms(r.delay_max_s)}` : '–'}</div>`
+        + `<div><span class="k">speed before → early (max):</span> ${fmt(r.speed_before_px_s, 0)} → ${fmt(r.speed_early_px_s, 0)} (${fmt(r.speed_max_px_s, 0)}) px/s</div>`
+        + `<div><span class="k">displacement:</span> ${fmt(r.disp_px, 0)} px${dirTxt(r.disp_direction_deg)}</div>`
+        + `<div><span class="k">area after / before:</span> ${fmt(r.area_ratio, 2)}${r.deformed ? ' · deformed' : ''}</div>`
+        + `<div><span class="k">aspect:</span> ${fmt(r.aspect_before, 2)} → ${fmt(r.aspect_after, 2)}</div>`
+        + (r.flags ? `<div class="flags">check: ${r.flags}</div>` : '');
+    }
+  }
+  box.innerHTML = html;
+  box.hidden = false;
+}
+
+function drawLanes(g, top, bot, X, t0, t1) {
+  const fps = S.meta.fps;
+  const lh = (bot - top) / 4;
+  g.textAlign = 'right';
+  PZTS.forEach((ch, i) => {
+    const y = top + lh * (i + 0.5);
+    g.fillStyle = INK2; g.fillText(ch, CH.L - 6, y);
+    g.strokeStyle = GRID; g.beginPath(); g.moveTo(CH.L, y); g.lineTo(CH.W - CH.R, y); g.stroke();
+  });
+  const clip = (x) => Math.max(CH.L, Math.min(CH.W - CH.R, x));
+  for (const a of S.pzt.actions) {
+    const xa = clip(X(a.first_frame / fps)), xb = clip(X(a.next_action_frame / fps));
+    if (xb <= xa) continue;
+    PZTS.forEach((ch, i) => {
+      const y = top + lh * i + lh * 0.2;
+      if (a.output[ch] === 'off') { g.fillStyle = 'rgba(154,165,174,0.25)'; g.fillRect(xa, y, xb - xa, lh * 0.6); }
+      else if (a.vpp[ch] >= 0.1) { g.fillStyle = PZT_COLOR[ch]; g.fillRect(xa, y, xb - xa, lh * 0.6); }
+    });
+    if (a.action_no > 0) {
+      const xs = clip(X(a.first_frame / fps)), xe = clip(X(a.stable_from_frame / fps));
+      g.fillStyle = 'rgba(230,234,237,0.18)'; g.fillRect(xs, top, Math.max(1, xe - xs), bot - top);
+    }
+  }
+}
 function seek(f) {
   S.frame = Math.max(0, Math.min(S.meta.n_frames - 1, Math.round(f)));
   drawFrame();
@@ -264,6 +403,14 @@ function resizeChart() {
 
 function timeRange() {
   const T = S.meta.n_frames / S.meta.fps;
+  if (S.range === 'act' && S.pzt) {
+    const a = actionAt(S.frame);
+    if (a) {
+      const fps = S.meta.fps;
+      const lo = a.action_no > 0 ? a.first_frame - fps : 0;
+      return [Math.max(0, lo / fps), Math.min(T, (a.next_action_frame + 0.2 * fps) / fps)];
+    }
+  }
   if (S.sel !== 'field' && S.range === 'obj' && S.obj && S.obj.rows.length) {
     const t0 = S.obj.rows[0].frame / S.meta.fps, t1 = S.obj.rows[S.obj.rows.length - 1].frame / S.meta.fps;
     const pad = Math.max(0.2, 0.04 * (t1 - t0));
@@ -292,10 +439,11 @@ function drawChart() {
   g.clearRect(0, 0, W, H);
   const field = S.sel === 'field';
   const panels = field ? fieldPanels() : objectPanels();
+  if (S.pzt) panels.unshift({ title: 'PZT drive', lanes: true, h: 0.75 });
   const rows = field ? S.field.rows : S.obj.rows;
   const [t0, t1] = timeRange();
   const fps = S.meta.fps;
-  const L = field ? 74 : 56, R = 10, B = 24;
+  const L = field ? 74 : 60, R = 10, B = 24;
   const weights = panels.map((p) => p.h || 1);
   const unitH = (H - B) / weights.reduce((a, b) => a + b, 0);
   const X = (t) => L + (t - t0) / (t1 - t0) * (W - L - R);
@@ -312,7 +460,7 @@ function drawChart() {
     g.font = '600 12px ' + getComputedStyle(document.body).fontFamily;
     g.fillText(p.title + (p.unit ? ` (${p.unit})` : ''), L, y0 + 8);
     g.font = '11px ' + getComputedStyle(document.body).fontFamily;
-    if (!p.events) {
+    if (!p.events && !p.lanes) {
       const vr = field ? S.fieldByFrame.get(fShow) : S.obj.byFrame.get(fShow);
       g.textAlign = 'right';
       let xr = W - R;
@@ -324,7 +472,9 @@ function drawChart() {
         xr -= g.measureText(txt).width + 22;
       }
     }
-    if (p.events) {
+    if (p.lanes) {
+      drawLanes(g, top, bot, X, t0, t1);
+    } else if (p.events) {
       drawEvents(g, p, top, bot, X, t0, t1);
     } else {
       // y range from visible data
@@ -362,6 +512,18 @@ function drawChart() {
       g.strokeStyle = AXIS; g.beginPath(); g.moveTo(L, Math.round(bot) + 0.5); g.lineTo(W - R, Math.round(bot) + 0.5); g.stroke();
     }
     y0 += ph;
+  }
+  // PZT switches across all panels
+  if (S.pzt) {
+    g.strokeStyle = SWITCH; g.lineWidth = 1; g.setLineDash([4, 3]);
+    for (const a of S.pzt.actions) {
+      if (a.action_no === 0) continue;
+      const x = X(a.first_frame / fps);
+      if (x < L || x > W - R) continue;
+      g.beginPath(); g.moveTo(x, 0); g.lineTo(x, H - B); g.stroke();
+      g.fillStyle = SWITCH; g.textAlign = 'left'; g.fillText(String(a.action_no), x + 3, 6);
+    }
+    g.setLineDash([]);
   }
   // time axis
   g.fillStyle = INK2; g.textAlign = 'center'; g.textBaseline = 'top';
@@ -501,6 +663,14 @@ function stepObject(d) {
   if (j !== i) select(ids[j], { seek: true });
 }
 
+function setRange(r) {
+  S.range = r;
+  $('r-act').setAttribute('aria-pressed', String(r === 'act'));
+  $('r-obj').setAttribute('aria-pressed', String(r === 'obj'));
+  $('r-all').setAttribute('aria-pressed', String(r === 'all'));
+  drawChart();
+}
+
 function bindUi() {
   $('b-play').onclick = () => togglePlay();
   $('b-back').onclick = () => seek(S.frame - 1);
@@ -510,21 +680,16 @@ function bindUi() {
   $('b-start').onclick = () => seek(objBounds()[0]);
   $('b-end').onclick = () => seek(objBounds()[1]);
   for (const id of ['t-zoom', 't-path', 't-all']) $(id).onchange = () => drawFrame();
-  const setRange = (r) => {
-    S.range = r;
-    $('r-obj').setAttribute('aria-pressed', String(r === 'obj'));
-    $('r-all').setAttribute('aria-pressed', String(r === 'all'));
-    drawChart();
-  };
   $('r-obj').onclick = () => setRange('obj');
   $('r-all').onclick = () => setRange('all');
+  $('r-act').onclick = () => setRange('act');
   const cv = $('chart');
   cv.addEventListener('mousemove', (e) => { S.hoverF = chartFrame(e); drawChart(); });
   cv.addEventListener('mouseleave', () => { S.hoverF = null; drawChart(); });
   cv.addEventListener('click', (e) => { const f = chartFrame(e); if (f !== null) { togglePlay(false); seek(f); } });
   window.addEventListener('resize', resizeChart);
   $('btn-notes').onclick = () => {
-    const notes = S.meta.notes || [];
+    const notes = [...(S.meta.notes || []), ...((S.pzt && S.pzt.notes) || [])];
     $('dlg-body').innerHTML = '<ul>' + notes.map((n) => `<li>${n.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</li>`).join('') + '</ul>'
       + `<p class="muted small">Self-checks: ${S.meta.all_checks_passed ? 'all passed' : 'SOME FAILED, see report.json'}.</p>`;
     $('dialog').hidden = false;
@@ -541,6 +706,8 @@ function bindUi() {
     else if (k === 'End') { e.preventDefault(); seek(objBounds()[1]); }
     else if (k === '[') stepObject(-1);
     else if (k === ']') stepObject(1);
+    else if (k === ',') stepAction(-1);
+    else if (k === '.') stepAction(1);
     else if (k === 'z' || k === 'Z') { $('t-zoom').checked = !$('t-zoom').checked; drawFrame(); }
   });
 }

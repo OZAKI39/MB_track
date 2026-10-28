@@ -13,6 +13,8 @@
     <span class="muted" id="src">Loading…</span>
   </div>
   <div class="actions">
+    <label class="muted" for="actions-sel" id="actions-label" hidden>PZT actions</label>
+    <select id="actions-sel" hidden><option value="">Jump to an action…</option></select>
     <label class="muted" for="moments">Key moments</label>
     <select id="moments"><option value="">Choose a moment to check…</option></select>
     <button type="button" id="btn-notes">Data-quality notes</button>
@@ -30,6 +32,8 @@
       <div id="stamp" class="stamp"></div>
     </div>
     <div id="readout" class="readout muted"></div>
+    <div id="pzt-readout" class="readout pzt" hidden></div>
+    <div id="resp" class="resp" hidden></div>
     <div class="transport">
       <div class="group">
         <button type="button" id="b-start" title="Start of the object (Home)">⏮</button>
@@ -64,6 +68,7 @@
     <div class="chead">
       <h2 id="c-title">Whole field</h2>
       <div class="seg" role="group" aria-label="Time range">
+        <button type="button" id="r-act" aria-pressed="false" hidden>This action</button>
         <button type="button" id="r-obj" aria-pressed="true">This object</button>
         <button type="button" id="r-all" aria-pressed="false">Whole video</button>
       </div>
@@ -75,7 +80,7 @@
 
 <footer class="keys muted">
   Keys: Space play/pause · ←/→ one frame · Shift+←/→ ten frames · Home/End start/end of the object ·
-  [ / ] previous/next object · Z zoom
+  [ / ] previous/next object · Z zoom · , / . previous/next PZT action
 </footer>
 
 <div id="dialog" class="dialog" hidden role="dialog" aria-modal="true" aria-labelledby="dlg-title">
