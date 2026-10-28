@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-viewer.py - check the round-2 curves against the video (task 5)
+viewer.py - check the round-2 curves and the round-3 PZT actions against the video
 
 Shows the video next to the motion, shape and whole-field curves. Click anywhere on a curve to jump to
 that frame; the frame shows the outlines (green = trusted, orange = uncertain, red = false target) and the
-selected object in yellow. Nothing is written; the result folder is only read.
+selected object in yellow. If the round-3 PZT analysis exists (analysis/pzt_analysis/), the four PZTs
+are shown as lanes above the curves, the switches as dashed lines, and "PZT actions" jumps to an action
+and shows how the selected object (or the whole field) responded. Nothing is written.
 
     python analysis/viewer.py --video data/raw/expA.mp4 --result results/A_offline
 
@@ -30,6 +32,18 @@ sys.path.insert(0, os.path.dirname(HERE))
 import analyze  # noqa: E402
 
 SERIES_DARK = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300', '#9085e9', '#e66767']
+PZTS = ['PZT1', 'PZT2', 'PZT3', 'PZT4']
+
+
+def clean(o):
+    """Make a structure valid JSON for the browser (NaN / inf become null)."""
+    if isinstance(o, float):
+        return o if o == o and o not in (float('inf'), float('-inf')) else None
+    if isinstance(o, dict):
+        return {k: clean(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [clean(v) for v in o]
+    return o
 
 
 def read_table(path):
@@ -76,7 +90,38 @@ class Store:
             self.mo_by_obj[int(r['object_id'])].append(r)
         for r in self.shape:
             self.sh_by_obj[int(r['object_id'])].append(r)
+        self.pzt = self._load_pzt(os.path.join(an, 'pzt_analysis'))
         self._load_frames(max_width, quality)
+
+    def _load_pzt(self, folder):
+        """Round-3 tables (analysis/pzt_analysis/), if they exist."""
+        if not os.path.exists(os.path.join(folder, 'actions.csv')):
+            return None
+        rep = json.load(open(os.path.join(folder, 'report.json'), encoding='utf-8')) \
+            if os.path.exists(os.path.join(folder, 'report.json')) else {}
+        acts = []
+        for r in read_table(os.path.join(folder, 'actions.csv')):
+            a = {k: num(r[k]) for k in ('action_no', 'first_frame', 'stable_from_frame', 'next_action_frame', 'k_lo',
+                                        'switch_video_s', 'readback_frame')}
+            a.update(label=r['label'], readback=r['readback_check'], active=r['active_after'],
+                     vpp={ch: num(r[f'{ch}_vpp']) for ch in PZTS}, output={ch: r[f'{ch}_output'] for ch in PZTS},
+                     freq_hz=num(r['PZT1_freq_hz']))
+            acts.append(a)
+        al = read_table(os.path.join(folder, 'aligned_frames.csv'))
+        keep = ['action_no', 'entity', 'object_id', 'motion', 'responded_within_window', 'first_change_frame',
+                'delay_max_s', 'speed_before_px_s', 'speed_early_px_s', 'speed_max_px_s', 'disp_px',
+                'disp_direction_deg', 'area_ratio', 'aspect_before', 'aspect_after', 'deformed', 'flags',
+                'objects_tracked', 'objects_at_rest_before', 'objects_responded', 'objects_responded_expected_by_chance',
+                'first_change_delay_max_s', 'cluster_share_before', 'cluster_share_after', 'spread_px_before',
+                'spread_px_after', 'n_regions_before', 'n_regions_after', 'connect_events', 'separate_events',
+                'enter_view_events', 'leave_view_events', 'field_quality']
+        resp = [{k: (num(r[k]) if k not in ('entity', 'motion', 'flags', 'field_quality') else r[k])
+                 for k in keep if k in r} for r in read_table(os.path.join(folder, 'responses.csv'))]
+        return dict(actions=acts, action_no=[int(r['action_no']) for r in al],
+                    transition=[int(r['in_transition'] in ('1', 'True')) for r in al],
+                    confirmed=[int(r['readback_confirmed'] in ('1', 'True')) for r in al],
+                    responses=resp, timing=rep.get('time_alignment', {}), control=rep.get('control', {}),
+                    notes=rep.get('data_quality', []), experiment=rep.get('experiment'))
 
     def _load_frames(self, max_width, quality):
         cap = cv2.VideoCapture(self.video)
@@ -116,7 +161,7 @@ class Store:
                     n_frames=len(self.frames) or self.D.n_frames, W=self.D.W, H=self.D.H, scale=self.scale,
                     objects=objs, notes=rep.get('data_quality', []), checks=rep.get('key_moment_checks', []),
                     all_checks_passed=rep.get('all_checks_passed'), um_per_px=rep.get('um_per_px'),
-                    params=rep.get('parameters', {}))
+                    params=rep.get('parameters', {}), has_pzt=self.pzt is not None)
 
     def regions(self, f):
         D = self.D
@@ -161,7 +206,7 @@ def make_handler(store):
 
         def send(self, body, ctype='application/json', code=200):
             if isinstance(body, (dict, list)):
-                body = json.dumps(body, separators=(',', ':')).encode()
+                body = json.dumps(clean(body), separators=(',', ':')).encode()
             elif isinstance(body, str):
                 body = body.encode()
             self.send_response(code)
@@ -195,11 +240,17 @@ def make_handler(store):
                 if path.startswith('/api/object/'):
                     oid = int(path.rsplit('/', 1)[1])
                     if oid not in cache:
-                        cache[oid] = json.dumps(store.object(oid), separators=(',', ':')).encode()
+                        cache[oid] = json.dumps(clean(store.object(oid)), separators=(',', ':')).encode()
                     return self.send(cache[oid])
+                if path == '/api/pzt':
+                    if store.pzt is None:
+                        return self.send({'error': 'no round-3 PZT analysis in this result folder'}, code=404)
+                    if 'pzt' not in cache:
+                        cache['pzt'] = json.dumps(clean(store.pzt), separators=(',', ':'), default=str).encode()
+                    return self.send(cache['pzt'])
                 if path == '/api/field':
                     if 'field' not in cache:
-                        cache['field'] = json.dumps(store.field(), separators=(',', ':')).encode()
+                        cache['field'] = json.dumps(clean(store.field()), separators=(',', ':')).encode()
                     return self.send(cache['field'])
                 return self.send({'error': 'not found'}, code=404)
             except (BrokenPipeError, ConnectionResetError):
