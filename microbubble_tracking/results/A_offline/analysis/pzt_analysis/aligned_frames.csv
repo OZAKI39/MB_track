@@ -1,0 +1,1321 @@
+frame,video_s,received_windows_s,receive_delay_excess_ms,action_no,action,t_since_action_s,time_quality,in_transition,readback_confirmed,active_pzts,PZT1_vpp,PZT1_output,PZT2_vpp,PZT2_output,PZT3_vpp,PZT3_output,PZT4_vpp,PZT4_output
+0,0.0,241246.974,77.846,0,start of video: all PZTs idle,0.0,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1,0.017,241246.976,62.336,0,start of video: all PZTs idle,0.017,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+2,0.033,241246.976,46.096,0,start of video: all PZTs idle,0.033,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+3,0.05,241246.988,41.957,0,start of video: all PZTs idle,0.05,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+4,0.067,241247.008,44.996,0,start of video: all PZTs idle,0.067,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+5,0.083,241247.019,39.32,0,start of video: all PZTs idle,0.083,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+6,0.1,241247.032,35.33,0,start of video: all PZTs idle,0.1,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+7,0.117,241247.06,47.027,0,start of video: all PZTs idle,0.117,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+8,0.133,241247.079,48.721,0,start of video: all PZTs idle,0.133,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+9,0.15,241247.092,45.039,0,start of video: all PZTs idle,0.15,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+10,0.167,241247.102,38.734,0,start of video: all PZTs idle,0.167,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+11,0.183,241247.127,47.46,0,start of video: all PZTs idle,0.183,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+12,0.2,241247.137,40.969,0,start of video: all PZTs idle,0.2,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+13,0.217,241247.151,38.259,0,start of video: all PZTs idle,0.217,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+14,0.233,241247.18,50.569,0,start of video: all PZTs idle,0.233,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+15,0.25,241247.19,43.585,0,start of video: all PZTs idle,0.25,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+16,0.267,241247.205,41.969,0,start of video: all PZTs idle,0.267,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+17,0.283,241247.241,61.447,0,start of video: all PZTs idle,0.283,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+18,0.3,241247.247,49.999,0,start of video: all PZTs idle,0.3,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+19,0.317,241247.26,46.434,0,start of video: all PZTs idle,0.317,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+20,0.333,241247.272,41.718,0,start of video: all PZTs idle,0.333,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+21,0.35,241247.294,47.977,0,start of video: all PZTs idle,0.35,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+22,0.367,241247.312,49.003,0,start of video: all PZTs idle,0.367,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+23,0.383,241247.316,35.918,0,start of video: all PZTs idle,0.383,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+24,0.4,241247.354,57.26,0,start of video: all PZTs idle,0.4,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+25,0.417,241247.355,41.371,0,start of video: all PZTs idle,0.417,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+26,0.433,241247.37,40.606,0,start of video: all PZTs idle,0.433,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+27,0.45,241247.39,43.965,0,start of video: all PZTs idle,0.45,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+28,0.467,241247.407,44.27,0,start of video: all PZTs idle,0.467,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+29,0.483,241247.425,45.263,0,start of video: all PZTs idle,0.483,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+30,0.5,241247.435,38.804,0,start of video: all PZTs idle,0.5,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+31,0.517,241247.463,50.067,0,start of video: all PZTs idle,0.517,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+32,0.533,241247.475,44.883,0,start of video: all PZTs idle,0.533,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+33,0.55,241247.489,42.042,0,start of video: all PZTs idle,0.55,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+34,0.567,241247.499,36.144,0,start of video: all PZTs idle,0.567,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+35,0.583,241247.523,42.999,0,start of video: all PZTs idle,0.583,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+36,0.6,241247.541,44.707,0,start of video: all PZTs idle,0.6,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+37,0.617,241247.563,50.19,0,start of video: all PZTs idle,0.617,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+38,0.633,241247.577,47.187,0,start of video: all PZTs idle,0.633,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+39,0.65,241247.594,47.098,0,start of video: all PZTs idle,0.65,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+40,0.667,241247.598,34.786,0,start of video: all PZTs idle,0.667,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+41,0.683,241247.635,55.338,0,start of video: all PZTs idle,0.683,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+42,0.7,241247.641,44.034,0,start of video: all PZTs idle,0.7,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+43,0.717,241247.653,39.867,0,start of video: all PZTs idle,0.717,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+44,0.733,241247.705,74.855,0,start of video: all PZTs idle,0.733,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+45,0.75,241247.705,58.932,0,start of video: all PZTs idle,0.75,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+46,0.767,241247.706,42.987,0,start of video: all PZTs idle,0.767,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+47,0.783,241247.718,38.156,0,start of video: all PZTs idle,0.783,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+48,0.8,241247.746,49.56,0,start of video: all PZTs idle,0.8,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+49,0.817,241247.763,49.961,0,start of video: all PZTs idle,0.817,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+50,0.833,241247.767,37.119,0,start of video: all PZTs idle,0.833,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+51,0.85,241247.798,51.299,0,start of video: all PZTs idle,0.85,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+52,0.867,241247.81,47.175,0,start of video: all PZTs idle,0.867,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+53,0.883,241247.823,43.141,0,start of video: all PZTs idle,0.883,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+54,0.9,241247.857,60.658,0,start of video: all PZTs idle,0.9,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+55,0.917,241247.875,62.301,0,start of video: all PZTs idle,0.917,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+56,0.933,241247.877,46.677,0,start of video: all PZTs idle,0.933,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+57,0.95,241247.912,65.97,0,start of video: all PZTs idle,0.95,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+58,0.967,241247.93,66.371,0,start of video: all PZTs idle,0.967,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+59,0.983,241247.931,51.492,0,start of video: all PZTs idle,0.983,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+60,1.0,241247.935,38.923,0,start of video: all PZTs idle,1.0,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+61,1.017,241247.969,56.035,0,start of video: all PZTs idle,1.017,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+62,1.033,241247.987,57.498,0,start of video: all PZTs idle,1.033,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+63,1.05,241247.988,41.527,0,start of video: all PZTs idle,1.05,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+64,1.067,241248.011,48.072,0,start of video: all PZTs idle,1.067,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+65,1.083,241248.024,44.204,0,start of video: all PZTs idle,1.083,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+66,1.1,241248.045,48.48,0,start of video: all PZTs idle,1.1,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+67,1.117,241248.05,36.892,0,start of video: all PZTs idle,1.117,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+68,1.133,241248.084,53.677,0,start of video: all PZTs idle,1.133,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+69,1.15,241248.091,44.251,0,start of video: all PZTs idle,1.15,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+70,1.167,241248.103,40.102,0,start of video: all PZTs idle,1.167,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+71,1.183,241248.113,33.522,0,start of video: all PZTs idle,1.183,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+72,1.2,241248.155,58.158,0,start of video: all PZTs idle,1.2,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+73,1.217,241248.156,42.591,0,start of video: all PZTs idle,1.217,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+74,1.233,241248.193,62.66,0,start of video: all PZTs idle,1.233,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+75,1.25,241248.194,47.273,0,start of video: all PZTs idle,1.25,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+76,1.267,241248.209,46.008,0,start of video: all PZTs idle,1.267,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+77,1.283,241248.216,36.545,0,start of video: all PZTs idle,1.283,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+78,1.3,241248.259,62.088,0,start of video: all PZTs idle,1.3,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+79,1.317,241248.271,57.554,0,start of video: all PZTs idle,1.317,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+80,1.333,241248.272,41.971,0,start of video: all PZTs idle,1.333,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+81,1.35,241248.311,64.381,0,start of video: all PZTs idle,1.35,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+82,1.367,241248.312,48.929,0,start of video: all PZTs idle,1.367,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+83,1.383,241248.326,46.513,0,start of video: all PZTs idle,1.383,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+84,1.4,241248.364,67.858,0,start of video: all PZTs idle,1.4,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+85,1.417,241248.365,51.879,0,start of video: all PZTs idle,1.417,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+86,1.433,241248.377,47.598,0,start of video: all PZTs idle,1.433,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+87,1.45,241248.384,37.654,0,start of video: all PZTs idle,1.45,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+88,1.467,241248.419,56.005,0,start of video: all PZTs idle,1.467,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+89,1.483,241248.426,46.03,0,start of video: all PZTs idle,1.483,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+90,1.5,241248.443,46.384,0,start of video: all PZTs idle,1.5,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+91,1.517,241248.493,79.874,0,start of video: all PZTs idle,1.517,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+92,1.533,241248.494,64.297,0,start of video: all PZTs idle,1.533,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+93,1.55,241248.495,48.014,0,start of video: all PZTs idle,1.55,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+94,1.567,241248.497,34.016,0,start of video: all PZTs idle,1.567,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+95,1.583,241248.526,46.146,0,start of video: all PZTs idle,1.583,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+96,1.6,241248.531,34.975,0,start of video: all PZTs idle,1.6,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+97,1.617,241248.552,38.964,0,start of video: all PZTs idle,1.617,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+98,1.633,241248.581,51.256,0,start of video: all PZTs idle,1.633,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+99,1.65,241248.59,43.309,0,start of video: all PZTs idle,1.65,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+100,1.667,241248.605,41.756,0,start of video: all PZTs idle,1.667,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+101,1.683,241248.642,62.051,0,start of video: all PZTs idle,1.683,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+102,1.7,241248.643,46.014,0,start of video: all PZTs idle,1.7,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+103,1.717,241248.659,45.891,0,start of video: all PZTs idle,1.717,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+104,1.733,241248.665,35.562,0,start of video: all PZTs idle,1.733,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+105,1.75,241248.692,45.647,0,start of video: all PZTs idle,1.75,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+106,1.767,241248.715,51.698,0,start of video: all PZTs idle,1.767,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+107,1.783,241248.719,39.258,0,start of video: all PZTs idle,1.783,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+108,1.8,241248.756,59.769,0,start of video: all PZTs idle,1.8,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+109,1.817,241248.759,46.198,0,start of video: all PZTs idle,1.817,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+110,1.833,241248.776,45.95,0,start of video: all PZTs idle,1.833,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+111,1.85,241248.786,39.268,0,start of video: all PZTs idle,1.85,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+112,1.867,241248.811,48.265,0,start of video: all PZTs idle,1.867,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+113,1.883,241248.829,49.618,0,start of video: all PZTs idle,1.883,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+114,1.9,241248.842,45.361,0,start of video: all PZTs idle,1.9,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+115,1.917,241248.871,57.974,0,start of video: all PZTs idle,1.917,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+116,1.933,241248.879,48.92,0,start of video: all PZTs idle,1.933,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+117,1.95,241248.892,45.661,0,start of video: all PZTs idle,1.95,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+118,1.967,241248.907,43.461,0,start of video: all PZTs idle,1.967,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+119,1.983,241248.929,48.998,0,start of video: all PZTs idle,1.983,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+120,2.0,241248.949,52.549,0,start of video: all PZTs idle,2.0,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+121,2.017,241248.953,40.102,0,start of video: all PZTs idle,2.017,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+122,2.033,241248.993,63.297,0,start of video: all PZTs idle,2.033,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+123,2.05,241248.995,48.023,0,start of video: all PZTs idle,2.05,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+124,2.067,241249.006,42.857,0,start of video: all PZTs idle,2.067,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+125,2.083,241249.019,39.139,0,start of video: all PZTs idle,2.083,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+126,2.1,241249.044,47.919,0,start of video: all PZTs idle,2.1,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+127,2.117,241249.061,47.882,0,start of video: all PZTs idle,2.117,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+128,2.133,241249.065,34.878,0,start of video: all PZTs idle,2.133,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+129,2.15,241249.097,50.211,0,start of video: all PZTs idle,2.15,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+130,2.167,241249.114,50.332,0,start of video: all PZTs idle,2.167,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+131,2.183,241249.118,38.635,0,start of video: all PZTs idle,2.183,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+132,2.2,241249.175,78.191,0,start of video: all PZTs idle,2.2,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+133,2.217,241249.176,62.693,0,start of video: all PZTs idle,2.217,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+134,2.233,241249.177,47.004,0,start of video: all PZTs idle,2.233,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+135,2.25,241249.183,36.88,0,start of video: all PZTs idle,2.25,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+136,2.267,241249.211,47.941,0,start of video: all PZTs idle,2.267,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+137,2.283,241249.223,42.775,0,start of video: all PZTs idle,2.283,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+138,2.3,241249.235,38.613,0,start of video: all PZTs idle,2.3,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+139,2.317,241249.264,51.206,0,start of video: all PZTs idle,2.317,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+140,2.333,241249.283,53.075,0,start of video: all PZTs idle,2.333,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+141,2.35,241249.288,41.685,0,start of video: all PZTs idle,2.35,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+142,2.367,241249.324,60.714,0,start of video: all PZTs idle,2.367,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+143,2.383,241249.327,46.651,0,start of video: all PZTs idle,2.383,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+144,2.4,241249.339,42.735,0,start of video: all PZTs idle,2.4,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+145,2.417,241249.349,35.538,0,start of video: all PZTs idle,2.417,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+146,2.433,241249.379,48.825,0,start of video: all PZTs idle,2.433,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+147,2.45,241249.392,45.618,0,start of video: all PZTs idle,2.45,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+148,2.467,241249.402,38.991,0,start of video: all PZTs idle,2.467,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+149,2.483,241249.43,50.021,0,start of video: all PZTs idle,2.483,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+150,2.5,241249.449,51.997,0,start of video: all PZTs idle,2.5,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+151,2.517,241249.452,39.142,0,start of video: all PZTs idle,2.517,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+152,2.533,241249.483,53.336,0,start of video: all PZTs idle,2.533,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+153,2.55,241249.495,48.407,0,start of video: all PZTs idle,2.55,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+154,2.567,241249.505,41.987,0,start of video: all PZTs idle,2.567,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+155,2.583,241249.544,64.397,0,start of video: all PZTs idle,2.583,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+156,2.6,241249.558,61.914,0,start of video: all PZTs idle,2.6,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+157,2.617,241249.559,46.209,0,start of video: all PZTs idle,2.617,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+158,2.633,241249.571,40.972,0,start of video: all PZTs idle,2.633,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+159,2.65,241249.585,38.518,0,start of video: all PZTs idle,2.65,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+160,2.667,241249.611,47.91,0,start of video: all PZTs idle,2.667,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+161,2.683,241249.621,40.709,0,start of video: all PZTs idle,2.683,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+162,2.7,241249.657,60.517,0,start of video: all PZTs idle,2.7,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+163,2.717,241249.665,51.969,0,start of video: all PZTs idle,2.717,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+164,2.733,241249.67,40.169,0,start of video: all PZTs idle,2.733,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+165,2.75,241249.699,52.237,0,start of video: all PZTs idle,2.75,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+166,2.767,241249.707,43.768,0,start of video: all PZTs idle,2.767,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+167,2.783,241249.723,43.428,0,start of video: all PZTs idle,2.783,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+168,2.8,241249.761,64.881,0,start of video: all PZTs idle,2.8,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+169,2.817,241249.762,48.806,0,start of video: all PZTs idle,2.817,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+170,2.833,241249.777,46.72,0,start of video: all PZTs idle,2.833,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+171,2.85,241249.786,39.664,0,start of video: all PZTs idle,2.85,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+172,2.867,241249.816,52.562,0,start of video: all PZTs idle,2.867,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+173,2.883,241249.834,54.472,0,start of video: all PZTs idle,2.883,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+174,2.9,241249.838,41.855,0,start of video: all PZTs idle,2.9,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+175,2.917,241249.874,60.831,0,start of video: all PZTs idle,2.917,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+176,2.933,241249.887,57.594,0,start of video: all PZTs idle,2.933,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+177,2.95,241249.891,44.58,0,start of video: all PZTs idle,2.95,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+178,2.967,241249.901,37.635,0,start of video: all PZTs idle,2.967,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+179,2.983,241249.922,42.089,0,start of video: all PZTs idle,2.983,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+180,3.0,241249.946,49.285,0,start of video: all PZTs idle,3.0,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+181,3.017,241249.957,43.955,0,start of video: all PZTs idle,3.017,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+182,3.033,241249.996,66.114,0,start of video: all PZTs idle,3.033,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+183,3.05,241250.008,61.348,0,start of video: all PZTs idle,3.05,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+184,3.067,241250.008,45.006,0,start of video: all PZTs idle,3.067,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+185,3.083,241250.021,41.105,1,PZT1 on,0.005,transition,1,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+186,3.1,241250.045,48.92,1,PZT1 on,0.022,transition,1,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+187,3.117,241250.062,48.927,1,PZT1 on,0.039,transition,1,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+188,3.133,241250.098,68.08,1,PZT1 on,0.055,transition,1,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+189,3.15,241250.1,53.75,1,PZT1 on,0.072,transition,1,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+190,3.167,241250.118,54.512,1,PZT1 on,0.089,transition,1,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+191,3.183,241250.123,43.023,1,PZT1 on,0.105,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+192,3.2,241250.156,59.206,1,PZT1 on,0.122,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+193,3.217,241250.158,45.014,1,PZT1 on,0.139,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+194,3.233,241250.174,44.038,1,PZT1 on,0.155,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+195,3.25,241250.185,38.313,1,PZT1 on,0.172,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+196,3.267,241250.213,50.128,1,PZT1 on,0.189,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+197,3.283,241250.231,51.527,1,PZT1 on,0.205,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+198,3.3,241250.237,40.839,1,PZT1 on,0.222,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+199,3.317,241250.266,52.387,1,PZT1 on,0.239,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+200,3.333,241250.285,55.095,1,PZT1 on,0.255,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+201,3.35,241250.29,43.21,1,PZT1 on,0.272,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+202,3.367,241250.323,60.051,1,PZT1 on,0.289,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+203,3.383,241250.343,63.62,1,PZT1 on,0.305,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+204,3.4,241250.345,48.92,1,PZT1 on,0.322,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+205,3.417,241250.355,41.951,1,PZT1 on,0.339,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+206,3.433,241250.384,54.35,1,PZT1 on,0.355,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+207,3.45,241250.39,43.417,1,PZT1 on,0.372,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+208,3.467,241250.404,41.276,1,PZT1 on,0.389,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+209,3.483,241250.446,66.572,1,PZT1 on,0.405,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+210,3.5,241250.447,50.638,1,PZT1 on,0.422,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+211,3.517,241250.458,44.425,1,PZT1 on,0.439,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+212,3.533,241250.472,42.261,1,PZT1 on,0.455,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+213,3.55,241250.499,52.161,1,PZT1 on,0.472,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+214,3.567,241250.509,46.294,1,PZT1 on,0.489,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+215,3.583,241250.522,41.692,1,PZT1 on,0.505,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+216,3.6,241250.551,54.66,1,PZT1 on,0.522,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+217,3.617,241250.575,61.359,1,PZT1 on,0.539,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+218,3.633,241250.575,45.2,1,PZT1 on,0.555,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+219,3.65,241250.587,40.519,1,PZT1 on,0.572,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+220,3.667,241250.615,52.018,1,PZT1 on,0.589,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+221,3.683,241250.626,46.055,1,PZT1 on,0.605,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+222,3.7,241250.637,40.505,1,PZT1 on,0.622,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+223,3.717,241250.673,60.081,1,PZT1 on,0.639,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+224,3.733,241250.683,53.326,1,PZT1 on,0.655,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+225,3.75,241250.688,41.074,1,PZT1 on,0.672,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+226,3.767,241250.717,53.318,1,PZT1 on,0.689,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+227,3.783,241250.732,51.698,1,PZT1 on,0.705,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+228,3.8,241250.745,48.555,1,PZT1 on,0.722,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+229,3.817,241250.755,42.311,1,PZT1 on,0.739,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+230,3.833,241250.779,49.484,1,PZT1 on,0.755,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+231,3.85,241250.788,41.591,1,PZT1 on,0.772,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+232,3.867,241250.803,40.126,1,PZT1 on,0.789,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+233,3.883,241250.828,47.759,1,PZT1 on,0.805,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+234,3.9,241250.841,44.501,1,PZT1 on,0.822,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+235,3.917,241250.86,46.438,1,PZT1 on,0.839,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+236,3.933,241250.871,41.275,1,PZT1 on,0.855,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+237,3.95,241250.901,54.459,1,PZT1 on,0.872,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+238,3.967,241250.902,38.689,1,PZT1 on,0.889,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+239,3.983,241250.927,47.264,1,PZT1 on,0.905,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+240,4.0,241250.952,55.499,1,PZT1 on,0.922,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+241,4.017,241250.974,60.586,1,PZT1 on,0.939,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+242,4.033,241250.975,44.879,1,PZT1 on,0.955,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+243,4.05,241250.987,40.547,1,PZT1 on,0.972,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+244,4.067,241251.014,50.725,1,PZT1 on,0.989,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+245,4.083,241251.028,48.538,1,PZT1 on,1.005,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+246,4.1,241251.064,67.122,1,PZT1 on,1.022,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+247,4.117,241251.065,52.155,1,PZT1 on,1.039,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+248,4.133,241251.084,53.651,1,PZT1 on,1.055,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+249,4.15,241251.088,41.069,1,PZT1 on,1.072,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+250,4.167,241251.124,61.152,1,PZT1 on,1.089,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+251,4.183,241251.129,49.389,1,PZT1 on,1.105,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+252,4.2,241251.14,43.548,1,PZT1 on,1.122,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+253,4.217,241251.167,54.02,1,PZT1 on,1.139,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+254,4.233,241251.181,50.682,1,PZT1 on,1.155,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+255,4.25,241251.192,45.719,1,PZT1 on,1.172,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+256,4.267,241251.202,38.961,1,PZT1 on,1.189,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+257,4.283,241251.228,47.838,1,PZT1 on,1.205,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+258,4.3,241251.247,50.157,1,PZT1 on,1.222,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+259,4.317,241251.266,52.858,1,PZT1 on,1.239,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+260,4.333,241251.288,58.566,1,PZT1 on,1.255,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+261,4.35,241251.3,53.309,1,PZT1 on,1.272,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+262,4.367,241251.304,41.278,1,PZT1 on,1.289,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+263,4.383,241251.335,55.036,1,PZT1 on,1.305,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+264,4.4,241251.355,58.374,1,PZT1 on,1.322,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+265,4.417,241251.36,46.483,1,PZT1 on,1.339,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+266,4.433,241251.391,61.463,1,PZT1 on,1.355,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+267,4.45,241251.411,64.602,1,PZT1 on,1.372,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+268,4.467,241251.411,48.274,1,PZT1 on,1.389,stable,0,0,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+269,4.483,241251.423,43.446,1,PZT1 on,1.405,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+270,4.5,241251.452,55.035,1,PZT1 on,1.422,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+271,4.517,241251.466,52.664,1,PZT1 on,1.439,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+272,4.533,241251.473,42.92,1,PZT1 on,1.455,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+273,4.55,241251.525,78.023,1,PZT1 on,1.472,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+274,4.567,241251.525,62.204,1,PZT1 on,1.489,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+275,4.583,241251.526,46.201,1,PZT1 on,1.505,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+276,4.6,241251.55,53.36,1,PZT1 on,1.522,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+277,4.617,241251.566,53.135,1,PZT1 on,1.539,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+278,4.633,241251.578,48.294,1,PZT1 on,1.555,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+279,4.65,241251.588,41.628,1,PZT1 on,1.572,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+280,4.667,241251.612,48.952,1,PZT1 on,1.589,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+281,4.683,241251.625,44.753,1,PZT1 on,1.605,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+282,4.7,241251.639,42.224,1,PZT1 on,1.622,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+283,4.717,241251.666,53.172,1,PZT1 on,1.639,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+284,4.733,241251.677,47.568,1,PZT1 on,1.655,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+285,4.75,241251.69,43.714,1,PZT1 on,1.672,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+286,4.767,241251.703,39.796,1,PZT1 on,1.689,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+287,4.783,241251.719,38.684,1,PZT1 on,1.705,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+288,4.8,241251.749,52.638,1,PZT1 on,1.722,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+289,4.817,241251.755,42.038,1,PZT1 on,1.739,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+290,4.833,241251.784,54.018,1,PZT1 on,1.755,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+291,4.85,241251.804,57.748,1,PZT1 on,1.772,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+292,4.867,241251.806,43.045,1,PZT1 on,1.789,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+293,4.883,241251.83,50.257,1,PZT1 on,1.805,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+294,4.9,241251.848,51.812,1,PZT1 on,1.822,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+295,4.917,241251.863,50.146,1,PZT1 on,1.839,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+296,4.933,241251.867,36.968,1,PZT1 on,1.855,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+297,4.95,241251.896,49.638,1,PZT1 on,1.872,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+298,4.967,241251.907,43.672,1,PZT1 on,1.889,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+299,4.983,241251.919,39.051,1,PZT1 on,1.905,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+300,5.0,241251.959,62.077,1,PZT1 on,1.922,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+301,5.017,241251.959,46.171,1,PZT1 on,1.939,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+302,5.033,241251.975,44.96,1,PZT1 on,1.955,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+303,5.05,241251.987,40.755,1,PZT1 on,1.972,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+304,5.067,241252.011,48.213,1,PZT1 on,1.989,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+305,5.083,241252.03,50.428,1,PZT1 on,2.005,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+306,5.1,241252.042,45.111,1,PZT1 on,2.022,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+307,5.117,241252.065,52.123,1,PZT1 on,2.039,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+308,5.133,241252.084,53.996,1,PZT1 on,2.055,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+309,5.15,241252.087,40.77,1,PZT1 on,2.072,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+310,5.167,241252.119,56.062,1,PZT1 on,2.089,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+311,5.183,241252.142,62.276,1,PZT1 on,2.105,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+312,5.2,241252.144,47.586,1,PZT1 on,2.122,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+313,5.217,241252.179,65.544,1,PZT1 on,2.139,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+314,5.233,241252.184,53.827,1,PZT1 on,2.155,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+315,5.25,241252.196,49.895,1,PZT1 on,2.172,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+316,5.267,241252.201,37.877,1,PZT1 on,2.189,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+317,5.283,241252.245,64.965,1,PZT1 on,2.205,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+318,5.3,241252.257,60.557,1,PZT1 on,2.222,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+319,5.317,241252.258,44.318,1,PZT1 on,2.239,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+320,5.333,241252.27,40.576,1,PZT1 on,2.255,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+321,5.35,241252.294,47.711,1,PZT1 on,2.272,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+322,5.367,241252.31,46.879,1,PZT1 on,2.289,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+323,5.383,241252.323,43.349,1,PZT1 on,2.305,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+324,5.4,241252.355,58.072,1,PZT1 on,2.322,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+325,5.417,241252.363,49.398,1,PZT1 on,2.339,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+326,5.433,241252.374,44.062,1,PZT1 on,2.355,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+327,5.45,241252.387,40.341,1,PZT1 on,2.372,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+328,5.467,241252.402,38.84,1,PZT1 on,2.389,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+329,5.483,241252.426,46.113,1,PZT1 on,2.405,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+330,5.5,241252.439,42.041,1,PZT1 on,2.422,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+331,5.517,241252.462,48.363,1,PZT1 on,2.439,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+332,5.533,241252.474,44.435,1,PZT1 on,2.455,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+333,5.55,241252.488,41.413,1,PZT1 on,2.472,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+334,5.567,241252.518,54.752,1,PZT1 on,2.489,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+335,5.583,241252.531,51.002,1,PZT1 on,2.505,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+336,5.6,241252.543,46.762,1,PZT1 on,2.522,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+337,5.617,241252.577,63.647,1,PZT1 on,2.539,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+338,5.633,241252.579,49.131,1,PZT1 on,2.555,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+339,5.65,241252.594,47.618,1,PZT1 on,2.572,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+340,5.667,241252.636,72.683,1,PZT1 on,2.589,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+341,5.683,241252.649,68.916,1,PZT1 on,2.605,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+342,5.7,241252.65,53.337,1,PZT1 on,2.622,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+343,5.717,241252.661,47.782,1,PZT1 on,2.639,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+344,5.733,241252.683,53.508,1,PZT1 on,2.655,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+345,5.75,241252.687,40.846,1,PZT1 on,2.672,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+346,5.767,241252.708,44.916,1,PZT1 on,2.689,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+347,5.783,241252.747,67.547,1,PZT1 on,2.705,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+348,5.8,241252.759,62.25,1,PZT1 on,2.722,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+349,5.817,241252.76,46.466,1,PZT1 on,2.739,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+350,5.833,241252.793,62.799,1,PZT1 on,2.755,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+351,5.85,241252.797,50.888,1,PZT1 on,2.772,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+352,5.867,241252.804,41.27,1,PZT1 on,2.789,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+353,5.883,241252.852,72.205,1,PZT1 on,2.805,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+354,5.9,241252.873,76.495,1,PZT1 on,2.822,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+355,5.917,241252.874,60.453,1,PZT1 on,2.839,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+356,5.933,241252.874,44.614,1,PZT1 on,2.855,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+357,5.95,241252.903,56.981,1,PZT1 on,2.872,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+358,5.967,241252.911,48.239,1,PZT1 on,2.889,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+359,5.983,241252.926,46.196,1,PZT1 on,2.905,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+360,6.0,241252.94,43.877,1,PZT1 on,2.922,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+361,6.017,241252.965,52.272,1,PZT1 on,2.939,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+362,6.033,241252.982,52.283,1,PZT1 on,2.955,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+363,6.05,241252.99,43.898,1,PZT1 on,2.972,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+364,6.067,241253.042,78.795,1,PZT1 on,2.989,stable,0,1,PZT1,0.8,on,0.001,on,0.001,on,0.001,on
+365,6.083,241253.043,63.282,2,PZT1 → PZT2,0.005,transition,1,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+366,6.1,241253.043,46.923,2,PZT1 → PZT2,0.022,transition,1,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+367,6.117,241253.065,52.244,2,PZT1 → PZT2,0.039,transition,1,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+368,6.133,241253.082,52.035,2,PZT1 → PZT2,0.055,transition,1,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+369,6.15,241253.096,49.054,2,PZT1 → PZT2,0.072,transition,1,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+370,6.167,241253.107,43.795,2,PZT1 → PZT2,0.089,transition,1,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+371,6.183,241253.134,53.916,2,PZT1 → PZT2,0.105,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+372,6.2,241253.145,48.375,2,PZT1 → PZT2,0.122,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+373,6.217,241253.157,43.599,2,PZT1 → PZT2,0.139,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+374,6.233,241253.17,40.314,2,PZT1 → PZT2,0.155,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+375,6.25,241253.184,37.41,2,PZT1 → PZT2,0.172,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+376,6.267,241253.208,45.222,2,PZT1 → PZT2,0.189,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+377,6.283,241253.222,42.057,2,PZT1 → PZT2,0.205,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+378,6.3,241253.249,52.103,2,PZT1 → PZT2,0.222,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+379,6.317,241253.271,57.744,2,PZT1 → PZT2,0.239,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+380,6.333,241253.271,41.576,2,PZT1 → PZT2,0.255,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+381,6.35,241253.308,61.854,2,PZT1 → PZT2,0.272,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+382,6.367,241253.318,54.912,2,PZT1 → PZT2,0.289,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+383,6.383,241253.33,49.999,2,PZT1 → PZT2,0.305,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+384,6.4,241253.364,67.803,2,PZT1 → PZT2,0.322,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+385,6.417,241253.368,54.347,2,PZT1 → PZT2,0.339,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+386,6.433,241253.384,54.041,2,PZT1 → PZT2,0.355,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+387,6.45,241253.389,42.366,2,PZT1 → PZT2,0.372,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+388,6.467,241253.419,55.46,2,PZT1 → PZT2,0.389,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+389,6.483,241253.431,51.2,2,PZT1 → PZT2,0.405,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+390,6.5,241253.443,46.925,2,PZT1 → PZT2,0.422,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+391,6.517,241253.467,53.857,2,PZT1 → PZT2,0.439,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+392,6.533,241253.481,51.138,2,PZT1 → PZT2,0.455,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+393,6.55,241253.496,49.856,2,PZT1 → PZT2,0.472,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+394,6.567,241253.51,46.738,2,PZT1 → PZT2,0.489,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+395,6.583,241253.542,62.322,2,PZT1 → PZT2,0.505,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+396,6.6,241253.558,61.698,2,PZT1 → PZT2,0.522,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+397,6.617,241253.559,45.67,2,PZT1 → PZT2,0.539,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+398,6.633,241253.572,41.82,2,PZT1 → PZT2,0.555,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+399,6.65,241253.601,54.315,2,PZT1 → PZT2,0.572,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+400,6.667,241253.616,52.702,2,PZT1 → PZT2,0.589,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+401,6.683,241253.622,42.4,2,PZT1 → PZT2,0.605,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+402,6.7,241253.66,63.109,2,PZT1 → PZT2,0.622,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+403,6.717,241253.664,50.888,2,PZT1 → PZT2,0.639,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+404,6.733,241253.676,45.737,2,PZT1 → PZT2,0.655,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+405,6.75,241253.688,41.748,2,PZT1 → PZT2,0.672,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+406,6.767,241253.713,49.9,2,PZT1 → PZT2,0.689,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+407,6.783,241253.724,44.062,2,PZT1 → PZT2,0.705,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+408,6.8,241253.739,42.404,2,PZT1 → PZT2,0.722,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+409,6.817,241253.771,57.583,2,PZT1 → PZT2,0.739,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+410,6.833,241253.788,58.507,2,PZT1 → PZT2,0.755,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+411,6.85,241253.793,46.251,2,PZT1 → PZT2,0.772,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+412,6.867,241253.806,42.959,2,PZT1 → PZT2,0.789,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+413,6.883,241253.834,54.602,2,PZT1 → PZT2,0.805,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+414,6.9,241253.851,54.775,2,PZT1 → PZT2,0.822,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+415,6.917,241253.853,40.276,2,PZT1 → PZT2,0.839,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+416,6.933,241253.889,58.727,2,PZT1 → PZT2,0.855,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+417,6.95,241253.911,64.704,2,PZT1 → PZT2,0.872,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+418,6.967,241253.912,48.841,2,PZT1 → PZT2,0.889,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+419,6.983,241253.924,44.588,2,PZT1 → PZT2,0.905,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+420,7.0,241253.941,44.172,2,PZT1 → PZT2,0.922,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+421,7.017,241253.967,53.961,2,PZT1 → PZT2,0.939,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+422,7.033,241253.977,47.616,2,PZT1 → PZT2,0.955,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+423,7.05,241254.011,64.592,2,PZT1 → PZT2,0.972,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+424,7.067,241254.013,49.559,2,PZT1 → PZT2,0.989,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+425,7.083,241254.028,47.697,2,PZT1 → PZT2,1.005,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+426,7.1,241254.037,40.45,2,PZT1 → PZT2,1.022,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+427,7.117,241254.066,52.87,2,PZT1 → PZT2,1.039,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+428,7.133,241254.083,52.924,2,PZT1 → PZT2,1.055,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+429,7.15,241254.092,45.378,2,PZT1 → PZT2,1.072,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+430,7.167,241254.121,57.885,2,PZT1 → PZT2,1.089,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+431,7.183,241254.133,52.712,2,PZT1 → PZT2,1.105,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+432,7.2,241254.145,48.372,2,PZT1 → PZT2,1.122,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+433,7.217,241254.183,69.656,2,PZT1 → PZT2,1.139,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+434,7.233,241254.186,55.717,2,PZT1 → PZT2,1.155,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+435,7.25,241254.197,50.09,2,PZT1 → PZT2,1.172,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+436,7.267,241254.218,54.787,2,PZT1 → PZT2,1.189,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+437,7.283,241254.233,53.494,2,PZT1 → PZT2,1.205,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+438,7.3,241254.253,56.131,2,PZT1 → PZT2,1.222,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+439,7.317,241254.26,47.072,2,PZT1 → PZT2,1.239,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+440,7.333,241254.288,58.008,2,PZT1 → PZT2,1.255,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+441,7.35,241254.311,64.434,2,PZT1 → PZT2,1.272,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+442,7.367,241254.312,48.834,2,PZT1 → PZT2,1.289,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+443,7.383,241254.322,42.571,2,PZT1 → PZT2,1.305,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+444,7.4,241254.354,57.159,2,PZT1 → PZT2,1.322,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+445,7.417,241254.367,53.617,2,PZT1 → PZT2,1.339,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+446,7.433,241254.373,43.261,2,PZT1 → PZT2,1.355,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+447,7.45,241254.404,57.971,2,PZT1 → PZT2,1.372,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+448,7.467,241254.415,52.111,2,PZT1 → PZT2,1.389,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+449,7.483,241254.427,46.677,2,PZT1 → PZT2,1.405,stable,0,0,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+450,7.5,241254.436,39.731,2,PZT1 → PZT2,1.422,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+451,7.517,241254.465,52.281,2,PZT1 → PZT2,1.439,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+452,7.533,241254.481,51.545,2,PZT1 → PZT2,1.455,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+453,7.55,241254.503,56.674,2,PZT1 → PZT2,1.472,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+454,7.567,241254.539,76.034,2,PZT1 → PZT2,1.489,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+455,7.583,241254.541,60.651,2,PZT1 → PZT2,1.505,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+456,7.6,241254.546,49.005,2,PZT1 → PZT2,1.522,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+457,7.617,241254.567,53.907,2,PZT1 → PZT2,1.539,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+458,7.633,241254.579,48.682,2,PZT1 → PZT2,1.555,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+459,7.65,241254.591,44.578,2,PZT1 → PZT2,1.572,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+460,7.667,241254.619,56.205,2,PZT1 → PZT2,1.589,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+461,7.683,241254.627,46.693,2,PZT1 → PZT2,1.605,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+462,7.7,241254.646,49.615,2,PZT1 → PZT2,1.622,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+463,7.717,241254.668,55.012,2,PZT1 → PZT2,1.639,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+464,7.733,241254.685,54.841,2,PZT1 → PZT2,1.655,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+465,7.75,241254.696,49.861,2,PZT1 → PZT2,1.672,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+466,7.767,241254.731,68.009,2,PZT1 → PZT2,1.689,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+467,7.783,241254.732,52.472,2,PZT1 → PZT2,1.705,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+468,7.8,241254.74,43.343,2,PZT1 → PZT2,1.722,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+469,7.817,241254.759,46.189,2,PZT1 → PZT2,1.739,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+470,7.833,241254.796,65.651,2,PZT1 → PZT2,1.755,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+471,7.85,241254.797,50.458,2,PZT1 → PZT2,1.772,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+472,7.867,241254.808,44.613,2,PZT1 → PZT2,1.789,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+473,7.883,241254.852,71.709,2,PZT1 → PZT2,1.805,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+474,7.9,241254.865,68.402,2,PZT1 → PZT2,1.822,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+475,7.917,241254.866,52.678,2,PZT1 → PZT2,1.839,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+476,7.933,241254.878,47.755,2,PZT1 → PZT2,1.855,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+477,7.95,241254.898,51.557,2,PZT1 → PZT2,1.872,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+478,7.967,241254.909,46.276,2,PZT1 → PZT2,1.889,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+479,7.983,241254.923,43.38,2,PZT1 → PZT2,1.905,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+480,8.0,241254.947,50.847,2,PZT1 → PZT2,1.922,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+481,8.017,241254.96,47.209,2,PZT1 → PZT2,1.939,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+482,8.033,241254.977,47.41,2,PZT1 → PZT2,1.955,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+483,8.05,241254.989,42.265,2,PZT1 → PZT2,1.972,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+484,8.067,241255.015,51.41,2,PZT1 → PZT2,1.989,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+485,8.083,241255.019,39.3,2,PZT1 → PZT2,2.005,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+486,8.1,241255.04,42.993,2,PZT1 → PZT2,2.022,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+487,8.117,241255.071,57.898,2,PZT1 → PZT2,2.039,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+488,8.133,241255.092,61.948,2,PZT1 → PZT2,2.055,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+489,8.15,241255.093,46.712,2,PZT1 → PZT2,2.072,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+490,8.167,241255.107,43.571,2,PZT1 → PZT2,2.089,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+491,8.183,241255.136,56.43,2,PZT1 → PZT2,2.105,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+492,8.2,241255.151,54.896,2,PZT1 → PZT2,2.122,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+493,8.217,241255.155,41.772,2,PZT1 → PZT2,2.139,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+494,8.233,241255.188,57.779,2,PZT1 → PZT2,2.155,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+495,8.25,241255.198,51.681,2,PZT1 → PZT2,2.172,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+496,8.267,241255.212,49.068,2,PZT1 → PZT2,2.189,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+497,8.283,241255.222,41.653,2,PZT1 → PZT2,2.205,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+498,8.3,241255.258,61.532,2,PZT1 → PZT2,2.222,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+499,8.317,241255.268,54.356,2,PZT1 → PZT2,2.239,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+500,8.333,241255.278,47.692,2,PZT1 → PZT2,2.255,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+501,8.35,241255.304,57.686,2,PZT1 → PZT2,2.272,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+502,8.367,241255.314,50.858,2,PZT1 → PZT2,2.289,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+503,8.383,241255.326,46.218,2,PZT1 → PZT2,2.305,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+504,8.4,241255.36,63.723,2,PZT1 → PZT2,2.322,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+505,8.417,241255.373,59.964,2,PZT1 → PZT2,2.339,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+506,8.433,241255.379,49.353,2,PZT1 → PZT2,2.355,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+507,8.45,241255.4,53.819,2,PZT1 → PZT2,2.372,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+508,8.467,241255.416,53.09,2,PZT1 → PZT2,2.389,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+509,8.483,241255.424,44.53,2,PZT1 → PZT2,2.405,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+510,8.5,241255.455,58.393,2,PZT1 → PZT2,2.422,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+511,8.517,241255.477,63.395,2,PZT1 → PZT2,2.439,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+512,8.533,241255.482,51.685,2,PZT1 → PZT2,2.455,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+513,8.55,241255.493,46.88,2,PZT1 → PZT2,2.472,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+514,8.567,241255.522,58.734,2,PZT1 → PZT2,2.489,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+515,8.583,241255.54,59.661,2,PZT1 → PZT2,2.505,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+516,8.6,241255.549,52.88,2,PZT1 → PZT2,2.522,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+517,8.617,241255.56,47.061,2,PZT1 → PZT2,2.539,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+518,8.633,241255.587,56.66,2,PZT1 → PZT2,2.555,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+519,8.65,241255.6,53.542,2,PZT1 → PZT2,2.572,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+520,8.667,241255.611,47.817,2,PZT1 → PZT2,2.589,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+521,8.683,241255.635,55.095,2,PZT1 → PZT2,2.605,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+522,8.7,241255.655,58.396,2,PZT1 → PZT2,2.622,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+523,8.717,241255.66,46.744,2,PZT1 → PZT2,2.639,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+524,8.733,241255.688,58.135,2,PZT1 → PZT2,2.655,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+525,8.75,241255.701,54.565,2,PZT1 → PZT2,2.672,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+526,8.767,241255.712,48.523,2,PZT1 → PZT2,2.689,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+527,8.783,241255.75,70.121,2,PZT1 → PZT2,2.705,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+528,8.8,241255.767,70.732,2,PZT1 → PZT2,2.722,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+529,8.817,241255.768,55.103,2,PZT1 → PZT2,2.739,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+530,8.833,241255.798,68.103,2,PZT1 → PZT2,2.755,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+531,8.85,241255.808,61.081,2,PZT1 → PZT2,2.772,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+532,8.867,241255.812,49.168,2,PZT1 → PZT2,2.789,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+533,8.883,241255.828,47.873,2,PZT1 → PZT2,2.805,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+534,8.9,241255.855,58.576,2,PZT1 → PZT2,2.822,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+535,8.917,241255.867,53.827,2,PZT1 → PZT2,2.839,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+536,8.933,241255.879,49.219,2,PZT1 → PZT2,2.855,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+537,8.95,241255.894,47.715,2,PZT1 → PZT2,2.872,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+538,8.967,241255.913,50.314,2,PZT1 → PZT2,2.889,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+539,8.983,241255.935,55.027,2,PZT1 → PZT2,2.905,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+540,9.0,241255.946,49.429,2,PZT1 → PZT2,2.922,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+541,9.017,241255.97,57.193,2,PZT1 → PZT2,2.939,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+542,9.033,241255.986,56.166,2,PZT1 → PZT2,2.955,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+543,9.05,241255.991,44.149,2,PZT1 → PZT2,2.972,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+544,9.067,241256.032,68.611,2,PZT1 → PZT2,2.989,stable,0,1,PZT2,0.001,on,0.8,on,0.001,on,0.001,on
+545,9.083,241256.047,66.661,3,PZT2 → PZT3,0.005,transition,1,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+546,9.1,241256.051,54.19,3,PZT2 → PZT3,0.022,transition,1,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+547,9.117,241256.086,73.111,3,PZT2 → PZT3,0.038,transition,1,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+548,9.133,241256.087,57.229,3,PZT2 → PZT3,0.055,transition,1,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+549,9.15,241256.099,52.604,3,PZT2 → PZT3,0.072,transition,1,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+550,9.167,241256.107,43.445,3,PZT2 → PZT3,0.088,transition,1,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+551,9.183,241256.125,45.322,3,PZT2 → PZT3,0.105,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+552,9.2,241256.145,48.562,3,PZT2 → PZT3,0.122,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+553,9.217,241256.159,45.86,3,PZT2 → PZT3,0.138,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+554,9.233,241256.197,66.73,3,PZT2 → PZT3,0.155,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+555,9.25,241256.198,51.3,3,PZT2 → PZT3,0.172,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+556,9.267,241256.211,48.0,3,PZT2 → PZT3,0.188,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+557,9.283,241256.266,86.087,3,PZT2 → PZT3,0.205,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+558,9.3,241256.267,70.54,3,PZT2 → PZT3,0.222,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+559,9.317,241256.268,55.195,3,PZT2 → PZT3,0.238,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+560,9.333,241256.269,39.181,3,PZT2 → PZT3,0.255,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+561,9.35,241256.304,57.832,3,PZT2 → PZT3,0.272,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+562,9.367,241256.306,43.314,3,PZT2 → PZT3,0.288,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+563,9.383,241256.319,39.239,3,PZT2 → PZT3,0.305,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+564,9.4,241256.332,35.019,3,PZT2 → PZT3,0.322,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+565,9.417,241256.357,43.32,3,PZT2 → PZT3,0.338,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+566,9.433,241256.375,45.476,3,PZT2 → PZT3,0.355,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+567,9.45,241256.378,31.872,3,PZT2 → PZT3,0.372,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+568,9.467,241256.413,50.311,3,PZT2 → PZT3,0.388,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+569,9.483,241256.422,42.25,3,PZT2 → PZT3,0.405,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+570,9.5,241256.435,38.352,3,PZT2 → PZT3,0.422,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+571,9.517,241256.446,33.295,3,PZT2 → PZT3,0.438,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+572,9.533,241256.477,47.106,3,PZT2 → PZT3,0.455,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+573,9.55,241256.48,33.197,3,PZT2 → PZT3,0.472,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+574,9.567,241256.491,27.938,3,PZT2 → PZT3,0.488,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+575,9.583,241256.526,46.575,3,PZT2 → PZT3,0.505,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+576,9.6,241256.537,40.293,3,PZT2 → PZT3,0.522,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+577,9.617,241256.549,36.213,3,PZT2 → PZT3,0.538,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+578,9.633,241256.561,30.99,3,PZT2 → PZT3,0.555,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+579,9.65,241256.584,37.894,3,PZT2 → PZT3,0.572,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+580,9.667,241256.596,32.92,3,PZT2 → PZT3,0.588,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+581,9.683,241256.612,31.795,3,PZT2 → PZT3,0.605,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+582,9.7,241256.644,47.678,3,PZT2 → PZT3,0.622,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+583,9.717,241256.655,42.277,3,PZT2 → PZT3,0.638,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+584,9.733,241256.664,34.592,3,PZT2 → PZT3,0.655,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+585,9.75,241256.676,29.732,3,PZT2 → PZT3,0.672,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+586,9.767,241256.707,44.309,3,PZT2 → PZT3,0.688,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+587,9.783,241256.714,34.139,3,PZT2 → PZT3,0.705,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+588,9.8,241256.73,33.366,3,PZT2 → PZT3,0.722,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+589,9.817,241256.762,48.481,3,PZT2 → PZT3,0.738,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+590,9.833,241256.778,47.789,3,PZT2 → PZT3,0.755,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+591,9.85,241256.781,34.974,3,PZT2 → PZT3,0.772,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+592,9.867,241256.791,27.459,3,PZT2 → PZT3,0.788,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+593,9.883,241256.819,38.889,3,PZT2 → PZT3,0.805,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+594,9.9,241256.836,39.689,3,PZT2 → PZT3,0.822,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+595,9.917,241256.838,25.141,3,PZT2 → PZT3,0.838,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+596,9.933,241256.848,18.497,3,PZT2 → PZT3,0.855,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+597,9.95,241256.874,27.174,3,PZT2 → PZT3,0.872,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+598,9.967,241256.891,28.232,3,PZT2 → PZT3,0.888,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+599,9.983,241256.896,16.526,3,PZT2 → PZT3,0.905,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+600,10.0,241256.938,41.225,3,PZT2 → PZT3,0.922,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+601,10.017,241256.951,37.596,3,PZT2 → PZT3,0.938,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+602,10.033,241256.951,21.379,3,PZT2 → PZT3,0.955,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+603,10.05,241256.984,37.638,3,PZT2 → PZT3,0.972,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+604,10.067,241257.001,37.412,3,PZT2 → PZT3,0.988,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+605,10.083,241257.002,21.899,3,PZT2 → PZT3,1.005,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+606,10.1,241257.024,27.01,3,PZT2 → PZT3,1.022,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+607,10.117,241257.04,26.361,3,PZT2 → PZT3,1.038,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+608,10.133,241257.055,25.221,3,PZT2 → PZT3,1.055,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+609,10.15,241257.067,20.438,3,PZT2 → PZT3,1.072,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+610,10.167,241257.089,25.772,3,PZT2 → PZT3,1.088,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+611,10.183,241257.111,31.236,3,PZT2 → PZT3,1.105,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+612,10.2,241257.113,16.113,3,PZT2 → PZT3,1.122,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+613,10.217,241257.147,34.142,3,PZT2 → PZT3,1.138,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+614,10.233,241257.168,38.257,3,PZT2 → PZT3,1.155,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+615,10.25,241257.168,21.789,3,PZT2 → PZT3,1.172,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+616,10.267,241257.184,21.115,3,PZT2 → PZT3,1.188,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+617,10.283,241257.205,24.67,3,PZT2 → PZT3,1.205,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+618,10.3,241257.22,23.465,3,PZT2 → PZT3,1.222,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+619,10.317,241257.23,16.641,3,PZT2 → PZT3,1.238,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+620,10.333,241257.267,37.504,3,PZT2 → PZT3,1.255,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+621,10.35,241257.268,21.961,3,PZT2 → PZT3,1.272,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+622,10.367,241257.281,17.537,3,PZT2 → PZT3,1.288,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+623,10.383,241257.32,40.581,3,PZT2 → PZT3,1.305,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+624,10.4,241257.321,24.758,3,PZT2 → PZT3,1.322,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+625,10.417,241257.334,20.729,3,PZT2 → PZT3,1.338,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+626,10.433,241257.34,10.506,3,PZT2 → PZT3,1.355,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+627,10.45,241257.37,23.469,3,PZT2 → PZT3,1.372,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+628,10.467,241257.375,12.16,3,PZT2 → PZT3,1.388,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+629,10.483,241257.395,15.264,3,PZT2 → PZT3,1.405,stable,0,0,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+630,10.5,241257.407,10.395,3,PZT2 → PZT3,1.422,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+631,10.517,241257.423,10.263,3,PZT2 → PZT3,1.438,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+632,10.533,241257.444,14.362,3,PZT2 → PZT3,1.455,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+633,10.55,241257.456,9.455,3,PZT2 → PZT3,1.472,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+634,10.567,241257.489,26.309,3,PZT2 → PZT3,1.488,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+635,10.583,241257.508,27.964,3,PZT2 → PZT3,1.505,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+636,10.6,241257.518,21.277,3,PZT2 → PZT3,1.522,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+637,10.617,241257.575,61.744,3,PZT2 → PZT3,1.538,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+638,10.633,241257.576,45.921,3,PZT2 → PZT3,1.555,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+639,10.65,241257.576,29.627,3,PZT2 → PZT3,1.572,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+640,10.667,241257.577,13.318,3,PZT2 → PZT3,1.588,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+641,10.683,241257.607,26.779,3,PZT2 → PZT3,1.605,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+642,10.7,241257.624,27.406,3,PZT2 → PZT3,1.622,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+643,10.717,241257.628,14.425,3,PZT2 → PZT3,1.638,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+644,10.733,241257.652,21.765,3,PZT2 → PZT3,1.655,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+645,10.75,241257.661,14.709,3,PZT2 → PZT3,1.672,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+646,10.767,241257.68,16.994,3,PZT2 → PZT3,1.688,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+647,10.783,241257.692,12.115,3,PZT2 → PZT3,1.705,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+648,10.8,241257.715,18.283,3,PZT2 → PZT3,1.722,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+649,10.817,241257.733,19.995,3,PZT2 → PZT3,1.738,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+650,10.833,241257.768,38.233,3,PZT2 → PZT3,1.755,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+651,10.85,241257.787,40.183,3,PZT2 → PZT3,1.772,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+652,10.867,241257.787,23.941,3,PZT2 → PZT3,1.788,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+653,10.883,241257.791,11.202,3,PZT2 → PZT3,1.805,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+654,10.9,241257.824,27.639,3,PZT2 → PZT3,1.822,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+655,10.917,241257.84,27.038,3,PZT2 → PZT3,1.838,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+656,10.933,241257.844,14.353,3,PZT2 → PZT3,1.855,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+657,10.95,241257.882,35.659,3,PZT2 → PZT3,1.872,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+658,10.967,241257.894,31.04,3,PZT2 → PZT3,1.888,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+659,10.983,241257.899,19.169,3,PZT2 → PZT3,1.905,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+660,11.0,241257.924,27.785,3,PZT2 → PZT3,1.922,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+661,11.017,241257.942,28.704,3,PZT2 → PZT3,1.938,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+662,11.033,241257.956,26.401,3,PZT2 → PZT3,1.955,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+663,11.05,241257.992,45.637,3,PZT2 → PZT3,1.972,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+664,11.067,241257.993,30.067,3,PZT2 → PZT3,1.988,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+665,11.083,241258.0,19.996,3,PZT2 → PZT3,2.005,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+666,11.1,241258.013,16.21,3,PZT2 → PZT3,2.022,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+667,11.117,241258.066,52.635,3,PZT2 → PZT3,2.038,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+668,11.133,241258.067,37.531,3,PZT2 → PZT3,2.055,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+669,11.15,241258.068,21.799,3,PZT2 → PZT3,2.072,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+670,11.167,241258.1,36.97,3,PZT2 → PZT3,2.088,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+671,11.183,241258.109,29.322,3,PZT2 → PZT3,2.105,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+672,11.2,241258.12,23.889,3,PZT2 → PZT3,2.122,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+673,11.217,241258.13,17.102,3,PZT2 → PZT3,2.138,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+674,11.233,241258.159,28.675,3,PZT2 → PZT3,2.155,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+675,11.25,241258.169,22.081,3,PZT2 → PZT3,2.172,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+676,11.267,241258.182,19.213,3,PZT2 → PZT3,2.188,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+677,11.283,241258.221,41.062,3,PZT2 → PZT3,2.205,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+678,11.3,241258.223,26.763,3,PZT2 → PZT3,2.222,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+679,11.317,241258.236,23.13,3,PZT2 → PZT3,2.238,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+680,11.333,241258.272,41.79,3,PZT2 → PZT3,2.255,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+681,11.35,241258.272,25.722,3,PZT2 → PZT3,2.272,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+682,11.367,241258.289,25.405,3,PZT2 → PZT3,2.288,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+683,11.383,241258.298,18.254,3,PZT2 → PZT3,2.305,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+684,11.4,241258.325,28.046,3,PZT2 → PZT3,2.322,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+685,11.417,241258.34,27.193,3,PZT2 → PZT3,2.338,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+686,11.433,241258.348,17.947,3,PZT2 → PZT3,2.355,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+687,11.45,241258.381,34.919,3,PZT2 → PZT3,2.372,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+688,11.467,241258.401,37.685,3,PZT2 → PZT3,2.388,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+689,11.483,241258.402,21.782,3,PZT2 → PZT3,2.405,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+690,11.5,241258.413,16.427,3,PZT2 → PZT3,2.422,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+691,11.517,241258.441,27.343,3,PZT2 → PZT3,2.438,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+692,11.533,241258.459,28.686,3,PZT2 → PZT3,2.455,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+693,11.55,241258.461,14.252,3,PZT2 → PZT3,2.472,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+694,11.567,241258.499,35.737,3,PZT2 → PZT3,2.488,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+695,11.583,241258.514,34.25,3,PZT2 → PZT3,2.505,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+696,11.6,241258.515,18.269,3,PZT2 → PZT3,2.522,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+697,11.617,241258.527,13.769,3,PZT2 → PZT3,2.538,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+698,11.633,241258.559,29.554,3,PZT2 → PZT3,2.555,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+699,11.65,241258.572,25.031,3,PZT2 → PZT3,2.572,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+700,11.667,241258.581,17.983,3,PZT2 → PZT3,2.588,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+701,11.683,241258.609,29.113,3,PZT2 → PZT3,2.605,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+702,11.7,241258.62,23.175,3,PZT2 → PZT3,2.622,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+703,11.717,241258.633,19.779,3,PZT2 → PZT3,2.638,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+704,11.733,241258.672,42.338,3,PZT2 → PZT3,2.655,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+705,11.75,241258.685,38.171,3,PZT2 → PZT3,2.672,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+706,11.767,241258.686,22.383,3,PZT2 → PZT3,2.688,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+707,11.783,241258.721,41.162,3,PZT2 → PZT3,2.705,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+708,11.8,241258.722,25.884,3,PZT2 → PZT3,2.722,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+709,11.817,241258.742,29.195,3,PZT2 → PZT3,2.738,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+710,11.833,241258.752,21.7,3,PZT2 → PZT3,2.755,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+711,11.85,241258.777,30.091,3,PZT2 → PZT3,2.772,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+712,11.867,241258.797,33.823,3,PZT2 → PZT3,2.788,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+713,11.883,241258.798,17.78,3,PZT2 → PZT3,2.805,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+714,11.9,241258.828,31.413,3,PZT2 → PZT3,2.822,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+715,11.917,241258.843,30.089,3,PZT2 → PZT3,2.838,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+716,11.933,241258.856,26.533,3,PZT2 → PZT3,2.855,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+717,11.95,241258.869,22.838,3,PZT2 → PZT3,2.872,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+718,11.967,241258.897,33.595,3,PZT2 → PZT3,2.888,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+719,11.983,241258.909,28.944,3,PZT2 → PZT3,2.905,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+720,12.0,241258.913,15.995,3,PZT2 → PZT3,2.922,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+721,12.017,241258.967,53.362,3,PZT2 → PZT3,2.938,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+722,12.033,241258.968,37.861,3,PZT2 → PZT3,2.955,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+723,12.05,241258.968,21.494,3,PZT2 → PZT3,2.972,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+724,12.067,241258.978,15.047,3,PZT2 → PZT3,2.988,stable,0,1,PZT3,0.001,on,0.001,on,0.8,on,0.001,on
+725,12.083,241259.014,34.443,4,PZT3 → PZT4,0.005,transition,1,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+726,12.1,241259.027,30.525,4,PZT3 → PZT4,0.022,transition,1,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+727,12.117,241259.032,18.479,4,PZT3 → PZT4,0.039,transition,1,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+728,12.133,241259.081,51.419,4,PZT3 → PZT4,0.055,transition,1,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+729,12.15,241259.082,35.288,4,PZT3 → PZT4,0.072,transition,1,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+730,12.167,241259.082,18.885,4,PZT3 → PZT4,0.089,transition,1,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+731,12.183,241259.118,37.852,4,PZT3 → PZT4,0.105,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+732,12.2,241259.119,22.334,4,PZT3 → PZT4,0.122,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+733,12.217,241259.138,24.926,4,PZT3 → PZT4,0.139,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+734,12.233,241259.148,18.221,4,PZT3 → PZT4,0.155,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+735,12.25,241259.175,28.726,4,PZT3 → PZT4,0.172,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+736,12.267,241259.185,21.97,4,PZT3 → PZT4,0.189,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+737,12.283,241259.197,16.968,4,PZT3 → PZT4,0.205,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+738,12.3,241259.207,10.174,4,PZT3 → PZT4,0.222,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+739,12.317,241259.236,22.522,4,PZT3 → PZT4,0.239,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+740,12.333,241259.254,24.301,4,PZT3 → PZT4,0.255,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+741,12.35,241259.259,12.547,4,PZT3 → PZT4,0.272,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+742,12.367,241259.291,27.658,4,PZT3 → PZT4,0.289,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+743,12.383,241259.304,23.714,4,PZT3 → PZT4,0.305,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+744,12.4,241259.314,17.694,4,PZT3 → PZT4,0.322,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+745,12.417,241259.328,14.395,4,PZT3 → PZT4,0.339,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+746,12.433,241259.357,27.116,4,PZT3 → PZT4,0.355,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+747,12.45,241259.371,24.351,4,PZT3 → PZT4,0.372,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+748,12.467,241259.405,41.613,4,PZT3 → PZT4,0.389,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+749,12.483,241259.411,31.571,4,PZT3 → PZT4,0.405,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+750,12.5,241259.426,29.483,4,PZT3 → PZT4,0.422,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+751,12.517,241259.431,17.927,4,PZT3 → PZT4,0.439,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+752,12.533,241259.457,27.394,4,PZT3 → PZT4,0.455,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+753,12.55,241259.47,23.128,4,PZT3 → PZT4,0.472,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+754,12.567,241259.482,19.175,4,PZT3 → PZT4,0.489,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+755,12.583,241259.496,15.77,4,PZT3 → PZT4,0.505,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+756,12.6,241259.525,28.892,4,PZT3 → PZT4,0.522,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+757,12.617,241259.541,27.394,4,PZT3 → PZT4,0.539,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+758,12.633,241259.549,18.788,4,PZT3 → PZT4,0.555,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+759,12.65,241259.587,40.194,4,PZT3 → PZT4,0.572,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+760,12.667,241259.589,25.478,4,PZT3 → PZT4,0.589,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+761,12.683,241259.6,20.385,4,PZT3 → PZT4,0.605,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+762,12.7,241259.613,15.985,4,PZT3 → PZT4,0.622,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+763,12.717,241259.636,22.541,4,PZT3 → PZT4,0.639,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+764,12.733,241259.658,28.022,4,PZT3 → PZT4,0.655,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+765,12.75,241259.663,16.76,4,PZT3 → PZT4,0.672,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+766,12.767,241259.688,24.424,4,PZT3 → PZT4,0.689,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+767,12.783,241259.701,20.919,4,PZT3 → PZT4,0.705,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+768,12.8,241259.718,21.337,4,PZT3 → PZT4,0.722,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+769,12.817,241259.728,14.876,4,PZT3 → PZT4,0.739,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+770,12.833,241259.755,25.4,4,PZT3 → PZT4,0.755,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+771,12.85,241259.775,28.963,4,PZT3 → PZT4,0.772,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+772,12.867,241259.78,16.365,4,PZT3 → PZT4,0.789,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+773,12.883,241259.818,38.099,4,PZT3 → PZT4,0.805,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+774,12.9,241259.835,38.139,4,PZT3 → PZT4,0.822,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+775,12.917,241259.837,23.327,4,PZT3 → PZT4,0.839,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+776,12.933,241259.844,14.341,4,PZT3 → PZT4,0.855,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+777,12.95,241259.872,25.296,4,PZT3 → PZT4,0.872,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+778,12.967,241259.875,12.003,4,PZT3 → PZT4,0.889,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+779,12.983,241259.895,15.131,4,PZT3 → PZT4,0.905,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+780,13.0,241259.934,37.302,4,PZT3 → PZT4,0.922,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+781,13.017,241259.951,37.428,4,PZT3 → PZT4,0.939,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+782,13.033,241259.952,21.732,4,PZT3 → PZT4,0.955,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+783,13.05,241259.973,26.581,4,PZT3 → PZT4,0.972,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+784,13.067,241259.985,21.724,4,PZT3 → PZT4,0.989,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+785,13.083,241259.995,15.31,4,PZT3 → PZT4,1.005,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+786,13.1,241260.047,49.999,4,PZT3 → PZT4,1.022,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+787,13.117,241260.059,46.148,4,PZT3 → PZT4,1.039,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+788,13.133,241260.061,31.27,4,PZT3 → PZT4,1.055,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+789,13.15,241260.072,25.323,4,PZT3 → PZT4,1.072,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+790,13.167,241260.096,32.371,4,PZT3 → PZT4,1.089,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+791,13.183,241260.117,37.3,4,PZT3 → PZT4,1.105,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+792,13.2,241260.118,21.978,4,PZT3 → PZT4,1.122,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+793,13.217,241260.131,17.921,4,PZT3 → PZT4,1.139,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+794,13.233,241260.158,28.231,4,PZT3 → PZT4,1.155,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+795,13.25,241260.174,27.396,4,PZT3 → PZT4,1.172,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+796,13.267,241260.196,32.495,4,PZT3 → PZT4,1.189,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+797,13.283,241260.21,30.084,4,PZT3 → PZT4,1.205,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+798,13.3,241260.221,24.804,4,PZT3 → PZT4,1.222,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+799,13.317,241260.234,20.334,4,PZT3 → PZT4,1.239,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+800,13.333,241260.261,30.758,4,PZT3 → PZT4,1.255,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+801,13.35,241260.28,33.039,4,PZT3 → PZT4,1.272,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+802,13.367,241260.284,21.001,4,PZT3 → PZT4,1.289,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+803,13.383,241260.307,27.433,4,PZT3 → PZT4,1.305,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+804,13.4,241260.326,29.267,4,PZT3 → PZT4,1.322,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+805,13.417,241260.34,26.444,4,PZT3 → PZT4,1.339,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+806,13.433,241260.346,16.023,4,PZT3 → PZT4,1.355,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+807,13.45,241260.377,30.216,4,PZT3 → PZT4,1.372,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+808,13.467,241260.394,30.863,4,PZT3 → PZT4,1.389,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+809,13.483,241260.4,19.743,4,PZT3 → PZT4,1.405,stable,0,0,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+810,13.5,241260.428,31.195,4,PZT3 → PZT4,1.422,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+811,13.517,241260.443,29.927,4,PZT3 → PZT4,1.439,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+812,13.533,241260.454,24.393,4,PZT3 → PZT4,1.455,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+813,13.55,241260.467,20.424,4,PZT3 → PZT4,1.472,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+814,13.567,241260.493,29.494,4,PZT3 → PZT4,1.489,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+815,13.583,241260.51,30.426,4,PZT3 → PZT4,1.505,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+816,13.6,241260.517,20.035,4,PZT3 → PZT4,1.522,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+817,13.617,241260.549,35.481,4,PZT3 → PZT4,1.539,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+818,13.633,241260.573,43.424,4,PZT3 → PZT4,1.555,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+819,13.65,241260.574,27.196,4,PZT3 → PZT4,1.572,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+820,13.667,241260.612,48.895,4,PZT3 → PZT4,1.589,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+821,13.683,241260.624,44.153,4,PZT3 → PZT4,1.605,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+822,13.7,241260.624,27.655,4,PZT3 → PZT4,1.622,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+823,13.717,241260.661,48.279,4,PZT3 → PZT4,1.639,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+824,13.733,241260.664,34.132,4,PZT3 → PZT4,1.655,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+825,13.75,241260.675,28.386,4,PZT3 → PZT4,1.672,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+826,13.767,241260.677,14.166,4,PZT3 → PZT4,1.689,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+827,13.783,241260.708,28.626,4,PZT3 → PZT4,1.705,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+828,13.8,241260.719,22.79,4,PZT3 → PZT4,1.722,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+829,13.817,241260.734,20.908,4,PZT3 → PZT4,1.739,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+830,13.833,241260.756,26.526,4,PZT3 → PZT4,1.755,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+831,13.85,241260.774,27.803,4,PZT3 → PZT4,1.772,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+832,13.867,241260.787,24.226,4,PZT3 → PZT4,1.789,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+833,13.883,241260.798,17.835,4,PZT3 → PZT4,1.805,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+834,13.9,241260.827,30.047,4,PZT3 → PZT4,1.822,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+835,13.917,241260.829,16.167,4,PZT3 → PZT4,1.839,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+836,13.933,241260.849,19.392,4,PZT3 → PZT4,1.855,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+837,13.95,241260.877,30.653,4,PZT3 → PZT4,1.872,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+838,13.967,241260.895,31.586,4,PZT3 → PZT4,1.889,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+839,13.983,241260.902,21.875,4,PZT3 → PZT4,1.905,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+840,14.0,241260.935,38.886,4,PZT3 → PZT4,1.922,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+841,14.017,241260.955,41.96,4,PZT3 → PZT4,1.939,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+842,14.033,241260.956,26.089,4,PZT3 → PZT4,1.955,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+843,14.05,241260.99,43.564,4,PZT3 → PZT4,1.972,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+844,14.067,241260.994,30.744,4,PZT3 → PZT4,1.989,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+845,14.083,241261.011,31.242,4,PZT3 → PZT4,2.005,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+846,14.1,241261.016,19.048,4,PZT3 → PZT4,2.022,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+847,14.117,241261.052,38.465,4,PZT3 → PZT4,2.039,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+848,14.133,241261.057,27.459,4,PZT3 → PZT4,2.055,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+849,14.15,241261.069,22.405,4,PZT3 → PZT4,2.072,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+850,14.167,241261.107,43.344,4,PZT3 → PZT4,2.089,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+851,14.183,241261.116,36.561,4,PZT3 → PZT4,2.105,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+852,14.2,241261.127,30.806,4,PZT3 → PZT4,2.122,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+853,14.217,241261.134,20.768,4,PZT3 → PZT4,2.139,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+854,14.233,241261.155,25.426,4,PZT3 → PZT4,2.155,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+855,14.25,241261.173,26.966,4,PZT3 → PZT4,2.172,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+856,14.267,241261.186,22.606,4,PZT3 → PZT4,2.189,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+857,14.283,241261.199,19.121,4,PZT3 → PZT4,2.205,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+858,14.3,241261.224,27.342,4,PZT3 → PZT4,2.222,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+859,14.317,241261.241,28.228,4,PZT3 → PZT4,2.239,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+860,14.333,241261.248,18.233,4,PZT3 → PZT4,2.255,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+861,14.35,241261.283,36.609,4,PZT3 → PZT4,2.272,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+862,14.367,241261.291,27.595,4,PZT3 → PZT4,2.289,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+863,14.383,241261.303,23.101,4,PZT3 → PZT4,2.305,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+864,14.4,241261.315,18.714,4,PZT3 → PZT4,2.322,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+865,14.417,241261.341,28.085,4,PZT3 → PZT4,2.339,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+866,14.433,241261.359,28.911,4,PZT3 → PZT4,2.355,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+867,14.45,241261.37,23.135,4,PZT3 → PZT4,2.372,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+868,14.467,241261.395,32.25,4,PZT3 → PZT4,2.389,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+869,14.483,241261.404,24.617,4,PZT3 → PZT4,2.405,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+870,14.5,241261.418,21.84,4,PZT3 → PZT4,2.422,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+871,14.517,241261.46,47.117,4,PZT3 → PZT4,2.439,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+872,14.533,241261.473,43.423,4,PZT3 → PZT4,2.455,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+873,14.55,241261.474,27.83,4,PZT3 → PZT4,2.472,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+874,14.567,241261.487,23.464,4,PZT3 → PZT4,2.489,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+875,14.583,241261.508,28.597,4,PZT3 → PZT4,2.505,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+876,14.6,241261.531,34.406,4,PZT3 → PZT4,2.522,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+877,14.617,241261.533,19.695,4,PZT3 → PZT4,2.539,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+878,14.633,241261.557,27.557,4,PZT3 → PZT4,2.555,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+879,14.65,241261.57,23.976,4,PZT3 → PZT4,2.572,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+880,14.667,241261.586,23.133,4,PZT3 → PZT4,2.589,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+881,14.683,241261.6,20.087,4,PZT3 → PZT4,2.605,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+882,14.7,241261.623,26.612,4,PZT3 → PZT4,2.622,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+883,14.717,241261.637,23.772,4,PZT3 → PZT4,2.639,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+884,14.733,241261.648,18.544,4,PZT3 → PZT4,2.655,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+885,14.75,241261.688,41.107,4,PZT3 → PZT4,2.672,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+886,14.767,241261.689,25.469,4,PZT3 → PZT4,2.689,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+887,14.783,241261.707,27.123,4,PZT3 → PZT4,2.705,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+888,14.8,241261.744,47.455,4,PZT3 → PZT4,2.722,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+889,14.817,241261.757,43.422,4,PZT3 → PZT4,2.739,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+890,14.833,241261.758,28.627,4,PZT3 → PZT4,2.755,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+891,14.85,241261.764,17.279,4,PZT3 → PZT4,2.772,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+892,14.867,241261.793,30.049,4,PZT3 → PZT4,2.789,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+893,14.883,241261.812,31.843,4,PZT3 → PZT4,2.805,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+894,14.9,241261.813,16.37,4,PZT3 → PZT4,2.822,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+895,14.917,241261.817,3.488,4,PZT3 → PZT4,2.839,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+896,14.933,241261.854,23.747,4,PZT3 → PZT4,2.855,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+897,14.95,241261.857,10.663,4,PZT3 → PZT4,2.872,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+898,14.967,241261.869,5.943,4,PZT3 → PZT4,2.889,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+899,14.983,241261.882,2.155,4,PZT3 → PZT4,2.905,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+900,15.0,241261.908,11.732,4,PZT3 → PZT4,2.922,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+901,15.017,241261.917,3.785,4,PZT3 → PZT4,2.939,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+902,15.033,241261.932,1.742,4,PZT3 → PZT4,2.955,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+903,15.05,241261.98,33.31,4,PZT3 → PZT4,2.972,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+904,15.067,241261.986,22.448,4,PZT3 → PZT4,2.989,stable,0,1,PZT4,0.001,on,0.001,on,0.001,on,0.8,on
+905,15.083,241261.986,6.549,5,PZT4 → PZT1+PZT3,0.005,transition,1,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+906,15.1,241262.012,15.152,5,PZT4 → PZT1+PZT3,0.022,transition,1,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+907,15.117,241262.023,10.087,5,PZT4 → PZT1+PZT3,0.039,transition,1,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+908,15.133,241262.043,13.389,5,PZT4 → PZT1+PZT3,0.055,transition,1,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+909,15.15,241262.078,31.234,5,PZT4 → PZT1+PZT3,0.072,transition,1,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+910,15.167,241262.096,32.826,5,PZT4 → PZT1+PZT3,0.089,transition,1,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+911,15.183,241262.1,19.951,5,PZT4 → PZT1+PZT3,0.105,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+912,15.2,241262.109,12.658,5,PZT4 → PZT1+PZT3,0.122,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+913,15.217,241262.131,18.287,5,PZT4 → PZT1+PZT3,0.139,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+914,15.233,241262.143,13.166,5,PZT4 → PZT1+PZT3,0.155,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+915,15.25,241262.155,8.643,5,PZT4 → PZT1+PZT3,0.172,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+916,15.267,241262.178,14.338,5,PZT4 → PZT1+PZT3,0.189,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+917,15.283,241262.189,8.65,5,PZT4 → PZT1+PZT3,0.205,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+918,15.3,241262.209,12.574,5,PZT4 → PZT1+PZT3,0.222,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+919,15.317,241262.213,0.0,5,PZT4 → PZT1+PZT3,0.239,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+920,15.333,241262.246,16.485,5,PZT4 → PZT1+PZT3,0.255,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+921,15.35,241262.256,9.313,5,PZT4 → PZT1+PZT3,0.272,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+922,15.367,241262.27,7.037,5,PZT4 → PZT1+PZT3,0.289,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+923,15.383,241262.283,3.515,5,PZT4 → PZT1+PZT3,0.305,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+924,15.4,241262.311,14.288,5,PZT4 → PZT1+PZT3,0.322,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+925,15.417,241262.317,3.719,5,PZT4 → PZT1+PZT3,0.339,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+926,15.433,241262.332,1.747,5,PZT4 → PZT1+PZT3,0.355,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+927,15.45,241262.363,16.569,5,PZT4 → PZT1+PZT3,0.372,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+928,15.467,241262.374,10.711,5,PZT4 → PZT1+PZT3,0.389,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+929,15.483,241262.386,6.508,5,PZT4 → PZT1+PZT3,0.405,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+930,15.5,241262.397,0.084,5,PZT4 → PZT1+PZT3,0.422,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+931,15.517,241262.434,20.525,5,PZT4 → PZT1+PZT3,0.439,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+932,15.533,241262.438,8.507,5,PZT4 → PZT1+PZT3,0.455,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+933,15.55,241262.471,24.025,5,PZT4 → PZT1+PZT3,0.472,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+934,15.567,241262.48,16.579,5,PZT4 → PZT1+PZT3,0.489,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+935,15.583,241262.49,9.939,5,PZT4 → PZT1+PZT3,0.505,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+936,15.6,241262.525,28.261,5,PZT4 → PZT1+PZT3,0.522,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+937,15.617,241262.526,12.474,5,PZT4 → PZT1+PZT3,0.539,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+938,15.633,241262.544,14.458,5,PZT4 → PZT1+PZT3,0.555,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+939,15.65,241262.577,30.611,5,PZT4 → PZT1+PZT3,0.572,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+940,15.667,241262.579,15.511,5,PZT4 → PZT1+PZT3,0.589,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+941,15.683,241262.6,19.832,5,PZT4 → PZT1+PZT3,0.605,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+942,15.7,241262.6,3.977,5,PZT4 → PZT1+PZT3,0.622,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+943,15.717,241262.656,42.602,5,PZT4 → PZT1+PZT3,0.639,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+944,15.733,241262.657,26.699,5,PZT4 → PZT1+PZT3,0.655,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+945,15.75,241262.658,11.495,5,PZT4 → PZT1+PZT3,0.672,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+946,15.767,241262.668,4.453,5,PZT4 → PZT1+PZT3,0.689,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+947,15.783,241262.694,14.526,5,PZT4 → PZT1+PZT3,0.705,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+948,15.8,241262.711,14.429,5,PZT4 → PZT1+PZT3,0.722,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+949,15.817,241262.716,2.771,5,PZT4 → PZT1+PZT3,0.739,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+950,15.833,241262.771,41.132,5,PZT4 → PZT1+PZT3,0.755,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+951,15.85,241262.772,25.014,5,PZT4 → PZT1+PZT3,0.772,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+952,15.867,241262.774,11.206,5,PZT4 → PZT1+PZT3,0.789,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+953,15.883,241262.808,28.534,5,PZT4 → PZT1+PZT3,0.805,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+954,15.9,241262.809,12.585,5,PZT4 → PZT1+PZT3,0.822,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+955,15.917,241262.825,11.707,5,PZT4 → PZT1+PZT3,0.839,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+956,15.933,241262.835,5.458,5,PZT4 → PZT1+PZT3,0.855,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+957,15.95,241262.86,13.108,5,PZT4 → PZT1+PZT3,0.872,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+958,15.967,241262.869,6.039,5,PZT4 → PZT1+PZT3,0.889,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+959,15.983,241262.884,4.513,5,PZT4 → PZT1+PZT3,0.905,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+960,16.0,241262.913,16.645,5,PZT4 → PZT1+PZT3,0.922,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+961,16.017,241262.923,10.088,5,PZT4 → PZT1+PZT3,0.939,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+962,16.033,241262.938,8.035,5,PZT4 → PZT1+PZT3,0.955,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+963,16.05,241262.969,22.383,5,PZT4 → PZT1+PZT3,0.972,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+964,16.067,241262.977,13.525,5,PZT4 → PZT1+PZT3,0.989,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+965,16.083,241262.99,10.5,5,PZT4 → PZT1+PZT3,1.005,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+966,16.1,241262.999,2.5,5,PZT4 → PZT1+PZT3,1.022,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+967,16.117,241263.029,15.647,5,PZT4 → PZT1+PZT3,1.039,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+968,16.133,241263.048,18.212,5,PZT4 → PZT1+PZT3,1.055,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+969,16.15,241263.06,13.026,5,PZT4 → PZT1+PZT3,1.072,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+970,16.167,241263.08,16.49,5,PZT4 → PZT1+PZT3,1.089,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+971,16.183,241263.092,12.529,5,PZT4 → PZT1+PZT3,1.105,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+972,16.2,241263.107,10.319,5,PZT4 → PZT1+PZT3,1.122,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+973,16.217,241263.144,30.478,5,PZT4 → PZT1+PZT3,1.139,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+974,16.233,241263.162,31.656,5,PZT4 → PZT1+PZT3,1.155,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+975,16.25,241263.163,16.661,5,PZT4 → PZT1+PZT3,1.172,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+976,16.267,241263.175,11.484,5,PZT4 → PZT1+PZT3,1.189,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+977,16.283,241263.197,17.345,5,PZT4 → PZT1+PZT3,1.205,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+978,16.3,241263.214,17.229,5,PZT4 → PZT1+PZT3,1.222,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+979,16.317,241263.221,8.189,5,PZT4 → PZT1+PZT3,1.239,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+980,16.333,241263.26,30.363,5,PZT4 → PZT1+PZT3,1.255,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+981,16.35,241263.274,27.454,5,PZT4 → PZT1+PZT3,1.272,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+982,16.367,241263.275,11.628,5,PZT4 → PZT1+PZT3,1.289,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+983,16.383,241263.311,31.323,5,PZT4 → PZT1+PZT3,1.305,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+984,16.4,241263.317,20.643,5,PZT4 → PZT1+PZT3,1.322,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+985,16.417,241263.328,15.243,5,PZT4 → PZT1+PZT3,1.339,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+986,16.433,241263.379,49.516,5,PZT4 → PZT1+PZT3,1.355,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+987,16.45,241263.384,37.446,5,PZT4 → PZT1+PZT3,1.372,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+988,16.467,241263.385,21.521,5,PZT4 → PZT1+PZT3,1.389,stable,0,0,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+989,16.483,241263.385,5.59,5,PZT4 → PZT1+PZT3,1.405,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+990,16.5,241263.417,20.327,5,PZT4 → PZT1+PZT3,1.422,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+991,16.517,241263.428,14.778,5,PZT4 → PZT1+PZT3,1.439,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+992,16.533,241263.44,9.688,5,PZT4 → PZT1+PZT3,1.455,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+993,16.55,241263.471,24.829,5,PZT4 → PZT1+PZT3,1.472,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+994,16.567,241263.476,12.982,5,PZT4 → PZT1+PZT3,1.489,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+995,16.583,241263.482,2.221,5,PZT4 → PZT1+PZT3,1.505,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+996,16.6,241263.507,10.662,5,PZT4 → PZT1+PZT3,1.522,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+997,16.617,241263.529,15.81,5,PZT4 → PZT1+PZT3,1.539,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+998,16.633,241263.549,19.051,5,PZT4 → PZT1+PZT3,1.555,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+999,16.65,241263.553,6.628,5,PZT4 → PZT1+PZT3,1.572,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1000,16.667,241263.58,16.994,5,PZT4 → PZT1+PZT3,1.589,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1001,16.683,241263.606,26.274,5,PZT4 → PZT1+PZT3,1.605,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1002,16.7,241263.607,10.386,5,PZT4 → PZT1+PZT3,1.622,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1003,16.717,241263.616,2.461,5,PZT4 → PZT1+PZT3,1.639,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1004,16.733,241263.642,12.251,5,PZT4 → PZT1+PZT3,1.655,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1005,16.75,241263.66,13.962,5,PZT4 → PZT1+PZT3,1.672,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1006,16.767,241263.669,6.19,5,PZT4 → PZT1+PZT3,1.689,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1007,16.783,241263.691,10.87,5,PZT4 → PZT1+PZT3,1.705,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1008,16.8,241263.707,10.895,5,PZT4 → PZT1+PZT3,1.722,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1009,16.817,241263.721,7.831,5,PZT4 → PZT1+PZT3,1.739,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1010,16.833,241263.735,5.088,5,PZT4 → PZT1+PZT3,1.755,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1011,16.85,241263.761,14.602,5,PZT4 → PZT1+PZT3,1.772,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1012,16.867,241263.775,12.105,5,PZT4 → PZT1+PZT3,1.789,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1013,16.883,241263.787,7.201,5,PZT4 → PZT1+PZT3,1.805,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1014,16.9,241263.814,17.562,5,PZT4 → PZT1+PZT3,1.822,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1015,16.917,241263.825,11.727,5,PZT4 → PZT1+PZT3,1.839,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1016,16.933,241263.839,8.701,5,PZT4 → PZT1+PZT3,1.855,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1017,16.95,241263.865,18.582,5,PZT4 → PZT1+PZT3,1.872,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1018,16.967,241263.873,10.022,5,PZT4 → PZT1+PZT3,1.889,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1019,16.983,241263.89,10.26,5,PZT4 → PZT1+PZT3,1.905,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1020,17.0,241263.901,4.601,5,PZT4 → PZT1+PZT3,1.922,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1021,17.017,241263.929,16.225,5,PZT4 → PZT1+PZT3,1.939,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1022,17.033,241263.954,23.87,5,PZT4 → PZT1+PZT3,1.955,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1023,17.05,241263.955,8.527,5,PZT4 → PZT1+PZT3,1.972,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1024,17.067,241263.967,4.236,5,PZT4 → PZT1+PZT3,1.989,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1025,17.083,241263.993,12.822,5,PZT4 → PZT1+PZT3,2.005,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1026,17.1,241264.01,13.797,5,PZT4 → PZT1+PZT3,2.022,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1027,17.117,241264.016,2.701,5,PZT4 → PZT1+PZT3,2.039,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1028,17.133,241264.054,24.643,5,PZT4 → PZT1+PZT3,2.055,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1029,17.15,241264.068,21.48,5,PZT4 → PZT1+PZT3,2.072,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1030,17.167,241264.069,5.578,5,PZT4 → PZT1+PZT3,2.089,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1031,17.183,241264.082,2.461,5,PZT4 → PZT1+PZT3,2.105,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1032,17.2,241264.112,15.497,5,PZT4 → PZT1+PZT3,2.122,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1033,17.217,241264.124,11.104,5,PZT4 → PZT1+PZT3,2.139,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1034,17.233,241264.137,6.878,5,PZT4 → PZT1+PZT3,2.155,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1035,17.25,241264.164,17.359,5,PZT4 → PZT1+PZT3,2.172,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1036,17.267,241264.174,11.135,5,PZT4 → PZT1+PZT3,2.189,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1037,17.283,241264.184,4.062,5,PZT4 → PZT1+PZT3,2.205,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1038,17.3,241264.208,11.239,5,PZT4 → PZT1+PZT3,2.222,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1039,17.317,241264.222,8.319,5,PZT4 → PZT1+PZT3,2.239,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1040,17.333,241264.239,8.819,5,PZT4 → PZT1+PZT3,2.255,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1041,17.35,241264.278,31.133,5,PZT4 → PZT1+PZT3,2.272,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1042,17.367,241264.291,27.542,5,PZT4 → PZT1+PZT3,2.289,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1043,17.383,241264.291,11.438,5,PZT4 → PZT1+PZT3,2.305,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1044,17.4,241264.301,4.803,5,PZT4 → PZT1+PZT3,2.322,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1045,17.417,241264.331,17.684,5,PZT4 → PZT1+PZT3,2.339,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1046,17.433,241264.348,18.164,5,PZT4 → PZT1+PZT3,2.355,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1047,17.45,241264.359,12.027,5,PZT4 → PZT1+PZT3,2.372,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1048,17.467,241264.384,20.905,5,PZT4 → PZT1+PZT3,2.389,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1049,17.483,241264.406,26.137,5,PZT4 → PZT1+PZT3,2.405,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1050,17.5,241264.407,10.234,5,PZT4 → PZT1+PZT3,2.422,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1051,17.517,241264.446,33.007,5,PZT4 → PZT1+PZT3,2.439,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1052,17.533,241264.448,18.163,5,PZT4 → PZT1+PZT3,2.455,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1053,17.55,241264.462,15.328,5,PZT4 → PZT1+PZT3,2.472,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1054,17.567,241264.466,2.359,5,PZT4 → PZT1+PZT3,2.489,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1055,17.583,241264.502,22.415,5,PZT4 → PZT1+PZT3,2.505,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1056,17.6,241264.515,18.291,5,PZT4 → PZT1+PZT3,2.522,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1057,17.617,241264.52,6.878,5,PZT4 → PZT1+PZT3,2.539,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1058,17.633,241264.551,21.491,5,PZT4 → PZT1+PZT3,2.555,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1059,17.65,241264.552,5.604,5,PZT4 → PZT1+PZT3,2.572,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1060,17.667,241264.565,2.125,5,PZT4 → PZT1+PZT3,2.589,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1061,17.683,241264.584,3.734,5,PZT4 → PZT1+PZT3,2.605,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1062,17.7,241264.617,20.085,5,PZT4 → PZT1+PZT3,2.622,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1063,17.717,241264.63,16.415,5,PZT4 → PZT1+PZT3,2.639,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1064,17.733,241264.636,6.449,5,PZT4 → PZT1+PZT3,2.655,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1065,17.75,241264.663,16.616,5,PZT4 → PZT1+PZT3,2.672,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1066,17.767,241264.668,4.786,5,PZT4 → PZT1+PZT3,2.689,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1067,17.783,241264.686,5.95,5,PZT4 → PZT1+PZT3,2.705,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1068,17.8,241264.727,30.332,5,PZT4 → PZT1+PZT3,2.722,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1069,17.817,241264.73,17.236,5,PZT4 → PZT1+PZT3,2.739,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1070,17.833,241264.741,10.664,5,PZT4 → PZT1+PZT3,2.755,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1071,17.85,241264.756,9.353,5,PZT4 → PZT1+PZT3,2.772,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1072,17.867,241264.778,14.62,5,PZT4 → PZT1+PZT3,2.789,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1073,17.883,241264.796,15.901,5,PZT4 → PZT1+PZT3,2.805,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1074,17.9,241264.8,3.312,5,PZT4 → PZT1+PZT3,2.822,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1075,17.917,241264.848,35.069,5,PZT4 → PZT1+PZT3,2.839,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1076,17.933,241264.851,20.832,5,PZT4 → PZT1+PZT3,2.855,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1077,17.95,241264.853,6.145,5,PZT4 → PZT1+PZT3,2.872,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1078,17.967,241264.876,12.458,5,PZT4 → PZT1+PZT3,2.889,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1079,17.983,241264.893,13.591,5,PZT4 → PZT1+PZT3,2.905,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1080,18.0,241264.907,10.328,5,PZT4 → PZT1+PZT3,2.922,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1081,18.017,241264.948,35.029,5,PZT4 → PZT1+PZT3,2.939,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1082,18.033,241264.951,20.976,5,PZT4 → PZT1+PZT3,2.955,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1083,18.05,241264.962,15.515,5,PZT4 → PZT1+PZT3,2.972,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1084,18.067,241264.981,17.727,5,PZT4 → PZT1+PZT3,2.989,stable,0,1,PZT1+PZT3,0.8,on,0.001,on,0.8,on,0.001,on
+1085,18.083,241264.999,19.26,6,PZT1+PZT3 off (all idle),0.005,transition,1,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1086,18.1,241265.012,15.481,6,PZT1+PZT3 off (all idle),0.022,transition,1,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1087,18.117,241265.022,8.732,6,PZT1+PZT3 off (all idle),0.038,transition,1,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1088,18.133,241265.057,27.296,6,PZT1+PZT3 off (all idle),0.055,transition,1,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1089,18.15,241265.075,28.722,6,PZT1+PZT3 off (all idle),0.072,transition,1,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1090,18.167,241265.076,12.662,6,PZT1+PZT3 off (all idle),0.088,transition,1,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1091,18.183,241265.131,51.195,6,PZT1+PZT3 off (all idle),0.105,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1092,18.2,241265.138,40.989,6,PZT1+PZT3 off (all idle),0.122,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1093,18.217,241265.139,25.505,6,PZT1+PZT3 off (all idle),0.138,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1094,18.233,241265.139,9.104,6,PZT1+PZT3 off (all idle),0.155,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1095,18.25,241265.163,16.473,6,PZT1+PZT3 off (all idle),0.172,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1096,18.267,241265.179,16.12,6,PZT1+PZT3 off (all idle),0.188,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1097,18.283,241265.187,7.437,6,PZT1+PZT3 off (all idle),0.205,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1098,18.3,241265.211,14.058,6,PZT1+PZT3 off (all idle),0.222,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1099,18.317,241265.226,13.247,6,PZT1+PZT3 off (all idle),0.238,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1100,18.333,241265.24,10.075,6,PZT1+PZT3 off (all idle),0.255,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1101,18.35,241265.279,32.137,6,PZT1+PZT3 off (all idle),0.272,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1102,18.367,241265.279,16.156,6,PZT1+PZT3 off (all idle),0.288,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1103,18.383,241265.292,12.089,6,PZT1+PZT3 off (all idle),0.305,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1104,18.4,241265.335,38.129,6,PZT1+PZT3 off (all idle),0.322,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1105,18.417,241265.346,32.811,6,PZT1+PZT3 off (all idle),0.338,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1106,18.433,241265.348,18.148,6,PZT1+PZT3 off (all idle),0.355,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1107,18.45,241265.349,2.255,6,PZT1+PZT3 off (all idle),0.372,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1108,18.467,241265.377,13.565,6,PZT1+PZT3 off (all idle),0.388,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1109,18.483,241265.39,10.617,6,PZT1+PZT3 off (all idle),0.405,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1110,18.5,241265.404,7.251,6,PZT1+PZT3 off (all idle),0.422,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1111,18.517,241265.431,17.965,6,PZT1+PZT3 off (all idle),0.438,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1112,18.533,241265.445,14.966,6,PZT1+PZT3 off (all idle),0.455,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1113,18.55,241265.457,10.866,6,PZT1+PZT3 off (all idle),0.472,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1114,18.567,241265.493,29.639,6,PZT1+PZT3 off (all idle),0.488,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1115,18.583,241265.494,13.672,6,PZT1+PZT3 off (all idle),0.505,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1116,18.6,241265.511,14.636,6,PZT1+PZT3 off (all idle),0.522,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1117,18.617,241265.519,5.801,6,PZT1+PZT3 off (all idle),0.538,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1118,18.633,241265.546,15.778,6,PZT1+PZT3 off (all idle),0.555,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1119,18.65,241265.566,19.374,6,PZT1+PZT3 off (all idle),0.572,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1120,18.667,241265.571,8.102,6,PZT1+PZT3 off (all idle),0.588,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1121,18.683,241265.612,32.217,6,PZT1+PZT3 off (all idle),0.605,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1122,18.7,241265.624,27.838,6,PZT1+PZT3 off (all idle),0.622,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1123,18.717,241265.625,11.61,6,PZT1+PZT3 off (all idle),0.638,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1124,18.733,241265.665,35.165,6,PZT1+PZT3 off (all idle),0.655,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1125,18.75,241265.678,31.112,6,PZT1+PZT3 off (all idle),0.672,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1126,18.767,241265.678,14.986,6,PZT1+PZT3 off (all idle),0.688,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1127,18.783,241265.712,32.634,6,PZT1+PZT3 off (all idle),0.705,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1128,18.8,241265.716,19.506,6,PZT1+PZT3 off (all idle),0.722,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1129,18.817,241265.732,18.446,6,PZT1+PZT3 off (all idle),0.738,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1130,18.833,241265.738,8.597,6,PZT1+PZT3 off (all idle),0.755,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1131,18.85,241265.771,24.572,6,PZT1+PZT3 off (all idle),0.772,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1132,18.867,241265.777,13.4,6,PZT1+PZT3 off (all idle),0.788,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1133,18.883,241265.788,8.617,6,PZT1+PZT3 off (all idle),0.805,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1134,18.9,241265.831,34.397,6,PZT1+PZT3 off (all idle),0.822,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1135,18.917,241265.832,18.986,6,PZT1+PZT3 off (all idle),0.838,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1136,18.933,241265.846,16.462,6,PZT1+PZT3 off (all idle),0.855,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1137,18.95,241265.881,34.434,6,PZT1+PZT3 off (all idle),0.872,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1138,18.967,241265.89,26.627,6,PZT1+PZT3 off (all idle),0.888,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1139,18.983,241265.903,23.541,6,PZT1+PZT3 off (all idle),0.905,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1140,19.0,241265.906,9.924,6,PZT1+PZT3 off (all idle),0.922,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1141,19.017,241265.938,24.676,6,PZT1+PZT3 off (all idle),0.938,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1142,19.033,241265.94,10.011,6,PZT1+PZT3 off (all idle),0.955,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1143,19.05,241265.959,12.107,6,PZT1+PZT3 off (all idle),0.972,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1144,19.067,241265.981,17.726,6,PZT1+PZT3 off (all idle),0.988,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1145,19.083,241265.995,15.274,6,PZT1+PZT3 off (all idle),1.005,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1146,19.1,241266.016,19.254,6,PZT1+PZT3 off (all idle),1.022,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1147,19.117,241266.017,3.486,6,PZT1+PZT3 off (all idle),1.038,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1148,19.133,241266.059,28.928,6,PZT1+PZT3 off (all idle),1.055,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1149,19.15,241266.061,14.804,6,PZT1+PZT3 off (all idle),1.072,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1150,19.167,241266.075,11.72,6,PZT1+PZT3 off (all idle),1.088,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1151,19.183,241266.106,26.436,6,PZT1+PZT3 off (all idle),1.105,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1152,19.2,241266.11,13.456,6,PZT1+PZT3 off (all idle),1.122,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1153,19.217,241266.118,5.02,6,PZT1+PZT3 off (all idle),1.138,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1154,19.233,241266.139,9.503,6,PZT1+PZT3 off (all idle),1.155,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1155,19.25,241266.163,16.564,6,PZT1+PZT3 off (all idle),1.172,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1156,19.267,241266.173,9.88,6,PZT1+PZT3 off (all idle),1.188,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1157,19.283,241266.187,7.416,6,PZT1+PZT3 off (all idle),1.205,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1158,19.3,241266.216,19.395,6,PZT1+PZT3 off (all idle),1.222,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1159,19.317,241266.229,16.147,6,PZT1+PZT3 off (all idle),1.238,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1160,19.333,241266.242,12.09,6,PZT1+PZT3 off (all idle),1.255,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1161,19.35,241266.252,5.679,6,PZT1+PZT3 off (all idle),1.272,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1162,19.367,241266.275,11.974,6,PZT1+PZT3 off (all idle),1.288,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1163,19.383,241266.292,12.108,6,PZT1+PZT3 off (all idle),1.305,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1164,19.4,241266.304,7.558,6,PZT1+PZT3 off (all idle),1.322,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1165,19.417,241266.34,26.479,6,PZT1+PZT3 off (all idle),1.338,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1166,19.433,241266.35,20.583,6,PZT1+PZT3 off (all idle),1.355,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1167,19.45,241266.357,10.662,6,PZT1+PZT3 off (all idle),1.372,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1168,19.467,241266.368,4.43,6,PZT1+PZT3 off (all idle),1.388,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1169,19.483,241266.392,12.105,6,PZT1+PZT3 off (all idle),1.405,stable,0,0,none,0.001,on,0.001,on,0.001,on,0.001,on
+1170,19.5,241266.41,13.652,6,PZT1+PZT3 off (all idle),1.422,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1171,19.517,241266.416,2.57,6,PZT1+PZT3 off (all idle),1.438,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1172,19.533,241266.448,18.26,6,PZT1+PZT3 off (all idle),1.455,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1173,19.55,241266.471,24.852,6,PZT1+PZT3 off (all idle),1.472,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1174,19.567,241266.472,9.291,6,PZT1+PZT3 off (all idle),1.488,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1175,19.583,241266.484,4.576,6,PZT1+PZT3 off (all idle),1.505,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1176,19.6,241266.512,15.553,6,PZT1+PZT3 off (all idle),1.522,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1177,19.617,241266.523,9.993,6,PZT1+PZT3 off (all idle),1.538,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1178,19.633,241266.535,5.182,6,PZT1+PZT3 off (all idle),1.555,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1179,19.65,241266.564,17.26,6,PZT1+PZT3 off (all idle),1.572,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1180,19.667,241266.578,15.096,6,PZT1+PZT3 off (all idle),1.588,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1181,19.683,241266.589,8.978,6,PZT1+PZT3 off (all idle),1.605,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1182,19.7,241266.638,40.995,6,PZT1+PZT3 off (all idle),1.622,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1183,19.717,241266.64,26.963,6,PZT1+PZT3 off (all idle),1.638,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1184,19.733,241266.644,13.968,6,PZT1+PZT3 off (all idle),1.655,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1185,19.75,241266.676,29.18,6,PZT1+PZT3 off (all idle),1.672,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1186,19.767,241266.679,15.338,6,PZT1+PZT3 off (all idle),1.688,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1187,19.783,241266.693,13.405,6,PZT1+PZT3 off (all idle),1.705,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1188,19.8,241266.703,6.83,6,PZT1+PZT3 off (all idle),1.722,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1189,19.817,241266.727,14.2,6,PZT1+PZT3 off (all idle),1.738,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1190,19.833,241266.737,6.78,6,PZT1+PZT3 off (all idle),1.755,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1191,19.85,241266.756,9.535,6,PZT1+PZT3 off (all idle),1.772,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1192,19.867,241266.768,4.889,6,PZT1+PZT3 off (all idle),1.788,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1193,19.883,241266.792,12.249,6,PZT1+PZT3 off (all idle),1.805,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1194,19.9,241266.805,8.074,6,PZT1+PZT3 off (all idle),1.822,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1195,19.917,241266.82,6.559,6,PZT1+PZT3 off (all idle),1.838,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1196,19.933,241266.848,17.722,6,PZT1+PZT3 off (all idle),1.855,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1197,19.95,241266.868,21.608,6,PZT1+PZT3 off (all idle),1.872,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1198,19.967,241266.874,10.363,6,PZT1+PZT3 off (all idle),1.888,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1199,19.983,241266.903,23.357,6,PZT1+PZT3 off (all idle),1.905,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1200,20.0,241266.908,11.671,6,PZT1+PZT3 off (all idle),1.922,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1201,20.017,241266.925,11.822,6,PZT1+PZT3 off (all idle),1.938,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1202,20.033,241266.937,6.964,6,PZT1+PZT3 off (all idle),1.955,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1203,20.05,241266.963,16.434,6,PZT1+PZT3 off (all idle),1.972,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1204,20.067,241266.978,14.705,6,PZT1+PZT3 off (all idle),1.988,stable,0,1,none,0.001,on,0.001,on,0.001,on,0.001,on
+1205,20.083,241266.983,3.618,7,stop: all outputs off,0.005,transition,1,0,none,0.0,off,0.0,off,0.0,off,0.0,off
+1206,20.1,241267.006,9.277,7,stop: all outputs off,0.022,transition,1,0,none,0.0,off,0.0,off,0.0,off,0.0,off
+1207,20.117,241267.024,11.306,7,stop: all outputs off,0.039,transition,1,0,none,0.0,off,0.0,off,0.0,off,0.0,off
+1208,20.133,241267.04,10.051,7,stop: all outputs off,0.055,transition,1,0,none,0.0,off,0.0,off,0.0,off,0.0,off
+1209,20.15,241267.075,28.081,7,stop: all outputs off,0.072,transition,1,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1210,20.167,241267.085,21.424,7,stop: all outputs off,0.089,transition,1,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1211,20.183,241267.096,16.392,7,stop: all outputs off,0.105,transition,1,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1212,20.2,241267.129,32.031,7,stop: all outputs off,0.122,transition,1,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1213,20.217,241267.149,35.536,7,stop: all outputs off,0.139,transition,1,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1214,20.233,241267.151,20.768,7,stop: all outputs off,0.155,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1215,20.25,241267.183,36.611,7,stop: all outputs off,0.172,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1216,20.267,241267.186,22.855,7,stop: all outputs off,0.189,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1217,20.283,241267.203,23.163,7,stop: all outputs off,0.205,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1218,20.3,241267.206,9.949,7,stop: all outputs off,0.222,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1219,20.317,241267.253,39.332,7,stop: all outputs off,0.239,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1220,20.333,241267.26,30.515,7,stop: all outputs off,0.255,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1221,20.35,241267.261,14.262,7,stop: all outputs off,0.272,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1222,20.367,241267.297,33.726,7,stop: all outputs off,0.289,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1223,20.383,241267.298,18.349,7,stop: all outputs off,0.305,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1224,20.4,241267.313,16.352,7,stop: all outputs off,0.322,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1225,20.417,241267.334,21.303,7,stop: all outputs off,0.339,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1226,20.433,241267.367,37.07,7,stop: all outputs off,0.355,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1227,20.45,241267.368,21.098,7,stop: all outputs off,0.372,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1228,20.467,241267.381,17.58,7,stop: all outputs off,0.389,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1229,20.483,241267.404,24.388,7,stop: all outputs off,0.405,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1230,20.5,241267.426,29.024,7,stop: all outputs off,0.422,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1231,20.517,241267.426,13.288,7,stop: all outputs off,0.439,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1232,20.533,241267.438,8.421,7,stop: all outputs off,0.455,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1233,20.55,241267.461,14.088,7,stop: all outputs off,0.472,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1234,20.567,241267.482,18.962,7,stop: all outputs off,0.489,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1235,20.583,241267.485,5.022,7,stop: all outputs off,0.505,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1236,20.6,241267.524,27.326,7,stop: all outputs off,0.522,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1237,20.617,241267.527,14.257,7,stop: all outputs off,0.539,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1238,20.633,241267.542,12.089,7,stop: all outputs off,0.555,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1239,20.65,241267.564,17.354,7,stop: all outputs off,0.572,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1240,20.667,241267.58,16.62,7,stop: all outputs off,0.589,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1241,20.683,241267.586,5.999,7,stop: all outputs off,0.605,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1242,20.7,241267.609,12.242,7,stop: all outputs off,0.622,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1243,20.717,241267.635,22.129,7,stop: all outputs off,0.639,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1244,20.733,241267.656,25.771,7,stop: all outputs off,0.655,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1245,20.75,241267.657,10.082,7,stop: all outputs off,0.672,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1246,20.767,241267.688,25.285,7,stop: all outputs off,0.689,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1247,20.783,241267.693,13.115,7,stop: all outputs off,0.705,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1248,20.8,241267.71,13.577,7,stop: all outputs off,0.722,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1249,20.817,241267.723,10.118,7,stop: all outputs off,0.739,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1250,20.833,241267.75,19.828,7,stop: all outputs off,0.755,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1251,20.85,241267.761,14.403,7,stop: all outputs off,0.772,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1252,20.867,241267.771,7.353,7,stop: all outputs off,0.789,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1253,20.883,241267.808,28.175,7,stop: all outputs off,0.805,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1254,20.9,241267.815,18.321,7,stop: all outputs off,0.822,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1255,20.917,241267.828,14.458,7,stop: all outputs off,0.839,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1256,20.933,241267.839,9.189,7,stop: all outputs off,0.855,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1257,20.95,241267.865,18.914,7,stop: all outputs off,0.872,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1258,20.967,241267.869,5.865,7,stop: all outputs off,0.889,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1259,20.983,241267.892,12.402,7,stop: all outputs off,0.905,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1260,21.0,241267.915,18.217,7,stop: all outputs off,0.922,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1261,21.017,241267.946,33.145,7,stop: all outputs off,0.939,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1262,21.033,241267.949,18.729,7,stop: all outputs off,0.955,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1263,21.05,241267.953,6.136,7,stop: all outputs off,0.972,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1264,21.067,241267.984,20.532,7,stop: all outputs off,0.989,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1265,21.083,241267.993,12.855,7,stop: all outputs off,1.005,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1266,21.1,241268.008,11.188,7,stop: all outputs off,1.022,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1267,21.117,241268.044,30.896,7,stop: all outputs off,1.039,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1268,21.133,241268.054,23.722,7,stop: all outputs off,1.055,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1269,21.15,241268.065,18.443,7,stop: all outputs off,1.072,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1270,21.167,241268.085,22.095,7,stop: all outputs off,1.089,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1271,21.183,241268.102,21.708,7,stop: all outputs off,1.105,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1272,21.2,241268.115,18.702,7,stop: all outputs off,1.122,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1273,21.217,241268.127,13.447,7,stop: all outputs off,1.139,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1274,21.233,241268.171,40.704,7,stop: all outputs off,1.155,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1275,21.25,241268.171,24.712,7,stop: all outputs off,1.172,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1276,21.267,241268.175,11.66,7,stop: all outputs off,1.189,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1277,21.283,241268.203,22.846,7,stop: all outputs off,1.205,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1278,21.3,241268.214,17.867,7,stop: all outputs off,1.222,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1279,21.317,241268.224,11.204,7,stop: all outputs off,1.239,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1280,21.333,241268.238,8.618,7,stop: all outputs off,1.255,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1281,21.35,241268.263,16.616,7,stop: all outputs off,1.272,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1282,21.367,241268.28,16.885,7,stop: all outputs off,1.289,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1283,21.383,241268.317,36.953,7,stop: all outputs off,1.305,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1284,21.4,241268.319,22.766,7,stop: all outputs off,1.322,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1285,21.417,241268.336,23.106,7,stop: all outputs off,1.339,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1286,21.433,241268.342,11.817,7,stop: all outputs off,1.355,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1287,21.45,241268.369,22.181,7,stop: all outputs off,1.372,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1288,21.467,241268.382,19.216,7,stop: all outputs off,1.389,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1289,21.483,241268.394,14.271,7,stop: all outputs off,1.405,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1290,21.5,241268.427,30.568,7,stop: all outputs off,1.422,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1291,21.517,241268.448,34.789,7,stop: all outputs off,1.439,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1292,21.533,241268.45,19.846,7,stop: all outputs off,1.455,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1293,21.55,241268.484,37.59,7,stop: all outputs off,1.472,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1294,21.567,241268.486,22.439,7,stop: all outputs off,1.489,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1295,21.583,241268.505,24.991,7,stop: all outputs off,1.505,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1296,21.6,241268.509,12.087,7,stop: all outputs off,1.522,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1297,21.617,241268.545,31.798,7,stop: all outputs off,1.539,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1298,21.633,241268.563,32.755,7,stop: all outputs off,1.555,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1299,21.65,241268.563,16.616,7,stop: all outputs off,1.572,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1300,21.667,241268.576,12.443,7,stop: all outputs off,1.589,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1301,21.683,241268.601,20.941,7,stop: all outputs off,1.605,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1302,21.7,241268.612,15.881,7,stop: all outputs off,1.622,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1303,21.717,241268.623,9.987,7,stop: all outputs off,1.639,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1304,21.733,241268.655,25.192,7,stop: all outputs off,1.655,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1305,21.75,241268.676,29.902,7,stop: all outputs off,1.672,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1306,21.767,241268.677,14.085,7,stop: all outputs off,1.689,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1307,21.783,241268.703,23.39,7,stop: all outputs off,1.705,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1308,21.8,241268.734,37.061,7,stop: all outputs off,1.722,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1309,21.817,241268.735,21.491,7,stop: all outputs off,1.739,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1310,21.833,241268.74,9.8,7,stop: all outputs off,1.755,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1311,21.85,241268.773,26.469,7,stop: all outputs off,1.772,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1312,21.867,241268.785,22.096,7,stop: all outputs off,1.789,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1313,21.883,241268.792,11.971,7,stop: all outputs off,1.805,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1314,21.9,241268.818,21.781,7,stop: all outputs off,1.822,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1315,21.917,241268.843,29.482,7,stop: all outputs off,1.839,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1316,21.933,241268.844,13.736,7,stop: all outputs off,1.855,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1317,21.95,241268.878,31.57,7,stop: all outputs off,1.872,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1318,21.967,241268.879,15.582,7,stop: all outputs off,1.889,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off
+1319,21.983,241268.899,19.165,7,stop: all outputs off,1.905,stable,0,1,none,0.0,off,0.0,off,0.0,off,0.0,off

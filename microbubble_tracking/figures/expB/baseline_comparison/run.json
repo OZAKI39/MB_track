@@ -1,0 +1,116 @@
+{
+  "created": "2026-10-28T17:16:54.187101+01:00",
+  "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+  "reference": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline",
+  "experiment": "B",
+  "source_fps": 60.00006060612183,
+  "source_frames": 1320,
+  "input_sha256": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "/mnt/c/Windows/Fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "/mnt/c/Windows/Fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/objects.csv": "990788b8d5ce040945c0b3116611f2a7539283a9296d171dc6cd8ced32206c3c",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/events.csv": "f89bae5b0f5d978ec468da6a680c59aed0f4139414fc34e65ebae550beaddbf6",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/contours.npz": "38712815c3a829e8f42ccfc5fbbf1427badb5ff6d5668315b7ab619f4e1654c5",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/stats.json": "74caef33383690590f96af954f95732021491306fb253b133daa2dca26780f60",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/review.json": "583aa5357d36c63ed59b81cf69b8861bfac2218ee2a8950d2ee79a2cc4dae7c0",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/analysis/report.json": "6d3443e0c926c3f2fe490dc04918c01d6a1e14671047f7598b560fc64ec7dfee",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/analysis/field_events.csv": "5fff59401bcfaa105cdd8af5130d89259bc0768c7d3e971d4f1ae5476c1a23e7",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/bubble_tracker.py": "8e63db0f87f50f1ebdd0e32e5785eb7153fca7047ed4a62aa26f113fbfb881aa",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/baseline/medany_baseline.py": "049f7b3f94590499ae511a72c8df12c1c59429e039748ed8740313716f06c161",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/baseline/channel_mask.py": "11ea212e9a31ded54606bbe97a6d568f8ff8f8c5aa371e7f7c7942947f5cfcc8"
+  },
+  "thresholds": [
+    100,
+    130
+  ],
+  "roi_xywh": [
+    128,
+    0,
+    1024,
+    1024
+  ],
+  "target_object_ids": [
+    7,
+    2,
+    5,
+    23
+  ],
+  "threshold_note": "100 is the baseline default; 130 comes from the existing README, not a new optimization.",
+  "reference_note": "Reviewed labels only choose initial boxes and interpret outputs. Our displayed IDs and events are automatic.",
+  "event_clips": [
+    {
+      "name": "Merger",
+      "first": 223,
+      "last": 283,
+      "event_frame": 253,
+      "event_type": "merge",
+      "target": 5,
+      "ids": [
+        5,
+        7
+      ],
+      "message": "Merger: 5 + 7 → 7"
+    },
+    {
+      "name": "Separation",
+      "first": 117,
+      "last": 177,
+      "event_frame": 147,
+      "event_type": "split",
+      "target": 7,
+      "ids": [
+        7,
+        14
+      ],
+      "message": "Separation: 7 → 7 + 14"
+    },
+    {
+      "name": "Disappearance",
+      "first": 299,
+      "last": 372,
+      "event_frame": 312,
+      "event_type": "lost",
+      "target": 23,
+      "ids": [
+        23
+      ],
+      "message": "Tracking loss: ID 23"
+    }
+  ],
+  "tracking_focus": [
+    {
+      "frames": [
+        0,
+        359
+      ],
+      "seed_target": 5
+    },
+    {
+      "frames": [
+        360,
+        779
+      ],
+      "seed_target": 2
+    },
+    {
+      "frames": [
+        780,
+        1319
+      ],
+      "seed_target": 7
+    }
+  ],
+  "our_automatic_replay_matches_archive": true,
+  "ours_stats": {
+    "frames": 1320,
+    "fps": 60.00006060612183,
+    "confirmed_ids": 49,
+    "raw_ids": 79,
+    "ms_per_frame_mean": 12.086213655053417,
+    "background": "Frozen B_offline/background.npy",
+    "reviewed_labels_applied": false
+  },
+  "ours_directory": "ours"
+}

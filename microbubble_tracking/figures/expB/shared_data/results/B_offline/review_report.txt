@@ -1,0 +1,9 @@
+Checked: 2026-10-28T17:09:44
+Video: data/raw/expB.mp4
+Result folder: /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline
+Original objects.csv: 17758 rows, SHA1 b8369c74626e88de6a80a0977c90a33737063ef5
+Result: ALL CHECKS PASSED
+  trusted.csv: 14498 rows
+  untrusted.csv: 3260 rows
+  unreviewed.csv: 0 rows
+  same-object links: 10 groups covering 27 IDs; 49 IDs -> 32 objects

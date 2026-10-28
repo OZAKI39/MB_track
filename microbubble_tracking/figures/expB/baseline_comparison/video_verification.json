@@ -1,0 +1,86 @@
+[
+  {
+    "frames": 1320,
+    "duration_s": 22.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      1600,
+      1000
+    ],
+    "fps": 60,
+    "all_frames_decoded": true,
+    "sha256": "e5d6e878b18aef58caea08dfd24148f7b609464421bf330b34420ea49ad90694",
+    "file": "videos/01_detection_baseline.mp4"
+  },
+  {
+    "frames": 1320,
+    "duration_s": 22.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      1600,
+      1000
+    ],
+    "fps": 60,
+    "all_frames_decoded": true,
+    "sha256": "f0153381874e3bca164e089e6bef5dcc33188aa377d5802d2bd69aa8774b148a",
+    "file": "videos/01_detection_ours.mp4"
+  },
+  {
+    "frames": 1320,
+    "duration_s": 22.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      1600,
+      1000
+    ],
+    "fps": 60,
+    "all_frames_decoded": true,
+    "sha256": "2553b51363dc6a392e77f444ba55747c76fa205d1c1e1dfb0274263a6c3648f2",
+    "file": "videos/02_tracking_baseline.mp4"
+  },
+  {
+    "frames": 1320,
+    "duration_s": 22.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      1600,
+      1000
+    ],
+    "fps": 60,
+    "all_frames_decoded": true,
+    "sha256": "ff4aeb7d1f4eb7d3ce24289706859236c2d1412bbe6d845f1dd514d3526fae2e",
+    "file": "videos/02_tracking_ours.mp4"
+  },
+  {
+    "frames": 392,
+    "duration_s": 13.066666666666666,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      1600,
+      1000
+    ],
+    "fps": 30,
+    "all_frames_decoded": true,
+    "sha256": "05c4da58e371f804fe783bb6d7a3320b347c175894b5392cd7e4762af4fbcce1",
+    "file": "videos/03_events_baseline.mp4"
+  },
+  {
+    "frames": 392,
+    "duration_s": 13.066666666666666,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      1600,
+      1000
+    ],
+    "fps": 30,
+    "all_frames_decoded": true,
+    "sha256": "4b0c1050ff2726ae669bdbbbf6036b26826a00a19b87d568e9a6fa9cb47192e3",
+    "file": "videos/03_events_ours.mp4"
+  }
+]

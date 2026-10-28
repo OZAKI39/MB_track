@@ -1,0 +1,118 @@
+{
+  "roi": [
+    128,
+    0,
+    1024,
+    1024
+  ],
+  "foreground": [
+    [
+      680,
+      80
+    ],
+    [
+      680,
+      250
+    ],
+    [
+      690,
+      420
+    ],
+    [
+      660,
+      540
+    ],
+    [
+      720,
+      560
+    ],
+    [
+      560,
+      700
+    ],
+    [
+      480,
+      800
+    ],
+    [
+      410,
+      900
+    ],
+    [
+      345,
+      990
+    ],
+    [
+      780,
+      700
+    ],
+    [
+      835,
+      800
+    ],
+    [
+      885,
+      900
+    ],
+    [
+      930,
+      990
+    ]
+  ],
+  "background": [
+    [
+      250,
+      250
+    ],
+    [
+      300,
+      600
+    ],
+    [
+      170,
+      880
+    ],
+    [
+      420,
+      150
+    ],
+    [
+      1000,
+      250
+    ],
+    [
+      1100,
+      650
+    ],
+    [
+      900,
+      150
+    ],
+    [
+      1120,
+      950
+    ],
+    [
+      660,
+      860
+    ],
+    [
+      650,
+      990
+    ],
+    [
+      700,
+      960
+    ]
+  ],
+  "model": "MobileSAM vit_t",
+  "device": "cpu",
+  "refinement_loops": 25,
+  "source": "https://github.com/ChaoningZhang/MobileSAM",
+  "commit": "f706ad9c4eb7f219c00d9050e46328518ffb65d2",
+  "weight_sha256": "6dbb90523a35330fedd7f1d3dfc66f995213d81b29a5ca8108dbcdd4e37d6c2f",
+  "pixels_inside": 307674,
+  "ideal_pixels_inside": 310245,
+  "iou_with_background_mask": 0.9824603054929049,
+  "note": "MobileSAM substitutes for original SAM ViT-H, as in the current local baseline implementation."
+}

@@ -7,3 +7,12 @@ __pycache__/
 *.egg-info/
 
 # During project testing, results/, data/raw/ and history/ are versioned.
+
+# These six delivery ZIPs contain only byte-identical copies of separately
+# versioned files. Keep the local ZIPs; sync their videos, data and reports once.
+/figures/expB/baseline_comparison/result_animations.zip
+/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/slide6_animations.zip
+/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/slide6_animations.zip
+/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/slide6_animations.zip
+/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/slide6_animations.zip
+/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/slide6_animations.zip

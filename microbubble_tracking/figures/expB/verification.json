@@ -1,0 +1,215 @@
+{
+  "experiment": "expB",
+  "primary_figures": 11,
+  "animations": 12,
+  "every_exported_video_fully_decoded": true,
+  "frame_mappings_complete": true,
+  "actual_arial_verified": true,
+  "English_visible_text_only": true,
+  "png_files_readable": true,
+  "original_A_assets_unchanged": true,
+  "native_scientific_algorithms_unchanged": true,
+  "hardware_accessed": false,
+  "powerpoint_playback_tested": false,
+  "movies": [
+    {
+      "frames": 660,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "659a86ee052852f145af7823dd8f512c5725f815a7dee0214d5c277dd6769a90",
+      "file": "slide_06_motion_shape_and_collective_analysis/collective_metrics/04_collective_metrics.mp4"
+    },
+    {
+      "frames": 240,
+      "duration_s": 8.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1280,
+        960
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "c4eaa8b2007aaee4f3b6dc59ebd36c9a6af0975784dd37f35a08cb6556375cc6",
+      "file": "slide_06_motion_shape_and_collective_analysis/kinematics/02_kinematics.mp4"
+    },
+    {
+      "frames": 168,
+      "duration_s": 5.6,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1280,
+        960
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "4b66952bbaffa9b1984ef545b394acff61ad9952967492886e3995685bbad279",
+      "file": "slide_06_motion_shape_and_collective_analysis/morphology/03_morphology.mp4"
+    },
+    {
+      "frames": 384,
+      "duration_s": 12.8,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "ba602be20ea8fecf4548c353d3649fcf13288b48c603a3acf1726a8e2a00f902",
+      "file": "slide_06_motion_shape_and_collective_analysis/raw_video_validation/05_raw_video_validation.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1280,
+        1024
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "d4a37d1b0430778c641f3dee18b68fa87d442c5aa75b3fd378f6bd21c771cb97",
+      "file": "slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/01_trajectory_segmentation.mp4"
+    },
+    {
+      "frames": 227,
+      "duration_s": 7.566666666666666,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "f30f6dba59ad10dcc077d66ceea81bbdd9691e0fd27ee07347eb08f1f6391b31",
+      "scientific_inputs_unchanged": true,
+      "saved_measurements_reproduced": true,
+      "actual_arial_verified": true,
+      "ppt_playback_tested": false,
+      "original_algorithms_unchanged": true,
+      "file": "slide_08_stimulus_response_analysis/01_response_example.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "e5d6e878b18aef58caea08dfd24148f7b609464421bf330b34420ea49ad90694",
+      "file": "baseline_comparison/videos/01_detection_baseline.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "f0153381874e3bca164e089e6bef5dcc33188aa377d5802d2bd69aa8774b148a",
+      "file": "baseline_comparison/videos/01_detection_ours.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "2553b51363dc6a392e77f444ba55747c76fa205d1c1e1dfb0274263a6c3648f2",
+      "file": "baseline_comparison/videos/02_tracking_baseline.mp4"
+    },
+    {
+      "frames": 1320,
+      "duration_s": 22.0,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 60,
+      "all_frames_decoded": true,
+      "sha256": "ff4aeb7d1f4eb7d3ce24289706859236c2d1412bbe6d845f1dd514d3526fae2e",
+      "file": "baseline_comparison/videos/02_tracking_ours.mp4"
+    },
+    {
+      "frames": 392,
+      "duration_s": 13.066666666666666,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "05c4da58e371f804fe783bb6d7a3320b347c175894b5392cd7e4762af4fbcce1",
+      "file": "baseline_comparison/videos/03_events_baseline.mp4"
+    },
+    {
+      "frames": 392,
+      "duration_s": 13.066666666666666,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1600,
+        1000
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "4b0c1050ff2726ae669bdbbbf6036b26826a00a19b87d568e9a6fa9cb47192e3",
+      "file": "baseline_comparison/videos/03_events_ours.mp4"
+    }
+  ],
+  "figures": [
+    "slide_03_background_estimation_and_foreground_segmentation/background_estimation/step_1_background_estimation.png",
+    "slide_03_background_estimation_and_foreground_segmentation/segmentation/step_2_relative_darkness.png",
+    "slide_03_background_estimation_and_foreground_segmentation/segmentation/step_3_hysteresis.png",
+    "slide_03_background_estimation_and_foreground_segmentation/segmentation/step_4_closing_cleanup.png",
+    "slide_04_multi_object_tracking/step_1_motion_prediction.png",
+    "slide_04_multi_object_tracking/step_2_overlap_matrix.png",
+    "slide_04_multi_object_tracking/step_3_hungarian_assignment.png",
+    "slide_04_multi_object_tracking/step_4_merge_split_distance.png",
+    "slide_03_background_estimation_and_foreground_segmentation/segmentation/output_binary_mask.png",
+    "slide_04_multi_object_tracking/output_tracking.png",
+    "slide_08_stimulus_response_analysis/02_response_summary.png"
+  ],
+  "code_sha256": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/segmentation_ppt.py": "becf5e0f8ce925bd24dbc0f2492503fe30b8800a2544c6ddbef288686a8a5c2b",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/tracking_ppt.py": "3b5d59bf7c301781ffd8dfae09f34559bf72333a6f34a58c36f717baaa029ae8",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/analysis_ppt.py": "845bcdcba0a451ca8821bc2577ec0f1130bf8fa941179e9681f0b82baeafc73c",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/stimulus_response_ppt.py": "cc357f5452e764d39068c88d057ccc9ce46e1634975440c4f79539e47984df26",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/baseline_animations.py": "bda1c5d4f6934ac58896ed6d58b605f92daf4c60c72f27f99929789daf695212"
+  },
+  "notes": [
+    "Scientific inputs and review partitions are separately checked in review_validation.json.",
+    "Median 0.549169 px is template-versus-centroid displacement difference, not absolute ground-truth accuracy.",
+    "B disappearance example is a tracking loss; no physical destruction is inferred.",
+    "Software video/PZT alignment does not establish physical synchronization."
+  ]
+}
