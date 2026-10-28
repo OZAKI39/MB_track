@@ -1,0 +1,130 @@
+[
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 7,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      276,
+      722,
+      72,
+      85
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 7,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      276,
+      722,
+      72,
+      85
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 2,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      757,
+      926,
+      47,
+      48
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 2,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 1319,
+    "seed_box": [
+      757,
+      926,
+      47,
+      48
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 1319
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 5,
+    "threshold": 100,
+    "first_frame": 0,
+    "stop_frame": 372,
+    "seed_box": [
+      240,
+      764,
+      20,
+      27
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 252
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 5,
+    "threshold": 130,
+    "first_frame": 0,
+    "stop_frame": 372,
+    "seed_box": [
+      240,
+      764,
+      20,
+      27
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 252
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 23,
+    "threshold": 100,
+    "first_frame": 299,
+    "stop_frame": 432,
+    "seed_box": [
+      158,
+      929,
+      9,
+      11
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 312
+  },
+  {
+    "output": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison",
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+    "object_id": 23,
+    "threshold": 130,
+    "first_frame": 299,
+    "stop_frame": 432,
+    "seed_box": [
+      158,
+      929,
+      9,
+      11
+    ],
+    "fps": 60.00006060612183,
+    "last_reference_frame": 312
+  }
+]

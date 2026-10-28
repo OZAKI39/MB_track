@@ -1,0 +1,177 @@
+{
+  "inputs": {
+    "video": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    },
+    "background": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "sha256": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8"
+    },
+    "stats": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/stats.json",
+      "sha256": "74caef33383690590f96af954f95732021491306fb253b133daa2dca26780f60"
+    },
+    "algorithm": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/bubble_tracker.py",
+      "sha256": "8e63db0f87f50f1ebdd0e32e5785eb7153fca7047ed4a62aa26f113fbfb881aa"
+    },
+    "renderer": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/segmentation_ppt.py",
+      "sha256": "77a0be734a952f65cd1c570230e17a6aa062f505f723aca0491e876c55f78892"
+    },
+    "arial_regular": {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    "arial_bold": {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  },
+  "frame_index": 253,
+  "video_time_s": 4.216662407407407,
+  "frame_shape": [
+    1024,
+    1280
+  ],
+  "parameters": {
+    "lo": 0.06,
+    "hi": 0.12,
+    "close": 5,
+    "min_area": 12,
+    "blur": 1.0
+  },
+  "detail_roi_xywh": [
+    300,
+    600,
+    380,
+    380
+  ],
+  "cleanup_rois_xywh": [
+    [
+      418,
+      757,
+      64,
+      40
+    ],
+    [
+      418,
+      757,
+      64,
+      40
+    ],
+    [
+      418,
+      757,
+      64,
+      40
+    ]
+  ],
+  "changed_pixels_in_cleanup_crops": [
+    28,
+    0,
+    0
+  ],
+  "segmentation_regions": 12,
+  "checks": {
+    "exact_match_to_normal_segment_call": true,
+    "binary_png_matches_segment_output": true,
+    "all_visible_labels_Arial": true,
+    "inputs_unchanged": true
+  },
+  "pixel_counts": {
+    "candidates": 6576,
+    "cores": 5147,
+    "closed_candidates": 6633,
+    "core_selected": 6341,
+    "final_mask": 6341
+  },
+  "figures": [
+    "step_2_relative_darkness.png",
+    "step_2_relative_darkness.pdf",
+    "step_3_hysteresis.png",
+    "step_3_hysteresis.pdf",
+    "step_4_closing_cleanup.png",
+    "step_4_closing_cleanup.pdf",
+    "output_binary_mask.png",
+    "output_binary_mask.pdf"
+  ],
+  "text_audit": [
+    {
+      "figure": "step_2_relative_darkness",
+      "font_family": "Arial",
+      "labels": [
+        "0",
+        "0.06",
+        "0.12",
+        "0.40",
+        "2  Relative darkness",
+        "expB \u00b7 Frame 253",
+        "D = 1 - I_s / (B + 1), corrected for overall brightness",
+        "Input frame",
+        "Background",
+        "Relative darkness"
+      ]
+    },
+    {
+      "figure": "step_3_hysteresis",
+      "font_family": "Arial",
+      "labels": [
+        "3  Hysteresis thresholding",
+        "expB \u00b7 Frame 253",
+        "Candidates > 6%",
+        "Closing + cores > 12%",
+        "Keep regions with a core",
+        "Cyan: candidates     Gold: deep cores"
+      ]
+    },
+    {
+      "figure": "step_4_closing_cleanup",
+      "font_family": "Arial",
+      "labels": [
+        "4  Closing & cleanup",
+        "expB \u00b7 Frame 253",
+        "Closing \u2192 core selection \u2192 hole filling \u2192 area filter",
+        "5 \u00d7 5 closing",
+        "Fill inner holes",
+        "No holes in this frame",
+        "Remove regions < 12 px",
+        "No small regions removed",
+        "Before",
+        "After"
+      ]
+    },
+    {
+      "figure": "output_binary_mask",
+      "font_family": "Arial",
+      "labels": [
+        "Output  One binary mask per frame",
+        "expB \u00b7 Frame 253",
+        "Original frame",
+        "Binary mask"
+      ]
+    }
+  ],
+  "notes": [
+    "Actual segment() locals captured; no duplicated segmentation implementation.",
+    "Blur sigma and closing size use current SegParams defaults; thresholds and minimum area come from saved stats.",
+    "D = 1 - GaussianBlur(gray)/(B+1); subtract median(D[::8, ::8]).",
+    "Closing precedes deep-core selection in the actual implementation.",
+    "External contours fill holes; a contour-area prefilter precedes the final pixel-area filter.",
+    "Step 4 uses actual changed pixels. If this frame has no holes, its unchanged hole-filling panel is labelled explicitly.",
+    "Step 2 color scale is clipped to [0, 0.4] for display only; all numerical arrays remain unchanged.",
+    "This is a pre-tracking segmentation mask, not manually reviewed ground truth.",
+    "No physical length calibration is added. Crops are enlarged with nearest-neighbor display."
+  ],
+  "outputs": {
+    "output_binary_mask.png": "981c76024beddf139d8bee4cfe86ae6381bc52bb4fdcbeafca67eb86b7116913",
+    "step_2_relative_darkness.png": "32c5a26354ade130da1d9a3bf54c71fb33b834bd3890344fce87544dd45aeebb",
+    "step_2_relative_darkness.pdf": "7cf4d6285b75ee23e673e3e0135d2e650c3450ca45cc2e49a88af51d12f1375e",
+    "step_4_closing_cleanup.png": "362f445eb7b608a908b78db56fad49dbccc8329fbfa07324aa0f372632c9c452",
+    "step_4_closing_cleanup.pdf": "b578aa327401a7900afe4a68aba9ba75e9a92456f70d42c9975ad6d70a3fa831",
+    "step_3_hysteresis.pdf": "369a19f99eb71cabbc2f300578c8aca6a2ddb3674c9809ff818bf17605ae8007",
+    "step_3_hysteresis.png": "6614152d1a0825e96f22371910d57825dd05968b5ae67f42e49b1ea735316bc5",
+    "output_binary_mask.pdf": "4d02665ff210240629bb48ce6e617f05f598fe39a0e2bceb4375b66604143c4d"
+  }
+}

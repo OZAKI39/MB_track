@@ -1,0 +1,73 @@
+{
+  "runs": [
+    {
+      "file": "target_002_threshold_130.csv",
+      "target_id": 2,
+      "threshold": 130,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_002_threshold_100.csv",
+      "target_id": 2,
+      "threshold": 100,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_007_threshold_100.csv",
+      "target_id": 7,
+      "threshold": 100,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_007_threshold_130.csv",
+      "target_id": 7,
+      "threshold": 130,
+      "frames": 1320,
+      "reported": 1320,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_023_threshold_100.csv",
+      "target_id": 23,
+      "threshold": 100,
+      "frames": 134,
+      "reported": 133,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_023_threshold_130.csv",
+      "target_id": 23,
+      "threshold": 130,
+      "frames": 134,
+      "reported": 134,
+      "reinitializations": 1
+    },
+    {
+      "file": "target_005_threshold_130.csv",
+      "target_id": 5,
+      "threshold": 130,
+      "frames": 373,
+      "reported": 373,
+      "reinitializations": 0
+    },
+    {
+      "file": "target_005_threshold_100.csv",
+      "target_id": 5,
+      "threshold": 100,
+      "frames": 373,
+      "reported": 372,
+      "reinitializations": 1
+    }
+  ],
+  "python": "3.12.3",
+  "opencv": "4.10.0",
+  "workers": 4,
+  "opencv_threads_per_worker": 1,
+  "note": "Independent single-target runs; their labels indicate the requested seed, not proven identity. Parallel execution times are not a controlled speed comparison."
+}

@@ -1,0 +1,6 @@
+action_no,action,original_action,planned_s,software_reference_s,resting_objects,responding_resting_objects,responding_fraction,original_module_responding_count,original_numerator_outside_resting_population,responding_object_ids,resting_object_ids,onset_frames
+1,PZT1 on,PZT1 on,4.0,4.040504188858904,11,7,0.6363636363636364,7,[],"[1, 2, 3, 4, 7, 8, 14]","[1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 14]",{246: 7}
+2,PZT1 → PZT3,PZT1 → PZT3,8.0,8.04048668887117,10,1,0.1,1,[],[11],"[1, 2, 4, 7, 8, 9, 10, 11, 21, 24]",{499: 1}
+3,PZT3 → PZT1,PZT3 → PZT1,12.0,12.040529088873882,8,1,0.125,4,"[7, 24, 28]",[21],"[1, 2, 4, 8, 9, 10, 11, 21]",{727: 1}
+4,All to standby,PZT1 off (all idle),16.0,16.040531488863053,12,0,0.0,0,[],[],"[1, 2, 4, 7, 8, 9, 10, 11, 21, 24, 42, 44]",{}
+5,Output off,stop: all outputs off,20.0,20.040430688881315,12,0,0.0,0,[],[],"[1, 2, 4, 7, 8, 9, 10, 11, 21, 24, 42, 44]",{}

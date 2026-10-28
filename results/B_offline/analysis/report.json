@@ -1,0 +1,488 @@
+{
+ "created": "2026-10-28T17:11:28",
+ "result_dir": "results/B_offline",
+ "video": "data/raw/expB.mp4",
+ "frames": 1320,
+ "fps": 60.00006060612183,
+ "fps_in_stats": 60.00006060612183,
+ "image_size_px": [
+  1280,
+  1024
+ ],
+ "units": {
+  "length": "px",
+  "time": "s",
+  "direction": "degrees, 0 = right, 90 = up on screen, 180 = left, -90 = down",
+  "orientation": "degrees, 0-180, counter-clockwise on screen from horizontal"
+ },
+ "um_per_px": null,
+ "parameters": {
+  "exclude_reasons": [
+   "Not a bubble (debris or artifact)"
+  ],
+  "velocity_half_window_s": 0.05,
+  "min_shape_area_px": 200,
+  "max_edge_on_wall": 0.2,
+  "min_aspect_for_orientation": 1.2,
+  "border_px": 2,
+  "wall_darkness": 0.06,
+  "wall_dilate_px": 2,
+  "cluster_area_px": 300,
+  "field_uncertain_share": 0.05,
+  "main_min_area_px": 300,
+  "main_min_duration_s": 1.0,
+  "rest_speed_px_s": 10.0,
+  "rest_s": 0.3,
+  "onset_speed_px_s": 30.0,
+  "onset_group_s": 0.1,
+  "onset_group_min": 3
+ },
+ "inputs": {
+  "sha1": {
+   "objects.csv": "b8369c74626e88de6a80a0977c90a33737063ef5",
+   "events.csv": "c52e6ba44db3f11a8fb732180f959ab99c59204c",
+   "review.json": "8c89f1ceec678c8daf137d2b29e8734a231badc0",
+   "contours.npz": "23f147fb495945eab19e483322e9ada5a136a2a6"
+  },
+  "review_present": true,
+  "review_updated": "2026-10-28T17:09:29"
+ },
+ "rows": {
+  "total": 17758,
+  "trusted": 14498,
+  "untrusted": 3260,
+  "unreviewed": 0,
+  "field_confirmed": 14498,
+  "field_uncertain": 246,
+  "field_excluded": 3014
+ },
+ "tracks": 49,
+ "objects": 32,
+ "trusted_segments": 51,
+ "main_objects": [
+  {
+   "object_id": 7,
+   "ids": [
+    7
+   ],
+   "segments": [
+    6,
+    12,
+    14,
+    15,
+    19,
+    44
+   ],
+   "trusted_s": 22.0,
+   "area_max_px2": 4033.0,
+   "area_time": 75228.674,
+   "t_first_s": 0.0,
+   "t_last_s": 21.983
+  },
+  {
+   "object_id": 2,
+   "ids": [
+    2
+   ],
+   "segments": [
+    2
+   ],
+   "trusted_s": 22.0,
+   "area_max_px2": 1677.0,
+   "area_time": 27229.156,
+   "t_first_s": 0.0,
+   "t_last_s": 21.983
+  },
+  {
+   "object_id": 5,
+   "ids": [
+    5
+   ],
+   "segments": [
+    5
+   ],
+   "trusted_s": 4.217,
+   "area_max_px2": 308.0,
+   "area_time": 1204.865,
+   "t_first_s": 0.0,
+   "t_last_s": 4.2
+  }
+ ],
+ "field_summary": {
+  "first_second": {
+   "n_regions": 11.0,
+   "total_area_px2": 6610.5,
+   "spread_px": 261.899,
+   "cluster_area_share": 0.808,
+   "largest_share": 0.556,
+   "nn_gap_median_px": 94.641
+  },
+  "last_second": {
+   "n_regions": 12.0,
+   "total_area_px2": 5726.5,
+   "spread_px": 260.234,
+   "cluster_area_share": 0.795,
+   "largest_share": 0.578,
+   "nn_gap_median_px": 68.455
+  },
+  "connect_events": 7,
+  "separate_events": 5,
+  "enter_view_events": 0,
+  "leave_view_events": 0,
+  "frames_uncertain": 0,
+  "frames": 1320
+ },
+ "joint_motion_starts": [
+  {
+   "t_first_s": 4.05,
+   "t_last_s": 4.05,
+   "frame_first": 243,
+   "frame_last": 243,
+   "n_objects": 7,
+   "object_ids": [
+    2,
+    3,
+    4,
+    7,
+    8,
+    11,
+    14
+   ]
+  }
+ ],
+ "data_quality": [
+  "Shape quality over all trusted frames: good 6 %. Reasons for the rest (a frame can have several): on wall/debris 11183 frames, small 10029 frames.",
+  "Clusters (area >= 300 px), 2650 trusted frames: good 21 %, wall contact 79 %. \"wall contact\" = more than 20 % of the outline lies on a channel wall or fixed debris: the region is real and its position is usable, but area, aspect ratio and orientation are shaped by the wall on that side.",
+  "Why trusted segments end: disappeared 20, connect / separate event 19, video end 12.",
+  "Positions are region centroids. A centroid also moves when part of a region is hidden by a wall, or when a region connects or separates; segments are cut at connect / separate events, but wall contact is only flagged (edge_on_wall), not corrected.",
+  "Region speed is the speed of the visible region in the image, not the speed of the liquid.",
+  "Whole-field values also change when a region enters or leaves the field of view; these moments are listed in field_events.csv (\"enter view\" / \"leave view\") and marked in figures/collective.png. A jump that coincides with one of them is a field-of-view effect, not aggregation or dispersion."
+ ],
+ "checks": [
+  {
+   "check": "motion and shape use trusted rows only",
+   "passed": true,
+   "detail": "14498 motion rows, 14498 shape rows, 14498 trusted rows in objects.csv"
+  },
+  {
+   "check": "every trusted row is in exactly one segment",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "no segment runs through a connect / separate event",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "every segment holds a single track ID",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "recomputed speed agrees with the tracker speed (r > 0.8 where moving > 30 px/s)",
+   "passed": true,
+   "detail": "r = 0.842 over 551 rows"
+  },
+  {
+   "check": "whole field counts every region except confirmed false targets",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "review.json was made for this objects.csv",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "review status matches the round-1 export objects_reviewed.csv",
+   "passed": true,
+   "detail": "0 rows differ"
+  },
+  {
+   "check": "input files unchanged by the analysis",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "motion agrees with the raw video (template matching, no segmentation): median difference < 1 px over 0.1 s",
+   "passed": true,
+   "detail": "100 random frames of main objects: median 0.55 px, 90 % 2.41 px, r = 0.995 (displacements up to 32 px)"
+  }
+ ],
+ "all_checks_passed": true,
+ "video_motion_check": {
+  "samples": 100,
+  "lag_s": 0.09999989898989899,
+  "median_diff_px": 0.5491690947642447,
+  "p90_diff_px": 2.4082291755256446,
+  "corr_displacement": 0.9950245381458312,
+  "max_displacement_px": 32.000702242294615,
+  "passed": true
+ },
+ "key_moment_checks": [
+  {
+   "file": "checks/check_01.png",
+   "what": "largest change of the visible area within one trusted segment (over 0.2 s, shape not poor)",
+   "kind": "object",
+   "object_id": 7,
+   "id": 7,
+   "frames": [
+    734,
+    740,
+    746
+   ],
+   "values": [
+    {
+     "frame": 734,
+     "area_px2": 3661.0,
+     "aspect_ratio": 1.0745824687667775,
+     "speed_px_s": 69.43178766912631,
+     "shape_quality": "wall contact"
+    },
+    {
+     "frame": 740,
+     "area_px2": 3467.0,
+     "aspect_ratio": 1.2269774919614147,
+     "speed_px_s": 41.433560891622776,
+     "shape_quality": "wall contact"
+    },
+    {
+     "frame": 746,
+     "area_px2": 3437.0,
+     "aspect_ratio": 1.3051994479639513,
+     "speed_px_s": 35.263617400456944,
+     "shape_quality": "wall contact"
+    }
+   ],
+   "field_of_view_events": []
+  },
+  {
+   "file": "checks/check_02.png",
+   "what": "largest change of the visible area within one trusted segment (over 0.2 s, shape not poor)",
+   "kind": "object",
+   "object_id": 2,
+   "id": 2,
+   "frames": [
+    244,
+    250,
+    256
+   ],
+   "values": [
+    {
+     "frame": 244,
+     "area_px2": 1658.0,
+     "aspect_ratio": 1.0243955755694487,
+     "speed_px_s": 71.95879696561846,
+     "shape_quality": "good"
+    },
+    {
+     "frame": 250,
+     "area_px2": 1477.0,
+     "aspect_ratio": 1.0362137803824512,
+     "speed_px_s": 320.0073456626892,
+     "shape_quality": "good"
+    },
+    {
+     "frame": 256,
+     "area_px2": 1367.0,
+     "aspect_ratio": 1.0390514680819982,
+     "speed_px_s": 246.71161618944788,
+     "shape_quality": "wall contact"
+    }
+   ],
+   "field_of_view_events": []
+  },
+  {
+   "file": "checks/check_03.png",
+   "what": "connect event: #5 connects with #7; the trusted data are cut here",
+   "kind": "object",
+   "object_id": 7,
+   "id": 7,
+   "frames": [
+    250,
+    253,
+    256
+   ],
+   "values": [
+    {
+     "frame": 250,
+     "area_px2": 3603.0,
+     "aspect_ratio": 1.2926186712650285,
+     "speed_px_s": 94.31303622291344,
+     "shape_quality": "good"
+    },
+    {
+     "frame": 253,
+     "area_px2": 3995.0,
+     "aspect_ratio": 1.0841220464623735,
+     "speed_px_s": 79.88847534696828,
+     "shape_quality": "good"
+    },
+    {
+     "frame": 256,
+     "area_px2": 3996.0,
+     "aspect_ratio": 1.0900040306328094,
+     "speed_px_s": 77.15068713043331,
+     "shape_quality": "good"
+    }
+   ],
+   "field_of_view_events": []
+  },
+  {
+   "file": "checks/check_04.png",
+   "what": "fastest motion of a main object (not at the image edge)",
+   "kind": "object",
+   "object_id": 2,
+   "id": 2,
+   "frames": [
+    245,
+    251,
+    257
+   ],
+   "values": [
+    {
+     "frame": 245,
+     "area_px2": 1658.0,
+     "aspect_ratio": 1.0243955755694487,
+     "speed_px_s": 113.61176645054954,
+     "shape_quality": "good"
+    },
+    {
+     "frame": 251,
+     "area_px2": 1472.0,
+     "aspect_ratio": 1.0592801192701802,
+     "speed_px_s": 333.0253528669861,
+     "shape_quality": "good"
+    },
+    {
+     "frame": 257,
+     "area_px2": 1390.0,
+     "aspect_ratio": 1.1178919552264852,
+     "speed_px_s": 204.02261906791037,
+     "shape_quality": "wall contact"
+    }
+   ],
+   "field_of_view_events": []
+  },
+  {
+   "file": "checks/check_05.png",
+   "what": "largest change of the total visible area (over 0.5 s)",
+   "kind": "field",
+   "object_id": null,
+   "id": null,
+   "frames": [
+    245,
+    260,
+    275
+   ],
+   "values": [
+    {
+     "frame": 245,
+     "n_regions": 12,
+     "total_area_px2": 6635.0,
+     "cluster_area_share": 0.7917106254709871,
+     "spread_px": 261.6938286080941
+    },
+    {
+     "frame": 260,
+     "n_regions": 9,
+     "total_area_px2": 6228.0,
+     "cluster_area_share": 0.8721901091843288,
+     "spread_px": 246.51028276699586
+    },
+    {
+     "frame": 275,
+     "n_regions": 9,
+     "total_area_px2": 5908.0,
+     "cluster_area_share": 0.8584969532836831,
+     "spread_px": 250.15281819976022
+    }
+   ],
+   "field_of_view_events": []
+  },
+  {
+   "file": "checks/check_06.png",
+   "what": "largest change of the share of area in clusters (over 0.5 s)",
+   "kind": "field",
+   "object_id": null,
+   "id": null,
+   "frames": [
+    229,
+    244,
+    259
+   ],
+   "values": [
+    {
+     "frame": 229,
+     "n_regions": 12,
+     "total_area_px2": 6612.0,
+     "cluster_area_share": 0.79491833030853,
+     "spread_px": 262.04998237437223
+    },
+    {
+     "frame": 244,
+     "n_regions": 12,
+     "total_area_px2": 6647.0,
+     "cluster_area_share": 0.7910335489694599,
+     "spread_px": 261.7014599315984
+    },
+    {
+     "frame": 259,
+     "n_regions": 9,
+     "total_area_px2": 6247.0,
+     "cluster_area_share": 0.8728989915159276,
+     "spread_px": 246.11620956627738
+    }
+   ],
+   "field_of_view_events": []
+  },
+  {
+   "file": "checks/check_07.png",
+   "what": "largest change of the spread (over 0.5 s)",
+   "kind": "field",
+   "object_id": null,
+   "id": null,
+   "frames": [
+    228,
+    243,
+    258
+   ],
+   "values": [
+    {
+     "frame": 228,
+     "n_regions": 12,
+     "total_area_px2": 6622.0,
+     "cluster_area_share": 0.7946239806704923,
+     "spread_px": 262.0034198346723
+    },
+    {
+     "frame": 243,
+     "n_regions": 12,
+     "total_area_px2": 6635.0,
+     "cluster_area_share": 0.7924642049736247,
+     "spread_px": 261.65883624228144
+    },
+    {
+     "frame": 258,
+     "n_regions": 9,
+     "total_area_px2": 6238.0,
+     "cluster_area_share": 0.871112536069253,
+     "spread_px": 247.42207186306118
+    }
+   ],
+   "field_of_view_events": []
+  }
+ ],
+ "files": {
+  "segments.csv": "task 1: one row per trusted segment (start/end and why, motion and shape summary)",
+  "motion.csv": "task 2: per frame of each trusted segment: position, displacement, velocity",
+  "shape.csv": "task 3: per frame of each trusted segment: area, aspect ratio, circularity, orientation, solidity, reliability",
+  "collective.csv": "task 4: per frame, whole field (all regions except confirmed false targets)",
+  "field_events.csv": "regions connecting / separating in the image (tracker merge / split) and entering / leaving the field of view",
+  "state.csv": "every region in every frame with review status, motion, shape and field values",
+  "onsets.csv": "moments when a trusted region at rest starts to move; joint_start = together with at least two other objects (compare with the PZT log in round 3)",
+  "figures/": "task 5: figures",
+  "checks/": "video frames next to the curves at key moments"
+ }
+}

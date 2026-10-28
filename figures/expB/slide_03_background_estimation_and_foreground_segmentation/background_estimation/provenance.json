@@ -1,0 +1,102 @@
+{
+  "inputs": {
+    "video": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    },
+    "algorithm": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/bubble_tracker.py",
+      "sha256": "8e63db0f87f50f1ebdd0e32e5785eb7153fca7047ed4a62aa26f113fbfb881aa"
+    },
+    "renderer": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/segmentation_ppt.py",
+      "sha256": "becf5e0f8ce925bd24dbc0f2492503fe30b8800a2544c6ddbef288686a8a5c2b"
+    },
+    "arial_regular": {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    "arial_bold": {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  },
+  "pixel_xy": [
+    438,
+    780
+  ],
+  "pixel_origin": "zero-based top-left",
+  "fps": 60.00006060612183,
+  "n_frames": 1320,
+  "sample_step_frames": 4,
+  "sample_count": 330,
+  "percentile": 90,
+  "percentile_index": 296,
+  "background_gray": 153.5,
+  "checks": {
+    "matches_existing_percentile_background": true,
+    "all_visible_labels_Arial": true,
+    "inputs_unchanged": true
+  },
+  "figures": [
+    "step_1_background_estimation.png",
+    "step_1_background_estimation.pdf",
+    "step_1_background_estimation.svg"
+  ],
+  "text_audit": [
+    {
+      "figure": "step_1_background_estimation",
+      "font_family": "Arial",
+      "labels": [
+        "Microbubble passage",
+        "Time (s)",
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "Pixel brightness (gray level)",
+        "70",
+        "80",
+        "90",
+        "100",
+        "110",
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "Exp. B \u00b7 Pixel (438, 780)",
+        "Pixel brightness",
+        "90th percentile = background"
+      ]
+    }
+  ],
+  "figure_style": {
+    "width_mm": 180.34,
+    "height_mm": 104.14,
+    "raster_dpi": 600,
+    "font": "Arial",
+    "axis_label_pt": 10,
+    "tick_label_pt": 9,
+    "curve_linewidth_pt": 1.0,
+    "background": "white",
+    "pdf_fonts_embedded": true,
+    "svg_text_as_paths": true
+  },
+  "notes": [
+    "Real expB pixel (438, 780); an illustrative passage, not an accuracy benchmark.",
+    "Curve uses the exact 330 time samples and 1/16-gray-level quantization of the estimator.",
+    "Spatial Gaussian sigma=1 preprocessing matches the existing algorithm; no temporal smoothing.",
+    "Shows the single-video percentile stage, before reference alignment and maximum combination.",
+    "The line is not asserted to equal the final multi-reference B_offline/background.npy pixel.",
+    "Times are frame index / video FPS, not measured exposure or AFG timing."
+  ],
+  "outputs": {
+    "step_1_background_estimation.png": "5895e7ea5be57223ba496ec7a4ca32664558977f5101e7f65093ec17c83e06de",
+    "pixel_brightness.csv": "195fe4cdc4d7b676f5c55e0bdfebfaf7499852a41576e9f10b54a5d19f3e423d",
+    "step_1_background_estimation.svg": "085a426655d47fb70a2e8c3dd0cf707641ab1d127a5c4309f31b6a2570e730ab",
+    "step_1_background_estimation.pdf": "0481ac815d1de3db20b6e3e8062057509f65c5c875bfb0cf2133cd3f23b78f15"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "frames": 227,
+  "duration_s": 7.566666666666666,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "all_frames_decoded": true,
+  "sha256": "f30f6dba59ad10dcc077d66ceea81bbdd9691e0fd27ee07347eb08f1f6391b31",
+  "scientific_inputs_unchanged": true,
+  "saved_measurements_reproduced": true,
+  "actual_arial_verified": true,
+  "ppt_playback_tested": false,
+  "original_algorithms_unchanged": true
+}

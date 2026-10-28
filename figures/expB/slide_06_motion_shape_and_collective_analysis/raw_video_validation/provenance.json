@@ -1,0 +1,81 @@
+{
+  "created": "2026-10-28T17:28:23.013369+01:00",
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+  "source_result": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline",
+  "source_fps": 60.00006060612183,
+  "source_frames": 1320,
+  "trusted_segments": 51,
+  "trusted_rows": 14498,
+  "exported_steps": "5",
+  "font_files": {
+    "/mnt/c/Windows/Fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "/mnt/c/Windows/Fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+  },
+  "visible_font": "Arial",
+  "visible_language": "English",
+  "overlay_background_opacity": 0.6,
+  "source_sha256": {
+    "customer_workspace/microbubble_tracking/data/raw/expB.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "customer_workspace/microbubble_tracking/results/B_offline/untrusted.csv": "a054931ec1498b9669bf15cfae8be7f55a575397e5bd6ba0a2e14de16a26a30c",
+    "customer_workspace/microbubble_tracking/results/B_offline/events_reviewed.csv": "eb42956b01fc0cec3e29c9656a12747c36bdcac2e984eada844ace8d2b9ea1b2",
+    "customer_workspace/microbubble_tracking/results/B_offline/events.csv": "f89bae5b0f5d978ec468da6a680c59aed0f4139414fc34e65ebae550beaddbf6",
+    "customer_workspace/microbubble_tracking/results/B_offline/objects.csv": "990788b8d5ce040945c0b3116611f2a7539283a9296d171dc6cd8ced32206c3c",
+    "customer_workspace/microbubble_tracking/results/B_offline/review_report.txt": "b5e8b4d9258c91b5276e981d1c1ee41ab5737c1e8c2632c7e1e3fa729e6c832c",
+    "customer_workspace/microbubble_tracking/results/B_offline/unreviewed.csv": "c7ae7eaad010b9347d65ab379dcb1dfb4615796fc10cc44238762df7ceaec521",
+    "customer_workspace/microbubble_tracking/results/B_offline/review_overlay.mp4": "e16957309128a7620707a680d9eb563eae1fa4778a70a662b8656300c3f582bc",
+    "customer_workspace/microbubble_tracking/results/B_offline/background.npy": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8",
+    "customer_workspace/microbubble_tracking/results/B_offline/objects_reviewed.csv": "dd007a4d27d6388d861c3397a517c6a9514e5aebb55a309940e54d43c84f666a",
+    "customer_workspace/microbubble_tracking/results/B_offline/stats.json": "74caef33383690590f96af954f95732021491306fb253b133daa2dca26780f60",
+    "customer_workspace/microbubble_tracking/results/B_offline/contours.npz": "38712815c3a829e8f42ccfc5fbbf1427badb5ff6d5668315b7ab619f4e1654c5",
+    "customer_workspace/microbubble_tracking/results/B_offline/trusted.csv": "78b594b9af27de285c3d7ec7c887d3d697e3c7aa276bf15e70e67f028f1c0e69",
+    "customer_workspace/microbubble_tracking/results/B_offline/overlay.mp4": "0a19df4bf595fb7f347bc4882fc4b595ee9d5e9e8e4346c678c123685f90b016",
+    "customer_workspace/microbubble_tracking/results/B_offline/review.json": "583aa5357d36c63ed59b81cf69b8861bfac2218ee2a8950d2ee79a2cc4dae7c0",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/field_events.csv": "5fff59401bcfaa105cdd8af5130d89259bc0768c7d3e971d4f1ae5476c1a23e7",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/report.json": "6d3443e0c926c3f2fe490dc04918c01d6a1e14671047f7598b560fc64ec7dfee",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/state.csv": "07e2322c5d2f97e6c62d51af9b63bcbf9c86a3ff9f0db52fd1250f36dcebfedf",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/segments.csv": "9f007015baa7ec12543ac53aa833b413d73f150bcd70dcb285f1d249747c2491",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/collective.csv": "61fd3bf597a924eca61031ea92fde9fd8038ae1f77e29dbcb6f8d015186cd623",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/motion.csv": "f52f372516e2357434eccbc5cf2c1ab3c08d1c5336d6e33ba7815117ed75efa6",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/shape.csv": "9c093327ab47b107d2e47f7a480f4ca2af58e39bd549c16b79bc6d93dd254ef5",
+    "customer_workspace/microbubble_tracking/results/B_offline/analysis/onsets.csv": "b45fdbccfb8ca91faf1b984ee664f43855874c5f8fbca1680aac81462d5121e9"
+  },
+  "original_files_unchanged": true,
+  "script_sha256": "845bcdcba0a451ca8821bc2577ec0f1130bf8fa941179e9681f0b82baeafc73c",
+  "video_motion_check": {
+    "samples": 100,
+    "lag_s": 0.09999989898989899,
+    "median_diff_px": 0.5491690947642447,
+    "p90_diff_px": 2.4082291755256446,
+    "corr_displacement": 0.9950245381458312,
+    "max_displacement_px": 32.000702242294615,
+    "passed": true
+  },
+  "movies": {
+    "05_raw_video_validation.mp4": {
+      "frames": 384,
+      "duration_s": 12.8,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "all_frames_decoded": true,
+      "sha256": "ba602be20ea8fecf4548c353d3649fcf13288b48c603a3acf1726a8e2a00f902"
+    }
+  },
+  "limitations": [
+    "The raw-video validation value is a median difference between centroid and template displacements, not absolute tracking accuracy.",
+    "The original 100-sample selection is reproduced with seed 1; eight displayed pairs span discrepancy quantiles including the maximum.",
+    "Template matching uses raw pixels; the existing check derives its initial crop and search radius from tracking geometry.",
+    "Saved outlines are simplified contours. Metrics come from original analysis values, not from the display polygons.",
+    "The ellipse uses region moments, not cv2.fitEllipse. Shape examples are marked good by the existing analysis.",
+    "Whole-field metrics include uncertain regions and exclude confirmed false targets. Entry and exit can change these metrics.",
+    "The spread circle is area-weighted RMS distance of region centroids, not an enclosing boundary.",
+    "Step 1 displays all source frames at 60 fps. Step 4 displays every second source frame at 30 fps. Both play at 1x. Other slow-motion clips repeat real frames.",
+    "No exposure timing, physical synchronization, hardware performance or micrometre calibration is inferred.",
+    "PZT bars show archived command-to-video ranges. They do not establish physical voltage or acoustic onset times.",
+    "Translucency is composited over video pixels. The H.264 MP4 itself has no alpha channel."
+  ]
+}
