@@ -1,0 +1,307 @@
+{
+  "created": "2026-10-29T11:45:54+01:00",
+  "architecture": {
+    "node_base": 21,
+    "fourier_features": 24,
+    "node_input": 45,
+    "edge_input": 5,
+    "global_input": 12,
+    "latent": 64,
+    "message_blocks": 3,
+    "members": 5,
+    "radius_px": 150.0,
+    "history_steps": 3,
+    "future_steps": 10,
+    "frames_per_step": 6,
+    "position_scale_px": 5.0,
+    "history_dropout": 0.5,
+    "beta": 1.0,
+    "context": "motion"
+  },
+  "checkpoint_verification": {
+    "status": "passed",
+    "path": "results/world_model/model/graph_world_model.pt",
+    "sha256": "31be85915ebb15cd6476de2111397dc3dd30d01ebb5910e26e0b4da3ee702073",
+    "members_checked": 5,
+    "parameters_per_member": 178376,
+    "tensor_shapes": {
+      "node_enc.0.weight": [
+        64,
+        45
+      ],
+      "node_enc.0.bias": [
+        64
+      ],
+      "node_enc.2.weight": [
+        64,
+        64
+      ],
+      "node_enc.2.bias": [
+        64
+      ],
+      "node_enc.4.weight": [
+        64,
+        64
+      ],
+      "node_enc.4.bias": [
+        64
+      ],
+      "edge_enc.0.weight": [
+        64,
+        5
+      ],
+      "edge_enc.0.bias": [
+        64
+      ],
+      "edge_enc.2.weight": [
+        64,
+        64
+      ],
+      "edge_enc.2.bias": [
+        64
+      ],
+      "edge_enc.4.weight": [
+        64,
+        64
+      ],
+      "edge_enc.4.bias": [
+        64
+      ],
+      "glob_enc.0.weight": [
+        64,
+        12
+      ],
+      "glob_enc.0.bias": [
+        64
+      ],
+      "glob_enc.2.weight": [
+        64,
+        64
+      ],
+      "glob_enc.2.bias": [
+        64
+      ],
+      "glob_enc.4.weight": [
+        64,
+        64
+      ],
+      "glob_enc.4.bias": [
+        64
+      ],
+      "dec.0.weight": [
+        64,
+        128
+      ],
+      "dec.0.bias": [
+        64
+      ],
+      "dec.2.weight": [
+        64,
+        64
+      ],
+      "dec.2.bias": [
+        64
+      ],
+      "dec.4.weight": [
+        8,
+        64
+      ],
+      "dec.4.bias": [
+        8
+      ],
+      "edge_upd.0.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.0.0.bias": [
+        64
+      ],
+      "edge_upd.0.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.0.2.bias": [
+        64
+      ],
+      "edge_upd.0.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.0.4.bias": [
+        64
+      ],
+      "node_upd.0.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.0.0.bias": [
+        64
+      ],
+      "node_upd.0.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.0.2.bias": [
+        64
+      ],
+      "node_upd.0.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.0.4.bias": [
+        64
+      ],
+      "edge_upd.1.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.1.0.bias": [
+        64
+      ],
+      "edge_upd.1.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.1.2.bias": [
+        64
+      ],
+      "edge_upd.1.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.1.4.bias": [
+        64
+      ],
+      "node_upd.1.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.1.0.bias": [
+        64
+      ],
+      "node_upd.1.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.1.2.bias": [
+        64
+      ],
+      "node_upd.1.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.1.4.bias": [
+        64
+      ],
+      "edge_upd.2.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.2.0.bias": [
+        64
+      ],
+      "edge_upd.2.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.2.2.bias": [
+        64
+      ],
+      "edge_upd.2.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.2.4.bias": [
+        64
+      ],
+      "node_upd.2.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.2.0.bias": [
+        64
+      ],
+      "node_upd.2.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.2.2.bias": [
+        64
+      ],
+      "node_upd.2.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.2.4.bias": [
+        64
+      ]
+    }
+  },
+  "source_files": {
+    "world_model/models.py": "c510e370b79b176de11eddf94ea2bb34327dfb18ba982e621edc774e2d8447dc",
+    "world_model/dataset.py": "7d24f972509a7147f3c4d05bae4d2568b4b7b8bf9f4d9fa19200ef7d22ac51af",
+    "world_model/architecture.py": "0fb035301cd63653ac4ff6da329b6d68f81970a45f3f6bfd65b70b88bc7bc6be"
+  },
+  "fonts": [
+    {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "family": "Arial",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "family": "Arial",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  ],
+  "png_size_px": [
+    6000,
+    3375
+  ],
+  "figures": {
+    "01_world_model_overview": {
+      "files": [
+        {
+          "file": "01_world_model_overview.png",
+          "bytes": 640042,
+          "sha256": "2beb11149615ec407449834bc48059a2e3853e90a7904195570deeb2dfd5922f"
+        },
+        {
+          "file": "01_world_model_overview.pdf",
+          "bytes": 62283,
+          "sha256": "da2393d415fa6da110625c4d97f5e028337bd3286182eeec7e432dd220208347"
+        },
+        {
+          "file": "01_world_model_overview.svg",
+          "bytes": 154068,
+          "sha256": "0bdee9cf9b90ab43b1b958f8893c44dd4aa82fd349e35ef2f7fada2d5e118657"
+        }
+      ],
+      "text_count": 55,
+      "font": "Arial",
+      "text_overlaps": []
+    },
+    "02_world_model_network_detail": {
+      "files": [
+        {
+          "file": "02_world_model_network_detail.png",
+          "bytes": 620614,
+          "sha256": "74392ce56a41a7cdcf0adab3367ee71284bb94e2e6359dff190b86a8d81d0397"
+        },
+        {
+          "file": "02_world_model_network_detail.pdf",
+          "bytes": 63278,
+          "sha256": "1e161ad65575fdd21930e66a167c64c43f28ce3bdc5116bdfc9f631915f28c7a"
+        },
+        {
+          "file": "02_world_model_network_detail.svg",
+          "bytes": 153042,
+          "sha256": "c8215f2deba93ab2b4c38f68ee10479cfadde1b1ae5b820f66ffbf089aac5445"
+        }
+      ],
+      "text_count": 70,
+      "font": "Arial",
+      "text_overlaps": []
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+ "created": "2026-10-29T02:54:11",
+ "experiments": [
+  "A",
+  "B"
+ ],
+ "patterns": [
+  "idle",
+  "PZT4",
+  "PZT3",
+  "PZT2",
+  "PZT1",
+  "PZT1+PZT3"
+ ],
+ "regions_in_example": 15,
+ "dataset": {
+  "step_frames": 6,
+  "n_history": 3,
+  "n_future": 10,
+  "horizons": [
+   1,
+   5,
+   10
+  ],
+  "max_gap_frames": 8,
+  "min_run_s": 0.5,
+  "wall_darkness": 0.06,
+  "wall_dilate_px": 2,
+  "full_vpp": 0.8,
+  "active_vpp": 0.1,
+  "tsc_cap_s": 3.0
+ },
+ "note": "load with models.GraphWorldModel.from_state(torch.load(path))"
+}
