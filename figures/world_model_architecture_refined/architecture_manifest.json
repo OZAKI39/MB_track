@@ -1,0 +1,450 @@
+{
+  "created": "2026-10-29T12:04:29+01:00",
+  "architecture": {
+    "node_base": 21,
+    "fourier_features": 24,
+    "node_input": 45,
+    "edge_input": 5,
+    "global_input": 12,
+    "latent": 64,
+    "message_blocks": 3,
+    "members": 5,
+    "radius_px": 150.0,
+    "history_steps": 3,
+    "future_steps": 10,
+    "frames_per_step": 6,
+    "position_scale_px": 5.0,
+    "history_dropout": 0.5,
+    "beta": 1.0,
+    "context": "motion"
+  },
+  "checkpoint_verification": {
+    "status": "passed",
+    "path": "results/world_model/model/graph_world_model.pt",
+    "sha256": "31be85915ebb15cd6476de2111397dc3dd30d01ebb5910e26e0b4da3ee702073",
+    "members_checked": 5,
+    "parameters_per_member": 178376,
+    "tensor_shapes": {
+      "node_enc.0.weight": [
+        64,
+        45
+      ],
+      "node_enc.0.bias": [
+        64
+      ],
+      "node_enc.2.weight": [
+        64,
+        64
+      ],
+      "node_enc.2.bias": [
+        64
+      ],
+      "node_enc.4.weight": [
+        64,
+        64
+      ],
+      "node_enc.4.bias": [
+        64
+      ],
+      "edge_enc.0.weight": [
+        64,
+        5
+      ],
+      "edge_enc.0.bias": [
+        64
+      ],
+      "edge_enc.2.weight": [
+        64,
+        64
+      ],
+      "edge_enc.2.bias": [
+        64
+      ],
+      "edge_enc.4.weight": [
+        64,
+        64
+      ],
+      "edge_enc.4.bias": [
+        64
+      ],
+      "glob_enc.0.weight": [
+        64,
+        12
+      ],
+      "glob_enc.0.bias": [
+        64
+      ],
+      "glob_enc.2.weight": [
+        64,
+        64
+      ],
+      "glob_enc.2.bias": [
+        64
+      ],
+      "glob_enc.4.weight": [
+        64,
+        64
+      ],
+      "glob_enc.4.bias": [
+        64
+      ],
+      "dec.0.weight": [
+        64,
+        128
+      ],
+      "dec.0.bias": [
+        64
+      ],
+      "dec.2.weight": [
+        64,
+        64
+      ],
+      "dec.2.bias": [
+        64
+      ],
+      "dec.4.weight": [
+        8,
+        64
+      ],
+      "dec.4.bias": [
+        8
+      ],
+      "edge_upd.0.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.0.0.bias": [
+        64
+      ],
+      "edge_upd.0.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.0.2.bias": [
+        64
+      ],
+      "edge_upd.0.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.0.4.bias": [
+        64
+      ],
+      "node_upd.0.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.0.0.bias": [
+        64
+      ],
+      "node_upd.0.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.0.2.bias": [
+        64
+      ],
+      "node_upd.0.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.0.4.bias": [
+        64
+      ],
+      "edge_upd.1.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.1.0.bias": [
+        64
+      ],
+      "edge_upd.1.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.1.2.bias": [
+        64
+      ],
+      "edge_upd.1.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.1.4.bias": [
+        64
+      ],
+      "node_upd.1.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.1.0.bias": [
+        64
+      ],
+      "node_upd.1.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.1.2.bias": [
+        64
+      ],
+      "node_upd.1.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.1.4.bias": [
+        64
+      ],
+      "edge_upd.2.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.2.0.bias": [
+        64
+      ],
+      "edge_upd.2.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.2.2.bias": [
+        64
+      ],
+      "edge_upd.2.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.2.4.bias": [
+        64
+      ],
+      "node_upd.2.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.2.0.bias": [
+        64
+      ],
+      "node_upd.2.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.2.2.bias": [
+        64
+      ],
+      "node_upd.2.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.2.4.bias": [
+        64
+      ]
+    }
+  },
+  "palette": {
+    "name": "mint_gold",
+    "swatches": [
+      "#803028",
+      "#E1C48C",
+      "#C8E0D8",
+      "#C8E0D8",
+      "#DAEDE7"
+    ]
+  },
+  "palette_comparison": {
+    "file": "03_palette_comparison.png",
+    "sha256": "a7515f8b667264af7a12d38c5a3398d12d42ac378b1cdd829633fd229ef213fa",
+    "palettes": {
+      "mint_gold": {
+        "swatches": [
+          "#803028",
+          "#E1C48C",
+          "#C8E0D8",
+          "#C8E0D8",
+          "#DAEDE7"
+        ],
+        "roles": {
+          "accent": "#803028",
+          "linear": "#C8E0D8",
+          "activation": "#E1C48C",
+          "state": "#DAEDE7",
+          "context": "#C8E0D8"
+        }
+      },
+      "rose_yellow": {
+        "swatches": [
+          "#F7CD17",
+          "#F24774",
+          "#F97896",
+          "#F799A7",
+          "#FCB895"
+        ],
+        "roles": {
+          "accent": "#F24774",
+          "linear": "#F97896",
+          "activation": "#F7CD17",
+          "state": "#F799A7",
+          "context": "#FCB895"
+        }
+      },
+      "lime": {
+        "swatches": [
+          "#F3F2B2",
+          "#C2CF87",
+          "#D5C943",
+          "#829E63",
+          "#CED35B"
+        ],
+        "roles": {
+          "accent": "#829E63",
+          "linear": "#C2CF87",
+          "activation": "#D5C943",
+          "state": "#F3F2B2",
+          "context": "#CED35B"
+        }
+      },
+      "burgundy_cream": {
+        "swatches": [
+          "#7F1E0E",
+          "#B75B66",
+          "#E3B75E",
+          "#C8A8A8",
+          "#F2E4A3"
+        ],
+        "roles": {
+          "accent": "#7F1E0E",
+          "linear": "#C8A8A8",
+          "activation": "#E3B75E",
+          "state": "#F2E4A3",
+          "context": "#B75B66"
+        }
+      },
+      "ice_red": {
+        "swatches": [
+          "#E1F5F3",
+          "#FFB50A",
+          "#E1D0D6",
+          "#D80C0D",
+          "#4B4B41"
+        ],
+        "roles": {
+          "accent": "#D80C0D",
+          "linear": "#E1F5F3",
+          "activation": "#FFB50A",
+          "state": "#E1D0D6",
+          "context": "#4B4B41"
+        }
+      },
+      "coral": {
+        "swatches": [
+          "#FAE8E4",
+          "#F0D0D1",
+          "#E2845E",
+          "#FB6A71",
+          "#FB565A"
+        ],
+        "roles": {
+          "accent": "#FB565A",
+          "linear": "#F0D0D1",
+          "activation": "#E2845E",
+          "state": "#FAE8E4",
+          "context": "#FB6A71"
+        }
+      }
+    }
+  },
+  "illustration": {
+    "experiment": "B",
+    "frame": 240,
+    "fold": "train A → test B",
+    "crop_xyxy": [
+      480,
+      520,
+      1110,
+      1024
+    ],
+    "displayed_horizons_s": [
+      0,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "prediction_tracks": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "note": "Forecast centroids on the SAME initial frame; not future video frames. The examples are saved held-out predictions, not an accuracy claim.",
+    "source_sha256": {
+      "results/world_model/predictions.csv": "614313da274188b7ad97fb5345d20167b8beac76c8d337312a115fc1f00eb3cb",
+      "results/B_offline/objects.csv": "990788b8d5ce040945c0b3116611f2a7539283a9296d171dc6cd8ced32206c3c",
+      "results/B_offline/contours.npz": "38712815c3a829e8f42ccfc5fbbf1427badb5ff6d5668315b7ab619f4e1654c5",
+      "data/raw/expB.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    }
+  },
+  "source_files": {
+    "world_model/models.py": "c510e370b79b176de11eddf94ea2bb34327dfb18ba982e621edc774e2d8447dc",
+    "world_model/dataset.py": "7d24f972509a7147f3c4d05bae4d2568b4b7b8bf9f4d9fa19200ef7d22ac51af",
+    "world_model/architecture.py": "7e1000e61ad965ad669bd68614e210c98837ace263ce263b0a185646257e305f"
+  },
+  "fonts": [
+    {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "family": "Arial",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "family": "Arial",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  ],
+  "png_size_px": [
+    6000,
+    3150
+  ],
+  "figures": {
+    "01_world_model_overview": {
+      "files": [
+        {
+          "file": "01_world_model_overview.png",
+          "bytes": 1422460,
+          "sha256": "9c71c64ed11fd53038109fb8e193dd48731655bd505db106359a3474dae117f2"
+        },
+        {
+          "file": "01_world_model_overview.pdf",
+          "bytes": 771533,
+          "sha256": "182e1128f84fe143de4fbc03ae3d45fb5e05df6a4b019261079443a007deb84c"
+        },
+        {
+          "file": "01_world_model_overview.svg",
+          "bytes": 1133381,
+          "sha256": "857180efb9ec8bdcdf75f97907d7c125207cf43bbc29cde1a2fb0807b05ed0c5"
+        }
+      ],
+      "text_count": 58,
+      "font": "Arial",
+      "text_overlaps": []
+    },
+    "02_world_model_network_detail": {
+      "files": [
+        {
+          "file": "02_world_model_network_detail.png",
+          "bytes": 437035,
+          "sha256": "0083ac8cc47b6dbfa24c4fcd22bda1eea984510379d1fa027d2b021c89f993c1"
+        },
+        {
+          "file": "02_world_model_network_detail.pdf",
+          "bytes": 58498,
+          "sha256": "9cc671efc4029db44e97bf29ffc270f9eb16e0c6893e562f83f66d09133b355d"
+        },
+        {
+          "file": "02_world_model_network_detail.svg",
+          "bytes": 121896,
+          "sha256": "f611480f861bb43707822c73ba6b280bb9f782801f38eaa4cb9fc8a24015dbf6"
+        }
+      ],
+      "text_count": 46,
+      "font": "Arial",
+      "text_overlaps": []
+    }
+  }
+}

@@ -1,0 +1,196 @@
+fold,model,horizon_s,quintile,predicted_spread_px,mean_error_px,n
+train A → test B,Response map,0.1,1,0.5539,0.5202,3219
+train A → test B,Response map,0.1,2,1.0047,0.6013,3442
+train A → test B,Response map,0.1,3,1.3329,0.8586,3352
+train A → test B,Response map,0.1,4,2.0025,0.6355,3705
+train A → test B,Response map,0.1,5,2.7741,3.7653,5342
+train A → test B,Response map,0.5,1,1.3778,1.7784,3121
+train A → test B,Response map,0.5,2,2.4585,2.4101,3150
+train A → test B,Response map,0.5,3,3.0578,4.0529,3205
+train A → test B,Response map,0.5,4,4.4777,2.9129,3099
+train A → test B,Response map,0.5,5,9.3129,21.9074,3006
+train A → test B,Response map,1.0,1,1.9571,2.9169,2809
+train A → test B,Response map,1.0,2,3.556,4.5745,2816
+train A → test B,Response map,1.0,3,4.367,9.0036,3018
+train A → test B,Response map,1.0,4,6.3325,5.8227,2919
+train A → test B,Response map,1.0,5,13.1241,40.5174,2823
+train A → test B,"Graph world model, no neighbours",0.1,1,0.9154,0.3423,3177
+train A → test B,"Graph world model, no neighbours",0.1,2,1.3359,0.6054,3176
+train A → test B,"Graph world model, no neighbours",0.1,3,1.8493,0.9693,3177
+train A → test B,"Graph world model, no neighbours",0.1,4,2.8347,1.7957,3176
+train A → test B,"Graph world model, no neighbours",0.1,5,5.0887,4.8804,3177
+train A → test B,"Graph world model, no neighbours",0.5,1,2.3195,1.1143,3006
+train A → test B,"Graph world model, no neighbours",0.5,2,3.3378,2.0279,3005
+train A → test B,"Graph world model, no neighbours",0.5,3,5.1061,4.4604,3005
+train A → test B,"Graph world model, no neighbours",0.5,4,8.705,8.9921,3005
+train A → test B,"Graph world model, no neighbours",0.5,5,20.1886,20.9977,3006
+train A → test B,"Graph world model, no neighbours",1.0,1,3.7344,2.0975,2809
+train A → test B,"Graph world model, no neighbours",1.0,2,5.2316,3.498,2808
+train A → test B,"Graph world model, no neighbours",1.0,3,7.8573,8.3671,2808
+train A → test B,"Graph world model, no neighbours",1.0,4,13.9788,17.0239,2808
+train A → test B,"Graph world model, no neighbours",1.0,5,36.2486,37.3631,2809
+train A → test B,Graph world model,0.1,1,2.1762,0.4619,3177
+train A → test B,Graph world model,0.1,2,2.351,0.5501,3176
+train A → test B,Graph world model,0.1,3,2.7733,1.0528,3177
+train A → test B,Graph world model,0.1,4,3.3982,1.8476,3176
+train A → test B,Graph world model,0.1,5,5.2634,4.8914,3177
+train A → test B,Graph world model,0.5,1,4.9933,1.9682,3006
+train A → test B,Graph world model,0.5,2,5.3823,2.2004,3005
+train A → test B,Graph world model,0.5,3,6.6802,5.5286,3005
+train A → test B,Graph world model,0.5,4,9.1133,9.2031,3005
+train A → test B,Graph world model,0.5,5,18.3576,23.2074,3006
+train A → test B,Graph world model,1.0,1,7.2985,3.8353,2809
+train A → test B,Graph world model,1.0,2,7.8878,4.3716,2808
+train A → test B,Graph world model,1.0,3,9.7857,10.2731,2808
+train A → test B,Graph world model,1.0,4,14.2265,18.0721,2808
+train A → test B,Graph world model,1.0,5,32.7359,43.4021,2809
+train A → test B,"Graph world model, trained on reviewed data",0.1,1,2.0193,0.4243,3177
+train A → test B,"Graph world model, trained on reviewed data",0.1,2,2.1038,0.3921,3176
+train A → test B,"Graph world model, trained on reviewed data",0.1,3,2.2056,0.6255,3177
+train A → test B,"Graph world model, trained on reviewed data",0.1,4,2.6767,1.575,3176
+train A → test B,"Graph world model, trained on reviewed data",0.1,5,5.2286,5.605,3177
+train A → test B,"Graph world model, trained on reviewed data",0.5,1,4.5559,1.766,3006
+train A → test B,"Graph world model, trained on reviewed data",0.5,2,4.7786,1.6026,3005
+train A → test B,"Graph world model, trained on reviewed data",0.5,3,5.1358,2.2996,3005
+train A → test B,"Graph world model, trained on reviewed data",0.5,4,7.4296,7.0059,3005
+train A → test B,"Graph world model, trained on reviewed data",0.5,5,20.0249,23.2627,3006
+train A → test B,"Graph world model, trained on reviewed data",1.0,1,6.5489,3.3331,2809
+train A → test B,"Graph world model, trained on reviewed data",1.0,2,6.8571,3.0588,2808
+train A → test B,"Graph world model, trained on reviewed data",1.0,3,7.4954,4.0028,2808
+train A → test B,"Graph world model, trained on reviewed data",1.0,4,11.0156,11.9901,2808
+train A → test B,"Graph world model, trained on reviewed data",1.0,5,30.8307,41.3529,2809
+train B → test A,Response map,0.1,1,0.2169,1.2759,4147
+train B → test A,Response map,0.1,2,0.3744,1.1501,4220
+train B → test A,Response map,0.1,3,2.0025,3.1002,11957
+train B → test A,Response map,0.1,4,2.0025,3.1506,11386
+train B → test A,Response map,0.1,5,2.0025,3.2752,11675
+train B → test A,Response map,0.5,1,0.4875,4.999,3694
+train B → test A,Response map,0.5,2,0.9508,5.26,3786
+train B → test A,Response map,0.5,3,4.4777,10.9972,10796
+train B → test A,Response map,0.5,4,4.4777,10.5517,9806
+train B → test A,Response map,0.5,5,4.4777,11.1946,10144
+train B → test A,Response map,1.0,1,0.7227,10.1602,3380
+train B → test A,Response map,1.0,2,2.1574,9.9413,3339
+train B → test A,Response map,1.0,3,6.3325,17.527,9533
+train B → test A,Response map,1.0,4,6.3325,16.4195,8343
+train B → test A,Response map,1.0,5,6.3325,17.7743,8738
+train B → test A,"Graph world model, no neighbours",0.1,1,0.7475,1.1923,4080
+train B → test A,"Graph world model, no neighbours",0.1,2,0.8259,1.3925,4080
+train B → test A,"Graph world model, no neighbours",0.1,3,0.8957,1.7921,4080
+train B → test A,"Graph world model, no neighbours",0.1,4,1.0127,2.3049,4080
+train B → test A,"Graph world model, no neighbours",0.1,5,1.8178,6.1103,4080
+train B → test A,"Graph world model, no neighbours",0.5,1,1.7658,3.7641,3694
+train B → test A,"Graph world model, no neighbours",0.5,2,1.9235,6.544,3693
+train B → test A,"Graph world model, no neighbours",0.5,3,2.085,7.3031,3694
+train B → test A,"Graph world model, no neighbours",0.5,4,2.4018,11.4981,3693
+train B → test A,"Graph world model, no neighbours",0.5,5,5.1752,18.4566,3694
+train B → test A,"Graph world model, no neighbours",1.0,1,2.6203,6.3726,3309
+train B → test A,"Graph world model, no neighbours",1.0,2,2.8153,11.2664,3309
+train B → test A,"Graph world model, no neighbours",1.0,3,3.0713,15.1747,3308
+train B → test A,"Graph world model, no neighbours",1.0,4,3.7367,21.1823,3309
+train B → test A,"Graph world model, no neighbours",1.0,5,8.9443,26.051,3309
+train B → test A,Graph world model,0.1,1,0.4607,0.9018,4080
+train B → test A,Graph world model,0.1,2,0.5635,1.7895,4080
+train B → test A,Graph world model,0.1,3,0.6764,2.0346,4080
+train B → test A,Graph world model,0.1,4,0.8266,2.6977,4080
+train B → test A,Graph world model,0.1,5,2.3814,6.2592,4080
+train B → test A,Graph world model,0.5,1,1.1475,4.6287,3694
+train B → test A,Graph world model,0.5,2,1.3841,7.412,3693
+train B → test A,Graph world model,0.5,3,1.6355,9.2807,3694
+train B → test A,Graph world model,0.5,4,2.0134,11.2194,3693
+train B → test A,Graph world model,0.5,5,7.7701,19.2596,3694
+train B → test A,Graph world model,1.0,1,1.7774,8.8584,3309
+train B → test A,Graph world model,1.0,2,2.1159,12.9947,3309
+train B → test A,Graph world model,1.0,3,2.4772,14.4983,3308
+train B → test A,Graph world model,1.0,4,3.2317,18.1497,3309
+train B → test A,Graph world model,1.0,5,12.5571,34.1695,3309
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.1,1,0.2942,0.7759,2463
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.1,2,2.0025,2.5432,9093
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.1,3,2.0025,2.6733,8115
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.1,4,2.0025,2.6733,8115
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.1,5,2.0025,2.656,8267
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.5,1,0.6765,1.4223,2087
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.5,2,4.4777,8.678,7918
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.5,3,4.4777,8.0941,6964
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.5,4,4.4777,8.0941,6964
+"same recordings, alternating 4 s blocks (even→odd)",Response map,0.5,5,4.4777,8.0343,7197
+"same recordings, alternating 4 s blocks (even→odd)",Response map,1.0,1,1.1467,7.5217,1758
+"same recordings, alternating 4 s blocks (even→odd)",Response map,1.0,2,6.3325,10.9322,6687
+"same recordings, alternating 4 s blocks (even→odd)",Response map,1.0,3,6.3325,9.0052,5805
+"same recordings, alternating 4 s blocks (even→odd)",Response map,1.0,4,6.3325,9.0052,5805
+"same recordings, alternating 4 s blocks (even→odd)",Response map,1.0,5,6.3325,9.8147,6150
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,1,0.4096,0.5208,2307
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,2,0.6666,0.9861,2307
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,3,1.4563,1.7951,2306
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,4,2.9984,2.4413,2307
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,5,6.2419,9.3479,2307
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,1,1.2578,1.4697,2034
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,2,1.8183,4.7658,2033
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,3,3.5144,7.0133,2033
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,4,6.7325,10.7328,2033
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,5,13.966,25.5585,2034
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,1,2.2416,2.5683,1758
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,2,3.5736,7.4875,1758
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,3,6.5876,9.6114,1758
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,4,11.7078,20.6727,1758
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,5,24.0316,39.9912,1758
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,1,0.5135,0.5682,2307
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,2,0.8576,0.932,2307
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,3,1.5412,2.1799,2306
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,4,3.7407,3.6541,2307
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,5,8.8328,11.4639,2307
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,1,1.3068,1.79,2034
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,2,2.1141,4.4822,2033
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,3,3.9364,9.7035,2033
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,4,8.8622,14.9127,2033
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,5,20.7303,30.0595,2034
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,1,2.2225,3.7084,1758
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,2,3.7154,9.9768,1758
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,3,7.7439,13.065,1758
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,4,15.9083,27.3756,1758
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,5,35.5694,51.029,1758
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.1,1,0.1767,0.4004,2784
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.1,2,0.5025,0.3933,2781
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.1,3,2.0025,1.2363,7490
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.1,4,2.0025,1.3733,5717
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.1,5,2.0025,1.5227,6303
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.5,1,0.3959,1.3652,2642
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.5,2,1.1315,1.7417,2591
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.5,3,4.4777,4.6657,7061
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.5,4,4.4777,4.6062,4982
+"same recordings, alternating 4 s blocks (odd→even)",Response map,0.5,5,4.4777,5.9948,5588
+"same recordings, alternating 4 s blocks (odd→even)",Response map,1.0,1,0.5599,2.0511,2451
+"same recordings, alternating 4 s blocks (odd→even)",Response map,1.0,2,1.613,3.3324,2586
+"same recordings, alternating 4 s blocks (odd→even)",Response map,1.0,3,6.3325,8.8252,6582
+"same recordings, alternating 4 s blocks (odd→even)",Response map,1.0,4,6.3325,7.986,4262
+"same recordings, alternating 4 s blocks (odd→even)",Response map,1.0,5,6.3325,11.4196,4902
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,1,2.623,0.8009,2677
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,2,2.8442,0.5747,2676
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,3,3.4687,0.989,2677
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,4,4.0551,1.7247,2676
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,5,8.2683,4.3558,2677
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,1,5.9845,2.1942,2532
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,2,6.5276,2.8451,2532
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,3,8.1095,4.6666,2532
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,4,10.1919,7.4076,2532
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,5,29.6461,15.2457,2532
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,1,8.6684,3.7684,2407
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,2,9.3995,6.0508,2407
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,3,11.6303,7.5953,2406
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,4,15.7025,13.7399,2407
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,5,29.219,28.2045,2407
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,1,2.7032,0.9132,2677
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,2,2.9572,0.5776,2676
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,3,3.2895,0.8062,2677
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,4,3.964,1.2257,2676
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,5,8.0043,4.0209,2677
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,1,6.3445,2.7755,2532
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,2,6.8339,2.6392,2532
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,3,7.6407,3.3087,2532
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,4,9.2834,5.9536,2532
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,5,24.1743,15.9377,2532
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,1,9.388,6.1229,2407
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,2,10.0651,4.4276,2407
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,3,11.2171,6.3754,2406
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,4,13.9961,11.9159,2407
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,5,36.4263,28.5332,2407

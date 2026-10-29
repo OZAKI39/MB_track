@@ -1,0 +1,8 @@
+# Stage 2 world-action model (world_model/). Same packages as the main program, plus PyTorch and scikit-learn.
+# A CPU-only PyTorch is enough: training all models takes about an hour on a 2-core machine, much less with a GPU.
+numpy
+scipy
+opencv-python
+matplotlib
+scikit-learn
+torch

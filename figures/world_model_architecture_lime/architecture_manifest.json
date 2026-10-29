@@ -1,0 +1,349 @@
+{
+  "created": "2026-10-29T12:24:11+01:00",
+  "architecture": {
+    "node_base": 21,
+    "fourier_features": 24,
+    "node_input": 45,
+    "edge_input": 5,
+    "global_input": 12,
+    "latent": 64,
+    "message_blocks": 3,
+    "members": 5,
+    "radius_px": 150.0,
+    "history_steps": 3,
+    "future_steps": 10,
+    "frames_per_step": 6,
+    "position_scale_px": 5.0,
+    "history_dropout": 0.5,
+    "beta": 1.0,
+    "context": "motion"
+  },
+  "checkpoint_verification": {
+    "status": "passed",
+    "path": "results/world_model/model/graph_world_model.pt",
+    "sha256": "31be85915ebb15cd6476de2111397dc3dd30d01ebb5910e26e0b4da3ee702073",
+    "members_checked": 5,
+    "parameters_per_member": 178376,
+    "tensor_shapes": {
+      "node_enc.0.weight": [
+        64,
+        45
+      ],
+      "node_enc.0.bias": [
+        64
+      ],
+      "node_enc.2.weight": [
+        64,
+        64
+      ],
+      "node_enc.2.bias": [
+        64
+      ],
+      "node_enc.4.weight": [
+        64,
+        64
+      ],
+      "node_enc.4.bias": [
+        64
+      ],
+      "edge_enc.0.weight": [
+        64,
+        5
+      ],
+      "edge_enc.0.bias": [
+        64
+      ],
+      "edge_enc.2.weight": [
+        64,
+        64
+      ],
+      "edge_enc.2.bias": [
+        64
+      ],
+      "edge_enc.4.weight": [
+        64,
+        64
+      ],
+      "edge_enc.4.bias": [
+        64
+      ],
+      "glob_enc.0.weight": [
+        64,
+        12
+      ],
+      "glob_enc.0.bias": [
+        64
+      ],
+      "glob_enc.2.weight": [
+        64,
+        64
+      ],
+      "glob_enc.2.bias": [
+        64
+      ],
+      "glob_enc.4.weight": [
+        64,
+        64
+      ],
+      "glob_enc.4.bias": [
+        64
+      ],
+      "dec.0.weight": [
+        64,
+        128
+      ],
+      "dec.0.bias": [
+        64
+      ],
+      "dec.2.weight": [
+        64,
+        64
+      ],
+      "dec.2.bias": [
+        64
+      ],
+      "dec.4.weight": [
+        8,
+        64
+      ],
+      "dec.4.bias": [
+        8
+      ],
+      "edge_upd.0.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.0.0.bias": [
+        64
+      ],
+      "edge_upd.0.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.0.2.bias": [
+        64
+      ],
+      "edge_upd.0.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.0.4.bias": [
+        64
+      ],
+      "node_upd.0.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.0.0.bias": [
+        64
+      ],
+      "node_upd.0.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.0.2.bias": [
+        64
+      ],
+      "node_upd.0.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.0.4.bias": [
+        64
+      ],
+      "edge_upd.1.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.1.0.bias": [
+        64
+      ],
+      "edge_upd.1.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.1.2.bias": [
+        64
+      ],
+      "edge_upd.1.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.1.4.bias": [
+        64
+      ],
+      "node_upd.1.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.1.0.bias": [
+        64
+      ],
+      "node_upd.1.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.1.2.bias": [
+        64
+      ],
+      "node_upd.1.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.1.4.bias": [
+        64
+      ],
+      "edge_upd.2.0.weight": [
+        64,
+        256
+      ],
+      "edge_upd.2.0.bias": [
+        64
+      ],
+      "edge_upd.2.2.weight": [
+        64,
+        64
+      ],
+      "edge_upd.2.2.bias": [
+        64
+      ],
+      "edge_upd.2.4.weight": [
+        64,
+        64
+      ],
+      "edge_upd.2.4.bias": [
+        64
+      ],
+      "node_upd.2.0.weight": [
+        64,
+        192
+      ],
+      "node_upd.2.0.bias": [
+        64
+      ],
+      "node_upd.2.2.weight": [
+        64,
+        64
+      ],
+      "node_upd.2.2.bias": [
+        64
+      ],
+      "node_upd.2.4.weight": [
+        64,
+        64
+      ],
+      "node_upd.2.4.bias": [
+        64
+      ]
+    }
+  },
+  "palette": {
+    "name": "lime",
+    "swatches": [
+      "#F3F2B2",
+      "#C2CF87",
+      "#D5C943",
+      "#829E63",
+      "#CED35B"
+    ]
+  },
+  "palette_comparison": null,
+  "illustration": {
+    "experiment": "B",
+    "frame": 240,
+    "fold": "train A → test B",
+    "crop_xyxy": [
+      480,
+      520,
+      1110,
+      1024
+    ],
+    "displayed_horizons_s": [
+      0,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "prediction_tracks": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "note": "Forecast centroids on the SAME initial frame; not future video frames. The examples are saved held-out predictions, not an accuracy claim.",
+    "source_sha256": {
+      "results/world_model/predictions.csv": "614313da274188b7ad97fb5345d20167b8beac76c8d337312a115fc1f00eb3cb",
+      "results/B_offline/objects.csv": "990788b8d5ce040945c0b3116611f2a7539283a9296d171dc6cd8ced32206c3c",
+      "results/B_offline/contours.npz": "38712815c3a829e8f42ccfc5fbbf1427badb5ff6d5668315b7ab619f4e1654c5",
+      "data/raw/expB.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    }
+  },
+  "source_files": {
+    "world_model/models.py": "c510e370b79b176de11eddf94ea2bb34327dfb18ba982e621edc774e2d8447dc",
+    "world_model/dataset.py": "7d24f972509a7147f3c4d05bae4d2568b4b7b8bf9f4d9fa19200ef7d22ac51af",
+    "world_model/architecture.py": "7e1000e61ad965ad669bd68614e210c98837ace263ce263b0a185646257e305f"
+  },
+  "fonts": [
+    {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "family": "Arial",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "family": "Arial",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  ],
+  "png_size_px": [
+    6000,
+    3150
+  ],
+  "figures": {
+    "01_world_model_overview": {
+      "files": [
+        {
+          "file": "01_world_model_overview.png",
+          "bytes": 1417753,
+          "sha256": "e69f04e1f4d15aa6069f941f83f92bb207fc61afb757418232e9e2ef21b034c8"
+        },
+        {
+          "file": "01_world_model_overview.pdf",
+          "bytes": 771558,
+          "sha256": "1620b6ffa9dee0a7ae0e61ff3fa0ce8a4cbf3798a002316731bae280aace9ce8"
+        },
+        {
+          "file": "01_world_model_overview.svg",
+          "bytes": 1133381,
+          "sha256": "947e13ac8e30555b7f0120868ac5b31d53ef4a119f714006df96e75033cf2173"
+        }
+      ],
+      "text_count": 58,
+      "font": "Arial",
+      "text_overlaps": []
+    },
+    "02_world_model_network_detail": {
+      "files": [
+        {
+          "file": "02_world_model_network_detail.png",
+          "bytes": 434901,
+          "sha256": "f6d1018e22d777f00ca085f5376417061617a9272f9e2caf8d3203916c6a57dd"
+        },
+        {
+          "file": "02_world_model_network_detail.pdf",
+          "bytes": 58532,
+          "sha256": "59036557dd734f7b2c19d70826a8987e83e5a27fbef2ef6f4e23edc0cbe60420"
+        },
+        {
+          "file": "02_world_model_network_detail.svg",
+          "bytes": 121896,
+          "sha256": "234c4f0d8283668918ba4475774ae300e38d9e295208263d2b233708b9105cd7"
+        }
+      ],
+      "text_count": 46,
+      "font": "Arial",
+      "text_overlaps": []
+    }
+  }
+}

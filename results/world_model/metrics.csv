@@ -1,0 +1,805 @@
+fold,subset,horizon_s,model,n,mean_error_px,median_error_px,p90_error_px,skill_vs_persistence,direction_within_45deg,logarea_abs_error,aspect_abs_error,kind
+train A → test B,all regions,0.1,Persistence,15883,0.5061,0.1803,0.8113,0.0,0.0,0.0244,0.0116,across recordings
+train A → test B,all regions,0.1,Constant velocity,15883,0.5669,0.275,0.881,-0.1201,0.7237,0.0244,0.0116,across recordings
+train A → test B,all regions,0.1,Response map,15883,1.7383,0.5227,6.1568,-2.4344,0.7094,0.0244,0.0116,across recordings
+train A → test B,all regions,0.1,Gradient boosting,15883,1.2668,0.7109,2.5067,-1.503,0.7576,0.0529,0.0323,across recordings
+train A → test B,all regions,0.1,"Graph world model, no neighbours",15883,1.7187,0.9311,4.1078,-2.3957,0.7059,0.0273,0.0131,across recordings
+train A → test B,all regions,0.1,Graph world model,15883,1.7608,0.8084,3.9175,-2.479,0.6417,0.0274,0.014,across recordings
+train A → test B,all regions,0.1,"Graph world model, trained on reviewed data",15883,1.7245,0.5735,4.569,-2.4072,0.6988,0.026,0.014,across recordings
+train A → test B,all regions,0.5,Persistence,15027,1.6189,0.3607,2.4592,0.0,0.0,0.0436,0.0255,across recordings
+train A → test B,all regions,0.5,Constant velocity,15027,2.5891,1.009,3.5669,-0.5993,0.6652,0.0436,0.0255,across recordings
+train A → test B,all regions,0.5,Response map,15027,6.5801,2.2469,18.3886,-3.0645,0.6591,0.0436,0.0255,across recordings
+train A → test B,all regions,0.5,Gradient boosting,15027,6.6096,2.7199,16.2124,-3.0827,0.4902,0.0745,0.0886,across recordings
+train A → test B,all regions,0.5,"Graph world model, no neighbours",15027,7.5189,4.1394,18.115,-3.6444,0.5508,0.0633,0.0407,across recordings
+train A → test B,all regions,0.5,Graph world model,15027,8.4221,3.9504,19.4385,-4.2023,0.5067,0.0701,0.0482,across recordings
+train A → test B,all regions,0.5,"Graph world model, trained on reviewed data",15027,7.1881,2.3917,19.3222,-3.44,0.5563,0.0548,0.046,across recordings
+train A → test B,all regions,1.0,Persistence,14042,2.5016,0.4619,3.3784,0.0,0.0,0.0549,0.0419,across recordings
+train A → test B,all regions,1.0,Constant velocity,14042,4.9862,1.8809,6.938,-0.9932,0.5458,0.0549,0.0419,across recordings
+train A → test B,all regions,1.0,Response map,14042,12.3947,4.4344,34.0721,-3.9547,0.559,0.0549,0.0419,across recordings
+train A → test B,all regions,1.0,Gradient boosting,14042,11.029,5.8017,21.4436,-3.4088,0.4367,0.1407,0.102,across recordings
+train A → test B,all regions,1.0,"Graph world model, no neighbours",14042,13.6708,7.6265,35.9417,-4.4648,0.505,0.1008,0.0623,across recordings
+train A → test B,all regions,1.0,Graph world model,14042,15.9919,7.4286,38.4435,-5.3927,0.4723,0.1193,0.086,across recordings
+train A → test B,all regions,1.0,"Graph world model, trained on reviewed data",14042,12.7489,4.4905,35.5346,-4.0963,0.5605,0.0842,0.0722,across recordings
+train A → test B,PZT switch within horizon,0.1,Persistence,445,2.783,0.3666,6.7952,0.0,0.0,0.0421,0.0343,across recordings
+train A → test B,PZT switch within horizon,0.1,Constant velocity,445,2.7104,0.5275,6.4779,0.0261,0.5152,0.0421,0.0343,across recordings
+train A → test B,PZT switch within horizon,0.1,Response map,445,3.8911,1.317,9.3303,-0.3981,0.7677,0.0421,0.0343,across recordings
+train A → test B,PZT switch within horizon,0.1,Gradient boosting,445,4.5203,3.1089,9.7591,-0.6242,0.6667,0.0645,0.0577,across recordings
+train A → test B,PZT switch within horizon,0.1,"Graph world model, no neighbours",445,3.271,1.8371,6.3766,-0.1753,0.798,0.0417,0.0349,across recordings
+train A → test B,PZT switch within horizon,0.1,Graph world model,445,3.2919,1.6599,6.5042,-0.1829,0.7071,0.0428,0.0359,across recordings
+train A → test B,PZT switch within horizon,0.1,"Graph world model, trained on reviewed data",445,3.6801,1.1571,10.0755,-0.3223,0.7677,0.0411,0.0346,across recordings
+train A → test B,PZT switch within horizon,0.5,Persistence,1467,6.5461,0.6482,18.0209,0.0,0.0,0.0704,0.0863,across recordings
+train A → test B,PZT switch within horizon,0.5,Constant velocity,1467,7.1163,1.5697,18.2074,-0.0871,0.3591,0.0704,0.0863,across recordings
+train A → test B,PZT switch within horizon,0.5,Response map,1467,12.7955,5.8411,35.907,-0.9547,0.6359,0.0704,0.0863,across recordings
+train A → test B,PZT switch within horizon,0.5,Gradient boosting,1467,10.2041,5.6972,25.4887,-0.5588,0.5237,0.0972,0.0909,across recordings
+train A → test B,PZT switch within horizon,0.5,"Graph world model, no neighbours",1467,11.5081,7.4055,28.1819,-0.758,0.6958,0.0718,0.0924,across recordings
+train A → test B,PZT switch within horizon,0.5,Graph world model,1467,12.1748,7.2738,33.7114,-0.8599,0.6434,0.0828,0.0976,across recordings
+train A → test B,PZT switch within horizon,0.5,"Graph world model, trained on reviewed data",1467,11.8917,5.9328,37.7761,-0.8166,0.6833,0.0769,0.0887,across recordings
+train A → test B,PZT switch within horizon,1.0,Persistence,2610,6.8201,0.819,24.8301,0.0,0.0,0.0826,0.1201,across recordings
+train A → test B,PZT switch within horizon,1.0,Constant velocity,2610,8.6174,2.4789,27.6743,-0.2635,0.3134,0.0826,0.1201,across recordings
+train A → test B,PZT switch within horizon,1.0,Response map,2610,19.4699,9.3342,57.1781,-1.8548,0.5592,0.0826,0.1201,across recordings
+train A → test B,PZT switch within horizon,1.0,Gradient boosting,2610,13.9418,6.2092,31.6884,-1.0442,0.4993,0.1583,0.0917,across recordings
+train A → test B,PZT switch within horizon,1.0,"Graph world model, no neighbours",2610,17.8135,12.7659,41.641,-1.6119,0.6242,0.0958,0.1119,across recordings
+train A → test B,PZT switch within horizon,1.0,Graph world model,2610,19.8601,12.7233,48.2867,-1.912,0.6086,0.1186,0.1443,across recordings
+train A → test B,PZT switch within horizon,1.0,"Graph world model, trained on reviewed data",2610,18.0415,9.3804,47.3938,-1.6453,0.619,0.0948,0.1187,across recordings
+train A → test B,within 0.5 s after a switch,0.1,Persistence,1547,1.332,0.2026,1.8091,0.0,0.0,0.0286,0.0155,across recordings
+train A → test B,within 0.5 s after a switch,0.1,Constant velocity,1547,1.3476,0.3086,2.1524,-0.0118,0.8322,0.0286,0.0155,across recordings
+train A → test B,within 0.5 s after a switch,0.1,Response map,1547,3.4044,1.1046,10.9553,-1.5559,0.7987,0.0286,0.0155,across recordings
+train A → test B,within 0.5 s after a switch,0.1,Gradient boosting,1547,1.7955,0.9539,3.6585,-0.348,0.9195,0.0542,0.0355,across recordings
+train A → test B,within 0.5 s after a switch,0.1,"Graph world model, no neighbours",1547,3.0847,1.6777,8.5404,-1.3159,0.8523,0.0308,0.0183,across recordings
+train A → test B,within 0.5 s after a switch,0.1,Graph world model,1547,3.0352,1.5005,9.0062,-1.2787,0.8456,0.0322,0.0163,across recordings
+train A → test B,within 0.5 s after a switch,0.1,"Graph world model, trained on reviewed data",1547,3.2172,0.8605,10.1023,-1.4153,0.8926,0.0308,0.0172,across recordings
+train A → test B,within 0.5 s after a switch,0.5,Persistence,1450,2.3334,0.3962,4.3083,0.0,0.0,0.0418,0.026,across recordings
+train A → test B,within 0.5 s after a switch,0.5,Constant velocity,1450,6.3413,1.0538,8.5416,-1.7177,0.7945,0.0418,0.026,across recordings
+train A → test B,within 0.5 s after a switch,0.5,Response map,1450,9.2152,3.6833,32.7656,-2.9493,0.79,0.0418,0.026,across recordings
+train A → test B,within 0.5 s after a switch,0.5,Gradient boosting,1450,8.1685,4.6614,17.2995,-2.5007,0.7215,0.0768,0.0965,across recordings
+train A → test B,within 0.5 s after a switch,0.5,"Graph world model, no neighbours",1450,11.3441,7.5765,26.4019,-3.8617,0.7169,0.0504,0.0376,across recordings
+train A → test B,within 0.5 s after a switch,0.5,Graph world model,1450,12.8563,8.0045,39.4387,-4.5097,0.6986,0.0658,0.0472,across recordings
+train A → test B,within 0.5 s after a switch,0.5,"Graph world model, trained on reviewed data",1450,11.496,3.3619,37.4014,-3.9268,0.758,0.0474,0.0455,across recordings
+train A → test B,within 0.5 s after a switch,1.0,Persistence,1433,2.6923,0.496,3.8414,0.0,0.0,0.0554,0.0287,across recordings
+train A → test B,within 0.5 s after a switch,1.0,Constant velocity,1433,12.9135,1.9759,17.2519,-3.7965,0.7684,0.0554,0.0287,across recordings
+train A → test B,within 0.5 s after a switch,1.0,Response map,1433,14.9187,5.9902,44.3972,-4.5413,0.6434,0.0554,0.0287,across recordings
+train A → test B,within 0.5 s after a switch,1.0,Gradient boosting,1433,13.9565,7.3614,31.5942,-4.184,0.5919,0.1391,0.1053,across recordings
+train A → test B,within 0.5 s after a switch,1.0,"Graph world model, no neighbours",1433,18.6707,11.8385,44.4868,-5.935,0.489,0.0812,0.0487,across recordings
+train A → test B,within 0.5 s after a switch,1.0,Graph world model,1433,22.0016,12.9595,57.7927,-7.1722,0.6213,0.1098,0.0723,across recordings
+train A → test B,within 0.5 s after a switch,1.0,"Graph world model, trained on reviewed data",1433,18.591,6.068,53.9544,-5.9054,0.7096,0.0708,0.0562,across recordings
+train A → test B,no switch nearby,0.1,Persistence,13891,0.3412,0.1755,0.7039,0.0,0.0,0.0234,0.0099,across recordings
+train A → test B,no switch nearby,0.1,Constant velocity,13891,0.4113,0.2674,0.8062,-0.2053,0.738,0.0234,0.0099,across recordings
+train A → test B,no switch nearby,0.1,Response map,13891,1.4837,0.4844,2.9281,-3.3484,0.6486,0.0234,0.0099,across recordings
+train A → test B,no switch nearby,0.1,Gradient boosting,13891,1.1037,0.6719,2.3303,-2.2347,0.7093,0.0524,0.0307,across recordings
+train A → test B,no switch nearby,0.1,"Graph world model, no neighbours",13891,1.5168,0.8538,3.9124,-3.4454,0.607,0.0265,0.0113,across recordings
+train A → test B,no switch nearby,0.1,Graph world model,13891,1.5698,0.7444,3.5217,-3.6007,0.524,0.0264,0.0126,across recordings
+train A → test B,no switch nearby,0.1,"Graph world model, trained on reviewed data",13891,1.4956,0.5509,3.6429,-3.3831,0.5847,0.0249,0.0125,across recordings
+train A → test B,no switch nearby,0.5,Persistence,12110,0.9365,0.3418,1.499,0.0,0.0,0.0406,0.0167,across recordings
+train A → test B,no switch nearby,0.5,Constant velocity,12110,1.5914,0.9659,3.0126,-0.6993,0.7584,0.0406,0.0167,across recordings
+train A → test B,no switch nearby,0.5,Response map,12110,5.5117,1.96,14.2512,-4.8853,0.64,0.0406,0.0167,across recordings
+train A → test B,no switch nearby,0.5,Gradient boosting,12110,5.9876,2.3522,14.8907,-5.3935,0.427,0.0715,0.0865,across recordings
+train A → test B,no switch nearby,0.5,"Graph world model, no neighbours",12110,6.5777,3.4207,16.7757,-6.0236,0.4576,0.0639,0.034,across recordings
+train A → test B,no switch nearby,0.5,Graph world model,12110,7.4366,3.3744,16.8438,-6.9407,0.4112,0.0691,0.0414,across recordings
+train A → test B,no switch nearby,0.5,"Graph world model, trained on reviewed data",12110,6.1025,2.2018,17.3341,-5.5162,0.4625,0.053,0.04,across recordings
+train A → test B,no switch nearby,1.0,Persistence,9999,1.347,0.4111,2.1112,0.0,0.0,0.0478,0.0167,across recordings
+train A → test B,no switch nearby,1.0,Constant velocity,9999,2.9023,1.7633,5.6086,-1.1546,0.6564,0.0478,0.0167,across recordings
+train A → test B,no switch nearby,1.0,Response map,9999,10.1861,3.7909,26.3424,-6.5619,0.5375,0.0478,0.0167,across recordings
+train A → test B,no switch nearby,1.0,Gradient boosting,9999,9.8492,5.4862,16.785,-6.3118,0.3521,0.1365,0.1049,across recordings
+train A → test B,no switch nearby,1.0,"Graph world model, no neighbours",9999,11.8729,6.2589,30.7794,-7.8142,0.4232,0.1049,0.048,across recordings
+train A → test B,no switch nearby,1.0,Graph world model,9999,14.121,6.381,35.0302,-9.4831,0.3361,0.1209,0.0685,across recordings
+train A → test B,no switch nearby,1.0,"Graph world model, trained on reviewed data",9999,10.5301,3.9039,28.7503,-6.8173,0.4803,0.0835,0.0598,across recordings
+train A → test B,moved ≥ 2 px,0.1,Persistence,561,6.8937,3.8351,15.722,0.0,0.0,0.1003,0.044,across recordings
+train A → test B,moved ≥ 2 px,0.1,Constant velocity,561,5.1421,2.5308,12.2231,0.2541,0.7237,0.1003,0.044,across recordings
+train A → test B,moved ≥ 2 px,0.1,Response map,561,5.5167,3.0682,10.9978,0.1998,0.7094,0.1003,0.044,across recordings
+train A → test B,moved ≥ 2 px,0.1,Gradient boosting,561,4.47,2.7391,9.6784,0.3516,0.7576,0.0832,0.0539,across recordings
+train A → test B,moved ≥ 2 px,0.1,"Graph world model, no neighbours",561,6.3086,3.9561,13.4627,0.0849,0.7059,0.1014,0.0462,across recordings
+train A → test B,moved ≥ 2 px,0.1,Graph world model,561,6.4124,4.1641,12.0138,0.0698,0.6417,0.1057,0.0464,across recordings
+train A → test B,moved ≥ 2 px,0.1,"Graph world model, trained on reviewed data",561,6.4106,4.3486,12.5741,0.0701,0.6988,0.1027,0.0435,across recordings
+train A → test B,moved ≥ 2 px,0.5,Persistence,1634,11.3444,5.9132,22.7142,0.0,0.0,0.0789,0.0773,across recordings
+train A → test B,moved ≥ 2 px,0.5,Constant velocity,1634,12.6463,4.2848,30.9702,-0.1148,0.6652,0.0789,0.0773,across recordings
+train A → test B,moved ≥ 2 px,0.5,Response map,1634,9.0792,4.6845,19.3448,0.1997,0.6591,0.0789,0.0773,across recordings
+train A → test B,moved ≥ 2 px,0.5,Gradient boosting,1634,12.6713,8.8963,25.6252,-0.117,0.4902,0.086,0.1016,across recordings
+train A → test B,moved ≥ 2 px,0.5,"Graph world model, no neighbours",1634,13.5528,10.274,27.3628,-0.1947,0.5508,0.0853,0.0746,across recordings
+train A → test B,moved ≥ 2 px,0.5,Graph world model,1634,15.6347,12.1994,33.2583,-0.3782,0.5067,0.0945,0.0824,across recordings
+train A → test B,moved ≥ 2 px,0.5,"Graph world model, trained on reviewed data",1634,13.7384,11.0244,24.804,-0.211,0.5563,0.0867,0.0808,across recordings
+train A → test B,moved ≥ 2 px,1.0,Persistence,2109,13.716,6.7292,34.0527,0.0,0.0,0.0898,0.12,across recordings
+train A → test B,moved ≥ 2 px,1.0,Constant velocity,2109,18.8482,5.8883,54.0048,-0.3742,0.5458,0.0898,0.12,across recordings
+train A → test B,moved ≥ 2 px,1.0,Response map,2109,13.7365,6.8147,29.0928,-0.0015,0.559,0.0898,0.12,across recordings
+train A → test B,moved ≥ 2 px,1.0,Gradient boosting,2109,16.7606,9.9403,32.6055,-0.222,0.4367,0.091,0.121,across recordings
+train A → test B,moved ≥ 2 px,1.0,"Graph world model, no neighbours",2109,21.9577,20.504,45.3368,-0.6009,0.505,0.1169,0.1106,across recordings
+train A → test B,moved ≥ 2 px,1.0,Graph world model,2109,24.1668,17.3869,53.6009,-0.7619,0.4723,0.144,0.1499,across recordings
+train A → test B,moved ≥ 2 px,1.0,"Graph world model, trained on reviewed data",2109,18.9997,14.5065,43.171,-0.3852,0.5605,0.1098,0.119,across recordings
+train A → test B,reviewed: trusted,0.1,Persistence,14166,0.5403,0.1863,0.8569,0.0,0.0,0.0244,0.0116,across recordings
+train A → test B,reviewed: trusted,0.1,Constant velocity,14166,0.5892,0.2787,0.8811,-0.0906,0.7258,0.0244,0.0116,across recordings
+train A → test B,reviewed: trusted,0.1,Response map,14166,1.8163,0.533,6.3307,-2.3618,0.7097,0.0244,0.0116,across recordings
+train A → test B,reviewed: trusted,0.1,Gradient boosting,14166,1.1996,0.6612,2.2242,-1.2205,0.7581,0.0529,0.0323,across recordings
+train A → test B,reviewed: trusted,0.1,"Graph world model, no neighbours",14166,1.621,0.8252,3.9233,-2.0004,0.7061,0.0273,0.0131,across recordings
+train A → test B,reviewed: trusted,0.1,Graph world model,14166,1.5857,0.7,3.805,-1.9351,0.6416,0.0274,0.014,across recordings
+train A → test B,reviewed: trusted,0.1,"Graph world model, trained on reviewed data",14166,1.5549,0.5299,3.8788,-1.8781,0.6989,0.026,0.014,across recordings
+train A → test B,reviewed: trusted,0.5,Persistence,13414,1.7722,0.3752,2.8913,0.0,0.0,0.0436,0.0255,across recordings
+train A → test B,reviewed: trusted,0.5,Constant velocity,13414,2.7557,1.0386,3.7236,-0.555,0.6665,0.0436,0.0255,across recordings
+train A → test B,reviewed: trusted,0.5,Response map,13414,6.8117,2.3643,18.8189,-2.8437,0.6591,0.0436,0.0255,across recordings
+train A → test B,reviewed: trusted,0.5,Gradient boosting,13414,5.3258,2.1843,12.5198,-2.0052,0.4899,0.0745,0.0886,across recordings
+train A → test B,reviewed: trusted,0.5,"Graph world model, no neighbours",13414,6.769,3.5648,16.2117,-2.8196,0.5518,0.0633,0.0407,across recordings
+train A → test B,reviewed: trusted,0.5,Graph world model,13414,7.6153,3.3807,18.3267,-3.2972,0.5064,0.0701,0.0482,across recordings
+train A → test B,reviewed: trusted,0.5,"Graph world model, trained on reviewed data",13414,6.4529,2.2188,17.9256,-2.6412,0.5561,0.0548,0.046,across recordings
+train A → test B,reviewed: trusted,1.0,Persistence,12573,2.7465,0.4946,4.2622,0.0,0.0,0.0549,0.0419,across recordings
+train A → test B,reviewed: trusted,1.0,Constant velocity,12573,5.3297,1.9619,7.3024,-0.9405,0.5481,0.0549,0.0419,across recordings
+train A → test B,reviewed: trusted,1.0,Response map,12573,12.7846,4.5796,38.7701,-3.6548,0.5634,0.0549,0.0419,across recordings
+train A → test B,reviewed: trusted,1.0,Gradient boosting,12573,10.5132,5.3631,18.9985,-2.8278,0.4399,0.1407,0.102,across recordings
+train A → test B,reviewed: trusted,1.0,"Graph world model, no neighbours",12573,12.2342,6.5979,29.4645,-3.4544,0.5089,0.1008,0.0623,across recordings
+train A → test B,reviewed: trusted,1.0,Graph world model,12573,14.2216,6.7041,35.0339,-4.1781,0.4758,0.1193,0.086,across recordings
+train A → test B,reviewed: trusted,1.0,"Graph world model, trained on reviewed data",12573,11.6006,4.1145,30.7536,-3.2237,0.5649,0.0842,0.0722,across recordings
+train A → test B,wall contact,0.1,Persistence,11239,0.3637,0.1833,0.7,0.0,0.0,0.0258,,across recordings
+train A → test B,wall contact,0.1,Constant velocity,11239,0.4909,0.2786,0.8525,-0.3498,0.739,0.0258,,across recordings
+train A → test B,wall contact,0.1,Response map,11239,1.6356,0.4196,6.3532,-3.4971,0.6985,0.0258,,across recordings
+train A → test B,wall contact,0.1,Gradient boosting,11239,0.9895,0.6188,2.1266,-1.7207,0.6765,0.0554,,across recordings
+train A → test B,wall contact,0.1,"Graph world model, no neighbours",11239,1.3504,0.5724,3.7734,-2.7129,0.5919,0.0277,,across recordings
+train A → test B,wall contact,0.1,Graph world model,11239,1.2699,0.5558,3.3599,-2.4916,0.6434,0.0283,,across recordings
+train A → test B,wall contact,0.1,"Graph world model, trained on reviewed data",11239,1.2275,0.4367,3.2342,-2.3751,0.7279,0.0272,,across recordings
+train A → test B,wall contact,0.5,Persistence,10820,0.9655,0.3633,1.8698,0.0,0.0,0.045,,across recordings
+train A → test B,wall contact,0.5,Constant velocity,10820,2.0286,1.032,3.335,-1.101,0.6963,0.045,,across recordings
+train A → test B,wall contact,0.5,Response map,10820,5.5137,1.7281,18.4802,-4.7105,0.6605,0.045,,across recordings
+train A → test B,wall contact,0.5,Gradient boosting,10820,3.2369,1.4904,7.7202,-2.3524,0.44,0.0759,,across recordings
+train A → test B,wall contact,0.5,"Graph world model, no neighbours",10820,5.5883,2.1622,15.3431,-4.7877,0.4981,0.0598,,across recordings
+train A → test B,wall contact,0.5,Graph world model,10820,6.2369,2.5242,14.2518,-5.4594,0.4778,0.0684,,across recordings
+train A → test B,wall contact,0.5,"Graph world model, trained on reviewed data",10820,5.2702,1.814,15.9506,-4.4583,0.5116,0.0555,,across recordings
+train A → test B,wall contact,1.0,Persistence,10339,1.4506,0.4766,2.7362,0.0,0.0,0.0547,,across recordings
+train A → test B,wall contact,1.0,Constant velocity,10339,3.8954,1.9273,6.3551,-1.6853,0.5888,0.0547,,across recordings
+train A → test B,wall contact,1.0,Response map,10339,10.5947,3.2124,34.0615,-6.3034,0.5183,0.0547,,across recordings
+train A → test B,wall contact,1.0,Gradient boosting,10339,5.3159,4.2119,10.5908,-2.6645,0.354,0.1465,,across recordings
+train A → test B,wall contact,1.0,"Graph world model, no neighbours",10339,10.6564,4.0164,29.5667,-6.346,0.4072,0.0933,,across recordings
+train A → test B,wall contact,1.0,Graph world model,10339,12.4652,4.9426,33.8688,-7.5929,0.3859,0.1163,,across recordings
+train A → test B,wall contact,1.0,"Graph world model, trained on reviewed data",10339,10.4149,3.438,29.7019,-6.1795,0.4611,0.0837,,across recordings
+train A → test B,single (<100 px²),0.1,Persistence,6244,0.5869,0.202,1.069,0.0,0.0,,,across recordings
+train A → test B,single (<100 px²),0.1,Constant velocity,6244,0.6403,0.3267,1.0978,-0.0911,0.7603,,,across recordings
+train A → test B,single (<100 px²),0.1,Response map,6244,2.317,0.9233,8.8764,-2.9479,0.6719,,,across recordings
+train A → test B,single (<100 px²),0.1,Gradient boosting,6244,1.1395,0.6686,2.5326,-0.9416,0.7539,,,across recordings
+train A → test B,single (<100 px²),0.1,"Graph world model, no neighbours",6244,1.8328,1.6369,3.9436,-2.123,0.7192,,,across recordings
+train A → test B,single (<100 px²),0.1,Graph world model,6244,2.0038,1.5498,3.1107,-2.4142,0.5868,,,across recordings
+train A → test B,single (<100 px²),0.1,"Graph world model, trained on reviewed data",6244,1.9728,0.8588,5.4289,-2.3616,0.6151,,,across recordings
+train A → test B,single (<100 px²),0.5,Persistence,5781,1.9186,0.3962,2.3025,0.0,0.0,,,across recordings
+train A → test B,single (<100 px²),0.5,Constant velocity,5781,2.6879,1.1002,4.6575,-0.401,0.6522,,,across recordings
+train A → test B,single (<100 px²),0.5,Response map,5781,10.3738,4.4287,36.9037,-4.4069,0.5953,,,across recordings
+train A → test B,single (<100 px²),0.5,Gradient boosting,5781,8.6946,4.9474,19.8912,-3.5317,0.6304,,,across recordings
+train A → test B,single (<100 px²),0.5,"Graph world model, no neighbours",5781,8.4113,7.4402,20.6185,-3.3841,0.6639,,,across recordings
+train A → test B,single (<100 px²),0.5,Graph world model,5781,8.865,7.6065,16.6915,-3.6205,0.5652,,,across recordings
+train A → test B,single (<100 px²),0.5,"Graph world model, trained on reviewed data",5781,7.5735,3.3999,19.9521,-2.9474,0.6438,,,across recordings
+train A → test B,single (<100 px²),1.0,Persistence,5246,2.5897,0.4496,2.5121,0.0,0.0,,,across recordings
+train A → test B,single (<100 px²),1.0,Constant velocity,5246,4.6223,1.9359,7.6023,-0.7849,0.5298,,,across recordings
+train A → test B,single (<100 px²),1.0,Response map,5246,20.2883,9.0458,65.3319,-6.8341,0.5928,,,across recordings
+train A → test B,single (<100 px²),1.0,Gradient boosting,5246,10.6118,7.5134,25.054,-3.0976,0.6065,,,across recordings
+train A → test B,single (<100 px²),1.0,"Graph world model, no neighbours",5246,14.476,13.009,37.6533,-4.5897,0.7104,,,across recordings
+train A → test B,single (<100 px²),1.0,Graph world model,5246,16.6277,14.0389,35.4956,-5.4206,0.6065,,,across recordings
+train A → test B,single (<100 px²),1.0,"Graph world model, trained on reviewed data",5246,11.8171,5.9215,25.8735,-3.563,0.7155,,,across recordings
+train A → test B,small group (100–300 px²),0.1,Persistence,7027,0.3861,0.1631,0.4993,0.0,0.0,0.0308,0.0186,across recordings
+train A → test B,small group (100–300 px²),0.1,Constant velocity,7027,0.5237,0.2613,0.7525,-0.3563,0.5397,0.0308,0.0186,across recordings
+train A → test B,small group (100–300 px²),0.1,Response map,7027,1.6477,0.4183,3.1379,-3.2676,0.7302,0.0308,0.0186,across recordings
+train A → test B,small group (100–300 px²),0.1,Gradient boosting,7027,1.1719,0.5697,2.1174,-2.0352,0.6032,0.0615,0.0257,across recordings
+train A → test B,small group (100–300 px²),0.1,"Graph world model, no neighbours",7027,1.2124,0.5783,2.1067,-2.1402,0.6825,0.0327,0.0195,across recordings
+train A → test B,small group (100–300 px²),0.1,Graph world model,7027,1.1686,0.5285,2.6715,-2.0266,0.6667,0.0331,0.0201,across recordings
+train A → test B,small group (100–300 px²),0.1,"Graph world model, trained on reviewed data",7027,1.2212,0.4272,3.2842,-2.1628,0.7143,0.0322,0.02,across recordings
+train A → test B,small group (100–300 px²),0.5,Persistence,6778,0.9706,0.3065,1.2682,0.0,0.0,0.0532,0.0255,across recordings
+train A → test B,small group (100–300 px²),0.5,Constant velocity,6778,2.308,0.96,2.9176,-1.3778,0.4459,0.0532,0.0255,across recordings
+train A → test B,small group (100–300 px²),0.5,Response map,6778,4.8206,1.6667,13.4266,-3.9665,0.6186,0.0532,0.0255,across recordings
+train A → test B,small group (100–300 px²),0.5,Gradient boosting,6778,4.1308,1.6326,8.0773,-3.2558,0.3531,0.0819,0.066,across recordings
+train A → test B,small group (100–300 px²),0.5,"Graph world model, no neighbours",6778,5.5051,2.5038,12.7936,-4.6716,0.5232,0.0684,0.0468,across recordings
+train A → test B,small group (100–300 px²),0.5,Graph world model,6778,6.3144,2.5355,13.503,-5.5054,0.5644,0.0759,0.0529,across recordings
+train A → test B,small group (100–300 px²),0.5,"Graph world model, trained on reviewed data",6778,5.6313,1.8297,17.7908,-4.8017,0.5284,0.0636,0.0391,across recordings
+train A → test B,small group (100–300 px²),1.0,Persistence,6483,1.4994,0.3816,2.0574,0.0,0.0,0.0641,0.0255,across recordings
+train A → test B,small group (100–300 px²),1.0,Constant velocity,6483,4.4799,1.782,5.5843,-1.9877,0.4058,0.0641,0.0255,across recordings
+train A → test B,small group (100–300 px²),1.0,Response map,6483,8.7424,3.1692,23.1386,-4.8305,0.4446,0.0641,0.0255,across recordings
+train A → test B,small group (100–300 px²),1.0,Gradient boosting,6483,7.3655,3.7562,9.0877,-3.9122,0.4331,0.1657,0.0893,across recordings
+train A → test B,small group (100–300 px²),1.0,"Graph world model, no neighbours",6483,10.0827,4.8451,28.3802,-5.7244,0.4245,0.1046,0.0576,across recordings
+train A → test B,small group (100–300 px²),1.0,Graph world model,6483,11.9072,4.9686,27.7956,-6.9412,0.4518,0.1243,0.0832,across recordings
+train A → test B,small group (100–300 px²),1.0,"Graph world model, trained on reviewed data",6483,10.7744,3.414,36.2416,-6.1857,0.4676,0.0949,0.0606,across recordings
+train A → test B,cluster (≥300 px²),0.1,Persistence,2612,0.636,0.1989,1.1446,0.0,0.0,0.0071,0.0085,across recordings
+train A → test B,cluster (≥300 px²),0.1,Constant velocity,2612,0.5076,0.2256,0.7337,0.2018,0.822,0.0071,0.0085,across recordings
+train A → test B,cluster (≥300 px²),0.1,Response map,2612,0.5983,0.3306,0.9747,0.0592,0.7881,0.0071,0.0085,across recordings
+train A → test B,cluster (≥300 px²),0.1,Gradient boosting,2612,1.8265,1.4551,3.3078,-1.872,0.9322,0.0297,0.0353,across recordings
+train A → test B,cluster (≥300 px²),0.1,"Graph world model, no neighbours",2612,2.8078,1.8441,6.7234,-3.4149,0.6949,0.0129,0.0103,across recordings
+train A → test B,cluster (≥300 px²),0.1,Graph world model,2612,2.7733,1.6446,5.8045,-3.3607,0.7627,0.0122,0.0113,across recordings
+train A → test B,cluster (≥300 px²),0.1,"Graph world model, trained on reviewed data",2612,2.4848,1.2977,6.2978,-2.907,0.9068,0.0092,0.0113,across recordings
+train A → test B,cluster (≥300 px²),0.5,Persistence,2468,2.6974,0.5797,5.7434,0.0,0.0,0.0173,0.0254,across recordings
+train A → test B,cluster (≥300 px²),0.5,Constant velocity,2468,3.1299,0.9887,3.9954,-0.1603,0.8086,0.0173,0.0254,across recordings
+train A → test B,cluster (≥300 px²),0.5,Response map,2468,2.526,1.3089,4.2521,0.0636,0.7423,0.0173,0.0254,across recordings
+train A → test B,cluster (≥300 px²),0.5,Gradient boosting,2468,8.5334,2.52,22.4179,-2.1635,0.4429,0.0543,0.099,across recordings
+train A → test B,cluster (≥300 px²),0.5,"Graph world model, no neighbours",2468,10.9594,9.6473,22.8127,-3.063,0.463,0.0493,0.0379,across recordings
+train A → test B,cluster (≥300 px²),0.5,Graph world model,2468,13.1732,8.0824,29.8013,-3.8837,0.4182,0.0542,0.046,across recordings
+train A → test B,cluster (≥300 px²),0.5,"Graph world model, trained on reviewed data",2468,10.5608,10.0261,20.6456,-2.9152,0.4923,0.0306,0.0491,across recordings
+train A → test B,cluster (≥300 px²),1.0,Persistence,2313,5.1106,1.1166,11.5673,0.0,0.0,0.0292,0.0494,across recordings
+train A → test B,cluster (≥300 px²),1.0,Constant velocity,2313,7.2307,2.1065,11.2414,-0.4148,0.6747,0.0292,0.0494,across recordings
+train A → test B,cluster (≥300 px²),1.0,Response map,2313,4.7283,2.3809,7.7709,0.0748,0.6312,0.0292,0.0494,across recordings
+train A → test B,cluster (≥300 px²),1.0,Gradient boosting,2313,22.2436,10.568,79.7507,-3.3524,0.3192,0.0706,0.1079,across recordings
+train A → test B,cluster (≥300 px²),1.0,"Graph world model, no neighbours",2313,21.9015,20.3004,45.3562,-3.2855,0.4268,0.09,0.0645,across recordings
+train A → test B,cluster (≥300 px²),1.0,Graph world model,2313,25.9988,19.7471,57.6639,-4.0872,0.3942,0.1053,0.0873,across recordings
+train A → test B,cluster (≥300 px²),1.0,"Graph world model, trained on reviewed data",2313,20.3964,14.3969,43.238,-2.991,0.5284,0.0541,0.0774,across recordings
+train B → test A,all regions,0.1,Persistence,20400,2.407,0.3218,5.3202,0.0,0.0,0.0334,0.0234,across recordings
+train B → test A,all regions,0.1,Constant velocity,20400,1.709,0.4033,3.1616,0.29,0.7897,0.0334,0.0234,across recordings
+train B → test A,all regions,0.1,Response map,20400,2.4257,0.3686,5.3303,-0.0078,0.1745,0.0334,0.0234,across recordings
+train B → test A,all regions,0.1,Gradient boosting,20400,3.6636,0.8746,10.1062,-0.5221,0.4811,0.0539,0.093,across recordings
+train B → test A,all regions,0.1,"Graph world model, no neighbours",20400,2.5584,0.407,5.8652,-0.0629,0.3234,0.0336,0.0253,across recordings
+train B → test A,all regions,0.1,Graph world model,20400,2.7366,0.423,6.4692,-0.1369,0.2886,0.035,0.0239,across recordings
+train B → test A,all regions,0.5,Persistence,18468,8.9262,0.8872,22.8809,0.0,0.0,0.0554,0.0482,across recordings
+train B → test A,all regions,0.5,Constant velocity,18468,8.5615,1.6591,18.0738,0.0409,0.6764,0.0554,0.0482,across recordings
+train B → test A,all regions,0.5,Response map,18468,9.0212,1.2056,23.0294,-0.0106,0.2134,0.0554,0.0482,across recordings
+train B → test A,all regions,0.5,Gradient boosting,18468,11.4142,2.8589,28.5535,-0.2787,0.3043,0.087,0.0918,across recordings
+train B → test A,all regions,0.5,"Graph world model, no neighbours",18468,9.5132,1.5234,24.6006,-0.0658,0.3365,0.0568,0.0617,across recordings
+train B → test A,all regions,0.5,Graph world model,18468,10.3602,1.6223,29.3599,-0.1606,0.3146,0.0638,0.051,across recordings
+train B → test A,all regions,1.0,Persistence,16544,15.1267,1.7101,42.6439,0.0,0.0,0.0727,0.0685,across recordings
+train B → test A,all regions,1.0,Constant velocity,16544,17.2606,3.5467,41.39,-0.1411,0.6156,0.0727,0.0685,across recordings
+train B → test A,all regions,1.0,Response map,16544,15.2654,2.4525,41.8555,-0.0092,0.2108,0.0727,0.0685,across recordings
+train B → test A,all regions,1.0,Gradient boosting,16544,16.9675,4.4519,46.2398,-0.1217,0.3896,0.103,0.1062,across recordings
+train B → test A,all regions,1.0,"Graph world model, no neighbours",16544,16.0094,3.4208,43.4728,-0.0584,0.3282,0.0755,0.101,across recordings
+train B → test A,all regions,1.0,Graph world model,16544,17.7343,3.6173,52.906,-0.1724,0.3333,0.093,0.079,across recordings
+train B → test A,PZT switch within horizon,0.1,Persistence,803,7.633,2.3913,21.9634,0.0,0.0,0.0584,0.0463,across recordings
+train B → test A,PZT switch within horizon,0.1,Constant velocity,803,6.9376,1.7861,20.451,0.0911,0.5593,0.0584,0.0463,across recordings
+train B → test A,PZT switch within horizon,0.1,Response map,803,7.5615,2.2886,21.9634,0.0094,0.1719,0.0584,0.0463,across recordings
+train B → test A,PZT switch within horizon,0.1,Gradient boosting,803,8.2236,4.8173,18.4641,-0.0774,0.4455,0.0715,0.0649,across recordings
+train B → test A,PZT switch within horizon,0.1,"Graph world model, no neighbours",803,7.6164,2.6948,22.0359,0.0022,0.3414,0.0589,0.0447,across recordings
+train B → test A,PZT switch within horizon,0.1,Graph world model,803,7.6564,2.5829,21.1828,-0.0031,0.3632,0.0592,0.0461,across recordings
+train B → test A,PZT switch within horizon,0.5,Persistence,2604,18.8331,6.1961,46.1505,0.0,0.0,0.085,0.0758,across recordings
+train B → test A,PZT switch within horizon,0.5,Constant velocity,2604,18.3337,5.0354,46.2857,0.0265,0.4262,0.085,0.0758,across recordings
+train B → test A,PZT switch within horizon,0.5,Response map,2604,18.6536,6.1966,45.215,0.0095,0.2333,0.085,0.0758,across recordings
+train B → test A,PZT switch within horizon,0.5,Gradient boosting,2604,25.3152,13.2179,58.197,-0.3442,0.3689,0.1061,0.0852,across recordings
+train B → test A,PZT switch within horizon,0.5,"Graph world model, no neighbours",2604,18.7281,7.7566,45.6839,0.0056,0.3758,0.0876,0.0715,across recordings
+train B → test A,PZT switch within horizon,0.5,Graph world model,2604,19.0487,8.7425,45.6469,-0.0114,0.3758,0.0927,0.0765,across recordings
+train B → test A,PZT switch within horizon,1.0,Persistence,4663,27.1827,7.6808,82.4755,0.0,0.0,0.0947,0.0964,across recordings
+train B → test A,PZT switch within horizon,1.0,Constant velocity,4663,25.9949,7.7966,76.1883,0.0437,0.399,0.0947,0.0964,across recordings
+train B → test A,PZT switch within horizon,1.0,Response map,4663,26.9023,7.7664,77.3299,0.0103,0.2284,0.0947,0.0964,across recordings
+train B → test A,PZT switch within horizon,1.0,Gradient boosting,4663,30.2063,12.2293,77.3892,-0.1112,0.4225,0.1251,0.0865,across recordings
+train B → test A,PZT switch within horizon,1.0,"Graph world model, no neighbours",4663,27.0549,9.9412,75.5076,0.0047,0.3595,0.0969,0.1018,across recordings
+train B → test A,PZT switch within horizon,1.0,Graph world model,4663,28.2436,11.5629,76.0003,-0.039,0.3706,0.1144,0.1027,across recordings
+train B → test A,within 0.5 s after a switch,0.1,Persistence,2809,3.0209,0.5468,6.8631,0.0,0.0,0.0441,0.0225,across recordings
+train B → test A,within 0.5 s after a switch,0.1,Constant velocity,2809,2.8818,0.6186,7.222,0.046,0.772,0.0441,0.0225,across recordings
+train B → test A,within 0.5 s after a switch,0.1,Response map,2809,3.011,0.6487,7.3011,0.0033,0.2881,0.0441,0.0225,across recordings
+train B → test A,within 0.5 s after a switch,0.1,Gradient boosting,2809,4.6132,1.6847,11.6264,-0.5271,0.4573,0.0611,0.0863,across recordings
+train B → test A,within 0.5 s after a switch,0.1,"Graph world model, no neighbours",2809,3.1695,0.7652,7.6716,-0.0492,0.4,0.0452,0.0257,across recordings
+train B → test A,within 0.5 s after a switch,0.1,Graph world model,2809,3.3482,0.8102,8.5816,-0.1084,0.3594,0.0478,0.0229,across recordings
+train B → test A,within 0.5 s after a switch,0.5,Persistence,2622,9.6312,1.5601,32.663,0.0,0.0,0.0694,0.0414,across recordings
+train B → test A,within 0.5 s after a switch,0.5,Constant velocity,2622,16.1291,2.3846,42.1336,-0.6747,0.7344,0.0694,0.0414,across recordings
+train B → test A,within 0.5 s after a switch,0.5,Response map,2622,9.5847,2.1101,32.6052,0.0048,0.2426,0.0694,0.0414,across recordings
+train B → test A,within 0.5 s after a switch,0.5,Gradient boosting,2622,11.6684,4.4794,32.5532,-0.2115,0.3197,0.091,0.0829,across recordings
+train B → test A,within 0.5 s after a switch,0.5,"Graph world model, no neighbours",2622,10.4178,2.4154,32.5995,-0.0817,0.4426,0.0721,0.051,across recordings
+train B → test A,within 0.5 s after a switch,0.5,Graph world model,2622,11.5971,2.8499,35.0451,-0.2041,0.3656,0.0903,0.0378,across recordings
+train B → test A,within 0.5 s after a switch,1.0,Persistence,2387,14.3784,2.6245,56.4391,0.0,0.0,0.0828,0.0603,across recordings
+train B → test A,within 0.5 s after a switch,1.0,Constant velocity,2387,34.2601,4.5076,89.2899,-1.3827,0.7435,0.0828,0.0603,across recordings
+train B → test A,within 0.5 s after a switch,1.0,Response map,2387,14.516,3.3886,54.443,-0.0096,0.2169,0.0828,0.0603,across recordings
+train B → test A,within 0.5 s after a switch,1.0,Gradient boosting,2387,15.444,4.9017,45.9481,-0.0741,0.4521,0.1078,0.1152,across recordings
+train B → test A,within 0.5 s after a switch,1.0,"Graph world model, no neighbours",2387,16.065,3.7973,62.8291,-0.1173,0.4054,0.0905,0.1123,across recordings
+train B → test A,within 0.5 s after a switch,1.0,Graph world model,2387,18.5515,4.1695,67.2476,-0.2902,0.35,0.12,0.0701,across recordings
+train B → test A,no switch nearby,0.1,Persistence,16788,2.0543,0.288,3.953,0.0,0.0,0.0304,0.0224,across recordings
+train B → test A,no switch nearby,0.1,Constant velocity,16788,1.2627,0.3658,2.1151,0.3853,0.8292,0.0304,0.0224,across recordings
+train B → test A,no switch nearby,0.1,Response map,16788,2.0821,0.3284,3.9537,-0.0135,0.1452,0.0304,0.0224,across recordings
+train B → test A,no switch nearby,0.1,Gradient boosting,16788,3.2866,0.7356,8.8172,-0.5999,0.4927,0.0518,0.0961,across recordings
+train B → test A,no switch nearby,0.1,"Graph world model, no neighbours",16788,2.2142,0.3582,4.5826,-0.0778,0.3006,0.0305,0.0241,across recordings
+train B → test A,no switch nearby,0.1,Graph world model,16788,2.3989,0.3671,5.7611,-0.1677,0.2588,0.0317,0.0229,across recordings
+train B → test A,no switch nearby,0.5,Persistence,13242,6.8385,0.6721,15.5164,0.0,0.0,0.0467,0.0439,across recordings
+train B → test A,no switch nearby,0.5,Constant velocity,13242,5.1414,1.3839,9.6862,0.2482,0.7629,0.0467,0.0439,across recordings
+train B → test A,no switch nearby,0.5,Response map,13242,7.0155,0.9003,15.5581,-0.0259,0.1956,0.0467,0.0439,across recordings
+train B → test A,no switch nearby,0.5,Gradient boosting,13242,8.6303,2.0874,17.8002,-0.262,0.2721,0.0824,0.0958,across recordings
+train B → test A,no switch nearby,0.5,"Graph world model, no neighbours",13242,7.522,1.1121,17.4873,-0.1,0.2856,0.0476,0.0625,across recordings
+train B → test A,no switch nearby,0.5,Graph world model,13242,8.4067,1.1012,20.715,-0.2293,0.2724,0.0526,0.0489,across recordings
+train B → test A,no switch nearby,1.0,Persistence,9494,9.3935,1.0753,27.3201,0.0,0.0,0.0592,0.0548,across recordings
+train B → test A,no switch nearby,1.0,Constant velocity,9494,8.6967,2.6543,18.7824,0.0742,0.7526,0.0592,0.0548,across recordings
+train B → test A,no switch nearby,1.0,Response map,9494,9.7383,1.5606,27.3228,-0.0367,0.1938,0.0592,0.0548,across recordings
+train B → test A,no switch nearby,1.0,Gradient boosting,9494,10.8483,3.2997,26.8014,-0.1549,0.3403,0.0908,0.1147,across recordings
+train B → test A,no switch nearby,1.0,"Graph world model, no neighbours",9494,10.5705,2.1121,29.1995,-0.1253,0.2753,0.0612,0.0967,across recordings
+train B → test A,no switch nearby,1.0,Graph world model,9494,12.3671,1.9694,37.4209,-0.3166,0.2963,0.0755,0.0681,across recordings
+train B → test A,moved ≥ 2 px,0.1,Persistence,3856,11.1354,5.7854,23.7313,0.0,0.0,0.0764,0.0404,across recordings
+train B → test A,moved ≥ 2 px,0.1,Constant velocity,3856,6.1432,2.4464,14.3863,0.4483,0.7897,0.0764,0.0404,across recordings
+train B → test A,moved ≥ 2 px,0.1,Response map,3856,11.0371,5.808,23.4167,0.0088,0.1745,0.0764,0.0404,across recordings
+train B → test A,moved ≥ 2 px,0.1,Gradient boosting,3856,10.7061,5.5006,22.1261,0.0386,0.4811,0.0953,0.1297,across recordings
+train B → test A,moved ≥ 2 px,0.1,"Graph world model, no neighbours",3856,10.8809,5.7939,23.1764,0.0229,0.3234,0.0771,0.042,across recordings
+train B → test A,moved ≥ 2 px,0.1,Graph world model,3856,11.0655,5.9729,22.8446,0.0063,0.2886,0.0793,0.0409,across recordings
+train B → test A,moved ≥ 2 px,0.5,Persistence,6573,24.0309,11.3342,52.3929,0.0,0.0,0.0957,0.0714,across recordings
+train B → test A,moved ≥ 2 px,0.5,Constant velocity,6573,19.41,6.3133,46.2958,0.1923,0.6764,0.0957,0.0714,across recordings
+train B → test A,moved ≥ 2 px,0.5,Response map,6573,23.7948,11.3046,51.6806,0.0098,0.2134,0.0957,0.0714,across recordings
+train B → test A,moved ≥ 2 px,0.5,Gradient boosting,6573,24.7871,12.2586,54.1987,-0.0315,0.3043,0.1173,0.1015,across recordings
+train B → test A,moved ≥ 2 px,0.5,"Graph world model, no neighbours",6573,23.354,10.9402,50.8027,0.0282,0.3365,0.0975,0.079,across recordings
+train B → test A,moved ≥ 2 px,0.5,Graph world model,6573,23.865,11.6251,50.9047,0.0069,0.3146,0.1029,0.0736,across recordings
+train B → test A,moved ≥ 2 px,1.0,Persistence,7981,30.6852,12.6142,83.8218,0.0,0.0,0.1059,0.0774,across recordings
+train B → test A,moved ≥ 2 px,1.0,Constant velocity,7981,30.0665,9.083,80.1639,0.0202,0.6156,0.1059,0.0774,across recordings
+train B → test A,moved ≥ 2 px,1.0,Response map,7981,30.3363,12.7323,82.7682,0.0114,0.2108,0.1059,0.0774,across recordings
+train B → test A,moved ≥ 2 px,1.0,Gradient boosting,7981,30.1897,12.3746,82.109,0.0161,0.3896,0.1261,0.0963,across recordings
+train B → test A,moved ≥ 2 px,1.0,"Graph world model, no neighbours",7981,29.7237,11.8713,82.2558,0.0313,0.3282,0.1104,0.1058,across recordings
+train B → test A,moved ≥ 2 px,1.0,Graph world model,7981,30.8145,12.7473,83.2741,-0.0042,0.3333,0.1207,0.0878,across recordings
+train B → test A,reviewed: trusted,0.1,Persistence,18491,2.1183,0.2857,3.9835,0.0,0.0,0.0283,0.0234,across recordings
+train B → test A,reviewed: trusted,0.1,Constant velocity,18491,1.5455,0.3726,2.6179,0.2704,0.7765,0.0283,0.0234,across recordings
+train B → test A,reviewed: trusted,0.1,Response map,18491,2.1329,0.3283,3.8938,-0.0069,0.1609,0.0283,0.0234,across recordings
+train B → test A,reviewed: trusted,0.1,Gradient boosting,18491,3.4389,0.7569,9.818,-0.6235,0.4938,0.0497,0.093,across recordings
+train B → test A,reviewed: trusted,0.1,"Graph world model, no neighbours",18491,2.2596,0.3609,4.9575,-0.0667,0.4086,0.0286,0.0253,across recordings
+train B → test A,reviewed: trusted,0.1,Graph world model,18491,2.4248,0.3724,6.1482,-0.1447,0.337,0.03,0.0239,across recordings
+train B → test A,reviewed: trusted,0.5,Persistence,16952,7.9567,0.7527,19.2732,0.0,0.0,0.0487,0.0482,across recordings
+train B → test A,reviewed: trusted,0.5,Constant velocity,16952,8.2535,1.5436,16.9692,-0.0373,0.6313,0.0487,0.0482,across recordings
+train B → test A,reviewed: trusted,0.5,Response map,16952,8.0363,1.0226,18.3476,-0.01,0.2065,0.0487,0.0482,across recordings
+train B → test A,reviewed: trusted,0.5,Gradient boosting,16952,10.685,2.4606,27.7123,-0.3429,0.3157,0.0818,0.0918,across recordings
+train B → test A,reviewed: trusted,0.5,"Graph world model, no neighbours",16952,8.5916,1.3224,21.6443,-0.0798,0.381,0.0499,0.0617,across recordings
+train B → test A,reviewed: trusted,0.5,Graph world model,16952,9.4306,1.3584,27.385,-0.1852,0.3516,0.0576,0.051,across recordings
+train B → test A,reviewed: trusted,1.0,Persistence,15393,13.6187,1.4422,39.0604,0.0,0.0,0.0647,0.0685,across recordings
+train B → test A,reviewed: trusted,1.0,Constant velocity,15393,16.9704,3.3331,40.6114,-0.2461,0.5747,0.0647,0.0685,across recordings
+train B → test A,reviewed: trusted,1.0,Response map,15393,13.7356,2.1187,33.9273,-0.0086,0.2019,0.0647,0.0685,across recordings
+train B → test A,reviewed: trusted,1.0,Gradient boosting,15393,15.7075,4.1055,43.0022,-0.1534,0.3855,0.0971,0.1062,across recordings
+train B → test A,reviewed: trusted,1.0,"Graph world model, no neighbours",15393,14.5825,3.05,37.195,-0.0708,0.3548,0.067,0.101,across recordings
+train B → test A,reviewed: trusted,1.0,Graph world model,15393,16.3803,3.2375,49.4925,-0.2028,0.3667,0.0858,0.079,across recordings
+train B → test A,wall contact,0.1,Persistence,14241,1.1003,0.2455,1.8684,0.0,0.0,0.0336,,across recordings
+train B → test A,wall contact,0.1,Constant velocity,14241,1.2378,0.3681,2.3401,-0.1249,0.6723,0.0336,,across recordings
+train B → test A,wall contact,0.1,Response map,14241,1.1359,0.2795,1.962,-0.0323,0.1502,0.0336,,across recordings
+train B → test A,wall contact,0.1,Gradient boosting,14241,2.8584,0.7402,8.9617,-1.5978,0.3984,0.0478,,across recordings
+train B → test A,wall contact,0.1,"Graph world model, no neighbours",14241,1.3454,0.3152,3.1966,-0.2228,0.4028,0.0339,,across recordings
+train B → test A,wall contact,0.1,Graph world model,14241,1.5552,0.3253,4.3707,-0.4134,0.3454,0.0353,,across recordings
+train B → test A,wall contact,0.5,Persistence,12872,3.7201,0.5241,7.947,0.0,0.0,0.0533,,across recordings
+train B → test A,wall contact,0.5,Constant velocity,12872,5.6188,1.4591,11.3193,-0.5104,0.5314,0.0533,,across recordings
+train B → test A,wall contact,0.5,Response map,12872,3.9185,0.6908,8.0874,-0.0533,0.1545,0.0533,,across recordings
+train B → test A,wall contact,0.5,Gradient boosting,12872,7.295,2.0241,17.4553,-0.961,0.2961,0.0765,,across recordings
+train B → test A,wall contact,0.5,"Graph world model, no neighbours",12872,4.9504,0.9479,11.1534,-0.3307,0.3295,0.0547,,across recordings
+train B → test A,wall contact,0.5,Graph world model,12872,6.0518,0.9078,15.818,-0.6268,0.3057,0.0621,,across recordings
+train B → test A,wall contact,1.0,Persistence,11569,6.5696,0.886,14.3222,0.0,0.0,0.0699,,across recordings
+train B → test A,wall contact,1.0,Constant velocity,11569,11.2964,3.0208,23.939,-0.7195,0.4981,0.0699,,across recordings
+train B → test A,wall contact,1.0,Response map,11569,6.9369,1.2591,15.1554,-0.0559,0.1878,0.0699,,across recordings
+train B → test A,wall contact,1.0,Gradient boosting,11569,9.9992,2.9537,27.7837,-0.522,0.3059,0.1065,,across recordings
+train B → test A,wall contact,1.0,"Graph world model, no neighbours",11569,8.7287,1.9987,20.2079,-0.3286,0.3002,0.0725,,across recordings
+train B → test A,wall contact,1.0,Graph world model,11569,11.0774,1.8809,31.4661,-0.6862,0.2688,0.0924,,across recordings
+train B → test A,action never seen in training,0.1,Persistence,7744,4.0129,0.3243,9.6122,0.0,0.0,0.0383,0.0396,across recordings
+train B → test A,action never seen in training,0.1,Constant velocity,7744,2.7553,0.4949,6.0326,0.3134,0.779,0.0383,0.0396,across recordings
+train B → test A,action never seen in training,0.1,Response map,7744,4.0129,0.3243,9.6122,0.0,0.0,0.0383,0.0396,across recordings
+train B → test A,action never seen in training,0.1,Gradient boosting,7744,6.2358,2.6427,12.9634,-0.5539,0.3654,0.0514,0.1428,across recordings
+train B → test A,action never seen in training,0.1,"Graph world model, no neighbours",7744,4.3594,0.5185,10.1405,-0.0863,0.336,0.0387,0.0444,across recordings
+train B → test A,action never seen in training,0.1,Graph world model,7744,4.7495,0.5464,11.4557,-0.1835,0.2231,0.0414,0.0404,across recordings
+train B → test A,action never seen in training,0.5,Persistence,7606,13.4383,0.7345,40.1376,0.0,0.0,0.0577,0.098,across recordings
+train B → test A,action never seen in training,0.5,Constant velocity,7606,12.4945,2.1225,29.4694,0.0702,0.603,0.0577,0.098,across recordings
+train B → test A,action never seen in training,0.5,Response map,7606,13.4554,0.7371,40.1524,-0.0013,0.0552,0.0577,0.098,across recordings
+train B → test A,action never seen in training,0.5,Gradient boosting,7606,17.9317,6.8008,46.3348,-0.3344,0.2193,0.0757,0.1088,across recordings
+train B → test A,action never seen in training,0.5,"Graph world model, no neighbours",7606,14.6834,2.0258,41.9411,-0.0926,0.3153,0.0601,0.1161,across recordings
+train B → test A,action never seen in training,0.5,Graph world model,7606,16.1063,2.4739,45.0074,-0.1985,0.2963,0.0725,0.102,across recordings
+train B → test A,action never seen in training,1.0,Persistence,7664,19.8766,1.3467,65.8289,0.0,0.0,0.0727,0.1553,across recordings
+train B → test A,action never seen in training,1.0,Constant velocity,7664,21.6584,4.4068,53.1872,-0.0896,0.5405,0.0727,0.1553,across recordings
+train B → test A,action never seen in training,1.0,Response map,7664,19.9558,1.4521,65.9545,-0.004,0.0947,0.0727,0.1553,across recordings
+train B → test A,action never seen in training,1.0,Gradient boosting,7664,23.4756,5.5867,63.0389,-0.1811,0.258,0.1083,0.1754,across recordings
+train B → test A,action never seen in training,1.0,"Graph world model, no neighbours",7664,21.9547,4.6292,69.0377,-0.1046,0.2672,0.0766,0.1889,across recordings
+train B → test A,action never seen in training,1.0,Graph world model,7664,24.7917,5.6309,79.4565,-0.2473,0.2742,0.1065,0.1669,across recordings
+train B → test A,single (<100 px²),0.1,Persistence,12269,2.2556,0.3272,4.8656,0.0,0.0,,,across recordings
+train B → test A,single (<100 px²),0.1,Constant velocity,12269,1.7367,0.4418,2.8152,0.23,0.7674,,,across recordings
+train B → test A,single (<100 px²),0.1,Response map,12269,2.3048,0.3877,4.9289,-0.0218,0.1886,,,across recordings
+train B → test A,single (<100 px²),0.1,Gradient boosting,12269,3.6903,0.8332,10.2297,-0.6361,0.4764,,,across recordings
+train B → test A,single (<100 px²),0.1,"Graph world model, no neighbours",12269,2.4914,0.4176,5.8013,-0.1046,0.2658,,,across recordings
+train B → test A,single (<100 px²),0.1,Graph world model,12269,2.6666,0.4299,6.2597,-0.1822,0.2088,,,across recordings
+train B → test A,single (<100 px²),0.5,Persistence,11163,8.1065,0.8135,21.4221,0.0,0.0,,,across recordings
+train B → test A,single (<100 px²),0.5,Constant velocity,11163,8.2081,1.7562,15.4905,-0.0125,0.6463,,,across recordings
+train B → test A,single (<100 px²),0.5,Response map,11163,8.3156,1.232,21.7149,-0.0258,0.2247,,,across recordings
+train B → test A,single (<100 px²),0.5,Gradient boosting,11163,10.4542,2.8668,23.9023,-0.2896,0.2637,,,across recordings
+train B → test A,single (<100 px²),0.5,"Graph world model, no neighbours",11163,9.0763,1.4904,24.5942,-0.1196,0.3173,,,across recordings
+train B → test A,single (<100 px²),0.5,Graph world model,11163,10.0916,1.5375,29.6813,-0.2449,0.2608,,,across recordings
+train B → test A,single (<100 px²),1.0,Persistence,10082,13.2801,1.5538,40.8413,0.0,0.0,,,across recordings
+train B → test A,single (<100 px²),1.0,Constant velocity,10082,15.4676,3.5739,34.3034,-0.1647,0.5828,,,across recordings
+train B → test A,single (<100 px²),1.0,Response map,10082,13.5744,2.4571,39.625,-0.0222,0.2298,,,across recordings
+train B → test A,single (<100 px²),1.0,Gradient boosting,10082,14.6079,3.9419,41.8841,-0.1,0.3748,,,across recordings
+train B → test A,single (<100 px²),1.0,"Graph world model, no neighbours",10082,14.8567,3.3135,42.8069,-0.1187,0.3402,,,across recordings
+train B → test A,single (<100 px²),1.0,Graph world model,10082,16.6012,3.4664,57.6627,-0.2501,0.2912,,,across recordings
+train B → test A,small group (100–300 px²),0.1,Persistence,4233,1.4702,0.2392,3.486,0.0,0.0,0.046,0.021,across recordings
+train B → test A,small group (100–300 px²),0.1,Constant velocity,4233,1.1856,0.3322,2.2342,0.1936,0.7923,0.046,0.021,across recordings
+train B → test A,small group (100–300 px²),0.1,Response map,4233,1.4875,0.2532,3.4813,-0.0118,0.096,0.046,0.021,across recordings
+train B → test A,small group (100–300 px²),0.1,Gradient boosting,4233,2.7652,1.0982,6.5904,-0.8809,0.5473,0.0643,0.0826,across recordings
+train B → test A,small group (100–300 px²),0.1,"Graph world model, no neighbours",4233,1.583,0.3054,3.6591,-0.0767,0.2894,0.0463,0.0207,across recordings
+train B → test A,small group (100–300 px²),0.1,Graph world model,4233,1.7825,0.3219,4.4297,-0.2124,0.3195,0.0475,0.0215,across recordings
+train B → test A,small group (100–300 px²),0.5,Persistence,3865,4.8367,0.5961,15.8037,0.0,0.0,0.0684,0.0357,across recordings
+train B → test A,small group (100–300 px²),0.5,Constant velocity,3865,5.3422,1.3097,12.4137,-0.1045,0.6972,0.0684,0.0357,across recordings
+train B → test A,small group (100–300 px²),0.5,Response map,3865,4.9559,0.6444,15.9378,-0.0246,0.2029,0.0684,0.0357,across recordings
+train B → test A,small group (100–300 px²),0.5,Gradient boosting,3865,9.2429,2.461,24.6041,-0.911,0.3388,0.1053,0.1203,across recordings
+train B → test A,small group (100–300 px²),0.5,"Graph world model, no neighbours",3865,5.3425,0.9454,15.3692,-0.1046,0.3213,0.0698,0.0372,across recordings
+train B → test A,small group (100–300 px²),0.5,Graph world model,3865,6.3499,1.0,19.7941,-0.3128,0.3048,0.0781,0.038,across recordings
+train B → test A,small group (100–300 px²),1.0,Persistence,3473,8.3339,1.0668,28.764,0.0,0.0,0.083,0.0496,across recordings
+train B → test A,small group (100–300 px²),1.0,Constant velocity,3473,11.2919,2.6775,27.7284,-0.3549,0.6382,0.083,0.0496,across recordings
+train B → test A,small group (100–300 px²),1.0,Response map,3473,8.5885,1.1614,28.8335,-0.0305,0.1477,0.083,0.0496,across recordings
+train B → test A,small group (100–300 px²),1.0,Gradient boosting,3473,13.6932,5.1104,43.0574,-0.6431,0.4225,0.1106,0.1335,across recordings
+train B → test A,small group (100–300 px²),1.0,"Graph world model, no neighbours",3473,9.0424,1.8789,29.2038,-0.085,0.283,0.085,0.0522,across recordings
+train B → test A,small group (100–300 px²),1.0,Graph world model,3473,11.8924,2.3317,38.6095,-0.427,0.3733,0.1092,0.0652,across recordings
+train B → test A,cluster (≥300 px²),0.1,Persistence,3898,3.9009,0.475,13.3008,0.0,0.0,0.0196,0.0243,across recordings
+train B → test A,cluster (≥300 px²),0.1,Constant velocity,3898,2.1903,0.3569,4.9742,0.4385,0.841,0.0196,0.0243,across recordings
+train B → test A,cluster (≥300 px²),0.1,Response map,3898,3.8251,0.4762,12.8055,0.0194,0.1998,0.0196,0.0243,across recordings
+train B → test A,cluster (≥300 px²),0.1,Gradient boosting,3898,4.5553,0.8148,11.933,-0.1678,0.4425,0.0425,0.0966,across recordings
+train B → test A,cluster (≥300 px²),0.1,"Graph world model, no neighbours",3898,3.8285,0.5223,12.0599,0.0186,0.4866,0.0198,0.0268,across recordings
+train B → test A,cluster (≥300 px²),0.1,Graph world model,3898,3.9929,0.5611,11.8244,-0.0236,0.4565,0.0215,0.0247,across recordings
+train B → test A,cluster (≥300 px²),0.5,Persistence,3440,16.181,1.9746,50.4199,0.0,0.0,0.0408,0.0526,across recordings
+train B → test A,cluster (≥300 px²),0.5,Constant velocity,3440,13.3256,1.8019,39.6709,0.1765,0.7334,0.0408,0.0526,across recordings
+train B → test A,cluster (≥300 px²),0.5,Response map,3440,15.8785,1.9619,48.8892,0.0187,0.1938,0.0408,0.0526,across recordings
+train B → test A,cluster (≥300 px²),0.5,Gradient boosting,3440,16.9693,3.6755,47.3646,-0.0487,0.3776,0.0665,0.0818,across recordings
+train B → test A,cluster (≥300 px²),0.5,"Graph world model, no neighbours",3440,15.6171,2.2692,46.7098,0.0349,0.3893,0.0423,0.0703,across recordings
+train B → test A,cluster (≥300 px²),0.5,Graph world model,3440,15.7375,2.8802,46.1398,0.0274,0.4433,0.0479,0.0556,across recordings
+train B → test A,cluster (≥300 px²),1.0,Persistence,2989,29.2478,4.8834,96.4433,0.0,0.0,0.0606,0.0753,across recordings
+train B → test A,cluster (≥300 px²),1.0,Constant velocity,2989,30.2438,5.4424,92.8268,-0.0341,0.6787,0.0606,0.0753,across recordings
+train B → test A,cluster (≥300 px²),1.0,Response map,2989,28.7271,4.8232,92.4834,0.0178,0.2042,0.0606,0.0753,across recordings
+train B → test A,cluster (≥300 px²),1.0,Gradient boosting,2989,28.7313,7.0595,86.5941,0.0177,0.4043,0.0941,0.0964,across recordings
+train B → test A,cluster (≥300 px²),1.0,"Graph world model, no neighbours",2989,27.993,6.4194,89.5153,0.0429,0.3272,0.0645,0.1185,across recordings
+train B → test A,cluster (≥300 px²),1.0,Graph world model,2989,28.3442,7.4564,87.9455,0.0309,0.4078,0.0741,0.084,across recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.1,Persistence,11534,2.1655,0.2245,3.2989,0.0,0.0,0.0272,0.0236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.1,Constant velocity,11534,1.4935,0.3421,2.0951,0.3104,0.8004,0.0272,0.0236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.1,Response map,11534,2.1886,0.25,3.2241,-0.0106,0.0554,0.0272,0.0236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.1,Gradient boosting,11534,2.2042,0.44,3.0136,-0.0178,0.7078,0.0378,0.1619,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.1,"Graph world model, no neighbours",11534,3.0184,0.8407,6.1761,-0.3938,0.5786,0.0283,0.0713,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.1,Graph world model,11534,3.7598,0.6919,9.5951,-0.7362,0.4644,0.0378,0.0674,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.5,Persistence,10167,7.0673,0.4269,12.8152,0.0,0.0,0.0493,0.0738,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.5,Constant velocity,10167,6.7052,1.2589,10.4141,0.0512,0.6917,0.0493,0.0738,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.5,Response map,10167,7.1854,0.5116,12.1178,-0.0167,0.1228,0.0493,0.0738,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.5,Gradient boosting,10167,9.8805,1.3755,25.3838,-0.3981,0.6204,0.0619,0.4874,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.5,"Graph world model, no neighbours",10167,9.9087,3.0959,19.2017,-0.4021,0.5373,0.0562,0.1729,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,0.5,Graph world model,10167,12.1903,2.9802,31.5161,-0.7249,0.4523,0.0958,0.1697,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,1.0,Persistence,8790,10.5988,0.6055,22.1811,0.0,0.0,0.0646,0.152,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,1.0,Constant velocity,8790,12.5277,2.505,22.4068,-0.182,0.591,0.0646,0.152,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,1.0,Response map,8790,10.7408,0.8564,22.3477,-0.0134,0.2102,0.0646,0.152,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,1.0,Gradient boosting,8790,12.5052,2.5322,30.2626,-0.1799,0.5122,0.0862,0.3293,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,1.0,"Graph world model, no neighbours",8790,16.0662,6.8721,34.4354,-0.5159,0.4163,0.0858,0.3367,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",all regions,1.0,Graph world model,8790,21.031,7.7696,57.4647,-0.9843,0.3755,0.1683,0.3122,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.1,Persistence,150,10.5541,6.0316,22.184,0.0,0.0,0.0702,0.0547,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.1,Constant velocity,150,9.7189,4.1223,21.8802,0.0791,0.5294,0.0702,0.0547,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.1,Response map,150,10.6813,6.0969,22.2142,-0.0121,0.1078,0.0702,0.0547,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.1,Gradient boosting,150,11.5991,4.9023,27.9097,-0.099,0.1569,0.0747,0.0569,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.1,"Graph world model, no neighbours",150,10.8933,5.8523,22.2824,-0.0321,0.0686,0.0699,0.0556,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.1,Graph world model,150,10.7957,5.8143,22.4163,-0.0229,0.1667,0.0733,0.0538,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.5,Persistence,727,17.8898,5.4548,32.3578,0.0,0.0,0.0807,0.0962,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.5,Constant velocity,727,16.9358,3.2793,40.7164,0.0533,0.4796,0.0807,0.0962,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.5,Response map,727,18.2366,6.3262,31.7159,-0.0194,0.3688,0.0807,0.0962,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.5,Gradient boosting,727,18.0332,6.1162,39.2456,-0.008,0.3824,0.0956,0.8432,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.5,"Graph world model, no neighbours",727,21.809,11.5544,48.3479,-0.2191,0.2014,0.0965,0.1987,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,0.5,Graph world model,727,21.366,10.3608,41.8138,-0.1943,0.2308,0.1417,0.4073,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,1.0,Persistence,1395,27.5788,5.9692,64.0681,0.0,0.0,0.0984,0.0984,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,1.0,Constant velocity,1395,25.2833,5.4546,52.6661,0.0832,0.43,0.0984,0.0984,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,1.0,Response map,1395,28.1751,8.0175,63.1253,-0.0216,0.4482,0.0984,0.0984,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,1.0,Gradient boosting,1395,27.1134,6.6308,45.3719,0.0169,0.4255,0.1244,0.5622,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,1.0,"Graph world model, no neighbours",1395,35.7579,14.5896,84.1953,-0.2966,0.2162,0.1326,0.3846,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",PZT switch within horizon,1.0,Graph world model,1395,36.296,14.3388,77.1623,-0.3161,0.2173,0.2363,0.5318,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.1,Persistence,956,2.9209,0.3256,7.2365,0.0,0.0,0.0362,0.0179,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.1,Constant velocity,956,3.2198,0.5742,9.1713,-0.1024,0.8481,0.0362,0.0179,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.1,Response map,956,2.9649,0.3822,7.4594,-0.0151,0.0802,0.0362,0.0179,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.1,Gradient boosting,956,4.3443,1.4684,10.2514,-0.4873,0.6076,0.0536,0.1014,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.1,"Graph world model, no neighbours",956,4.1901,1.8759,9.7885,-0.4345,0.6203,0.0387,0.2266,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.1,Graph world model,956,4.8542,1.9312,13.1084,-0.6619,0.5485,0.0474,0.1443,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.5,Persistence,866,9.1143,0.4634,39.6288,0.0,0.0,0.0556,0.0324,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.5,Constant velocity,866,18.2812,1.9945,50.6207,-1.0058,0.8094,0.0556,0.0324,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.5,Response map,866,9.3758,0.6199,40.168,-0.0287,0.1655,0.0556,0.0324,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.5,Gradient boosting,866,12.5211,3.2867,44.6922,-0.3738,0.5108,0.0744,0.4237,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.5,"Graph world model, no neighbours",866,13.5777,6.7496,41.1507,-0.4897,0.6007,0.0642,0.3899,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,0.5,Graph world model,866,15.7056,5.8774,46.6244,-0.7232,0.5755,0.1102,0.2115,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,1.0,Persistence,841,17.1201,0.7456,73.2218,0.0,0.0,0.078,0.1787,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,1.0,Constant velocity,841,38.3519,4.0225,94.1321,-1.2402,0.7841,0.078,0.1787,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,1.0,Response map,841,17.013,1.0945,78.6326,0.0063,0.146,0.078,0.1787,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,1.0,Gradient boosting,841,19.7028,6.6364,58.4206,-0.1509,0.4413,0.1121,0.2913,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,1.0,"Graph world model, no neighbours",841,23.8185,13.2799,74.4851,-0.3913,0.5365,0.1115,0.5428,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",within 0.5 s after a switch,1.0,Graph world model,841,28.0376,10.907,84.0508,-0.6377,0.5492,0.1972,0.2761,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.1,Persistence,10428,1.9756,0.2164,2.5183,0.0,0.0,0.026,0.0235,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.1,Constant velocity,10428,1.2169,0.3293,1.5041,0.3841,0.8141,0.026,0.0235,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.1,Response map,10428,1.9953,0.2391,2.4909,-0.0099,0.0461,0.026,0.0235,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.1,Gradient boosting,10428,1.8728,0.4072,2.1289,0.052,0.7747,0.0361,0.1724,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.1,"Graph world model, no neighbours",10428,2.7977,0.7686,5.1751,-0.4161,0.6139,0.027,0.0517,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.1,Graph world model,10428,3.5582,0.6105,9.1508,-0.8011,0.4732,0.0366,0.0578,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.5,Persistence,8574,5.9429,0.3903,9.728,0.0,0.0,0.0464,0.0778,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.5,Constant velocity,8574,4.6686,1.167,6.4195,0.2144,0.7353,0.0464,0.0778,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.5,Response map,8574,6.0271,0.4502,8.9155,-0.0142,0.0365,0.0464,0.0778,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.5,Gradient boosting,8574,8.9225,1.1757,23.0951,-0.5014,0.7175,0.0583,0.4473,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.5,"Graph world model, no neighbours",8574,8.5291,2.6133,14.2891,-0.4352,0.6309,0.0525,0.1316,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,0.5,Graph world model,8574,11.0573,2.2788,27.7312,-0.8606,0.4979,0.0911,0.1283,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,1.0,Persistence,6554,6.1478,0.4671,12.819,0.0,0.0,0.0567,0.1719,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,1.0,Constant velocity,6554,6.499,2.1748,11.6899,-0.0571,0.6553,0.0567,0.1719,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,1.0,Response map,6554,6.2252,0.5615,13.132,-0.0126,0.0597,0.0567,0.1719,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,1.0,Gradient boosting,6554,8.4723,2.0496,21.4684,-0.3781,0.5908,0.076,0.2185,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,1.0,"Graph world model, no neighbours",6554,10.8802,5.4172,21.8717,-0.7698,0.5263,0.0741,0.2471,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",no switch nearby,1.0,Graph world model,6554,16.8828,5.7204,46.5232,-1.7461,0.4427,0.1522,0.2078,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.1,Persistence,1533,14.3793,6.0318,41.3,0.0,0.0,0.0553,0.0284,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.1,Constant velocity,1533,7.5227,2.6546,17.0117,0.4768,0.8004,0.0553,0.0284,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.1,Response map,1533,14.3411,6.0244,41.3,0.0027,0.0554,0.0553,0.0284,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.1,Gradient boosting,1533,11.9986,3.4781,35.9377,0.1656,0.7078,0.0869,0.2341,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.1,"Graph world model, no neighbours",1533,13.8632,6.6897,35.3458,0.0359,0.5786,0.0592,0.0962,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.1,Graph world model,1533,14.6826,7.5819,38.5525,-0.0211,0.4644,0.0705,0.0924,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.5,Persistence,2118,32.2928,12.1181,62.5502,0.0,0.0,0.0938,0.0987,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.5,Constant velocity,2118,25.1787,8.3109,61.7743,0.2203,0.6917,0.0938,0.0987,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.5,Response map,2118,31.884,11.7096,62.5502,0.0127,0.1228,0.0938,0.0987,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.5,Gradient boosting,2118,28.0471,9.8321,52.0057,0.1315,0.6204,0.1064,0.6807,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.5,"Graph world model, no neighbours",2118,32.0343,13.5492,53.5214,0.008,0.5373,0.1051,0.2187,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,0.5,Graph world model,2118,33.7128,17.145,55.8438,-0.044,0.4523,0.1516,0.2173,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,1.0,Persistence,2450,36.6861,13.9347,92.677,0.0,0.0,0.1152,0.1939,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,1.0,Constant velocity,2450,35.6687,11.2704,81.3599,0.0277,0.591,0.1152,0.1939,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,1.0,Response map,2450,35.6945,13.1246,87.5318,0.027,0.2102,0.1152,0.1939,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,1.0,Gradient boosting,2450,32.8949,13.1967,78.7202,0.1033,0.5122,0.1373,0.4155,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,1.0,"Graph world model, no neighbours",2450,35.9241,15.3101,78.7932,0.0208,0.4163,0.1496,0.4075,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",moved ≥ 2 px,1.0,Graph world model,2450,40.0919,19.5356,86.7451,-0.0928,0.3755,0.227,0.3703,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.1,Persistence,10357,1.9928,0.2172,2.4017,0.0,0.0,0.0264,0.0236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.1,Constant velocity,10357,1.3486,0.3337,1.8716,0.3232,0.8099,0.0264,0.0236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.1,Response map,10357,2.0251,0.239,2.4484,-0.0162,0.0089,0.0264,0.0236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.1,Gradient boosting,10357,2.0559,0.4091,2.8962,-0.0317,0.6705,0.037,0.1619,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.1,"Graph world model, no neighbours",10357,2.8056,0.7041,5.5988,-0.4079,0.5524,0.0275,0.0713,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.1,Graph world model,10357,3.3917,0.5891,8.8497,-0.702,0.4654,0.0369,0.0674,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.5,Persistence,9184,6.8282,0.4211,10.7653,0.0,0.0,0.0472,0.0738,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.5,Constant velocity,9184,6.6484,1.2504,10.6275,0.0263,0.6554,0.0472,0.0738,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.5,Response map,9184,7.0644,0.5042,10.7453,-0.0346,0.0713,0.0472,0.0738,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.5,Gradient boosting,9184,8.0177,1.2057,18.166,-0.1742,0.5596,0.0607,0.4874,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.5,"Graph world model, no neighbours",9184,9.6869,2.6147,19.9837,-0.4187,0.4803,0.054,0.1729,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,0.5,Graph world model,9184,11.4443,2.5058,30.5151,-0.676,0.433,0.0935,0.1697,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,1.0,Persistence,7963,10.4282,0.6226,16.5041,0.0,0.0,0.0613,0.152,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,1.0,Constant velocity,7963,13.0321,2.5259,22.9765,-0.2497,0.5533,0.0613,0.152,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,1.0,Response map,7963,10.9682,0.8863,18.2324,-0.0518,0.1618,0.0613,0.152,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,1.0,Gradient boosting,7963,11.5607,2.2297,24.1883,-0.1086,0.4601,0.0842,0.3293,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,1.0,"Graph world model, no neighbours",7963,16.3067,6.0434,39.4631,-0.5637,0.3522,0.0824,0.3367,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",reviewed: trusted,1.0,Graph world model,7963,20.7084,7.0624,60.559,-0.9858,0.3389,0.1651,0.3122,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.1,Persistence,9191,0.7688,0.2091,1.1598,0.0,0.0,0.0269,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.1,Constant velocity,9191,0.9234,0.3259,1.4805,-0.2012,0.7168,0.0269,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.1,Response map,9191,0.8015,0.2271,1.3052,-0.0425,0.0144,0.0269,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.1,Gradient boosting,9191,1.0825,0.3564,2.0157,-0.4081,0.5824,0.0343,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.1,"Graph world model, no neighbours",9191,1.5064,0.5412,3.6237,-0.9595,0.4304,0.0276,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.1,Graph world model,9191,2.2003,0.4801,7.4593,-1.8621,0.4208,0.0374,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.5,Persistence,8174,2.5374,0.3894,6.0753,0.0,0.0,0.0483,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.5,Constant velocity,8174,4.0943,1.2082,7.9871,-0.6136,0.5947,0.0483,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.5,Response map,8174,2.7839,0.4647,7.0417,-0.0972,0.0831,0.0483,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.5,Gradient boosting,8174,3.4952,1.0389,7.4064,-0.3775,0.4565,0.0588,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.5,"Graph world model, no neighbours",8174,5.1824,2.0357,12.9599,-1.0424,0.4099,0.0544,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,0.5,Graph world model,8174,7.4163,1.8743,22.2248,-1.9228,0.3564,0.0952,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,1.0,Persistence,7114,4.3257,0.538,12.3359,0.0,0.0,0.0636,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,1.0,Constant velocity,7114,8.4238,2.428,16.1805,-0.9474,0.5012,0.0636,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,1.0,Response map,7114,4.9033,0.7454,13.0625,-0.1335,0.1861,0.0636,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,1.0,Gradient boosting,7114,5.9513,1.915,13.2204,-0.3758,0.4104,0.0845,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,1.0,"Graph world model, no neighbours",7114,10.2247,5.1641,23.5334,-1.3637,0.3133,0.0833,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",wall contact,1.0,Graph world model,7114,15.2457,5.6213,46.6536,-2.5245,0.296,0.1692,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.1,Persistence,2392,6.589,0.238,14.9652,0.0,0.0,0.0246,0.0274,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.1,Constant velocity,2392,3.4874,0.3859,8.242,0.4707,0.8419,0.0246,0.0274,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.1,Response map,2392,6.589,0.238,14.9652,0.0,0.0,0.0246,0.0274,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.1,Gradient boosting,2392,6.0129,0.647,13.1578,0.0874,0.7709,0.0462,0.2393,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.1,"Graph world model, no neighbours",2392,5.6768,0.3229,13.1953,0.1384,0.8508,0.0276,0.0978,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.1,Graph world model,2392,6.0936,0.3123,13.6346,0.0752,0.6554,0.0283,0.0939,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.5,Persistence,2175,18.8453,0.3623,43.8314,0.0,0.0,0.0412,0.101,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.5,Constant velocity,2175,14.4073,1.3663,34.3144,0.2355,0.6889,0.0412,0.101,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.5,Response map,2175,18.9038,0.4029,43.8314,-0.0031,0.1348,0.0412,0.101,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.5,Gradient boosting,2175,17.6497,1.1844,33.7677,0.0634,0.6123,0.0579,0.7073,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.5,"Graph world model, no neighbours",2175,18.8434,1.2563,41.6746,0.0001,0.777,0.0511,0.2259,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,0.5,Graph world model,2175,18.8096,0.976,42.2724,0.0019,0.6256,0.0697,0.2248,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,1.0,Persistence,2016,19.7317,0.6057,41.9998,0.0,0.0,0.0588,0.2015,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,1.0,Constant velocity,2016,20.2113,2.7973,48.3598,-0.0243,0.5412,0.0588,0.2015,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,1.0,Response map,2016,19.917,1.0127,41.5151,-0.0094,0.3459,0.0588,0.2015,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,1.0,Gradient boosting,2016,18.2672,2.6948,40.3452,0.0742,0.6266,0.0868,0.4326,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,1.0,"Graph world model, no neighbours",2016,24.2288,5.4067,56.3316,-0.2279,0.5702,0.0899,0.4236,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",action never seen in training,1.0,Graph world model,2016,23.6543,3.3437,57.9976,-0.1988,0.4023,0.1513,0.3842,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.1,Persistence,6191,2.3889,0.2514,3.6525,0.0,0.0,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.1,Constant velocity,6191,1.863,0.3962,2.4212,0.2202,0.7451,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.1,Response map,6191,2.4052,0.2804,3.6398,-0.0068,0.0635,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.1,Gradient boosting,6191,2.5448,0.5244,3.1594,-0.0653,0.6904,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.1,"Graph world model, no neighbours",6191,3.3329,0.9115,6.0136,-0.3952,0.4967,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.1,Graph world model,6191,4.1978,0.7664,10.277,-0.7572,0.3928,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.5,Persistence,5418,7.2521,0.4555,16.5556,0.0,0.0,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.5,Constant velocity,5418,7.6171,1.4336,10.1329,-0.0503,0.6392,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.5,Response map,5418,7.2996,0.5426,14.5003,-0.0066,0.1549,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.5,Gradient boosting,5418,12.3854,1.7093,29.9332,-0.7078,0.631,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.5,"Graph world model, no neighbours",5418,10.4644,3.748,19.6022,-0.443,0.5165,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),0.5,Graph world model,5418,13.1862,3.5964,34.5965,-0.8183,0.3822,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),1.0,Persistence,4660,10.2349,0.6459,36.1126,0.0,0.0,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),1.0,Constant velocity,4660,12.4924,2.8206,23.3463,-0.2206,0.5509,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),1.0,Response map,4660,10.159,0.9251,30.3369,0.0074,0.2578,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),1.0,Gradient boosting,4660,13.6074,4.0323,33.6304,-0.3295,0.5162,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),1.0,"Graph world model, no neighbours",4660,15.0547,8.7134,30.5299,-0.4709,0.4354,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",single (<100 px²),1.0,Graph world model,4660,20.6743,8.4603,61.1372,-1.02,0.3343,,,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.1,Persistence,3346,0.8683,0.1664,0.7074,0.0,0.0,0.0351,0.0164,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.1,Constant velocity,3346,0.7867,0.2652,0.9835,0.0939,0.7198,0.0351,0.0164,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.1,Response map,3346,0.912,0.1846,0.9961,-0.0503,0.1484,0.0351,0.0164,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.1,Gradient boosting,3346,1.1648,0.3164,1.3609,-0.3415,0.6154,0.0429,0.0169,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.1,"Graph world model, no neighbours",3346,1.6853,0.5668,3.5307,-0.9409,0.6593,0.0358,0.0225,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.1,Graph world model,3346,1.8163,0.4472,4.5134,-1.0918,0.6429,0.0418,0.0185,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.5,Persistence,2991,1.6992,0.2871,1.2182,0.0,0.0,0.0586,0.0177,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.5,Constant velocity,2991,3.0212,0.9341,3.6173,-0.778,0.522,0.0586,0.0177,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.5,Response map,2991,1.9892,0.3459,3.2027,-0.1707,0.1512,0.0586,0.0177,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.5,Gradient boosting,2991,2.9845,1.0405,5.3918,-0.7564,0.3317,0.0682,0.0309,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.5,"Graph world model, no neighbours",2991,4.8558,2.0143,10.1979,-1.8576,0.4829,0.0639,0.0637,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),0.5,Graph world model,2991,5.4844,1.5859,15.4487,-2.2276,0.4683,0.0991,0.0566,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),1.0,Persistence,2628,1.9492,0.3352,2.1613,0.0,0.0,0.0728,0.0221,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),1.0,Constant velocity,2628,5.6483,1.721,8.6387,-1.8978,0.4,0.0728,0.0221,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),1.0,Response map,2628,2.5843,0.4086,7.2009,-0.3259,0.2138,0.0728,0.0221,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),1.0,Gradient boosting,2628,3.432,1.7189,4.9862,-0.7607,0.4448,0.0906,0.0529,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),1.0,"Graph world model, no neighbours",2628,9.4295,4.8192,20.4496,-3.8377,0.3172,0.0875,0.1087,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",small group (100–300 px²),1.0,Graph world model,2628,10.4726,4.0721,32.1612,-4.3728,0.3034,0.1659,0.1244,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.1,Persistence,1997,3.6465,0.2869,11.5385,0.0,0.0,0.0139,0.0275,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.1,Constant velocity,1997,1.5321,0.3376,4.0078,0.5799,0.9497,0.0139,0.0275,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.1,Response map,1997,3.6561,0.3037,11.5385,-0.0026,0.0,0.0139,0.0275,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.1,Gradient boosting,1997,2.8894,0.4265,6.9576,0.2076,0.7826,0.0292,0.2401,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.1,"Graph world model, no neighbours",1997,4.2767,1.1797,10.9982,-0.1728,0.7162,0.0158,0.0976,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.1,Graph world model,1997,5.6579,3.338,11.4048,-0.5516,0.54,0.0309,0.0938,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.5,Persistence,1758,15.6308,0.8726,46.7279,0.0,0.0,0.0334,0.1007,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.5,Constant velocity,1758,10.1626,1.586,27.0843,0.3498,0.8326,0.0334,0.1007,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.5,Response map,1758,15.6738,1.1078,46.7279,-0.0028,0.0587,0.0334,0.1007,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.5,Gradient boosting,1758,13.8931,1.8507,32.2722,0.1112,0.6867,0.0512,0.7055,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.5,"Graph world model, no neighbours",1758,16.7931,4.1721,40.7027,-0.0744,0.5894,0.0431,0.2251,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),0.5,Graph world model,1758,20.5303,10.3193,43.7734,-0.3135,0.5694,0.0901,0.2237,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),1.0,Persistence,1502,26.8616,2.3481,83.9501,0.0,0.0,0.0503,0.2005,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),1.0,Constant velocity,1502,24.6743,3.9974,59.5139,0.0814,0.7342,0.0503,0.2005,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),1.0,Response map,1502,26.8171,2.5867,83.9501,0.0017,0.1239,0.0503,0.2005,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),1.0,Gradient boosting,1502,24.9608,5.7269,40.5097,0.0708,0.5303,0.0783,0.4325,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),1.0,"Graph world model, no neighbours",1502,30.8165,9.6446,72.9482,-0.1472,0.4194,0.0829,0.4218,within recordings
+"same recordings, alternating 4 s blocks (even→odd)",cluster (≥300 px²),1.0,Graph world model,1502,40.6114,20.0338,91.1778,-0.5119,0.4761,0.1725,0.3823,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.1,Persistence,13383,0.8857,0.2601,1.5793,0.0,0.0,0.0283,0.0172,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.1,Constant velocity,13383,0.7227,0.3197,1.2129,0.184,0.7671,0.0283,0.0172,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.1,Response map,13383,0.983,0.2932,1.7576,-0.1099,0.0957,0.0283,0.0172,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.1,Gradient boosting,13383,1.3918,0.3796,2.7576,-0.5714,0.698,0.0339,0.0465,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.1,"Graph world model, no neighbours",13383,1.6891,0.6094,4.0358,-0.9071,0.5562,0.0302,0.0231,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.1,Graph world model,13383,1.5088,0.4775,3.669,-0.7035,0.6466,0.0297,0.0181,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.5,Persistence,12660,3.6731,0.6067,7.7746,0.0,0.0,0.0481,0.0307,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.5,Constant velocity,12660,3.7781,1.2231,6.1323,-0.0286,0.6933,0.0481,0.0307,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.5,Response map,12660,4.0656,0.8236,8.3981,-0.1069,0.1508,0.0481,0.0307,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.5,Gradient boosting,12660,10.3008,1.6875,19.7286,-1.8044,0.5465,0.0577,0.0633,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.5,"Graph world model, no neighbours",12660,6.4718,2.4512,18.3158,-0.762,0.362,0.0739,0.0639,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,0.5,Graph world model,12660,6.123,1.9836,17.0247,-0.667,0.4934,0.0552,0.0374,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,1.0,Persistence,12034,7.2254,0.859,16.9566,0.0,0.0,0.0609,0.0387,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,1.0,Constant velocity,12034,8.2931,2.4164,15.1768,-0.1478,0.6459,0.0609,0.0387,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,1.0,Response map,12034,7.7492,1.2934,18.6253,-0.0725,0.1666,0.0609,0.0387,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,1.0,Gradient boosting,12034,10.9959,2.9051,26.9259,-0.5219,0.4495,0.0761,0.126,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,1.0,"Graph world model, no neighbours",12034,11.8721,4.1553,29.1643,-0.6431,0.3889,0.0995,0.0882,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",all regions,1.0,Graph world model,12034,11.4754,4.0282,27.874,-0.5882,0.4053,0.0795,0.0546,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.1,Persistence,230,2.6127,0.5554,5.9756,0.0,0.0,0.0514,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.1,Constant velocity,230,2.436,0.7345,4.4346,0.0676,0.6364,0.0514,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.1,Response map,230,2.7065,0.5554,6.2486,-0.0359,0.0455,0.0514,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.1,Gradient boosting,230,7.5926,4.9846,14.5828,-1.906,0.3864,0.0642,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.1,"Graph world model, no neighbours",230,2.6664,0.6794,4.655,-0.0206,0.5682,0.0452,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.1,Graph world model,230,2.5689,0.7761,4.6251,0.0168,0.6136,0.0477,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.5,Persistence,1169,14.8951,2.2564,40.5907,0.0,0.0,0.0971,0.0567,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.5,Constant velocity,1169,13.9601,4.3161,40.3705,0.0628,0.3738,0.0971,0.0567,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.5,Response map,1169,16.0861,4.8754,39.3745,-0.08,0.2558,0.0971,0.0567,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.5,Gradient boosting,1169,21.0185,6.2511,52.4896,-0.4111,0.3223,0.0837,0.0677,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.5,"Graph world model, no neighbours",1169,14.8401,4.6345,38.0194,0.0037,0.3754,0.0907,0.045,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,0.5,Graph world model,1169,15.2246,4.5921,41.7276,-0.0221,0.3073,0.0881,0.0536,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,1.0,Persistence,2114,22.8426,5.9739,70.4183,0.0,0.0,0.1096,0.0854,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,1.0,Constant velocity,2114,22.111,7.6642,57.1867,0.032,0.3414,0.1096,0.0854,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,1.0,Response map,2114,24.4233,8.3209,67.2565,-0.0692,0.2805,0.1096,0.0854,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,1.0,Gradient boosting,2114,23.1687,10.2411,58.5405,-0.0143,0.4156,0.096,0.1643,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,1.0,"Graph world model, no neighbours",2114,22.7094,7.7211,63.2371,0.0058,0.4641,0.1199,0.0692,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",PZT switch within horizon,1.0,Graph world model,2114,23.8027,7.6211,69.5753,-0.042,0.2828,0.1049,0.0884,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.1,Persistence,1404,1.3749,0.3105,3.0585,0.0,0.0,0.0366,0.0125,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.1,Constant velocity,1404,1.161,0.3631,2.0206,0.1555,0.661,0.0366,0.0125,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.1,Response map,1404,1.3924,0.3366,3.0585,-0.0127,0.0169,0.0366,0.0125,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.1,Gradient boosting,1404,2.0052,0.5326,3.9178,-0.4584,0.5593,0.0414,0.0401,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.1,"Graph world model, no neighbours",1404,2.0273,0.6695,3.978,-0.4745,0.4124,0.0363,0.019,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.1,Graph world model,1404,1.9349,0.4963,3.5459,-0.4073,0.5706,0.0373,0.0126,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.5,Persistence,1350,4.0392,0.706,7.9745,0.0,0.0,0.055,0.0251,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.5,Constant velocity,1350,5.5541,1.3644,7.3669,-0.375,0.8019,0.055,0.0251,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.5,Response map,1350,4.1173,0.9597,7.997,-0.0193,0.1627,0.055,0.0251,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.5,Gradient boosting,1350,9.3913,1.8865,12.4501,-1.325,0.691,0.0593,0.0629,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.5,"Graph world model, no neighbours",1350,6.4539,2.1353,18.6396,-0.5978,0.316,0.0699,0.0757,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,0.5,Graph world model,1350,5.479,1.7488,16.5959,-0.3565,0.4741,0.0581,0.0356,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,1.0,Persistence,1248,6.0985,1.0195,10.6514,0.0,0.0,0.0693,0.0287,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,1.0,Constant velocity,1248,12.3319,2.5961,10.7841,-1.0221,0.79,0.0693,0.0287,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,1.0,Response map,1248,6.3257,1.4267,10.658,-0.0373,0.2225,0.0693,0.0287,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,1.0,Gradient boosting,1248,10.3406,3.1646,21.5195,-0.6956,0.447,0.0853,0.09,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,1.0,"Graph world model, no neighbours",1248,10.8149,3.2079,19.0573,-0.7734,0.3077,0.0991,0.1003,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",within 0.5 s after a switch,1.0,Graph world model,1248,9.3971,3.0913,18.3525,-0.5409,0.4012,0.082,0.0516,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.1,Persistence,11749,0.7934,0.2495,1.4324,0.0,0.0,0.0271,0.0176,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.1,Constant velocity,11749,0.6368,0.3088,1.1336,0.1974,0.7941,0.0271,0.0176,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.1,Response map,11749,0.9004,0.2839,1.6001,-0.1348,0.1134,0.0271,0.0176,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.1,Gradient boosting,11749,1.1971,0.356,2.3123,-0.5088,0.7401,0.0326,0.047,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.1,"Graph world model, no neighbours",11749,1.6296,0.5975,4.0197,-1.0538,0.5837,0.0293,0.0234,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.1,Graph world model,11749,1.4371,0.4721,3.6661,-0.8113,0.663,0.0286,0.0185,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.5,Persistence,10141,2.3308,0.5212,5.2038,0.0,0.0,0.0433,0.0287,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.5,Constant velocity,10141,2.3679,1.1193,4.0175,-0.0159,0.7606,0.0433,0.0287,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.5,Response map,10141,2.6731,0.7162,5.5952,-0.1469,0.1195,0.0433,0.0287,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.5,Gradient boosting,10141,9.1864,1.5129,12.2619,-2.9414,0.5804,0.0555,0.0629,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.5,"Graph world model, no neighbours",10141,5.5096,2.3542,16.0518,-1.3639,0.3672,0.073,0.0646,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,0.5,Graph world model,10141,5.1595,1.9508,14.8941,-1.2136,0.5487,0.0522,0.036,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,1.0,Persistence,8672,3.5805,0.6099,8.4273,0.0,0.0,0.0519,0.0285,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,1.0,Constant velocity,8672,4.3435,2.0373,7.1608,-0.2131,0.7676,0.0519,0.0285,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,1.0,Response map,8672,3.8894,0.9674,9.2689,-0.0863,0.101,0.0519,0.0285,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,1.0,Gradient boosting,8672,8.1229,2.2717,20.2844,-1.2686,0.4664,0.0717,0.1207,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,1.0,"Graph world model, no neighbours",8672,9.3824,3.7909,23.7998,-1.6204,0.3673,0.0963,0.0914,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",no switch nearby,1.0,Graph world model,8672,8.7695,3.8597,18.2582,-1.4492,0.4656,0.0751,0.0468,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.1,Persistence,1129,6.7293,4.116,10.8845,0.0,0.0,0.1128,0.0587,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.1,Constant velocity,1129,3.8575,2.0301,8.4614,0.4268,0.7671,0.1128,0.0587,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.1,Response map,1129,6.5917,4.0454,10.8845,0.0204,0.0957,0.1128,0.0587,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.1,Gradient boosting,1129,5.4273,2.5004,13.7827,0.1935,0.698,0.1133,0.1058,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.1,"Graph world model, no neighbours",1129,6.3417,4.0037,10.9662,0.0576,0.5562,0.1138,0.0609,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.1,Graph world model,1129,6.0814,3.6633,10.488,0.0963,0.6466,0.1137,0.0607,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.5,Persistence,3202,12.8495,5.948,32.3066,0.0,0.0,0.0951,0.0638,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.5,Constant velocity,3202,10.6001,3.482,24.8119,0.1751,0.6933,0.0951,0.0638,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.5,Response map,3202,12.6988,5.9836,30.1309,0.0117,0.1508,0.0951,0.0638,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.5,Gradient boosting,3202,15.9309,6.2718,38.5936,-0.2398,0.5465,0.0943,0.1378,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.5,"Graph world model, no neighbours",3202,13.4829,7.7803,28.0279,-0.0493,0.362,0.1363,0.0745,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,0.5,Graph world model,3202,14.8898,7.4289,33.6352,-0.1588,0.4934,0.1053,0.0658,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,1.0,Persistence,4394,18.8279,7.0329,46.9766,0.0,0.0,0.1004,0.0543,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,1.0,Constant velocity,4394,18.0739,5.4386,44.4458,0.04,0.6459,0.1004,0.0543,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,1.0,Response map,4394,18.8135,7.9683,43.9817,0.0008,0.1666,0.1004,0.0543,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,1.0,Gradient boosting,4394,18.1808,7.7497,37.7926,0.0344,0.4495,0.1086,0.1795,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,1.0,"Graph world model, no neighbours",4394,21.2362,10.5061,48.6004,-0.1279,0.3889,0.1397,0.0685,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",moved ≥ 2 px,1.0,Graph world model,4394,23.0662,10.8267,62.1468,-0.2251,0.4053,0.122,0.059,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.1,Persistence,12141,0.6976,0.2509,1.1033,0.0,0.0,0.0242,0.0172,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.1,Constant velocity,12141,0.5955,0.3097,1.0086,0.1463,0.747,0.0242,0.0172,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.1,Response map,12141,0.8049,0.2813,1.2304,-0.1538,0.0776,0.0242,0.0172,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.1,Gradient boosting,12141,1.3093,0.3684,2.5578,-0.8768,0.5835,0.0301,0.0465,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.1,"Graph world model, no neighbours",12141,1.4267,0.5315,2.7926,-1.0451,0.5211,0.0261,0.0231,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.1,Graph world model,12141,1.3124,0.4372,2.7578,-0.8813,0.4688,0.0256,0.0181,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.5,Persistence,11559,3.0123,0.5912,5.9722,0.0,0.0,0.0433,0.0307,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.5,Constant velocity,11559,3.4215,1.1989,5.269,-0.1358,0.6652,0.0433,0.0307,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.5,Response map,11559,3.435,0.789,6.4121,-0.1403,0.1537,0.0433,0.0307,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.5,Gradient boosting,11559,10.6599,1.6832,21.0825,-2.5388,0.4815,0.054,0.0633,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.5,"Graph world model, no neighbours",11559,5.5059,2.1354,14.03,-0.8278,0.3095,0.0694,0.0639,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,0.5,Graph world model,11559,5.2989,1.868,12.4245,-0.7591,0.4182,0.0511,0.0374,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,1.0,Persistence,11062,6.1439,0.8406,13.3804,0.0,0.0,0.0553,0.0387,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,1.0,Constant velocity,11062,7.6297,2.3915,13.4564,-0.2418,0.6222,0.0553,0.0387,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,1.0,Response map,11062,6.6822,1.2449,14.607,-0.0876,0.165,0.0553,0.0387,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,1.0,Gradient boosting,11062,10.8471,2.8953,24.6545,-0.7655,0.4037,0.0714,0.126,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,1.0,"Graph world model, no neighbours",11062,10.667,3.8051,24.6504,-0.7362,0.372,0.0952,0.0882,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",reviewed: trusted,1.0,Graph world model,11062,10.3129,3.8037,22.2378,-0.6786,0.3557,0.0746,0.0546,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.1,Persistence,8290,0.6229,0.2202,1.0344,0.0,0.0,0.0301,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.1,Constant velocity,8290,0.6884,0.3157,1.1375,-0.105,0.6394,0.0301,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.1,Response map,8290,0.7748,0.2487,1.1198,-0.2437,0.0077,0.0301,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.1,Gradient boosting,8290,0.9698,0.32,1.9754,-0.5568,0.5141,0.0336,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.1,"Graph world model, no neighbours",8290,0.8915,0.3698,1.9837,-0.4312,0.4092,0.0316,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.1,Graph world model,8290,0.7929,0.3663,1.5069,-0.2729,0.3504,0.0307,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.5,Persistence,7961,1.4334,0.4574,4.0561,0.0,0.0,0.0487,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.5,Constant velocity,7961,2.4658,1.182,4.584,-0.7202,0.6262,0.0487,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.5,Response map,7961,2.013,0.5582,4.539,-0.4043,0.0607,0.0487,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.5,Gradient boosting,7961,3.2458,1.316,7.2027,-1.2643,0.4549,0.0549,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.5,"Graph world model, no neighbours",7961,3.4149,1.1594,9.9066,-1.3824,0.4057,0.0612,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,0.5,Graph world model,7961,2.4102,1.3787,6.0016,-0.6814,0.3254,0.0535,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,1.0,Persistence,7730,2.3103,0.64,6.8482,0.0,0.0,0.0597,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,1.0,Constant velocity,7730,4.618,2.2765,8.5825,-0.9989,0.6028,0.0597,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,1.0,Response map,7730,3.0237,0.8188,7.9768,-0.3088,0.1203,0.0597,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,1.0,Gradient boosting,7730,5.1205,2.1757,13.4138,-1.2164,0.2944,0.0761,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,1.0,"Graph world model, no neighbours",7730,5.1742,2.1746,14.3647,-1.2396,0.4356,0.0856,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",wall contact,1.0,Graph world model,7730,4.2475,2.4157,10.4353,-0.8386,0.3294,0.0722,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.1,Persistence,3622,1.3433,0.2872,2.5805,0.0,0.0,0.0284,0.0332,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.1,Constant velocity,3622,0.9378,0.3644,1.5145,0.3019,0.8384,0.0284,0.0332,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.1,Response map,3622,1.3433,0.2872,2.5805,0.0,0.0,0.0284,0.0332,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.1,Gradient boosting,3622,1.538,0.4239,2.7477,-0.1449,0.6207,0.035,0.0772,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.1,"Graph world model, no neighbours",3622,1.8125,0.6765,4.1012,-0.3493,0.5129,0.0287,0.0354,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.1,Graph world model,3622,1.5427,0.5541,3.4245,-0.1484,0.5129,0.029,0.0346,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.5,Persistence,3700,5.4766,0.6298,10.4784,0.0,0.0,0.0512,0.068,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.5,Constant velocity,3700,5.2295,1.4279,8.0344,0.0451,0.7669,0.0512,0.068,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.5,Response map,3700,5.8376,0.7023,15.3311,-0.0659,0.0396,0.0512,0.068,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.5,Gradient boosting,3700,6.7262,2.0537,14.0934,-0.2282,0.4749,0.0564,0.1478,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.5,"Graph world model, no neighbours",3700,7.7802,2.4049,21.1334,-0.4206,0.3624,0.0577,0.0803,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,0.5,Graph world model,3700,6.5485,2.3722,15.248,-0.1957,0.3729,0.0578,0.0747,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,1.0,Persistence,3719,9.65,0.9486,18.0627,0.0,0.0,0.061,0.0666,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,1.0,Constant velocity,3719,10.7598,2.7411,15.7735,-0.115,0.689,0.061,0.0666,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,1.0,Response map,3719,10.713,1.2324,29.1095,-0.1102,0.0607,0.061,0.0666,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,1.0,Gradient boosting,3719,12.0228,3.7077,31.0079,-0.2459,0.3319,0.0706,0.362,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,1.0,"Graph world model, no neighbours",3719,11.8628,4.2975,25.1565,-0.2293,0.3926,0.0786,0.1048,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",action never seen in training,1.0,Graph world model,3719,11.4345,4.551,23.0788,-0.1849,0.2789,0.0797,0.0764,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.1,Persistence,6469,1.0149,0.3,1.7953,0.0,0.0,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.1,Constant velocity,6469,0.8331,0.3765,1.2764,0.1791,0.7677,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.1,Response map,6469,1.1949,0.3392,2.6499,-0.1774,0.1258,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.1,Gradient boosting,6469,1.4072,0.4252,3.3127,-0.3866,0.6694,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.1,"Graph world model, no neighbours",6469,1.6959,0.6263,4.3876,-0.6711,0.6113,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.1,Graph world model,6469,1.8688,0.5387,4.4383,-0.8415,0.6984,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.5,Persistence,6051,4.7274,0.7242,9.2659,0.0,0.0,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.5,Constant velocity,6051,4.7327,1.4244,7.0884,-0.0011,0.6691,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.5,Response map,6051,5.4262,1.0117,14.275,-0.1478,0.259,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.5,Gradient boosting,6051,8.8631,1.7431,25.4745,-0.8749,0.5486,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.5,"Graph world model, no neighbours",6051,6.7666,2.3149,18.7538,-0.4314,0.3813,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),0.5,Graph world model,6051,7.4253,2.144,18.8609,-0.5707,0.5042,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),1.0,Persistence,5678,8.9056,0.9643,22.4175,0.0,0.0,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),1.0,Constant velocity,5678,10.0847,2.8081,18.1101,-0.1324,0.6068,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),1.0,Response map,5678,9.7962,1.6935,27.935,-0.1,0.2644,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),1.0,Gradient boosting,5678,9.5038,2.8421,19.5525,-0.0672,0.4663,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),1.0,"Graph world model, no neighbours",5678,11.3981,3.5591,28.0176,-0.2799,0.3968,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",single (<100 px²),1.0,Graph world model,5678,13.1318,4.3781,30.3274,-0.4746,0.3816,,,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.1,Persistence,4336,0.5789,0.191,1.196,0.0,0.0,0.0368,0.0177,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.1,Constant velocity,4336,0.5429,0.286,0.9693,0.0622,0.7946,0.0368,0.0177,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.1,Response map,4336,0.5912,0.2074,1.2317,-0.0211,0.0943,0.0368,0.0177,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.1,Gradient boosting,4336,1.4449,0.2823,1.9718,-1.4958,0.7441,0.0405,0.0468,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.1,"Graph world model, no neighbours",4336,1.3434,0.3891,2.2747,-1.3205,0.3468,0.0379,0.0187,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.1,Graph world model,4336,0.8549,0.3695,2.349,-0.4766,0.5556,0.0373,0.0183,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.5,Persistence,4232,1.9607,0.3749,4.1085,0.0,0.0,0.0585,0.028,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.5,Constant velocity,4232,2.4529,1.0892,4.1614,-0.251,0.6808,0.0585,0.028,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.5,Response map,4232,2.0485,0.4673,4.2392,-0.0448,0.0511,0.0585,0.028,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.5,Gradient boosting,4232,13.1975,1.2483,11.7139,-5.7309,0.6667,0.0653,0.0345,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.5,"Graph world model, no neighbours",4232,5.4018,1.5073,18.7122,-1.755,0.3104,0.076,0.056,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),0.5,Graph world model,4232,4.0287,1.542,7.7395,-1.0547,0.5573,0.0619,0.0369,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),1.0,Persistence,4142,3.4837,0.4871,7.6041,0.0,0.0,0.0688,0.0335,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),1.0,Constant velocity,4142,5.0637,2.0633,8.2319,-0.4535,0.6374,0.0688,0.0335,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),1.0,Response map,4142,3.699,0.7038,7.63,-0.0618,0.0924,0.0688,0.0335,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),1.0,Gradient boosting,4142,9.4534,1.7105,14.1274,-1.7136,0.5143,0.0826,0.0714,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),1.0,"Graph world model, no neighbours",4142,8.2441,3.1962,18.4907,-1.3665,0.3295,0.1006,0.0577,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",small group (100–300 px²),1.0,Graph world model,4142,7.4436,2.9801,13.4414,-1.1367,0.4219,0.083,0.0557,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.1,Persistence,2578,1.0775,0.3362,1.8282,0.0,0.0,0.0141,0.017,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.1,Constant velocity,2578,0.7482,0.2454,1.5162,0.3056,0.7264,0.0141,0.017,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.1,Response map,2578,1.1105,0.4178,1.8211,-0.0306,0.0094,0.0141,0.017,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.1,Gradient boosting,2578,1.2638,0.4665,2.1906,-0.1729,0.717,0.0228,0.0464,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.1,"Graph world model, no neighbours",2578,2.2534,1.0807,3.3823,-1.0913,0.6887,0.0171,0.0246,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.1,Graph world model,2578,1.7053,0.7951,2.6874,-0.5826,0.6226,0.0169,0.018,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.5,Persistence,2377,4.038,1.523,9.0861,0.0,0.0,0.0295,0.0317,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.5,Constant velocity,2377,3.7072,1.0427,8.7426,0.0819,0.7425,0.0295,0.0317,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.5,Response map,2377,4.1935,1.9658,9.0685,-0.0385,0.0228,0.0295,0.0317,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.5,Gradient boosting,2377,8.8031,3.0811,15.1024,-1.1801,0.4726,0.0442,0.0738,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.5,"Graph world model, no neighbours",2377,7.6265,5.9855,15.4088,-0.8887,0.3588,0.0701,0.0667,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),0.5,Graph world model,2377,6.5362,3.2448,14.2281,-0.6187,0.4374,0.0433,0.0376,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),1.0,Persistence,2214,9.9163,3.4353,26.622,0.0,0.0,0.046,0.0407,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),1.0,Constant velocity,2214,9.7402,2.402,27.1964,0.0178,0.7206,0.046,0.0407,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),1.0,Response map,2214,10.0767,3.8768,26.5327,-0.0162,0.0455,0.046,0.0407,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),1.0,Gradient boosting,2214,17.7087,8.1985,36.62,-0.7858,0.3752,0.064,0.1473,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),1.0,"Graph world model, no neighbours",2214,19.8753,10.9787,54.3348,-1.0043,0.416,0.0974,0.1,within recordings
+"same recordings, alternating 4 s blocks (odd→even)",cluster (≥300 px²),1.0,Graph world model,2214,14.7705,7.7852,32.4878,-0.4895,0.4356,0.0729,0.0542,within recordings

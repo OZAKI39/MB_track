@@ -1,0 +1,160 @@
+{
+ "note": [
+  "A simple simulated \"chip\" replaces the camera. Regions are pushed by each PZT pattern towards the nearest",
+  "node of that pattern's (made-up) standing wave, stop there, and jitter a little; idle = no push. Every",
+  "session also has its own slow drift (0 ... 4 px/s, like the drift seen in experiment A). The PZT pattern",
+  "changes at random every 0.5 ... 3 s. The samples have exactly the format of dataset.py, so the same models",
+  "and the same scoring are used.",
+  "",
+  "    python world_model/synthetic.py --out results/world_model/synthetic"
+ ],
+ "test_sessions": 4,
+ "test_switches": 54,
+ "results": [
+  {
+   "model": "Persistence",
+   "horizon_s": 0.5,
+   "mean_error_px": 15.725826263427734,
+   "mean_error_at_switch_px": 31.496963500976562,
+   "training_sessions": 1,
+   "training_switches": 13
+  },
+  {
+   "model": "Persistence",
+   "horizon_s": 1.0,
+   "mean_error_px": 30.131385803222656,
+   "mean_error_at_switch_px": 47.54667282104492,
+   "training_sessions": 1,
+   "training_switches": 13
+  },
+  {
+   "model": "Response map",
+   "horizon_s": 0.5,
+   "mean_error_px": 14.824138641357422,
+   "mean_error_at_switch_px": 28.377099990844727,
+   "training_sessions": 1,
+   "training_switches": 13
+  },
+  {
+   "model": "Response map",
+   "horizon_s": 1.0,
+   "mean_error_px": 27.115934371948242,
+   "mean_error_at_switch_px": 41.87152862548828,
+   "training_sessions": 1,
+   "training_switches": 13
+  },
+  {
+   "model": "Graph world model",
+   "horizon_s": 0.5,
+   "mean_error_px": 28.707366943359375,
+   "mean_error_at_switch_px": 40.45340347290039,
+   "training_sessions": 1,
+   "training_switches": 13
+  },
+  {
+   "model": "Graph world model",
+   "horizon_s": 1.0,
+   "mean_error_px": 52.6087760925293,
+   "mean_error_at_switch_px": 67.54439544677734,
+   "training_sessions": 1,
+   "training_switches": 13
+  },
+  {
+   "model": "Persistence",
+   "horizon_s": 0.5,
+   "mean_error_px": 15.725826263427734,
+   "mean_error_at_switch_px": 31.496963500976562,
+   "training_sessions": 4,
+   "training_switches": 52
+  },
+  {
+   "model": "Persistence",
+   "horizon_s": 1.0,
+   "mean_error_px": 30.131385803222656,
+   "mean_error_at_switch_px": 47.54667282104492,
+   "training_sessions": 4,
+   "training_switches": 52
+  },
+  {
+   "model": "Response map",
+   "horizon_s": 0.5,
+   "mean_error_px": 10.319913864135742,
+   "mean_error_at_switch_px": 20.064138412475586,
+   "training_sessions": 4,
+   "training_switches": 52
+  },
+  {
+   "model": "Response map",
+   "horizon_s": 1.0,
+   "mean_error_px": 18.714468002319336,
+   "mean_error_at_switch_px": 28.193140029907227,
+   "training_sessions": 4,
+   "training_switches": 52
+  },
+  {
+   "model": "Graph world model",
+   "horizon_s": 0.5,
+   "mean_error_px": 12.091874122619629,
+   "mean_error_at_switch_px": 25.016326904296875,
+   "training_sessions": 4,
+   "training_switches": 52
+  },
+  {
+   "model": "Graph world model",
+   "horizon_s": 1.0,
+   "mean_error_px": 22.788063049316406,
+   "mean_error_at_switch_px": 35.83266830444336,
+   "training_sessions": 4,
+   "training_switches": 52
+  },
+  {
+   "model": "Persistence",
+   "horizon_s": 0.5,
+   "mean_error_px": 15.725826263427734,
+   "mean_error_at_switch_px": 31.496963500976562,
+   "training_sessions": 12,
+   "training_switches": 158
+  },
+  {
+   "model": "Persistence",
+   "horizon_s": 1.0,
+   "mean_error_px": 30.131385803222656,
+   "mean_error_at_switch_px": 47.54667282104492,
+   "training_sessions": 12,
+   "training_switches": 158
+  },
+  {
+   "model": "Response map",
+   "horizon_s": 0.5,
+   "mean_error_px": 8.633275032043457,
+   "mean_error_at_switch_px": 16.515613555908203,
+   "training_sessions": 12,
+   "training_switches": 158
+  },
+  {
+   "model": "Response map",
+   "horizon_s": 1.0,
+   "mean_error_px": 15.359530448913574,
+   "mean_error_at_switch_px": 22.767995834350586,
+   "training_sessions": 12,
+   "training_switches": 158
+  },
+  {
+   "model": "Graph world model",
+   "horizon_s": 0.5,
+   "mean_error_px": 5.918160438537598,
+   "mean_error_at_switch_px": 10.582409858703613,
+   "training_sessions": 12,
+   "training_switches": 158
+  },
+  {
+   "model": "Graph world model",
+   "horizon_s": 1.0,
+   "mean_error_px": 9.871143341064453,
+   "mean_error_at_switch_px": 14.007535934448242,
+   "training_sessions": 12,
+   "training_switches": 158
+  }
+ ],
+ "runtime_s": 2076.9881958961487
+}
