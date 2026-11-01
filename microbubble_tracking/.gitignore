@@ -8,8 +8,9 @@ __pycache__/
 
 # During project testing, results/, data/raw/ and history/ are versioned.
 
-# These six delivery ZIPs contain only byte-identical copies of separately
-# versioned files. Keep the local ZIPs; sync their videos, data and reports once.
+# These six delivery ZIPs duplicate separately versioned files. Verified local
+# copies were removed with user approval on 2026-10-30; expanded files remain.
+# Keep regenerated delivery ZIPs out of ordinary sync as well.
 /figures/expB/baseline_comparison/result_animations.zip
 /figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/slide6_animations.zip
 /figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/slide6_animations.zip

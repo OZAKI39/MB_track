@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-30T14:35:51.902174+01:00",
+  "timezone": "Europe/Zurich",
+  "scope": "Offline replay of A and B, each repeated 3 times at original speed; no hardware actions",
+  "checkpoint_policy": "auto",
+  "save_mode": "async",
+  "warmup_iterations": 8,
+  "conversion_memory": "reuse",
+  "opencv_threads": 24,
+  "conversion_threads": 1,
+  "implementation_sha256": {
+    "bubble_tracker.py": "eadcbe7e0e29839d1dd8cfdd3fcfaa7eea5f8d869c1e331edb65952374c8dbb9",
+    "online_tracking.py": "88d9d4a0ce4f8e3af53a8fcaf6d8509d96d232810600612b5ae6f056b6725106",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "paced_replay.py": "f3fbfd69381275bd83e40a5559c6c4ca63e731278f27ae10fa1826659acc46cf",
+    "paced_source.py": "4bf47f1412e49e5a27dc925e4183cb38e22d7c693c222e72fc0dd02d79b24994",
+    "frame_conversion.py": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3",
+    "memory_pressure_check.py": "1b0f9ef9402fab4df7efd73f76cee859108e2a6cd21b7977f1f46a5ca3e4454d",
+    "host_stall_watch.ps1": "e995d0374b41bdb82b67d6bfddee968a86bbb26cd234255c9a1d3ee5f3ab4906"
+  }
+}

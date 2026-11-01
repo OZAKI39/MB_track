@@ -1,0 +1,17 @@
+{
+  "configs/chronos_config.json": true,
+  "customer_workspace/configs/afg_video.json": true,
+  "customer_workspace/parallel_camera.py": false,
+  "customer_workspace/streamcopy_recording.py": false,
+  "customer_workspace/parallel_camera_bridge.py": true,
+  "customer_workspace/parallel_video_check.py": true,
+  "customer_workspace/microbubble_tracking/bubble_tracker.py": true,
+  "customer_workspace/microbubble_tracking/online_tracking.py": true,
+  "customer_workspace/microbubble_tracking/frame_conversion.py": true,
+  "customer_workspace/microbubble_tracking/online_store.py": true,
+  "customer_workspace/microbubble_tracking/async_store.py": true,
+  "customer_workspace/validation/camera_tracking_20261031_final/background_A.npy": true,
+  "customer_workspace/validation/camera_tracking_20261031_final/background_B.npy": true,
+  "customer_workspace/microbubble_tracking/data/raw/expA.mp4": true,
+  "customer_workspace/microbubble_tracking/data/raw/expB.mp4": true
+}

@@ -1,0 +1,17 @@
+{
+  "seconds": 62,
+  "runs": 4,
+  "analysis_engine": "microbubble_tracking.OnlineProcessor",
+  "analysis_min_hz": 60,
+  "analysis_tail_rate_ratio_min": 0.99,
+  "latency_tail_ratio_max": 1.2,
+  "latency_tail_increase_ms": 20,
+  "completion_gap_max_ms": 100,
+  "queue_tail_increase_frames": 2,
+  "queue_slope_max_frames_s": 0.05,
+  "memory_total_growth_limit_mib": 64,
+  "memory_late_growth_limit_mib": 16,
+  "memory_late_slope_limit_mib_s": 0.5,
+  "monitor_min_samples_per_second": 0.7,
+  "description": "新在线追踪：62秒加三次重复，目标为60fps逐帧完成，跳帧不能按旧PIV的5.6Hz门槛判为通过。录像不允许新增缺失；比较前后速度、延迟、队列和内存。未达到某项时保留实际结果和原因，不构成长期性能保证。"
+}

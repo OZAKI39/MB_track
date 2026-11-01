@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0" Author="MB_track diagnostics">
+  <Profiles>
+    <SystemCollector Id="MBGpuSystem" Name="MBTrack GPU scheduling">
+      <BufferSize Value="256" />
+      <Buffers Value="128" />
+    </SystemCollector>
+    <EventCollector Id="MBGpuEvents" Name="MBTrack GPU calls">
+      <BufferSize Value="256" />
+      <Buffers Value="128" />
+    </EventCollector>
+    <SystemProvider Id="MBGpuKernel">
+      <Keywords>
+        <Keyword Value="ProcessThread" />
+        <Keyword Value="Loader" />
+        <Keyword Value="CSwitch" />
+        <Keyword Value="ReadyThread" />
+        <Keyword Value="DiskIO" />
+        <Keyword Value="DiskIOInit" />
+        <Keyword Value="HardFaults" />
+      </Keywords>
+      <Stacks>
+        <Stack Value="DiskReadInit" />
+        <Stack Value="CSwitch" />
+      </Stacks>
+    </SystemProvider>
+    <EventProvider Id="MBGpuProvider" Name="802ec45a-1e99-4b83-9920-87c98277ba9d" NonPagedMemory="true" Stack="true" Level="5" Strict="true">
+      <Keywords>
+        <!-- Native GPU profile flags plus VirtualGpu and AdapterLock; no general application tracing. -->
+        <Keyword Value="0x1800277" />
+      </Keywords>
+      <CaptureStateOnStart Timeout="10"><Keyword Value="0x1800277" /></CaptureStateOnStart>
+    </EventProvider>
+    <Profile Id="MBGpu.Light.File" Name="MBGpu" Description="Bounded GPU API and scheduling trace" LoggingMode="File" DetailLevel="Light">
+      <Collectors>
+        <SystemCollectorId Value="MBGpuSystem"><SystemProviderId Value="MBGpuKernel" /></SystemCollectorId>
+        <EventCollectorId Value="MBGpuEvents"><EventProviders><EventProviderId Value="MBGpuProvider" /></EventProviders></EventCollectorId>
+      </Collectors>
+    </Profile>
+  </Profiles>
+</WindowsPerformanceRecorder>

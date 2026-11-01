@@ -1,0 +1,421 @@
+{
+  "method": "scheduled_readback",
+  "channel": "PZT1",
+  "requested_commands": 500,
+  "interval_ms": 50.0,
+  "created_utc": "2026-10-23T18:55:49.207971+00:00",
+  "status": "completed",
+  "data_reliable": true,
+  "physical_voltage_timing_verified": false,
+  "max_allowed_schedule_lateness_s": 1.0,
+  "before_query_min_ms": 10.0,
+  "before_query_wait_method": "time.sleep",
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "precheck": {
+    "phase": "before",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      }
+    },
+    "passed": true
+  },
+  "timeline_started_utc": "2026-10-23T18:55:51.450211+00:00",
+  "measurement_io_counts": {
+    "A": {
+      "write_calls": 500,
+      "read_calls": 0,
+      "query_calls": 500,
+      "query_commands": 500
+    },
+    "B": {
+      "write_calls": 0,
+      "read_calls": 0,
+      "query_calls": 0,
+      "query_commands": 0
+    }
+  },
+  "shutdown_started_s": 24.971376300003612,
+  "shutdown_finished_s": 25.090246599997045,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": [],
+  "postcheck_started_s": 25.090247400003136,
+  "postcheck": {
+    "phase": "after",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 1,
+        "query_commands": 41
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 1,
+        "query_commands": 41
+      }
+    },
+    "passed": true
+  },
+  "recorded_commands": 500,
+  "finished_utc": "2026-10-23T18:56:17.124016+00:00",
+  "statistics": {
+    "samples": 500,
+    "metric": "command_to_reply_ms",
+    "delay_ms": {
+      "count": 500,
+      "mean": 30.002381799917202,
+      "median": 30.64615000039339,
+      "sample_stddev": 10.901648486830355,
+      "min": 11.226299990084954,
+      "max": 46.97549999400508,
+      "range": 35.74920000392012,
+      "p95": 45.67500000121072,
+      "p99": 46.498700001393445
+    },
+    "write_ms": {
+      "count": 500,
+      "mean": 0.5528315999545157,
+      "median": 0.5323000004864298,
+      "sample_stddev": 0.23400978073190234,
+      "min": 0.1677999971434474,
+      "max": 1.8273000023327768,
+      "range": 1.6595000051893294,
+      "p95": 0.9048000065376982,
+      "p99": 1.5619000041624531
+    },
+    "by_state": {
+      "ACTIVE": {
+        "count": 250,
+        "mean": 30.8007943998673,
+        "median": 31.944099995598663,
+        "sample_stddev": 10.982698735507231,
+        "min": 11.772099998779595,
+        "max": 46.97549999400508,
+        "range": 35.20339999522548,
+        "p95": 45.88780000631232,
+        "p99": 46.83450001175515
+      },
+      "IDLE": {
+        "count": 250,
+        "mean": 29.203969199967105,
+        "median": 29.48840000317432,
+        "sample_stddev": 10.78283150822957,
+        "min": 11.226299990084954,
+        "max": 46.363000001292676,
+        "range": 35.13670001120772,
+        "p95": 45.20789999514818,
+        "p99": 46.26030000508763
+      }
+    },
+    "slowest": {
+      "index": 91,
+      "delay_ms": 46.97549999400508
+    },
+    "write_to_query_ms": {
+      "count": 500,
+      "mean": 10.411541799869156,
+      "median": 10.399250000773463,
+      "sample_stddev": 0.17417213978976098,
+      "min": 10.037700005341321,
+      "max": 10.894299994106404,
+      "range": 0.8565999887650833,
+      "p95": 10.704600004828535,
+      "p99": 10.814699999173172
+    },
+    "trend": {
+      "slope_ms_per_100_commands": 0.17984900465092618,
+      "fitted_total_change_ms": 0.8974465332081216,
+      "intercept_ms": 6.002707443182434,
+      "first_window_mean_ms": 7.2318720002658665,
+      "last_window_mean_ms": 7.768851999135222,
+      "window_commands": 50,
+      "block_means_ms": [
+        7.2318720002658665,
+        6.8886599989491515,
+        5.903738000779413,
+        4.910106000024825,
+        4.87779600021895,
+        7.188430000387598,
+        5.734605999896303,
+        7.548557999834884,
+        6.479673998837825,
+        7.768851999135222
+      ]
+    },
+    "sent_at_least_one_interval_late": 0,
+    "previous_call_finished_after_next_deadline": 72,
+    "late_ready_max_ms": 16.007899996473895,
+    "sending_delay_ms": {
+      "count": 500,
+      "mean": 6.453229199833004,
+      "median": 4.991500005417038,
+      "sample_stddev": 5.223529186705917,
+      "min": 0.0594000011915341,
+      "max": 20.971399993868545,
+      "range": 20.91199999267701,
+      "p95": 16.126299995811166,
+      "p99": 19.85149999963909
+    },
+    "planned_to_reply_ms": {
+      "count": 500,
+      "mean": 36.455610999750206,
+      "median": 35.448149996227585,
+      "sample_stddev": 12.17376670120332,
+      "min": 12.947999997413362,
+      "max": 65.943199998582,
+      "range": 52.99520000116864,
+      "p95": 57.29039999423513,
+      "p99": 61.80059999751397
+    },
+    "slowest_planned_to_reply": {
+      "index": 477,
+      "lateness_ms": 20.467600002302078,
+      "command_to_reply_ms": 45.475599996279925,
+      "total_ms": 65.943199998582
+    },
+    "reserve_target_ms": 45.0,
+    "replies_exceeding_reserve_target": 136,
+    "replies_above_45_ms": 136,
+    "replies_at_or_after_next_deadline": 72,
+    "minimum_margin_ms": -15.943199998582003,
+    "all_replies_with_5ms_reserve": false
+  }
+}

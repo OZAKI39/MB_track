@@ -1,0 +1,26 @@
+{
+  "host.etl": {
+    "size_bytes": 596639744,
+    "sha256": "41e7ebbdc3a84f0a9767d854ea62bd6302d88a3bfa35a03bf7ed2bd645f82fbc"
+  },
+  "system.data": {
+    "size_bytes": 578675886,
+    "sha256": "6d5907285af7814056b6ade42889dc1942fd397b05084fcbbc0a507411bfcae9"
+  },
+  "repro_A_watch.data": {
+    "size_bytes": 35360556,
+    "sha256": "28323c8491f3188f9559514241b3d8c97712a03362cb9f9f72182ae1df9362bf"
+  },
+  "repro_B_watch.data": {
+    "size_bytes": 34233044,
+    "sha256": "8392ff162e209e75dea0dc737233fde1775c8d121d3caa7a795200a084bb945b"
+  },
+  "long_A_retry_system.data": {
+    "size_bytes": 32681979,
+    "sha256": "516ba79ae9498ede9bfbda568a83ea7231c9e53e452003fde665bae9e81fd850"
+  },
+  "long_A_retry_watch.data": {
+    "size_bytes": 133689776,
+    "sha256": "820f677e113d92d2ae7dfaac6bb591afef2bf55269bf292d84dd0390088ab520"
+  }
+}

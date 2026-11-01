@@ -1,0 +1,6 @@
+{
+  "status": "failed_software_trial",
+  "human_confirmed": false,
+  "reason": "Four-PZT Mask saved; ABA outline rejected for a loop near x=422,y=639 with span 9 px and area 19 px^2. The retry moved only the software test anchor onto the preview path; rejection limits were not relaxed.",
+  "existing_partial_outputs_preserved": true
+}

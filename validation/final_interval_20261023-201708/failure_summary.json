@@ -1,0 +1,188 @@
+{
+  "failures": [
+    {
+      "group": "scheduled_readback_50ms",
+      "intentional_error_injection": false,
+      "failure_index": 353,
+      "valid_replies_before_failure": 352,
+      "failed_sample": {
+        "index": 353,
+        "channel": "PZT1",
+        "state": "ACTIVE",
+        "amplitude_requested_vpp": 0.1,
+        "planned_s": 17.6,
+        "ready_s": 17.568860100000165,
+        "call_started_s": 17.603143300002557,
+        "query_started_s": 17.60372620000271,
+        "status": "failed",
+        "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+        "error_notes": [
+          "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+        ],
+        "call_finished_s": 17.646519000001717,
+        "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.1Vpp",
+        "query": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+        "command_sent_s": 17.60326519999944,
+        "command_write_returned_s": 17.60371940000914,
+        "amplitude_reply_received_s": null,
+        "amplitude_reply": null,
+        "confirmed_s": null,
+        "command_to_confirmation_s": null,
+        "lateness_ms": 3.2651999994399716,
+        "write_ms": 0.45420000969897956,
+        "io_delta": {
+          "write_calls": 1,
+          "read_calls": 0,
+          "query_calls": 1,
+          "query_commands": 1
+        }
+      },
+      "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+      "error_notes": [
+        "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+      ],
+      "all_outputs_off_confirmed": true,
+      "postcheck_passed": true,
+      "error_queue_replies": {
+        "A": [
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\""
+        ],
+        "B": [
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\""
+        ]
+      },
+      "root_cause": "未查明；幅值查询在 VISA 读取回复时发生 VI_ERROR_IO。不能凭当前记录归因为间隔、USB、驱动或仪器故障。"
+    },
+    {
+      "group": "scheduled_readback_50ms_retry",
+      "intentional_error_injection": false,
+      "failure_index": 435,
+      "valid_replies_before_failure": 434,
+      "failed_sample": {
+        "index": 435,
+        "channel": "PZT1",
+        "state": "ACTIVE",
+        "amplitude_requested_vpp": 0.1,
+        "planned_s": 21.7,
+        "ready_s": 21.672749400007888,
+        "call_started_s": 21.70717270000023,
+        "query_started_s": 21.707902399997693,
+        "status": "failed",
+        "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+        "error_notes": [
+          "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+        ],
+        "call_finished_s": 21.748690599997644,
+        "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.1Vpp",
+        "query": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+        "command_sent_s": 21.707349400006933,
+        "command_write_returned_s": 21.707896699997946,
+        "amplitude_reply_received_s": null,
+        "amplitude_reply": null,
+        "confirmed_s": null,
+        "command_to_confirmation_s": null,
+        "lateness_ms": 7.349400006933848,
+        "write_ms": 0.5472999910125509,
+        "io_delta": {
+          "write_calls": 1,
+          "read_calls": 0,
+          "query_calls": 1,
+          "query_commands": 1
+        }
+      },
+      "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+      "error_notes": [
+        "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+      ],
+      "all_outputs_off_confirmed": true,
+      "postcheck_passed": true,
+      "error_queue_replies": {
+        "A": [
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\""
+        ],
+        "B": [
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\""
+        ]
+      },
+      "root_cause": "未查明；幅值查询在 VISA 读取回复时发生 VI_ERROR_IO。不能凭当前记录归因为间隔、USB、驱动或仪器故障。"
+    },
+    {
+      "group": "scheduled_readback_55ms",
+      "intentional_error_injection": false,
+      "failure_index": 67,
+      "valid_replies_before_failure": 66,
+      "failed_sample": {
+        "index": 67,
+        "channel": "PZT1",
+        "state": "ACTIVE",
+        "amplitude_requested_vpp": 0.1,
+        "planned_s": 3.63,
+        "ready_s": 3.5935416000138503,
+        "call_started_s": 3.6343920000072103,
+        "query_started_s": 3.6351741000107722,
+        "status": "failed",
+        "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+        "error_notes": [
+          "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+        ],
+        "call_finished_s": 3.6741236000088975,
+        "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.1Vpp",
+        "query": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+        "command_sent_s": 3.63451139999961,
+        "command_write_returned_s": 3.6351686000125483,
+        "amplitude_reply_received_s": null,
+        "amplitude_reply": null,
+        "confirmed_s": null,
+        "command_to_confirmation_s": null,
+        "lateness_ms": 4.511399999610255,
+        "write_ms": 0.6572000129381195,
+        "io_delta": {
+          "write_calls": 1,
+          "read_calls": 0,
+          "query_calls": 1,
+          "query_commands": 1
+        }
+      },
+      "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+      "error_notes": [
+        "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+      ],
+      "all_outputs_off_confirmed": true,
+      "postcheck_passed": true,
+      "error_queue_replies": {
+        "A": [
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\""
+        ],
+        "B": [
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\"",
+          "0,\"No error\""
+        ]
+      },
+      "root_cause": "未查明；幅值查询在 VISA 读取回复时发生 VI_ERROR_IO。不能凭当前记录归因为间隔、USB、驱动或仪器故障。"
+    }
+  ],
+  "incomplete_batches_excluded_from_accepted_statistics": true
+}

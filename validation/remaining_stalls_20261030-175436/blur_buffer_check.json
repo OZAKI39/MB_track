@@ -1,0 +1,78 @@
+{
+  "scope": "Same real first-frame input; only Gaussian output buffer differs; not full-pipeline speed",
+  "input": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+  "shape": [
+    1024,
+    1280
+  ],
+  "buffer_bytes": 5242880,
+  "outputs_exact": true,
+  "summaries": [
+    {
+      "repeat": 1,
+      "mode": "allocate",
+      "median_p99_max_ms": [
+        1.2021464935969561,
+        1.5434667080990034,
+        2.8309000190347433
+      ],
+      "minor_faults": 1549,
+      "major_faults": 0
+    },
+    {
+      "repeat": 1,
+      "mode": "reuse",
+      "median_p99_max_ms": [
+        1.1550199997145683,
+        1.473813222546596,
+        1.7261579923797399
+      ],
+      "minor_faults": 18,
+      "major_faults": 0
+    },
+    {
+      "repeat": 2,
+      "mode": "allocate",
+      "median_p99_max_ms": [
+        1.154785990365781,
+        1.385079455503728,
+        1.760617014952004
+      ],
+      "minor_faults": 10,
+      "major_faults": 0
+    },
+    {
+      "repeat": 2,
+      "mode": "reuse",
+      "median_p99_max_ms": [
+        1.190902985399589,
+        1.520643548865337,
+        1.635972992517054
+      ],
+      "minor_faults": 17,
+      "major_faults": 0
+    },
+    {
+      "repeat": 3,
+      "mode": "allocate",
+      "median_p99_max_ms": [
+        1.1834315082523972,
+        1.4487810136051846,
+        1.6730919887777418
+      ],
+      "minor_faults": 10,
+      "major_faults": 0
+    },
+    {
+      "repeat": 3,
+      "mode": "reuse",
+      "median_p99_max_ms": [
+        1.1854349868372083,
+        1.3994991328218018,
+        1.5621939965058118
+      ],
+      "minor_faults": 17,
+      "major_faults": 0
+    }
+  ]
+}

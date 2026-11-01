@@ -1,0 +1,20 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_arial_original_comparison_and_no_training",
+    "baseline_ids_filled_and_visible_without_typing",
+    "relationship_ids_are_suggested_without_human_confirmation",
+    "classification_id_assignment_and_grouped_undo_redo",
+    "accept_all_is_current_frame_only_preserves_uncertainty_ids_and_undo",
+    "untraceable_old_wall_is_not_loaded",
+    "real_canvas_clicks_outside_image_align_to_all_edges_and_corners",
+    "undo_last_anchor_and_live_path_preview",
+    "closed_smoothed_mask_preserves_image_edges_and_region_labels",
+    "unfinished_outline_blocks_save_navigation_close_and_cancel_restores",
+    "opencv_scissors_paths_and_non_cumulative_smoothing_zero_restores_raw_line",
+    "manual_point_drag_updates_mask_and_resets_smoothing_base"
+  ],
+  "source_annotations_edited": false,
+  "error": "AssertionError: Mask operation failed: The outline crosses itself; undo points or Cancel and redraw",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_benchmark_gui.py\", line 332, in inspect\n    assert not w.wall_drawing, w.status.value\n           ^^^^^^^^^^^^^^^^^^\nAssertionError: Mask operation failed: The outline crosses itself; undo points or Cancel and redraw\n"
+}

@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "source": "/mnt/c/Users/lzy/AppData/Local/Temp/memory_pressure_20261030-123155/baseline/host.etl",
+    "copy": "customer_workspace/validation/memory_pressure_20261030-123155/baseline/host.etl",
+    "bytes": 644349952,
+    "sha256": "0ed36c9a08b716b9bf897c2a052d065915081f3b88fd7157d8196b33b60d9a26"
+  },
+  "background_off": {
+    "source": "/mnt/c/Users/lzy/AppData/Local/Temp/memory_pressure_20261030-123155/background_off/host.etl",
+    "copy": "customer_workspace/validation/memory_pressure_20261030-123155/background_off/host.etl",
+    "bytes": 437780480,
+    "sha256": "6cbbf97feeecdd0a980074365f1ec5e6421536773a113dbe2f079b713961f246"
+  }
+}

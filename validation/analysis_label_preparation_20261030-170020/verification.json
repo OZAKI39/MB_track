@@ -1,0 +1,712 @@
+{
+  "runs": {
+    "before_1": {
+      "offered": 120,
+      "processed_saved": 118,
+      "replaced": 2,
+      "expired": 0,
+      "first_process_ms": 46.24410602264106,
+      "first_components_ms": 7.027936982922256,
+      "process_ms": {
+        "min": 8.605701004853472,
+        "median": 9.788512004888617,
+        "p95": 12.131289480021223,
+        "p99": 12.87504837528104,
+        "max": 46.24410602264106
+      },
+      "preparation": null,
+      "ready_before_streaming": null,
+      "pending_peak": 1,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 118,
+          "sha256": "9108fa3b450d7980135471639e59f6bf2be990d4ca1a01fc4fc39354d59d63ff"
+        },
+        "observations": {
+          "count": 2400,
+          "sha256": "a5e2fe6db134f31d62c5e50670f7d518666263a01cc3134c48146552d15cf5f1"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "543e40928a2b74b4d47665095dcb8293ef104f9ff24c612ad0c17cf46e5d52f9"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "b757e8c5a225524cf1b067ec8c8a1429d0ead74c2aa3b489317447b9b6ae1fa0"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "490c427357a3834d120ac11fd0044fa951aa77e921af76c7b8efb77892185b9c"
+        },
+        "track_updates": {
+          "count": 86,
+          "sha256": "f05962fe2fd157354673f8f8b8f7bba0021bc5687e9d38091e6939e492b7b238"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "88bf5e660a16a7533aea136c1b7911d1ab78703d2f867ffaef35d8ec9993deb6"
+    },
+    "before_2": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 26.335521979490295,
+      "first_components_ms": 7.099082984495908,
+      "process_ms": {
+        "min": 8.448859007330611,
+        "median": 9.779184489161707,
+        "p95": 11.402417987119406,
+        "p99": 13.348422852577645,
+        "max": 26.335521979490295
+      },
+      "preparation": null,
+      "ready_before_streaming": null,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "before_3": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 20.356755005195737,
+      "first_components_ms": 4.214877990307286,
+      "process_ms": {
+        "min": 8.665547997225076,
+        "median": 9.693016996607184,
+        "p95": 11.468313762452452,
+        "p99": 12.386490528297145,
+        "max": 20.356755005195737
+      },
+      "preparation": null,
+      "ready_before_streaming": null,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "before_4": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 22.07739098230377,
+      "first_components_ms": 6.287707976298407,
+      "process_ms": {
+        "min": 8.374772005481645,
+        "median": 9.490864496910945,
+        "p95": 11.383753149129916,
+        "p99": 12.58073380769929,
+        "max": 22.07739098230377
+      },
+      "preparation": null,
+      "ready_before_streaming": null,
+      "pending_peak": 1,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "before_5": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 24.013984017074108,
+      "first_components_ms": 5.956173001322895,
+      "process_ms": {
+        "min": 8.641952998004854,
+        "median": 9.61421150714159,
+        "p95": 11.378087174671235,
+        "p99": 13.140997635782698,
+        "max": 24.013984017074108
+      },
+      "preparation": null,
+      "ready_before_streaming": null,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "after_1": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 16.56689602532424,
+      "first_components_ms": 1.1319059995003045,
+      "process_ms": {
+        "min": 8.345987007487565,
+        "median": 9.536512501654215,
+        "p95": 11.235037120059133,
+        "p99": 11.884473212703597,
+        "max": 16.56689602532424
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 0.9705450211185962,
+        "component_labels_completed_perf_s": 223819.972240655,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "after_2": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 16.38262701453641,
+      "first_components_ms": 1.1793129961006343,
+      "process_ms": {
+        "min": 8.37765698088333,
+        "median": 9.253953510778956,
+        "p95": 10.928320720267946,
+        "p99": 12.275484151905403,
+        "max": 16.38262701453641
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 0.9215699974447489,
+        "component_labels_completed_perf_s": 223823.943273544,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 1,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "after_3": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 18.37459800299257,
+      "first_components_ms": 1.118002983275801,
+      "process_ms": {
+        "min": 8.425550011452287,
+        "median": 9.567757995682769,
+        "p95": 11.324147315463051,
+        "p99": 12.079815808683634,
+        "max": 18.37459800299257
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 0.7047269900795072,
+        "component_labels_completed_perf_s": 223827.894209841,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "after_4": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 16.486742009874433,
+      "first_components_ms": 1.1979870032519102,
+      "process_ms": {
+        "min": 8.475393988192081,
+        "median": 9.67435899656266,
+        "p95": 11.456419950991403,
+        "p99": 12.716839313216044,
+        "max": 16.486742009874433
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 0.8788809936959296,
+        "component_labels_completed_perf_s": 223831.848180793,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "after_5": {
+      "offered": 120,
+      "processed_saved": 120,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 16.21594702010043,
+      "first_components_ms": 0.5897050141356885,
+      "process_ms": {
+        "min": 8.398540987400338,
+        "median": 9.66130499728024,
+        "p95": 12.038329655479174,
+        "p99": 13.354156444256661,
+        "max": 16.21594702010043
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 1.2066659983247519,
+        "component_labels_completed_perf_s": 223835.792276864,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 120,
+          "sha256": "8586d181dda4376804ef190e0bd2448d70b8394c8882146ae179bdeec37138a0"
+        },
+        "observations": {
+          "count": 2440,
+          "sha256": "d331fb523909716be9087e9ac669198971a71e4e127a175011de5a2b71815785"
+        },
+        "tracks": {
+          "count": 30,
+          "sha256": "0dfea0ea940c901701e24865e8005288552bf48911a501c8e1316d4830b3ef03"
+        },
+        "events": {
+          "count": 39,
+          "sha256": "a914603a382315e6e9f02898adbb1cabed2cea944151892cd7b1a6fa1d8508c8"
+        },
+        "event_updates": {
+          "count": 78,
+          "sha256": "fdf5d85dcd1e860e28e8bf934b6101863720c81d9064355afed43dec05eefe2e"
+        },
+        "track_updates": {
+          "count": 87,
+          "sha256": "c8c102e0969b19323eb9b83a697cb375a1cc9d75fefc7b303a1bd893e6146951"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "c0a802a413977f9e3ca40e9cf835401ca40a3fa307f0d88a7b5c842a55293e9a"
+    },
+    "full_A": {
+      "offered": 1320,
+      "processed_saved": 1320,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 17.272668017540127,
+      "first_components_ms": null,
+      "process_ms": {
+        "min": 7.830462011042982,
+        "median": 9.187905481667258,
+        "p95": 10.583521689113695,
+        "p99": 11.716912234551268,
+        "max": 18.114114995114505
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 0.9168120159301907,
+        "component_labels_completed_perf_s": 223839.747789042,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 1320,
+          "sha256": "28354e0c3f90ada662f573f81a2fbd27188ee7612f02782f015362a988242b46"
+        },
+        "observations": {
+          "count": 22041,
+          "sha256": "87671d58454a06ef92819cdd55bd3596ca730aa62c3147076b92c644d6d8b0a9"
+        },
+        "tracks": {
+          "count": 181,
+          "sha256": "db08527500ec38ac63694e424204340ee09fa6f0f25e090adc0ec60ed2b3e8d9"
+        },
+        "events": {
+          "count": 347,
+          "sha256": "b184620d123f589f0a23b9498c4ec345605ad06204eb86437e7bced239d3bc4a"
+        },
+        "event_updates": {
+          "count": 694,
+          "sha256": "51d836fa84f8c97e6c83eae956ea31c49541901f45a13f724495037b6302c1d9"
+        },
+        "track_updates": {
+          "count": 472,
+          "sha256": "c5b4151b764e969c7f3e4a38e402ddd00fe29d9085fa0b86265d5c4546b38720"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "background_final_sha256": "0935af57444548ed74712c492e2edc9c1817395ac7f3f943b84abc06e20a98a8"
+    },
+    "full_B": {
+      "offered": 1320,
+      "processed_saved": 1320,
+      "replaced": 0,
+      "expired": 0,
+      "first_process_ms": 19.36465600738302,
+      "first_components_ms": null,
+      "process_ms": {
+        "min": 7.835509983124211,
+        "median": 10.685927991289645,
+        "p95": 12.261222198139876,
+        "p99": 13.754231797647655,
+        "max": 21.191249979892746
+      },
+      "preparation": {
+        "component_labels_ready": true,
+        "component_labels_bytes": 5242880,
+        "component_labels_ms": 1.3814970152452588,
+        "component_labels_completed_perf_s": 223863.967627973,
+        "clock": "analysis host perf_counter; not camera exposure time"
+      },
+      "ready_before_streaming": true,
+      "pending_peak": 2,
+      "pending_at_exit": 0,
+      "scientific_tables": {
+        "frames": {
+          "count": 1320,
+          "sha256": "1acc6adf6dd856f2f97b500809f16a4a6f3cd4ecda9b3ee5fabeeaafb109b04b"
+        },
+        "observations": {
+          "count": 17781,
+          "sha256": "1e9519ccb36892a5853703fc3f5713544f16c34770aea0f4b52545c383eed6fd"
+        },
+        "tracks": {
+          "count": 76,
+          "sha256": "e8662e7642b26cf19ceeda77093b4ea2e68d9a1adf5c8608eb9f6b8d7d866eff"
+        },
+        "events": {
+          "count": 139,
+          "sha256": "b029653ed7842e70398f5056503be0875929a1e7b4dbd3e414b5535a77a26813"
+        },
+        "event_updates": {
+          "count": 278,
+          "sha256": "16c9538b80fdaf55c146af79598acc11d363789c14134823e075fb4b4d335d7f"
+        },
+        "track_updates": {
+          "count": 198,
+          "sha256": "2a38f65586a52607a8f55c687c90df31248a94b013d5bbf9bba2c3db3765d32b"
+        },
+        "input_rejections": {
+          "count": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "background_initial_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2",
+      "background_final_sha256": "4b294658692a3898f067b55622ca5674b98251d9cb9d2736922ea1a064c54c91"
+    }
+  },
+  "summary": {
+    "before": {
+      "first_process_ms": {
+        "median": 24.013984017074108,
+        "min": 20.356755005195737,
+        "max": 46.24410602264106
+      },
+      "first_components_ms": {
+        "median": 6.287707976298407,
+        "min": 4.214877990307286,
+        "max": 7.099082984495908
+      },
+      "replaced_total": 2
+    },
+    "after": {
+      "first_process_ms": {
+        "median": 16.486742009874433,
+        "min": 16.21594702010043,
+        "max": 18.37459800299257
+      },
+      "first_components_ms": {
+        "median": 1.1319059995003045,
+        "min": 0.5897050141356885,
+        "max": 1.1979870032519102
+      },
+      "replaced_total": 0,
+      "preparation_ms": {
+        "median": 0.9215699974447489,
+        "min": 0.7047269900795072,
+        "max": 1.2066659983247519
+      }
+    }
+  },
+  "scientific_reference": "before_2",
+  "full_prefix_equality": {
+    "before_2": true,
+    "before_3": true,
+    "before_4": true,
+    "before_5": true,
+    "after_1": true,
+    "after_2": true,
+    "after_3": true,
+    "after_4": true,
+    "after_5": true
+  },
+  "tests_passed": 84,
+  "expected_changed_files": [
+    "online_tracking.py",
+    "paced_replay.py",
+    "first_frame_diagnosis.py",
+    "ONLINE_TRACKING.md"
+  ],
+  "implementation_unchanged_during_after_runs": true,
+  "scope": "Offline replay; no live camera/recorder/AFG load."
+}

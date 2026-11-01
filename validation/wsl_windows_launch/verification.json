@@ -1,0 +1,41 @@
+{
+  "uses_real_hardware": false,
+  "uses_existing_Windows_Python": true,
+  "uses_mock_AFG_only": true,
+  "cases": [
+    {
+      "case": "WSL_SIGINT_forwarded_to_Windows",
+      "exit_code": 130,
+      "summary": {
+        "status": "cancelled",
+        "created_utc": "2026-10-23T12:17:07.508990+00:00",
+        "planned_duration_s": 30,
+        "timeline_started_utc": "2026-10-23T12:17:07.510605+00:00",
+        "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\wsl_windows_launch\\ctrl_c_中文 路径",
+        "error": "ExperimentCancelled: 实验已取消",
+        "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+        "finished_utc": "2026-10-23T12:17:08.787107+00:00",
+        "elapsed_s": 1.2764899999965564,
+        "all_outputs_off_confirmed": true,
+        "shutdown_errors": []
+      }
+    },
+    {
+      "case": "parent_pipe_EOF_cancels_Windows",
+      "exit_code": 130,
+      "summary": {
+        "status": "cancelled",
+        "created_utc": "2026-10-23T12:17:09.345176+00:00",
+        "planned_duration_s": 30,
+        "timeline_started_utc": "2026-10-23T12:17:09.347449+00:00",
+        "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\wsl_windows_launch\\parent_pipe_closed",
+        "error": "ExperimentCancelled: 实验已取消",
+        "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+        "finished_utc": "2026-10-23T12:17:10.354398+00:00",
+        "elapsed_s": 1.006940899998881,
+        "all_outputs_off_confirmed": true,
+        "shutdown_errors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "A": {
+    "video_sha256": true,
+    "reference_sha256": true,
+    "synchronization_hashes": true,
+    "code_unchanged": true,
+    "frames_accounted": true,
+    "integrity": "ok",
+    "submitted": 3940,
+    "saved": 3940,
+    "pending": 0
+  },
+  "B": {
+    "video_sha256": true,
+    "reference_sha256": true,
+    "synchronization_hashes": true,
+    "code_unchanged": true,
+    "frames_accounted": true,
+    "integrity": "ok",
+    "submitted": 3960,
+    "saved": 3960,
+    "pending": 0
+  }
+}

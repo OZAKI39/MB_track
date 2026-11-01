@@ -270,6 +270,123 @@ def action_check(fold, exp, graphs, models, seen_patterns):
     return rows
 
 
+# =====================================================================================================
+# whole field: merge / split chances and the density grid
+# =====================================================================================================
+def event_scores(fold, tests, ev_preds, horizons=(1, 5, 10)):
+    """Per region: does it merge (split) within h? Ranking (AUC), accuracy of the chance (Brier score and its
+    improvement over the base rate). Per anchor: expected number of merges in the next h vs. what happened."""
+    from sklearn.metrics import roc_auc_score
+    rows, counts = [], []
+    for kind in M.EVENT_KINDS:
+        for h in horizons:
+            y, base = [], []
+            per_model = {m: [] for m in ev_preds}
+            n_exp, n_obs = {m: [] for m in ev_preds}, []
+            for ti, (te, gs) in enumerate(tests):
+                for gi, g in enumerate(gs):
+                    lab = M.event_label(g, kind, h)
+                    ok = M.loss_mask(g) & np.isfinite(lab)
+                    if not ok.any():
+                        continue
+                    y += list(lab[ok])
+                    for m, ps in ev_preds.items():
+                        per_model[m] += list(ps[ti][gi][f'p_{kind}'][ok, h - 1])
+                    if gi % 6 == 0:                              # every 0.1 s: expected vs. real number of events
+                        f = 2.0 if kind == 'merge' else 1.0      # a merge involves two regions
+                        n_obs.append(lab[ok].sum() / f)
+                        for m, ps in ev_preds.items():
+                            n_exp[m].append(np.nansum(ps[ti][gi][f'p_{kind}'][ok, h - 1]) / f)
+            y = np.array(y)
+            if not len(y):
+                continue
+            brier_base = np.mean((np.array(per_model['Base rate']) - y) ** 2) if 'Base rate' in per_model else np.nan
+            for m, q in per_model.items():
+                q = np.clip(np.array(q, float), 0, 1)
+                r = dict(fold=fold, event=kind, horizon_s=h / 10, model=m, n=len(y), positives=int(y.sum()),
+                         observed_rate=float(y.mean()), mean_predicted=float(q.mean()),
+                         brier=float(np.mean((q - y) ** 2)))
+                r['brier_skill_vs_base_rate'] = 1 - r['brier'] / brier_base if brier_base > 0 else np.nan
+                r['auc'] = float(roc_auc_score(y, q)) if 0 < y.sum() < len(y) else np.nan
+                rows.append(r)
+                if n_obs:
+                    e = np.array(n_exp[m])
+                    o = np.array(n_obs)
+                    counts.append(dict(fold=fold, event=kind, horizon_s=h / 10, model=m, anchors=len(o),
+                                       observed_per_anchor=float(o.mean()), expected_per_anchor=float(e.mean()),
+                                       count_abs_error=float(np.mean(np.abs(e - o)))))
+    return rows, counts
+
+
+_DISK = None
+
+
+def render_grid(exp, centres, areas):
+    """Density grid (area per cell) of regions drawn as discs: 64 sample points per disc carry its area."""
+    global _DISK
+    if _DISK is None:
+        rng = np.random.default_rng(0)
+        r, t = np.sqrt(rng.random(64)), rng.random(64) * 2 * np.pi
+        _DISK = np.c_[r * np.cos(t), r * np.sin(t)]
+    gh, gw = exp.grid_shape
+    g = exp.P['grid_px']
+    grid = np.zeros((gh, gw), np.float32)
+    ok = np.isfinite(centres).all(1) & np.isfinite(areas)
+    for (x, y), a in zip(centres[ok], areas[ok]):
+        rad = np.sqrt(max(a, 1.0) / np.pi)
+        p = np.array([x, y]) + _DISK * rad
+        xi = np.clip((p[:, 0] // g).astype(int), 0, gw - 1)
+        yi = np.clip((p[:, 1] // g).astype(int), 0, gh - 1)
+        np.add.at(grid, (yi, xi), a / len(p))
+    return grid
+
+
+def misplaced_share(pred, obs):
+    """Share of the bubble area that sits in the wrong place: half the summed difference of the two
+    normalised grids, after blurring both by one cell so that small offsets do not count."""
+    import cv2
+    a = cv2.GaussianBlur(pred.astype(np.float32), (0, 0), 1.0)
+    b = cv2.GaussianBlur(obs.astype(np.float32), (0, 0), 1.0)
+    if a.sum() <= 0 or b.sum() <= 0:
+        return np.nan
+    return 0.5 * float(np.abs(a / a.sum() - b / b.sum()).sum())
+
+
+def grid_scores(fold, exp, graphs, preds, horizons=(5, 10), every=6):
+    """Whole-field distribution: predicted density grid h ahead vs. the real one (real outlines)."""
+    rows = []
+    if not getattr(exp, 'has_darkness', False):
+        return rows
+    s = exp.P['step_frames']
+    for gi, g in enumerate(graphs):
+        if g['frame'] % every:
+            continue
+        for h in horizons:
+            f2 = g['frame'] + h * s
+            if f2 >= exp.n_frames:
+                continue
+            obs = exp.grid_area[f2]
+            for m, ps in preds.items():
+                o = ps[gi]
+                la = o.get('logA')
+                area = np.exp(la[:, h - 1]) if la is not None and np.isfinite(la[:, h - 1]).all() else np.exp(g['shape'][:, 0])
+                pred = render_grid(exp, o['mu'][:, h - 1], area)
+                rows.append(dict(fold=fold, test=exp.name, frame=g['frame'], horizon_s=h / 10, model=m,
+                                 misplaced_share=misplaced_share(pred, obs)))
+    return rows
+
+
+def merge_grid_rows(rows):
+    out = {}
+    for r in rows:
+        if not np.isfinite(r['misplaced_share']):
+            continue
+        k = (r['fold'], r['horizon_s'], r['model'])
+        out.setdefault(k, []).append(r['misplaced_share'])
+    return [dict(fold=k[0], horizon_s=k[1], model=k[2], anchors=len(v), misplaced_share_mean=float(np.mean(v)),
+                 misplaced_share_median=float(np.median(v))) for k, v in out.items()]
+
+
 def merge_action_rows(rows):
     """Combine the action check of several test recordings of one fold (weighted by sample count)."""
     out = {}
@@ -318,15 +435,18 @@ def main():
     ap.add_argument('--no-review-variant', action='store_true',
                     help='skip the extra graph model trained only on manually trusted regions')
     ap.add_argument('--figures-only', action='store_true')
+    ap.add_argument('--resume', action='store_true',
+                    help='continue an interrupted run: every finished test round (and the final model) is kept in '
+                         'OUT/partial/ and OUT/model/ and is not computed again')
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
     t_all = time.time()
     exps = {}
+    videos = dict(s.split('=', 1) for s in a.video)
     for s in a.exp:
         name, d = s.split('=', 1)
-        exps[name] = ds.Experiment(name, d)
+        exps[name] = ds.Experiment(name, d, video=videos.get(name), cache_dir=os.path.join(a.out, 'cache'))
         print(f'{name}: {exps[name].summary()}', flush=True)
-    videos = dict(s.split('=', 1) for s in a.video)
     graphs = {n: e.graphs() for n, e in exps.items()}
 
     if a.figures_only:
@@ -335,6 +455,7 @@ def main():
         return
 
     metrics, unc_rows, unc_bins, field_rows, act_rows, folds, pred_rows = [], [], [], [], [], [], []
+    event_rows, event_count_rows, grid_rows = [], [], []
     examples = {}
     plan = []
     # (1) across recordings: train on the other recording(s), test on one; the fold whose training set has
@@ -353,9 +474,27 @@ def main():
                          tests=[(exps[n], block_split(exps[n], graphs[n], 1 - parity)) for n in exps],
                          variants=False, example=None))
 
-    for fd in plan:
+    import pickle
+    import wm_figures
+    pdir = os.path.join(a.out, 'partial')
+    os.makedirs(pdir, exist_ok=True)
+    acc = dict(metrics=metrics, unc_rows=unc_rows, unc_bins=unc_bins, field_rows=field_rows, act_rows=act_rows,
+               folds=folds, pred_rows=pred_rows, event_rows=event_rows, event_count_rows=event_count_rows,
+               grid_rows=grid_rows)
+    run_key = dict(exp=sorted(a.exp), members=a.members, epochs=a.epochs, patience=a.patience,
+                   no_review_variant=a.no_review_variant)
+    for k_fold, fd in enumerate(plan):
         fold = fd['fold']
+        ck = os.path.join(pdir, f'round{k_fold}.pkl')
+        if a.resume and os.path.exists(ck):
+            saved = pickle.load(open(ck, 'rb'))
+            if saved['key'] == run_key and saved['fold'] == fold:
+                for name, rows in saved['rows'].items():
+                    acc[name] += rows
+                print(f'\n== {fold}: finished earlier, loaded from {os.path.relpath(ck, a.out)}', flush=True)
+                continue
         print(f'\n== {fold}', flush=True)
+        marks = {name: len(rows) for name, rows in acc.items()}
         tr_exps, tr_graphs = fd['train_exps'], fd['train_graphs']
         seen = {M.pattern_of(x) for g in tr_graphs for x in g['act']}
         if fd['kind'] == 'across recordings':
@@ -387,6 +526,28 @@ def main():
             timing[rv.name] = dict(fit_s=time.time() - t0)
             print(f'  {rv.name}: fit {time.time() - t0:.0f} s', flush=True)
             models.append(rv)
+        if fd['variants']:
+            # same graph model without the two added inputs (darkness, local density): do they help?
+            nx = M.GraphWorldModel(interactions=True, members=a.members, epochs=a.epochs, patience=a.patience,
+                                   threads=a.threads, extra_inputs=False,
+                                   label='Graph world model, without darkness / density inputs')
+            t0 = time.time()
+            nx.fit(tr_exps, tr_graphs)
+            preds[nx.name] = [nx.predict(e, gs) for e, gs in fd['tests']]
+            timing[nx.name] = dict(fit_s=time.time() - t0)
+            print(f'  {nx.name}: fit {time.time() - t0:.0f} s', flush=True)
+            models.append(nx)
+        # merge / split: the reference event models; the graph models give their own chances
+        ev_preds = {}
+        for em in (M.EventBaseRate(), M.EventGapRule(), M.EventBoosting()):
+            t0 = time.time()
+            em.fit(tr_exps, tr_graphs)
+            ev_preds[em.name] = [em.predict_events(e, gs) for e, gs in fd['tests']]
+            timing[f'events: {em.name}'] = dict(fit_s=time.time() - t0)
+        for name, ps in preds.items():
+            if ps and ps[0] and 'p_merge' in ps[0][0]:
+                ev_preds[name] = ps
+        print(f'  event models: {list(ev_preds)}', flush=True)
         recs, mps, fold_act = [], [], []
         for ti, (te, te_graphs) in enumerate(fd['tests']):
             p_t = {m: ps[ti] for m, ps in preds.items()}
@@ -395,8 +556,12 @@ def main():
             recs.append(rec)
             mps.append(mp)
             field_rows += field_scores(fold if len(fd['tests']) == 1 else f'{fold}, test {te.name}', te, te_graphs, p_t)
+            grid_rows += grid_scores(fold, te, te_graphs, p_t)
             fold_act += action_check(fold, te, te_graphs, models, seen)
         act_rows += merge_action_rows(fold_act)
+        ev_r, ev_c = event_scores(fold, fd['tests'], ev_preds)
+        event_rows += ev_r
+        event_count_rows += ev_c
         rec = {k: np.concatenate([r[k] for r in recs]) for k in recs[0]}
         mp = {m: {k: np.concatenate([x[m][k] for x in mps]) for k in mps[0][m]} for m in mps[0]}
         metrics += [dict(r, kind=fd['kind']) for r in score(fold, rec, mp)]
@@ -425,26 +590,42 @@ def main():
         if fd['example']:
             examples[fd['example']] = {m.name: m for m in models
                                        if m.name in ('Graph world model', 'Response map')}
+            wm_figures.save_fold_models(a.out, {fd['example']: examples[fd['example']]})
+        pickle.dump(dict(key=run_key, fold=fold, rows={name: rows[marks[name]:] for name, rows in acc.items()}),
+                    open(ck + '.tmp', 'wb'))
+        os.replace(ck + '.tmp', ck)
 
-    import wm_figures
-    wm_figures.save_fold_models(a.out, examples)
+    # models of rounds loaded from partial/ (for the figures)
+    for test, ms in wm_figures.load_fold_models(a.out, exps, graphs).items():
+        examples.setdefault(test, ms)
     write_csv(os.path.join(a.out, 'metrics.csv'), metrics)
     write_csv(os.path.join(a.out, 'uncertainty.csv'), unc_rows)
     write_csv(os.path.join(a.out, 'uncertainty_bins.csv'), unc_bins)
     write_csv(os.path.join(a.out, 'field.csv'), field_rows)
+    write_csv(os.path.join(a.out, 'events.csv'), event_rows)
+    write_csv(os.path.join(a.out, 'events_field.csv'), event_count_rows)
+    write_csv(os.path.join(a.out, 'field_grid.csv'), merge_grid_rows(grid_rows))
     write_csv(os.path.join(a.out, 'action_check.csv'), act_rows)
     write_csv(os.path.join(a.out, 'predictions.csv'), pred_rows)
 
     # ------------------------------------------------------------------ final model on every experiment
     import torch
-    print('\n== final graph world model on all experiments', flush=True)
-    final = M.GraphWorldModel(interactions=True, members=a.members, epochs=a.epochs, patience=a.patience,
-                              threads=a.threads)
     all_exps = list(exps.values())
-    final.fit(all_exps, [g for n in exps for g in graphs[n]])
     md = os.path.join(a.out, 'model')
     os.makedirs(md, exist_ok=True)
-    torch.save(final.state(), os.path.join(md, 'graph_world_model.pt'))
+    final_ck = os.path.join(pdir, 'final_done.json')
+    if a.resume and os.path.exists(final_ck) and json.load(open(final_ck)) == run_key:
+        print('\n== final graph world model: finished earlier, loaded from model/', flush=True)
+        final = M.GraphWorldModel.from_state(torch.load(os.path.join(md, 'graph_world_model.pt')))
+    else:
+        print('\n== final graph world model on all experiments', flush=True)
+        final = M.GraphWorldModel(interactions=True, members=a.members, epochs=a.epochs, patience=a.patience,
+                                  threads=a.threads)
+        final.fit(all_exps, [g for n in exps for g in graphs[n]])
+        torch.save(final.state(), os.path.join(md, 'graph_world_model.pt'))
+        write_csv(os.path.join(a.out, 'training_history.csv'),
+                  [dict(model='final', **h) for h in final.history])
+        json.dump(run_key, open(final_ck, 'w'))
     reloaded = M.GraphWorldModel.from_state(torch.load(os.path.join(md, 'graph_world_model.pt')))
     e0 = all_exps[0]
     gtest = graphs[e0.name][::50]
@@ -465,8 +646,6 @@ def main():
                              regions_in_example=len(g['pos']), dataset=ds.DEFAULTS,
                              note='load with models.GraphWorldModel.from_state(torch.load(path))')),
               open(os.path.join(md, 'model.json'), 'w'), indent=1)
-    write_csv(os.path.join(a.out, 'training_history.csv'),
-              [dict(model='final', **h) for h in final.history])
 
     # ------------------------------------------------------------------ figures and report
     figs = wm_figures.make_all(a.out, exps, graphs, videos, fold_models=examples, final=final)
@@ -487,6 +666,8 @@ def main():
         figures=figs, runtime_s=time.time() - t_all)
     json.dump(json_safe(report), open(os.path.join(a.out, 'report.json'), 'w', encoding='utf-8'), indent=1,
               ensure_ascii=False)
+    import shutil
+    shutil.rmtree(pdir, ignore_errors=True)      # finished: nothing left to resume
     print(f'\nwritten to {a.out}  ({time.time() - t_all:.0f} s)')
 
 

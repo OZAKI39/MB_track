@@ -1,0 +1,75 @@
+{
+  "source": "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/GCUService.exe",
+  "sha256": "785150abc1b7344434459e74ed17ebaf487e58d24fe3bcb6d356cf8a29465d11",
+  "pattern": "GetCpuInfoforCPUGPUCombine|Utility.LogCtrl::(Write|\\.cctor|\\.ctor)$",
+  "caller_depth": 0,
+  "errors": [],
+  "methods": [
+    {
+      "name": "Utility.LogCtrl::Write",
+      "token": "0x6000650",
+      "instructions": [
+        "0001 newobj .<>c__DisplayClass11_0::.ctor",
+        "0006 dup None",
+        "0007 ldarg.0 None",
+        "0008 stfld logMessage",
+        "000d ldftn .<>c__DisplayClass11_0::<Write>b__0",
+        "0013 newobj .ctor",
+        "0018 call Run",
+        "001d pop None",
+        "001e ret None"
+      ]
+    },
+    {
+      "name": "Utility.LogCtrl::.ctor",
+      "token": "0x6000659",
+      "instructions": [
+        "0001 ldarg.0 None",
+        "0002 call .ctor",
+        "0007 ret None"
+      ]
+    },
+    {
+      "name": "Utility.LogCtrl::.cctor",
+      "token": "0x600065a",
+      "instructions": [
+        "000c ldc.i4.0 None",
+        "000d stsfld b_LogEnable",
+        "0012 ldstr C:\\MyControlCenter.log",
+        "0017 stsfld m_LogPath",
+        "001c newobj .ctor",
+        "0021 stsfld queuelock",
+        "0026 newobj .ctor",
+        "002b stsfld myWriteLock",
+        "0030 newobj .ctor",
+        "0035 stsfld MsgQueue",
+        "003a newobj MyControlCenter.MyFan.BackgroundQueue::.ctor",
+        "003f stsfld backgroundQueue",
+        "0044 newobj .ctor",
+        "0049 stsfld _lock",
+        "004e ldstr   ",
+        "0053 stsfld indent_token",
+        "0058 ldc.i4.0 None",
+        "0059 stsfld indent_count",
+        "005e ldc.i4.0 None",
+        "005f stsfld WithAssemblyName",
+        "0064 call GetExecutingAssembly",
+        "0069 callvirt get_ManifestModule",
+        "006e callvirt get_Name",
+        "0073 call GetFileNameWithoutExtension",
+        "0078 stsfld AssemblyName",
+        "007d ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.MySystemManager::GetCpuInfoforCPUGPUCombine",
+      "token": "0x6001098",
+      "instructions": [
+        "0001 ldarg.0 None",
+        "0002 call MyControlCenter.MySystemManager::GetCpuUsageforCPUGPUCombine",
+        "0007 newobj .ctor",
+        "000c ret None"
+      ]
+    }
+  ]
+}

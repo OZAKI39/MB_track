@@ -1,0 +1,27 @@
+{
+  "action_seconds": 20,
+  "video_seconds": 22,
+  "active_vpp": 0.8,
+  "idle_vpp": 0.001,
+  "frequency_hz": 2500000,
+  "cases": [
+    "normal",
+    "cancel",
+    "fault"
+  ],
+  "cancel_and_fault_at_s": 4.5,
+  "stable_query_delay_s": 1,
+  "clock_domain": "same Windows host monotonic/QPC; WSL never subtracted",
+  "frame_time_meaning": "compressed frame parsed at Windows receiver; not exposure",
+  "afg_confirmation_meaning": "stable readback reply received; not physical output onset",
+  "performance_criteria": {
+    "analysis_at_least_hz": 5.6,
+    "analysis_rate_ratio_to_baseline_min": 0.8,
+    "p95_max": "max(baseline_p95*1.2, baseline_p95+20ms)",
+    "maximum_analysis_completion_gap_ms": 1000
+  },
+  "recording_extra_lost_allowed": 0,
+  "safety": "all_off on exit; independent readback; no forced kill of AFG process; not guaranteed during hardware/power/USB failure",
+  "basis": "按用户最新要求重新实测，以本次及之后实验为准；之前结果保留为历史，不作为本次通过依据。",
+  "supersedes_for_current_acceptance": "customer_workspace/validation/avsync_20261025-155502"
+}

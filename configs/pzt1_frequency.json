@@ -1,0 +1,49 @@
+{
+  "duration_s": 14,
+  "settings": {
+    "PZT1": {
+      "frequency_hz": 2500000,
+      "amplitude_vpp": 0.1
+    },
+    "PZT2": {
+      "frequency_hz": 2500000,
+      "amplitude_vpp": 0.1
+    },
+    "PZT3": {
+      "frequency_hz": 2500000,
+      "amplitude_vpp": 0.1
+    },
+    "PZT4": {
+      "frequency_hz": 2500000,
+      "amplitude_vpp": 0.1
+    }
+  },
+  "steps": [
+    {
+      "at_s": 0,
+      "state": "IDLE"
+    },
+    {
+      "at_s": 5,
+      "state": "IDLE",
+      "frequencies_hz": {
+        "PZT1": 2600000
+      }
+    },
+    {
+      "at_s": 6,
+      "state": "IDLE",
+      "frequencies_hz": {
+        "PZT1": 2500000
+      }
+    },
+    {
+      "at_s": 9,
+      "state": "IDLE"
+    },
+    {
+      "at_s": 14,
+      "state": "STOP"
+    }
+  ]
+}

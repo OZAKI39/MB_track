@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-23T12:43:57.094036+00:00",
+  "wsl_process_id": 217707,
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--repeat",
+    "10",
+    "--output-dir",
+    "customer_workspace/validation/timing_10_20261023-144314/experiments"
+  ]
+}

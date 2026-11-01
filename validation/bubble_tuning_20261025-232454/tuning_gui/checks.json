@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "original_parameters_visible_without_changing_annotations",
+    "default_preview_matches_existing_algorithm_without_writing_labels",
+    "rapid_parameter_changes_only_adopt_latest_preview",
+    "switching_back_restores_existing_annotation_and_keeps_trial_parameters",
+    "unfinished_manual_polygon_blocks_preview_without_losing_vertices",
+    "classified_regions_are_protected_from_automatic_replacement",
+    "old_draft_save_failure_prevents_replacement",
+    "adoption_preserves_manual_revision_and_saves_parameters_as_unconfirmed_draft",
+    "adoption_is_one_undoable_edit_and_does_not_change_classified_regions",
+    "saved_parameters_and_labels_reload_with_their_frame",
+    "frame_switch_discards_stale_worker_result_and_bounds_work_queue",
+    "failed_and_empty_previews_never_erase_existing_labels",
+    "original_detector_configuration_is_unchanged",
+    "closing_with_background_preview_releases_both_views_safely"
+  ],
+  "measurements": [
+    {
+      "frame_id": "gui_fixture_four_pzt_f000030",
+      "initial_count": 236,
+      "threshold_18_count": 43,
+      "initial_compute_ms": 223.33999600959942,
+      "threshold_18_compute_ms": 43.000598991056904
+    }
+  ]
+}

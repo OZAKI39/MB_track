@@ -1,0 +1,28 @@
+{
+  "case": 3,
+  "name": "四路共同工作与待机",
+  "passed": true,
+  "problems": [],
+  "experiment_status": "completed",
+  "timeline_started_utc": "2026-10-25T11:49:34.068198+00:00",
+  "completed_s": 21.211522099998547,
+  "limit_s": 25.0,
+  "stable_checks": 5,
+  "stable_channel_readbacks": 20,
+  "parameter_commands": 16,
+  "maximum_command_lateness_ms": 1.4418999780900776,
+  "cancel_request": null,
+  "shutdown": {
+    "event": "shutdown_finished",
+    "action": "all_off",
+    "state_requested": "STOP",
+    "planned_s": 20,
+    "actual_start_s": 20.000040699989768,
+    "actual_finish_s": 20.086369199998444,
+    "duration_s": 0.0863285000086762,
+    "errors": []
+  },
+  "independent_all_outputs_off": true,
+  "execution_error": null,
+  "physical_signal_timing_measured": false
+}

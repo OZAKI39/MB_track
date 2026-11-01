@@ -1,0 +1,20 @@
+[
+  {
+    "experiment": "A",
+    "status": "completed",
+    "offered": 3960,
+    "processed": 3940,
+    "replaced": 20,
+    "expired": 0,
+    "all_submitted_saved": true
+  },
+  {
+    "experiment": "B",
+    "status": "completed",
+    "offered": 3960,
+    "processed": 3960,
+    "replaced": 0,
+    "expired": 0,
+    "all_submitted_saved": true
+  }
+]

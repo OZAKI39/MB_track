@@ -1,0 +1,386 @@
+{
+  "created_utc": "2026-10-23T18:33:03.014394+00:00",
+  "status": "failed",
+  "data_reliable": false,
+  "protocol": {
+    "mode": "write_query",
+    "channel": "PZT1",
+    "count": 1000,
+    "interval_ms": 50.0,
+    "before_query_ms": 0,
+    "before_read_ms": 0,
+    "read_size": 20480,
+    "reader": "native",
+    "batch_mode": "legacy_lines",
+    "config": "configs\\afg.json",
+    "plan": "customer_workspace\\configs\\pzt1_pulse.json",
+    "output_dir": "customer_workspace\\validation\\io_diagnosis_20261023-202752\\a_write_query_immediate"
+  },
+  "outputs_enabled_by_diagnostic": false,
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "initial_channels": {
+    "PZT1": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT2": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT3": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT4": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    }
+  },
+  "precheck": {
+    "phase": "before",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      }
+    },
+    "passed": true
+  },
+  "session": {
+    "resource": "USB0::0x0699::0x0353::2147075::0::INSTR",
+    "visa_library": "C:\\Windows\\system32\\visa32.dll",
+    "timeout_ms": 3000,
+    "read_termination": "\n",
+    "write_termination": "\n",
+    "query_delay_s": 0.0
+  },
+  "timeline_started_utc": "2026-10-23T18:33:04.954478+00:00",
+  "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+  "error_traceback": "Traceback (most recent call last):\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\visa_diagnostics.py\", line 164, in run_diagnostic\n    read_with_evidence(session, row, args.read_size)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\visa_diagnostics.py\", line 37, in read_with_evidence\n    status = session.visalib.lib.viRead(\n        session.session, buffer, size, ctypes.byref(returned)\n    )\n  File \"F:\\Tektronix_control\\.venv\\Lib\\site-packages\\pyvisa\\ctwrapper\\highlevel.py\", line 227, in _return_handler\n    return self.handle_return_value(session, ret_value)  # type: ignore\n           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\Tektronix_control\\.venv\\Lib\\site-packages\\pyvisa\\highlevel.py\", line 252, in handle_return_value\n    raise errors.VisaIOError(rv)\npyvisa.errors.VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.\n",
+  "shutdown_errors": [],
+  "all_outputs_off_confirmed": true,
+  "postcheck": {
+    "phase": "after",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 1,
+        "query_commands": 41
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 1,
+        "query_commands": 41
+      }
+    },
+    "passed": true
+  },
+  "recorded_commands": 102,
+  "successful_replies": 101,
+  "finished_utc": "2026-10-23T18:33:10.765159+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "pytest_command": ".venv/bin/python -m pytest -q customer_workspace/tests/test_joint_region_fusion.py customer_workspace/tests/test_bubble_tracking.py customer_workspace/tests/test_bubble_tracking_review.py customer_workspace/tests/test_sam21_initial_tracking.py customer_workspace/tests/test_sam21_tracking_review.py",
+  "tests_passed": 38,
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "new_known_answer_tests": 11,
+  "hardware_used": false,
+  "regression_1320_frames": "rule_regression.json",
+  "bounded_memory_64_frames": "memory_validation.json"
+}

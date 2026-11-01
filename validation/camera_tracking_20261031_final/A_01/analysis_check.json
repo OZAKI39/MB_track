@@ -1,0 +1,62 @@
+{
+  "engine": "microbubble_tracking.OnlineProcessor",
+  "window": {
+    "seconds": 22.0,
+    "first_seq": 1,
+    "last_seq": 1320,
+    "frames": 1320,
+    "ffmpeg_exit": 0
+  },
+  "processed": 1301,
+  "saved": 1301,
+  "analysis_hz": 59.13636363636363,
+  "actual_tracking_results": 1301,
+  "processing_ms": {
+    "median": 11.528563998581376,
+    "p95": 18.493144001695327,
+    "p99": 22.290706998319365,
+    "max": 30.129968996334355
+  },
+  "software_age_upper_bound_ms": {
+    "median": 29.87609200499719,
+    "p95": 46.5023669967195,
+    "p99": 51.355796997086145,
+    "max": 72.96897200285457
+  },
+  "completion_interval_ms": {
+    "median": 15.902764502243372,
+    "p95": 27.765012644158556,
+    "p99": 34.66578158491756,
+    "max": 44.61928299861029
+  },
+  "recorder_dropped": 0,
+  "analysis_skipped": 19,
+  "bridge_overwritten": 19,
+  "threads_closed": true,
+  "pipeline_error": null,
+  "latency_scope": "Windows receipt to WSL result conservative bound; not exposure time",
+  "tracking_summary": {
+    "status": "completed",
+    "frames": 1301,
+    "observations": 21652,
+    "tracks": 178,
+    "confirmed_tracks": 108,
+    "events_by_status": {
+      "confirmed_tracks": 202,
+      "rejected_short_track": 140
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 19,
+    "peak_active_tracks": 26,
+    "persistence": {
+      "submitted_frames": 1301,
+      "committed_frames": 1301,
+      "pending_records": 0,
+      "peak_pending_records": 2,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 1320,
+      "error": null
+    }
+  },
+  "recording_passed": true
+}

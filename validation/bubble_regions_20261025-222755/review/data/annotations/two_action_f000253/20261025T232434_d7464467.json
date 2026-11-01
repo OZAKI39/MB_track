@@ -1,0 +1,51 @@
+{
+  "schema": 2,
+  "candidate_id": "two_action_f000253",
+  "image_sha256": "2bd0e8d1d661b792c29a0bd0c468be2cdc98fde79afa6cad31d6d37832635dd6",
+  "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+  "split": "review_only",
+  "sequence_id": "two_action",
+  "revision": "20261025T232434_d7464467",
+  "utc": "2026-10-25T23:24:34.380249+00:00",
+  "mask_file": "20261025T232434_d7464467.npz",
+  "mask_sha256": "68e95e7a5f0dcba662ad5cb957eeebabd5e47e1bd2d158b8cc5214fbd2cf6273",
+  "reviewer": "zhiyao",
+  "expert_confirmed": true,
+  "status": "EXPERT_CONFIRMED",
+  "review_scope": "FULL_FRAME",
+  "review_regions": [],
+  "invalidated_region_ids": [],
+  "workspace_roi_yxyx": null,
+  "proposal_sources": [
+    {
+      "method": "opencv_region_candidates",
+      "human_verified": false
+    }
+  ],
+  "classes": [
+    "SINGLE_BUBBLE",
+    "AGGREGATE",
+    "BACKGROUND_ARTIFACT",
+    "UNCERTAIN",
+    "OUT_OF_FOCUS"
+  ],
+  "class_overlap_pixels": 0,
+  "instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 68,
+    "OUT_OF_FOCUS": 0
+  },
+  "track_ids": {},
+  "notes": "",
+  "units": "pixels",
+  "physical_fusion_claim": false,
+  "reviewed_instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 68,
+    "OUT_OF_FOCUS": 0
+  }
+}

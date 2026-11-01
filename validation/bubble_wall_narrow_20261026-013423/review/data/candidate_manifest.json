@@ -1,0 +1,1206 @@
+{
+  "version": 1,
+  "session_id": "review",
+  "rows": [
+    {
+      "id": "four_pzt_f000030",
+      "image": "data/candidates/four_pzt_f000030.png",
+      "image_sha256": "9471a626ce1bfeb3bd6f0acadb8cf29b864596166b6ddbd951d2ffdd2652fc7e",
+      "overlay": "overlays/four_pzt_f000030.png",
+      "mask": "masks/four_pzt_f000030.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 30,
+      "source_pts": 45000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 0.5,
+      "relative_time_s": 0.5,
+      "requested_time_s": 0.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 40,
+      "uncertain_count": 18
+    },
+    {
+      "id": "four_pzt_f000168",
+      "image": "data/candidates/four_pzt_f000168.png",
+      "image_sha256": "a1581532273e596f90684f3c8813948686afaa16ce0e2e0e0d243ef061e99fcc",
+      "overlay": "overlays/four_pzt_f000168.png",
+      "mask": "masks/four_pzt_f000168.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 168,
+      "source_pts": 252000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 2.8,
+      "relative_time_s": 2.8,
+      "requested_time_s": 2.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 41,
+      "uncertain_count": 19
+    },
+    {
+      "id": "four_pzt_f000210",
+      "image": "data/candidates/four_pzt_f000210.png",
+      "image_sha256": "f772a7eb17ff08afaa707305c6f1c40bc0c26033c7b9fa72faf38c818828f30c",
+      "overlay": "overlays/four_pzt_f000210.png",
+      "mask": "masks/four_pzt_f000210.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 210,
+      "source_pts": 315000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 3.5,
+      "relative_time_s": 3.5,
+      "requested_time_s": 3.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 35,
+      "uncertain_count": 18
+    },
+    {
+      "id": "four_pzt_f000348",
+      "image": "data/candidates/four_pzt_f000348.png",
+      "image_sha256": "f4f4cb0984a992a125102703b573719535dda406753780b618946bd1a1fd4e1a",
+      "overlay": "overlays/four_pzt_f000348.png",
+      "mask": "masks/four_pzt_f000348.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 348,
+      "source_pts": 522000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 5.8,
+      "relative_time_s": 5.8,
+      "requested_time_s": 5.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 32,
+      "uncertain_count": 13
+    },
+    {
+      "id": "four_pzt_f000390",
+      "image": "data/candidates/four_pzt_f000390.png",
+      "image_sha256": "a66f5135749f80ce48ce1a6d254a8ff01b4b071ff1a9d88f350d64cc6d005da8",
+      "overlay": "overlays/four_pzt_f000390.png",
+      "mask": "masks/four_pzt_f000390.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 390,
+      "source_pts": 585000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 6.5,
+      "relative_time_s": 6.5,
+      "requested_time_s": 6.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 12
+    },
+    {
+      "id": "four_pzt_f000528",
+      "image": "data/candidates/four_pzt_f000528.png",
+      "image_sha256": "88f294552535ad48c9978dd8807b5ff9bae78a5628bbe2723762734bd2fdce54",
+      "overlay": "overlays/four_pzt_f000528.png",
+      "mask": "masks/four_pzt_f000528.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 528,
+      "source_pts": 792000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 8.8,
+      "relative_time_s": 8.8,
+      "requested_time_s": 8.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 11
+    },
+    {
+      "id": "four_pzt_f000570",
+      "image": "data/candidates/four_pzt_f000570.png",
+      "image_sha256": "5b2684a3375874f30766c2acd2fda5da2ac40d68a37173c55a39a677e7b24014",
+      "overlay": "overlays/four_pzt_f000570.png",
+      "mask": "masks/four_pzt_f000570.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 570,
+      "source_pts": 855000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 9.5,
+      "relative_time_s": 9.5,
+      "requested_time_s": 9.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 14
+    },
+    {
+      "id": "four_pzt_f000708",
+      "image": "data/candidates/four_pzt_f000708.png",
+      "image_sha256": "4ffa328c613e239b7f7c5f6f53478de9ea6a213b58d1e6bfee64dd7ea7f0bf9d",
+      "overlay": "overlays/four_pzt_f000708.png",
+      "mask": "masks/four_pzt_f000708.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 708,
+      "source_pts": 1062000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 11.8,
+      "relative_time_s": 11.8,
+      "requested_time_s": 11.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 11
+    },
+    {
+      "id": "four_pzt_f000750",
+      "image": "data/candidates/four_pzt_f000750.png",
+      "image_sha256": "0a8e109e485f5c91e9757eb88c44a0e8711b975ad2da25e76d2eaaefeb993841",
+      "overlay": "overlays/four_pzt_f000750.png",
+      "mask": "masks/four_pzt_f000750.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 750,
+      "source_pts": 1125000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 12.5,
+      "relative_time_s": 12.5,
+      "requested_time_s": 12.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 26,
+      "uncertain_count": 9
+    },
+    {
+      "id": "four_pzt_f000888",
+      "image": "data/candidates/four_pzt_f000888.png",
+      "image_sha256": "8acbe840c5731293effbdd362e0f2018f07a2694193c570e5cae9fac5c32d714",
+      "overlay": "overlays/four_pzt_f000888.png",
+      "mask": "masks/four_pzt_f000888.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 888,
+      "source_pts": 1332000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 14.8,
+      "relative_time_s": 14.8,
+      "requested_time_s": 14.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 13
+    },
+    {
+      "id": "four_pzt_f000930",
+      "image": "data/candidates/four_pzt_f000930.png",
+      "image_sha256": "9a684d808a1f4ca73f4f2eb27b4b89a86e4b5a12a70741d2664fd402da31ac40",
+      "overlay": "overlays/four_pzt_f000930.png",
+      "mask": "masks/four_pzt_f000930.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 930,
+      "source_pts": 1395000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 15.5,
+      "relative_time_s": 15.5,
+      "requested_time_s": 15.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 30,
+      "uncertain_count": 14
+    },
+    {
+      "id": "four_pzt_f001068",
+      "image": "data/candidates/four_pzt_f001068.png",
+      "image_sha256": "821c5790d454ac0f527116f55c702258f81e1bdbadfcfeffc74265bc93e2710d",
+      "overlay": "overlays/four_pzt_f001068.png",
+      "mask": "masks/four_pzt_f001068.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1068,
+      "source_pts": 1602000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 17.8,
+      "relative_time_s": 17.8,
+      "requested_time_s": 17.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 24,
+      "uncertain_count": 12
+    },
+    {
+      "id": "four_pzt_f001110",
+      "image": "data/candidates/four_pzt_f001110.png",
+      "image_sha256": "9b2c5ae179ba15a6e3e83f8b0e93f3ba7c28a3d241654dfea6a1cd7413203a63",
+      "overlay": "overlays/four_pzt_f001110.png",
+      "mask": "masks/four_pzt_f001110.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1110,
+      "source_pts": 1665000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 18.5,
+      "relative_time_s": 18.5,
+      "requested_time_s": 18.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 27,
+      "uncertain_count": 13
+    },
+    {
+      "id": "four_pzt_f001170",
+      "image": "data/candidates/four_pzt_f001170.png",
+      "image_sha256": "ac62ccaf6528f34a0b46b3a59020af53fa4f848b6800cc86313873c00cdb7f91",
+      "overlay": "overlays/four_pzt_f001170.png",
+      "mask": "masks/four_pzt_f001170.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1170,
+      "source_pts": 1755000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 19.5,
+      "relative_time_s": 19.5,
+      "requested_time_s": 19.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 15
+    },
+    {
+      "id": "four_pzt_f001260",
+      "image": "data/candidates/four_pzt_f001260.png",
+      "image_sha256": "e71fbf7b152506d44d6bb3f38355cb6c91aaa4ace093de4dfcaa3a29d5332496",
+      "overlay": "overlays/four_pzt_f001260.png",
+      "mask": "masks/four_pzt_f001260.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1260,
+      "source_pts": 1890000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 21.0,
+      "relative_time_s": 21.0,
+      "requested_time_s": 21.0,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 15
+    },
+    {
+      "id": "two_action_f000030",
+      "image": "data/candidates/two_action_f000030.png",
+      "image_sha256": "807634dc54f3843f24677ab5bb36661b632dec0fd5309bb358bf99aca48b3c03",
+      "overlay": "overlays/two_action_f000030.png",
+      "mask": "masks/two_action_f000030.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 30,
+      "source_pts": 45000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 0.5,
+      "relative_time_s": 0.5,
+      "requested_time_s": 0.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 28,
+      "uncertain_count": 12
+    },
+    {
+      "id": "two_action_f000211",
+      "image": "data/candidates/two_action_f000211.png",
+      "image_sha256": "d21fe5d28fe97157a7d83e0782b111141a0a9272d898ac8327b2d8bba637de5d",
+      "overlay": "overlays/two_action_f000211.png",
+      "mask": "masks/two_action_f000211.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 211,
+      "source_pts": 316498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 3.5166444444444442,
+      "relative_time_s": 3.5166444444444442,
+      "requested_time_s": 3.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 30,
+      "uncertain_count": 11
+    },
+    {
+      "id": "two_action_f000253",
+      "image": "data/candidates/two_action_f000253.png",
+      "image_sha256": "2bd0e8d1d661b792c29a0bd0c468be2cdc98fde79afa6cad31d6d37832635dd6",
+      "overlay": "overlays/two_action_f000253.png",
+      "mask": "masks/two_action_f000253.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 253,
+      "source_pts": 379498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 4.216644444444444,
+      "relative_time_s": 4.216644444444444,
+      "requested_time_s": 4.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 27,
+      "uncertain_count": 10
+    },
+    {
+      "id": "two_action_f000331",
+      "image": "data/candidates/two_action_f000331.png",
+      "image_sha256": "896b4abd048fe0e1d8a56d9459ea12cee8c230fecbe455556cdfdb7dc3901c0e",
+      "overlay": "overlays/two_action_f000331.png",
+      "mask": "masks/two_action_f000331.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 331,
+      "source_pts": 496498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 5.516644444444444,
+      "relative_time_s": 5.516644444444444,
+      "requested_time_s": 5.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 24,
+      "uncertain_count": 10
+    },
+    {
+      "id": "two_action_f000451",
+      "image": "data/candidates/two_action_f000451.png",
+      "image_sha256": "c78b070c13aee250018111576dc7822972fedfafb1a25091ec9e18358b62f1d8",
+      "overlay": "overlays/two_action_f000451.png",
+      "mask": "masks/two_action_f000451.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 451,
+      "source_pts": 676498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 7.516644444444444,
+      "relative_time_s": 7.516644444444444,
+      "requested_time_s": 7.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 24,
+      "uncertain_count": 10
+    },
+    {
+      "id": "two_action_f000493",
+      "image": "data/candidates/two_action_f000493.png",
+      "image_sha256": "584da59aea40d6f217e1de694d9bceb285edc958cd0f38f03f9868da1ed2bd14",
+      "overlay": "overlays/two_action_f000493.png",
+      "mask": "masks/two_action_f000493.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 493,
+      "source_pts": 739498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 8.216644444444444,
+      "relative_time_s": 8.216644444444444,
+      "requested_time_s": 8.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 26,
+      "uncertain_count": 10
+    },
+    {
+      "id": "two_action_f000571",
+      "image": "data/candidates/two_action_f000571.png",
+      "image_sha256": "5d0e4406cc4605701e225ad01b2adba46e4824bc4e66e67a2e2a7ffcd83fedb5",
+      "overlay": "overlays/two_action_f000571.png",
+      "mask": "masks/two_action_f000571.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 571,
+      "source_pts": 856498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 9.516644444444445,
+      "relative_time_s": 9.516644444444445,
+      "requested_time_s": 9.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 23,
+      "uncertain_count": 10
+    },
+    {
+      "id": "two_action_f000691",
+      "image": "data/candidates/two_action_f000691.png",
+      "image_sha256": "7b1263f4b3148b958dcdb74e209ce2f9be66e100d2094c98a478657ae13b52bf",
+      "overlay": "overlays/two_action_f000691.png",
+      "mask": "masks/two_action_f000691.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 691,
+      "source_pts": 1036498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 11.516644444444445,
+      "relative_time_s": 11.516644444444445,
+      "requested_time_s": 11.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 25,
+      "uncertain_count": 11
+    },
+    {
+      "id": "two_action_f000733",
+      "image": "data/candidates/two_action_f000733.png",
+      "image_sha256": "fa2a6e853665c9e95907a26ecaadeba90ef29eeac20a3349659446f81297f560",
+      "overlay": "overlays/two_action_f000733.png",
+      "mask": "masks/two_action_f000733.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 733,
+      "source_pts": 1099498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 12.216644444444444,
+      "relative_time_s": 12.216644444444444,
+      "requested_time_s": 12.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 28,
+      "uncertain_count": 13
+    },
+    {
+      "id": "two_action_f000811",
+      "image": "data/candidates/two_action_f000811.png",
+      "image_sha256": "8ee0c9f58535c067a39041cf5fb0996a34c893fffe7a162a83de95f47dadc04b",
+      "overlay": "overlays/two_action_f000811.png",
+      "mask": "masks/two_action_f000811.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 811,
+      "source_pts": 1216498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 13.516644444444445,
+      "relative_time_s": 13.516644444444445,
+      "requested_time_s": 13.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 25,
+      "uncertain_count": 10
+    },
+    {
+      "id": "two_action_f000931",
+      "image": "data/candidates/two_action_f000931.png",
+      "image_sha256": "8265657a6ca48b456a3c13d691ab6256aa331483105f9e756484f4db08979721",
+      "overlay": "overlays/two_action_f000931.png",
+      "mask": "masks/two_action_f000931.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 931,
+      "source_pts": 1396498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 15.516644444444445,
+      "relative_time_s": 15.516644444444445,
+      "requested_time_s": 15.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 27,
+      "uncertain_count": 11
+    },
+    {
+      "id": "two_action_f000973",
+      "image": "data/candidates/two_action_f000973.png",
+      "image_sha256": "d15c99f0c420f15b628002ba508fdea80d924fcdd7e2326b140a8ab186198aa0",
+      "overlay": "overlays/two_action_f000973.png",
+      "mask": "masks/two_action_f000973.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 973,
+      "source_pts": 1459498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 16.216644444444444,
+      "relative_time_s": 16.216644444444444,
+      "requested_time_s": 16.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 26,
+      "uncertain_count": 12
+    },
+    {
+      "id": "two_action_f001051",
+      "image": "data/candidates/two_action_f001051.png",
+      "image_sha256": "1dfa7b474471222cc956a71c6cd8d27cfd578db4e91f16993ef50d8cf67b5888",
+      "overlay": "overlays/two_action_f001051.png",
+      "mask": "masks/two_action_f001051.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 1051,
+      "source_pts": 1576498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 17.516644444444445,
+      "relative_time_s": 17.516644444444445,
+      "requested_time_s": 17.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 27,
+      "uncertain_count": 12
+    },
+    {
+      "id": "two_action_f001171",
+      "image": "data/candidates/two_action_f001171.png",
+      "image_sha256": "bb3667f2058cac6a999cc120b40ac4cc4443dafe63540a9513ed4346d4d9a9dc",
+      "overlay": "overlays/two_action_f001171.png",
+      "mask": "masks/two_action_f001171.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 1171,
+      "source_pts": 1756498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 19.516644444444445,
+      "relative_time_s": 19.516644444444445,
+      "requested_time_s": 19.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 27,
+      "uncertain_count": 12
+    },
+    {
+      "id": "two_action_f001261",
+      "image": "data/candidates/two_action_f001261.png",
+      "image_sha256": "b4e8075eeeba47e39e0d91725d8800789ffdb71afcba6076efcae25bc489bc3c",
+      "overlay": "overlays/two_action_f001261.png",
+      "mask": "masks/two_action_f001261.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 1261,
+      "source_pts": 1891498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 21.016644444444445,
+      "relative_time_s": 21.016644444444445,
+      "requested_time_s": 21.0,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 26,
+      "uncertain_count": 12
+    }
+  ]
+}

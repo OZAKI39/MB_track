@@ -35,15 +35,17 @@ bubble_tracker.py — 明场显微视频中微泡 / 微泡团的分割与跟踪�
   python bubble_tracker.py expB.mp4 --bg online --ref resA/background.npy --out resB_online
 """
 import argparse
+import colorsys
 import csv
 import json
+import math
 import os
 import shutil
 import subprocess
 import time
-import colorsys
 from collections import defaultdict, deque
 from dataclasses import dataclass, field
+from typing import Optional
 
 import cv2
 import numpy as np
@@ -173,6 +175,71 @@ def remove_thick_blobs(B, thick=14, lo=0.06, open_r=7, ring=4):
     return out
 
 
+class SegmentationWorkspace:
+    """缓存 B + 1，复用暗度及区域标号的工作区，保留原运算顺序。
+
+    此对象属于一个视频流，不能跨线程共用。背景原地改变后，必须调用
+    refresh_rows 更新对应行；OnlineBackground.update 已负责这件事。
+    compute 返回内部暂用数组，下一次调用会覆盖，需保留时应复制。
+    """
+
+    def __init__(self, background: np.ndarray):
+        if background.ndim != 2 or background.dtype not in (np.float32, np.float64):
+            raise ValueError("Expected a two-dimensional floating-point background")
+        self.background = background
+        self._denominator = np.empty_like(background)
+        self._darkness = np.empty_like(background)
+        self.component_labels = np.empty(background.shape, np.int32)
+        self.selection_mask = np.zeros(background.shape, np.uint8)
+        # take() 需要 intp 索引；按小段准备，避免内部把整图临时转换为 intp。
+        self._label_indices = np.zeros(
+            (min(64, background.shape[0]), background.shape[1]), np.intp
+        )
+        self.refresh_rows(0, background.shape[0])
+
+    def refresh_rows(self, start: int, stop: int) -> None:
+        """只重算已更新背景的行；其余像素的 B + 1 继续有效。"""
+        if not 0 <= start <= stop <= self.background.shape[0]:
+            raise ValueError("Invalid background update rows")
+        np.add(self.background[start:stop], 1.0, out=self._denominator[start:stop])
+
+    def compute(self, blurred: np.ndarray, *, diagnostics=None) -> np.ndarray:
+        """用同样的浮点运算计算整幅图，不缩小视野、不改变阈值。"""
+        if (
+            blurred.shape != self.background.shape
+            or blurred.dtype != self.background.dtype
+        ):
+            raise ValueError(
+                "Blurred frame and cached background must match shape and dtype"
+            )
+        np.divide(blurred, self._denominator, out=self._darkness)
+        if diagnostics is not None:
+            diagnostics.mark("contrast_divide")
+        np.subtract(1.0, self._darkness, out=self._darkness)
+        if diagnostics is not None:
+            diagnostics.mark("contrast_subtract")
+        median = np.median(self._darkness[::8, ::8])
+        if diagnostics is not None:
+            diagnostics.mark("contrast_median")
+        self._darkness -= median
+        if diagnostics is not None:
+            diagnostics.mark("contrast_center")
+        return self._darkness
+
+    def remap_labels(self, labels: np.ndarray, lookup: np.ndarray) -> None:
+        """分段原地重编号；调用方保证标签是本次绘制生成的有效 lookup 下标。
+
+        每段先把旧编号复制到独立的小工作区，再写回原标签图，不会读到已改写
+        的编号。clip 仅为避免 take 的异常保护缓冲；内部编号始终在表内。
+        """
+        rows = self._label_indices.shape[0]
+        for start in range(0, labels.shape[0], rows):
+            target = labels[start:start + rows]
+            indices = self._label_indices[:target.shape[0]]
+            np.copyto(indices, target)
+            np.take(lookup, indices, out=target, mode="clip")
+
+
 class OnlineBackground:
     """非对称慢速更新：背景像素变亮时较快跟上，变暗时极慢；前景及其周边不更新，
     所以停住的团不会被吸收。画面按行分成 bands 条，每帧只更新一条（轮流），
@@ -180,6 +247,7 @@ class OnlineBackground:
 
     def __init__(self, B0, a_up=0.2, a_down=0.002, bands=10, fg_margin=6):
         self.B = B0.astype(np.float32).copy()
+        self.workspace = SegmentationWorkspace(self.B)
         self.a_up, self.a_down, self.bands = np.float32(a_up), np.float32(a_down), bands
         self.K = _disk(fg_margin)
         self.m = fg_margin + 2
@@ -197,6 +265,7 @@ class OnlineBackground:
         a = np.where(diff > 0, self.a_up, self.a_down)
         a[fg > 0] = 0
         Bs += a * diff
+        self.workspace.refresh_rows(y0, y1)
 
 
 # ============================================================================
@@ -211,28 +280,116 @@ class SegParams:
     blur: float = 1.0
 
 
-def segment(f, B, p: SegParams, K):
-    """B 为已模糊的背景。返回 labels(uint16)、外轮廓列表、模糊后的帧。"""
-    fb = cv2.GaussianBlur(f, (0, 0), p.blur)
-    D = 1.0 - fb / (B + 1.0)
-    D -= np.median(D[::8, ::8])
+def segment(f, B, p: SegParams, K, *, timings=None, workspace=None, diagnostics=None,
+            labels_out=None, blurred_out=None):
+    """返回 labels、外轮廓和模糊图；缓存只复用计算空间，不改识别规则。
+
+    workspace 必须绑定本次 B；背景更新后需刷新相应行。省略时保持原调用方式。
+    默认返回独立结果，下一帧不会覆盖。显式提供 labels_out 时直接写入该数组；
+    blurred_out 同理，指定时将平滑结果写入该空间，否则仍返回独立平滑图。
+    调用方必须先用完上一帧（包括背景更新），再复用这两张图；不能把借用的图
+    交给尚未完成的异步读者。外轮廓始终独立。labels_out 仅用于已提供 workspace
+    的串行处理，平滑强度和边缘处理不因提供输出空间而改变。
+    """
+    started = time.perf_counter() if timings is not None else 0.0
+    detailed = diagnostics if diagnostics is not None and diagnostics.detailed else None
+    if labels_out is not None and (
+        workspace is None
+        or labels_out.shape != f.shape
+        or labels_out.dtype != np.uint16
+        or not labels_out.flags.c_contiguous
+        or not labels_out.flags.writeable
+        or np.shares_memory(labels_out, f)
+        or np.shares_memory(labels_out, B)
+    ):
+        raise ValueError(
+            "labels_out requires a workspace and independent writable "
+            "C-contiguous uint16 storage matching the frame"
+        )
+    if blurred_out is not None:
+        protected = [f, B]
+        if labels_out is not None:
+            protected.append(labels_out)
+        if workspace is not None:
+            protected.extend((
+                workspace._denominator, workspace._darkness,
+                workspace.component_labels, workspace.selection_mask,
+                workspace._label_indices,
+            ))
+        if (
+            blurred_out.shape != f.shape
+            or blurred_out.dtype != f.dtype
+            or not blurred_out.flags.c_contiguous
+            or not blurred_out.flags.writeable
+            or any(np.shares_memory(blurred_out, array) for array in protected)
+        ):
+            raise ValueError(
+                "blurred_out requires independent writable C-contiguous storage "
+                "matching the frame shape and dtype"
+            )
+    fb = cv2.GaussianBlur(f, (0, 0), p.blur, dst=blurred_out)
+    after_blur = time.perf_counter() if timings is not None else 0.0
+    if diagnostics is not None:
+        diagnostics.mark("blur")
+    if workspace is None:
+        D = 1.0 - fb / (B + 1.0)
+        D -= np.median(D[::8, ::8])
+    else:
+        if workspace.background is not B:
+            raise ValueError("Darkness cache belongs to a different background")
+        D = workspace.compute(fb, diagnostics=detailed)
+    after_contrast = time.perf_counter() if timings is not None else 0.0
+    if diagnostics is not None:
+        diagnostics.mark("contrast")
     lo_m = cv2.morphologyEx((D > p.lo).astype(np.uint8), cv2.MORPH_CLOSE, K)
-    n, lab, st, _ = cv2.connectedComponentsWithStats(lo_m, connectivity=8)
+    after_candidates = time.perf_counter() if timings is not None else 0.0
+    if diagnostics is not None:
+        diagnostics.mark("candidates")
+    if workspace is None:
+        n, lab, st, _ = cv2.connectedComponentsWithStats(lo_m, connectivity=8)
+    else:
+        # 同时复用区域标号缓冲，避免暗度数组的分配方式改变后，
+        # 后续标号步骤反而变慢；仍调用同一个函数，连通方式也不变。
+        n, lab, st, _ = cv2.connectedComponentsWithStats(
+            lo_m, labels=workspace.component_labels, connectivity=8
+        )
+    after_components = time.perf_counter() if timings is not None else 0.0
+    if diagnostics is not None:
+        diagnostics.mark("components")
     keep = np.zeros(n, bool)
     keep[np.unique(lab[(D > p.hi) & (lo_m > 0)])] = True
+    if detailed is not None:
+        detailed.mark("selection_strong_core")
     keep[0] = False
-    m = np.zeros(f.shape, np.uint8)
+    if workspace is None:
+        m = np.zeros(f.shape, np.uint8)
+    else:
+        m = workspace.selection_mask
+        m.fill(0)
+    if detailed is not None:
+        detailed.mark("selection_allocate")
     for k in np.nonzero(keep)[0]:
         x, y, w, h = st[k, :4]
         m[y:y + h, x:x + w] |= (lab[y:y + h, x:x + w] == k).astype(np.uint8)
+    after_selection = time.perf_counter() if timings is not None else 0.0
+    if diagnostics is not None:
+        diagnostics.mark("selection")
     contours, _ = cv2.findContours(m, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
-    labels = np.zeros(f.shape, np.uint16)
+    if diagnostics is not None:
+        diagnostics.mark("find_contours")
+    if labels_out is None:
+        labels = np.zeros(f.shape, np.uint16)
+    else:
+        labels = labels_out
+        labels.fill(0)
     kept = []
     for c in contours:
         if cv2.contourArea(c) < p.min_area * 0.5:     # 粗筛，精确面积在下面按像素数算
             continue
         kept.append(c)
         cv2.drawContours(labels, [c], -1, len(kept), thickness=-1)
+    if diagnostics is not None:
+        diagnostics.mark("draw_contours")
     if kept:
         areas = np.bincount(labels[labels > 0], minlength=len(kept) + 1)
         good = [j for j in range(1, len(kept) + 1) if areas[j] >= p.min_area]
@@ -240,8 +397,22 @@ def segment(f, B, p: SegParams, K):
             remap = np.zeros(len(kept) + 1, np.uint16)
             for new, old in enumerate(good, start=1):
                 remap[old] = new
-            labels = remap[labels]
+            if workspace is None:
+                labels = remap[labels]
+            else:
+                workspace.remap_labels(labels, remap)
             kept = [kept[j - 1] for j in good]
+    if diagnostics is not None:
+        diagnostics.mark("filter_areas")
+    if timings is not None:
+        timings.update(
+            seg_blur_ms=(after_blur - started) * 1000,
+            seg_contrast_ms=(after_contrast - after_blur) * 1000,
+            seg_candidates_ms=(after_candidates - after_contrast) * 1000,
+            seg_components_ms=(after_components - after_candidates) * 1000,
+            seg_selection_ms=(after_selection - after_components) * 1000,
+            seg_contours_ms=(time.perf_counter() - after_selection) * 1000,
+        )
     return labels, kept, fb
 
 
@@ -282,6 +453,8 @@ class Track:
     last: int = 0
     alive: bool = True
     parents: list = field(default_factory=list)
+    time_s: Optional[float] = None
+    observations: int = 0
 
 
 @dataclass
@@ -289,16 +462,36 @@ class TrackParams:
     min_overlap_px: int = 3
     min_overlap_frac: float = 0.15   # 相对较小一方的面积
     gate_px: float = 15.0            # 无重叠时的距离门限（另加速度项）
-    max_gap: int = 8                 # 允许丢失的帧数
+    max_gap: int = 8                 # 允许匹配的源帧号差（不是已处理帧数量）
     min_len: int = 5                 # 确认所需帧数
     border: int = 8
     vel_alpha: float = 0.5
 
 
 class Tracker:
-    def __init__(self, shape, tp: TrackParams):
+    def __init__(self, shape, tp: TrackParams, *, retain_history=True,
+                 time_based=False, max_gap_s=None, time_tolerance_s=0.0):
+        """复用同一匹配算法；在线时可按画面时间计算速度，并释放已结束状态。
+
+        默认行为保持原录像入口：速度为像素/帧，历史用于 finalize()。
+        time_based=True 时必须逐帧提供严格递增的 timestamp_s；速度为
+        像素/秒，关联同时受真实帧号跨度和 max_gap_s 限制。
+        time_tolerance_s 只容纳调用方明确给出的时钟舍入余量。
+        retain_history=False 时 step() 返回当帧数据，由调用者负责写盘。
+        """
+        if time_based and (max_gap_s is None or not math.isfinite(max_gap_s)
+                           or max_gap_s <= 0):
+            raise ValueError('Time-based tracking requires a positive max_gap_s')
+        if not math.isfinite(time_tolerance_s) or time_tolerance_s < 0:
+            raise ValueError('time_tolerance_s must be finite and nonnegative')
         self.H, self.W = shape
         self.tp = tp
+        self.retain_history = retain_history
+        self.time_based = time_based
+        self.max_gap_s = max_gap_s
+        self.time_tolerance_s = time_tolerance_s
+        self.previous_frame = None
+        self.previous_time_s = None
         self.tracks = {}
         self.next_id = 1
         self.events, self.rows = [], []
@@ -316,29 +509,49 @@ class Tracker:
         return x < b or y < b or x > self.W - b or y > self.H - b
 
     def _event(self, frame, kind, ids, result, f):
-        self.events.append(dict(frame=frame, type=kind, ids=list(ids), result=result, x=f['cx'], y=f['cy']))
+        return dict(frame=frame, type=kind, ids=list(ids), result=result,
+                    x=f['cx'], y=f['cy'])
 
-    def step(self, frame, labels, contours):
+    def step(self, frame, labels, contours, *, timestamp_s=None, timings=None):
+        """处理一帧并返回当帧记录；不替缺帧生成位置或轮廓。"""
+        if self.previous_frame is not None and frame <= self.previous_frame:
+            raise ValueError('Source frame numbers must increase')
+        if self.time_based:
+            if timestamp_s is None or not math.isfinite(timestamp_s):
+                raise ValueError('A finite source timestamp is required')
+            if self.previous_time_s is not None and timestamp_s <= self.previous_time_s:
+                raise ValueError('Source timestamps must increase')
+
+        def elapsed(track):
+            return timestamp_s - track.time_s if self.time_based else frame - track.last
+
+        def eligible(track):
+            return (track.alive and frame - track.last <= self.tp.max_gap
+                    and (not self.time_based or elapsed(track)
+                         <= self.max_gap_s + self.time_tolerance_s + 1e-9))
+
+        rows, events, frame_contours = [], [], []
         tp = self.tp
         n_det = len(contours)
         pix = [None] * (n_det + 1)
-        if n_det:
-            ys, xs = np.nonzero(labels)
-            vals = labels[ys, xs]
-            o = np.argsort(vals, kind='stable')
-            ys, xs, vals = ys[o], xs[o], vals[o]
-            b = np.searchsorted(vals, np.arange(1, n_det + 2))
-            for j in range(1, n_det + 1):
-                pix[j] = (ys[b[j - 1]:b[j]], xs[b[j - 1]:b[j]])
+        pixels_started = time.perf_counter() if timings is not None else 0.0
+        for j, contour in enumerate(contours, start=1):
+            # 只扫描该轮廓的包围矩形，再核对真实标签；保留孔洞和覆盖关系。
+            # nonzero 仍按行、列顺序返回，与原来的全图扫描 + 稳定分组一致。
+            x, y, width, height = cv2.boundingRect(contour)
+            ys, xs = np.nonzero(labels[y:y + height, x:x + width] == j)
+            pix[j] = (ys + y, xs + x)
+        after_pixels = time.perf_counter() if timings is not None else 0.0
         feats = [None] + [shape_features(pix[j][0], pix[j][1], contours[j - 1]) for j in range(1, n_det + 1)]
+        after_features = time.perf_counter() if timings is not None else 0.0
         det_area = np.array([0] + [f['area'] for f in feats[1:]])
 
-        active = [t for t in self.tracks.values() if t.alive and frame - t.last <= tp.max_gap]
+        active = [t for t in self.tracks.values() if eligible(t)]
         nT = len(active)
         O = np.zeros((nT, n_det + 1), np.int64)
         pred = np.zeros((nT, 2))
         for a, t in enumerate(active):
-            gap = frame - t.last
+            gap = elapsed(t)
             dx, dy = t.vx * gap, t.vy * gap
             pred[a] = (t.cx + dx, t.cy + dy)
             yy = np.clip(np.round(t.ys + dy).astype(int), 0, self.H - 1)
@@ -368,7 +581,9 @@ class Tracker:
                     host = owner[j]
                     active[a].alive = False
                     matched.add(a)
-                    self._event(frame, 'merge', [active[a].id, host.id], host.id, feats[j])
+                    events.append(self._event(
+                        frame, 'merge', [active[a].id, host.id], host.id, feats[j]
+                    ))
             for j in range(1, n_det + 1):
                 if j in owner or not sig[:, j].any():
                     continue
@@ -379,7 +594,9 @@ class Tracker:
                 t = self._new(frame, *pix[j], feats[j], parents=[parent.id])
                 t.vx, t.vy = parent.vx, parent.vy
                 owner[j] = t
-                self._event(frame, 'split', [parent.id, t.id], parent.id, feats[j])
+                events.append(self._event(
+                    frame, 'split', [parent.id, t.id], parent.id, feats[j]
+                ))
 
         # 2. 无重叠：按预测位置距离匹配
         free_tr = [a for a in range(nT) if a not in matched]
@@ -388,7 +605,7 @@ class Tracker:
             C = np.full((len(free_tr), len(free_det)), 1e9)
             for u, a in enumerate(free_tr):
                 t = active[a]
-                gate = tp.gate_px + 2.0 * np.hypot(t.vx, t.vy) * (frame - t.last)
+                gate = tp.gate_px + 2.0 * np.hypot(t.vx, t.vy) * elapsed(t)
                 for w, j in enumerate(free_det):
                     d = np.hypot(feats[j]['cx'] - pred[a, 0], feats[j]['cy'] - pred[a, 1])
                     ratio = max(t.area, det_area[j]) / max(1, min(t.area, det_area[j]))
@@ -406,27 +623,53 @@ class Tracker:
             if j in owner:
                 t = owner[j]
                 if t.first != frame:
-                    gap = max(1, frame - t.last)
+                    gap = elapsed(t)
                     al = tp.vel_alpha
                     t.vx = al * (f['cx'] - t.cx) / gap + (1 - al) * t.vx
                     t.vy = al * (f['cy'] - t.cy) / gap + (1 - al) * t.vy
             else:
                 t = self._new(frame, *pix[j], f)
-                self._event(frame, 'enter' if self._near_border(f['cx'], f['cy']) else 'appear', [t.id], t.id, f)
+                kind = 'enter' if self._near_border(f['cx'], f['cy']) else 'appear'
+                events.append(self._event(frame, kind, [t.id], t.id, f))
             t.ys, t.xs = pix[j]
             t.cx, t.cy, t.area, t.last = f['cx'], f['cy'], f['area'], frame
-            self.rows.append(dict(frame=frame, id=t.id, vx=t.vx, vy=t.vy, **f))
-            self.contours.setdefault(frame, []).append((t.id, contours[j - 1]))
+            t.time_s = timestamp_s
+            t.observations += 1
+            rows.append(dict(frame=frame, id=t.id, vx=t.vx, vy=t.vy, **f))
+            frame_contours.append((t.id, contours[j - 1]))
 
         # 4. 超时结束
         for t in self.tracks.values():
-            if t.alive and frame - t.last > tp.max_gap:
+            if t.alive and not eligible(t):
                 t.alive = False
-                self.events.append(dict(frame=t.last, type='exit' if self._near_border(t.cx, t.cy) else 'lost',
-                                        ids=[t.id], result=t.id, x=t.cx, y=t.cy))
+                kind = 'exit' if self._near_border(t.cx, t.cy) else 'lost'
+                events.append(dict(
+                    frame=t.last, type=kind, ids=[t.id], result=t.id, x=t.cx, y=t.cy
+                ))
+
+        ended = []
+        if self.retain_history:
+            self.rows.extend(rows)
+            self.events.extend(events)
+            if frame_contours:
+                self.contours[frame] = frame_contours
+        else:
+            ended = [t for t in self.tracks.values() if not t.alive]
+            for track in ended:
+                del self.tracks[track.id]
+        self.previous_frame, self.previous_time_s = frame, timestamp_s
+        if timings is not None:
+            timings.update(
+                track_pixels_ms=(after_pixels - pixels_started) * 1000,
+                track_features_ms=(after_features - after_pixels) * 1000,
+                track_matching_ms=(time.perf_counter() - after_features) * 1000,
+            )
+        return dict(rows=rows, events=events, contours=frame_contours, ended=ended)
 
     def finalize(self):
         """丢弃短命轨迹（分割闪烁）及相关事件，按出现顺序重新编号。"""
+        if not self.retain_history:
+            raise RuntimeError('Streaming history is on disk; IDs must not be renumbered')
         counts, first = defaultdict(int), {}
         for r in self.rows:
             counts[r['id']] += 1
@@ -533,11 +776,12 @@ def run(video, crop=None, mode='offline', refs=(), seg=SegParams(), tp=TrackPara
     B, bg_src = build_background(video, crop, mode, list(refs), percentile, verbose)
     K = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (seg.close, seg.close))
     online = OnlineBackground(B) if mode == 'online' else None
+    workspace = online.workspace if online is not None else SegmentationWorkspace(B)
     tracker, times = None, []
     for i, f in iter_frames(video, crop, start, stop):
         t0 = time.perf_counter()
         Bcur = online.B if online is not None else B
-        labels, contours, fb = segment(f, Bcur, seg, K)
+        labels, contours, fb = segment(f, Bcur, seg, K, workspace=workspace)
         if tracker is None:
             tracker = Tracker(f.shape, tp)
         tracker.step(i, labels, contours)

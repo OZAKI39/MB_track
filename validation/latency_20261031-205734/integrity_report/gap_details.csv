@@ -1,0 +1,5 @@
+run,source_frame,video_frame,video_time_s,outcome,previous_analyzed_video_frame,previous_processing_ms,decoded_to_next_publication_ms,previous_analysis_end_minus_next_publication_ms
+A_on,398,307,5.116666667,decoded_not_analyzed,306,16.254442001809366,6.462380988523364,9.437125001568347
+B_on,93,1,0.016655556,decoded_not_analyzed,0,10.109591006767005,5.966283002635464,0.32206199830397964
+B_on,733,641,10.683322222,decoded_not_analyzed,640,9.593552997102961,5.073855994851328,1.3565669942181557
+B_on,1371,1279,21.316633333,decoded_not_analyzed,1278,11.116715002572164,8.30217199109029,1.4731660048710182

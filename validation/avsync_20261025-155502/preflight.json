@@ -1,0 +1,90 @@
+{
+  "identities": {},
+  "channels": {
+    "PZT1": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.1,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT2": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.1,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT3": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.1,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT4": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.1,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    }
+  },
+  "python": "3.14.2"
+}

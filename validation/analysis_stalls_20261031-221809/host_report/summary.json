@@ -1,0 +1,2408 @@
+{
+  "etl": "/mnt/c/Users/lzy/AppData/Local/Temp/analysis_stalls_20261031-221809/capture/host.etl",
+  "origin_qpc": 852853753562,
+  "frequency": 10000000,
+  "clock_unix_check_median_s": -2.9442828369141694e-05,
+  "rtt_ms": [
+    0.7550594964413904,
+    1.9615491591684988,
+    2.40271000075154
+  ],
+  "interpolation_residual_abs_p99_ms": 0.34889647891162656,
+  "windows": [
+    {
+      "run": "A_r3",
+      "source_frame": 410,
+      "video_frame": 318,
+      "start_wsl_s": 83981.189428509,
+      "end_wsl_s": 83981.198382475,
+      "analysis_ms": 8.953966011176817,
+      "main_thread_cpu_ms": 8.953471999999962,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 22.683709788248077,
+      "end_etw_s": 22.692668072152273,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.1230087,
+          "qpc": 853077055859,
+          "send_s": 83980.835543517,
+          "receive_s": 83980.83627914
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.373824,
+          "qpc": 853079565105,
+          "send_s": 83981.086457815,
+          "receive_s": 83981.08738709
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.624068,
+          "qpc": 853082076256,
+          "send_s": 83981.337548847,
+          "receive_s": 83981.338284183
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.8759844,
+          "qpc": 853084584322,
+          "send_s": 83981.588410421,
+          "receive_s": 83981.589099899
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481997.1264362,
+          "qpc": 853087092854,
+          "send_s": 83981.83928072,
+          "receive_s": 83981.8398327
+        }
+      ],
+      "local_half_rtt_max_ms": 0.4646374945878051,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_410.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "22653709",
+        "22722668"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 86.1314068503381,
+        "vmmemWSL (36780)": 33.722356056466694,
+        "NVDisplay.Container.exe (3768)": 8.234283904194832,
+        "ffmpeg.exe (45120)": 1.6412117519229652,
+        "msedgewebview2.exe (11884)": 1.0230000000000001,
+        "Code.exe (37336)": 0.611,
+        "msedgewebview2.exe (13384)": 0.5940000000000001,
+        "System (   4)": 0.5820000000000003,
+        "Code.exe (12340)": 0.455,
+        "WeChatAppEx.exe (33748)": 0.41600000000000004,
+        "python.exe (8832)": 0.31499999999999995,
+        "CrossDeviceService.exe (15904)": 0.22899999999999998,
+        "GameViewerServer.exe (46248)": 0.08800000000000001,
+        "chrome.exe (23172)": 0.056,
+        "QQ.exe (31084)": 0.03,
+        "QQ.exe (13148)": 0.026,
+        "UPSecurityInput.exe (40596)": 0.025,
+        "NahimicSvc64.exe (15676)": 0.023,
+        "wsl.exe (41852)": 0.022,
+        "Weixin.exe (10736)": 0.022,
+        "WeChatAppEx.exe (9412)": 0.020999999999999998,
+        "WhatsApp.Root.exe (28832)": 0.02,
+        "QQ.exe (31316)": 0.019,
+        "TeamViewer.exe (7944)": 0.019,
+        "QQEX.exe (34156)": 0.017,
+        "Hao Wallpaper.exe (23624)": 0.011,
+        "FortiSSLVPNdaemon.exe (14488)": 0.011,
+        "QQ.exe (31940)": 0.01,
+        "dwm.exe (2500)": 0.0,
+        "GCUService.exe (10940)": 0.0,
+        "ffmpeg.exe (21252)": 0.0,
+        "vivoesService_x64.exe (6148)": 0.0,
+        "QQEX.exe (33972)": 0.0,
+        "ffmpeg.exe (51296)": 0.0,
+        "csrss.exe (1556)": 0.0,
+        "AdskLicensingService.exe (6628)": 0.0,
+        "vmwp.exe (36928)": 0.0,
+        "mediamtx.exe (1568)": 0.0,
+        "svchost.exe (28984)": 0.0,
+        "FortiVPN.exe (14536)": 0.0,
+        "eaio_agent.exe (10800)": 0.0,
+        "eaio_agent.exe (2508)": 0.0,
+        "svchost.exe (13904)": 0.0,
+        "helper.exe (6980)": 0.0,
+        "python.exe (46452)": 0.0,
+        "svchost.exe (31840)": 0.0,
+        "aTrustAgent.exe (16388)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "GameViewerService.exe (6272)": 0.0,
+        "chrome.exe (39624)": 0.0,
+        "WUDFHost.exe (47180)": 0.0,
+        "GameViewer.exe (12852)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "TeamViewer_Service.exe (7732)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "NVDisplay.Container.exe (9268)": 0.0,
+        "Weixin.exe (31580)": 0.0,
+        "UPService.exe (6716)": 0.0,
+        "lsass.exe (1868)": 0.0
+      },
+      "fault_and_disk_events": [],
+      "vmmem_ready_waits": []
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 411,
+      "video_frame": 319,
+      "start_wsl_s": 83981.23305335,
+      "end_wsl_s": 83981.250604649,
+      "analysis_ms": 17.551298995385878,
+      "main_thread_cpu_ms": 17.548909999999474,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 22.72735566657377,
+      "end_etw_s": 22.744915429375176,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.1230087,
+          "qpc": 853077055859,
+          "send_s": 83980.835543517,
+          "receive_s": 83980.83627914
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.373824,
+          "qpc": 853079565105,
+          "send_s": 83981.086457815,
+          "receive_s": 83981.08738709
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.624068,
+          "qpc": 853082076256,
+          "send_s": 83981.337548847,
+          "receive_s": 83981.338284183
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481996.8759844,
+          "qpc": 853084584322,
+          "send_s": 83981.588410421,
+          "receive_s": 83981.589099899
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793481997.1264362,
+          "qpc": 853087092854,
+          "send_s": 83981.83928072,
+          "receive_s": 83981.8398327
+        }
+      ],
+      "local_half_rtt_max_ms": 0.4646374945878051,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_411.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "22697355",
+        "22774915"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 57.51771805807944,
+        "vmmemWSL (36780)": 53.256384353160904,
+        "svchost.exe (2524)": 23.061576251052326,
+        "NVDisplay.Container.exe (3768)": 14.23876280140504,
+        "QQ.exe (2776)": 10.381429375175385,
+        "QQEX.exe (34204)": 10.039,
+        "QQEX.exe (33972)": 9.114,
+        "QQ.exe (32060)": 8.469429375175388,
+        "chrome.exe (35572)": 8.011,
+        "QQ.exe (31084)": 7.926429375175387,
+        "Code.exe (40456)": 7.396429375175388,
+        "Code.exe (40028)": 6.969,
+        "Code.exe (40536)": 6.708,
+        "Code.exe (40904)": 6.690000000000002,
+        "msedge.exe (31008)": 6.689333426229652,
+        "chrome.exe (39624)": 6.655,
+        "Code.exe (31552)": 6.340000000000001,
+        "QQ.exe (13148)": 6.301,
+        "UPService.exe (6716)": 5.715333426229655,
+        "msedgewebview2.exe (19288)": 5.5243334262296555,
+        "msedgewebview2.exe (18816)": 5.389429375175387,
+        "msedge.exe (44672)": 4.720000000000001,
+        "msedgewebview2.exe (17392)": 4.173429375175387,
+        "WeChatAppEx.exe (23324)": 4.12,
+        "WeChatAppEx.exe (1116)": 3.9750000000000005,
+        "Hao Wallpaper.exe (20668)": 3.738000000000001,
+        "msedgewebview2.exe (11892)": 3.4030000000000005,
+        "msedgewebview2.exe (18244)": 3.132,
+        "Hao Wallpaper.exe (13768)": 3.091762801405043,
+        "msedgewebview2.exe (16464)": 2.991429375175387,
+        "ffmpeg.exe (45120)": 2.641000000000001,
+        "System (   4)": 2.031333426229652,
+        "python.exe (8832)": 2.017,
+        "svchost.exe (2612)": 1.8709999999999996,
+        "GCUBridge.exe (6704)": 1.3119999999999987,
+        "Code.exe (12340)": 1.056,
+        "MsMpEng.exe (7132)": 0.9880000000000005,
+        "Code.exe (37336)": 0.9876668524593117,
+        "mediamtx.exe (1568)": 0.8580000000000003,
+        "Weixin.exe (31580)": 0.8560000000000003,
+        "aTrustTray.exe (27224)": 0.552,
+        "aTrustTray.exe (27052)": 0.5010000000000001,
+        "ffmpeg.exe (51296)": 0.493,
+        "ffmpeg.exe (21252)": 0.41500000000000004,
+        "wsl.exe (41852)": 0.327,
+        "WeChatAppEx.exe (33748)": 0.155,
+        "eaio_agent.exe (10800)": 0.109,
+        "GameViewerServer.exe (46248)": 0.096,
+        "eaio_agent.exe (2508)": 0.089,
+        "helper.exe (6980)": 0.052,
+        "aTrustAgent.exe (16388)": 0.05,
+        "QQ.exe (31940)": 0.039,
+        "UPSecurityInput.exe (40596)": 0.033999999999999996,
+        "WeChatAppEx.exe (9412)": 0.032,
+        "QQ.exe (31316)": 0.031,
+        "Hao Wallpaper.exe (23624)": 0.025,
+        "aTrustAgent.exe (6596)": 0.024,
+        "QQEX.exe (34156)": 0.016,
+        "OneDrive.Sync.Service.exe (38108)": 0.016,
+        "MemCompression (4188)": 0.016,
+        "WhatsApp.Root.exe (28832)": 0.013,
+        "TeamViewer.exe (7944)": 0.012,
+        "FortiSSLVPNdaemon.exe (14488)": 0.011,
+        "Weixin.exe (10736)": 0.009,
+        "NahimicSvc64.exe (15676)": 0.008,
+        "AdskLicensingService.exe (6628)": 0.0,
+        "msedgewebview2.exe (11884)": 0.0,
+        "msedgewebview2.exe (13384)": 0.0,
+        "WUDFHost.exe (47180)": 0.0,
+        "GameViewer.exe (12852)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "TeamViewer_Service.exe (7732)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "NVDisplay.Container.exe (9268)": 0.0,
+        "lsass.exe (1868)": 0.0,
+        "dwm.exe (2500)": 0.0,
+        "CrossDeviceService.exe (15904)": 0.0,
+        "SearchIndexer.exe (10788)": 0.0,
+        "svchost.exe (1276)": 0.0,
+        "svchost.exe (4532)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "vmwp.exe (36928)": 0.0,
+        "csrss.exe (1696)": 0.0,
+        "python.exe (46452)": 0.0
+      },
+      "fault_and_disk_events": [
+        [
+          "InMemoryStoreFault",
+          "22727676",
+          "vmmemWSL (36780)",
+          "36896",
+          "0x0000018f93020000",
+          "0x00f20f8000",
+          "0x00001000",
+          "26",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ],
+        [
+          "InMemoryStoreFault",
+          "22727715",
+          "vmmemWSL (36780)",
+          "36896",
+          "0x0000018f93021000",
+          "0x00f20fb000",
+          "0x00005000",
+          "8",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ],
+        [
+          "InMemoryStoreFault",
+          "22727783",
+          "vmmemWSL (36780)",
+          "36896",
+          "0x0000018f93026000",
+          "0x00f2102000",
+          "0x00006000",
+          "9",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ]
+      ],
+      "vmmem_ready_waits": [
+        {
+          "tid": 37640,
+          "overlap_ms": 1.619,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.765,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (31552)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.392,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.362,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.235,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.162,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37796,
+          "overlap_ms": 0.146,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.138,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.129,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.112,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.096,
+          "reason": "WrYieldExecution",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.089,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.089,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.088,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.066,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.055,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.053,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.053,
+          "reason": "WrDispatchInt",
+          "next_process": "svchost.exe (2524)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.051,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.046,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.045,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37796,
+          "overlap_ms": 0.044,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.043,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.042,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37796,
+          "overlap_ms": 0.037,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.037,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.033,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.033,
+          "reason": "WrDispatchInt",
+          "next_process": "python.exe (8832)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.03,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.028,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.025,
+          "reason": "WrYieldExecution",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.025,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.021,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.021,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.021,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.02,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.018,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.018,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.017,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.016,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.016,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.015,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.015,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.015,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.013,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.013,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.012,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.012,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.012,
+          "reason": "WrDispatchInt",
+          "next_process": "ffmpeg.exe (45120)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.01,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.009,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.007,
+          "reason": "WrDispatchInt",
+          "next_process": "ffmpeg.exe (45120)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.006,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (40536)"
+        },
+        {
+          "tid": 37596,
+          "overlap_ms": 0.006,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.004,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (17392)"
+        },
+        {
+          "tid": 37796,
+          "overlap_ms": 0.003,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.002,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.002,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        }
+      ]
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 1215,
+      "video_frame": 1123,
+      "start_wsl_s": 83994.609213823,
+      "end_wsl_s": 83994.618036723,
+      "analysis_ms": 8.822899995720945,
+      "main_thread_cpu_ms": 8.822314999999747,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 36.10338269790743,
+      "end_etw_s": 36.112200056899155,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.4245265,
+          "qpc": 853210072269,
+          "send_s": 83994.137348218,
+          "receive_s": 83994.137919307
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.6750844,
+          "qpc": 853212581649,
+          "send_s": 83994.388087816,
+          "receive_s": 83994.388914608
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.926909,
+          "qpc": 853215090449,
+          "send_s": 83994.639079278,
+          "receive_s": 83994.639998462
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.1769328,
+          "qpc": 853217602146,
+          "send_s": 83994.890288391,
+          "receive_s": 83994.890929375
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.4275427,
+          "qpc": 853220110245,
+          "send_s": 83995.141136594,
+          "receive_s": 83995.141732977
+        }
+      ],
+      "local_half_rtt_max_ms": 0.45959199633216485,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_1215.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "36073382",
+        "36142200"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 81.29258991727234,
+        "vmmemWSL (36780)": 24.991717983454464,
+        "NVDisplay.Container.exe (3768)": 8.226358991727233,
+        "Code.exe (12340)": 8.091358991727231,
+        "python.exe (8832)": 0.32599999999999996,
+        "System (   4)": 0.30800000000000005,
+        "Code.exe (37336)": 0.181,
+        "wsl.exe (41852)": 0.026,
+        "msedgewebview2.exe (11884)": 0.0,
+        "dwm.exe (2500)": 0.0,
+        "QQ.exe (31084)": 0.0,
+        "NahimicSvc64.exe (15676)": 0.0,
+        "chrome.exe (39624)": 0.0,
+        "FortiSSLVPNdaemon.exe (14488)": 0.0,
+        "QQ.exe (31940)": 0.0,
+        "Code.exe (47368)": 0.0,
+        "QQEX.exe (34156)": 0.0,
+        "QQ.exe (31316)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "Hao Wallpaper.exe (23624)": 0.0,
+        "ffmpeg.exe (51296)": 0.0,
+        "TeamViewer.exe (7944)": 0.0,
+        "WeChatAppEx.exe (9412)": 0.0,
+        "ffmpeg.exe (21252)": 0.0,
+        "QQ.exe (13148)": 0.0,
+        "Weixin.exe (10736)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "GameViewerServer.exe (46248)": 0.0,
+        "WhatsApp.Root.exe (28832)": 0.0,
+        "UPSecurityInput.exe (40596)": 0.0,
+        "GCUService.exe (10940)": 0.0,
+        "aTrustAgent.exe (16388)": 0.0,
+        "vmwp.exe (36928)": 0.0,
+        "mediamtx.exe (1568)": 0.0,
+        "dllhost.exe (41688)": 0.0,
+        "wsl.exe (41788)": 0.0,
+        "Code.exe (40028)": 0.0,
+        "Code.exe (41532)": 0.0,
+        "Code.exe (40560)": 0.0,
+        "Code.exe (40904)": 0.0,
+        "kwallpaper.exe (17336)": 0.0,
+        "eaio_agent.exe (10800)": 0.0,
+        "eaio_agent.exe (2508)": 0.0,
+        "MathWorksServiceHost.exe (13164)": 0.0,
+        "vivoesService_x64.exe (6148)": 0.0,
+        "tv_w32.exe (15584)": 0.0,
+        "MathWorksServiceHost-Monitor.exe (27416)": 0.0,
+        "svchost.exe (5140)": 0.0,
+        "AdskLicensingService.exe (6628)": 0.0,
+        "QQEX.exe (33972)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "AdskAccessServiceHost.exe (6892)": 0.0,
+        "FortiTray.exe (14476)": 0.0,
+        "FCDBLog.exe (12548)": 0.0,
+        "CrossDeviceService.exe (15904)": 0.0,
+        "ffmpeg.exe (45120)": 0.0,
+        "wslservice.exe (6800)": 0.0,
+        "svchost.exe (2524)": 0.0,
+        "aTrustXtunnel.exe (16888)": 0.0,
+        "msedgewebview2.exe (18816)": 0.0,
+        "MemCompression (4188)": 0.0,
+        "powershell.exe (42732)": 0.0,
+        "helper.exe (6980)": 0.0,
+        "python.exe (46452)": 0.0
+      },
+      "fault_and_disk_events": [],
+      "vmmem_ready_waits": [
+        {
+          "tid": 37648,
+          "overlap_ms": 0.01,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        }
+      ]
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 1217,
+      "video_frame": 1125,
+      "start_wsl_s": 83994.641082528,
+      "end_wsl_s": 83994.659475162,
+      "analysis_ms": 18.392633995972574,
+      "main_thread_cpu_ms": 18.391720000000333,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 36.13523297092149,
+      "end_etw_s": 36.15363290768668,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.6750844,
+          "qpc": 853212581649,
+          "send_s": 83994.388087816,
+          "receive_s": 83994.388914608
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.926909,
+          "qpc": 853215090449,
+          "send_s": 83994.639079278,
+          "receive_s": 83994.639998462
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.1769328,
+          "qpc": 853217602146,
+          "send_s": 83994.890288391,
+          "receive_s": 83994.890929375
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.4275427,
+          "qpc": 853220110245,
+          "send_s": 83995.141136594,
+          "receive_s": 83995.141732977
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.6788728,
+          "qpc": 853222619177,
+          "send_s": 83995.392048518,
+          "receive_s": 83995.392681607
+        }
+      ],
+      "local_half_rtt_max_ms": 0.45959199633216485,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_1217.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "36105232",
+        "36183632"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 144.8511881030277,
+        "Code.exe (12340)": 136.59725641564296,
+        "vmmemWSL (36780)": 63.015053079210226,
+        "NVDisplay.Container.exe (3768)": 18.035936765186488,
+        "Code.exe (37336)": 4.909907686680555,
+        "python.exe (8832)": 3.784907686680555,
+        "Hao Wallpaper.exe (13768)": 2.1140000000000003,
+        "System (   4)": 1.2779999999999996,
+        "mediamtx.exe (1568)": 1.0210000000000001,
+        "ffmpeg.exe (21252)": 0.964,
+        "ffmpeg.exe (51296)": 0.6859999999999999,
+        "Code.exe (40560)": 0.683,
+        "Code.exe (40904)": 0.677,
+        "ffmpeg.exe (45120)": 0.469,
+        "aTrustXtunnel.exe (16888)": 0.20600000000000002,
+        "Code.exe (40028)": 0.20400000000000001,
+        "GameViewerServer.exe (46248)": 0.196,
+        "wsl.exe (41852)": 0.188,
+        "kdesk64.exe (18316)": 0.18500000000000003,
+        "msedgewebview2.exe (17912)": 0.176,
+        "helper.exe (6980)": 0.164,
+        "csrss.exe (1696)": 0.161,
+        "Weixin.exe (31580)": 0.154,
+        "python.exe (46452)": 0.144,
+        "WUDFHost.exe (47180)": 0.112,
+        "AdskLicensingService.exe (6628)": 0.10400000000000001,
+        "eaio_agent.exe (10800)": 0.091,
+        "msrdc.exe (39824)": 0.087,
+        "wsl.exe (41788)": 0.086,
+        "QQ.exe (13148)": 0.085,
+        "Code.exe (41532)": 0.082,
+        "NVDisplay.Container.exe (9268)": 0.082,
+        "eaio_agent.exe (2508)": 0.08099999999999999,
+        "TeamViewer_Service.exe (7732)": 0.065,
+        "QQ.exe (31084)": 0.062,
+        "UPSecurityInput.exe (40596)": 0.062,
+        "QQEX.exe (34156)": 0.058,
+        "FortiSSLVPNdaemon.exe (14488)": 0.05,
+        "chrome.exe (39624)": 0.048,
+        "vivoSyncService.exe (8600)": 0.034,
+        "QQ.exe (31316)": 0.033,
+        "WeChatAppEx.exe (9412)": 0.031,
+        "QQ.exe (31940)": 0.031,
+        "Hao Wallpaper.exe (23624)": 0.024,
+        "TeamViewer.exe (7944)": 0.024,
+        "WhatsApp.Root.exe (28832)": 0.023,
+        "NahimicSvc64.exe (15676)": 0.022,
+        "Weixin.exe (10736)": 0.021,
+        "MemCompression (4188)": 0.005,
+        "QQEX.exe (33972)": 0.0,
+        "aTrustAgent.exe (16388)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "AdskAccessServiceHost.exe (6892)": 0.0,
+        "FortiTray.exe (14476)": 0.0,
+        "FCDBLog.exe (12548)": 0.0,
+        "CrossDeviceService.exe (15904)": 0.0,
+        "svchost.exe (5140)": 0.0,
+        "vmwp.exe (36928)": 0.0,
+        "wslservice.exe (6800)": 0.0,
+        "svchost.exe (2524)": 0.0,
+        "dwm.exe (2500)": 0.0,
+        "msedgewebview2.exe (18816)": 0.0,
+        "powershell.exe (42732)": 0.0,
+        "MsMpEng.exe (7132)": 0.0,
+        "msedgewebview2.exe (13384)": 0.0,
+        "Code.exe (40456)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "msedgewebview2.exe (11884)": 0.0,
+        "MathWorksServiceHost.exe (13164)": 0.0
+      },
+      "fault_and_disk_events": [
+        [
+          "InMemoryStoreFault",
+          "36148047",
+          "vmmemWSL (36780)",
+          "37548",
+          "0x0000018f23e96000",
+          "0x00dea51000",
+          "0x00001000",
+          "20",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ]
+      ],
+      "vmmem_ready_waits": [
+        {
+          "tid": 36800,
+          "overlap_ms": 0.963,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.557,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 15596,
+          "overlap_ms": 0.158,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (12340)"
+        },
+        {
+          "tid": 15596,
+          "overlap_ms": 0.096,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (12340)"
+        },
+        {
+          "tid": 15596,
+          "overlap_ms": 0.095,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.059,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 15596,
+          "overlap_ms": 0.039,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.027,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (12340)"
+        },
+        {
+          "tid": 15596,
+          "overlap_ms": 0.011,
+          "reason": "WrDispatchInt",
+          "next_process": "python.exe (8832)"
+        }
+      ]
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 1221,
+      "video_frame": 1129,
+      "start_wsl_s": 83994.726401815,
+      "end_wsl_s": 83994.744926489,
+      "analysis_ms": 18.52467400021851,
+      "main_thread_cpu_ms": 18.223473000000823,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 36.22058613382137,
+      "end_etw_s": 36.239118163017096,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.6750844,
+          "qpc": 853212581649,
+          "send_s": 83994.388087816,
+          "receive_s": 83994.388914608
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482009.926909,
+          "qpc": 853215090449,
+          "send_s": 83994.639079278,
+          "receive_s": 83994.639998462
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.1769328,
+          "qpc": 853217602146,
+          "send_s": 83994.890288391,
+          "receive_s": 83994.890929375
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.4275427,
+          "qpc": 853220110245,
+          "send_s": 83995.141136594,
+          "receive_s": 83995.141732977
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482010.6788728,
+          "qpc": 853222619177,
+          "send_s": 83995.392048518,
+          "receive_s": 83995.392681607
+        }
+      ],
+      "local_half_rtt_max_ms": 0.45959199633216485,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_1221.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "36190586",
+        "36269118"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 213.12686373674873,
+        "Code.exe (12340)": 85.59509244614837,
+        "vmmemWSL (36780)": 50.03462773162125,
+        "docker.exe (47776)": 20.763163017094126,
+        "WmiPrvSE.exe (6072)": 18.508029195725918,
+        "Code.exe (37336)": 15.221029195725922,
+        "dwm.exe (2500)": 6.189,
+        "MsMpEng.exe (7132)": 4.050999999999999,
+        "msedgewebview2.exe (11884)": 2.9690000000000003,
+        "System (   4)": 2.0209999999999986,
+        "powershell.exe (8016)": 1.86,
+        "msedgewebview2.exe (13384)": 1.4419999999999997,
+        "conhost.exe (46964)": 1.383866178631782,
+        "python.exe (8832)": 1.053,
+        "ffmpeg.exe (45120)": 0.5299999999999999,
+        "QQEX.exe (33972)": 0.202,
+        "QQ.exe (13148)": 0.199,
+        "QQ.exe (31084)": 0.19,
+        "eaio_agent.exe (10800)": 0.139,
+        "wsl.exe (41852)": 0.135,
+        "helper.exe (6980)": 0.125,
+        "python.exe (46452)": 0.121,
+        "aTrustAgent.exe (16388)": 0.114,
+        "eaio_agent.exe (2508)": 0.08499999999999999,
+        "Weixin.exe (31580)": 0.073,
+        "aTrustAgent.exe (6596)": 0.047,
+        "AdskLicensingService.exe (6628)": 0.032,
+        "GameViewerServer.exe (46248)": 0.027,
+        "Code.exe (40456)": 0.0,
+        "UPSecurityInput.exe (40596)": 0.0,
+        "ffmpeg.exe (21252)": 0.0,
+        "ffmpeg.exe (51296)": 0.0,
+        "QQEX.exe (34156)": 0.0,
+        "QQ.exe (31316)": 0.0,
+        "FortiSSLVPNdaemon.exe (14488)": 0.0,
+        "Hao Wallpaper.exe (23624)": 0.0,
+        "WeChatAppEx.exe (9412)": 0.0,
+        "QQ.exe (31940)": 0.0,
+        "Code.exe (40560)": 0.0,
+        "WhatsApp.Root.exe (28832)": 0.0,
+        "WeChatAppEx.exe (1116)": 0.0,
+        "GCUService.exe (10940)": 0.0,
+        "NahimicSvc64.exe (15676)": 0.0,
+        "TeamViewer.exe (7944)": 0.0,
+        "Weixin.exe (10736)": 0.0,
+        "mediamtx.exe (1568)": 0.0,
+        "svchost.exe (5760)": 0.0,
+        "lsass.exe (1868)": 0.0,
+        "csrss.exe (1696)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "CrossDeviceService.exe (15904)": 0.0,
+        "eaio_service.exe (6580)": 0.0,
+        "svchost.exe (5752)": 0.0,
+        "msedgewebview2.exe (19884)": 0.0,
+        "taskhostw.exe (14096)": 0.0,
+        "svchost.exe (3056)": 0.0,
+        "chrome.exe (45556)": 0.0,
+        "chrome.exe (39624)": 0.0,
+        "msedge.exe (44488)": 0.0,
+        "WUDFHost.exe (47180)": 0.0,
+        "NVDisplay.Container.exe (9268)": 0.0,
+        "msedge.exe (31008)": 0.0,
+        "FortiTray.exe (14476)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "TeamViewer_Service.exe (7732)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "svchost.exe (1276)": 0.0,
+        "vmwp.exe (36928)": 0.0
+      },
+      "fault_and_disk_events": [],
+      "vmmem_ready_waits": [
+        {
+          "tid": 15596,
+          "overlap_ms": 0.016,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (37336)"
+        },
+        {
+          "tid": 15596,
+          "overlap_ms": 0.012,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        }
+      ]
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 1326,
+      "video_frame": 1234,
+      "start_wsl_s": 83996.46909396,
+      "end_wsl_s": 83996.479571998,
+      "analysis_ms": 10.47803800611291,
+      "main_thread_cpu_ms": 10.475975000000304,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 37.963325854555656,
+      "end_etw_s": 37.97380226116306,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.4318593,
+          "qpc": 853230148693,
+          "send_s": 83996.144985458,
+          "receive_s": 83996.145653558
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.6839051,
+          "qpc": 853232660430,
+          "send_s": 83996.395820899,
+          "receive_s": 83996.397066289
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.9350634,
+          "qpc": 853235175726,
+          "send_s": 83996.647425215,
+          "receive_s": 83996.64859951
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482012.1856499,
+          "qpc": 853237686026,
+          "send_s": 83996.898762845,
+          "receive_s": 83996.899431725
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482012.436729,
+          "qpc": 853240196078,
+          "send_s": 83997.149714449,
+          "receive_s": 83997.15045506
+        }
+      ],
+      "local_half_rtt_max_ms": 0.6226950063137338,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_1326.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "37933325",
+        "38003802"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 123.7962561705336,
+        "vmmemWSL (36780)": 31.305406607396915,
+        "NVDisplay.Container.exe (3768)": 9.663406607396901,
+        "UPSecurityInput.exe (40596)": 9.408406607396902,
+        "msedgewebview2.exe (11884)": 1.2409999999999999,
+        "msedgewebview2.exe (13384)": 0.689145444341004,
+        "python.exe (8832)": 0.45999999999999996,
+        "Code.exe (37336)": 0.4302908886820078,
+        "Code.exe (12340)": 0.41600000000000004,
+        "dwm.exe (2500)": 0.40399999999999997,
+        "System (   4)": 0.117,
+        "eaio_agent.exe (10800)": 0.054,
+        "eaio_agent.exe (2508)": 0.054,
+        "FortiSSLVPNdaemon.exe (14488)": 0.02,
+        "wsl.exe (41852)": 0.018,
+        "GameViewerServer.exe (46248)": 0.014,
+        "ffmpeg.exe (51296)": 0.008,
+        "Weixin.exe (31580)": 0.0,
+        "helper.exe (6980)": 0.0,
+        "MemCompression (4188)": 0.0,
+        "AdskLicensingService.exe (6628)": 0.0,
+        "QQ.exe (31316)": 0.0,
+        "QQEX.exe (33972)": 0.0,
+        "QQ.exe (13148)": 0.0,
+        "QQ.exe (31084)": 0.0,
+        "Hao Wallpaper.exe (23624)": 0.0,
+        "QQ.exe (31940)": 0.0,
+        "QQEX.exe (34156)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "WeChatAppEx.exe (9412)": 0.0,
+        "aTrustAgent.exe (16388)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "ffmpeg.exe (21252)": 0.0,
+        "NahimicSvc64.exe (15676)": 0.0,
+        "GCUBridge.exe (6704)": 0.0,
+        "Weixin.exe (10736)": 0.0,
+        "TeamViewer.exe (7944)": 0.0,
+        "kdesk64.exe (18316)": 0.0,
+        "NVDisplay.Container.exe (9268)": 0.0,
+        "FortiTray.exe (14476)": 0.0,
+        "kwallpaper.exe (17336)": 0.0,
+        "WhatsApp.Root.exe (28832)": 0.0,
+        "msrdc.exe (39824)": 0.0,
+        "svchost.exe (28984)": 0.0,
+        "csrss.exe (1696)": 0.0,
+        "mediamtx.exe (1568)": 0.0,
+        "explorer.exe (13548)": 0.0,
+        "python.exe (46452)": 0.0,
+        "TeamViewer_Service.exe (7732)": 0.0,
+        "chrome.exe (39624)": 0.0,
+        "WUDFHost.exe (47180)": 0.0,
+        "GameViewerService.exe (6272)": 0.0,
+        "Code.exe (31552)": 0.0,
+        "FCDBLog.exe (12548)": 0.0,
+        "MpDefenderCoreService.exe (6164)": 0.0,
+        "WidgetService.exe (16792)": 0.0,
+        "svchost.exe (16820)": 0.0,
+        "Code.exe (41532)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "GCUService.exe (10940)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "UPService.exe (6716)": 0.0,
+        "lsass.exe (1868)": 0.0,
+        "ffmpeg.exe (45120)": 0.0,
+        "aTrustXtunnel.exe (16888)": 0.0,
+        "Code.exe (40560)": 0.0,
+        "wsl.exe (41492)": 0.0,
+        "Code.exe (40028)": 0.0,
+        "Code.exe (40904)": 0.0,
+        "Code.exe (40456)": 0.0,
+        "wsl.exe (41788)": 0.0,
+        "OneDrive.Sync.Service.exe (38108)": 0.0,
+        "msedgewebview2.exe (18244)": 0.0,
+        "msedgewebview2.exe (16464)": 0.0,
+        "SearchIndexer.exe (10788)": 0.0,
+        "msedgewebview2.exe (18816)": 0.0,
+        "msedgewebview2.exe (19288)": 0.0,
+        "Hao Wallpaper.exe (13768)": 0.0,
+        "Hao Wallpaper.exe (20668)": 0.0,
+        "QQ.exe (2776)": 0.0,
+        "WeChatAppEx.exe (1116)": 0.0,
+        "WeChatAppEx.exe (23324)": 0.0,
+        "QQ.exe (32060)": 0.0,
+        "QQEX.exe (34204)": 0.0,
+        "Code.exe (40536)": 0.0,
+        "msedge.exe (31008)": 0.0,
+        "msedge.exe (44672)": 0.0,
+        "msedgewebview2.exe (17392)": 0.0,
+        "chrome.exe (35572)": 0.0,
+        "aTrustTray.exe (27224)": 0.0,
+        "msedgewebview2.exe (11892)": 0.0,
+        "aTrustTray.exe (27052)": 0.0,
+        "MsMpEng.exe (7132)": 0.0
+      },
+      "fault_and_disk_events": [],
+      "vmmem_ready_waits": []
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 1327,
+      "video_frame": 1235,
+      "start_wsl_s": 83996.492283817,
+      "end_wsl_s": 83996.512055393,
+      "analysis_ms": 19.77157600049395,
+      "main_thread_cpu_ms": 19.670099000000718,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 37.986512100970806,
+      "end_etw_s": 38.00628059859693,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.4318593,
+          "qpc": 853230148693,
+          "send_s": 83996.144985458,
+          "receive_s": 83996.145653558
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.6839051,
+          "qpc": 853232660430,
+          "send_s": 83996.395820899,
+          "receive_s": 83996.397066289
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.9350634,
+          "qpc": 853235175726,
+          "send_s": 83996.647425215,
+          "receive_s": 83996.64859951
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482012.1856499,
+          "qpc": 853237686026,
+          "send_s": 83996.898762845,
+          "receive_s": 83996.899431725
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482012.436729,
+          "qpc": 853240196078,
+          "send_s": 83997.149714449,
+          "receive_s": 83997.15045506
+        }
+      ],
+      "local_half_rtt_max_ms": 0.6226950063137338,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_1327.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "37956512",
+        "38036280"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 180.99838467967496,
+        "vmmemWSL (36780)": 78.2703919075727,
+        "NVDisplay.Container.exe (3768)": 19.124497626125812,
+        "UPSecurityInput.exe (40596)": 18.296899029195306,
+        "UPService.exe (6716)": 11.747899029195306,
+        "python.exe (8832)": 4.058000000000001,
+        "ffmpeg.exe (45120)": 3.8095985969305035,
+        "Code.exe (40560)": 3.8009999999999997,
+        "System (   4)": 3.1369999999999956,
+        "Code.exe (40904)": 1.9499999999999997,
+        "Code.exe (37336)": 1.8309999999999995,
+        "Code.exe (40456)": 1.6739999999999995,
+        "Weixin.exe (31580)": 1.4129999999999996,
+        "Code.exe (40028)": 1.408,
+        "ffmpeg.exe (51296)": 1.319,
+        "msedgewebview2.exe (19288)": 1.315598596930504,
+        "msedgewebview2.exe (18816)": 1.3050000000000002,
+        "mediamtx.exe (1568)": 1.2220000000000002,
+        "QQ.exe (31084)": 1.136598596930504,
+        "Code.exe (12340)": 1.1320000000000001,
+        "QQ.exe (2776)": 0.9555985969305041,
+        "aTrustTray.exe (27052)": 0.9355985969305041,
+        "Hao Wallpaper.exe (13768)": 0.8991971938610077,
+        "ffmpeg.exe (21252)": 0.899,
+        "QQ.exe (13148)": 0.8870000000000002,
+        "dwm.exe (2500)": 0.884,
+        "Hao Wallpaper.exe (20668)": 0.882598596930504,
+        "QQ.exe (32060)": 0.8210000000000002,
+        "msedgewebview2.exe (16464)": 0.7890000000000004,
+        "msedgewebview2.exe (11892)": 0.7850000000000001,
+        "Code.exe (41532)": 0.7830000000000001,
+        "chrome.exe (35572)": 0.7635985969305039,
+        "QQEX.exe (34204)": 0.754,
+        "QQEX.exe (33972)": 0.7165985969305039,
+        "WeChatAppEx.exe (1116)": 0.7150000000000003,
+        "Code.exe (31552)": 0.7060000000000002,
+        "aTrustTray.exe (27224)": 0.6750000000000002,
+        "msedgewebview2.exe (18244)": 0.6730000000000002,
+        "chrome.exe (39624)": 0.6710000000000003,
+        "WeChatAppEx.exe (23324)": 0.6635985969305039,
+        "Code.exe (40536)": 0.6450000000000001,
+        "msedge.exe (31008)": 0.5940000000000002,
+        "msedgewebview2.exe (17392)": 0.539,
+        "msedge.exe (44672)": 0.5360000000000001,
+        "OneDrive.Sync.Service.exe (38108)": 0.419,
+        "wsl.exe (41852)": 0.35899999999999993,
+        "aTrustAgent.exe (16388)": 0.227,
+        "AdskLicensingService.exe (6628)": 0.224,
+        "MsMpEng.exe (7132)": 0.203,
+        "csrss.exe (1696)": 0.176,
+        "GameViewerServer.exe (46248)": 0.16599999999999998,
+        "aTrustXtunnel.exe (16888)": 0.13699999999999998,
+        "FortiTray.exe (14476)": 0.122,
+        "SearchIndexer.exe (10788)": 0.121,
+        "wsl.exe (41788)": 0.1,
+        "TeamViewer.exe (7944)": 0.091,
+        "aTrustAgent.exe (6596)": 0.071,
+        "wsl.exe (41492)": 0.054,
+        "FortiSSLVPNdaemon.exe (14488)": 0.051000000000000004,
+        "QQ.exe (31316)": 0.039,
+        "GCUService.exe (10940)": 0.038,
+        "WeChatAppEx.exe (9412)": 0.03,
+        "QQEX.exe (34156)": 0.025,
+        "WhatsApp.Root.exe (28832)": 0.024,
+        "Weixin.exe (10736)": 0.018,
+        "Hao Wallpaper.exe (23624)": 0.017,
+        "QQ.exe (31940)": 0.016,
+        "NahimicSvc64.exe (15676)": 0.016,
+        "MemCompression (4188)": 0.016,
+        "TeamViewer_Service.exe (7732)": 0.0,
+        "WUDFHost.exe (47180)": 0.0,
+        "GameViewerService.exe (6272)": 0.0,
+        "msedgewebview2.exe (13384)": 0.0,
+        "NVDisplay.Container.exe (9268)": 0.0,
+        "FCDBLog.exe (12548)": 0.0,
+        "msedgewebview2.exe (11884)": 0.0,
+        "MpDefenderCoreService.exe (6164)": 0.0,
+        "WidgetService.exe (16792)": 0.0,
+        "svchost.exe (16820)": 0.0,
+        "eaio_agent.exe (2508)": 0.0,
+        "eaio_agent.exe (10800)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "lsass.exe (1868)": 0.0,
+        "SystrayComponent.exe (10532)": 0.0,
+        "AdskAccessService.exe (9888)": 0.0,
+        "NahimicService.exe (6796)": 0.0,
+        "OSDTpDetect.exe (18480)": 0.0,
+        "GameViewer.exe (12852)": 0.0,
+        "aTrustXtunnel.exe (17372)": 0.0,
+        "GCUBridge.exe (6704)": 0.0,
+        "svchost.exe (2612)": 0.0,
+        "svchost.exe (2524)": 0.0,
+        "CrossDeviceService.exe (15904)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "MathWorksServiceHost.exe (13164)": 0.0,
+        "svchost.exe (1276)": 0.0
+      },
+      "fault_and_disk_events": [
+        [
+          "InMemoryStoreFault",
+          "37994860",
+          "vmmemWSL (36780)",
+          "36896",
+          "0x0000018f21be8000",
+          "0x00646c3000",
+          "0x00001000",
+          "29",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ]
+      ],
+      "vmmem_ready_waits": [
+        {
+          "tid": 36940,
+          "overlap_ms": 0.031,
+          "reason": "WrDispatchInt",
+          "next_process": "ffmpeg.exe (45120)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.02,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (37336)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.012,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.011,
+          "reason": "WrDispatchInt",
+          "next_process": "Code.exe (40456)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.011,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.007,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.007,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "aTrustTray.exe (27224)"
+        },
+        {
+          "tid": 21128,
+          "overlap_ms": 0.004,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 37640,
+          "overlap_ms": 0.004,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.004,
+          "reason": "WrDispatchInt",
+          "next_process": "aTrustTray.exe (27052)"
+        },
+        {
+          "tid": 37548,
+          "overlap_ms": 0.003,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        }
+      ]
+    },
+    {
+      "run": "A_r3",
+      "source_frame": 1329,
+      "video_frame": 1237,
+      "start_wsl_s": 83996.512389743,
+      "end_wsl_s": 83996.529727542,
+      "analysis_ms": 17.33779899950605,
+      "main_thread_cpu_ms": 17.107992999999766,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 38.00661489653898,
+      "end_etw_s": 38.02394999609581,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.4318593,
+          "qpc": 853230148693,
+          "send_s": 83996.144985458,
+          "receive_s": 83996.145653558
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.6839051,
+          "qpc": 853232660430,
+          "send_s": 83996.395820899,
+          "receive_s": 83996.397066289
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482011.9350634,
+          "qpc": 853235175726,
+          "send_s": 83996.647425215,
+          "receive_s": 83996.64859951
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482012.1856499,
+          "qpc": 853237686026,
+          "send_s": 83996.898762845,
+          "receive_s": 83996.899431725
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482012.436729,
+          "qpc": 853240196078,
+          "send_s": 83997.149714449,
+          "receive_s": 83997.15045506
+        }
+      ],
+      "local_half_rtt_max_ms": 0.6226950063137338,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_A_r3_1329.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "37976614",
+        "38053949"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 78.09160905353725,
+        "vmmemWSL (36780)": 44.4034060356915,
+        "svchost.exe (2524)": 21.661980479031804,
+        "NVDisplay.Container.exe (3768)": 15.819099556826057,
+        "Code.exe (40028)": 9.734,
+        "Code.exe (40456)": 8.944,
+        "QQ.exe (13148)": 8.729999999999999,
+        "QQ.exe (31084)": 8.475099556826054,
+        "QQEX.exe (34204)": 8.044,
+        "QQEX.exe (33972)": 7.813996095806361,
+        "QQ.exe (32060)": 7.1829960958063594,
+        "Code.exe (31552)": 7.032,
+        "msedgewebview2.exe (18244)": 6.962103461019694,
+        "Code.exe (40536)": 6.898000000000001,
+        "QQ.exe (2776)": 6.889996095806359,
+        "Code.exe (40904)": 6.803996095806361,
+        "chrome.exe (39624)": 6.75399609580636,
+        "chrome.exe (35572)": 6.603,
+        "UPSecurityInput.exe (40596)": 6.563103461019695,
+        "UPService.exe (6716)": 5.978996095806359,
+        "msedge.exe (31008)": 5.576103461019694,
+        "msedgewebview2.exe (18816)": 5.481996095806359,
+        "msedgewebview2.exe (17392)": 5.443,
+        "WeChatAppEx.exe (1116)": 5.372,
+        "WeChatAppEx.exe (23324)": 5.03699609580636,
+        "msedgewebview2.exe (11892)": 4.969,
+        "Hao Wallpaper.exe (20668)": 4.658,
+        "msedgewebview2.exe (19288)": 4.657,
+        "Hao Wallpaper.exe (13768)": 4.628,
+        "msedgewebview2.exe (16464)": 4.353,
+        "msedge.exe (44672)": 3.953099556826055,
+        "MsMpEng.exe (7132)": 2.9829999999999988,
+        "Code.exe (37336)": 2.463,
+        "python.exe (8832)": 2.1441034610196947,
+        "msedgewebview2.exe (11884)": 2.09099609580636,
+        "dwm.exe (2500)": 2.0020000000000002,
+        "System (   4)": 1.8909999999999985,
+        "svchost.exe (2612)": 1.5140000000000002,
+        "Weixin.exe (31580)": 1.3499999999999994,
+        "msedgewebview2.exe (13384)": 1.3379960958063604,
+        "Code.exe (12340)": 0.9209960958063602,
+        "ffmpeg.exe (45120)": 0.8590000000000003,
+        "GCUBridge.exe (6704)": 0.7460000000000001,
+        "aTrustTray.exe (27224)": 0.693103461019695,
+        "aTrustXtunnel.exe (16888)": 0.5390000000000001,
+        "aTrustXtunnel.exe (17372)": 0.5330000000000001,
+        "mediamtx.exe (1568)": 0.531,
+        "ffmpeg.exe (21252)": 0.503,
+        "ffmpeg.exe (51296)": 0.361,
+        "SystrayComponent.exe (10532)": 0.331,
+        "OSDTpDetect.exe (18480)": 0.31800000000000006,
+        "aTrustTray.exe (27052)": 0.3161034610196948,
+        "GameViewerServer.exe (46248)": 0.30600000000000005,
+        "wsl.exe (41852)": 0.178,
+        "Code.exe (40560)": 0.121,
+        "eaio_agent.exe (10800)": 0.11299999999999999,
+        "aTrustAgent.exe (16388)": 0.10300000000000001,
+        "GameViewer.exe (12852)": 0.081,
+        "eaio_agent.exe (2508)": 0.075,
+        "NahimicSvc64.exe (15676)": 0.07200000000000001,
+        "AdskLicensingService.exe (6628)": 0.064,
+        "CrossDeviceService.exe (15904)": 0.055,
+        "WhatsApp.Root.exe (28832)": 0.046,
+        "NahimicService.exe (6796)": 0.042,
+        "FortiSSLVPNdaemon.exe (14488)": 0.033,
+        "AdskAccessService.exe (9888)": 0.03,
+        "QQEX.exe (34156)": 0.021,
+        "WeChatAppEx.exe (9412)": 0.018,
+        "QQ.exe (31940)": 0.015,
+        "TeamViewer.exe (7944)": 0.015,
+        "QQ.exe (31316)": 0.013,
+        "Weixin.exe (10736)": 0.013,
+        "Hao Wallpaper.exe (23624)": 0.013,
+        "Code.exe (41532)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "csrss.exe (1696)": 0.0,
+        "GCUService.exe (10940)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "lsass.exe (1868)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "FortiTray.exe (14476)": 0.0,
+        "MemCompression (4188)": 0.0,
+        "wsl.exe (41492)": 0.0,
+        "wsl.exe (41788)": 0.0,
+        "OneDrive.Sync.Service.exe (38108)": 0.0,
+        "SearchIndexer.exe (10788)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "MathWorksServiceHost.exe (13164)": 0.0,
+        "svchost.exe (1276)": 0.0,
+        "helper.exe (6980)": 0.0,
+        "svchost.exe (4532)": 0.0,
+        "python.exe (46452)": 0.0
+      },
+      "fault_and_disk_events": [],
+      "vmmem_ready_waits": [
+        {
+          "tid": 36940,
+          "overlap_ms": 0.344,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.23,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.2,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.082,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.075,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.074,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.067,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.06,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.054,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.049,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.045,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.032,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.027,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.02,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.019,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.016,
+          "reason": "WrDispatchInt",
+          "next_process": "svchost.exe (2524)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.01,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.003,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.003,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        }
+      ]
+    },
+    {
+      "run": "B_r3",
+      "source_frame": 468,
+      "video_frame": 376,
+      "start_wsl_s": 84035.266331134,
+      "end_wsl_s": 84035.275430347,
+      "analysis_ms": 9.09921299898997,
+      "main_thread_cpu_ms": 9.036048999999657,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 76.75595086038409,
+      "end_etw_s": 76.76504798105549,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.1132133,
+          "qpc": 853616948384,
+          "send_s": 84034.829529288,
+          "receive_s": 84034.8301484
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.3638515,
+          "qpc": 853619456361,
+          "send_s": 84035.080307005,
+          "receive_s": 84035.080927934
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.6143684,
+          "qpc": 853621963938,
+          "send_s": 84035.331061508,
+          "receive_s": 84035.331804179
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.8650253,
+          "qpc": 853624474588,
+          "send_s": 84035.582129552,
+          "receive_s": 84035.582749189
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482051.116662,
+          "qpc": 853626982719,
+          "send_s": 84035.83288399,
+          "receive_s": 84035.833561853
+        }
+      ],
+      "local_half_rtt_max_ms": 0.3713355035870336,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_B_r3_468.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "76725950",
+        "76795047"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 96.72544805669781,
+        "vmmemWSL (36780)": 20.372120671391485,
+        "UPSecurityInput.exe (40596)": 8.748120671391487,
+        "svchost.exe (5752)": 4.364,
+        "WmiPrvSE.exe (6072)": 3.096120671391487,
+        "dwm.exe (2500)": 0.8300000000000001,
+        "Code.exe (37336)": 0.6690000000000002,
+        "System (   4)": 0.5210000000000001,
+        "Code.exe (12340)": 0.48600000000000004,
+        "python.exe (45324)": 0.361,
+        "python.exe (46452)": 0.211,
+        "msedgewebview2.exe (11884)": 0.041,
+        "wsl.exe (41852)": 0.032,
+        "ffmpeg.exe (23516)": 0.0,
+        "vivoesService_x64.exe (6148)": 0.0,
+        "NVDisplay.Container.exe (3768)": 0.0,
+        "ffmpeg.exe (21252)": 0.0,
+        "MemCompression (4188)": 0.0,
+        "helper.exe (6980)": 0.0,
+        "QQEX.exe (34156)": 0.0,
+        "QQ.exe (31316)": 0.0,
+        "FortiSSLVPNdaemon.exe (14488)": 0.0,
+        "WeChatAppEx.exe (9412)": 0.0,
+        "QQ.exe (31940)": 0.0,
+        "QQ.exe (31084)": 0.0,
+        "QQ.exe (13148)": 0.0,
+        "GameViewerServer.exe (46248)": 0.0,
+        "ffmpeg.exe (51296)": 0.0,
+        "Hao Wallpaper.exe (23624)": 0.0,
+        "msedgewebview2.exe (13384)": 0.0,
+        "powershell.exe (8016)": 0.0,
+        "TeamViewer.exe (7944)": 0.0,
+        "Weixin.exe (10736)": 0.0,
+        "WhatsApp.Root.exe (28832)": 0.0,
+        "NahimicSvc64.exe (15676)": 0.0,
+        "eaio_agent.exe (2508)": 0.0,
+        "eaio_agent.exe (10800)": 0.0,
+        "mediamtx.exe (1568)": 0.0,
+        "vmwp.exe (36928)": 0.0,
+        "WeChatAppEx.exe (36820)": 0.0,
+        "AdskLicensingService.exe (6628)": 0.0,
+        "Code.exe (40904)": 0.0,
+        "chrome.exe (39624)": 0.0,
+        "aTrustTray.exe (27052)": 0.0,
+        "QQEX.exe (33972)": 0.0,
+        "aTrustAgent.exe (16388)": 0.0,
+        "chrome.exe (44548)": 0.0,
+        "chrome.exe (43916)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "CrossDeviceResume.exe (11808)": 0.0,
+        "MathWorksServiceHost.exe (13164)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "QQEX.exe (34204)": 0.0,
+        "svchost.exe (5028)": 0.0,
+        "kwallpaperex.exe (19936)": 0.0,
+        "Code.exe (11396)": 0.0,
+        "chrome.exe (20884)": 0.0,
+        "chrome.exe (35572)": 0.0,
+        "csrss.exe (1696)": 0.0,
+        "svchost.exe (5760)": 0.0,
+        "MsMpEng.exe (7132)": 0.0
+      },
+      "fault_and_disk_events": [],
+      "vmmem_ready_waits": [
+        {
+          "tid": 36940,
+          "overlap_ms": 0.248,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.245,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        }
+      ]
+    },
+    {
+      "run": "B_r3",
+      "source_frame": 469,
+      "video_frame": 377,
+      "start_wsl_s": 84035.298715701,
+      "end_wsl_s": 84035.316336662,
+      "analysis_ms": 17.62096099264454,
+      "main_thread_cpu_ms": 17.618865000000206,
+      "runnable_wait_ms": 0.0,
+      "start_etw_s": 76.78832798068896,
+      "end_etw_s": 76.80594488981218,
+      "clock_samples": [
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.1132133,
+          "qpc": 853616948384,
+          "send_s": 84034.829529288,
+          "receive_s": 84034.8301484
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.3638515,
+          "qpc": 853619456361,
+          "send_s": 84035.080307005,
+          "receive_s": 84035.080927934
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.6143684,
+          "qpc": 853621963938,
+          "send_s": 84035.331061508,
+          "receive_s": 84035.331804179
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482050.8650253,
+          "qpc": 853624474588,
+          "send_s": 84035.582129552,
+          "receive_s": 84035.582749189
+        },
+        {
+          "frequency": 10000000,
+          "unix_s": 1793482051.116662,
+          "qpc": 853626982719,
+          "send_s": 84035.83288399,
+          "receive_s": 84035.833561853
+        }
+      ],
+      "local_half_rtt_max_ms": 0.3713355035870336,
+      "command": [
+        "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+        "-i",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\capture\\host.etl",
+        "-o",
+        "C:\\Users\\lzy\\AppData\\Local\\Temp\\analysis_stalls_20261031-221809\\etw_B_r3_469.txt",
+        "-a",
+        "dumper",
+        "-range",
+        "76758327",
+        "76835944"
+      ],
+      "process_cpu_ms": {
+        "Idle (   0)": 130.52870273570724,
+        "vmmemWSL (36780)": 66.99630592946713,
+        "chrome.exe (39624)": 37.090000000000025,
+        "MsMpEng.exe (7132)": 22.19888981218636,
+        "chrome.exe (20884)": 13.483019311040639,
+        "chrome.exe (44548)": 13.22401931104064,
+        "WmiPrvSE.exe (6072)": 9.027999999999999,
+        "svchost.exe (5752)": 8.29801931104064,
+        "NVDisplay.Container.exe (3768)": 7.67988981218636,
+        "chrome.exe (22812)": 3.4388898121863605,
+        "ffmpeg.exe (23516)": 2.910999999999999,
+        "python.exe (45324)": 2.8,
+        "chrome.exe (28700)": 2.5388898121863606,
+        "System (   4)": 2.268999999999996,
+        "chrome.exe (43916)": 1.6859999999999997,
+        "csrss.exe (1696)": 1.463,
+        "Code.exe (12340)": 1.1380000000000001,
+        "Code.exe (37336)": 0.9490000000000001,
+        "ffmpeg.exe (21252)": 0.872,
+        "chrome.exe (35572)": 0.872,
+        "mediamtx.exe (1568)": 0.8590000000000001,
+        "OneDrive.Sync.Service.exe (38108)": 0.7140000000000001,
+        "Code.exe (40560)": 0.5910000000000001,
+        "UPSecurityInput.exe (40596)": 0.5400193110406399,
+        "msedgewebview2.exe (11884)": 0.536,
+        "ffmpeg.exe (51296)": 0.516,
+        "svchost.exe (5760)": 0.395,
+        "msedgewebview2.exe (13384)": 0.38700000000000007,
+        "wsl.exe (41852)": 0.271,
+        "lsass.exe (1868)": 0.232,
+        "AdskLicensingService.exe (6628)": 0.227,
+        "WhatsApp.Root.exe (28832)": 0.21000000000000005,
+        "svchost.exe (13092)": 0.203,
+        "Code.exe (40028)": 0.202,
+        "vivoesService_x64.exe (6148)": 0.168,
+        "QQ.exe (31084)": 0.145,
+        "QQ.exe (13148)": 0.113,
+        "svchost.exe (12532)": 0.099,
+        "Code.exe (41532)": 0.098,
+        "GameViewerServer.exe (46248)": 0.09400000000000001,
+        "QQGameServiceHelper.exe (39636)": 0.081,
+        "GameViewerHealthd.exe (44436)": 0.07,
+        "SearchIndexer.exe (10788)": 0.035,
+        "WeChatAppEx.exe (9412)": 0.032,
+        "QQ.exe (31316)": 0.026,
+        "wsl.exe (41492)": 0.025,
+        "Hao Wallpaper.exe (23624)": 0.024,
+        "QQ.exe (31940)": 0.02,
+        "QQEX.exe (34156)": 0.019,
+        "TeamViewer.exe (7944)": 0.018,
+        "NahimicSvc64.exe (15676)": 0.017,
+        "FortiSSLVPNdaemon.exe (14488)": 0.016,
+        "Weixin.exe (10736)": 0.015,
+        "MemCompression (4188)": 0.014,
+        "python.exe (46452)": 0.0,
+        "eaio_agent.exe (2508)": 0.0,
+        "eaio_agent.exe (10800)": 0.0,
+        "aTrustTray.exe (27052)": 0.0,
+        "QQEX.exe (33972)": 0.0,
+        "aTrustAgent.exe (16388)": 0.0,
+        "chrome.exe (23172)": 0.0,
+        "CrossDeviceResume.exe (11808)": 0.0,
+        "MathWorksServiceHost.exe (13164)": 0.0,
+        "aTrustAgent.exe (6596)": 0.0,
+        "QQEX.exe (34204)": 0.0,
+        "svchost.exe (5028)": 0.0,
+        "kwallpaperex.exe (19936)": 0.0,
+        "Code.exe (11396)": 0.0,
+        "dwm.exe (2500)": 0.0,
+        "chrome.exe (42784)": 0.0,
+        "TeamViewer_Service.exe (7732)": 0.0,
+        "WUDFHost.exe (47180)": 0.0,
+        "msedgewebview2.exe (17912)": 0.0,
+        "Weixin.exe (31580)": 0.0,
+        "vivoSyncService.exe (8600)": 0.0,
+        "NVDisplay.Container.exe (9268)": 0.0,
+        "CrossDeviceService.exe (15904)": 0.0,
+        "powershell.exe (42732)": 0.0,
+        "GCUBridge.exe (6704)": 0.0,
+        "GCUService.exe (10940)": 0.0,
+        "eaio_service.exe (6580)": 0.0,
+        "GameViewer.exe (12852)": 0.0,
+        "Code.exe (47368)": 0.0,
+        "svchost.exe (1276)": 0.0,
+        "helper.exe (6980)": 0.0
+      },
+      "fault_and_disk_events": [
+        [
+          "InMemoryStoreFault",
+          "76801953",
+          "chrome.exe (39624)",
+          "12772",
+          "0xffffb4831a6d4ff8",
+          "0x001cdeb000",
+          "0x00001000",
+          "16",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ],
+        [
+          "InMemoryStoreFault",
+          "76801969",
+          "chrome.exe (39624)",
+          "12772",
+          "0xffffb48318cf5000",
+          "0x00c21c5000",
+          "0x00002000",
+          "9",
+          "0x0000000000000000",
+          "\"Unknown (0x0)\"",
+          "N/A"
+        ]
+      ],
+      "vmmem_ready_waits": [
+        {
+          "tid": 36940,
+          "overlap_ms": 0.127,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.109,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.072,
+          "reason": "WrDispatchInt",
+          "next_process": "mediamtx.exe (1568)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.04,
+          "reason": "WrDispatchInt",
+          "next_process": "ffmpeg.exe (21252)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.038,
+          "reason": "WrQuantumEnd",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.03,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.03,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.029,
+          "reason": "WrDispatchInt",
+          "next_process": "QQ.exe (31084)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.028,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.022,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.02,
+          "reason": "WrQuantumEnd",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.019,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.018,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (39624)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.016,
+          "reason": "WrDispatchInt",
+          "next_process": "FortiSSLVPNdaemon.exe (14488)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.015,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (43916)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.014,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.01,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (39624)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.008,
+          "reason": "WrDispatchInt",
+          "next_process": "msedgewebview2.exe (11884)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.008,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.008,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (39624)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.006,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (39624)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.005,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.003,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (39624)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.002,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.002,
+          "reason": "WrDispatchInt",
+          "next_process": "System (   4)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.001,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 23140,
+          "overlap_ms": 0.001,
+          "reason": "WrDispatchInt",
+          "next_process": "chrome.exe (39624)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.001,
+          "reason": "WrDispatchInt",
+          "next_process": "vmmemWSL (36780)"
+        },
+        {
+          "tid": 36940,
+          "overlap_ms": 0.001,
+          "reason": "WrDispatchInt",
+          "next_process": "WmiPrvSE.exe (6072)"
+        }
+      ]
+    }
+  ],
+  "no_lost_events_or_buffers": true
+}

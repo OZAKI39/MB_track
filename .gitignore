@@ -1,0 +1,63 @@
+# 本地真实录像保留在原位，不纳入普通代码同步；Git 不是这些数据的备份。
+/validation/video_20s_*/**/*.mp4
+/validation/streamcopy_*/**/*.mp4
+# 免安装 FFmpeg 二进制与下载包不进入普通 Git；来源、校验值和许可保留。
+/tools/ffmpeg/bin/
+/tools/ffmpeg/*.7z
+# 第二轮使用的独立 Windows GStreamer 环境及本地采集视频。
+/.venv_gstreamer/
+# 独立 GPU 解码验证环境；正式环境和追踪模块不依赖它。
+/.venv_nvdec/
+/validation/parallel_*/**/*.mp4
+/validation/parallel_*/**/*.ts
+# 第三轮完整实验段原始录像继续本地保留。
+/validation/stability_*/**/*.mp4
+# 第四轮动作关联录像，本地保留，不作为普通代码同步。
+/validation/avsync_*/**/*.mp4
+# 全帧离线轮廓约数十 MiB，本地保留；30 张候选原图、抽样轮廓与人工修订不忽略。
+/validation/bubble_regions_*/**/*_frames.jsonl.gz
+/validation/bubble_regions_*/**/data/annotations/session.json
+# 已保存轮廓生成的完整对照视频，本地保留；报告、预览图与代码仍可同步。
+/validation/bubble_video_*/review.mp4
+# 多区域追踪的完整审阅视频和逐帧大记录留在本地；事件表、摘要和配置可同步。
+/validation/bubble_tracking_*/videos/*/review.mp4
+/validation/bubble_tracking_*/*_frames.jsonl.gz
+# 固定测试集的大视频与逐帧对照数据在本地保留，校验清单和人工修订不忽略。
+# Git 不是测试视频或人工标注的备份，不得据此删除本地数据。
+/validation/bubble_benchmark_*/clips/*/raw.nut
+/validation/bubble_benchmark_*/clips/*/review.mp4
+/validation/bubble_benchmark_*/clips/*/baseline_*.jsonl.gz
+/validation/bubble_benchmark_*/data/annotations/session.json
+# SAM 2.1 full-video predictions and viewing copies remain local scientific data.
+# Initial prompts, model sources, run reports and validation evidence stay visible.
+/validation/sam21_initial_*/predictions/masks/
+/validation/sam21_initial_*/predictions/predictions.jsonl.gz
+/validation/sam21_initial_*/review/video/review.mp4
+/validation/sam21_initial_*/review/*_frames.jsonl.gz
+/validation/sam21_initial_*/review/tracking/*_frames.jsonl.gz
+/validation/sam21_initial_*/pilots/*/masks/
+/validation/sam21_initial_*/pilots/*/predictions.jsonl.gz
+# Official SAM 2.1 checkpoint is retained locally; its source manifest is tracked.
+/models/sam2.1_hiera_large.pt
+# Cutie inference artifacts remain local, alongside their source and run manifests.
+/models/cutie-base-mega.pth
+/models/cutie_resnet/
+/validation/cutie_initial_*/predictions/masks/
+/validation/cutie_initial_*/predictions/predictions.jsonl.gz
+/validation/cutie_initial_*/pilot/masks/
+/validation/cutie_initial_*/pilot/predictions.jsonl.gz
+/validation/cutie_initial_*/review/video/review.mp4
+/validation/cutie_initial_*/review/*_frames.jsonl.gz
+/validation/cutie_initial_*/review/tracking/*_frames.jsonl.gz
+
+# Joint model results are preserved locally; provenance and review evidence stay visible.
+/validation/joint_sam21_*/full/sam_masks/
+/validation/joint_sam21_*/full/fused_masks/
+/validation/joint_sam21_*/full/**/*.jsonl.gz
+/validation/joint_sam21_*/pilot_*/sam_masks/
+/validation/joint_sam21_*/pilot_*/fused_masks/
+/validation/joint_sam21_*/pilot_*/**/*.jsonl.gz
+/validation/joint_sam21_*/review/**/*.jsonl.gz
+/validation/joint_sam21_*/review/video/review.mp4
+/validation/joint_sam21_*/comparison/frame_*.png
+/validation/joint_sam21_*/pilot_inspection/frame_*.png

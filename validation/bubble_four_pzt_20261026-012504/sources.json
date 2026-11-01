@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "four_pzt",
+      "title": "四路切换实验",
+      "experiment": "customer_workspace/validation/avsync_20261025-161356_rerun/normal",
+      "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "sample_times_s": [
+        0.5,
+        2.8,
+        3.5,
+        5.8,
+        6.5,
+        8.8,
+        9.5,
+        11.8,
+        12.5,
+        14.8,
+        15.5,
+        17.8,
+        18.5,
+        19.5,
+        21.0
+      ],
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。"
+    }
+  ]
+}

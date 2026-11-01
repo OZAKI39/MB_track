@@ -1,0 +1,6 @@
+{
+  "status": "failed_software_trial",
+  "human_confirmed": false,
+  "reason": "The first software trace contained small local return loops near off-edge anchors; before local join cleanup.",
+  "existing_partial_outputs_preserved": true
+}

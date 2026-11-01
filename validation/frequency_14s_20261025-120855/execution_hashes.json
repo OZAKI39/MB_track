@@ -1,0 +1,15 @@
+{
+  "customer_workspace/afg_timing.py": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+  "customer_workspace/experiment_runner.py": "6d5ea6973e8c26bfadcc54de89139fcdc2e9c1966239509936b360612c238ae6",
+  "customer_workspace/timing_report.py": "8e4d6e6e0781e308f6e77595222bbeb7ed3604107ebae98829c1567057f64439",
+  "customer_workspace/timing_benchmark.py": "755e10f243147cef318ef5d3d35b9fb9355876c956cb1a2f5429269a9c36b6cf",
+  "customer_workspace/tests/test_experiment_runner.py": "9d44a11f6b8b98a8b8b40764462ec7c53ab72686460941f646aed6651c5ea3f1",
+  "customer_workspace/tests/test_write_only_guards.py": "a3051dae33d6f1f2aefa00e8236ecdad597bae784fcbc9ff991c4bbb22577a84",
+  "customer_workspace/tests/test_timing_report.py": "46137fc4726370902c655d5909194752d01deb84ba123d8873b64ac130985239",
+  "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+  "configs/afg.json": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d",
+  "customer_workspace/configs/pzt1_pulse.json": "0a5ddf221479480f8ef140d1e648ebd2ffca708eb97b7d6f2f93b1b51587f02b",
+  "customer_workspace/wsl_launcher.py": "ff7363698978333e80fec0440a32ab37081b1c701a21a70fce7f499df100cfc9",
+  "customer_workspace/configs/pzt1_frequency.json": "7f6ecbfcbfa1fc21e9de85b01c8e230f7ea70c8cfafe06d476633d9b921b7804",
+  "customer_workspace/configs/pzt1_frequency_amplitude.json": "983fdd477111889ea5223bef2ddf47d4eecff0e674a2cad620441e3a0bb19c8c"
+}

@@ -1,0 +1,14 @@
+{
+    "Start":  "\/Date(1793314620000)\/",
+    "End":  "\/Date(1793315220000)\/",
+    "Count":  1,
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1793315090136)\/",
+                       "ProviderName":  "Microsoft-Windows-Ntfs",
+                       "Id":  98,
+                       "LevelDisplayName":  "Information",
+                       "Message":  "Volume ?? (\\Device\\HarddiskVolumeShadowCopy4) is healthy.  No action is needed."
+                   }
+               ]
+}

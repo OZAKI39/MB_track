@@ -1,0 +1,157 @@
+{
+  "status": "completed",
+  "changed_source_and_docs": [
+    "customer_workspace/afg_timing.py",
+    "customer_workspace/experiment_runner.py",
+    "customer_workspace/timing_report.py",
+    "customer_workspace/README.md",
+    "customer_workspace/tests/test_experiment_runner.py",
+    "customer_workspace/tests/test_write_only_guards.py",
+    "customer_workspace/tests/test_timing_report.py"
+  ],
+  "new_plans": [
+    "customer_workspace/configs/pzt1_frequency.json",
+    "customer_workspace/configs/pzt1_frequency_amplitude.json"
+  ],
+  "source_unchanged_since_measurement": true,
+  "whitespace_checks_passed": true,
+  "new_report_links_exist": true,
+  "git_status": " M .gitignore\n M docs/DATA_POLICY.md\n M inputs/external_resources.json\n?? AGENTS_CODING.md\n?? customer_workspace/\n?? docs/PROJECTS_STORAGE_CLEANUP_20261023.md\n?? docs/assets/\n",
+  "artifacts": [
+    {
+      "path": "comparison.csv",
+      "bytes": 1102,
+      "sha256": "00410276cc36d855a76e98f48677f07753607cdd638b4b204f87b129af40b358"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 924,
+      "sha256": "064493da150ae8cdd5e569fa259cebad3bad23e47da10f37ac95974317503ead"
+    },
+    {
+      "path": "execution_hashes.json",
+      "bytes": 1477,
+      "sha256": "0bd03fc663acf7cae70984c730f066c2540100a1a79525498c1f84151478d090"
+    },
+    {
+      "path": "frequency/all_attempts.csv",
+      "bytes": 114,
+      "sha256": "e9412c0b41f74c113df78c41ad16934f1f6c3b3ee6d23ff6094c821652f8d49b"
+    },
+    {
+      "path": "frequency/events.jsonl",
+      "bytes": 11857,
+      "sha256": "469d6439679f7883df8caa00beb3d844b6f33318b0ce1ebb3f50b7737bac7225"
+    },
+    {
+      "path": "frequency/parameter_commands.csv",
+      "bytes": 500,
+      "sha256": "c7773b42e494849a5e15cc624ea90830311d7327c6e82c491625c3b59e0b674b"
+    },
+    {
+      "path": "frequency/plan.json",
+      "bytes": 3521,
+      "sha256": "551a6366b7200e8edbfe0fe8141a76c19e7e7fc3f4746135dcad6139275e3260"
+    },
+    {
+      "path": "frequency/summary.json",
+      "bytes": 6990,
+      "sha256": "1c95e817a37612ef57ff735f7f95f988120203e88fec43d4932dccc5c7fcbf07"
+    },
+    {
+      "path": "frequency/timing_summary.json",
+      "bytes": 796,
+      "sha256": "d7334470d9b1f084370d2d805c34dc5ea273de90b561aae0c3f8ed07acceb08b"
+    },
+    {
+      "path": "frequency_amplitude/all_attempts.csv",
+      "bytes": 134,
+      "sha256": "70a8450efe34fbdf735e5735477e1016303196d818c817f846f0a94870239eaa"
+    },
+    {
+      "path": "frequency_amplitude/events.jsonl",
+      "bytes": 13931,
+      "sha256": "eeb9a7fd7898ba6f3c5d92cbe0a810513485a4b2c5ec6448972a910df934f3d5"
+    },
+    {
+      "path": "frequency_amplitude/parameter_commands.csv",
+      "bytes": 819,
+      "sha256": "65743350fbb4eae0ded84525318bfa9d4a9441db5e380aaf359a0b4b9e39ef7b"
+    },
+    {
+      "path": "frequency_amplitude/plan.json",
+      "bytes": 3551,
+      "sha256": "35aa7d36a0b49fc2e6f3c354029d3fafc64fd6062238824c4c5bd7035f839014"
+    },
+    {
+      "path": "frequency_amplitude/summary.json",
+      "bytes": 7010,
+      "sha256": "0609f16e1c9f3c0e68d013582005297d0a2249253b53986a9f50c39046bc0e65"
+    },
+    {
+      "path": "frequency_amplitude/timing.csv",
+      "bytes": 717,
+      "sha256": "e92dffb41056a17e1470ed89c754cf88b388f41005576797443ea9a796fde265"
+    },
+    {
+      "path": "frequency_amplitude/timing_summary.json",
+      "bytes": 2977,
+      "sha256": "d1f2d8c23b25a3ee5bc8714bd4e8a639fa70b23daff2bbd6bdac77c36fde283d"
+    },
+    {
+      "path": "frequency_amplitude_console.log",
+      "bytes": 3355,
+      "sha256": "85f2e7c00c9e8ba599086b7ede28ec5f670c54e3145a970db663a8fc5399686f"
+    },
+    {
+      "path": "frequency_amplitude_launch.json",
+      "bytes": 416,
+      "sha256": "1cec3fe66a42cb708bc3ab6890fdc6b68e381fa12f9e30247b6c4db3bf9a4fd0"
+    },
+    {
+      "path": "frequency_amplitude_postflight.json",
+      "bytes": 2954,
+      "sha256": "c1e7dfaa65d01b391529b7f8c532fd1437b20c396a459f0515ee41957612c81a"
+    },
+    {
+      "path": "frequency_console.log",
+      "bytes": 1229,
+      "sha256": "7f5de2bf9ba56f7495b91efc6f58e68701908f893488e41bd45550ff3fa655c0"
+    },
+    {
+      "path": "frequency_launch.json",
+      "bytes": 396,
+      "sha256": "dfeade0ee07d013ddc0fcbc104f384233c968b9ddc9248e4c727003cbf9b55e8"
+    },
+    {
+      "path": "frequency_postflight.json",
+      "bytes": 2954,
+      "sha256": "fcb3655b6473d28cd3121bd8f3c78b84f83089173285cd7f8f9bee1b7dd3210d"
+    },
+    {
+      "path": "initial_hashes.json",
+      "bytes": 1329,
+      "sha256": "6be7fe711cfd37876dea32d112bc8c3fdb381032147e9352fcaa1bed6fd7cbbc"
+    },
+    {
+      "path": "preflight.json",
+      "bytes": 2901,
+      "sha256": "8fe5fa22adcbedd62ca3c54155694df26bc061fe9c8722489739464775e2219b"
+    },
+    {
+      "path": "process_preflight.json",
+      "bytes": 374,
+      "sha256": "c3860d00f374797d2a8d434f63ba8766a32b0dc7626611f4bfc8c698eed73790"
+    },
+    {
+      "path": "software_validation.json",
+      "bytes": 1489,
+      "sha256": "eccdf974516f82e255592957fdd91d9c15384b6070adaa7076409451fbacd1c3"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 5759,
+      "sha256": "224432a8d512d0dacac06cf85f59041c4de75fdbe31c5b87e0fc2bd483288f1d"
+    }
+  ]
+}

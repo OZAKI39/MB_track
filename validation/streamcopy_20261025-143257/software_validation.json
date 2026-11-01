@@ -1,0 +1,31 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "checks": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "customer_workspace/streamcopy_recording.py",
+        "customer_workspace/streamcopy_report.py",
+        "customer_workspace/tests/test_streamcopy_recording.py"
+      ],
+      "exit_code": 0,
+      "log": "software_check_1.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "customer_workspace/tests",
+        "tests/test_experiment_video.py",
+        "tests/test_camera_rtsp_control.py",
+        "-q"
+      ],
+      "exit_code": 0,
+      "log": "software_check_2.log"
+    }
+  ]
+}

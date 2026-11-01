@@ -1,0 +1,96 @@
+{
+  "files": {
+    "microbubble_experiment/afg.py": {
+      "before": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+      "after": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54"
+    },
+    "microbubble_experiment/camera_bridge.py": {
+      "before": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+      "after": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93"
+    },
+    "microbubble_experiment/camera_server.py": {
+      "before": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc",
+      "after": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc"
+    },
+    "microbubble_experiment/pipeline.py": {
+      "before": "58ef87a5fb2b9da23d1b1e2acd1e197669df006620bf9f07c3e2f3829a1ad64b",
+      "after": "58ef87a5fb2b9da23d1b1e2acd1e197669df006620bf9f07c3e2f3829a1ad64b"
+    },
+    "microbubble_experiment/observation.py": {
+      "before": "e36726354aed704be96230586a6eb83bcdaa35191a1a1ead0a50590a93727a44",
+      "after": "e36726354aed704be96230586a6eb83bcdaa35191a1a1ead0a50590a93727a44"
+    },
+    "microbubble_experiment/detection.py": {
+      "before": "a7c467eb04da2985bfc23f5c55438f06f4f97270d35618cde8ee50edfca0b606",
+      "after": "a7c467eb04da2985bfc23f5c55438f06f4f97270d35618cde8ee50edfca0b606"
+    },
+    "customer_workspace/afg_timing.py": {
+      "before": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+      "after": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3"
+    },
+    "customer_workspace/experiment_runner.py": {
+      "before": "b88209f8fb5fd986b92a6cbaf479c7bcc2d60c99d20ff69ad94438a6cb66ad45",
+      "after": "fbc85073c1fbd5437b057f39406420723c3e51b6c0792dae827d6a17ccf1f852"
+    },
+    "customer_workspace/four_pzt_validation.py": {
+      "before": "35d031cfb55714a0539594be555b4279f066f8dc277af244bf3c25345e2ae72b",
+      "after": "35d031cfb55714a0539594be555b4279f066f8dc277af244bf3c25345e2ae72b"
+    },
+    "customer_workspace/parallel_camera.py": {
+      "before": "aee95591462d79c9e18dbacffd6368eb2e887042795fa50eaf58eea75342d2a7",
+      "after": "6161bc421944d761db3b354d02eacc16e2b878b62570fd7ac56de765b2182743"
+    },
+    "customer_workspace/parallel_camera_bridge.py": {
+      "before": "a21918dddbd76927995e6cc413407a14a4e81e0804d3fcdb9dbeb53cc4627dfc",
+      "after": "a21918dddbd76927995e6cc413407a14a4e81e0804d3fcdb9dbeb53cc4627dfc"
+    },
+    "customer_workspace/parallel_video_check.py": {
+      "before": "e14c8b8996e59b92896629350f5ac80c7913cf159702a65de4bd22449db5a2e4",
+      "after": "442e6af61948d694683eb5dffb77c8091ad358fe66fd75472f0c23e27ca94240"
+    },
+    "customer_workspace/parallel_video_report.py": {
+      "before": "8dbcf551b31644c5d66e7411fc34d63767bb697ab8261da9f7a29fefe8c3c70e",
+      "after": "8dbcf551b31644c5d66e7411fc34d63767bb697ab8261da9f7a29fefe8c3c70e"
+    },
+    "customer_workspace/streamcopy_recording.py": {
+      "before": "df5fb009052821248515099dafcb24bd6e936058b2c4b88b99251c6fc81ebc08",
+      "after": "df5fb009052821248515099dafcb24bd6e936058b2c4b88b99251c6fc81ebc08"
+    },
+    "customer_workspace/streamcopy_report.py": {
+      "before": "99cbe620b983579093a63b3b80e53c3c2aa4bc460df364053f26aec9f6237daa",
+      "after": "99cbe620b983579093a63b3b80e53c3c2aa4bc460df364053f26aec9f6237daa"
+    },
+    "customer_workspace/README.md": {
+      "before": "b8bb21d9d79351e246f551fc77bbc6fabffde6f16866f2f79bf0158b9ba741e0",
+      "after": "11f7f1ccf048c0ed7ce0e4d153681ef4d3ec604d0ca99864c566591dd33547b8"
+    },
+    "customer_workspace/.gitignore": {
+      "before": "0db13812c87c398c719c42aa2f0ce857a25e9a26a1f88547d0b2d739b6b4b6ed",
+      "after": "d48d51e65d367164024d57628b41519a040618aaa17bdc9fa80a878ad9908f85"
+    },
+    "configs/afg.json": {
+      "before": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d",
+      "after": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d"
+    },
+    "configs/default.json": {
+      "before": "b3b1beb5317ff43680af0d2d1440368e177746a353dcb2534fd99da8d5e2ed9a",
+      "after": "b3b1beb5317ff43680af0d2d1440368e177746a353dcb2534fd99da8d5e2ed9a"
+    },
+    "configs/chronos_config.json": {
+      "before": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+      "after": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518"
+    },
+    "configs/machine.local.json": {
+      "before": "b4537d49a10a963843d9d6c4b9dbeacc5a5ded0fd1fc4cc74d6f92a0e4d3d1ae",
+      "after": "b4537d49a10a963843d9d6c4b9dbeacc5a5ded0fd1fc4cc74d6f92a0e4d3d1ae"
+    }
+  },
+  "allowed_changes": [
+    "customer_workspace/experiment_runner.py",
+    "customer_workspace/parallel_camera.py",
+    "customer_workspace/parallel_video_check.py",
+    "customer_workspace/README.md",
+    "customer_workspace/.gitignore"
+  ],
+  "note": "用户要求重跑前的检查记录，本轮原驱动与算法未改。"
+}

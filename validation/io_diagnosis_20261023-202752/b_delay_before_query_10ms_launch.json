@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.visa_diagnostics",
+    "--mode",
+    "write_query",
+    "--channel",
+    "PZT3",
+    "--count",
+    "1000",
+    "--interval-ms",
+    "50",
+    "--before-query-ms",
+    "10",
+    "--reader",
+    "native",
+    "--output-dir",
+    "customer_workspace/validation/io_diagnosis_20261023-202752/b_delay_before_query_10ms"
+  ],
+  "started_utc": "2026-10-23T18:35:34.825101+00:00",
+  "finished_utc": "2026-10-23T18:36:27.501415+00:00",
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"completed\",\n  \"recorded_commands\": 1000,\n  \"successful_replies\": 1000,\n  \"error\": null,\n  \"all_outputs_off_confirmed\": true,\n  \"cleanup_error\": null\n}\n",
+  "stderr": ""
+}

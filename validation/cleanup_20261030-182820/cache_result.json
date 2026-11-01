@@ -1,0 +1,871 @@
+{
+  "removed_files": 96,
+  "removed_bytes": 2437622,
+  "changed_and_skipped": [],
+  "removed": [
+    {
+      "path": "customer_workspace/__pycache__/bubble_tracking_review.cpython-312.pyc",
+      "bytes": 25633,
+      "mtime_ns": 1793010331199034761,
+      "inode": 39569,
+      "source": "customer_workspace/bubble_tracking_review.py",
+      "source_sha256": "3496f93a9e39839c4576443086d7bd91e61e84acee79727190d8749ab971a066",
+      "cache_sha256": "8374d6ed471c7273fd035d7582983026ae26f9d675ae79c1c1356b08b3cbc80d"
+    },
+    {
+      "path": "customer_workspace/__pycache__/stability_report.cpython-312.pyc",
+      "bytes": 21437,
+      "mtime_ns": 1792938049323877187,
+      "inode": 105267,
+      "source": "customer_workspace/stability_report.py",
+      "source_sha256": "0b2ede7d3f53273e155d4d6a33ce2febe4e742cd52f1ee2cd8e1c72ebca7fffc",
+      "cache_sha256": "e5e7b166e27c35a334cfa770d760dede7b92c03f6527dc79d96bd91e6e5b8562"
+    },
+    {
+      "path": "customer_workspace/__pycache__/stability_check.cpython-312.pyc",
+      "bytes": 5243,
+      "mtime_ns": 1792937871401701169,
+      "inode": 105328,
+      "source": "customer_workspace/stability_check.py",
+      "source_sha256": "f316b56c8c3802d9aa1cb8afe7b0c656b7080c9210a93b223b0d4623687a69d1",
+      "cache_sha256": "c1fa779e6ce4793753f2d81ab06c25b339da9bc964c8151a3f0cce01ce429ff1"
+    },
+    {
+      "path": "customer_workspace/__pycache__/tracking_ppt.cpython-312.pyc",
+      "bytes": 50584,
+      "mtime_ns": 1793205358775832266,
+      "inode": 491651,
+      "source": "customer_workspace/tracking_ppt.py",
+      "source_sha256": "3b5d59bf7c301781ffd8dfae09f34559bf72333a6f34a58c36f717baaa029ae8",
+      "cache_sha256": "45eab7788f4e933a3210bd4c37123cd25acaaf93dc9045efa7430b7db7265500"
+    },
+    {
+      "path": "customer_workspace/__pycache__/joint_sam21_runner.cpython-312.pyc",
+      "bytes": 21183,
+      "mtime_ns": 1793038798593164196,
+      "inode": 360102,
+      "source": "customer_workspace/joint_sam21_runner.py",
+      "source_sha256": "ffa663cf9e85bfba64e3f00413fd50630ad6cd98a7d43978fb075f8a4fc31b26",
+      "cache_sha256": "e542a4e6eea96ced078a74724c8953d34ef3020af468f1bac474fa58f58dde4c"
+    },
+    {
+      "path": "customer_workspace/__pycache__/amplitude_pair_diagnostic.cpython-312.pyc",
+      "bytes": 28256,
+      "mtime_ns": 1792935505762730998,
+      "inode": 104831,
+      "source": "customer_workspace/amplitude_pair_diagnostic.py",
+      "source_sha256": "a92cb43b494eba2e040282b58170966c593ebd01143d516abecd120a02ec335b",
+      "cache_sha256": "185a36e51e4b40df247ec1165074ce1f25228148e78bb1a69130e512ccee60a1"
+    },
+    {
+      "path": "customer_workspace/__pycache__/cutie_initial_tracking.cpython-312.pyc",
+      "bytes": 16327,
+      "mtime_ns": 1793032238408996517,
+      "inode": 358895,
+      "source": "customer_workspace/cutie_initial_tracking.py",
+      "source_sha256": "81d09459cc907df6a35c694b25865ef932eff24d22140f487a722697319f948e",
+      "cache_sha256": "8805baa15a487e396d310320d97ba5dd4880d1e5b4614108773f31012728b616"
+    },
+    {
+      "path": "customer_workspace/__pycache__/wsl_launcher.cpython-312.pyc",
+      "bytes": 6244,
+      "mtime_ns": 1792935485282742084,
+      "inode": 332739,
+      "source": "customer_workspace/wsl_launcher.py",
+      "source_sha256": "2c734051f8fc91ce37b97c95d23431ed5685fd71ace41404fcccd4d61e1a0251",
+      "cache_sha256": "38dafcfa6a4dc54e0b83917ee5883faa2e940efbe74c7ee3a244d5339154a511"
+    },
+    {
+      "path": "customer_workspace/__pycache__/parallel_camera_bridge.cpython-312.pyc",
+      "bytes": 4778,
+      "mtime_ns": 1792940886136454117,
+      "inode": 332358,
+      "source": "customer_workspace/parallel_camera_bridge.py",
+      "source_sha256": "a21918dddbd76927995e6cc413407a14a4e81e0804d3fcdb9dbeb53cc4627dfc",
+      "cache_sha256": "d922dc042b8dbceae0c6cd629015efc0a525f57b503416736e4254e2915009eb"
+    },
+    {
+      "path": "customer_workspace/__pycache__/four_pzt_validation.cpython-312.pyc",
+      "bytes": 27275,
+      "mtime_ns": 1792935505751375891,
+      "inode": 104828,
+      "source": "customer_workspace/four_pzt_validation.py",
+      "source_sha256": "35d031cfb55714a0539594be555b4279f066f8dc277af244bf3c25345e2ae72b",
+      "cache_sha256": "cc01dafa539f06ade41ac0660b46862576c29c7484f60d531a971c6a8d5e0fc4"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_region_review.cpython-312.pyc",
+      "bytes": 29210,
+      "mtime_ns": 1793026518207456435,
+      "inode": 349828,
+      "source": "customer_workspace/bubble_region_review.py",
+      "source_sha256": "37849539d842828695de58e94e9dc711c82d9b88eb302547c0a3965c3837bebb",
+      "cache_sha256": "ef80a0af55a87d08af4673d4e7366a6ac105de47c8ad96b07d97b1c02ae0f91a"
+    },
+    {
+      "path": "customer_workspace/__pycache__/streamcopy_recording.cpython-312.pyc",
+      "bytes": 21250,
+      "mtime_ns": 1792935803712730107,
+      "inode": 104616,
+      "source": "customer_workspace/streamcopy_recording.py",
+      "source_sha256": "df5fb009052821248515099dafcb24bd6e936058b2c4b88b99251c6fc81ebc08",
+      "cache_sha256": "55cbbbdda16e7455081f5ca4b53c6040a5cbb2e476bea2399cd65d09fecb22f4"
+    },
+    {
+      "path": "customer_workspace/__pycache__/segmentation_ppt.cpython-312.pyc",
+      "bytes": 36039,
+      "mtime_ns": 1793205358770032011,
+      "inode": 491653,
+      "source": "customer_workspace/segmentation_ppt.py",
+      "source_sha256": "becf5e0f8ce925bd24dbc0f2492503fe30b8800a2544c6ddbef288686a8a5c2b",
+      "cache_sha256": "b27c2337e58fdc1544fc3862013ac08a1cd2f0927970636661fb371012c50fb6"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_dark_preview.cpython-312.pyc",
+      "bytes": 27379,
+      "mtime_ns": 1792973239615947490,
+      "inode": 341790,
+      "source": "customer_workspace/bubble_dark_preview.py",
+      "source_sha256": "a0ba90248bf50b91601b5e9a4caf5a47a31256f2e8d7a5b6d8eb4b2077cd5a86",
+      "cache_sha256": "38f489d4e279900d2f3324bfbe8d6f78c7b8f24fad4e38ea84b5fe94d2b589ba"
+    },
+    {
+      "path": "customer_workspace/__pycache__/video_clock.cpython-312.pyc",
+      "bytes": 10690,
+      "mtime_ns": 1792940881232773219,
+      "inode": 338313,
+      "source": "customer_workspace/video_clock.py",
+      "source_sha256": "3827edf3bff834a6e3d29958400f50ead2a4a86161c517b117f6c6518779d883",
+      "cache_sha256": "5862f67b64ac45cb590e240eaaf9300934493df63cdcb457b3e66d57b78ed442"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_tracking_display.cpython-312.pyc",
+      "bytes": 9504,
+      "mtime_ns": 1793038798714860216,
+      "inode": 360067,
+      "source": "customer_workspace/bubble_tracking_display.py",
+      "source_sha256": "0956ecaba193980404c4f0c5fba7534408dd91237eb90349a8cfd2ac8b0d07ac",
+      "cache_sha256": "a011ef381b8b7667b6743b79721d3d63b0149603250615b849d9391b2359cd10"
+    },
+    {
+      "path": "customer_workspace/__pycache__/initial_tracking_comparison.cpython-312.pyc",
+      "bytes": 12665,
+      "mtime_ns": 1793032368852567940,
+      "inode": 352883,
+      "source": "customer_workspace/initial_tracking_comparison.py",
+      "source_sha256": "59e1680d51ac0c372826f81873a43c4d76d1116694f0cd3899e793119822ba9f",
+      "cache_sha256": "d4d7d47c026d22e2f6fea9eee016e5a2bcdf5a106fed9ee94fff423925c0773b"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_dark_regions.cpython-312.pyc",
+      "bytes": 6298,
+      "mtime_ns": 1792973179347935790,
+      "inode": 342677,
+      "source": "customer_workspace/bubble_dark_regions.py",
+      "source_sha256": "2a95a1fe930f291a71d682459c61e14426463b71d0852923dde102999df17627",
+      "cache_sha256": "6592a236be59a1a81af784dde52fea73987dcd0d0fc0470dad304fe957b0eeba"
+    },
+    {
+      "path": "customer_workspace/__pycache__/analysis_ppt.cpython-312.pyc",
+      "bytes": 91003,
+      "mtime_ns": 1793205358785356955,
+      "inode": 491598,
+      "source": "customer_workspace/analysis_ppt.py",
+      "source_sha256": "845bcdcba0a451ca8821bc2577ec0f1130bf8fa941179e9681f0b82baeafc73c",
+      "cache_sha256": "807be8df94d494621eae8028fcfb3030710bba735a9f4761a789f1826b24d941"
+    },
+    {
+      "path": "customer_workspace/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 296,
+      "mtime_ns": 1792935418882380470,
+      "inode": 332721,
+      "source": "customer_workspace/__init__.py",
+      "source_sha256": "237be47612b46846607dcafcbca10d56a9bb61c7025afbb42080974071874998",
+      "cache_sha256": "a5c588aa8c0a622b29652edfafffdf855eaced6ff7c1127df49f0c9669822697"
+    },
+    {
+      "path": "customer_workspace/__pycache__/parallel_camera.cpython-312.pyc",
+      "bytes": 33599,
+      "mtime_ns": 1792941089219421239,
+      "inode": 332773,
+      "source": "customer_workspace/parallel_camera.py",
+      "source_sha256": "6161bc421944d761db3b354d02eacc16e2b878b62570fd7ac56de765b2182743",
+      "cache_sha256": "a2b057f13ec7a27888206ffe0ac04de4e675d64a792897bfd95344dfe0894685"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_tracking.cpython-312.pyc",
+      "bytes": 29471,
+      "mtime_ns": 1793038283066642662,
+      "inode": 360070,
+      "source": "customer_workspace/bubble_tracking.py",
+      "source_sha256": "7e4e07172511ed2139b086a35164392bf0af54455b7acb486a54989e4a16969c",
+      "cache_sha256": "3fc60f12fe482862044b410dd88a6df7e509dfc8d2fd2d1ff69f6ec21c7ef964"
+    },
+    {
+      "path": "customer_workspace/__pycache__/sam21_tracking_review.cpython-312.pyc",
+      "bytes": 12497,
+      "mtime_ns": 1793032239203983455,
+      "inode": 357406,
+      "source": "customer_workspace/sam21_tracking_review.py",
+      "source_sha256": "9de087897d2bf428e40aebbb60738f4756921c4044b26bf4d8aa09607bc43fe2",
+      "cache_sha256": "607b110f74860ee003c37512e73f3968e465735db7380ddc93013d43405c924e"
+    },
+    {
+      "path": "customer_workspace/__pycache__/benchmark_report.cpython-312.pyc",
+      "bytes": 19559,
+      "mtime_ns": 1792935505703266633,
+      "inode": 104677,
+      "source": "customer_workspace/benchmark_report.py",
+      "source_sha256": "9696c9377ee008290faa48f058025cfa9844ef99b115fa6e9129feea6573d75f",
+      "cache_sha256": "5a6d413eb9231993f5284d2fc6fb53c026a78e76fee23515a4b95d175e483a94"
+    },
+    {
+      "path": "customer_workspace/__pycache__/baseline_animations.cpython-312.pyc",
+      "bytes": 51702,
+      "mtime_ns": 1793205358793906894,
+      "inode": 331955,
+      "source": "customer_workspace/baseline_animations.py",
+      "source_sha256": "bda1c5d4f6934ac58896ed6d58b605f92daf4c60c72f27f99929789daf695212",
+      "cache_sha256": "530ddff5223c5c7ee3231b2837c33d3ce6ea7b09b5c0199f4cceedd20132613e"
+    },
+    {
+      "path": "customer_workspace/__pycache__/joint_tracking_review.cpython-312.pyc",
+      "bytes": 25761,
+      "mtime_ns": 1793039913737161376,
+      "inode": 358905,
+      "source": "customer_workspace/joint_tracking_review.py",
+      "source_sha256": "be8b955d27d4cb54515be5d5370a230055dfdefed347c4254a6687e603959287",
+      "cache_sha256": "c99e902f933e0f034dbf1cd544e814a4ebb09658a88872d78424ff9de13fab54"
+    },
+    {
+      "path": "customer_workspace/__pycache__/wait_calibration.cpython-312.pyc",
+      "bytes": 5703,
+      "mtime_ns": 1792935505772813969,
+      "inode": 104833,
+      "source": "customer_workspace/wait_calibration.py",
+      "source_sha256": "4c1832267730f45f909fc93b78db84f53cc053d00cdca19e96871913822f59c1",
+      "cache_sha256": "47a59820c0cac2e927aab7286c34bc5f2910cf96c7e5ca7ffc052438f7ef452c"
+    },
+    {
+      "path": "customer_workspace/__pycache__/streamcopy_recording.cpython-314.pyc",
+      "bytes": 23494,
+      "mtime_ns": 1792935893472300317,
+      "inode": 104627,
+      "source": "customer_workspace/streamcopy_recording.py",
+      "source_sha256": "df5fb009052821248515099dafcb24bd6e936058b2c4b88b99251c6fc81ebc08",
+      "cache_sha256": "308b8cada867e78c3cd1f8aea769356e1eabcb542ba01b7d96b3598117937b83"
+    },
+    {
+      "path": "customer_workspace/__pycache__/mask_shrink_sections.cpython-312.pyc",
+      "bytes": 7657,
+      "mtime_ns": 1793028468748710045,
+      "inode": 349123,
+      "source": "customer_workspace/mask_shrink_sections.py",
+      "source_sha256": "89fe67226899f4e05047d4fcad15dfb88a3633086443ae46cf6a3c4cc8502449",
+      "cache_sha256": "411dbbe8ce1312aaf54c9504cf2980f415d9f3759b2dbaf04030bd0ba372145c"
+    },
+    {
+      "path": "customer_workspace/__pycache__/streamcopy_report.cpython-312.pyc",
+      "bytes": 24578,
+      "mtime_ns": 1792935875076288993,
+      "inode": 104861,
+      "source": "customer_workspace/streamcopy_report.py",
+      "source_sha256": "99cbe620b983579093a63b3b80e53c3c2aa4bc460df364053f26aec9f6237daa",
+      "cache_sha256": "56a6c423071e3530311965f159a216ce5c0c11a3cdc93b12f34f8e2273ac27ea"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_region_comparison.cpython-312.pyc",
+      "bytes": 26307,
+      "mtime_ns": 1792973800318290192,
+      "inode": 343541,
+      "source": "customer_workspace/bubble_region_comparison.py",
+      "source_sha256": "88b072e0d99444793eed2692e98f7133585dd86921fdb225879831268ca1c53e",
+      "cache_sha256": "6d21a52d89343ed517415705b411572539f028583bffe4c796350d6d00388b03"
+    },
+    {
+      "path": "customer_workspace/__pycache__/experiment_runner.cpython-312.pyc",
+      "bytes": 42552,
+      "mtime_ns": 1792940355947294932,
+      "inode": 338212,
+      "source": "customer_workspace/experiment_runner.py",
+      "source_sha256": "fbc85073c1fbd5437b057f39406420723c3e51b6c0792dae827d6a17ccf1f852",
+      "cache_sha256": "590af843cb18e45ebbc47c2e81fdb24dc970f0ee9de6259aac1d49078770958c"
+    },
+    {
+      "path": "customer_workspace/__pycache__/channel_mask.cpython-312.pyc",
+      "bytes": 29235,
+      "mtime_ns": 1793027686495850672,
+      "inode": 345801,
+      "source": "customer_workspace/channel_mask.py",
+      "source_sha256": "5c619b964d94ce068ac3b8c1728a52c8991d16bf724e41322a12915959651da7",
+      "cache_sha256": "dbcf2a944e96ce385922682d53ed574142f40d5eb6e17fa0fb519bb450b84524"
+    },
+    {
+      "path": "customer_workspace/__pycache__/parallel_video_report.cpython-312.pyc",
+      "bytes": 13367,
+      "mtime_ns": 1792937216657774849,
+      "inode": 338186,
+      "source": "customer_workspace/parallel_video_report.py",
+      "source_sha256": "8dbcf551b31644c5d66e7411fc34d63767bb697ab8261da9f7a29fefe8c3c70e",
+      "cache_sha256": "0ddd6a778bb24a73850628e44aff3c88507aba662b57842e6ec996e8a7a5ef50"
+    },
+    {
+      "path": "customer_workspace/__pycache__/mask_shrink_review.cpython-312.pyc",
+      "bytes": 28430,
+      "mtime_ns": 1793028269592182128,
+      "inode": 345787,
+      "source": "customer_workspace/mask_shrink_review.py",
+      "source_sha256": "b7443090ea6f9256f7a0aeb0cfd26f4f0df568fe9be4f234ca51479c4071f93b",
+      "cache_sha256": "65fa6df94de0f1f764cecee7818d354e5efb2a7306d13ba9accc5f9db2b0e54a"
+    },
+    {
+      "path": "customer_workspace/__pycache__/timing_report.cpython-312.pyc",
+      "bytes": 15392,
+      "mtime_ns": 1792935505707847492,
+      "inode": 104825,
+      "source": "customer_workspace/timing_report.py",
+      "source_sha256": "8e4d6e6e0781e308f6e77595222bbeb7ed3604107ebae98829c1567057f64439",
+      "cache_sha256": "10946faf11e8520de6d81cd8d7e07bb1d1e6a5638e627274118a813e93d70bf4"
+    },
+    {
+      "path": "customer_workspace/__pycache__/parallel_video_check.cpython-312.pyc",
+      "bytes": 12925,
+      "mtime_ns": 1792941089229183605,
+      "inode": 332774,
+      "source": "customer_workspace/parallel_video_check.py",
+      "source_sha256": "442e6af61948d694683eb5dffb77c8091ad358fe66fd75472f0c23e27ca94240",
+      "cache_sha256": "90464f6c1f778abd6d9078ffaba231c33d9a8c94a592746b5146dba242af73ac"
+    },
+    {
+      "path": "customer_workspace/__pycache__/sam21_initial_tracking.cpython-312.pyc",
+      "bytes": 20762,
+      "mtime_ns": 1793030771915582653,
+      "inode": 345806,
+      "source": "customer_workspace/sam21_initial_tracking.py",
+      "source_sha256": "0c81d25cd41860246562e9a2321917f212df2df2996f52370cfb8e5c4ef6c0d3",
+      "cache_sha256": "1190d424fba72714954ea1c058f13c8cfbfd4ff013752b209bc8d8eb16b4857c"
+    },
+    {
+      "path": "customer_workspace/__pycache__/joint_region_fusion.cpython-312.pyc",
+      "bytes": 11856,
+      "mtime_ns": 1793038646653167772,
+      "inode": 360093,
+      "source": "customer_workspace/joint_region_fusion.py",
+      "source_sha256": "0a35a2256c35c7b2c05e3cc7ead0ec76a44fba1fc3f25c3fc7b34d434d0e2818",
+      "cache_sha256": "ab08815485881c6df7294c05056430bd1c4015a4c92e6d412944c523a2cf13b5"
+    },
+    {
+      "path": "customer_workspace/__pycache__/afg_video_check.cpython-312.pyc",
+      "bytes": 10547,
+      "mtime_ns": 1792943748567135598,
+      "inode": 332794,
+      "source": "customer_workspace/afg_video_check.py",
+      "source_sha256": "6940f593fe641f0ab21b33a12f94c7f466f1f2affbbbe71db0e7f37132b272f4",
+      "cache_sha256": "08cac86ca3d9e6564bca78a93bf2d67248d64fb5196b8c8c3babb90455180e3d"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_region_video.cpython-312.pyc",
+      "bytes": 25118,
+      "mtime_ns": 1793031715931933843,
+      "inode": 357407,
+      "source": "customer_workspace/bubble_region_video.py",
+      "source_sha256": "615b043839de79b58704b4e06c017e626151065b0c420d9633d7d5aff1b79d10",
+      "cache_sha256": "1ca52d07290b761ac809dbf2790eb57e719a70508eb6b8b0efe7d3225263ef52"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_regions.cpython-312.pyc",
+      "bytes": 12714,
+      "mtime_ns": 1792973609779624445,
+      "inode": 343182,
+      "source": "customer_workspace/bubble_regions.py",
+      "source_sha256": "be8cade0c12c3339ce25c84f4b69826b70cba6f1a8287d3d5e3cbe817f1079b7",
+      "cache_sha256": "f37f7c9b5f1e0ed312a0989e8b4cd8eb081431148689885925092ddd8f10c1a7"
+    },
+    {
+      "path": "customer_workspace/__pycache__/pzt_video_review.cpython-312.pyc",
+      "bytes": 26064,
+      "mtime_ns": 1793010331182706546,
+      "inode": 39565,
+      "source": "customer_workspace/pzt_video_review.py",
+      "source_sha256": "68d377785113159ab084f2ca59f281a90e3b7c10f77e8459e4036b873ce1158e",
+      "cache_sha256": "c3b44e57e71dbf08afae6b1fc9e44fc617bd6e9d394c9bb9931d43f810109c36"
+    },
+    {
+      "path": "customer_workspace/__pycache__/visa_diagnostics.cpython-312.pyc",
+      "bytes": 17843,
+      "mtime_ns": 1792935505770392267,
+      "inode": 104832,
+      "source": "customer_workspace/visa_diagnostics.py",
+      "source_sha256": "55ffde434d3e39a326c915b3da90f2f7c74531333663e40e726a743f9d55c626",
+      "cache_sha256": "ebade2b202c4aa46eb2fa23f3c6e55b745a25750f68a46491e5583ee506a3bde"
+    },
+    {
+      "path": "customer_workspace/__pycache__/video_recording_check.cpython-312.pyc",
+      "bytes": 24218,
+      "mtime_ns": 1792935505927221432,
+      "inode": 104836,
+      "source": "customer_workspace/video_recording_check.py",
+      "source_sha256": "b6fe294c28a2b5300bc7b166a7a24e1fd6c26d45e505259f292b148a7d584575",
+      "cache_sha256": "eab530d864136799ce2d6d7472c453831d0679ebdc6eb21dfcdebfb098ad15a9"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_review_edits.cpython-312.pyc",
+      "bytes": 10645,
+      "mtime_ns": 1793018503818477885,
+      "inode": 344717,
+      "source": "customer_workspace/bubble_review_edits.py",
+      "source_sha256": "f33475fbf87a9ac2078c8e29c48988a5d8c071cd9fbb7f4aef94774964b5f82f",
+      "cache_sha256": "189137229ab45c71c8e372b2541e91fb44f6b29ef45eb054b48b2dab008a21b3"
+    },
+    {
+      "path": "customer_workspace/__pycache__/wsl_launcher.cpython-314.pyc",
+      "bytes": 7167,
+      "mtime_ns": 1792935419047691950,
+      "inode": 332723,
+      "source": "customer_workspace/wsl_launcher.py",
+      "source_sha256": "2c734051f8fc91ce37b97c95d23431ed5685fd71ace41404fcccd4d61e1a0251",
+      "cache_sha256": "01dba122f8459ce7ebef9fd292f90f9bb01ebb4b03db92fcdb216ec115d98941"
+    },
+    {
+      "path": "customer_workspace/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 272,
+      "mtime_ns": 1792754738146461306,
+      "inode": 13033,
+      "source": "customer_workspace/__init__.py",
+      "source_sha256": "237be47612b46846607dcafcbca10d56a9bb61c7025afbb42080974071874998",
+      "cache_sha256": "5d7f24ae271dfc97746b22399060b3d42b5a0b2aa2e034cc3bbc4756b0ad176e"
+    },
+    {
+      "path": "customer_workspace/__pycache__/stimulus_response_ppt.cpython-312.pyc",
+      "bytes": 42388,
+      "mtime_ns": 1793205358788887000,
+      "inode": 491539,
+      "source": "customer_workspace/stimulus_response_ppt.py",
+      "source_sha256": "cc357f5452e764d39068c88d057ccc9ce46e1634975440c4f79539e47984df26",
+      "cache_sha256": "0cff6d5e491cd776c4d3c18e96b41161218addffac522d3e28ad8e491869d9bf"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_frame_review.cpython-312.pyc",
+      "bytes": 25439,
+      "mtime_ns": 1793029080611917880,
+      "inode": 345837,
+      "source": "customer_workspace/bubble_frame_review.py",
+      "source_sha256": "c6f0589cc0f6c3ddcdcf1b51ad7b69723bea23e7f292c75899dc8ef1489d7ec3",
+      "cache_sha256": "4b11f97ef7eefba6427dfb13a541cbf9727619d952cc1f1aa6f0e5a849387a39"
+    },
+    {
+      "path": "customer_workspace/__pycache__/afg_timing.cpython-312.pyc",
+      "bytes": 19350,
+      "mtime_ns": 1792935505714395024,
+      "inode": 104827,
+      "source": "customer_workspace/afg_timing.py",
+      "source_sha256": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+      "cache_sha256": "86a5570427cd76257d64d60b1062d778622799c85a13f6fa3403ee0614fe9f06"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_benchmark.cpython-312.pyc",
+      "bytes": 42069,
+      "mtime_ns": 1793026514059997318,
+      "inode": 349808,
+      "source": "customer_workspace/bubble_benchmark.py",
+      "source_sha256": "dbb86daf31d6f521572a34ff80afb1243cf17519c87adb9bad2f78287d4bb22a",
+      "cache_sha256": "0d224a165ec041c415e912ecc384004e65c8252184c5367ec5cfe0d97bd617aa"
+    },
+    {
+      "path": "customer_workspace/__pycache__/timing_benchmark.cpython-312.pyc",
+      "bytes": 24752,
+      "mtime_ns": 1792935505711162074,
+      "inode": 44157,
+      "source": "customer_workspace/timing_benchmark.py",
+      "source_sha256": "755e10f243147cef318ef5d3d35b9fb9355876c956cb1a2f5429269a9c36b6cf",
+      "cache_sha256": "0e7b9eb19bca56a65cf2521e3cd543ab94a63f07c4909e933a60547b6f5cd8db"
+    },
+    {
+      "path": "customer_workspace/__pycache__/afg_video_report.cpython-312.pyc",
+      "bytes": 23540,
+      "mtime_ns": 1792943751915398633,
+      "inode": 332795,
+      "source": "customer_workspace/afg_video_report.py",
+      "source_sha256": "1f9004416091ab5c860ce353b81a818d47c9bc42d9344244344f5d7049ab7c12",
+      "cache_sha256": "6cd9cd9f586146528445c8771d55d091726ad963fa573ddaff90ef5f88a6f160"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_region_calibration.cpython-312.pyc",
+      "bytes": 17894,
+      "mtime_ns": 1792972232963477725,
+      "inode": 342434,
+      "source": "customer_workspace/bubble_region_calibration.py",
+      "source_sha256": "481384c7eb31f4662d9a458c155e7618f3102e787f3021f65f3bacca542bd0c5",
+      "cache_sha256": "6954167aae255abefcc1286fb123f9a617d5b6c03e56f1a40e3dbb5fc2cea03d"
+    },
+    {
+      "path": "customer_workspace/__pycache__/bubble_region_annotation.cpython-312.pyc",
+      "bytes": 152548,
+      "mtime_ns": 1793026518728623142,
+      "inode": 349848,
+      "source": "customer_workspace/bubble_region_annotation.py",
+      "source_sha256": "9ee82a364c67bd893a80e99a483b10c7551c8c63cf32dec2a1814f2fed8a8838",
+      "cache_sha256": "f638a8648e65b353f466eeeb111b348ad066d0d40ba61a1f68945fdf9ea2e4cd"
+    },
+    {
+      "path": "customer_workspace/tests/__pycache__/check_scissors_mask.cpython-312.pyc",
+      "bytes": 9218,
+      "mtime_ns": 1793023643860271581,
+      "inode": 345485,
+      "source": "customer_workspace/tests/check_scissors_mask.py",
+      "source_sha256": "47eeac7b6792d7ad5c7e3e7289e0bdc2d69b6075d53d0a04c30dc2466f15bfd2",
+      "cache_sha256": "8f801d850492801f8a73349beba5b5f60d4662b738d3fb5d007c52c76ff7d71a"
+    },
+    {
+      "path": "customer_workspace/tests/__pycache__/check_bubble_region_gui.cpython-312.pyc",
+      "bytes": 34832,
+      "mtime_ns": 1793012724613264900,
+      "inode": 345049,
+      "source": "customer_workspace/tests/check_bubble_region_gui.py",
+      "source_sha256": "e40e0a67f63058652afb4c34e148dbf1385979452893ed6784e3601c5107dd13",
+      "cache_sha256": "c0d2f279b7aa8a7794a2384678f6940554f186e080dfa88464b418e56e4a5e17"
+    },
+    {
+      "path": "customer_workspace/tests/__pycache__/test_experiment_runner.cpython-312.pyc",
+      "bytes": 33789,
+      "mtime_ns": 1792756551971204755,
+      "inode": 10692,
+      "source": "customer_workspace/tests/test_experiment_runner.py",
+      "source_sha256": "9d44a11f6b8b98a8b8b40764462ec7c53ab72686460941f646aed6651c5ea3f1",
+      "cache_sha256": "7cf3b139fcb6599885c2d15928371fca02ef77b40c64fb7d786d920d5a6e9978"
+    },
+    {
+      "path": "customer_workspace/tests/__pycache__/check_bubble_frame_gui.cpython-312.pyc",
+      "bytes": 21658,
+      "mtime_ns": 1793029175640262548,
+      "inode": 356357,
+      "source": "customer_workspace/tests/check_bubble_frame_gui.py",
+      "source_sha256": "f4403288a2b2cf7a87a33a5714bffa27a6a0fe636eb71cb112285d8a3f09180e",
+      "cache_sha256": "0b8fee33b8ac9430a8be257e7a00296b006f38fcf8a714d3738f99ad760012d3"
+    },
+    {
+      "path": "customer_workspace/tests/__pycache__/check_mask_shrink_page.cpython-312.pyc",
+      "bytes": 8130,
+      "mtime_ns": 1793028663623260712,
+      "inode": 349372,
+      "source": "customer_workspace/tests/check_mask_shrink_page.py",
+      "source_sha256": "66305dca7220aa0642a9e1d4dda54df43bb17ff81beb9744d5f90e6cd971aad4",
+      "cache_sha256": "21676910bed717a37751550c36ef8da967d99365ac49876a2d3373d9a2d4ea73"
+    },
+    {
+      "path": "customer_workspace/tests/__pycache__/check_bubble_benchmark_gui.cpython-312.pyc",
+      "bytes": 37379,
+      "mtime_ns": 1793026671651300036,
+      "inode": 345634,
+      "source": "customer_workspace/tests/check_bubble_benchmark_gui.py",
+      "source_sha256": "1daa7941119cc1f9d03520e0ae9ef0c81dc055baa1448ef85af50ae68df1fb08",
+      "cache_sha256": "2ae8fc581498ffa5447a535bec10f581d26275d1f7c7872d53b46fd495e1361a"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/online_review_render.cpython-312.pyc",
+      "bytes": 24608,
+      "mtime_ns": 1793295881382427334,
+      "inode": 492437,
+      "source": "customer_workspace/microbubble_tracking/online_review_render.py",
+      "source_sha256": "f8c46c0bf8582bd9dbf117ec53f363ddcabcf0ba88998419affa6296df2f52b2",
+      "cache_sha256": "414a3b6f6dc5ef26a638fcf5225d14deb68202c2b693690984ab629c5227a55d"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/first_frame_diagnosis.cpython-312.pyc",
+      "bytes": 12109,
+      "mtime_ns": 1793377178507478122,
+      "inode": 505792,
+      "source": "customer_workspace/microbubble_tracking/first_frame_diagnosis.py",
+      "source_sha256": "ff7f7c9a8aa85b5b248b77b3fd7715f58ae49fd19d413a9ea62dd7e94f33cd02",
+      "cache_sha256": "2d3e97688c350d56654b5deaef7554cf5bbe85d406050983225dfb009618c6a9"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/frame_drop_audit.cpython-312.pyc",
+      "bytes": 19647,
+      "mtime_ns": 1793368330159433234,
+      "inode": 507800,
+      "source": "customer_workspace/microbubble_tracking/frame_drop_audit.py",
+      "source_sha256": "5c0496f5507d25f5043fd5f4be4da8fc8de9a20f5f69e0dc31791ef7cd443348",
+      "cache_sha256": "e6f271e2c37249611334c082181dba8d7cc4ac74645d0a3f2dadce9631b3e968"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/online_review.cpython-312.pyc",
+      "bytes": 30871,
+      "mtime_ns": 1793295881379454312,
+      "inode": 492736,
+      "source": "customer_workspace/microbubble_tracking/online_review.py",
+      "source_sha256": "9eebaf29e5c91f5e1a112ed5d74458bdff310bf374008f1dccb297abde678159",
+      "cache_sha256": "bf980d2662e27bb36d2b3c4de14ec428d9632fcee90aa81b428212c9a4740f98"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/bubble_tracker.cpython-312.pyc",
+      "bytes": 64336,
+      "mtime_ns": 1793371609689230602,
+      "inode": 501800,
+      "source": "customer_workspace/microbubble_tracking/bubble_tracker.py",
+      "source_sha256": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+      "cache_sha256": "d0bdb426a7b17cdcff58b770a19ffa91d69a7b34c65f2d0508596478ea337c8d"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/online_replay.cpython-312.pyc",
+      "bytes": 17330,
+      "mtime_ns": 1793365631212803186,
+      "inode": 495195,
+      "source": "customer_workspace/microbubble_tracking/online_replay.py",
+      "source_sha256": "b3a8bca22d914d97dc29f929153fc519b549f5217148575a0be69b84bb9dbb85",
+      "cache_sha256": "c5d9de7fcba62947dcfe6dae01ce94eb1b254d9b033080e64f91dd9139acf3e3"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/async_store.cpython-312.pyc",
+      "bytes": 24124,
+      "mtime_ns": 1793366744798050583,
+      "inode": 501784,
+      "source": "customer_workspace/microbubble_tracking/async_store.py",
+      "source_sha256": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+      "cache_sha256": "de3049392614eb423d47735c801532c77d9f2e0323ed97a00a6f2bdf7fbb2711"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/online_profile_report.cpython-312.pyc",
+      "bytes": 12287,
+      "mtime_ns": 1793305315196129296,
+      "inode": 493895,
+      "source": "customer_workspace/microbubble_tracking/online_profile_report.py",
+      "source_sha256": "0985c84e58c292490aa99b886bb376b9bdd99c24914080d32bf9a915e0894b05",
+      "cache_sha256": "5c77c2065f497e9429ee1a5971df6e7c447efe19487a8fdc61cd96f98a872006"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/online_tracking.cpython-312.pyc",
+      "bytes": 31206,
+      "mtime_ns": 1793377329889712041,
+      "inode": 509708,
+      "source": "customer_workspace/microbubble_tracking/online_tracking.py",
+      "source_sha256": "14578abb76e50001bf82de099270f851a442ea80aaf5d88cf01c9f71f5477b53",
+      "cache_sha256": "904af061e7be74fd90c36c286aec0ddf3f3d96cb6dbd57652b4e2c92b88b6090"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/online_store.cpython-312.pyc",
+      "bytes": 33341,
+      "mtime_ns": 1793366025173488637,
+      "inode": 501831,
+      "source": "customer_workspace/microbubble_tracking/online_store.py",
+      "source_sha256": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+      "cache_sha256": "34e1fcc0cbc6314b08d097d6d543f7afc3bba65fd3b7df16e0db8682b7400e2c"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/stall_detail_report.cpython-312.pyc",
+      "bytes": 8056,
+      "mtime_ns": 1793370180320279202,
+      "inode": 507817,
+      "source": "customer_workspace/microbubble_tracking/stall_detail_report.py",
+      "source_sha256": "47a1b010d7fbce801efd4f547ba5d48b7f07d2f73b6eb3af70856895864f80b0",
+      "cache_sha256": "bee14a29f1bc48fe357c0862d3346318af991e14d0d102ab241b9e4ebbbff9ff"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/memory_pressure_check.cpython-312.pyc",
+      "bytes": 15458,
+      "mtime_ns": 1793370762164679513,
+      "inode": 492631,
+      "source": "customer_workspace/microbubble_tracking/memory_pressure_check.py",
+      "source_sha256": "58f83694144474c2b4cbcb61118e8d5b8d56dcc1a293fc1782ef91e54920377d",
+      "cache_sha256": "6ebbbae665f6bf86451262c7eca1410bdbe779a805e0ade1d158ccd9680bd0f5"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/paced_report.cpython-312.pyc",
+      "bytes": 16422,
+      "mtime_ns": 1793311407406385883,
+      "inode": 492518,
+      "source": "customer_workspace/microbubble_tracking/paced_report.py",
+      "source_sha256": "aa6f42aa89641a8b2a1d5429b5b102481778af12e84f2bc89587ec687f7a2844",
+      "cache_sha256": "ccacb196485779b5e6c3e970202ed95d7d00f1e17da52d1bda4c2d1fc53407bd"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/memory_pressure_report.cpython-312.pyc",
+      "bytes": 11756,
+      "mtime_ns": 1793370762177815048,
+      "inode": 496365,
+      "source": "customer_workspace/microbubble_tracking/memory_pressure_report.py",
+      "source_sha256": "945eaf8c39b9f030ab26ded7d74eda9ddfd8245fab73c205578483b93ee86c3e",
+      "cache_sha256": "06f2f1745c9e63f5e8dcd298788d9cd6b7601b2c3226b97ef582b50842e1eab2"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/paced_replay.cpython-312.pyc",
+      "bytes": 27253,
+      "mtime_ns": 1793377178311327473,
+      "inode": 505791,
+      "source": "customer_workspace/microbubble_tracking/paced_replay.py",
+      "source_sha256": "6aef08129d7b931b7530b379540224930fde5f68d4e219a7f4c309cbe0c33c7a",
+      "cache_sha256": "e7b2a08e24ed9821a03e0e97260727cecbaa6b46a14b4b276fd43251184adc82"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/frame_conversion.cpython-312.pyc",
+      "bytes": 11944,
+      "mtime_ns": 1793364394078250914,
+      "inode": 501824,
+      "source": "customer_workspace/microbubble_tracking/frame_conversion.py",
+      "source_sha256": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3",
+      "cache_sha256": "15a68abfe92eeb18047d96b707d45e43509a4bb2dd546565307ca9b63a240cca"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/paced_source.cpython-312.pyc",
+      "bytes": 20327,
+      "mtime_ns": 1793368896173022840,
+      "inode": 492568,
+      "source": "customer_workspace/microbubble_tracking/paced_source.py",
+      "source_sha256": "4f6fef88aca61ecf9fab7426eeeff5a934d7e5d8cf9956426c60542aa61f1fc0",
+      "cache_sha256": "52bc973cbc2d7d30f84f8ef28c7579285aa45bb37c4b8756066579140a750093"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/native_stall_watch.cpython-312.pyc",
+      "bytes": 8258,
+      "mtime_ns": 1793357219956874577,
+      "inode": 496344,
+      "source": "customer_workspace/microbubble_tracking/native_stall_watch.py",
+      "source_sha256": "9533e96de1bf5832af789c68d23c31454c6c84c41c11d98d280a024d9cc696cb",
+      "cache_sha256": "a0e3b42050c7a2a82d4574e1930137024a8b7158c4ab25f0118729a8b7cf5423"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/stall_probe.cpython-312.pyc",
+      "bytes": 12368,
+      "mtime_ns": 1793369972854082509,
+      "inode": 501792,
+      "source": "customer_workspace/microbubble_tracking/stall_probe.py",
+      "source_sha256": "4f2fd99545029582bb7a01ec4d81013c207dcc631690a1ef0667559b2e5ead02",
+      "cache_sha256": "c91e3d60549bbd27509cbfc4636d0346307de25844c36048ee12edc1f9449ec9"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/label_reuse_check.cpython-312.pyc",
+      "bytes": 11582,
+      "mtime_ns": 1793371640116322294,
+      "inode": 501798,
+      "source": "customer_workspace/microbubble_tracking/label_reuse_check.py",
+      "source_sha256": "efa5e65a3cd302516809a143d3dad350e430f59fe6c971bf1586c533da4cf19e",
+      "cache_sha256": "af436fe0ccfd6c2bda6e1bb2ba1ad18207cf9a1e7f1454b486ab701de4cb99c6"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/__pycache__/gc_replay_check.cpython-312.pyc",
+      "bytes": 15219,
+      "mtime_ns": 1793377346226406931,
+      "inode": 505797,
+      "source": "customer_workspace/microbubble_tracking/gc_replay_check.py",
+      "source_sha256": "7b3c05fd123d64a4dc35863fcc650f118d39890e461f971bd52beea6e3b231e3",
+      "cache_sha256": "e993da0f4d6a011651502389e5ffbf448357654f7aefe9be3bdeed9c349cddcf"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/tests/__pycache__/test_database_maintenance.cpython-312.pyc",
+      "bytes": 13663,
+      "mtime_ns": 1793366747536585354,
+      "inode": 505704,
+      "source": "customer_workspace/microbubble_tracking/tests/test_database_maintenance.py",
+      "source_sha256": "b3e2307dd2b3325069b7ffa9119b45392aaa7e35be766aca924439b23da3f44f",
+      "cache_sha256": "0bd5c0734e555239265148c728893a2d39d853e64c790874719bf328eb0b5a53"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/tests/__pycache__/test_online_tracking.cpython-312.pyc",
+      "bytes": 29436,
+      "mtime_ns": 1793365631972496428,
+      "inode": 505549,
+      "source": "customer_workspace/microbubble_tracking/tests/test_online_tracking.py",
+      "source_sha256": "0a781d3b6aa49e972d330c23d68b12e3c25a67bbfc403d44f1d3e23c4ebbcf46",
+      "cache_sha256": "124533dd0f4a01721316f23990ea61fe6bc4157e601912eb1d0b7d3f1801e5f0"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/baseline/__pycache__/medany_baseline.cpython-312.pyc",
+      "bytes": 12169,
+      "mtime_ns": 1793198638496708334,
+      "inode": 376809,
+      "source": "customer_workspace/microbubble_tracking/baseline/medany_baseline.py",
+      "source_sha256": "049f7b3f94590499ae511a72c8df12c1c59429e039748ed8740313716f06c161",
+      "cache_sha256": "e1f9a9b57e9c8594517448ae6b29e91378504012dd625bec6139db4ca47b93ba"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/baseline/__pycache__/channel_mask.cpython-312.pyc",
+      "bytes": 10512,
+      "mtime_ns": 1793198638495357044,
+      "inode": 376780,
+      "source": "customer_workspace/microbubble_tracking/baseline/channel_mask.py",
+      "source_sha256": "11ea212e9a31ded54606bbe97a6d568f8ff8f8c5aa371e7f7c7942947f5cfcc8",
+      "cache_sha256": "7badb44c2dc4f9fdadee41cad318d1b73cfd5dd7c95cf02fb9e372e462657de0"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/review/__pycache__/review_tool.cpython-312.pyc",
+      "bytes": 76185,
+      "mtime_ns": 1793205191797675152,
+      "inode": 491650,
+      "source": "customer_workspace/microbubble_tracking/review/review_tool.py",
+      "source_sha256": "1c928154b708fbcece0b293a9329eeed9fe7e7d3373ee3f65f46c41503065d97",
+      "cache_sha256": "2134cec660b5deeaeabd74bcd6684142676c697c88d485777bd01fe4f863ea79"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/world_model/__pycache__/architecture.cpython-312.pyc",
+      "bytes": 58890,
+      "mtime_ns": 1793271778187718512,
+      "inode": 44330,
+      "source": "customer_workspace/microbubble_tracking/world_model/architecture.py",
+      "source_sha256": "7e1000e61ad965ad669bd68614e210c98837ace263ce263b0a185646257e305f",
+      "cache_sha256": "cb3460b2adf2c1f646fb156256dd3c2dae3a95c73c8a2f982c487e436e55592d"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/analysis/__pycache__/pzt_analysis.cpython-312.pyc",
+      "bytes": 81903,
+      "mtime_ns": 1793204764063183467,
+      "inode": 491440,
+      "source": "customer_workspace/microbubble_tracking/analysis/pzt_analysis.py",
+      "source_sha256": "498b98667bf6749f091496150df2573f6352f22c9ab092295851d1f8618278c7",
+      "cache_sha256": "3b6ba357abea9aaba6f268436f8c2038685b4f49348526758b3aed7a52403ecd"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/analysis/__pycache__/pzt_figures.cpython-312.pyc",
+      "bytes": 25992,
+      "mtime_ns": 1793203923687942004,
+      "inode": 491373,
+      "source": "customer_workspace/microbubble_tracking/analysis/pzt_figures.py",
+      "source_sha256": "01e7cee2d4f72e4052b25949239717d48100862cb1fe88d4e44bffc646c75625",
+      "cache_sha256": "996d569f1ae8200f40b91a065c6219ca9fbb931340c0d6a8e1b4280bfa585f80"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/analysis/__pycache__/figures.cpython-312.pyc",
+      "bytes": 53213,
+      "mtime_ns": 1793203875269212928,
+      "inode": 491345,
+      "source": "customer_workspace/microbubble_tracking/analysis/figures.py",
+      "source_sha256": "89cb2af299a8c976cd3889c1d3bcfbaae441c04b3321e3128377cd848f70e97e",
+      "cache_sha256": "2c5aa0aa2f1e65136c73a187f390d824ba722ad0eda32bb64550eff2ff5bbad3"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/analysis/__pycache__/analyze.cpython-312.pyc",
+      "bytes": 95177,
+      "mtime_ns": 1793198637968956683,
+      "inode": 376756,
+      "source": "customer_workspace/microbubble_tracking/analysis/analyze.py",
+      "source_sha256": "3000b22d5fa91286bb688cdcd2e013d7c65998e6231f385d590363a1177b9c51",
+      "cache_sha256": "b960e8bc28479c7f6d25fd3f71964f3069c68ca202d1fa6733695cb71719417e"
+    },
+    {
+      "path": "customer_workspace/validation/startup_conversion_20261030-130843/__pycache__/capture_startups.cpython-312.pyc",
+      "bytes": 10448,
+      "mtime_ns": 1793362892201562352,
+      "inode": 504451,
+      "source": "customer_workspace/validation/startup_conversion_20261030-130843/capture_startups.py",
+      "source_sha256": "f62c52a3d3e89ff61cd65fbf09e596f02e81c639f4b7a4e0993d7bfcdddb3e17",
+      "cache_sha256": "d3105accb561a3f7a99b8dfd89725bdfa93996897ebf9b1cd10cb15cf10177b3"
+    },
+    {
+      "path": "customer_workspace/validation/gc_lifecycle_20261030-171433/__pycache__/audit.cpython-312.pyc",
+      "bytes": 16390,
+      "mtime_ns": 1793380521475178069,
+      "inode": 512488,
+      "source": "customer_workspace/validation/gc_lifecycle_20261030-171433/audit.py",
+      "source_sha256": "a6bb038471b8e6f0a4f7cc36badc55ef241034a8a73382bc0c5debe9e4dded95",
+      "cache_sha256": "8b92546272d3d43ea986ea7f02405cf2d55a0eaa62de8890b312d57ada25fc44"
+    },
+    {
+      "path": "customer_workspace/validation/remaining_stalls_20261030-175436/__pycache__/capture_host.cpython-312.pyc",
+      "bytes": 11427,
+      "mtime_ns": 1793379637457885582,
+      "inode": 512242,
+      "source": "customer_workspace/validation/remaining_stalls_20261030-175436/capture_host.py",
+      "source_sha256": "8360b60424cc6f49060406cfb0558ee7cbc7dd56242a3a3d913bb42452541ceb",
+      "cache_sha256": "eb930a1772ec84f525b8d7844a0250ae138d7b75b0ce759b5d359809358e0be2"
+    }
+  ]
+}

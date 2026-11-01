@@ -1,0 +1,38 @@
+{
+  "status": "adopted",
+  "saved_at": "2026-10-26T16:35:48.993996+01:00",
+  "label": "Mix A",
+  "reference": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-163547_c70389142e/manifest.json",
+    "sha256": "ccc8130733c530758a3af500a0bc77f2da5fcfc4990a77ff6f043c2e105d5c7d",
+    "saved_at": "2026-10-26T16:35:47.559936+01:00"
+  },
+  "datasets": [
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_benchmark_20261026-120008",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-153909"
+  ],
+  "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "mask_sha256": "804847178b0ec5b8021afba4ef0809d759d94883fc9cf88aba7cb177777d37c5",
+  "section_distances_px": {
+    "UL": 6,
+    "UR": 2,
+    "LO": 4,
+    "LI": 2,
+    "RI": 2,
+    "RO": 2
+  },
+  "confirmation": "MixA 符合我的要求，默认采用mixA",
+  "checks": {
+    "exact_mask_readback": true,
+    "geometry_roundtrip": true,
+    "detection_keyframes_match_selected_candidate": 14,
+    "pending_frames_use_new_default": true,
+    "confirmed_frames_keep_pinned_mask": true,
+    "existing_data_files_preserved": 1650,
+    "fixed_input_lock_unchanged": true
+  },
+  "full_videos_regenerated": false,
+  "existing_detections_rewritten": false,
+  "hardware_used": false,
+  "scope": "Current four-PZT source only; ABA and unrelated camera views retain their own Masks."
+}

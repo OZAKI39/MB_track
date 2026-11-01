@@ -1,0 +1,314 @@
+[
+  {
+    "notification": {
+      "time_ms": 5143.5648,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 24292,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 5133.7776,
+      "client_pid": 10940,
+      "group": "171,220",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 5143.0045,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 5144.6373,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 24292,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 5133.7776,
+      "client_pid": 10940,
+      "group": "171,220",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 5143.7,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 8167.8764,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 29232,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 8158.3306,
+      "client_pid": 10940,
+      "group": "171,234",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 8167.3525,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 8168.9254,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 29232,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 8158.3306,
+      "client_pid": 10940,
+      "group": "171,234",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 8168.1163,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 27757.3278,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 7544,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 27743.8697,
+      "client_pid": 10940,
+      "group": "171,287",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 27756.7717,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 27758.243,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 7544,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 27743.8697,
+      "client_pid": 10940,
+      "group": "171,287",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 27757.5824,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 30738.1062,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 15600,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 30732.4454,
+      "client_pid": 10940,
+      "group": "171,315",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 30737.5368,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 30742.058,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 15780,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 30732.4454,
+      "client_pid": 10940,
+      "group": "171,315",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 30738.2165,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 39794.6643,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 15780,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 39784.2676,
+      "client_pid": 10940,
+      "group": "171,341",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 39794.1319,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 39795.7217,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 38816,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 39784.2676,
+      "client_pid": 10940,
+      "group": "171,341",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 39794.8518,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 47325.0861,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 604,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 47316.8951,
+      "client_pid": 10940,
+      "group": "171,360",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 47324.4856,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  },
+  {
+    "notification": {
+      "time_ms": 47326.0899,
+      "provider": "Microsoft-Windows-DxgKrnl",
+      "event": "ACPIEvent",
+      "pid": 4,
+      "tid": 604,
+      "Id": "197"
+    },
+    "preceding_wmi": {
+      "time_ms": 47316.8951,
+      "client_pid": 10940,
+      "group": "171,360",
+      "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+    },
+    "preceding_wmbc": {
+      "time_ms": 47325.209,
+      "provider": "Microsoft-Windows-Kernel-Acpi",
+      "event": "AmlMethodTrace",
+      "pid": 9320,
+      "tid": 45764,
+      "AmlMethodName": "\\_SB.AMW0.WMBC",
+      "AmlMethodState": "started",
+      "AmlElapsedTime": "0"
+    }
+  }
+]

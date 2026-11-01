@@ -1,0 +1,10 @@
+# Search scope only (ripgrep); does not change Git, imports or stored data.
+# For an archived run, search its exact directory with rg --no-ignore.
+/validation/
+/dependencies/
+/models/
+/microbubble_tracking/data/
+/microbubble_tracking/results/
+/microbubble_tracking/figures/
+/tools/ffmpeg/bin/
+/tools/ffmpeg/*.7z

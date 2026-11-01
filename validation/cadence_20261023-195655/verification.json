@@ -1,0 +1,359 @@
+{
+  "checked_utc": "2026-10-23T18:00:03.306324+00:00",
+  "passed": true,
+  "normal_test_groups": 4,
+  "verified_commands": 2000,
+  "verified_amplitude_query_pairs": 500,
+  "unexpected_failures": 0,
+  "all_boundary_checks_passed": true,
+  "csv_matches_raw_records": true,
+  "source_and_config_unchanged_during_measurement": true,
+  "final_four_outputs_off": true,
+  "groups": [
+    {
+      "directory": "schedule_20ms",
+      "commands": 500,
+      "status": "completed",
+      "statistics": {
+        "samples": 500,
+        "metric": "schedule_lateness_ms",
+        "delay_ms": {
+          "count": 500,
+          "mean": 6.748201399168465,
+          "median": 5.427850002015511,
+          "sample_stddev": 4.853560411734199,
+          "min": 0.12339999375399202,
+          "max": 24.260000000358552,
+          "range": 24.13660000660456,
+          "p95": 15.09069999214252,
+          "p99": 21.56989999639336
+        },
+        "write_ms": {
+          "count": 500,
+          "mean": 0.6570668000204023,
+          "median": 0.6212499938555993,
+          "sample_stddev": 0.2455487627514125,
+          "min": 0.2631999959703535,
+          "max": 2.2764000023016706,
+          "range": 2.013200006331317,
+          "p95": 1.0100000072270632,
+          "p99": 1.7186000040965155
+        },
+        "by_state": {
+          "ACTIVE": {
+            "count": 250,
+            "mean": 6.269842799520119,
+            "median": 5.25674999837078,
+            "sample_stddev": 4.327071039631775,
+            "min": 0.12339999375399202,
+            "max": 22.067100005224383,
+            "range": 21.94370001147039,
+            "p95": 14.759900004137627,
+            "p99": 18.142600003047793
+          },
+          "IDLE": {
+            "count": 250,
+            "mean": 7.2265599988168105,
+            "median": 5.904950000112819,
+            "sample_stddev": 5.293927494088785,
+            "min": 0.14959999709374117,
+            "max": 24.260000000358552,
+            "range": 24.11040000326481,
+            "p95": 15.465700002387173,
+            "p99": 22.518199994228993
+          }
+        },
+        "slowest": {
+          "index": 64,
+          "delay_ms": 24.260000000358552
+        },
+        "trend": {
+          "slope_ms_per_100_commands": -0.4221941986849794,
+          "fitted_total_change_ms": -2.1067490514380474,
+          "intercept_ms": 7.805797866874339,
+          "first_window_mean_ms": 6.838005999743471,
+          "last_window_mean_ms": 5.608961999532767,
+          "window_commands": 50,
+          "block_means_ms": [
+            6.838005999743471,
+            8.12263399886433,
+            7.2271459983312525,
+            6.92715999961365,
+            7.131483999546617,
+            6.6175139986444265,
+            6.832399999548215,
+            7.1804519987199455,
+            4.996255999139976,
+            5.608961999532767
+          ]
+        },
+        "sent_at_least_one_interval_late": 7,
+        "previous_call_finished_after_next_deadline": 7,
+        "late_ready_max_ms": 4.6639000053982915
+      }
+    },
+    {
+      "directory": "schedule_25ms",
+      "commands": 500,
+      "status": "completed",
+      "statistics": {
+        "samples": 500,
+        "metric": "schedule_lateness_ms",
+        "delay_ms": {
+          "count": 500,
+          "mean": 6.131230398837943,
+          "median": 5.269450003106968,
+          "sample_stddev": 4.846272344598485,
+          "min": 0.07510000432375818,
+          "max": 29.392600004212177,
+          "range": 29.31749999988842,
+          "p95": 15.970699998433702,
+          "p99": 17.25650000153145
+        },
+        "write_ms": {
+          "count": 500,
+          "mean": 0.5604426000500098,
+          "median": 0.534650003828574,
+          "sample_stddev": 0.1876966560668628,
+          "min": 0.26539999817032367,
+          "max": 2.364799991482869,
+          "range": 2.099399993312545,
+          "p95": 0.8548999903723598,
+          "p99": 1.139500003773719
+        },
+        "by_state": {
+          "ACTIVE": {
+            "count": 250,
+            "mean": 7.388283198990393,
+            "median": 6.983649999892538,
+            "sample_stddev": 4.833287760347556,
+            "min": 0.07510000432375818,
+            "max": 29.392600004212177,
+            "range": 29.31749999988842,
+            "p95": 15.249700003186817,
+            "p99": 25.794199999654488
+          },
+          "IDLE": {
+            "count": 250,
+            "mean": 4.874177598685492,
+            "median": 3.5716000027603556,
+            "sample_stddev": 4.531369297193495,
+            "min": 0.19639999372955685,
+            "max": 17.25650000153145,
+            "range": 17.060100007801893,
+            "p95": 16.111099993577405,
+            "p99": 16.54949999647215
+          }
+        },
+        "slowest": {
+          "index": 293,
+          "delay_ms": 29.392600004212177
+        },
+        "trend": {
+          "slope_ms_per_100_commands": 0.007551497812789894,
+          "fitted_total_change_ms": 0.03768197408582157,
+          "intercept_ms": 6.112313896816904,
+          "first_window_mean_ms": 6.781049999117386,
+          "last_window_mean_ms": 5.446995998208877,
+          "window_commands": 50,
+          "block_means_ms": [
+            6.781049999117386,
+            4.9346619987045415,
+            6.045169998251367,
+            6.712739997310564,
+            5.091561999288388,
+            7.4022639988106675,
+            6.232873999979347,
+            6.884133999410551,
+            5.780851999297738,
+            5.446995998208877
+          ]
+        },
+        "sent_at_least_one_interval_late": 4,
+        "previous_call_finished_after_next_deadline": 5,
+        "late_ready_max_ms": 5.145899992203162
+      }
+    },
+    {
+      "directory": "schedule_30ms",
+      "commands": 500,
+      "status": "completed",
+      "statistics": {
+        "samples": 500,
+        "metric": "schedule_lateness_ms",
+        "delay_ms": {
+          "count": 500,
+          "mean": 6.677655197534477,
+          "median": 5.201949998154376,
+          "sample_stddev": 5.460438668734758,
+          "min": 0.09580000187270343,
+          "max": 28.73310000170015,
+          "range": 28.637299999827448,
+          "p95": 17.487900002160828,
+          "p99": 24.195399996242983
+        },
+        "write_ms": {
+          "count": 500,
+          "mean": 0.5970963997242507,
+          "median": 0.5850999950780533,
+          "sample_stddev": 0.19148031098753052,
+          "min": 0.2700999903026968,
+          "max": 1.6011999978218228,
+          "range": 1.331100007519126,
+          "p95": 0.9027999913087115,
+          "p99": 1.1832999880425632
+        },
+        "by_state": {
+          "ACTIVE": {
+            "count": 250,
+            "mean": 6.76017239765497,
+            "median": 5.428199993912308,
+            "sample_stddev": 4.926064785890837,
+            "min": 0.09580000187270343,
+            "max": 24.784799991175888,
+            "range": 24.688999989303184,
+            "p95": 16.492200001375856,
+            "p99": 21.59810000099327
+          },
+          "IDLE": {
+            "count": 250,
+            "mean": 6.5951379974139845,
+            "median": 5.052349992619831,
+            "sample_stddev": 5.955899454079963,
+            "min": 0.2184000023408572,
+            "max": 28.73310000170015,
+            "range": 28.514699999359294,
+            "p95": 20.013199998065833,
+            "p99": 28.17080000124328
+          }
+        },
+        "slowest": {
+          "index": 112,
+          "delay_ms": 28.73310000170015
+        },
+        "trend": {
+          "slope_ms_per_100_commands": -0.24268051419122894,
+          "fitted_total_change_ms": -1.2109757658142324,
+          "intercept_ms": 7.285569885583506,
+          "first_window_mean_ms": 8.218587998417208,
+          "last_window_mean_ms": 4.574677998025436,
+          "window_commands": 50,
+          "block_means_ms": [
+            8.218587998417208,
+            6.844863997830544,
+            6.385169997811317,
+            5.566085996688344,
+            6.7062819976126775,
+            6.9593519976479,
+            7.217739996849559,
+            7.281485997373238,
+            7.0223059970885515,
+            4.574677998025436
+          ]
+        },
+        "sent_at_least_one_interval_late": 0,
+        "previous_call_finished_after_next_deadline": 0,
+        "late_ready_max_ms": 0.004999994416721165
+      }
+    },
+    {
+      "directory": "readback_500",
+      "commands": 500,
+      "status": "completed",
+      "statistics": {
+        "samples": 500,
+        "metric": "command_to_reply_ms",
+        "delay_ms": {
+          "count": 500,
+          "mean": 37.45260740004596,
+          "median": 37.49745000095572,
+          "sample_stddev": 1.096000527267798,
+          "min": 13.677200011443347,
+          "max": 38.205499993637204,
+          "range": 24.528299982193857,
+          "p95": 37.9248999961419,
+          "p99": 38.146100006997585
+        },
+        "write_ms": {
+          "count": 500,
+          "mean": 0.4525386001332663,
+          "median": 0.4493000014917925,
+          "sample_stddev": 0.21061683768409326,
+          "min": 0.15210000856313854,
+          "max": 2.254600010928698,
+          "range": 2.1025000023655593,
+          "p95": 0.7781000022077933,
+          "p99": 0.8768999978201464
+        },
+        "by_state": {
+          "ACTIVE": {
+            "count": 250,
+            "mean": 37.30220719991485,
+            "median": 37.38379999413155,
+            "sample_stddev": 1.5181355221042614,
+            "min": 13.677200011443347,
+            "max": 38.14980000606738,
+            "range": 24.472599994624034,
+            "p95": 37.81530000560451,
+            "p99": 37.95550001086667
+          },
+          "IDLE": {
+            "count": 250,
+            "mean": 37.60300760017708,
+            "median": 37.61560000566533,
+            "sample_stddev": 0.23895791352748252,
+            "min": 36.804599993047304,
+            "max": 38.205499993637204,
+            "range": 1.4009000005898997,
+            "p95": 37.996500002918765,
+            "p99": 38.15110000141431
+          }
+        },
+        "slowest": {
+          "index": 466,
+          "delay_ms": 38.205499993637204
+        }
+      },
+      "write_return_to_query_start_ms": {
+        "mean": 0.008577800210332498,
+        "max": 0.020499996026046574
+      },
+      "slowest_sample": {
+        "index": 466,
+        "channel": "PZT1",
+        "state": "IDLE",
+        "amplitude_requested_vpp": 0.001,
+        "planned_s": null,
+        "ready_s": 17.46811269999307,
+        "call_started_s": 17.468118399992818,
+        "query_started_s": 17.468462799995905,
+        "amplitude_readback_vpp": 0.001,
+        "status": "readback_ok",
+        "call_finished_s": 17.50638180000533,
+        "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.001Vpp",
+        "query": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+        "command_sent_s": 17.46815190000052,
+        "command_write_returned_s": 17.468458999996074,
+        "amplitude_reply_received_s": 17.506357399994158,
+        "amplitude_reply": "1.000000e-03",
+        "confirmed_s": 17.506357399994158,
+        "command_to_confirmation_s": 0.038205499993637204,
+        "write_ms": 0.3070999955525622,
+        "command_to_reply_ms": 38.205499993637204,
+        "io_delta": {
+          "write_calls": 1,
+          "read_calls": 0,
+          "query_calls": 1,
+          "query_commands": 1
+        }
+      },
+      "fastest_sample_index": 1
+    }
+  ],
+  "limitations": [
+    "Only PZT1 on A/CH1 was switched; all four channels were prepared and boundary-checked.",
+    "Host timing cannot detect a buffered queue inside the instrument.",
+    "Write-to-query-response includes communication and scheduling; not physical voltage settling.",
+    "Maxima are observed in these 500 samples, not guaranteed future limits."
+  ]
+}

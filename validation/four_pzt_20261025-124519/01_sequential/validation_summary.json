@@ -1,0 +1,28 @@
+{
+  "case": 1,
+  "name": "四路轮流工作",
+  "passed": true,
+  "problems": [],
+  "experiment_status": "completed",
+  "timeline_started_utc": "2026-10-25T11:48:37.281028+00:00",
+  "completed_s": 21.601290899998276,
+  "limit_s": 25.0,
+  "stable_checks": 6,
+  "stable_channel_readbacks": 24,
+  "parameter_commands": 8,
+  "maximum_command_lateness_ms": 1.9452999986242503,
+  "cancel_request": null,
+  "shutdown": {
+    "event": "shutdown_finished",
+    "action": "all_off",
+    "state_requested": "STOP",
+    "planned_s": 20,
+    "actual_start_s": 20.00008669999079,
+    "actual_finish_s": 20.08525400000508,
+    "duration_s": 0.08516730001429096,
+    "errors": []
+  },
+  "independent_all_outputs_off": true,
+  "execution_error": null,
+  "physical_signal_timing_measured": false
+}

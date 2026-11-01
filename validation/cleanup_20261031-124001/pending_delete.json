@@ -1,0 +1,605 @@
+{
+  "status": "awaiting_user_approval",
+  "created": "2026-10-31T12:42:00.556536+01:00",
+  "scope": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation",
+  "directories": [
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-134318",
+      "relative_path": "customer_workspace/validation/analysis_slides_20261028-134318",
+      "files": [],
+      "file_count": 0,
+      "bytes": 0,
+      "allocated_file_bytes": 0,
+      "descendants": [],
+      "reason": "empty_directory",
+      "current_references": []
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-134324",
+      "relative_path": "customer_workspace/validation/analysis_slides_20261028-134324",
+      "files": [],
+      "file_count": 0,
+      "bytes": 0,
+      "allocated_file_bytes": 0,
+      "descendants": [],
+      "reason": "empty_directory",
+      "current_references": []
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144848",
+      "relative_path": "customer_workspace/validation/stimulus_response_slides_20261028-144848",
+      "files": [],
+      "file_count": 0,
+      "bytes": 0,
+      "allocated_file_bytes": 0,
+      "descendants": [],
+      "reason": "empty_directory",
+      "current_references": []
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412",
+      "relative_path": "customer_workspace/validation/analysis_slides_20261028-141412",
+      "files": [
+        {
+          "path": "analysis_slides_20261028-141412/01_trajectory_segmentation.frames.csv",
+          "size": 196054,
+          "allocated": 196608,
+          "mtime_ns": 1793193293087764448,
+          "inode": 331827,
+          "kind": "file",
+          "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/02_kinematics.mp4",
+          "size": 1262521,
+          "allocated": 1265664,
+          "mtime_ns": 1793193315996819608,
+          "inode": 331830,
+          "kind": "file",
+          "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/visible_labels.json",
+          "size": 77839,
+          "allocated": 81920,
+          "mtime_ns": 1793193317830315071,
+          "inode": 331856,
+          "kind": "file",
+          "sha256": "2213882708204f26c91a479a2737f9eb9d84aa24bce201eb57dc526562c44b60",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final_visible_labels.json"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/provenance.json",
+          "size": 10488,
+          "allocated": 12288,
+          "mtime_ns": 1793193317829599161,
+          "inode": 331852,
+          "kind": "file",
+          "sha256": "40a5ac219b413d49a86f738245d4c429ebe78702533a087b93e2632cb30b5c34",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final.json"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/trajectory_cut_events.csv",
+          "size": 891,
+          "allocated": 4096,
+          "mtime_ns": 1793193317771384260,
+          "inode": 331837,
+          "kind": "file",
+          "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/03_morphology.frames.csv",
+          "size": 13775,
+          "allocated": 16384,
+          "mtime_ns": 1793193317688916560,
+          "inode": 331835,
+          "kind": "file",
+          "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/slide6_animations.zip",
+          "size": 9791715,
+          "allocated": 9793536,
+          "mtime_ns": 1793193317999341207,
+          "inode": 331857,
+          "kind": "file",
+          "sha256": "bd3a1772bbab95dead1b031c1deb3b072da2485838c45bdc68e46360a63a2f4f",
+          "retained_copies": [],
+          "zip_members": [
+            {
+              "member": "01_trajectory_segmentation.frames.csv",
+              "size": 196054,
+              "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv"
+              ]
+            },
+            {
+              "member": "01_trajectory_segmentation.mp4",
+              "size": 7884796,
+              "sha256": "755666a7c00ce448e30d0851ca730eaf8aef76cc1dd5513fabbb5b9ed40f8ced",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/01_trajectory_segmentation.mp4"
+              ]
+            },
+            {
+              "member": "02_kinematics.frames.csv",
+              "size": 19270,
+              "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+              ]
+            },
+            {
+              "member": "02_kinematics.mp4",
+              "size": 1262521,
+              "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4"
+              ]
+            },
+            {
+              "member": "03_morphology.frames.csv",
+              "size": 13775,
+              "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+              ]
+            },
+            {
+              "member": "03_morphology.mp4",
+              "size": 617267,
+              "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4"
+              ]
+            },
+            {
+              "member": "provenance.json",
+              "size": 10488,
+              "sha256": "40a5ac219b413d49a86f738245d4c429ebe78702533a087b93e2632cb30b5c34",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final.json"
+              ]
+            },
+            {
+              "member": "pzt_command_intervals.csv",
+              "size": 1487,
+              "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv"
+              ]
+            },
+            {
+              "member": "trajectory_cut_events.csv",
+              "size": 891,
+              "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+              ]
+            },
+            {
+              "member": "validation_samples.csv",
+              "size": 17157,
+              "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+              ]
+            },
+            {
+              "member": "visible_labels.json",
+              "size": 77839,
+              "sha256": "2213882708204f26c91a479a2737f9eb9d84aa24bce201eb57dc526562c44b60",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final_visible_labels.json"
+              ]
+            }
+          ],
+          "zip_all_preserved": true
+        },
+        {
+          "path": "analysis_slides_20261028-141412/pzt_command_intervals.csv",
+          "size": 1487,
+          "allocated": 4096,
+          "mtime_ns": 1793193317771581534,
+          "inode": 331844,
+          "kind": "file",
+          "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/03_morphology.mp4",
+          "size": 617267,
+          "allocated": 618496,
+          "mtime_ns": 1793193317688379281,
+          "inode": 331833,
+          "kind": "file",
+          "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/validation_samples.csv",
+          "size": 17157,
+          "allocated": 20480,
+          "mtime_ns": 1793193260282513097,
+          "inode": 331820,
+          "kind": "file",
+          "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/01_trajectory_segmentation.mp4",
+          "size": 7884796,
+          "allocated": 7884800,
+          "mtime_ns": 1793193293083582384,
+          "inode": 331824,
+          "kind": "file",
+          "sha256": "755666a7c00ce448e30d0851ca730eaf8aef76cc1dd5513fabbb5b9ed40f8ced",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/01_trajectory_segmentation.mp4"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-141412/02_kinematics.frames.csv",
+          "size": 19270,
+          "allocated": 20480,
+          "mtime_ns": 1793193315997593294,
+          "inode": 331832,
+          "kind": "file",
+          "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+          ]
+        }
+      ],
+      "file_count": 12,
+      "bytes": 19893260,
+      "allocated_file_bytes": 19918848,
+      "descendants": [
+        "analysis_slides_20261028-141412/01_trajectory_segmentation.frames.csv",
+        "analysis_slides_20261028-141412/01_trajectory_segmentation.mp4",
+        "analysis_slides_20261028-141412/02_kinematics.frames.csv",
+        "analysis_slides_20261028-141412/02_kinematics.mp4",
+        "analysis_slides_20261028-141412/03_morphology.frames.csv",
+        "analysis_slides_20261028-141412/03_morphology.mp4",
+        "analysis_slides_20261028-141412/provenance.json",
+        "analysis_slides_20261028-141412/pzt_command_intervals.csv",
+        "analysis_slides_20261028-141412/slide6_animations.zip",
+        "analysis_slides_20261028-141412/trajectory_cut_events.csv",
+        "analysis_slides_20261028-141412/validation_samples.csv",
+        "analysis_slides_20261028-141412/visible_labels.json"
+      ],
+      "reason": "all_contents_preserved_in_figures",
+      "current_references": []
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326",
+      "relative_path": "customer_workspace/validation/analysis_slides_20261028-143326",
+      "files": [
+        {
+          "path": "analysis_slides_20261028-143326/visible_labels.json",
+          "size": 33920,
+          "allocated": 36864,
+          "mtime_ns": 1793194501921573425,
+          "inode": 331913,
+          "kind": "file",
+          "sha256": "0c2a3b6a16522d73d12db47d9b5a2dda94f76767a45a87ddc42db57537031a78",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_visible_labels.json"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-143326/verification.json",
+          "size": 456,
+          "allocated": 4096,
+          "mtime_ns": 1793194592425816871,
+          "inode": 331929,
+          "kind": "file",
+          "sha256": "e94829aabce435c7938c52838d33bc04fa6325c231d4c0cb093d38cf2eab0b41",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_verification.json"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-143326/provenance.json",
+          "size": 7627,
+          "allocated": 8192,
+          "mtime_ns": 1793194501921033778,
+          "inode": 331905,
+          "kind": "file",
+          "sha256": "9557dcc46e14b235c6fd3cfbab8bd886d9c6f0cf0a1230f3ba76f01c74431342",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background.json"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-143326/slide6_animations.zip",
+          "size": 4069984,
+          "allocated": 4071424,
+          "mtime_ns": 1793194501995055489,
+          "inode": 331914,
+          "kind": "file",
+          "sha256": "2a2bfac717ffb49f979d756e429fbcc5dd36fbfb16c3aafbc54d25bc09ab9ff9",
+          "retained_copies": [],
+          "zip_members": [
+            {
+              "member": "04_collective_metrics.frames.csv",
+              "size": 35803,
+              "sha256": "39f2f896384c1e07e404f46100531bf60299445e60081e53e9ca1e39eef4a4bf",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/04_collective_metrics.frames.csv"
+              ]
+            },
+            {
+              "member": "04_collective_metrics.mp4",
+              "size": 4050138,
+              "sha256": "ae4b2de179bbcf5fdd8452601914ed9a8c16b88d5bc1594d73f7adb263c10a34",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/04_collective_metrics.mp4"
+              ]
+            },
+            {
+              "member": "provenance.json",
+              "size": 7627,
+              "sha256": "9557dcc46e14b235c6fd3cfbab8bd886d9c6f0cf0a1230f3ba76f01c74431342",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background.json"
+              ]
+            },
+            {
+              "member": "validation_samples.csv",
+              "size": 17157,
+              "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+              ]
+            },
+            {
+              "member": "visible_labels.json",
+              "size": 33920,
+              "sha256": "0c2a3b6a16522d73d12db47d9b5a2dda94f76767a45a87ddc42db57537031a78",
+              "retained_copies": [
+                "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_visible_labels.json"
+              ]
+            }
+          ],
+          "zip_all_preserved": true
+        },
+        {
+          "path": "analysis_slides_20261028-143326/validation_samples.csv",
+          "size": 17157,
+          "allocated": 20480,
+          "mtime_ns": 1793194414472391778,
+          "inode": 331902,
+          "kind": "file",
+          "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-143326/04_collective_metrics.mp4",
+          "size": 4050138,
+          "allocated": 4050944,
+          "mtime_ns": 1793194501301410808,
+          "inode": 331903,
+          "kind": "file",
+          "sha256": "ae4b2de179bbcf5fdd8452601914ed9a8c16b88d5bc1594d73f7adb263c10a34",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/04_collective_metrics.mp4"
+          ]
+        },
+        {
+          "path": "analysis_slides_20261028-143326/04_collective_metrics.frames.csv",
+          "size": 35803,
+          "allocated": 36864,
+          "mtime_ns": 1793194501302004347,
+          "inode": 331904,
+          "kind": "file",
+          "sha256": "39f2f896384c1e07e404f46100531bf60299445e60081e53e9ca1e39eef4a4bf",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/04_collective_metrics.frames.csv"
+          ]
+        }
+      ],
+      "file_count": 7,
+      "bytes": 8215085,
+      "allocated_file_bytes": 8228864,
+      "descendants": [
+        "analysis_slides_20261028-143326/04_collective_metrics.frames.csv",
+        "analysis_slides_20261028-143326/04_collective_metrics.mp4",
+        "analysis_slides_20261028-143326/provenance.json",
+        "analysis_slides_20261028-143326/slide6_animations.zip",
+        "analysis_slides_20261028-143326/validation_samples.csv",
+        "analysis_slides_20261028-143326/verification.json",
+        "analysis_slides_20261028-143326/visible_labels.json"
+      ],
+      "reason": "all_contents_preserved_in_figures",
+      "current_references": []
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144914",
+      "relative_path": "customer_workspace/validation/stimulus_response_slides_20261028-144914",
+      "files": [
+        {
+          "path": "stimulus_response_slides_20261028-144914/example_trace.csv",
+          "size": 8129,
+          "allocated": 8192,
+          "mtime_ns": 1793195356290799251,
+          "inode": 331933,
+          "kind": "file",
+          "sha256": "51b36912357ecfc0a7c38baa3f27b0495c14526f56e459672af59a99e5e712f1",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/example_trace.csv"
+          ]
+        },
+        {
+          "path": "stimulus_response_slides_20261028-144914/summary.csv",
+          "size": 1555,
+          "allocated": 4096,
+          "mtime_ns": 1793195356290337643,
+          "inode": 331932,
+          "kind": "file",
+          "sha256": "c63cce45cbe55b1b2b2966f1c75adb90ee7e9142ad58b80bda796a306ed86846",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/summary.csv"
+          ]
+        },
+        {
+          "path": "stimulus_response_slides_20261028-144914/responses.csv",
+          "size": 37093,
+          "allocated": 40960,
+          "mtime_ns": 1793195356288967325,
+          "inode": 331931,
+          "kind": "file",
+          "sha256": "8c75cfb137c8c68246afd6c4b4d170a7b42d1572eecd94f12b8b611c804f82fd",
+          "retained_copies": [
+            "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/responses.csv"
+          ]
+        }
+      ],
+      "file_count": 3,
+      "bytes": 46777,
+      "allocated_file_bytes": 53248,
+      "descendants": [
+        "stimulus_response_slides_20261028-144914/example_trace.csv",
+        "stimulus_response_slides_20261028-144914/responses.csv",
+        "stimulus_response_slides_20261028-144914/summary.csv"
+      ],
+      "reason": "all_contents_preserved_in_figures",
+      "current_references": []
+    }
+  ],
+  "total_directories": 6,
+  "total_files": 22,
+  "total_bytes": 28155122,
+  "retained_files": [
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv",
+      "size": 196054,
+      "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4",
+      "size": 1262521,
+      "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final_visible_labels.json",
+      "size": 77839,
+      "sha256": "2213882708204f26c91a479a2737f9eb9d84aa24bce201eb57dc526562c44b60"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final.json",
+      "size": 10488,
+      "sha256": "40a5ac219b413d49a86f738245d4c429ebe78702533a087b93e2632cb30b5c34"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv",
+      "size": 891,
+      "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv",
+      "size": 13775,
+      "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/01_trajectory_segmentation.mp4",
+      "size": 7884796,
+      "sha256": "755666a7c00ce448e30d0851ca730eaf8aef76cc1dd5513fabbb5b9ed40f8ced"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv",
+      "size": 19270,
+      "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4",
+      "size": 617267,
+      "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv",
+      "size": 1487,
+      "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv",
+      "size": 17157,
+      "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_visible_labels.json",
+      "size": 33920,
+      "sha256": "0c2a3b6a16522d73d12db47d9b5a2dda94f76767a45a87ddc42db57537031a78"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_verification.json",
+      "size": 456,
+      "sha256": "e94829aabce435c7938c52838d33bc04fa6325c231d4c0cb093d38cf2eab0b41"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background.json",
+      "size": 7627,
+      "sha256": "9557dcc46e14b235c6fd3cfbab8bd886d9c6f0cf0a1230f3ba76f01c74431342"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/04_collective_metrics.frames.csv",
+      "size": 35803,
+      "sha256": "39f2f896384c1e07e404f46100531bf60299445e60081e53e9ca1e39eef4a4bf"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/04_collective_metrics.mp4",
+      "size": 4050138,
+      "sha256": "ae4b2de179bbcf5fdd8452601914ed9a8c16b88d5bc1594d73f7adb263c10a34"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/example_trace.csv",
+      "size": 8129,
+      "sha256": "51b36912357ecfc0a7c38baa3f27b0495c14526f56e459672af59a99e5e712f1"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/summary.csv",
+      "size": 1555,
+      "sha256": "c63cce45cbe55b1b2b2966f1c75adb90ee7e9142ad58b80bda796a306ed86846"
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/responses.csv",
+      "size": 37093,
+      "sha256": "8c75cfb137c8c68246afd6c4b4d170a7b42d1572eecd94f12b8b611c804f82fd"
+    }
+  ],
+  "tracked_candidates": [],
+  "source_data_or_code_deleted": false,
+  "mandatory_rechecks": [
+    "exact approved paths only",
+    "directory contents, sizes, hashes and modification times unchanged",
+    "retained copies unchanged",
+    "no tracked file or active process use",
+    "no symlink traversal",
+    "skip changed or uncertain directories"
+  ]
+}

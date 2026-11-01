@@ -1,0 +1,46 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "customer_workspace/tests"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [ 64%]\n.......................................                                  [100%]\n111 passed in 0.16s\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/timing_benchmark.py",
+      "customer_workspace/benchmark_report.py",
+      "customer_workspace/tests/test_benchmark_report.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/timing_benchmark.py",
+      "customer_workspace/benchmark_report.py",
+      "customer_workspace/tests/test_benchmark_report.py"
+    ],
+    "returncode": 0,
+    "stdout": "3 files already formatted\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "bubble_benchmark_20261026-120008": [
+    {
+      "file": "customer_workspace/AGENTS.md",
+      "line": 19,
+      "text": "  `validation/bubble_benchmark_20261026-120008`. Verify `input_lock.json`; keep its"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 555,
+      "text": "  customer_workspace/validation/bubble_benchmark_20261026-120008"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 557,
+      "text": "  customer_workspace/validation/bubble_benchmark_20261026-120008"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 574,
+      "text": "| [固定困难片段](validation/bubble_benchmark_20261026-120008/index.html) | 早期统一检测追踪检查数据 |"
+    }
+  ],
+  "joint_sam21_20261026-190838": [
+    {
+      "file": "customer_workspace/JOINT_TRACKING.md",
+      "line": 7,
+      "text": "[2026-10-26 run report](validation/joint_sam21_20261026-190838/RUN_REPORT.md)."
+    },
+    {
+      "file": "customer_workspace/JOINT_TRACKING.md",
+      "line": 99,
+      "text": "  customer_workspace/validation/joint_sam21_20261026-190838 \\"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 577,
+      "text": "| [联合候选报告](validation/joint_sam21_20261026-190838/RUN_REPORT.md) | 早期 OpenCV + SAM 互相检查的实现与局限 |"
+    }
+  ],
+  "sam21_initial_20261026-170243": [
+    {
+      "file": "customer_workspace/JOINT_TRACKING.md",
+      "line": 100,
+      "text": "  --sam-baseline customer_workspace/validation/sam21_initial_20261026-170243"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 576,
+      "text": "| [SAM 初始轮廓试验](validation/sam21_initial_20261026-170243/) | 独立模型追踪及空预测记录 |"
+    }
+  ],
+  "pair_wait_20261023-213421": [
+    {
+      "file": "customer_workspace/experiment_runner.py",
+      "line": 39,
+      "text": "# 原始记录：validation/pair_wait_20261023-213421/wait_calibration/"
+    }
+  ],
+  "remaining_stalls_20261030-175436": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 23,
+      "text": "来源排查见[剩余停顿报告](validation/remaining_stalls_20261030-175436/REPORT.md)，"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 32,
+      "text": "rg --no-ignore -n '14.789' customer_workspace/validation/remaining_stalls_20261030-175436/REPORT.md"
+    }
+  ],
+  "analysis_startup_20261030-183814": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 24,
+      "text": "正式接入及启动对照见[分析端预热验证](validation/analysis_startup_20261030-183814/REPORT.md)，"
+    },
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 41,
+      "text": "[分析端启动预热验证](../validation/analysis_startup_20261030-183814/REPORT.md)。"
+    }
+  ],
+  "blur_reuse_20261030-185211": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 25,
+      "text": "平滑图复用的像素、追踪及回放核对见[平滑内存复用验证](validation/blur_reuse_20261030-185211/REPORT.md)。"
+    },
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 62,
+      "text": "[平滑内存复用验证](../validation/blur_reuse_20261030-185211/REPORT.md)。"
+    }
+  ],
+  "avsync_trial": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 360,
+      "text": "  --output-dir customer_workspace/validation/avsync_trial"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 365,
+      "text": "这一入口也自动使用同一份 `afg_video.json`。需要四路联动时，仅把 `--plan` 后的文件换成 `customer_workspace/configs/four_pzt_video_20s.json`。`avsync_trial` 必须不存在。"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 385,
+      "text": "  customer_workspace/validation/avsync_trial \\"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 387,
+      "text": "  --output-dir customer_workspace/validation/avsync_trial_report"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 390,
+      "text": "  customer_workspace/validation/avsync_trial \\"
+    },
+    {
+      "file": "customer_workspace/README.md",
+      "line": 391,
+      "text": "  --report-dir customer_workspace/validation/avsync_trial_report"
+    }
+  ],
+  "parallel_20261025-145352": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 570,
+      "text": "| [parallel_20261025-145352](validation/parallel_20261025-145352/) | 完整录像与现场分析并行的对照 |"
+    },
+    {
+      "file": "customer_workspace/tools/gstreamer/INSTALL.md",
+      "line": 7,
+      "text": "这次安装的入口包是 `gstreamer-bundle==1.28.7`，其依赖允许同系列的小版本更新。实际核心、Python 绑定等为 1.28.8，插件等为 1.28.7；这组版本已经通过本次真实采集，不把它们统称为“全套 1.28.8”。最初尝试入口包 1.28.8 时，它要求的插件 1.28.8 没有可安装文件，因此改用 1.28.7。实际所有版本已固定在 [requirements.txt](requirements.txt)。完整下载地址、包大小及 SHA-256 保存在 [安装清单](../../validation/parallel_20261025-145352/gstreamer_install.json)。"
+    }
+  ],
+  "stability_20261025-151417": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 571,
+      "text": "| [stability_20261025-151417](validation/stability_20261025-151417/) | 62 秒多次运行、队列、延迟与内存检查 |"
+    },
+    {
+      "file": "customer_workspace/tools/gstreamer/INSTALL.md",
+      "line": 25,
+      "text": "第三轮在这个独立环境新增 `psutil==7.2.2`，每秒读取一次 Windows 接收器和 FFmpeg 的驻留、私有内存。Windows 安装文件约 137 kB；[安装来源和校验清单](../../validation/stability_20261025-151417/psutil_install.json)已保留。WSL 直接复用原 Pipeline 已有的每秒内存记录，不重复创建监测线程，也没有向 F 盘原环境安装依赖。指标含义见 [psutil 官方文档](https://psutil.readthedocs.io/en/latest/#psutil.Process.memory_info)：驻留内存反映当时驻留在物理内存中的部分，不能等同于全部私有分配量。"
+    }
+  ],
+  "avsync_20261025-161356_rerun": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 572,
+      "text": "| [四路重跑摘要](validation/avsync_20261025-161356_rerun/overview.json) | 正常、取消及主动异常条件下的联合记录；对应实验 A |"
+    },
+    {
+      "file": "customer_workspace/configs/bubble_review_sources.json",
+      "line": 6,
+      "text": "      \"experiment\": \"customer_workspace/validation/avsync_20261025-161356_rerun/normal\","
+    },
+    {
+      "file": "customer_workspace/tests/test_two_action_video.py",
+      "line": 102,
+      "text": "    base = CONFIGS.parent / \"validation/avsync_20261025-161356_rerun\""
+    }
+  ],
+  "avsync_20261025-165523_two_action": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 573,
+      "text": "| [双动作摘要](validation/avsync_20261025-165523_two_action/overview.json) | PZT1 → PZT3 → PZT1 联合记录；对应实验 B |"
+    },
+    {
+      "file": "customer_workspace/configs/bubble_review_sources.json",
+      "line": 14,
+      "text": "      \"experiment\": \"customer_workspace/validation/avsync_20261025-165523_two_action/experiment\","
+    }
+  ],
+  "bubble_detection_20261026-163801_mix_a": [
+    {
+      "file": "customer_workspace/README.md",
+      "line": 575,
+      "text": "| [Mix A 结果](validation/bubble_detection_20261026-163801_mix_a/video/index.html) | 早期 Mask 收缩与重识别记录 |"
+    }
+  ],
+  "bubble_wall_narrow_20261026-014007": [
+    {
+      "file": "customer_workspace/configs/bubble_benchmark_20261026.json",
+      "line": 3,
+      "text": "  \"review_directory\": \"customer_workspace/validation/bubble_wall_narrow_20261026-014007/review\","
+    }
+  ],
+  "bubble_tracking_20261026-015303": [
+    {
+      "file": "customer_workspace/configs/bubble_benchmark_20261026.json",
+      "line": 4,
+      "text": "  \"tracking_directory\": \"customer_workspace/validation/bubble_tracking_20261026-015303\","
+    }
+  ],
+  "bubble_regions_20261025-222755": [
+    {
+      "file": "customer_workspace/configs/bubble_dark_preview_20261026.json",
+      "line": 3,
+      "text": "  \"source_dataset\": \"customer_workspace/validation/bubble_regions_20261025-222755/review\","
+    }
+  ],
+  "bubble_adjustment_20261026-004629": [
+    {
+      "file": "customer_workspace/configs/bubble_dark_preview_20261026.json",
+      "line": 4,
+      "text": "  \"baseline_dataset\": \"customer_workspace/validation/bubble_adjustment_20261026-004629/review\","
+    },
+    {
+      "file": "customer_workspace/configs/bubble_dark_preview_20261026.json",
+      "line": 5,
+      "text": "  \"reference_split\": \"customer_workspace/validation/bubble_adjustment_20261026-004629/reference_split.json\","
+    }
+  ],
+  "conversion_warmup_20261030-133432": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 352,
+      "text": "实测记录见 [启动预热对照报告](../validation/conversion_warmup_20261030-133432/REPORT.md)。"
+    }
+  ],
+  "conversion_reuse_20261030-134544": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 395,
+      "text": "详见 [内存复用验证报告](../validation/conversion_reuse_20261030-134544/REPORT.md)。"
+    }
+  ],
+  "paced_replay_20261029-190915": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 407,
+      "text": "[本轮报告、性能图与原始计时](../validation/paced_replay_20261029-190915/REPORT.md)。"
+    }
+  ],
+  "online_profile_20261029-210836": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 449,
+      "text": "[分项耗时分析与对照报告](../validation/online_profile_20261029-210836/REPORT.md)。"
+    }
+  ],
+  "async_save_20261029-225537": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 501,
+      "text": "[并行保存验证报告](../validation/async_save_20261029-225537/report/REPORT.md)。"
+    }
+  ],
+  "database_save_20261030-140229": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 552,
+      "text": "本轮记录见 [数据库保存检查与优化报告](../validation/database_save_20261030-140229/REPORT.md)。"
+    }
+  ],
+  "contrast_optimization_20261029-232239": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 584,
+      "text": "[相对暗度优化报告](../validation/contrast_optimization_20261029-232239/report/REPORT.md)。"
+    }
+  ],
+  "label_reuse_20261030-154438": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 619,
+      "text": "本次实际结果见 [区域编号内存复用报告](../validation/label_reuse_20261030-154438/REPORT.md)。"
+    }
+  ],
+  "online_tracking_20261029-175305": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 629,
+      "text": "  customer_workspace/validation/online_tracking_20261029-175305"
+    }
+  ],
+  "diagnostics_off_20261030-153434": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 649,
+      "text": "[默认关闭诊断验证](../validation/diagnostics_off_20261030-153434/REPORT.md)。"
+    }
+  ],
+  "gc_timing_20261030-155840": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 745,
+      "text": "本次对照与限制见 [GC 时机验证报告](../validation/gc_timing_20261030-155840/REPORT.md)。"
+    }
+  ],
+  "gc_lifecycle_20261030-171433": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 747,
+      "text": "[正式清理验证报告](../validation/gc_lifecycle_20261030-171433/REPORT.md)。"
+    }
+  ],
+  "native_stalls_20261030-112035": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 758,
+      "text": "本次对照与证据见 `../validation/native_stalls_20261030-112035/REPORT.md`。"
+    }
+  ],
+  "stall_root_cause_20261030-115117": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 776,
+      "text": "进一步的原始证据见 `../validation/stall_root_cause_20261030-115117/REPORT.md`。"
+    }
+  ],
+  "memory_pressure_20261030-123155": [
+    {
+      "file": "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md",
+      "line": 846,
+      "text": "[2026-10-30 内存对照](../validation/memory_pressure_20261030-123155/REPORT.md)。"
+    }
+  ]
+}

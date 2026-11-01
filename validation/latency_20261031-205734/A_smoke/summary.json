@@ -1,0 +1,113 @@
+{
+  "error": null,
+  "resources": [
+    {
+      "elapsed_s": 0.20784755500790197,
+      "rss_mib": 157.64453125,
+      "decoder_rss_mib": 0.828125
+    },
+    {
+      "elapsed_s": 1.2083007830078714,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.36328125
+    },
+    {
+      "elapsed_s": 2.2098993330000667,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 3.21136999000737,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 4.212700631003827,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 5.213940450004884,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 6.2157832750090165,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 7.216063129002578,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 8.216401494006277,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 9.216604665009072,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 10.217607796002994,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 11.218031249998603,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 108.3671875
+    },
+    {
+      "elapsed_s": 12.219458242005203,
+      "rss_mib": 157.66796875,
+      "decoder_rss_mib": 122.078125
+    },
+    {
+      "elapsed_s": 13.221448394004256,
+      "rss_mib": 162.2890625,
+      "decoder_rss_mib": 124.8984375
+    },
+    {
+      "elapsed_s": 14.223627034007222,
+      "rss_mib": 163.4375,
+      "decoder_rss_mib": 124.93359375
+    },
+    {
+      "elapsed_s": 15.225683108001249,
+      "rss_mib": 164.1640625,
+      "decoder_rss_mib": 124.9609375
+    }
+  ],
+  "threads_closed": true,
+  "recorder_dropped": null,
+  "analysis_skipped": 0,
+  "bridge_overwritten": 0,
+  "tracking": {
+    "status": "completed",
+    "frames": 120,
+    "observations": 2514,
+    "tracks": 39,
+    "confirmed_tracks": 31,
+    "events_by_status": {
+      "confirmed_tracks": 43,
+      "rejected_short_track": 12,
+      "unresolved_at_end": 2
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 0,
+    "peak_active_tracks": 26,
+    "persistence": {
+      "submitted_frames": 120,
+      "committed_frames": 120,
+      "pending_records": 0,
+      "peak_pending_records": 2,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 211,
+      "error": null
+    }
+  }
+}

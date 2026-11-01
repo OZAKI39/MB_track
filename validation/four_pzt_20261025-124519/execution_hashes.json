@@ -1,0 +1,16 @@
+{
+  "customer_workspace/experiment_runner.py": "6d5ea6973e8c26bfadcc54de89139fcdc2e9c1966239509936b360612c238ae6",
+  "customer_workspace/afg_timing.py": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+  "customer_workspace/timing_report.py": "8e4d6e6e0781e308f6e77595222bbeb7ed3604107ebae98829c1567057f64439",
+  "customer_workspace/wsl_launcher.py": "ff7363698978333e80fec0440a32ab37081b1c701a21a70fce7f499df100cfc9",
+  "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+  "configs/afg.json": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d",
+  "customer_workspace/four_pzt_validation.py": "35d031cfb55714a0539594be555b4279f066f8dc277af244bf3c25345e2ae72b",
+  "customer_workspace/tests/test_four_pzt_validation.py": "0df842753874b71d0e2484abaab914fb116f630427dab5226bf855ecf45b5744",
+  "customer_workspace/configs/four_pzt/01_sequential.json": "0618e499e216ebb5c066890b98c7108729e0562181bc6c93ce7cae8a837b2034",
+  "customer_workspace/configs/four_pzt/02_groups.json": "a28255fbf7b98dcdb776def74b6d9e1dc2badb89cbb1cf9ffb227f491c997928",
+  "customer_workspace/configs/four_pzt/03_all_together.json": "1aff2455613ef486c923d21574c4806330251f5a07629430f4a00dd80bc5a884",
+  "customer_workspace/configs/four_pzt/04_frequencies.json": "5e17bcab842eb3ffafd6486d013982f5d550388e048275896b1f247f75e6658b",
+  "customer_workspace/configs/four_pzt/05_combined.json": "e42b21fb9f18d4bca9c86b303b8108e4983abfa82e33911d9e24f5d14c808df6",
+  "customer_workspace/configs/four_pzt/06_cancel.json": "ea9da13ab8619db8eca007107c6c1824718a474b3ab72982868ed22edeee6b8c"
+}

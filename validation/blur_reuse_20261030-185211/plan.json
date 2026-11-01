@@ -1,0 +1,15 @@
+{
+  "task": "Reuse GaussianBlur output in the analysis process",
+  "code_before": {
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "916985a20d08188c247ec24644f0aedb404fcebb18692aa079b84cc9a48b3170",
+    "paced_replay.py": "c715819cae801e67d33b0c974d71308b7e832949e12ae8282f43827a5339f202",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f"
+  },
+  "opencv": "4.10.0",
+  "numpy": "2.2.6",
+  "reference": "results/B_offline/background.npy",
+  "paced_repeats_per_video_per_version": 3,
+  "baseline_collected_before_edit": true
+}

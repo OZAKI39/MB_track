@@ -1,0 +1,442 @@
+[
+  {
+    "time_ms": 5143.0045,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 5143.5647,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 27704,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 5143.7,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 5144.5665,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 27704,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 6187.5482,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 16,
+    "AmlMethodName": "\\_SB.PC00.HDAS._DSW",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 6218.9738,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 16,
+    "AmlMethodName": "\\_SB.PC00.HDAS._PS3",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8167.3525,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8167.9426,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 15152,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8168.1163,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8168.9591,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 15152,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8418.9828,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 0,
+    "tid": 0,
+    "AmlMethodName": "\\_SB.PC00.LPCB.EC0._Q89",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8419.1769,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.BAT0._STA",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8419.356,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8419.7708,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.AC0._PSR",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8419.8878,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.BAT0._BTP",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 8420.034,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 11244.7392,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 11245.1824,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 44948,
+    "AmlMethodName": "\\_SB.AC0._PSR",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 12891.3847,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24908,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 12891.8621,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24908,
+    "AmlMethodName": "\\_SB.AC0._PSR",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 20384.2087,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24908,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 20384.6489,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24908,
+    "AmlMethodName": "\\_SB.AC0._PSR",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 27756.7717,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 27757.3196,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 41680,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 27757.5824,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 27758.2832,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 41680,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 30737.5368,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 30738.1885,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 21308,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 30738.2165,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 30741.9955,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 21308,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39480.9239,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 0,
+    "tid": 0,
+    "AmlMethodName": "\\_SB.PC00.LPCB.EC0._Q89",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39481.2293,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24936,
+    "AmlMethodName": "\\_SB.BAT0._STA",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39481.4268,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24936,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39481.819,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24936,
+    "AmlMethodName": "\\_SB.AC0._PSR",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39481.9372,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24936,
+    "AmlMethodName": "\\_SB.BAT0._BTP",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39482.0909,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 24936,
+    "AmlMethodName": "\\_SB.BAT0._BST",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39794.1319,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39794.6362,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 38816,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39794.8518,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 39795.6622,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 604,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 47324.4856,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 47325.0902,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 13960,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 47325.209,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 9320,
+    "tid": 45764,
+    "AmlMethodName": "\\_SB.AMW0.WMBC",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  },
+  {
+    "time_ms": 47326.1313,
+    "provider": "Microsoft-Windows-Kernel-Acpi",
+    "event": "AmlMethodTrace",
+    "pid": 4,
+    "tid": 13960,
+    "AmlMethodName": "\\_SB.NPCF._DSM",
+    "AmlMethodState": "started",
+    "AmlElapsedTime": "0"
+  }
+]

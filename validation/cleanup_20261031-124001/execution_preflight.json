@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-10-31T12:43:21.727898+01:00",
+  "approval": "批准删除清单中的 6 个目录",
+  "approved_manifest_sha256": "4e80610918c48cfde03f5e3094ed04e53c8c23b74eb83201cad60fbbaef2d6fc",
+  "tracked_candidates": [],
+  "registered_worktrees": "worktree /home/lzy/projects/new_microbubble_experiment\nHEAD df07df7ed3b65d8655fbd92457ea26984973fd79\nbranch refs/heads/main\n\n",
+  "retained_files_verified": 19,
+  "directories": [
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-134318",
+      "verified": true
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-134324",
+      "verified": true
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144848",
+      "verified": true
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412",
+      "verified": true
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326",
+      "verified": true
+    },
+    {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144914",
+      "verified": true
+    }
+  ],
+  "windows_processes": [],
+  "process_check_limits": "Windows command lines only; inaccessible WSL system processes listed below; no claim of complete Windows handle inspection.",
+  "active_uses": [],
+  "inaccessible_wsl_pids": [
+    1,
+    2,
+    3,
+    10,
+    56,
+    102,
+    164,
+    165,
+    174,
+    175,
+    182,
+    195,
+    197,
+    213,
+    304,
+    305,
+    307,
+    351,
+    352,
+    469,
+    470,
+    573,
+    575,
+    584,
+    585,
+    1478,
+    1479,
+    127566,
+    145418,
+    147223,
+    147224,
+    147225
+  ]
+}

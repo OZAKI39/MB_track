@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><title>Joint tracking review</title>
+<style>@font-face{font-family:Arial;src:url(arial.ttf)}
+body{font-family:Arial;margin:24px;background:#171e24;color:#fff}
+h1{font-size:24px}button,select{font:18px Arial;padding:8px;margin:4px}
+img{width:100%;height:auto}a{color:#8fd1ff}p{font-size:18px}</style>
+<h1>Joint tracking review</h1>
+<p><a href="../review/video/index.html">Full video</a> · ? = Uncertain · Human review pending</p>
+<p><a href="feedback_case.png">SAM recovery example</a> · <a href="cv_miss_case.png">OpenCV recovery example</a></p>
+<button id="prev">Previous</button><select id="frame"><option value="6">Frame 6 | 0.100 s</option><option value="7">Frame 7 | 0.117 s</option><option value="10">Frame 10 | 0.167 s</option><option value="14">Frame 14 | 0.233 s</option><option value="360">Frame 360 | 6.000 s</option><option value="377">Frame 377 | 6.283 s</option><option value="378">Frame 378 | 6.300 s</option><option value="384">Frame 384 | 6.400 s</option><option value="524">Frame 524 | 8.733 s</option><option value="525">Frame 525 | 8.750 s</option><option value="531">Frame 531 | 8.850 s</option><option value="535">Frame 535 | 8.917 s</option><option value="536">Frame 536 | 8.933 s</option><option value="542">Frame 542 | 9.033 s</option><option value="609">Frame 609 | 10.150 s</option><option value="610">Frame 610 | 10.167 s</option><option value="616">Frame 616 | 10.267 s</option><option value="659">Frame 659 | 10.983 s</option><option value="830">Frame 830 | 13.833 s</option><option value="840">Frame 840 | 14.000 s</option><option value="850">Frame 850 | 14.167 s</option><option value="870">Frame 870 | 14.500 s</option><option value="900">Frame 900 | 15.000 s</option><option value="1080">Frame 1080 | 18.000 s</option><option value="1314">Frame 1314 | 21.900 s</option></select><button id="next">Next</button>
+<a id="full" target="_blank">Full size</a><p></p><img id="image" alt="Tracking comparison">
+<script>
+const frames=[6, 7, 10, 14, 360, 377, 378, 384, 524, 525, 531, 535, 536, 542, 609, 610, 616, 659, 830, 840, 850, 870, 900, 1080, 1314], select=document.querySelector('#frame');
+function show(){const file='frame_'+select.value.padStart(6,'0')+'.png';
+document.querySelector('#image').src=file;document.querySelector('#full').href=file;}
+function move(step){select.selectedIndex=Math.max(0,Math.min(frames.length-1,select.selectedIndex+step));show();}
+select.onchange=show;document.querySelector('#prev').onclick=()=>move(-1);
+document.querySelector('#next').onclick=()=>move(1);
+document.onkeydown=e=>{if(e.key==='ArrowLeft')move(-1);if(e.key==='ArrowRight')move(1);};show();
+</script>

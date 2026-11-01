@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-23T13:37:21.094428+00:00",
+  "planned_duration_s": 14,
+  "timeline_started_utc": "2026-10-23T13:37:22.125518+00:00",
+  "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\timing_50_20261023-152527\\resume_01\\run_18",
+  "error": null,
+  "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+  "finished_utc": "2026-10-23T13:37:36.215570+00:00",
+  "elapsed_s": 14.090030799998203,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": []
+}

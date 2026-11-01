@@ -1,0 +1,17 @@
+{
+  "status": "PASSED",
+  "checked_local_link_occurrences": 242,
+  "protected_original_files_unchanged": 373,
+  "modified_existing_files": [
+    "customer_workspace/bubble_regions.py",
+    "customer_workspace/bubble_region_review.py",
+    "customer_workspace/bubble_region_comparison.py",
+    "customer_workspace/README.md",
+    "customer_workspace/tests/test_bubble_regions.py"
+  ],
+  "new_configuration": "customer_workspace/configs/bubble_dark_aba_wall_20261026.json",
+  "original_inputs_unchanged": true,
+  "selected_profile_parameters_unchanged": true,
+  "tests_passed": 57,
+  "wall_boundary_human_verified": false
+}

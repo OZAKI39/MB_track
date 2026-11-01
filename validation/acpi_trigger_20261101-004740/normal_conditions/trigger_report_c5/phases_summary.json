@@ -1,0 +1,354 @@
+[
+  {
+    "phase": "quiet_1",
+    "duration_s": 22.0004408,
+    "start_ms": 2466.3982,
+    "end_ms": 24466.839,
+    "c5_count": 10,
+    "wmi_calls": 5,
+    "frames": 0,
+    "decode_ms": null,
+    "frame_lock_wait_ms": null,
+    "c5_exclusive_held_ms": {
+      "median": 4.182449999999335,
+      "p95": 12.827135000000725,
+      "p99": 13.229507000000977,
+      "max": 13.330100000001039
+    },
+    "slowest": []
+  },
+  {
+    "phase": "single_A",
+    "duration_s": 22.9614799,
+    "start_ms": 24466.8711,
+    "end_ms": 47428.351,
+    "c5_count": 8,
+    "wmi_calls": 4,
+    "frames": 1320,
+    "decode_ms": {
+      "median": 2.96615,
+      "p95": 3.512044999999999,
+      "p99": 5.004884999999992,
+      "max": 28.0281
+    },
+    "frame_lock_wait_ms": {
+      "median": 0.07000000000698492,
+      "p95": 0.1054100000006656,
+      "p99": 0.18303500000682088,
+      "max": 24.99279999997816
+    },
+    "c5_exclusive_held_ms": {
+      "median": 8.286850000002232,
+      "p95": 15.885044999999444,
+      "p99": 17.018288999998983,
+      "max": 17.30159999999887
+    },
+    "slowest": [
+      {
+        "run": "traced_single_A_A",
+        "frame": 529,
+        "start_ms": 34100.409499999994,
+        "end_ms": 34128.448300000004,
+        "decode_ms": 28.0281,
+        "pid": 26796,
+        "tid": 43600,
+        "lock_wait_ms": 24.99279999997816
+      },
+      {
+        "run": "traced_single_A_A",
+        "frame": 1163,
+        "start_ms": 44667.0784,
+        "end_ms": 44691.2546,
+        "decode_ms": 24.1674,
+        "pid": 26796,
+        "tid": 43600,
+        "lock_wait_ms": 21.064300000020012
+      },
+      {
+        "run": "traced_single_A_A",
+        "frame": 919,
+        "start_ms": 40600.4165,
+        "end_ms": 40610.6892,
+        "decode_ms": 10.2503,
+        "pid": 26796,
+        "tid": 43600,
+        "lock_wait_ms": 0.19779999999445863
+      },
+      {
+        "run": "traced_single_A_A",
+        "frame": 168,
+        "start_ms": 28083.7471,
+        "end_ms": 28093.2839,
+        "decode_ms": 9.5234,
+        "pid": 26796,
+        "tid": 43600,
+        "lock_wait_ms": 7.6256999999932304
+      },
+      {
+        "run": "traced_single_A_A",
+        "frame": 953,
+        "start_ms": 41167.07980000001,
+        "end_ms": 41174.911100000005,
+        "decode_ms": 7.8186,
+        "pid": 26796,
+        "tid": 43600,
+        "lock_wait_ms": 0.07470000001194421
+      }
+    ]
+  },
+  {
+    "phase": "dual_AB",
+    "duration_s": 22.949855600000003,
+    "start_ms": 47428.3935,
+    "end_ms": 70378.2491,
+    "c5_count": 10,
+    "wmi_calls": 5,
+    "frames": 2640,
+    "decode_ms": {
+      "median": 2.93855,
+      "p95": 5.004064999999999,
+      "p99": 6.675942000000002,
+      "max": 33.6454
+    },
+    "frame_lock_wait_ms": {
+      "median": 0.07140000001527369,
+      "p95": 0.11621999998933451,
+      "p99": 0.21275700000012923,
+      "max": 24.531100000051083
+    },
+    "c5_exclusive_held_ms": {
+      "median": 0.1658499999975902,
+      "p95": 13.829574999993927,
+      "p99": 14.636154999993888,
+      "max": 14.837799999993877
+    },
+    "slowest": [
+      {
+        "run": "traced_dual_AB_A",
+        "frame": 1236,
+        "start_ms": 68805.4097,
+        "end_ms": 68839.0658,
+        "decode_ms": 33.6454,
+        "pid": 48276,
+        "tid": 22300,
+        "lock_wait_ms": 21.997999999992317
+      },
+      {
+        "run": "traced_dual_AB_B",
+        "frame": 1236,
+        "start_ms": 68802.8544,
+        "end_ms": 68831.4948,
+        "decode_ms": 28.6293,
+        "pid": 25908,
+        "tid": 39468,
+        "lock_wait_ms": 24.531100000051083
+      },
+      {
+        "run": "traced_dual_AB_A",
+        "frame": 694,
+        "start_ms": 59772.0779,
+        "end_ms": 59783.981,
+        "decode_ms": 11.894,
+        "pid": 48276,
+        "tid": 22300,
+        "lock_wait_ms": 8.227500000000873
+      },
+      {
+        "run": "traced_dual_AB_B",
+        "frame": 1015,
+        "start_ms": 65119.51329999999,
+        "end_ms": 65131.05590000001,
+        "decode_ms": 11.5356,
+        "pid": 25908,
+        "tid": 39468,
+        "lock_wait_ms": 0.07280000000173459
+      },
+      {
+        "run": "traced_dual_AB_B",
+        "frame": 694,
+        "start_ms": 59769.5193,
+        "end_ms": 59781.0593,
+        "decode_ms": 11.5307,
+        "pid": 25908,
+        "tid": 39468,
+        "lock_wait_ms": 8.485700000012002
+      }
+    ]
+  },
+  {
+    "phase": "dual_BA",
+    "duration_s": 22.873835999999997,
+    "start_ms": 70378.37120000001,
+    "end_ms": 93252.2072,
+    "c5_count": 8,
+    "wmi_calls": 4,
+    "frames": 2640,
+    "decode_ms": {
+      "median": 3.0135,
+      "p95": 6.361715,
+      "p99": 7.257926000000001,
+      "max": 33.0421
+    },
+    "frame_lock_wait_ms": {
+      "median": 0.07109999998647254,
+      "p95": 0.12190500001088364,
+      "p99": 0.17956700001072082,
+      "max": 23.5506999999634
+    },
+    "c5_exclusive_held_ms": {
+      "median": 9.582300000001851,
+      "p95": 14.867155000002093,
+      "p99": 15.337751000005373,
+      "max": 15.455400000006193
+    },
+    "slowest": [
+      {
+        "run": "traced_dual_BA_B",
+        "frame": 1038,
+        "start_ms": 88400.0655,
+        "end_ms": 88433.1162,
+        "decode_ms": 33.0421,
+        "pid": 37996,
+        "tid": 32892,
+        "lock_wait_ms": 23.5506999999634
+      },
+      {
+        "run": "traced_dual_BA_A",
+        "frame": 1218,
+        "start_ms": 91412.4691,
+        "end_ms": 91440.0944,
+        "decode_ms": 27.6142,
+        "pid": 21216,
+        "tid": 44268,
+        "lock_wait_ms": 22.3245000000461
+      },
+      {
+        "run": "traced_dual_BA_B",
+        "frame": 1219,
+        "start_ms": 91416.7306,
+        "end_ms": 91437.94339999999,
+        "decode_ms": 21.2001,
+        "pid": 37996,
+        "tid": 32892,
+        "lock_wait_ms": 18.081900000062888
+      },
+      {
+        "run": "traced_dual_BA_A",
+        "frame": 1038,
+        "start_ms": 88412.4681,
+        "end_ms": 88431.6955,
+        "decode_ms": 19.2174,
+        "pid": 21216,
+        "tid": 44268,
+        "lock_wait_ms": 11.22970000001078
+      },
+      {
+        "run": "traced_dual_BA_B",
+        "frame": 984,
+        "start_ms": 87500.059,
+        "end_ms": 87512.1156,
+        "decode_ms": 12.049,
+        "pid": 37996,
+        "tid": 32892,
+        "lock_wait_ms": 0.06800000002840534
+      }
+    ]
+  },
+  {
+    "phase": "single_B",
+    "duration_s": 22.881047800000015,
+    "start_ms": 93252.36339999999,
+    "end_ms": 116133.4112,
+    "c5_count": 2,
+    "wmi_calls": 1,
+    "frames": 1320,
+    "decode_ms": {
+      "median": 2.95985,
+      "p95": 5.361755,
+      "p99": 6.338124,
+      "max": 37.5034
+    },
+    "frame_lock_wait_ms": {
+      "median": 0.06949999995413236,
+      "p95": 0.10130499997831066,
+      "p99": 0.18345899999898316,
+      "max": 33.21950000000652
+    },
+    "c5_exclusive_held_ms": {
+      "median": 17.15520000000106,
+      "p95": 22.5436799999974,
+      "p99": 23.022655999997077,
+      "max": 23.142399999996996
+    },
+    "slowest": [
+      {
+        "run": "traced_single_B_B",
+        "frame": 570,
+        "start_ms": 103492.4594,
+        "end_ms": 103529.97320000001,
+        "decode_ms": 37.5034,
+        "pid": 46044,
+        "tid": 46420,
+        "lock_wait_ms": 33.21950000000652
+      },
+      {
+        "run": "traced_single_B_B",
+        "frame": 1143,
+        "start_ms": 113042.46019999999,
+        "end_ms": 113049.8192,
+        "decode_ms": 7.3476,
+        "pid": 46044,
+        "tid": 46420,
+        "lock_wait_ms": 0.07069999996747356
+      },
+      {
+        "run": "traced_single_B_B",
+        "frame": 805,
+        "start_ms": 107409.1265,
+        "end_ms": 107416.24070000001,
+        "decode_ms": 7.1011,
+        "pid": 46044,
+        "tid": 46420,
+        "lock_wait_ms": 0.07059999996272381
+      },
+      {
+        "run": "traced_single_B_B",
+        "frame": 789,
+        "start_ms": 107142.4562,
+        "end_ms": 107149.4613,
+        "decode_ms": 6.9948,
+        "pid": 46044,
+        "tid": 46420,
+        "lock_wait_ms": 0.06809999998949934
+      },
+      {
+        "run": "traced_single_B_B",
+        "frame": 945,
+        "start_ms": 109742.5242,
+        "end_ms": 109749.46919999999,
+        "decode_ms": 6.9315,
+        "pid": 46044,
+        "tid": 46420,
+        "lock_wait_ms": 0.10059999997611158
+      }
+    ]
+  },
+  {
+    "phase": "quiet_2",
+    "duration_s": 22.000535200000026,
+    "start_ms": 116133.4414,
+    "end_ms": 138133.97660000002,
+    "c5_count": 6,
+    "wmi_calls": 3,
+    "frames": 0,
+    "decode_ms": null,
+    "frame_lock_wait_ms": null,
+    "c5_exclusive_held_ms": {
+      "median": 0.08709999999700813,
+      "p95": 6.624324999986129,
+      "p99": 8.281904999982363,
+      "max": 8.69629999998142
+    },
+    "slowest": []
+  }
+]

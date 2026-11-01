@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_arial_original_comparison_and_no_training",
+    "baseline_ids_filled_and_visible_without_typing",
+    "relationship_ids_are_suggested_without_human_confirmation",
+    "classification_id_assignment_and_grouped_undo_redo",
+    "accept_all_is_current_frame_only_preserves_uncertainty_ids_and_undo",
+    "untraceable_old_wall_is_not_loaded",
+    "real_mouse_seed_generates_mask_without_changing_region_labels"
+  ],
+  "source_annotations_edited": false,
+  "error": "ValueError: Wall boundary crosses itself; move the vertex back",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_benchmark_gui.py\", line 241, in inspect\n    wall_mask(w.edited_wall_geometry(), w.record[\"resolution_wh\"]),\n              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/bubble_region_annotation.py\", line 809, in edited_wall_geometry\n    wall_mask(geometry, self.record[\"resolution_wh\"])\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/bubble_review_edits.py\", line 127, in wall_mask\n    raise ValueError(\"Wall boundary crosses itself; move the vertex back\")\nValueError: Wall boundary crosses itself; move the vertex back\n"
+}

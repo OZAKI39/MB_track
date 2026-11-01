@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "id": "four_pzt",
+      "title": "四路切换实验",
+      "experiment": "customer_workspace/validation/avsync_20261025-161356_rerun/normal",
+      "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "sample_times_s": [0.5, 2.8, 3.5, 5.8, 6.5, 8.8, 9.5, 11.8, 12.5, 14.8, 15.5, 17.8, 18.5, 19.5, 21.0],
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。"
+    },
+    {
+      "id": "two_action",
+      "title": "A→B→A 双动作实验",
+      "experiment": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment",
+      "video_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "sample_times_s": [0.5, 3.5, 4.2, 5.5, 7.5, 8.2, 9.5, 11.5, 12.2, 13.5, 15.5, 16.2, 17.5, 19.5, 21.0],
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。"
+    }
+  ]
+}

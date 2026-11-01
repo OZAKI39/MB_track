@@ -1,0 +1,9 @@
+{
+  "count": 248,
+  "reason_counts": {
+    "LOW_PIV_SUPPORT_OR_REGISTRATION": 248
+  },
+  "candidates_min": 46,
+  "candidates_max": 74,
+  "valid_windows_max": 0
+}

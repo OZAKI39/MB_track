@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "videos": [
+    {
+      "source": "four_pzt",
+      "frames_checked": 1320,
+      "sample_original_pixels_checked": 15,
+      "candidate_regions_checked": 279981,
+      "exact_frame_times": true,
+      "contours_reconstruct_saved_masks": true,
+      "annotation_drafts_load": true
+    },
+    {
+      "source": "two_action",
+      "frames_checked": 1320,
+      "sample_original_pixels_checked": 15,
+      "candidate_regions_checked": 371302,
+      "exact_frame_times": true,
+      "contours_reconstruct_saved_masks": true,
+      "annotation_drafts_load": true
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "human_review_completed": false
+}

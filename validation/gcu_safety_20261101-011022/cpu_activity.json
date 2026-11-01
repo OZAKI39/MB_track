@@ -1,0 +1,52 @@
+[
+    {
+        "Name":  "NVDisplay.Container",
+        "IDProcess":  3768,
+        "PercentProcessorTime":  99
+    },
+    {
+        "Name":  "WmiPrvSE#3",
+        "IDProcess":  24852,
+        "PercentProcessorTime":  31
+    },
+    {
+        "Name":  "svchost#7",
+        "IDProcess":  2316,
+        "PercentProcessorTime":  7
+    },
+    {
+        "Name":  "vivoesService_x64",
+        "IDProcess":  6148,
+        "PercentProcessorTime":  7
+    },
+    {
+        "Name":  "Code#2",
+        "IDProcess":  37336,
+        "PercentProcessorTime":  3
+    },
+    {
+        "Name":  "FCDBLog",
+        "IDProcess":  12548,
+        "PercentProcessorTime":  3
+    },
+    {
+        "Name":  "QQEX",
+        "IDProcess":  33972,
+        "PercentProcessorTime":  3
+    },
+    {
+        "Name":  "vmmemWSL",
+        "IDProcess":  36780,
+        "PercentProcessorTime":  3
+    },
+    {
+        "Name":  "QQ#5",
+        "IDProcess":  13148,
+        "PercentProcessorTime":  3
+    },
+    {
+        "Name":  "msedgewebview2#18",
+        "IDProcess":  13384,
+        "PercentProcessorTime":  3
+    }
+]

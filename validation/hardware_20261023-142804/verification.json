@@ -1,0 +1,72 @@
+{
+  "checked_utc": "2026-10-23T12:29:20.236951+00:00",
+  "uses_real_hardware": true,
+  "physical_timing_verified": false,
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "checks": {
+    "wsl_command_completed": true,
+    "no_execute_argument": true,
+    "timeline_completed": true,
+    "shutdown_confirmed": true,
+    "all_actions_succeeded": true,
+    "only_pzt1_on_at_5s": true,
+    "four_steps_recorded": true,
+    "sixteen_switches_recorded": true,
+    "postflight_all_outputs_off": true,
+    "postflight_settings_match": true
+  },
+  "pzt1_switches": [
+    {
+      "planned_s": 0,
+      "output_requested": false,
+      "actual_start_s": 0.001443900000595022,
+      "actual_finish_s": 0.01597860000038054,
+      "duration_s": 0.014534699999785516,
+      "result": false
+    },
+    {
+      "planned_s": 5,
+      "output_requested": true,
+      "actual_start_s": 5.11366480000288,
+      "actual_finish_s": 5.253048400001717,
+      "duration_s": 0.13938359999883687,
+      "result": true
+    },
+    {
+      "planned_s": 6,
+      "output_requested": false,
+      "actual_start_s": 6.010870099999011,
+      "actual_finish_s": 6.023741099998006,
+      "duration_s": 0.012870999998995103,
+      "result": false
+    },
+    {
+      "planned_s": 9,
+      "output_requested": false,
+      "actual_start_s": 9.004526700002316,
+      "actual_finish_s": 9.020030599996971,
+      "duration_s": 0.015503899994655512,
+      "result": false
+    }
+  ],
+  "elapsed_s": 14.10542539999733,
+  "limitations": [
+    "时间来自软件调用和仪器读回，未接示波器验证 PZT 实际波形和脉冲长度。",
+    "本次未对 USB 断线、设备异常或磁盘故障进行实机故障注入。"
+  ]
+}

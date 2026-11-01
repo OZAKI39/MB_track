@@ -1,0 +1,52 @@
+{
+  "status": "COMPLETED",
+  "input_sha256": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-013423/review/four_pzt_frames.jsonl.gz": "af6a165de8c282edb2b82b781c6d87cdad79f3a14b64ee321a5063f4fe935986",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-013423/review/report.json": "dd1ed715227e06ba631dafe40bf1e153a73a026173d3326ae5ed5b6ac1f1804c",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-013423/review/settings.json": "38f1004a4ba4294a7ccf45a3e3de9143f1c14a3225268c0ec64d575bc6e5e5d6",
+    "/mnt/c/Windows/Fonts/msyh.ttc": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/bubble_region_video.py": "b4a4397a01ba4b0be829886c7c772b4a7887d7f22189185f2d4c7adc5c3ed0fb",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/pzt_video_review.py": "ff03c7109ef4e45005874ea0f81bc384b5314e5cd48fc4b2e0bde050a48e4592"
+  },
+  "source_id": "four_pzt",
+  "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+  "meaning": "离线审阅副本；左侧原画面、右侧已保存的自动轮廓；重新编码，不代替原始视频。",
+  "encoding": {
+    "codec": "libx264",
+    "pixel_format": "yuv420p",
+    "crf": 18,
+    "preset": "fast",
+    "threads": 4
+  },
+  "contour_display_width_px": 2,
+  "limitations": [
+    "轮廓仍需人工检查，候选区域数不是实际微泡数。",
+    "时间是视频播放时间，不是相机曝光时间；贴壁截断问题沿用原识别结果。"
+  ],
+  "original_panel_xywh": [
+    0,
+    80,
+    1280,
+    1024
+  ],
+  "overlay_panel_xywh": [
+    1296,
+    80,
+    1280,
+    1024
+  ],
+  "verification": {
+    "decoded_frames": 1320,
+    "all_frame_times_identical": true,
+    "duration_s": 22.0,
+    "size": [
+      2576,
+      1104
+    ]
+  },
+  "inputs_unchanged": true,
+  "output_sha256": "c548c8f14c2474d4b4cf1e6ebcee4f8b6743baeeec15bcb54345777014ecbbc7",
+  "output_size_bytes": 15377460,
+  "elapsed_s": 53.50310349400388
+}

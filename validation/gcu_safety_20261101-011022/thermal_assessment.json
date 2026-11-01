@@ -1,0 +1,32 @@
+{
+  "samples": 10,
+  "complete_samples": 10,
+  "ranges": {
+    "cpu_c": {
+      "min": 93,
+      "max": 95
+    },
+    "gpu_c": {
+      "min": 56,
+      "max": 58
+    },
+    "cpu_fan_rpm": {
+      "min": 5843,
+      "max": 5859
+    },
+    "gpu_fan_rpm": {
+      "min": 5797,
+      "max": 5797
+    },
+    "read_ms": {
+      "min": 548.6165,
+      "max": 617.6246
+    }
+  },
+  "recorded_start_conditions_pass": false,
+  "reasons": [
+    "CPU temperature is outside the 0–80 C start range"
+  ],
+  "authorization": "No service-pause authorization is implied by this report",
+  "live_recheck_required": true
+}

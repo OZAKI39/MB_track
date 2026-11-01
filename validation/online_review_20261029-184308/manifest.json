@@ -1,0 +1,254 @@
+{
+  "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305",
+  "font": "/mnt/c/Windows/Fonts/arial.ttf",
+  "font_family": "Arial",
+  "font_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+  "inputs": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_A/tracking.sqlite": "46be3fc33a2e95f5640f284c068dcc313b6781cb335e13389f024532e6446d24",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_A/source_actions.csv": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_A/source_video_frames.csv": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_B/tracking.sqlite": "6bd46109bf1776f5f8e318c6e6c629bb9ee175d41a6892c1bd8cb0b20c6f0ee6",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_B/source_actions.csv": "dafcd50ff6127b8216d774f79c81d5e04b5a74828f27de27896eace93d1e5721",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_B/source_video_frames.csv": "b505124a09083355e35875fd775b1fb8ca4725e09cab30c44774521110a702bd",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_A_drop3/tracking.sqlite": "e5f9276224a48ccda4491781afdba936c4c218786b9601cf7bf0bcc281616e1a",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_A_drop3/source_actions.csv": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_tracking_20261029-175305/final_A_drop3/source_video_frames.csv": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2"
+  },
+  "videos": [
+    {
+      "file": "videos/01_expA_full_review.mp4",
+      "title": "Exp. A",
+      "frames": 1320,
+      "source_video_from": 0,
+      "source_video_to": 1319,
+      "video_from_s": 0.0,
+      "video_to_s": 21.983333333333334,
+      "playback_speed": 1.0,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": null,
+      "preview": "previews/01_expA_full_review.png",
+      "decoded_validation": "passed"
+    },
+    {
+      "file": "videos/02_expB_full_review.mp4",
+      "title": "Exp. B",
+      "frames": 1320,
+      "source_video_from": 0,
+      "source_video_to": 1319,
+      "video_from_s": 0.0,
+      "video_to_s": 21.98331111111111,
+      "playback_speed": 1.0,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": null,
+      "preview": "previews/02_expB_full_review.png",
+      "decoded_validation": "passed"
+    },
+    {
+      "file": "videos/03_skipped_frame_comparison.mp4",
+      "title": "Withheld-frame check",
+      "frames": 120,
+      "source_video_from": 162,
+      "source_video_to": 281,
+      "video_from_s": 2.7,
+      "video_to_s": 4.683333333333334,
+      "playback_speed": 0.25,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": null,
+      "preview": "previews/03_skipped_frame_comparison.png",
+      "decoded_validation": "passed"
+    },
+    {
+      "file": "videos/04_merge_candidate.mp4",
+      "title": "Exp. A | Merge candidate",
+      "frames": 78,
+      "source_video_from": 165,
+      "source_video_to": 242,
+      "video_from_s": 2.75,
+      "video_to_s": 4.033333333333333,
+      "playback_speed": 0.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": 53,
+      "preview": "previews/04_merge_candidate.png",
+      "decoded_validation": "passed"
+    },
+    {
+      "file": "videos/05_split_confirmation.mp4",
+      "title": "Exp. B | Split candidate",
+      "frames": 78,
+      "source_video_from": 268,
+      "source_video_to": 345,
+      "video_from_s": 4.466644444444444,
+      "video_to_s": 5.749988888888889,
+      "playback_speed": 0.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": 52,
+      "preview": "previews/05_split_confirmation.png",
+      "decoded_validation": "passed"
+    },
+    {
+      "file": "videos/06_tracking_loss.mp4",
+      "title": "Exp. A | Tracking loss",
+      "frames": 87,
+      "source_video_from": 1001,
+      "source_video_to": 1087,
+      "video_from_s": 16.683333333333334,
+      "video_to_s": 18.116666666666667,
+      "playback_speed": 0.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": 279,
+      "preview": "previews/06_tracking_loss.png",
+      "decoded_validation": "passed"
+    },
+    {
+      "file": "videos/07_unresolved_target.mp4",
+      "title": "Exp. A | Unresolved target",
+      "frames": 42,
+      "source_video_from": 1278,
+      "source_video_to": 1319,
+      "video_from_s": 21.3,
+      "video_to_s": 21.983333333333334,
+      "playback_speed": 0.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "event_id": 347,
+      "preview": "previews/07_unresolved_target.png",
+      "decoded_validation": "passed"
+    }
+  ],
+  "selected_events": [
+    {
+      "experiment": "Exp. A",
+      "event": {
+        "event_id": 53,
+        "kind": "merge",
+        "anchor_frame": 475,
+        "reported_frame": 475,
+        "interval_from_s": 3.3333333333333335,
+        "interval_to_s": 3.35,
+        "participants": "[8, 11]",
+        "result_track": 11,
+        "x": 637.9264735669435,
+        "y": 583.0759570589427,
+        "evidence_gap": 0,
+        "status": "confirmed_tracks",
+        "decided_frame": 475
+      },
+      "crop_xywh": [
+        437,
+        423,
+        400,
+        320
+      ],
+      "start_s": 2.75,
+      "end_s": 4.05,
+      "video": "04_merge_candidate.mp4"
+    },
+    {
+      "experiment": "Exp. B",
+      "event": {
+        "event_id": 52,
+        "kind": "split",
+        "anchor_frame": 578,
+        "reported_frame": 578,
+        "interval_from_s": 5.049988888888889,
+        "interval_to_s": 5.066644444444444,
+        "participants": "[7, 33]",
+        "result_track": 7,
+        "x": 347.6585365853659,
+        "y": 815.0121951219512,
+        "evidence_gap": 0,
+        "status": "confirmed_tracks",
+        "decided_frame": 582
+      },
+      "crop_xywh": [
+        147,
+        655,
+        400,
+        320
+      ],
+      "start_s": 4.466644444444444,
+      "end_s": 5.766644444444444,
+      "video": "05_split_confirmation.mp4"
+    },
+    {
+      "experiment": "Exp. A",
+      "event": {
+        "event_id": 279,
+        "kind": "lost",
+        "anchor_frame": 1311,
+        "reported_frame": 1320,
+        "interval_from_s": 17.283333333333335,
+        "interval_to_s": 17.433333333333334,
+        "participants": "[140]",
+        "result_track": 140,
+        "x": 408.464,
+        "y": 824.56,
+        "evidence_gap": 1,
+        "status": "confirmed_tracks",
+        "decided_frame": 1320
+      },
+      "crop_xywh": [
+        208,
+        664,
+        400,
+        320
+      ],
+      "start_s": 16.683333333333334,
+      "end_s": 18.133333333333333,
+      "video": "06_tracking_loss.mp4"
+    },
+    {
+      "experiment": "Exp. A",
+      "event": {
+        "event_id": 347,
+        "kind": "appear",
+        "anchor_frame": 1588,
+        "reported_frame": 1588,
+        "interval_from_s": 21.883333333333333,
+        "interval_to_s": 21.9,
+        "participants": "[181]",
+        "result_track": 181,
+        "x": 837.2,
+        "y": 963.3333333333334,
+        "evidence_gap": 0,
+        "status": "unresolved_at_end",
+        "decided_frame": 1593
+      },
+      "crop_xywh": [
+        637,
+        704,
+        400,
+        320
+      ],
+      "start_s": 21.299999999999997,
+      "end_s": 22.0,
+      "video": "07_unresolved_target.mp4"
+    }
+  ],
+  "hardware_access": false,
+  "contours": "Read directly from existing SQLite records; no new tracking run",
+  "status": "Status at each source frame, not final hindsight confirmation",
+  "memory_plot": "Active target count, not RAM measurements"
+}

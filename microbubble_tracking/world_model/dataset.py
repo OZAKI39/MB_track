@@ -8,6 +8,13 @@ One sample ("graph") = one anchor frame f of one experiment:
     future     each node's centroid, log area and aspect ratio 0.1 ... 1.0 s after f (same piece of track)
     actions    the four PZT amplitudes during each 0.1 s step before and after f
     context    whole-field numbers at f (region count, total area, spread)
+    darkness   each node's mean darkness inside its outline (1 - I / background): how dense the region is
+    events     for each node and each 0.1 s step ahead: does it connect with another region (merge) or does a
+               piece separate from it (split) in that step (1 / 0, empty after the event or when not observed)
+
+Per frame the experiment also keeps a density grid: the field cut into 40 px cells, with the region area
+and the darkness-weighted area in every cell (from the real outlines). It describes the whole-field
+distribution and is what the field-level prediction is scored against.
 
 A "piece of track" (here: run) is a stretch of one track ID that is not interrupted by a merge / split
 event; future and history are never taken across such a cut, because
@@ -22,8 +29,10 @@ The manual review (review.json) is read only to label test samples for the evalu
 Inputs per experiment (read only):
     <result>/objects.csv, events.csv, background.npy, contours.npz, review.json (optional)
     <result>/analysis/pzt_analysis/aligned_frames.csv   (round 3; PZT state of every frame)
+    the raw video (for darkness and the density grid; cached in --cache, without it both are zero)
 """
 import csv
+import hashlib
 import os
 import sys
 from collections import defaultdict
@@ -48,6 +57,7 @@ DEFAULTS = dict(
     full_vpp=0.8,               # amplitude scale: 0.8 Vpp (the driving amplitude of both experiments) = 1
     active_vpp=0.1,
     tsc_cap_s=3.0,              # time since the last PZT change, capped
+    grid_px=40,                 # density grid cell size
 )
 
 
@@ -59,8 +69,8 @@ def read_csv(path):
 class Experiment:
     """Everything the models need from one recording."""
 
-    def __init__(self, name, result_dir, aligned_csv=None, P=None):
-        self.name, self.dir = name, result_dir
+    def __init__(self, name, result_dir, aligned_csv=None, P=None, video=None, cache_dir=None):
+        self.name, self.dir, self.video = name, result_dir, video
         self.P = P = dict(DEFAULTS, **(P or {}))
         A = dict(analyze.DEFAULTS)
         D = analyze.Data(result_dir, A)
@@ -79,7 +89,9 @@ class Experiment:
         self.wall_dir = np.stack([gx / nrm, gy / nrm], -1)
         self._actions(aligned_csv or os.path.join(result_dir, 'analysis', 'pzt_analysis', 'aligned_frames.csv'))
         self._runs()
+        self._events()
         self._field()
+        self._darkness_and_grid(cache_dir)
 
     # ------------------------------------------------------------------ PZT state per frame
     def _actions(self, path):
@@ -153,6 +165,81 @@ class Experiment:
         self.run_of[ks] = len(self.runs)
         self.runs.append(run)
 
+    # ------------------------------------------------------------------ how each run ends: merge / split / other
+    def _events(self):
+        """A run that stops because its region connects with another one (either side of a tracker merge) ends
+        in 'merge'; one that stops because a piece separates from it (parent side of a split) ends in 'split'.
+        Event frame = first frame of the new situation (the tracker's event frame)."""
+        D, gap = self.D, self.P['max_gap_frames'] + 1
+        merges, splits = defaultdict(list), defaultdict(list)
+        for e in D.events:
+            if e['type'] == 'merge' and len(e['ids']) == 2:
+                for t in e['ids']:
+                    merges[t].append(e['frame'])
+            elif e['type'] == 'split' and len(e['ids']) == 2:
+                splits[e['ids'][0]].append(e['frame'])
+        for r in self.runs:
+            r['end_kind'], r['end_event'] = 'other', None
+            for kind, table in (('merge', merges), ('split', splits)):
+                hit = [e for e in table.get(r['track'], []) if r['f1'] < e <= r['f1'] + gap]
+                if hit:
+                    r['end_kind'], r['end_event'] = kind, min(hit)
+                    break
+        self.n_merge_events = sum(1 for e in D.events if e['type'] == 'merge')
+        self.n_split_events = sum(1 for e in D.events if e['type'] == 'split')
+
+    # ------------------------------------------------------------------ darkness inside regions, density grid
+    def _darkness_and_grid(self, cache_dir):
+        D, P = self.D, self.P
+        g = P['grid_px']
+        self.grid_shape = (int(np.ceil(self.H / g)), int(np.ceil(self.W / g)))
+        self.row_dark = np.zeros(D.n, np.float32)
+        self.grid_area = np.zeros((self.n_frames,) + self.grid_shape, np.float32)
+        self.grid_dark = np.zeros_like(self.grid_area)
+        self.has_darkness = False
+        if not self.video or not os.path.exists(self.video) or D.bg is None:
+            print(f'  {self.name}: no video given - darkness and density grid are zero', flush=True)
+            return
+        key = hashlib.sha1((D.input_sha1.get('objects.csv', '') + str(os.path.getsize(self.video)) + str(g))
+                           .encode()).hexdigest()[:12]
+        cache = os.path.join(cache_dir, f'{self.name}_darkness_{key}.npz') if cache_dir else None
+        if cache and os.path.exists(cache):
+            z = np.load(cache)
+            self.row_dark, self.grid_area, self.grid_dark = z['row_dark'], z['grid_area'], z['grid_dark']
+            self.has_darkness = True
+            return
+        bg = D.bg.astype(np.float32) + 1.0
+        cap = cv2.VideoCapture(self.video)
+        for f in range(self.n_frames):
+            ok, img = cap.read()
+            if not ok:
+                break
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).astype(np.float32)
+            dk = 1.0 - gray / bg
+            dk -= np.median(dk)                 # same correction for global brightness as the tracker
+            for k in D.rows_by_frame.get(f, []):
+                c = D.contour.get((f, int(D.I[k])))
+                if c is None or len(c) < 3:
+                    continue
+                c = c.reshape(-1, 2)
+                x0, y0 = np.maximum(c.min(0), 0)
+                x1, y1 = np.minimum(c.max(0), [self.W - 1, self.H - 1])
+                m = np.zeros((y1 - y0 + 1, x1 - x0 + 1), np.uint8)
+                cv2.fillPoly(m, [(c - [x0, y0]).astype(np.int32)], 1)
+                yy, xx = np.nonzero(m)
+                if not len(yy):
+                    continue
+                yy, xx = yy + y0, xx + x0
+                v = dk[yy, xx]
+                self.row_dark[k] = float(v.mean())
+                np.add.at(self.grid_area[f], (yy // g, xx // g), 1.0)
+                np.add.at(self.grid_dark[f], (yy // g, xx // g), v)
+        cap.release()
+        self.has_darkness = True
+        if cache:
+            os.makedirs(cache_dir, exist_ok=True)
+            np.savez_compressed(cache, row_dark=self.row_dark, grid_area=self.grid_area, grid_dark=self.grid_dark)
+
     # ------------------------------------------------------------------ whole field at each frame
     def _field(self):
         D = self.D
@@ -194,6 +281,8 @@ class Experiment:
         flags = np.zeros((n, 3), np.float32)               # at image edge, run ok, edge_on_wall share
         status = np.empty(n, dtype=object)
         track = np.zeros(n, int)
+        dark = np.zeros(n, np.float32)
+        ev = {kind: np.full((n, nf), np.nan, np.float32) for kind in ('merge', 'split')}
         for i, k in enumerate(ks):
             r = self.runs[self.run_of[k]]
             j0 = f - r['f0']
@@ -221,11 +310,25 @@ class Experiment:
             flags[i] = (float(self.border[k]), float(r['ok']), self.edge_on_wall[k])
             status[i] = D.status[k]
             track[i] = D.I[k]
+            dark[i] = self.row_dark[k]
+            # events: step j covers frames f + s*j + 1 ... f + s*(j + 1)
+            e = r['end_event']
+            if e is not None and e <= f + s * nf:
+                je = int(np.ceil((e - f) / s)) - 1
+                for kind in ev:
+                    ev[kind][i, :je] = 0.0
+                ev[r['end_kind']][i, je] = 1.0
+            else:
+                last_obs = r['f1'] if r['f1'] < self.n_frames - 1 else 10 ** 9   # video end: run would go on
+                n_ok = min(nf, (last_obs - f) // s)
+                for kind in ev:
+                    ev[kind][i, :n_ok] = 0.0
         act = np.stack([self.step_action(f + j * s) for j in range(-1, nf)])   # step -1 (just before) ... nf-1
         return dict(exp=self.name, frame=int(f), rows=np.array(ks), track=track, pos=pos, hist=hist, hmask=hmask,
                     shape=shape, flags=flags, status=status, fut=fut, fut_logA=fut_logA, fut_ar=fut_ar,
                     fut_edge=fut_edge, act=act.astype(np.float32), tsc=float(self.tsc[f]),
-                    field=self.field[f].copy(), transition=bool(self.transition[f]))
+                    field=self.field[f].copy(), transition=bool(self.transition[f]), dark=dark,
+                    ev_merge=ev['merge'], ev_split=ev['split'])
 
     def graphs(self, stride=1, need_future=1):
         out = []
@@ -240,7 +343,11 @@ class Experiment:
         return dict(experiment=self.name, frames=self.n_frames, fps=self.fps, regions_rows=int(self.D.n),
                     runs=len(self.runs), runs_used_in_loss=len(ok),
                     rows_in_runs_used=int(sum(len(r['rows']) for r in ok)),
-                    action_patterns=[''.join(map(str, p)) for p in self.patterns])
+                    action_patterns=[''.join(map(str, p)) for p in self.patterns],
+                    merge_events=self.n_merge_events, split_events=self.n_split_events,
+                    runs_ending_in_merge=sum(r['end_kind'] == 'merge' for r in self.runs),
+                    runs_ending_in_split=sum(r['end_kind'] == 'split' for r in self.runs),
+                    darkness_and_grid=self.has_darkness, grid_cells=list(self.grid_shape))
 
 
 def pattern_name(p):

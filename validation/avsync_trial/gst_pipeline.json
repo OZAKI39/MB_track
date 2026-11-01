@@ -1,0 +1,6 @@
+{
+  "description": "rtspsrc name=camera protocols=udp latency=20 buffer-mode=none drop-on-latency=false udp-buffer-size=262144 do-rtsp-keep-alive=true ! rtph264depay wait-for-keyframe=true ! h264parse config-interval=-1 ! video/x-h264,stream-format=byte-stream,alignment=au ! tee name=split split. ! identity name=record_gate ! queue name=record_queue leaky=no max-size-buffers=300 max-size-bytes=33554432 max-size-time=5000000000 ! mpegtsmux name=transport alignment=7 ! appsink name=compressed_sink emit-signals=true sync=false async=false max-buffers=8 drop=false wait-on-eos=false split. ! queue name=decode_queue leaky=no max-size-buffers=120 max-size-bytes=16777216 max-size-time=2000000000 ! avdec_h264 max-threads=1 ! videoconvert ! video/x-raw,format=BGR ! queue name=latest_queue leaky=downstream max-size-buffers=1 max-size-bytes=0 max-size-time=0 ! appsink name=latest_sink sync=false async=false max-buffers=1 leaky-type=downstream wait-on-eos=false",
+  "version": "GStreamer 1.28.8 (GIT)",
+  "latency_ms": 20,
+  "camera_connections": 1
+}

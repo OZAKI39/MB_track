@@ -1,0 +1,274 @@
+[
+  {
+    "name": "A_hybrid_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "hybrid",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_hybrid_r1"
+    ]
+  },
+  {
+    "name": "A_spin_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "spin",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_spin_r1"
+    ]
+  },
+  {
+    "name": "A_gpu_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "gpu",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_gpu_r1"
+    ]
+  },
+  {
+    "name": "A_none_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "none",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_none_r1"
+    ]
+  },
+  {
+    "name": "B_none_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "none",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_none_r1"
+    ]
+  },
+  {
+    "name": "B_gpu_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "gpu",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_gpu_r1"
+    ]
+  },
+  {
+    "name": "B_spin_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "spin",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_spin_r1"
+    ]
+  },
+  {
+    "name": "B_hybrid_r1",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "hybrid",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_hybrid_r1"
+    ]
+  },
+  {
+    "name": "A_none_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "none",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_none_r2"
+    ]
+  },
+  {
+    "name": "A_gpu_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "gpu",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_gpu_r2"
+    ]
+  },
+  {
+    "name": "A_spin_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "spin",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_spin_r2"
+    ]
+  },
+  {
+    "name": "A_hybrid_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "hybrid",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/A_hybrid_r2"
+    ]
+  },
+  {
+    "name": "B_hybrid_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "hybrid",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_hybrid_r2"
+    ]
+  },
+  {
+    "name": "B_spin_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "spin",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_spin_r2"
+    ]
+  },
+  {
+    "name": "B_gpu_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "gpu",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_gpu_r2"
+    ]
+  },
+  {
+    "name": "B_none_r2",
+    "command": [
+      "customer_workspace/.venv_nvdec/bin/python",
+      "-u",
+      "-m",
+      "customer_workspace.tools.gpu_decode_diagnosis",
+      "--video",
+      "customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--frames",
+      "300",
+      "--wait",
+      "none",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gpu_decode_root_20261031-231519/B_none_r2"
+    ]
+  }
+]

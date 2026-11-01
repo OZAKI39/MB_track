@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "frames": 48,
+  "objects": 43,
+  "binary_masks_pixel_identical": true,
+  "all_measurements_and_scores_identical": true,
+  "retained_non_conditioning_frames": 32,
+  "initial_conditioning_memory_preserved": true
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-23T18:51:47.548251+00:00",
+  "display_timezone": "Europe/Zurich",
+  "intervals_ms": [
+    50,
+    55,
+    60
+  ],
+  "methods": [
+    "schedule",
+    "scheduled_readback"
+  ],
+  "commands_per_group": 500,
+  "active_idle_pairs_per_group": 250,
+  "channel": "PZT1",
+  "frequency_hz": 2500000,
+  "active_vpp": 0.1,
+  "idle_vpp": 0.001,
+  "query_guard_ms": 10,
+  "reserve_ms": 5,
+  "query_wait_included_in_timing": true,
+  "automatic_failure_retries": false,
+  "cabling": "A direct to PC; B unchanged, per preceding verified user change"
+}

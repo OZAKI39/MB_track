@@ -1,0 +1,130 @@
+{
+  "checked_utc": "2026-10-23T18:26:00.454539+00:00",
+  "whitespace_checks": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "whitespace_errors": false
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "customer_workspace/timing_benchmark.py"
+      ],
+      "whitespace_errors": false
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "customer_workspace/benchmark_report.py"
+      ],
+      "whitespace_errors": false
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "customer_workspace/tests/test_benchmark_report.py"
+      ],
+      "whitespace_errors": false
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "customer_workspace/README.md"
+      ],
+      "whitespace_errors": false
+    }
+  ],
+  "source_and_config_hashes_still_match": true,
+  "python_static_and_format_checks_passed": true,
+  "software_tests_passed_before_hardware": 108,
+  "reviewed_plots": [
+    "figures/schedule_50ms.png",
+    "figures/scheduled_readback_60ms.png",
+    "figures/incomplete_readbacks.png"
+  ],
+  "artifacts_sha256": {
+    "all_attempts.csv": "89105a070935b572b2d536f4ad16a3d71ed9a5b6b103464093a10a39d89f31f0",
+    "failure_report.json": "408323797524a31fdf941b65f74aa5b1758ed5768f2bb704cb6bbc180b4b4937",
+    "failure_summary.json": "7175b3654665d20ab5e0fac5b3246aa19686b216773f3a0047419dc65ff86eb1",
+    "figures/incomplete_readbacks.png": "7db03b7e9372e794147f62f8509f6095a7117430a6b6a195988e5f08ef5177f9",
+    "figures/incomplete_readbacks.svg": "af98001d011ebed3a5cf8702192865c29a833a44cbc9e0f4d7b5b50116a9d491",
+    "figures/schedule_50ms.png": "29058d51cf73f894a90c16b9fe5f1f8f6de662078e7e6925b9b3095ba92fe440",
+    "figures/schedule_50ms.svg": "4ffd517e2b4c7f692d437e8602c269a176dd000aa409ff4ff98bc111d071fe3d",
+    "figures/schedule_55ms.png": "c9f5ced444ce3c9f0ff32503634e5cddd7a95c97e06368704034e69270d8bc8b",
+    "figures/schedule_55ms.svg": "e5310ed656929a011413c394e5baea4aa92e2647c4bc6958c187f242549501af",
+    "figures/schedule_60ms.png": "cf40be6ca8b3be4eb38926b8e2e5e25bd55cf2f370caf611c9541e818cb2e1ec",
+    "figures/schedule_60ms.svg": "957de087fa488324c29405a0952732008a11ce271c1cbea175e324ca0bbb55b3",
+    "figures/scheduled_readback_60ms.png": "6ae880596ae11ee63ea116f0b837733991c6efec9d503299c0b261514b68ad29",
+    "figures/scheduled_readback_60ms.svg": "9464732bfb46d6d3b1d97c24198f3e7d314d5ba0dab24a2f5b8f1531e84df1b5",
+    "postflight.json": "12b9c2a95281bfd00df6dcb91f9f623f60dd6ca957b686c27eae6cfe765cc3f7",
+    "preflight.json": "6bd651ee77c2de8e1a1c77c4a7d7c1599f2ae4482437242398111c264180ae75",
+    "process_check.json": "53b3790c87ca15dba61fc27495cf997e00b1a5fabc356f5eab167ebf320d4ece",
+    "recovery_after_50ms_failure.json": "798dd82cd8bbe5461fb97d4c30ac67bb9554d723e68133a6619c44f0f3d7e2a1",
+    "recovery_after_50ms_retry.json": "e2976e9436db764406cad3692041c2320fa52005f9b68119d01639b2ef586e0b",
+    "recovery_after_55ms_failure.json": "133dbcd423af1e08f32fb0d3eab8d19c85e8d8df402279cda1e7d15834f2859b",
+    "schedule_50ms/configuration.json": "dbcdc1efdd2a04510a07c9d44b5efa343b29cd26e03d8624dccab1e4287783f1",
+    "schedule_50ms/samples.csv": "dc8c50246ea9b6822703180e5c85512fa783857a3221533c2d27c3aaa31d79b8",
+    "schedule_50ms/samples.jsonl": "ad8b82560e92ea99ca5d07768999666c715bd4ad194622b7e0ee04b0f409ff38",
+    "schedule_50ms/summary.json": "8aa019aa41186e5ac22916bb2ab473924d41f1f1ebb5706aa7f2310c768ceed7",
+    "schedule_50ms_console.log": "c4ac55f1f09a576c480ea203e4ff52a8b6df274eac6b690dc23ee991066da5e7",
+    "schedule_50ms_launch.json": "bc69979c2c240a1f19301779f98f1689f79a83ba6659c7828698c90f988d7546",
+    "schedule_55ms/configuration.json": "215ecdf270b769af5c451b2a9bb3596ba90ad18a9c0468c0d4b91a0128deb276",
+    "schedule_55ms/samples.csv": "2e5b6a8309797a959eed1ae56fcedc6ebb2eeb0edccf2cbe2d84b506344da22e",
+    "schedule_55ms/samples.jsonl": "7e88304e31582983bbd801adac598a6111aaacf5429ab91c01e7064325adc8bc",
+    "schedule_55ms/summary.json": "4d8ec63b5c65b3c979710ecb9547b6122d9be50acee46bb1e7188013a808064c",
+    "schedule_55ms_console.log": "889ff8384d2a2483f7cba875b493b7386ac7a01cf915a3a2fd53a7f72272adcb",
+    "schedule_55ms_launch.json": "fce5d7bc85b4ed0adba5999a1c4b7f9848ca7223a5e8102671921cda857c16b9",
+    "schedule_60ms/configuration.json": "3e76546c052088474ebb4effc6c5281a4868c30964483b6a54e8abdb3b7c8051",
+    "schedule_60ms/samples.csv": "4c273af6907d3b560587ef4a7699ff824d5bd9d8ccd23ca27c0876f4aafd865e",
+    "schedule_60ms/samples.jsonl": "f150f1e90b185d26ec47fcc8bbf93b0e20de570b2cfe3432bb67013f184610ba",
+    "schedule_60ms/summary.json": "73ca1e1e68167fd4156e7d07dad7214ceccddbb04f2fbba543f2f113786cfac2",
+    "schedule_60ms_console.log": "64b6c9683b5253bdcdf230d803df9495c311794a0f241ffa11efc760b64cceb9",
+    "schedule_60ms_launch.json": "58720d7a08746145cea56a42137003621c591299cbcce7a18aa571590f6a62ac",
+    "scheduled_readback_50ms/configuration.json": "75ac6c4c284a09d0a4b64d42e9f582b495ad26bac5f4cf54b410d9301617c18d",
+    "scheduled_readback_50ms/samples.csv": "0eeb7876b27f452127268c5c59747c1b0fb750fadbbdc73b7aa5b24489a16266",
+    "scheduled_readback_50ms/samples.jsonl": "eaaea82acc445732775c811e2adba7da45b8197d9ea071e7348d9fe02075dbce",
+    "scheduled_readback_50ms/summary.json": "608b8c0b93bd9910c9fadc269cd9df2ac615ce1582b9596ab23e2b5a1158afa6",
+    "scheduled_readback_50ms_console.log": "e58d72cada516afaa1a19c8981326e9d621e566f2d6d1a9723890c9dbd68e732",
+    "scheduled_readback_50ms_launch.json": "f670460728368d673f1a0d1fe1b69aceaf4127d87545aa6b3ddecaf25884f2b5",
+    "scheduled_readback_50ms_retry/configuration.json": "609d2cc99d46b6564a4cde0ae31c253cf97ac9f44a0952217fde0a40b4e25df7",
+    "scheduled_readback_50ms_retry/samples.csv": "2e16a2f137b6f1e84e11df5607ef3fc2c66f9a8dfe7d7ea96110a4cd789bc9ab",
+    "scheduled_readback_50ms_retry/samples.jsonl": "eeb0b519d28c0eb04106e0dc7cb8ff4db8fce6bd40d953b0715186a732eeb200",
+    "scheduled_readback_50ms_retry/summary.json": "835fc3d9053f15fa97cc25d916900daa65d1387ac5b12338e2f1beef4abe2021",
+    "scheduled_readback_50ms_retry_console.log": "a6862f84bf0d911871e35b73eb6b65b36a68bf216a4a0de21c59ad5b82833e39",
+    "scheduled_readback_50ms_retry_launch.json": "db11044ecca8a6e8ab91719c0caf5aa3e6a4437761e36e2291882b7f4cf23109",
+    "scheduled_readback_55ms/configuration.json": "2dbcadaa4b0a9963e569b99c4be0db9a0844b4353ca96679c37f8d302fa75dd7",
+    "scheduled_readback_55ms/samples.csv": "5fa036fb39d0ea7baa44f38b94cdb6afded4bbaadd3a7473798dfc0f9681ce30",
+    "scheduled_readback_55ms/samples.jsonl": "b2cbe41ede21fa2e7a4310aa5755bf22bf954ec660b5ab4da8f9947094ccd520",
+    "scheduled_readback_55ms/summary.json": "8742afff2225ff29457deae26a6f520698b45fbce7db86c364e5e7c94813baaa",
+    "scheduled_readback_55ms_console.log": "e29c8c66fa9e390756cec6fd54177ef8df73edc62070db4853c6239395178daa",
+    "scheduled_readback_55ms_launch.json": "4d36495cda8c85cb2b42943a325f53a577fb39d86f2cb79e1218639b45b383f8",
+    "scheduled_readback_60ms/configuration.json": "7df3e9fac030d9bda53bd0adda6a952af661fe4b42c2913c7c4a10e09240e3cf",
+    "scheduled_readback_60ms/samples.csv": "e6b4390035fcb94e90496dcf2bcbe44015bfd9bac99b6efd70b3ab30962c1925",
+    "scheduled_readback_60ms/samples.jsonl": "f5e1cd2313a87cedbf45c4cde8a009ac1b6f6faef81b0352497d7d44bbdeae63",
+    "scheduled_readback_60ms/summary.json": "76c294df9ae2063f232e87ef467319cd77d781a38a03798ffd70e01bc695c3a5",
+    "scheduled_readback_60ms_console.log": "0bd2363bbda71f139bef6e052fb05ea011f53f181805c6ecb5b8d17f6e9b3f47",
+    "scheduled_readback_60ms_launch.json": "6b7e831448c7c9805cdfcc238691e90e95413496aaac59eec1a8f6bb74addfa2",
+    "source_hashes.json": "13a996e95fbc67f6c09858ff3efc8860dcb9275531e9418983c1f47738992961",
+    "verification.json": "a5fe3ca2bb3743ce33dae196ca1c91156c5461031771f1395436d166d698f507"
+  }
+}

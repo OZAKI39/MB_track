@@ -1,0 +1,8 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_adjacent_frames_both_detection_overlays_Arial_no_training"
+  ],
+  "error": "AssertionError({'selected': {'before': {'UNCERTAIN:18'}, 'after': {'UNCERTAIN:18'}}, 'modes': {'SINGLE_BUBBLE': 'pan_zoom', 'AGGREGATE': 'pan_zoom', 'BACKGROUND_ARTIFACT': 'pan_zoom', 'UNCERTAIN': 'paint', 'OUT_OF_FOCUS': 'pan_zoom'}, 'status': 'Region selected. Edit or delete it.', 'pick': True})",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_frame_gui.py\", line 109, in check\n    assert not w.pair_selection[\"before\"], {\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'selected': {'before': {'UNCERTAIN:18'}, 'after': {'UNCERTAIN:18'}}, 'modes': {'SINGLE_BUBBLE': 'pan_zoom', 'AGGREGATE': 'pan_zoom', 'BACKGROUND_ARTIFACT': 'pan_zoom', 'UNCERTAIN': 'paint', 'OUT_OF_FOCUS': 'pan_zoom'}, 'status': 'Region selected. Edit or delete it.', 'pick': True}\n"
+}

@@ -1,0 +1,5 @@
+{
+  "script": "customer_workspace/microbubble_tracking/first_frame_diagnosis.py",
+  "sha256": "632a2e0d3fb0e5ec229a5dd1cc8744933a7b40bf171ea2e60d7e306161626af7",
+  "runs": 25
+}

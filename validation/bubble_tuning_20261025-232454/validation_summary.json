@@ -1,0 +1,27 @@
+{
+  "completed": true,
+  "features": [
+    "六项参数调整复用原区域算法",
+    "后台预览、最多一个任务和一组待计算参数",
+    "原图与轮廓双图同步比较",
+    "仅明确采用才替换本图不确定层，原修订保留",
+    "已分类区域保护、一次撤销和重做",
+    "参数及疑点写入修订来源记录"
+  ],
+  "validation": {
+    "new_gui_checks": 15,
+    "regression_gui_checks": 21,
+    "offline_tests_passed": 28,
+    "offline_command": ".venv/bin/python -m pytest customer_workspace/tests/test_bubble_region_tuning.py customer_workspace/tests/test_bubble_regions.py -q",
+    "real_data_check": "actual_dataset/check.json",
+    "preservation_check": "preservation_check.json",
+    "static_checks": "ruff check, ruff format --check, git diff --check 全部通过",
+    "synthetic_failures": "测试主动注入预览错误、保存失败；这些操作仅在独立软件目录中运行，均验证了保护行为。",
+    "early_preview_check": "顶层 real_preview_check.json 使用真实原图及软件沙盒标注；正式目录的只读验证以 actual_dataset/check.json 为准。"
+  },
+  "limitations": [
+    "参数调整只作用于当前图片的预览和明确采用的新草稿，不改全视频结果或正式实时参数。",
+    "采用会重新生成不确定层，建议先调参数再手工修边；旧草稿另存保留。",
+    "未优化或训练模型，尚无人工参考答案，不能声称准确率提高。"
+  ]
+}

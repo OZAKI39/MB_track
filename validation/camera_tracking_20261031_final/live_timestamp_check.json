@@ -1,0 +1,7 @@
+{
+  "frames_checked": 30,
+  "missing_dts_supported": true,
+  "nonzero_source_pts_preserved": true,
+  "pixel_difference": 0,
+  "source": "expA.mp4; Annex B conversion; historical camera-style missing DTS and PTS offset"
+}

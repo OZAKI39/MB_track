@@ -1,0 +1,18 @@
+{
+  "videos": {
+    "A": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03"
+    },
+    "B": {
+      "path": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    }
+  },
+  "reference": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+  "reference_sha256": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8",
+  "background_preparation": "Unchanged combine_backgrounds(reference, first frame)",
+  "rounds": 2,
+  "long_runs": true,
+  "timing_note": "New simulated session IDs; archived PZT actions never executed"
+}

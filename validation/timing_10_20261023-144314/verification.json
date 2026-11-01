@@ -1,0 +1,9 @@
+{
+  "real_runs_completed": 10,
+  "same_plan_and_config_all_runs": true,
+  "all_160_switch_timestamps_and_readbacks_verified": true,
+  "ten_csv_rows_match_raw_events": true,
+  "all_runs_shutdown_confirmed": true,
+  "source_unchanged_during_batch": true,
+  "physical_voltage_timing_verified": false
+}

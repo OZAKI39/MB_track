@@ -1,0 +1,42 @@
+{
+  "status": "PASSED",
+  "previous_shift_x_px": -3,
+  "increment_x_px": -2,
+  "total_shift_x_px": -5,
+  "recovered_observation_pixels": 812,
+  "other_detection_parameters_unchanged": true,
+  "videos": [
+    {
+      "source_id": "two_action",
+      "frames_checked": 1320,
+      "frame_identity_and_times_unchanged": true,
+      "previously_retained_pixels_removed": 0,
+      "pixels_outside_new_observation_range": 0,
+      "left_image_unchanged": true,
+      "sample_masks_match_contours": 15,
+      "added_dark_pixels_min": 258,
+      "added_dark_pixels_median": 313.0,
+      "added_dark_pixels_max": 358
+    },
+    {
+      "source_id": "four_pzt",
+      "frames_checked": 1320,
+      "frame_identity_and_times_unchanged": true,
+      "previously_retained_pixels_removed": 0,
+      "pixels_outside_new_observation_range": 0,
+      "left_image_unchanged": true,
+      "sample_masks_match_contours": 15,
+      "added_dark_pixels_min": 249,
+      "added_dark_pixels_median": 345.0,
+      "added_dark_pixels_max": 423
+    }
+  ],
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q customer_workspace/tests/test_bubble_dark_regions.py customer_workspace/tests/test_bubble_regions.py",
+    "passed": 41
+  },
+  "visual_review": "局部预览中贴壁深色部分增多，也出现几处沿壁面的细小轮廓；没有将这些新增像素认定为真实微泡。",
+  "limitations": [
+    "固定边界可能裁切贴壁部分或保留壁面，需要人工比较。"
+  ]
+}

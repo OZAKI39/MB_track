@@ -1,0 +1,68 @@
+{
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_stalls_20261031-221809/B_control/recording/video.mp4",
+  "source_sha256": "e786265c4f5d66438f54e1c712921dcc34a57861b69b4f8b1261a85627309eba",
+  "compared_video_frames": 1320,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 1319,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 1319,
+      "sha256": "c519465dab3e2de70bb87fbc6d4cb275c01b0a00ec89650b1ac738d24b5dabf1"
+    },
+    "observations": {
+      "rows": 17760,
+      "sha256": "e669ca4676264b776c7615c232713e4fad9d6ab754e923bbdbd690f98d78d06b"
+    },
+    "tracks": {
+      "rows": 75,
+      "sha256": "d1dc528d7079f33c0d269b26a5eedc275121c54cb252b260ccc7dea7ceedea63"
+    },
+    "events": {
+      "rows": 136,
+      "sha256": "bb61db17ea52bffd17a8ba6d6ef7fbaf643e4dc7a43c6b6e5038f1774799eaba"
+    },
+    "event_updates": {
+      "rows": 272,
+      "sha256": "1d23fb45273fb110d2e2f8907da7cded9fc3e4105e7b67de14e7515e0c53d62d"
+    },
+    "track_updates": {
+      "rows": 205,
+      "sha256": "a35499e33419a4cc4e12d0b29444f7df540ca99621ab8dd10d8a18efb549d1dc"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 1319,
+      "sha256": "c519465dab3e2de70bb87fbc6d4cb275c01b0a00ec89650b1ac738d24b5dabf1"
+    },
+    "observations": {
+      "rows": 17760,
+      "sha256": "e669ca4676264b776c7615c232713e4fad9d6ab754e923bbdbd690f98d78d06b"
+    },
+    "tracks": {
+      "rows": 75,
+      "sha256": "d1dc528d7079f33c0d269b26a5eedc275121c54cb252b260ccc7dea7ceedea63"
+    },
+    "events": {
+      "rows": 136,
+      "sha256": "bb61db17ea52bffd17a8ba6d6ef7fbaf643e4dc7a43c6b6e5038f1774799eaba"
+    },
+    "event_updates": {
+      "rows": 272,
+      "sha256": "1d23fb45273fb110d2e2f8907da7cded9fc3e4105e7b67de14e7515e0c53d62d"
+    },
+    "track_updates": {
+      "rows": 205,
+      "sha256": "a35499e33419a4cc4e12d0b29444f7df540ca99621ab8dd10d8a18efb549d1dc"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

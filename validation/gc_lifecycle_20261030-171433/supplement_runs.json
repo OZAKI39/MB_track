@@ -1,0 +1,88 @@
+[
+  {
+    "name": "science_A",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.online_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--save-mode",
+      "async",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/science_A"
+    ],
+    "started_unix_s": 1793378848.7392297,
+    "exit_code": 0,
+    "finished_unix_s": 1793378865.835004
+  },
+  {
+    "name": "science_B",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.online_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+      "--save-mode",
+      "async",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/science_B"
+    ],
+    "started_unix_s": 1793378865.8354347,
+    "exit_code": 0,
+    "finished_unix_s": 1793378885.3113685
+  },
+  {
+    "name": "cancel",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--mode",
+      "normal",
+      "--video-name",
+      "expA",
+      "--repeats",
+      "1",
+      "--cancel-after-s",
+      "2",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/cancel"
+    ],
+    "started_unix_s": 1793378885.3116522,
+    "exit_code": 0,
+    "finished_unix_s": 1793378889.3771443
+  },
+  {
+    "name": "tests_final",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/tests"
+    ],
+    "started_unix_s": 1793378889.3774111,
+    "exit_code": 0,
+    "finished_unix_s": 1793378908.0474563
+  },
+  {
+    "name": "audit",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/audit.py"
+    ],
+    "started_unix_s": 1793378908.0477593,
+    "exit_code": 0,
+    "finished_unix_s": 1793378924.7918112
+  }
+]

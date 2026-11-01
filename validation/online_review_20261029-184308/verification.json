@@ -1,0 +1,71 @@
+{
+  "videos": [
+    {
+      "file": "videos/01_expA_full_review.mp4",
+      "frame_count": 1320,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed"
+    },
+    {
+      "file": "videos/02_expB_full_review.mp4",
+      "frame_count": 1320,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed"
+    },
+    {
+      "file": "videos/03_skipped_frame_comparison.mp4",
+      "frame_count": 120,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed",
+      "withheld_frames_in_clip": 40
+    },
+    {
+      "file": "videos/04_merge_candidate.mp4",
+      "frame_count": 78,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed"
+    },
+    {
+      "file": "videos/05_split_confirmation.mp4",
+      "frame_count": 78,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed",
+      "causal_confirmation": "pending at304, confirmed at308"
+    },
+    {
+      "file": "videos/06_tracking_loss.mp4",
+      "frame_count": 87,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed"
+    },
+    {
+      "file": "videos/07_unresolved_target.mp4",
+      "frame_count": 42,
+      "source_mapping": "passed",
+      "decode_and_pts": "passed",
+      "ending_state": "unresolved_at_end"
+    }
+  ],
+  "font_family": "Arial",
+  "source_files_unchanged": true,
+  "total_frames": 3045,
+  "pdf_fonts": {
+    "04_pzt_video_alignment.pdf": [
+      "SROHPX+ArialMT"
+    ],
+    "01_frame_timing.pdf": [
+      "GNVYOT+ArialMT"
+    ],
+    "02_track_lifetimes.pdf": [
+      "GBRNLQ+ArialMT"
+    ],
+    "03_history_and_active_targets.pdf": [
+      "GNQCTD+ArialMT"
+    ]
+  },
+  "gallery_links": "all present",
+  "source_code_sha256": {
+    "customer_workspace/microbubble_tracking/online_review_render.py": "f8c46c0bf8582bd9dbf117ec53f363ddcabcf0ba88998419affa6296df2f52b2",
+    "customer_workspace/microbubble_tracking/online_review.py": "9eebaf29e5c91f5e1a112ed5d74458bdff310bf374008f1dccb297abde678159"
+  }
+}

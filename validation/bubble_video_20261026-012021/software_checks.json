@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "tests_passed": 21,
+  "decoded_frames": 1320,
+  "all_frame_times_identical": true,
+  "duration_s": 21.99997777777778,
+  "input_hashes_unchanged": true,
+  "encoded_preview_visually_checked": true,
+  "browser_playback_tested": false
+}

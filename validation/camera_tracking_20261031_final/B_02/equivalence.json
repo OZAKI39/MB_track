@@ -1,0 +1,68 @@
+{
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+  "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+  "compared_video_frames": 1320,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 1319,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 1319,
+      "sha256": "9335918ee84da9f0a1c9e1f9423a863532a80af226e788fa380b5bf92e6250a8"
+    },
+    "observations": {
+      "rows": 17763,
+      "sha256": "53fc44fb958e99e400a8e244fe4ece4bb9252f4c353430ef7009922a9b23e71e"
+    },
+    "tracks": {
+      "rows": 75,
+      "sha256": "8510c46081d0d3250bf683bd1bd6faca13276102141202a7179fccbe9956d904"
+    },
+    "events": {
+      "rows": 137,
+      "sha256": "401a0e688c20e5d69ac771f7a2fc57c14982f1df817eaffc88aa9e639e162a86"
+    },
+    "event_updates": {
+      "rows": 274,
+      "sha256": "0b569ee82bb5e880631dc2ee55229cac576065302f279894018033d9d0868113"
+    },
+    "track_updates": {
+      "rows": 196,
+      "sha256": "08a4e84917eb6969bcd010a06338b353987ff87c223bdc15438c05e6f6ae1207"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 1319,
+      "sha256": "9335918ee84da9f0a1c9e1f9423a863532a80af226e788fa380b5bf92e6250a8"
+    },
+    "observations": {
+      "rows": 17763,
+      "sha256": "53fc44fb958e99e400a8e244fe4ece4bb9252f4c353430ef7009922a9b23e71e"
+    },
+    "tracks": {
+      "rows": 75,
+      "sha256": "8510c46081d0d3250bf683bd1bd6faca13276102141202a7179fccbe9956d904"
+    },
+    "events": {
+      "rows": 137,
+      "sha256": "401a0e688c20e5d69ac771f7a2fc57c14982f1df817eaffc88aa9e639e162a86"
+    },
+    "event_updates": {
+      "rows": 274,
+      "sha256": "0b569ee82bb5e880631dc2ee55229cac576065302f279894018033d9d0868113"
+    },
+    "track_updates": {
+      "rows": 196,
+      "sha256": "08a4e84917eb6969bcd010a06338b353987ff87c223bdc15438c05e6f6ae1207"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

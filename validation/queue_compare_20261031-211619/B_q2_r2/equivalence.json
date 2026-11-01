@@ -1,0 +1,68 @@
+{
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/queue_compare_20261031-211619/B_q2_r2/recording/video.mp4",
+  "source_sha256": "35637859b06f0d38b67ca26a9cfba0e1535eb830ca6ab14828895b38604c289e",
+  "compared_video_frames": 1320,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 1320,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 1320,
+      "sha256": "d527af591f29fcc78758b5723f31a2d4a74d0a2237c19b07acf5f228a9e7adb9"
+    },
+    "observations": {
+      "rows": 17735,
+      "sha256": "3e316bf98a420bef754d25605657dd3bbd60cd112760db43c21773cfb0b5fadc"
+    },
+    "tracks": {
+      "rows": 85,
+      "sha256": "0b5b4b9b223ea344b500017dbc0c764a3840eed629ddd95519be2712a43fd882"
+    },
+    "events": {
+      "rows": 157,
+      "sha256": "b3a015cfd816af2cedb530ff465921336fefaef88b77ef27b76b623d639df572"
+    },
+    "event_updates": {
+      "rows": 314,
+      "sha256": "b76c88f9483decd41084ca80d67655828b6d359add48cbbd57206d517a04f8ba"
+    },
+    "track_updates": {
+      "rows": 227,
+      "sha256": "ce5042d1f571e09451d6b0b8d562d7e8e9a5645b364a5a6f54f534983923aeb9"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 1320,
+      "sha256": "d527af591f29fcc78758b5723f31a2d4a74d0a2237c19b07acf5f228a9e7adb9"
+    },
+    "observations": {
+      "rows": 17735,
+      "sha256": "3e316bf98a420bef754d25605657dd3bbd60cd112760db43c21773cfb0b5fadc"
+    },
+    "tracks": {
+      "rows": 85,
+      "sha256": "0b5b4b9b223ea344b500017dbc0c764a3840eed629ddd95519be2712a43fd882"
+    },
+    "events": {
+      "rows": 157,
+      "sha256": "b3a015cfd816af2cedb530ff465921336fefaef88b77ef27b76b623d639df572"
+    },
+    "event_updates": {
+      "rows": 314,
+      "sha256": "b76c88f9483decd41084ca80d67655828b6d359add48cbbd57206d517a04f8ba"
+    },
+    "track_updates": {
+      "rows": 227,
+      "sha256": "ce5042d1f571e09451d6b0b8d562d7e8e9a5645b364a5a6f54f534983923aeb9"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

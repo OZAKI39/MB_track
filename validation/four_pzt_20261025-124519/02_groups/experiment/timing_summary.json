@@ -1,0 +1,324 @@
+{
+  "requested_runs": 1,
+  "completed_runs": 1,
+  "reliable_runs": 1,
+  "unreliable_runs": 0,
+  "failed_runs": 0,
+  "paired_pulses": 7,
+  "paired_intervals": 7,
+  "recorded_parameter_commands": 14,
+  "control_mode": "amplitude_write_only",
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "experiment",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    }
+  ],
+  "statistics_ms": {
+    "PZT1": {
+      "active_schedule_delay_ms": {
+        "count": 2,
+        "mean": 0.9179000044241548,
+        "median": 0.9179000044241548,
+        "sample_stddev": 0.502470076976291,
+        "min": 0.5626000056508929,
+        "max": 1.2732000031974167,
+        "range": 0.7105999975465238
+      },
+      "idle_schedule_delay_ms": {
+        "count": 2,
+        "mean": 0.2648499939823523,
+        "median": 0.2648499939823523,
+        "sample_stddev": 0.10415681936914221,
+        "min": 0.19120000069960952,
+        "max": 0.3384999872650951,
+        "range": 0.1472999865654856
+      },
+      "active_before_call_ms": {
+        "count": 2,
+        "mean": 0.7390499959001318,
+        "median": 0.7390499959001318,
+        "sample_stddev": 0.7182083728722473,
+        "min": 0.2311999851372093,
+        "max": 1.2469000066630542,
+        "range": 1.015700021525845
+      },
+      "active_local_prepare_ms": {
+        "count": 2,
+        "mean": 0.178850008524023,
+        "median": 0.178850008524023,
+        "sample_stddev": 0.21573829589595622,
+        "min": 0.026299996534362435,
+        "max": 0.33140002051368356,
+        "range": 0.3051000239793211
+      },
+      "idle_before_call_ms": {
+        "count": 2,
+        "mean": 0.19289999909233302,
+        "median": 0.19289999909233302,
+        "sample_stddev": 0.10535891005040117,
+        "min": 0.11839999933727086,
+        "max": 0.2673999988473952,
+        "range": 0.14899999951012433
+      },
+      "idle_local_prepare_ms": {
+        "count": 2,
+        "mean": 0.0719499948900193,
+        "median": 0.0719499948900193,
+        "sample_stddev": 0.0012020906812589562,
+        "min": 0.07109998841769993,
+        "max": 0.07280000136233866,
+        "range": 0.001700012944638729
+      },
+      "active_write_ms": {
+        "count": 2,
+        "mean": 0.9717499924590811,
+        "median": 0.9717499924590811,
+        "sample_stddev": 0.8234258399100433,
+        "min": 0.38949999725446105,
+        "max": 1.5539999876637012,
+        "range": 1.1644999904092401
+      },
+      "idle_write_ms": {
+        "count": 2,
+        "mean": 1.749650007695891,
+        "median": 1.749650007695891,
+        "sample_stddev": 1.6271234356197735,
+        "min": 0.5990999925415963,
+        "max": 2.9002000228501856,
+        "range": 2.3011000303085893
+      }
+    },
+    "PZT2": {
+      "active_schedule_delay_ms": {
+        "count": 2,
+        "mean": 2.0019000075990334,
+        "median": 2.0019000075990334,
+        "sample_stddev": 0.8072330947984149,
+        "min": 1.431100012268871,
+        "max": 2.5727000029291958,
+        "range": 1.1415999906603247
+      },
+      "idle_schedule_delay_ms": {
+        "count": 2,
+        "mean": 1.8442500004312024,
+        "median": 1.8442500004312024,
+        "sample_stddev": 2.0940967288448435,
+        "min": 0.3635000030044466,
+        "max": 3.324999997857958,
+        "range": 2.9614999948535115
+      },
+      "active_before_call_ms": {
+        "count": 2,
+        "mean": 1.9259499968029559,
+        "median": 1.9259499968029559,
+        "sample_stddev": 0.73334042915619,
+        "min": 1.407400006428361,
+        "max": 2.444499987177551,
+        "range": 1.0370999807491899
+      },
+      "active_local_prepare_ms": {
+        "count": 2,
+        "mean": 0.07595001079607755,
+        "median": 0.07595001079607755,
+        "sample_stddev": 0.07389266564222487,
+        "min": 0.02370000584051013,
+        "max": 0.12820001575164497,
+        "range": 0.10450000991113484
+      },
+      "idle_before_call_ms": {
+        "count": 2,
+        "mean": 1.757449994329363,
+        "median": 1.757449994329363,
+        "sample_stddev": 2.1822022255354465,
+        "min": 0.21440000273287296,
+        "max": 3.3004999859258533,
+        "range": 3.0860999831929803
+      },
+      "idle_local_prepare_ms": {
+        "count": 2,
+        "mean": 0.08680000610183924,
+        "median": 0.08680000610183924,
+        "sample_stddev": 0.08810549669060316,
+        "min": 0.024500011932104826,
+        "max": 0.14910000027157366,
+        "range": 0.12459998833946884
+      },
+      "active_write_ms": {
+        "count": 2,
+        "mean": 0.6128499953774735,
+        "median": 0.6128499953774735,
+        "sample_stddev": 0.4835903262154821,
+        "min": 0.2708999963942915,
+        "max": 0.9547999943606555,
+        "range": 0.683899997966364
+      },
+      "idle_write_ms": {
+        "count": 2,
+        "mean": 0.7335499976761639,
+        "median": 0.7335499976761639,
+        "sample_stddev": 0.4232034206152208,
+        "min": 0.43429998913779855,
+        "max": 1.0328000062145293,
+        "range": 0.5985000170767307
+      }
+    },
+    "PZT4": {
+      "active_schedule_delay_ms": {
+        "count": 2,
+        "mean": 3.0192499980330467,
+        "median": 3.0192499980330467,
+        "sample_stddev": 1.7576553329649094,
+        "min": 1.7763999931048602,
+        "max": 4.262100002961233,
+        "range": 2.485700009856373
+      },
+      "idle_schedule_delay_ms": {
+        "count": 2,
+        "mean": 0.9048999927472323,
+        "median": 0.9048999927472323,
+        "sample_stddev": 0.8314161456410405,
+        "min": 0.3169999981764704,
+        "max": 1.4927999873179942,
+        "range": 1.1757999891415238
+      },
+      "active_before_call_ms": {
+        "count": 2,
+        "mean": 2.9972000047564507,
+        "median": 2.9972000047564507,
+        "sample_stddev": 1.758150311480722,
+        "min": 1.7539999971631914,
+        "max": 4.24040001234971,
+        "range": 2.4864000151865184
+      },
+      "active_local_prepare_ms": {
+        "count": 2,
+        "mean": 0.02204999327659607,
+        "median": 0.02204999327659607,
+        "sample_stddev": 0.0004949785158125114,
+        "min": 0.02169999061152339,
+        "max": 0.02239999594166875,
+        "range": 0.000700005330145359
+      },
+      "idle_before_call_ms": {
+        "count": 2,
+        "mean": 0.826300005428493,
+        "median": 0.826300005428493,
+        "sample_stddev": 0.8968942382530003,
+        "min": 0.19210000755265355,
+        "max": 1.4605000033043325,
+        "range": 1.268399995751679
+      },
+      "idle_local_prepare_ms": {
+        "count": 2,
+        "mean": 0.0785999873187393,
+        "median": 0.0785999873187393,
+        "sample_stddev": 0.0654780926119598,
+        "min": 0.03229998401366174,
+        "max": 0.12489999062381685,
+        "range": 0.0926000066101551
+      },
+      "active_write_ms": {
+        "count": 2,
+        "mean": 0.5167499912204221,
+        "median": 0.5167499912204221,
+        "sample_stddev": 0.1042982418022315,
+        "min": 0.44299999717622995,
+        "max": 0.5904999852646142,
+        "range": 0.14749998808838427
+      },
+      "idle_write_ms": {
+        "count": 2,
+        "mean": 0.677550007821992,
+        "median": 0.677550007821992,
+        "sample_stddev": 0.26509433403331645,
+        "min": 0.4901000065729022,
+        "max": 0.8650000090710819,
+        "range": 0.3749000024981797
+      }
+    },
+    "PZT3": {
+      "active_schedule_delay_ms": {
+        "count": 1,
+        "mean": 3.8309000083245337,
+        "median": 3.8309000083245337,
+        "sample_stddev": null,
+        "min": 3.8309000083245337,
+        "max": 3.8309000083245337,
+        "range": 0.0
+      },
+      "idle_schedule_delay_ms": {
+        "count": 1,
+        "mean": 1.0082999942824244,
+        "median": 1.0082999942824244,
+        "sample_stddev": null,
+        "min": 1.0082999942824244,
+        "max": 1.0082999942824244,
+        "range": 0.0
+      },
+      "active_before_call_ms": {
+        "count": 1,
+        "mean": 3.808999987086281,
+        "median": 3.808999987086281,
+        "sample_stddev": null,
+        "min": 3.808999987086281,
+        "max": 3.808999987086281,
+        "range": 0.0
+      },
+      "active_local_prepare_ms": {
+        "count": 1,
+        "mean": 0.02190002123825252,
+        "median": 0.02190002123825252,
+        "sample_stddev": null,
+        "min": 0.02190002123825252,
+        "max": 0.02190002123825252,
+        "range": 0.0
+      },
+      "idle_before_call_ms": {
+        "count": 1,
+        "mean": 0.9526000067126006,
+        "median": 0.9526000067126006,
+        "sample_stddev": null,
+        "min": 0.9526000067126006,
+        "max": 0.9526000067126006,
+        "range": 0.0
+      },
+      "idle_local_prepare_ms": {
+        "count": 1,
+        "mean": 0.05569998756982386,
+        "median": 0.05569998756982386,
+        "sample_stddev": null,
+        "min": 0.05569998756982386,
+        "max": 0.05569998756982386,
+        "range": 0.0
+      },
+      "active_write_ms": {
+        "count": 1,
+        "mean": 0.35249997745268047,
+        "median": 0.35249997745268047,
+        "sample_stddev": null,
+        "min": 0.35249997745268047,
+        "max": 0.35249997745268047,
+        "range": 0.0
+      },
+      "idle_write_ms": {
+        "count": 1,
+        "mean": 0.3465999907348305,
+        "median": 0.3465999907348305,
+        "sample_stddev": null,
+        "min": 0.3465999907348305,
+        "max": 0.3465999907348305,
+        "range": 0.0
+      }
+    }
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "not_measured_write_only_commands_with_round_boundary_checks",
+  "per_command_confirmation": false,
+  "physical_voltage_timing_verified": false
+}

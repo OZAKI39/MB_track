@@ -1,0 +1,13 @@
+{
+  "scope": "Read-only original evidence; offline diagnostic replay of current code; no algorithm or GC-policy changes.",
+  "code_before": {
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "14578abb76e50001bf82de099270f851a442ea80aaf5d88cf01c9f71f5477b53",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "paced_replay.py": "6aef08129d7b931b7530b379540224930fde5f68d4e219a7f4c309cbe0c33c7a",
+    "paced_source.py": "4f6fef88aca61ecf9fab7426eeeff5a934d7e5d8cf9956426c60542aa61f1fc0",
+    "stall_probe.py": "4f2fd99545029582bb7a01ec4d81013c207dcc631690a1ef0667559b2e5ead02",
+    "native_stall_watch.py": "9533e96de1bf5832af789c68d23c31454c6c84c41c11d98d280a024d9cc696cb"
+  }
+}

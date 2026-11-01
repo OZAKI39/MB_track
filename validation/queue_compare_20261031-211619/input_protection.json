@@ -1,0 +1,65 @@
+{
+  "algorithms_raw_videos_device_configs_unchanged": true,
+  "files": {
+    "configs/chronos_config.json": {
+      "before": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+      "after": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518"
+    },
+    "customer_workspace/configs/afg_video.json": {
+      "before": "f4fdb3934b4963bd5c2bcfd64f5bba9ab206f35e8c75ae7c35fb2088173b686d",
+      "after": "f4fdb3934b4963bd5c2bcfd64f5bba9ab206f35e8c75ae7c35fb2088173b686d"
+    },
+    "customer_workspace/parallel_camera.py": {
+      "before": "fe11b7c9f5ec8b020471dd20e058098e7f7c7fb495689d84cc47861d79fbf493",
+      "after": "fe11b7c9f5ec8b020471dd20e058098e7f7c7fb495689d84cc47861d79fbf493"
+    },
+    "customer_workspace/parallel_camera_bridge.py": {
+      "before": "62b31cebc26d475198e9d5a2e666a28799da3ec3bb3b773f0fb25ce102e76e9e",
+      "after": "924441d5e17657bbc704eb04c78909af939144eb2ffc0ca1748dc62cfe6db623"
+    },
+    "customer_workspace/parallel_video_check.py": {
+      "before": "4b5902dcddd23b52ffe67f87901f5972535e7fc377f7b4d8b03568c2a6b25656",
+      "after": "969c989f0bffc3fb60ca2ab2cfe053e52f64583654e3249202632f07dd55a062"
+    },
+    "customer_workspace/streamcopy_recording.py": {
+      "before": "d3873dea51acf5606901052761ec9a166b3e24e17af102faea738dd9c833af6e",
+      "after": "d3873dea51acf5606901052761ec9a166b3e24e17af102faea738dd9c833af6e"
+    },
+    "customer_workspace/microbubble_tracking/bubble_tracker.py": {
+      "before": "026e838a96643626ba5d79bb010aa3916f401cba23bbd3879322352adfa79d0e",
+      "after": "026e838a96643626ba5d79bb010aa3916f401cba23bbd3879322352adfa79d0e"
+    },
+    "customer_workspace/microbubble_tracking/online_tracking.py": {
+      "before": "e2cdfe08e877f12fda8dc2c3cfc8a8518da20f017336723417aa2483b986a469",
+      "after": "e2cdfe08e877f12fda8dc2c3cfc8a8518da20f017336723417aa2483b986a469"
+    },
+    "customer_workspace/microbubble_tracking/frame_conversion.py": {
+      "before": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3",
+      "after": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3"
+    },
+    "customer_workspace/microbubble_tracking/online_store.py": {
+      "before": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+      "after": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f"
+    },
+    "customer_workspace/microbubble_tracking/async_store.py": {
+      "before": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+      "after": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980"
+    },
+    "customer_workspace/microbubble_tracking/data/raw/expA.mp4": {
+      "before": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "after": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03"
+    },
+    "customer_workspace/microbubble_tracking/data/raw/expB.mp4": {
+      "before": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "after": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    },
+    "customer_workspace/README.md": {
+      "before": "0f3f6f54a280746088f02db95df759fc2f3af8eaf681e6105f8f1a850f4512af",
+      "after": "a17b4577481d55f76ba27f95b94dadd63e28668b0e352b9f40f533d833375668"
+    },
+    "customer_workspace/tests/test_camera_tracking.py": {
+      "before": "14b6cfed2ccc80ce8ad073ec589dc0727eacf584d245a0ad6708af99a77ec4c4",
+      "after": "14b6cfed2ccc80ce8ad073ec589dc0727eacf584d245a0ad6708af99a77ec4c4"
+    }
+  }
+}

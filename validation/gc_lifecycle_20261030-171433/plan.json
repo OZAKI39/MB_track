@@ -1,0 +1,48 @@
+{
+  "scope": "Formal pre-stream and post-save GC, unchanged automatic GC settings; offline A/B tests only.",
+  "before_sha256": {
+    "online_tracking.py": "24c57c6f7444d573e2e3483dea5db11b2939e81a568cbb03ad717bf31663c6c0",
+    "paced_replay.py": "b9865a56aba1de47302bf1d7f594f8e63599e6425036cbb0e1819d65824629a8",
+    "online_replay.py": "b3a8bca22d914d97dc29f929153fc519b549f5217148575a0be69b84bb9dbb85",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "gc_replay_check.py": "81f6217ad5770160cde1e0e85c0a08345f61fa856859f1daf0ea081983b3412d"
+  },
+  "runs": [
+    {
+      "name": "before_expA",
+      "command": [
+        "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+        "-m",
+        "customer_workspace.microbubble_tracking.gc_replay_check",
+        "--mode",
+        "normal",
+        "--video-name",
+        "expA",
+        "--repeats",
+        "3",
+        "--output-dir",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/before_expA"
+      ],
+      "nominal_seconds": 66
+    },
+    {
+      "name": "before_expB",
+      "command": [
+        "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+        "-m",
+        "customer_workspace.microbubble_tracking.gc_replay_check",
+        "--mode",
+        "normal",
+        "--video-name",
+        "expB",
+        "--repeats",
+        "3",
+        "--output-dir",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/before_expB"
+      ],
+      "nominal_seconds": 66
+    }
+  ]
+}

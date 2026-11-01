@@ -1,0 +1,47 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "checks": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "customer_workspace/afg_video_check.py",
+        "customer_workspace/afg_video_report.py",
+        "customer_workspace/tests/test_two_action_video.py"
+      ],
+      "exit_code": 0,
+      "log": "software_check_1.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "customer_workspace/afg_video_check.py",
+        "customer_workspace/afg_video_report.py",
+        "customer_workspace/tests/test_two_action_video.py"
+      ],
+      "exit_code": 0,
+      "log": "software_check_2.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "customer_workspace/tests/test_two_action_video.py",
+        "customer_workspace/tests/test_afg_video_link.py",
+        "customer_workspace/tests/test_pzt_video_review.py",
+        "customer_workspace/tests/test_four_pzt_validation.py",
+        "customer_workspace/tests/test_experiment_runner.py",
+        "-q"
+      ],
+      "exit_code": 0,
+      "log": "software_check_3.log"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "only_modified_preexisting_file": "customer_workspace/README.md",
+  "protected_original_files_unchanged": 374,
+  "preview_input_hashes_unchanged": true,
+  "new_files": [
+    "customer_workspace/bubble_dark_regions.py",
+    "customer_workspace/bubble_dark_preview.py",
+    "customer_workspace/configs/bubble_dark_preview_20261026.json",
+    "customer_workspace/tests/test_bubble_dark_regions.py"
+  ],
+  "current_preview": "preview_checked/index.html",
+  "status_note": "等待用户选择预览档位；未采用规则、未运行整段视频。"
+}

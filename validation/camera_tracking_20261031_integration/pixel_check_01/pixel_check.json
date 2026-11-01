@@ -1,0 +1,14 @@
+{
+  "min_error": -3,
+  "max_error": -1,
+  "different_pixels": 1310720,
+  "mean_abs_error": 2.245200347900391,
+  "gray_range_received": [
+    83,
+    195
+  ],
+  "gray_range_expected": [
+    85,
+    198
+  ]
+}

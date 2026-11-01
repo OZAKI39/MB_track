@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_frequency_amplitude.json",
+    "--output-dir",
+    "customer_workspace/validation/visual_frequency_amplitude_20261025-121706/experiment"
+  ],
+  "started_utc": "2026-10-25T11:17:36.076518+00:00",
+  "finished_utc": "2026-10-25T11:17:53.854640+00:00",
+  "returncode": 0
+}

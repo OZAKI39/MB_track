@@ -1,0 +1,198 @@
+{
+  "windows": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.2",
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "initial_channels": {
+    "PZT1": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.8,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT2": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT3": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT4": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    }
+  },
+  "channels": {
+    "PZT1": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.8,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT2": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT3": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT4": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    }
+  },
+  "all_outputs_off": true,
+  "confirmed_windows_s": 241416.8535384,
+  "ports": {
+    "5000": "free",
+    "5001": "free"
+  }
+}

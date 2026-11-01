@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "frames": 1320,
+  "observations": 22041,
+  "tracks": 181,
+  "confirmed_tracks": 110,
+  "events_by_status": {
+    "confirmed_tracks": 206,
+    "rejected_short_track": 140,
+    "unresolved_at_end": 1
+  },
+  "input_rejections": 0,
+  "skipped_source_frames": 0,
+  "peak_active_tracks": 26
+}

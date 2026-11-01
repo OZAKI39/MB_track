@@ -1,0 +1,606 @@
+{
+  "version": 1,
+  "session_id": "review",
+  "rows": [
+    {
+      "id": "four_pzt_f000030",
+      "image": "data/candidates/four_pzt_f000030.png",
+      "image_sha256": "9471a626ce1bfeb3bd6f0acadb8cf29b864596166b6ddbd951d2ffdd2652fc7e",
+      "overlay": "overlays/four_pzt_f000030.png",
+      "mask": "masks/four_pzt_f000030.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 30,
+      "source_pts": 45000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 0.5,
+      "relative_time_s": 0.5,
+      "requested_time_s": 0.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 39,
+      "uncertain_count": 17
+    },
+    {
+      "id": "four_pzt_f000168",
+      "image": "data/candidates/four_pzt_f000168.png",
+      "image_sha256": "a1581532273e596f90684f3c8813948686afaa16ce0e2e0e0d243ef061e99fcc",
+      "overlay": "overlays/four_pzt_f000168.png",
+      "mask": "masks/four_pzt_f000168.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 168,
+      "source_pts": 252000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 2.8,
+      "relative_time_s": 2.8,
+      "requested_time_s": 2.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 40,
+      "uncertain_count": 18
+    },
+    {
+      "id": "four_pzt_f000210",
+      "image": "data/candidates/four_pzt_f000210.png",
+      "image_sha256": "f772a7eb17ff08afaa707305c6f1c40bc0c26033c7b9fa72faf38c818828f30c",
+      "overlay": "overlays/four_pzt_f000210.png",
+      "mask": "masks/four_pzt_f000210.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 210,
+      "source_pts": 315000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 3.5,
+      "relative_time_s": 3.5,
+      "requested_time_s": 3.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 35,
+      "uncertain_count": 18
+    },
+    {
+      "id": "four_pzt_f000348",
+      "image": "data/candidates/four_pzt_f000348.png",
+      "image_sha256": "f4f4cb0984a992a125102703b573719535dda406753780b618946bd1a1fd4e1a",
+      "overlay": "overlays/four_pzt_f000348.png",
+      "mask": "masks/four_pzt_f000348.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 348,
+      "source_pts": 522000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 5.8,
+      "relative_time_s": 5.8,
+      "requested_time_s": 5.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 32,
+      "uncertain_count": 13
+    },
+    {
+      "id": "four_pzt_f000390",
+      "image": "data/candidates/four_pzt_f000390.png",
+      "image_sha256": "a66f5135749f80ce48ce1a6d254a8ff01b4b071ff1a9d88f350d64cc6d005da8",
+      "overlay": "overlays/four_pzt_f000390.png",
+      "mask": "masks/four_pzt_f000390.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 390,
+      "source_pts": 585000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 6.5,
+      "relative_time_s": 6.5,
+      "requested_time_s": 6.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 12
+    },
+    {
+      "id": "four_pzt_f000528",
+      "image": "data/candidates/four_pzt_f000528.png",
+      "image_sha256": "88f294552535ad48c9978dd8807b5ff9bae78a5628bbe2723762734bd2fdce54",
+      "overlay": "overlays/four_pzt_f000528.png",
+      "mask": "masks/four_pzt_f000528.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 528,
+      "source_pts": 792000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 8.8,
+      "relative_time_s": 8.8,
+      "requested_time_s": 8.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 11
+    },
+    {
+      "id": "four_pzt_f000570",
+      "image": "data/candidates/four_pzt_f000570.png",
+      "image_sha256": "5b2684a3375874f30766c2acd2fda5da2ac40d68a37173c55a39a677e7b24014",
+      "overlay": "overlays/four_pzt_f000570.png",
+      "mask": "masks/four_pzt_f000570.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 570,
+      "source_pts": 855000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 9.5,
+      "relative_time_s": 9.5,
+      "requested_time_s": 9.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 14
+    },
+    {
+      "id": "four_pzt_f000708",
+      "image": "data/candidates/four_pzt_f000708.png",
+      "image_sha256": "4ffa328c613e239b7f7c5f6f53478de9ea6a213b58d1e6bfee64dd7ea7f0bf9d",
+      "overlay": "overlays/four_pzt_f000708.png",
+      "mask": "masks/four_pzt_f000708.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 708,
+      "source_pts": 1062000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 11.8,
+      "relative_time_s": 11.8,
+      "requested_time_s": 11.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 11
+    },
+    {
+      "id": "four_pzt_f000750",
+      "image": "data/candidates/four_pzt_f000750.png",
+      "image_sha256": "0a8e109e485f5c91e9757eb88c44a0e8711b975ad2da25e76d2eaaefeb993841",
+      "overlay": "overlays/four_pzt_f000750.png",
+      "mask": "masks/four_pzt_f000750.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 750,
+      "source_pts": 1125000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 12.5,
+      "relative_time_s": 12.5,
+      "requested_time_s": 12.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 26,
+      "uncertain_count": 9
+    },
+    {
+      "id": "four_pzt_f000888",
+      "image": "data/candidates/four_pzt_f000888.png",
+      "image_sha256": "8acbe840c5731293effbdd362e0f2018f07a2694193c570e5cae9fac5c32d714",
+      "overlay": "overlays/four_pzt_f000888.png",
+      "mask": "masks/four_pzt_f000888.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 888,
+      "source_pts": 1332000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 14.8,
+      "relative_time_s": 14.8,
+      "requested_time_s": 14.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 13
+    },
+    {
+      "id": "four_pzt_f000930",
+      "image": "data/candidates/four_pzt_f000930.png",
+      "image_sha256": "9a684d808a1f4ca73f4f2eb27b4b89a86e4b5a12a70741d2664fd402da31ac40",
+      "overlay": "overlays/four_pzt_f000930.png",
+      "mask": "masks/four_pzt_f000930.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 930,
+      "source_pts": 1395000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 15.5,
+      "relative_time_s": 15.5,
+      "requested_time_s": 15.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 29,
+      "uncertain_count": 13
+    },
+    {
+      "id": "four_pzt_f001068",
+      "image": "data/candidates/four_pzt_f001068.png",
+      "image_sha256": "821c5790d454ac0f527116f55c702258f81e1bdbadfcfeffc74265bc93e2710d",
+      "overlay": "overlays/four_pzt_f001068.png",
+      "mask": "masks/four_pzt_f001068.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1068,
+      "source_pts": 1602000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 17.8,
+      "relative_time_s": 17.8,
+      "requested_time_s": 17.8,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 23,
+      "uncertain_count": 11
+    },
+    {
+      "id": "four_pzt_f001110",
+      "image": "data/candidates/four_pzt_f001110.png",
+      "image_sha256": "9b2c5ae179ba15a6e3e83f8b0e93f3ba7c28a3d241654dfea6a1cd7413203a63",
+      "overlay": "overlays/four_pzt_f001110.png",
+      "mask": "masks/four_pzt_f001110.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1110,
+      "source_pts": 1665000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 18.5,
+      "relative_time_s": 18.5,
+      "requested_time_s": 18.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 26,
+      "uncertain_count": 12
+    },
+    {
+      "id": "four_pzt_f001170",
+      "image": "data/candidates/four_pzt_f001170.png",
+      "image_sha256": "ac62ccaf6528f34a0b46b3a59020af53fa4f848b6800cc86313873c00cdb7f91",
+      "overlay": "overlays/four_pzt_f001170.png",
+      "mask": "masks/four_pzt_f001170.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1170,
+      "source_pts": 1755000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 19.5,
+      "relative_time_s": 19.5,
+      "requested_time_s": 19.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 14
+    },
+    {
+      "id": "four_pzt_f001260",
+      "image": "data/candidates/four_pzt_f001260.png",
+      "image_sha256": "e71fbf7b152506d44d6bb3f38355cb6c91aaa4ace093de4dfcaa3a29d5332496",
+      "overlay": "overlays/four_pzt_f001260.png",
+      "mask": "masks/four_pzt_f001260.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+      "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "source_id": "four_pzt",
+      "source_title": "四路切换实验",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "frame_index": 1260,
+      "source_pts": 1890000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 21.0,
+      "relative_time_s": 21.0,
+      "requested_time_s": 21.0,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "four_pzt",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "candidate_count": 28,
+      "uncertain_count": 15
+    }
+  ]
+}

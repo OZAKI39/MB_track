@@ -1,0 +1,107 @@
+{
+  "requested_runs": 3,
+  "completed_runs": 3,
+  "paired_pulses": 3,
+  "paired_intervals": 3,
+  "control_mode": "amplitude_states",
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "run_01",
+      "status": "completed",
+      "control_mode": "amplitude_states"
+    },
+    {
+      "run_index": 2,
+      "directory": "run_02",
+      "status": "completed",
+      "control_mode": "amplitude_states"
+    },
+    {
+      "run_index": 3,
+      "directory": "run_03",
+      "status": "completed",
+      "control_mode": "amplitude_states"
+    }
+  ],
+  "statistics_ms": {
+    "PZT1": {
+      "active_confirmation_delay_ms": {
+        "count": 3,
+        "mean": 47.167933337429226,
+        "median": 47.08010000467766,
+        "sample_stddev": 0.1983177813042693,
+        "min": 47.02870000619441,
+        "max": 47.39500000141561,
+        "range": 0.3662999952211976
+      },
+      "idle_confirmation_delay_ms": {
+        "count": 3,
+        "mean": 47.11246667041754,
+        "median": 47.16220000409521,
+        "sample_stddev": 0.207518805591474,
+        "min": 46.88460000033956,
+        "max": 47.29060000681784,
+        "range": 0.40600000647827983
+      },
+      "active_schedule_delay_ms": {
+        "count": 3,
+        "mean": 105.19416666162822,
+        "median": 105.12459999881685,
+        "sample_stddev": 0.1455992593201454,
+        "min": 105.09639998781495,
+        "max": 105.36149999825284,
+        "range": 0.2651000104378909
+      },
+      "idle_schedule_delay_ms": {
+        "count": 3,
+        "mean": 109.24369999459789,
+        "median": 109.05250000359956,
+        "sample_stddev": 0.5526874036435169,
+        "min": 108.81199999130331,
+        "max": 109.86659998889081,
+        "range": 1.054599997587502
+      },
+      "active_before_call_ms": {
+        "count": 3,
+        "mean": 4.8546999993656454,
+        "median": 4.8540999996475875,
+        "sample_stddev": 2.7335000470900783,
+        "min": 2.121500001521781,
+        "max": 7.588499996927567,
+        "range": 5.466999995405786
+      },
+      "active_precheck_ms": {
+        "count": 3,
+        "mean": 100.33946666226257,
+        "median": 100.27049999916926,
+        "sample_stddev": 2.866672272812492,
+        "min": 97.50789999088738,
+        "max": 103.23999999673106,
+        "range": 5.732100005843677
+      },
+      "active_write_ms": {
+        "count": 3,
+        "mean": 0.37263333797454834,
+        "median": 0.24989999656099826,
+        "sample_stddev": 0.2716571499521114,
+        "min": 0.18400000408291817,
+        "max": 0.6840000132797286,
+        "range": 0.5000000091968104
+      },
+      "idle_write_ms": {
+        "count": 3,
+        "mean": 0.41386666998732835,
+        "median": 0.4865000082645565,
+        "sample_stddev": 0.1418584646545776,
+        "min": 0.25040000036824495,
+        "max": 0.5047000013291836,
+        "range": 0.25430000096093863
+      }
+    }
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "amplitude_reply_received_at_PC_and_subsequently_validated_by_driver",
+  "physical_voltage_timing_verified": false
+}

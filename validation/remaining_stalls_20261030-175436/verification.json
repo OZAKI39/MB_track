@@ -1,0 +1,359 @@
+{
+  "runs": [
+    {
+      "run": "native_A",
+      "offered": 3960,
+      "processed": 3960,
+      "replaced": 0,
+      "seconds": 66.0,
+      "process_median_ms": 9.448152006370947,
+      "process_p99_ms": 12.202880806871677,
+      "process_max_ms": 27.78045999002643,
+      "automatic_gc_max_ms": 0.04059099592268467,
+      "save_peak_pending": 2,
+      "database_integrity_ok": true,
+      "stored_frames_match": true,
+      "all_submitted_saved": true,
+      "writer_finished": true,
+      "gc_settings_unchanged": true,
+      "gc_before_stream": true,
+      "gc_after_save": true
+    },
+    {
+      "run": "native_B",
+      "offered": 3960,
+      "processed": 3960,
+      "replaced": 0,
+      "seconds": 65.99993328282828,
+      "process_median_ms": 10.97196999762673,
+      "process_p99_ms": 14.035507383814547,
+      "process_max_ms": 21.054233016911894,
+      "automatic_gc_max_ms": 0.05849899025633931,
+      "save_peak_pending": 2,
+      "database_integrity_ok": true,
+      "stored_frames_match": true,
+      "all_submitted_saved": true,
+      "writer_finished": true,
+      "gc_settings_unchanged": true,
+      "gc_before_stream": true,
+      "gc_after_save": true
+    },
+    {
+      "run": "host_A",
+      "offered": 1320,
+      "processed": 1319,
+      "replaced": 1,
+      "seconds": 22.0,
+      "process_median_ms": 10.846862976904958,
+      "process_p99_ms": 14.38660294457804,
+      "process_max_ms": 37.874648987781256,
+      "automatic_gc_max_ms": 0.036787998396903276,
+      "save_peak_pending": 2,
+      "database_integrity_ok": true,
+      "stored_frames_match": true,
+      "all_submitted_saved": true,
+      "writer_finished": true,
+      "gc_settings_unchanged": true,
+      "gc_before_stream": true,
+      "gc_after_save": true
+    },
+    {
+      "run": "host_B",
+      "offered": 7920,
+      "processed": 7920,
+      "replaced": 0,
+      "seconds": 131.99986656565656,
+      "process_median_ms": 9.177130996249616,
+      "process_p99_ms": 11.879025966627513,
+      "process_max_ms": 18.65998699213378,
+      "automatic_gc_max_ms": 0.05258398596197367,
+      "save_peak_pending": 12,
+      "database_integrity_ok": true,
+      "stored_frames_match": true,
+      "all_submitted_saved": true,
+      "writer_finished": true,
+      "gc_settings_unchanged": true,
+      "gc_before_stream": true,
+      "gc_after_save": true
+    }
+  ],
+  "scientific_comparisons": [
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/native_A",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/after_expA/replay",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/native_B",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_lifecycle_20261030-171433/before_expB/replay",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_2/tracking",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_3/tracking",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_analysis_1/tracking",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_analysis_2/tracking",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    },
+    {
+      "left": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1/tracking",
+      "right": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_analysis_3/tracking",
+      "tables": {
+        "frames": true,
+        "observations": true,
+        "tracks": true,
+        "events": true,
+        "track_updates": true,
+        "event_updates": true,
+        "input_rejections": true
+      },
+      "backgrounds": {
+        "background_initial.npy": true,
+        "background_final.npy": true
+      }
+    }
+  ],
+  "code_unchanged": {
+    "bubble_tracker.py": true,
+    "online_tracking.py": true,
+    "online_store.py": true,
+    "async_store.py": true,
+    "paced_replay.py": true,
+    "paced_source.py": true,
+    "stall_probe.py": true,
+    "native_stall_watch.py": true
+  },
+  "fingerprints": {
+    "native_A": {
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "frames": {
+        "rows": 3960,
+        "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec"
+      },
+      "observations": {
+        "rows": 66515,
+        "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c"
+      },
+      "tracks": {
+        "rows": 565,
+        "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0"
+      },
+      "events": {
+        "rows": 1115,
+        "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d"
+      },
+      "track_updates": {
+        "rows": 1479,
+        "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f"
+      },
+      "event_updates": {
+        "rows": 2230,
+        "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c"
+      },
+      "input_rejections": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "native_B": {
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "frames": {
+        "rows": 3960,
+        "sha256": "1f5737c9f026e34a6650b741d945f7da886af38aea39f493e8f8ba6599917ac1"
+      },
+      "observations": {
+        "rows": 53196,
+        "sha256": "174fa0f8fe020e2eedd21b78c790c1d273ecad0e76252ab2da412689461b47f4"
+      },
+      "tracks": {
+        "rows": 208,
+        "sha256": "0bd09ff3f43df88bc8f42bef415d2e64d4331a4919d1e5b35826d2afea01cbb4"
+      },
+      "events": {
+        "rows": 403,
+        "sha256": "f0ebd4c1a210d928dc157867d3c0361ff3a50bdc75367a378dcda4afa74fb530"
+      },
+      "track_updates": {
+        "rows": 548,
+        "sha256": "0d2212b849487df3998e65d7f50381da64d456f5f5a37853755c43e5d3b948c1"
+      },
+      "event_updates": {
+        "rows": 806,
+        "sha256": "f5b87303105a8975d883a3d2ecf5ad646738fc7e41a9e5e5d762f1d70d683f05"
+      },
+      "input_rejections": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "host_A": {
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "frames": {
+        "rows": 1319,
+        "sha256": "c7618d8556ab027ce329af8bdee563078c855f4c01cfea99a0040a23292c17eb"
+      },
+      "observations": {
+        "rows": 21989,
+        "sha256": "c2bd4300d784e5031e3f29d25f1ac44709139ad3e353edb8690ae9313519d67c"
+      },
+      "tracks": {
+        "rows": 173,
+        "sha256": "1f25042f41d7d70bec428d3e39017deaa051500554019f10649f16f75333bccf"
+      },
+      "events": {
+        "rows": 331,
+        "sha256": "eb69ad53864b924fd61f6d3b4df72fd8b9cf30530cb8649963f4596aee58dd7a"
+      },
+      "track_updates": {
+        "rows": 453,
+        "sha256": "120369b14843ad2ac050f8204a51345d493101621cb702d8012786732f48e7f8"
+      },
+      "event_updates": {
+        "rows": 662,
+        "sha256": "e4fd60d04559beda7dff33c9ce93618aeb2035e9b15d30d2d55a77d8999f7b40"
+      },
+      "input_rejections": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "host_B": {
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "frames": {
+        "rows": 7920,
+        "sha256": "3d7589b89bc0831b6ee6ea73c10cb33f7643b35e1b2f10fd18743b864261764d"
+      },
+      "observations": {
+        "rows": 105620,
+        "sha256": "5e428b037ebd26002283eaa678cffa252f8e6d65044ad22a1b59d0b351ab7c92"
+      },
+      "tracks": {
+        "rows": 426,
+        "sha256": "e622942035e4f1824a39185f2b94a6559048f5a52ecef37e2d61c30c9b2d22a7"
+      },
+      "events": {
+        "rows": 839,
+        "sha256": "810b63a759c873c05ad913f6a39d329f70095094f6a54e6e712cca4a7e800762"
+      },
+      "track_updates": {
+        "rows": 1127,
+        "sha256": "ab2538e27b066fa0db1fe1bc6d2840cd202c18f9cf00b25bf9892205e6ee2821"
+      },
+      "event_updates": {
+        "rows": 1678,
+        "sha256": "dfb6c7b16d958b642da4eedf59bc9ddd7b68102b76cdd1b847f64205a6a1714f"
+      },
+      "input_rejections": {
+        "rows": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "limits": "Timing overhead is diagnostic; comparisons exclude processing_ms only. Replays are not hardware experiments."
+}

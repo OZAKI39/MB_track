@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.video_recording_check",
+    "--seconds",
+    "20",
+    "--output-dir",
+    "customer_workspace/validation/video_20s_20261025-140240/capture"
+  ],
+  "started_utc": "2026-10-25T13:05:16.288018+00:00",
+  "finished_utc": "2026-10-25T13:05:16.553752+00:00",
+  "returncode": 1
+}

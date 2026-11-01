@@ -1,0 +1,7 @@
+{
+  "sha256": {
+    "data/candidate_manifest.json": "adf98fa9ad820e3e3e47e9cdc0de89f19f9d2de63d28e063389eae02d747e318",
+    "benchmark.json": "89240ba721fcb141093f0e57b273225964dedbc1d4008e3c2d0948ceb07332fc",
+    "settings.json": "cdc6a702b30bb2cca46478e46428f893c02fa8c8cebbe6fb1b95d4bf96354bdb"
+  }
+}

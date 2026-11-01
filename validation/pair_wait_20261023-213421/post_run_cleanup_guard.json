@@ -1,0 +1,10 @@
+{
+  "changed_after_hardware_measurement": [
+    "customer_workspace/amplitude_pair_diagnostic.py"
+  ],
+  "runtime_sha256": "53ff24bb7e75d4024919988a2c52802760bfe9c350f83cf23063d1f630821bb0",
+  "final_sha256": "a92cb43b494eba2e040282b58170966c593ebd01143d516abecd120a02ec335b",
+  "change": "If group-end all_off returns failures, raise AFGError so status becomes failed and the next group does not start. No timing or measurement changes.",
+  "hardware_branch_exercised": false,
+  "all_measured_groups_shutdown_errors": []
+}

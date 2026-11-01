@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-10-31T20:05:25.784300+01:00",
+  "purpose": "Windows-only local RTSP camera simulation; no real hardware; no WSL analysis",
+  "files": [
+    {
+      "path": "/mnt/f/MB_camera_sim/videos/expA.mp4",
+      "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "bytes": 13771395,
+      "sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03"
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/videos/expB.mp4",
+      "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "bytes": 13770778,
+      "sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/bin/ffmpeg.exe",
+      "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/tools/ffmpeg/bin/ffmpeg.exe",
+      "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "size_bytes": 105423872
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/bin/ffprobe.exe",
+      "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/tools/ffmpeg/bin/ffprobe.exe",
+      "sha256": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52",
+      "size_bytes": 105221120
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/bin/mediamtx.exe",
+      "source": "https://github.com/bluenviron/mediamtx/releases/download/v1.21.3/mediamtx_v1.21.3_windows_amd64.zip#mediamtx.exe",
+      "bytes": 57336320,
+      "sha256": "13a0bfaa852d83ce976c94342a1af130941bd79fac2c1e95a2175879c92304c0"
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/bin/mediamtx.defaults.yml",
+      "source": "https://github.com/bluenviron/mediamtx/releases/download/v1.21.3/mediamtx_v1.21.3_windows_amd64.zip#mediamtx.yml",
+      "bytes": 38940,
+      "sha256": "47cbbb2b7a7cd9587c15d532f93262f42e771e910c5341a0a687e4ac52f9191d"
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/bin/mediamtx_LICENSE",
+      "source": "https://github.com/bluenviron/mediamtx/releases/download/v1.21.3/mediamtx_v1.21.3_windows_amd64.zip#LICENSE",
+      "bytes": 1062,
+      "sha256": "ecae73b0a23185a35a1222edc0aae5245bb9739420bad0125b0c42e935301a80"
+    },
+    {
+      "path": "/mnt/f/MB_camera_sim/bin/ffplay.exe",
+      "source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/tools/ffmpeg/ffmpeg-release-essentials.7z#ffmpeg-9.0.2-essentials_build/bin/ffplay.exe",
+      "bytes": 106903552,
+      "sha256": "befbbd00a25965365f7fb3eed6ad5aa5f805eb70fabc567883a006de3b26c06f"
+    }
+  ],
+  "mediamtx": {
+    "version": "1.21.3",
+    "url": "https://github.com/bluenviron/mediamtx/releases/download/v1.21.3/mediamtx_v1.21.3_windows_amd64.zip",
+    "archive_sha256": "b2f5246b07cb72961df03b8d5e8cad43dc657bcf3f49a87bb031bdf22721af74",
+    "bytes": 28734316
+  },
+  "deployment": [
+    {
+      "authoritative_source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/tools/windows_camera_sim.py",
+      "windows_copy": "F:/MB_camera_sim/windows_camera_sim.py",
+      "sha256": "e70eeeb41adabed2d5f691dc6224c35f954099e69fef92c04eada4fe583b0208"
+    },
+    {
+      "authoritative_source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/mediamtx_camera_sim.yml",
+      "windows_copy": "F:/MB_camera_sim/mediamtx.yml",
+      "sha256": "ff319024ffef59a061d191448772ac052ca04b36641cc456b80af15589a900ce"
+    },
+    {
+      "authoritative_source": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/tools/MB_CAMERA_SIM.md",
+      "windows_copy": "F:/MB_camera_sim/README.md",
+      "sha256": "a671a6231e5fd08c4a07924831ae781d1381004b189ff8b97f5bf2e0157043ff"
+    }
+  ],
+  "environment": {
+    "windows": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.2",
+    "python_executable": "F:\\MB_camera_sim\\.venv\\Scripts\\python.exe",
+    "python_base": "C:/Python314/python.exe",
+    "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+    "ffplay": "ffplay version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2003-2026 the FFmpeg developers",
+    "mediamtx": "v1.21.3"
+  },
+  "updated_at": "2026-10-31T20:25:02.061741+01:00"
+}

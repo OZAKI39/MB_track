@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-23T18:29:00.557519+00:00",
+  "command": "Get-WinEvent -FilterHashtable @{LogName='System';StartTime=(Get-Date).AddHours(-3)} -ErrorAction SilentlyContinue | Where-Object { $_.ProviderName -match 'USB|Kernel-PnP|DriverFrameworks' } | Select-Object TimeCreated,Id,LevelDisplayName,ProviderName,Message | ConvertTo-Json -Depth 3",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,53 @@
+{
+  "status": "COMPLETED_PENDING_HUMAN_REVIEW",
+  "checked_at": "2026-10-26T17:25:03.357265+01:00",
+  "source_code_sha256": {
+    "sam21_initial_tracking.py": "0c81d25cd41860246562e9a2321917f212df2df2996f52370cfb8e5c4ef6c0d3",
+    "sam21_tracking_review.py": "92c40035839592dbb7f810c82d7eeab9dcac0871822eb8a3c499d46d7dda9929",
+    "bubble_region_video.py": "615b043839de79b58704b4e06c017e626151065b0c420d9633d7d5aff1b79d10",
+    "tests/test_sam21_initial_tracking.py": "1467747ee9b9c9c686753c72f6f7a49047e7dfe591417f0ded01d7db62b2605c",
+    "tests/test_sam21_tracking_review.py": "8517821479405872f91167c6c114b16d026ce315072b2fb749b9da3f9a680798"
+  },
+  "software_checks": {
+    "passed_tests": 26,
+    "test_files": [
+      "test_sam21_initial_tracking.py",
+      "test_sam21_tracking_review.py",
+      "test_bubble_region_video.py"
+    ],
+    "ruff_check": "passed",
+    "ruff_format_check": "passed"
+  },
+  "memory_equivalence": {
+    "passed": true,
+    "frames": 48,
+    "objects": 43,
+    "binary_masks_pixel_identical": true,
+    "all_measurements_and_scores_identical": true,
+    "retained_non_conditioning_frames": 32,
+    "initial_conditioning_memory_preserved": true
+  },
+  "data_checks_file": "data_verification.json",
+  "video": {
+    "decoded_frames": 1320,
+    "all_frame_times_identical": true,
+    "duration_s": 22.0,
+    "size": [
+      2576,
+      1136
+    ]
+  },
+  "output_video_sha256": "5317022765271b67d8a3cd6403e0b55c309fbc477e88531e4ebeb926c519e502",
+  "browser_checks_file": "browser_verification.json",
+  "playback_checks_file": "playback_verification.json",
+  "adopted_mask_unchanged": true,
+  "current_gui_dataset_unchanged": true,
+  "remote_task": {
+    "inference_completed": true,
+    "task_supervisor_shutdown": true,
+    "server_instance_stopped": false,
+    "all_prediction_artifacts_verified_locally": true
+  },
+  "human_accuracy_validated": false,
+  "new_tracker_adopted": false
+}

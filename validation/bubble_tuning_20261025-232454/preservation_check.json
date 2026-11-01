@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checked_files": 262,
+  "changed_files": [
+    "customer_workspace/bubble_region_annotation.py",
+    "customer_workspace/tests/check_bubble_region_gui.py",
+    "customer_workspace/README.md"
+  ],
+  "missing_files": [],
+  "unexpected_changes": [],
+  "original_review_data_unchanged": true,
+  "runtime_session_preferences_excluded": true
+}

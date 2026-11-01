@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "processed_frames": 1320,
+  "review_pairs": 300,
+  "mask": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-163547_c70389142e/manifest.json",
+    "sha256": "ccc8130733c530758a3af500a0bc77f2da5fcfc4990a77ff6f043c2e105d5c7d",
+    "saved_at": "2026-10-26T16:35:47.559936+01:00"
+  },
+  "mix_a_mask_pixel_exact": true,
+  "fixed_300_frame_contours_match_approved_mix_a": true,
+  "all_301_review_images_and_detection_masks_verified": true,
+  "all_review_annotation_masks_match_detection": true,
+  "all_review_mask_references_use_mix_a": true,
+  "detections_outside_mask": 0,
+  "all_frame_timestamps_match_tracking_records": true,
+  "protected_input_files_unchanged": 1663,
+  "fixed_benchmark_lock_unchanged": true,
+  "human_confirmation_fabricated": false,
+  "hardware_used": false
+}

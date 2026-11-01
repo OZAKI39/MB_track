@@ -1,0 +1,11 @@
+{
+  "recording_extra_lost_frames": 0,
+  "recording_decode_errors": 0,
+  "recording_queue_overruns": 0,
+  "analysis_at_least_hz": 5.6,
+  "analysis_rate_ratio_to_baseline_min": 0.8,
+  "software_age_p95_limit": "max(baseline_p95 * 1.2, baseline_p95 + 20 ms)",
+  "maximum_analysis_completion_gap_ms": 1000,
+  "camera_connections": 1,
+  "meaning": "7次/秒允许20%波动；与本轮基准比，分析速度下降超过20%或P95延迟增长超过上述门槛视为明显变化。"
+}

@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-23T18:29:00.053886+00:00",
+  "command": "Get-CimInstance Win32_PnPSignedDriver | Where-Object { $_.DeviceID -match 'VID_0699' } | Select-Object DeviceName,DeviceID,DriverProviderName,DriverVersion,DriverDate,InfName | ConvertTo-Json -Depth 3",
+  "returncode": 0,
+  "stdout": "[\n    {\n        \"DeviceName\":  \"USB Test and Measurement Device (IVI)\",\n        \"DeviceID\":  \"USB\\\\VID_0699\\u0026PID_0353\\\\2147075\",\n        \"DriverProviderName\":  \"IVI Foundation, Inc\",\n        \"DriverVersion\":  \"16.3.17614.0\",\n        \"DriverDate\":  \"\\/Date(1376438400000)\\/\",\n        \"InfName\":  \"oem85.inf\"\n    },\n    {\n        \"DeviceName\":  \"USB Test and Measurement Device (IVI)\",\n        \"DeviceID\":  \"USB\\\\VID_0699\\u0026PID_0353\\\\2439003\",\n        \"DriverProviderName\":  \"IVI Foundation, Inc\",\n        \"DriverVersion\":  \"16.3.17614.0\",\n        \"DriverDate\":  \"\\/Date(1376438400000)\\/\",\n        \"InfName\":  \"oem85.inf\"\n    }\n]\n",
+  "stderr": ""
+}

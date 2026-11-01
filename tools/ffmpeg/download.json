@@ -1,0 +1,8 @@
+{
+  "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
+  "final_url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.7z",
+  "sha256": "4705843ccaaf54257c16ad90f3e952ece33c17df964ecf7bfdbb0f49c7171077",
+  "expected_sha256": "4705843ccaaf54257c16ad90f3e952ece33c17df964ecf7bfdbb0f49c7171077",
+  "size_bytes": 35430500,
+  "official_download_page": "https://ffmpeg.org/download.html"
+}

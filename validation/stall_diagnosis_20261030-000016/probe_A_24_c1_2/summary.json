@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "frames": 1319,
+  "observations": 22019,
+  "tracks": 178,
+  "confirmed_tracks": 108,
+  "events_by_status": {
+    "confirmed_tracks": 202,
+    "rejected_short_track": 138,
+    "unresolved_at_end": 1
+  },
+  "input_rejections": 0,
+  "skipped_source_frames": 1,
+  "peak_active_tracks": 26,
+  "persistence": {
+    "submitted_frames": 1319,
+    "committed_frames": 1319,
+    "pending_records": 0,
+    "peak_pending_records": 2,
+    "oldest_pending_ms": 0.0,
+    "last_committed_source_frame": 1593,
+    "error": null
+  }
+}

@@ -1,0 +1,19 @@
+[
+  "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+  "-B",
+  "-m",
+  "customer_workspace.parallel_video_check",
+  "--offline-video",
+  "/mnt/f/MB_camera_sim/videos/expA.mp4",
+  "--background",
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+  "--mode",
+  "parallel",
+  "--seconds",
+  "22",
+  "--diagnose-queue",
+  "--waiting-frames",
+  "2",
+  "--output-dir",
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/queue_delay_20261031-215045/file_A_q2"
+]

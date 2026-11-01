@@ -1,0 +1,467 @@
+{
+  "conversion_equal": {
+    "A": {
+      "frames": 1320,
+      "same_count": true,
+      "identical": true
+    },
+    "B": {
+      "frames": 1320,
+      "same_count": true,
+      "identical": true
+    }
+  },
+  "kernels": {
+    "kernel_1_cold_1": {
+      "first_ms": 12.147294997703284,
+      "steady_median_ms": 8.41618498088792,
+      "first_minor_faults": 3710,
+      "result": {
+        "opencv_threads": 1,
+        "prefault": false,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 489873,
+        "duration_s": 0.22628867599996738,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_cold_1": {
+      "first_ms": 12.625563977053389,
+      "steady_median_ms": 6.3188330095727,
+      "first_minor_faults": 3452,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": false,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 489672,
+        "duration_s": 0.19376787400688045,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_cold_2": {
+      "first_ms": 13.923599995905533,
+      "steady_median_ms": 6.753208988811821,
+      "first_minor_faults": 2955,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": false,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 490050,
+        "duration_s": 0.22904336199280806,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_cold_3": {
+      "first_ms": 14.701812993735075,
+      "steady_median_ms": 8.053362020291388,
+      "first_minor_faults": 3455,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": false,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 490154,
+        "duration_s": 0.2285231199930422,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_profile": {
+      "first_ms": 26.278664998244494,
+      "steady_median_ms": 7.379343995125964,
+      "first_minor_faults": 2943,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": false,
+        "profiled": true,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": true,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 489569,
+        "duration_s": 0.3221196499944199,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_touch_1": {
+      "first_ms": 11.043334990972653,
+      "steady_median_ms": 7.143185997847468,
+      "first_minor_faults": 2681,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": true,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 489773,
+        "duration_s": 0.2532555789803155,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_touch_2": {
+      "first_ms": 10.180646990193054,
+      "steady_median_ms": 7.280686986632645,
+      "first_minor_faults": 2683,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": true,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 489950,
+        "duration_s": 0.2553282660082914,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    },
+    "kernel_24_touch_3": {
+      "first_ms": 10.172032983973622,
+      "steady_median_ms": 6.75556599162519,
+      "first_minor_faults": 2682,
+      "result": {
+        "opencv_threads": 24,
+        "prefault": true,
+        "profiled": false,
+        "output_hashes": [
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73",
+          "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+        ],
+        "memory_counters": false,
+        "identical_repeated_results": true,
+        "mode": "kernel",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "pid": 490254,
+        "duration_s": 0.19865536500583403,
+        "scope": "Offline diagnostic; no hardware or experimental state advanced"
+      }
+    }
+  },
+  "gc_only": {
+    "gc_only_B": {
+      "processed": 1319,
+      "process_ms": {
+        "min": 7.83224098267965,
+        "median": 9.79732398991473,
+        "p95": 12.104185589123515,
+        "p99": 13.421379709034227,
+        "max": 31.76231699762866
+      },
+      "gc_during_analysis": [
+        {
+          "frame": "-1",
+          "thread_id": "491068",
+          "generation": "0",
+          "start_s": "164330.428740097",
+          "end_s": "164330.428771404",
+          "wall_ms": "0.031306990422308445"
+        },
+        {
+          "frame": "-1",
+          "thread_id": "491068",
+          "generation": "0",
+          "start_s": "164337.328331016",
+          "end_s": "164337.328366897",
+          "wall_ms": "0.03588100662454963"
+        },
+        {
+          "frame": "-1",
+          "thread_id": "491068",
+          "generation": "0",
+          "start_s": "164344.361901891",
+          "end_s": "164344.361926826",
+          "wall_ms": "0.024934997782111168"
+        }
+      ]
+    },
+    "gc_disabled_B": {
+      "processed": 1319,
+      "process_ms": {
+        "min": 7.601358985994011,
+        "median": 9.953771979780868,
+        "p95": 12.735099787823856,
+        "p99": 14.493204301106736,
+        "max": 31.15328200510703
+      },
+      "gc_during_analysis": []
+    }
+  },
+  "runs": [
+    {
+      "run": "probe_A_1_cauto_1",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1312,
+      "saved": 1312,
+      "first_ms": 23.42718798900023,
+      "median_ms": 12.20791599189397,
+      "p99_ms": 20.7408884249162,
+      "max_ms": 27.765416976762936,
+      "send_p99_ms": 0.5186575496918515,
+      "send_max_ms": 15.840359294088557,
+      "commit_max_ms": 24.203466018661857,
+      "save_peak": 2,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_A_24_1",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1311,
+      "saved": 1311,
+      "first_ms": 31.619579007383436,
+      "median_ms": 9.867123008007184,
+      "p99_ms": 15.287061198614547,
+      "max_ms": 31.619579007383436,
+      "send_p99_ms": 22.424540887586506,
+      "send_max_ms": 76.40773366438225,
+      "commit_max_ms": 79.05948697589338,
+      "save_peak": 4,
+      "test_overlap": true
+    },
+    {
+      "run": "probe_A_24_c1_1",
+      "status": "failed",
+      "offered": 1252,
+      "processed": 1247,
+      "saved": 1247,
+      "first_ms": 39.48812899761833,
+      "median_ms": 9.630129003198817,
+      "p99_ms": 15.877186791039994,
+      "max_ms": 39.48812899761833,
+      "send_p99_ms": 1.6129755193833315,
+      "send_max_ms": 35.54021567106247,
+      "commit_max_ms": 1760.4275530029554,
+      "save_peak": 32,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_A_24_c1_2",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1319,
+      "saved": 1319,
+      "first_ms": 23.86004402069375,
+      "median_ms": 9.752042999025434,
+      "p99_ms": 13.326109597692264,
+      "max_ms": 23.86004402069375,
+      "send_p99_ms": 0.3284451956278644,
+      "send_max_ms": 1.1980959970969707,
+      "commit_max_ms": 18.725289002759382,
+      "save_peak": 2,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_A_24_c1_3",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1316,
+      "saved": 1316,
+      "first_ms": 40.461055003106594,
+      "median_ms": 9.744639988639392,
+      "p99_ms": 15.775949148519404,
+      "max_ms": 51.45767700741999,
+      "send_p99_ms": 0.4053566197399047,
+      "send_max_ms": 14.821844320977107,
+      "commit_max_ms": 21.799904003273696,
+      "save_peak": 2,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_A_24_cauto_2",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1319,
+      "saved": 1319,
+      "first_ms": 29.215009999461472,
+      "median_ms": 9.891297988360748,
+      "p99_ms": 14.115599640645078,
+      "max_ms": 29.215009999461472,
+      "send_p99_ms": 0.3841075280797659,
+      "send_max_ms": 17.56069963448681,
+      "commit_max_ms": 31.46806699805893,
+      "save_peak": 3,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_A_24_cauto_3",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1320,
+      "saved": 1320,
+      "first_ms": 24.034311005380005,
+      "median_ms": 9.900158489472233,
+      "p99_ms": 14.474838621390507,
+      "max_ms": 24.034311005380005,
+      "send_p99_ms": 0.375117673829663,
+      "send_max_ms": 20.246687985491008,
+      "commit_max_ms": 19.79903699248098,
+      "save_peak": 2,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_B_24_c1_1",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1308,
+      "saved": 1308,
+      "first_ms": 26.54386797803454,
+      "median_ms": 10.13969948689919,
+      "p99_ms": 17.90941897110315,
+      "max_ms": 27.255734021309763,
+      "send_p99_ms": 0.8879097457975101,
+      "send_max_ms": 150.95191588625312,
+      "commit_max_ms": 16.6659890091978,
+      "save_peak": 2,
+      "test_overlap": false
+    },
+    {
+      "run": "probe_B_24_cauto_1",
+      "status": "completed",
+      "offered": 1320,
+      "processed": 1317,
+      "saved": 1317,
+      "first_ms": 32.058343989774585,
+      "median_ms": 9.74542900803499,
+      "p99_ms": 13.897158700274291,
+      "max_ms": 35.00208799960092,
+      "send_p99_ms": 0.38184593518963045,
+      "send_max_ms": 1.2304485426284373,
+      "commit_max_ms": 16.99858799111098,
+      "save_peak": 2,
+      "test_overlap": false
+    }
+  ]
+}

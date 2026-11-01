@@ -25,6 +25,19 @@ after each step (mean), and how sure is the model (variance, if it has one).
                        last 0.1 s (mean displacement and mean speed of all regions), updated during the roll-out;
                        this is how the model sees a slow background flow of the session.
                        context='field' (version 1): instead the region count, total area and spread.
+                       extra_inputs=True: each region also gets its mean darkness (how dense it is) and the
+                       share of the surroundings covered by other regions within 60 px and 150 px (its local
+                       density, recomputed at every roll-out step).
+                       Besides motion and shape, every step also gives the chance that the region connects with
+                       another one (merge) and that a piece separates from it (split) during that step; chained
+                       over the roll-out this is the chance of a merge / split within 0.1 ... 1 s, for the PZT
+                       sequence being imagined.
+
+Event models (merge / split within 0.1, 0.5, 1 s, same samples):
+    EventBaseRate      the training frequency                                 (reference)
+    EventGapRule       logistic fit on the gap to the nearest region and how fast it is closing (simple rule)
+    EventBoosting      gradient-boosted trees on the tabular inputs           (learned)
+    GraphWorldModel    the event outputs described above
 
 Predictions are arrays per graph: mu (n, n_future, 2) absolute centroid after each step, var (n, n_future)
 per-axis variance in px^2 (or None), logA and aspect (n, n_future) (or None).
@@ -195,8 +208,10 @@ def node_table(exp, g, act=None, horizon=None, R=150.0):
     within = d < R
     area = np.exp(g['shape'][:, 0])
     wd, wdir = exp.wall_features(pos[:, 0], pos[:, 1])
+    dens60 = ((d < 60) * area[None, :]).sum(1) / (math.pi * 60 ** 2)
     cols = [pos[:, 0] / exp.W, pos[:, 1] / exp.H,
             g['hist'].reshape(n, -1), g['hmask'], g['shape'], g['flags'][:, :1],
+            g.get('dark', np.zeros(n))[:, None], dens60[:, None],
             (wd - r)[:, None], wdir,
             within.sum(1)[:, None],
             np.where(n > 1, gap[np.arange(n), near], R)[:, None] if n > 1 else np.full((n, 1), R),
@@ -282,9 +297,11 @@ def _torch():
 
 POS_SCALE = 5.0        # network outputs displacements in units of 5 px per 0.1 s step
 NODE_IN = 21
+EXTRA_IN = 3           # darkness, local density within 60 px and within 150 px
 FOURIER_CYCLES = (1, 2, 4, 8, 16, 32)   # position encoding: sin / cos at these many cycles across the image
 EDGE_IN = 5
 GLOBAL_IN = 12
+EV_IN = 3              # event head only: gap to the nearest region, closing speed, log gap
 
 
 def build_net(latent=64, steps=3, interactions=True, node_in=NODE_IN):
@@ -306,9 +323,10 @@ def build_net(latent=64, steps=3, interactions=True, node_in=NODE_IN):
                 self.node_upd = nn.ModuleList([mlp(3 * latent, latent) for _ in range(steps)])
             else:
                 self.node_upd = nn.ModuleList([mlp(2 * latent, latent) for _ in range(steps)])
-            self.dec = mlp(2 * latent, 8)
+            self.dec = mlp(2 * latent, 8)            # motion and shape
+            self.ev = mlp(2 * latent + EV_IN, 2)     # merge and split hazard logits (own head, see _fit_event_head)
 
-        def forward(self, xn, xg, batch, src, dst, xe):
+        def forward(self, xn, xg, batch, src, dst, xe, xev):
             h = self.node_enc(xn)
             g = self.glob_enc(xg)[batch]
             if self.interactions:
@@ -323,7 +341,9 @@ def build_net(latent=64, steps=3, interactions=True, node_in=NODE_IN):
             else:
                 for nu in self.node_upd:
                     h = h + nu(torch.cat([h, g], 1))
-            return self.dec(torch.cat([h, g], 1))
+            z = torch.cat([h, g], 1)
+            zev = torch.cat([z, xev], 1)
+            return torch.cat([self.dec(z), self.ev(zev)], 1), zev
 
     return Net()
 
@@ -347,6 +367,14 @@ class Batch:
         self.fut_logA = T(np.nan_to_num(cat('fut_logA')))
         self.fut_ar = T(np.nan_to_num(cat('fut_ar')))
         self.loss_ok = T(np.concatenate([loss_mask(g) for g in graphs]), torch.bool)
+        n_all = sum(n_per)
+        self.dark = T(np.concatenate([g.get('dark', np.zeros(len(g['pos']))) for g in graphs]))
+        nf = graphs[0]['fut'].shape[1]
+        for kind in ('merge', 'split'):
+            ev = np.concatenate([g.get(f'ev_{kind}', np.full((len(g['pos']), nf), np.nan)) for g in graphs])
+            setattr(self, f'ev_{kind}', T(np.nan_to_num(ev)))
+            setattr(self, f'ev_{kind}_ok', T(np.isfinite(ev), torch.bool))
+        assert self.dark.shape[0] == n_all
         acts = [act_override[i] if act_override is not None else g['act'] for i, g in enumerate(graphs)]
         self.act = T(np.stack(acts))                                       # (G, nf+1, 4)
         P = exps[0].P
@@ -368,10 +396,11 @@ class GraphWorldModel:
     def __init__(self, interactions=True, members=5, radius_px=150.0, latent=64, steps=3, epochs=150,
                  patience=25, lr=1e-3, batch_graphs=32, train_stride=3, block_s=2.0, val_share=0.2,
                  shape_weight=0.3, seed=0, threads=None, verbose=True, label=None, context='motion',
-                 fourier=True, beta=1.0, history_dropout=0.5):
+                 fourier=True, beta=1.0, history_dropout=0.5, extra_inputs=True, event_weight=1.0):
         self.interactions, self.members, self.context = interactions, members, context
         self.fourier, self.beta, self.history_dropout = fourier, beta, history_dropout
-        self.node_in = NODE_IN + (4 * len(FOURIER_CYCLES) if fourier else 0)
+        self.extra_inputs, self.event_weight = extra_inputs, event_weight
+        self.node_in = NODE_IN + (4 * len(FOURIER_CYCLES) if fourier else 0) + (EXTRA_IN if extra_inputs else 0)
         self.R, self.latent, self.steps = radius_px, latent, steps
         self.epochs, self.patience, self.lr, self.bg = epochs, patience, lr, batch_graphs
         self.train_stride, self.block_s, self.val_share = train_stride, block_s, val_share
@@ -398,6 +427,13 @@ class GraphWorldModel:
     def _fit_stats(self, graphs):
         la = np.concatenate([g['shape'][:, 0] for g in graphs])
         self.stats = dict(logA_mean=float(la.mean()), logA_std=float(la.std() + 1e-6))
+        prior = []
+        for kind in ('merge', 'split'):
+            ev = [g[f'ev_{kind}'][loss_mask(g)] for g in graphs if f'ev_{kind}' in g]
+            ev = np.concatenate(ev) if ev else np.array([np.nan])
+            rate = float(np.clip(np.nanmean(ev), 1e-4, 0.5)) if np.isfinite(ev).any() else 1e-3
+            prior.append(math.log(rate / (1 - rate)))      # per-step rate on the training data, as a logit
+        self.hazard_prior = prior
 
     # ------------------------------------------------------------------ one roll-out
     def _features(self, b, pos, hist, hmask, logA, aspect, j, maps):
@@ -414,6 +450,20 @@ class GraphWorldModel:
                         (hist / POS_SCALE).reshape(len(pos), -1), hmask,
                         ((logA - st['logA_mean']) / st['logA_std'])[:, None], (aspect - 1).clamp(0, 5)[:, None],
                         b.shape[:, 2:6], ((wd - r) / 20.0).clamp(-2, 5)[:, None], wdir, b.edge_flag], 1)
+        need_d = self.interactions
+        if need_d:
+            same = b.batch[:, None] == b.batch[None, :]
+            d = torch.cdist(pos, pos)
+        if self.extra_inputs:
+            if need_d:
+                other = same & ~torch.eye(len(pos), dtype=torch.bool)
+                area = torch.exp(logA)
+                dens60 = ((other & (d < 60)).float() * area[None, :]).sum(1) / (math.pi * 60 ** 2)
+                dens150 = ((other & (d < 150)).float() * area[None, :]).sum(1) / (math.pi * 150 ** 2)
+            else:      # the no-neighbour model gets no information about other regions
+                dens60 = dens150 = torch.zeros(len(pos))
+            xn = torch.cat([xn, (b.dark * 5)[:, None], (dens60 * 5).clamp(0, 5)[:, None],
+                            (dens150 * 5).clamp(0, 5)[:, None]], 1)
         if self.fourier:
             k = torch.as_tensor(FOURIER_CYCLES, dtype=torch.float32) * 2 * math.pi
             fx, fy = pos[:, :1] / W * k, pos[:, 1:] / H * k
@@ -431,8 +481,6 @@ class GraphWorldModel:
             ctx = b.field
         xg = torch.cat([a_now, a_prev, (b.tsc[:, j] / 3.0)[:, None], ctx], 1)
         if self.interactions:
-            same = b.batch[:, None] == b.batch[None, :]
-            d = torch.cdist(pos, pos)
             m = same & (d < R)
             m.fill_diagonal_(False)
             src, dst = torch.nonzero(m, as_tuple=True)
@@ -445,8 +493,29 @@ class GraphWorldModel:
             xe = torch.zeros((0, EDGE_IN))
         return xn, xg, src, dst, xe
 
-    def _rollout(self, net, b, n_steps, maps, train=False):
+    def _gap_inputs(self, b, pos, hist, hmask, logA):
+        """Extra input of the event head at every imagined step: gap to the nearest other region and how fast it
+        closes (the same two numbers as the gap rule, but taken from the imagined positions, so they depend on
+        the planned PZT sequence). Zero for the no-neighbour model."""
         torch = _torch()
+        n = len(pos)
+        if not self.interactions or n == 0:
+            return torch.zeros((n, EV_IN))
+        d = torch.cdist(pos, pos)
+        other = (b.batch[:, None] == b.batch[None, :]) & ~torch.eye(n, dtype=torch.bool)
+        r = torch.sqrt(torch.exp(logA) / math.pi)
+        gap = torch.where(other, d - r[:, None] - r[None, :], torch.full_like(d, 1e6))
+        gmin, j = gap.min(1)
+        alone = gmin > 1e5
+        v = hist[:, 0] * hmask[:, :1]
+        u = (pos[j] - pos) / d[torch.arange(n), j].clamp(min=1e-6)[:, None]
+        closing = torch.where(alone, torch.zeros(n), ((v - v[j]) * u).sum(1))
+        gmin = torch.where(alone, torch.full_like(gmin, 300.0), gmin.clamp(-50, 300))
+        return torch.stack([gmin / 100, (closing / 5).clamp(-5, 5), torch.log1p(gmin.clamp(min=0)) / 5], 1)
+
+    def _rollout(self, net, b, n_steps, maps, train=False, want_z=False):
+        torch = _torch()
+        zs = []
         pos = b.pos.clone()
         hist, hmask = b.hist.clone(), b.hmask.clone()
         if train and self.history_dropout:
@@ -459,10 +528,12 @@ class GraphWorldModel:
         var_xy = torch.zeros_like(pos)
         var_la = torch.zeros_like(logA)
         var_ar = torch.zeros_like(logA)
-        mus, vxy, las, vla, ars, var_ = [], [], [], [], [], []
+        mus, vxy, las, vla, ars, var_, hz_m, hz_s = [], [], [], [], [], [], [], []
         for j in range(n_steps):
             xn, xg, src, dst, xe = self._features(b, pos, hist, hmask, logA, aspect, j, maps)
-            o = net(xn, xg, b.batch, src, dst, xe)
+            o, zev = net(xn, xg, b.batch, src, dst, xe, self._gap_inputs(b, pos, hist, hmask, logA))
+            if want_z:
+                zs.append(zev)
             d = o[:, 0:2] * POS_SCALE
             lv = o[:, 2:4].clamp(-6, 6)
             pos = pos + d
@@ -479,12 +550,15 @@ class GraphWorldModel:
             vla.append(var_la)
             ars.append(aspect)
             var_.append(var_ar)
+            hz_m.append(o[:, 8])
+            hz_s.append(o[:, 9])
         st = lambda L: torch.stack(L, 1)
-        return st(mus), st(vxy), st(las), st(vla), st(ars), st(var_)
+        out = (st(mus), st(vxy), st(las), st(vla), st(ars), st(var_), st(hz_m), st(hz_s))
+        return out + (st(zs),) if want_z else out
 
     def _loss(self, b, out):
         torch = _torch()
-        mu, vxy, la, vla, ar, var_ar = out
+        mu, vxy, la, vla, ar, var_ar, hz_m, hz_s = out
         nf = mu.shape[1]
         ok = b.fut_ok[:, :nf] & b.loss_ok[:, None]
         if ok.sum() == 0:
@@ -502,7 +576,14 @@ class GraphWorldModel:
         if self.beta:
             nll_la = nll_la * vla.detach() ** self.beta
             nll_ar = nll_ar * var_ar.detach() ** self.beta
-        return loss + self.shape_weight * (nll_la[sh].mean() + nll_ar[sh].mean())
+        total = loss + self.shape_weight * (nll_la[sh].mean() + nll_ar[sh].mean())
+        if self.event_weight:
+            bce = torch.nn.functional.binary_cross_entropy_with_logits
+            for logit, lab, lab_ok in ((hz_m, b.ev_merge, b.ev_merge_ok), (hz_s, b.ev_split, b.ev_split_ok)):
+                okm = lab_ok[:, :nf] & b.loss_ok[:, None]
+                if okm.any():
+                    total = total + self.event_weight * bce(logit[okm], lab[:, :nf][okm])
+        return total
 
     # ------------------------------------------------------------------ training
     def fit(self, exps, graphs):
@@ -533,6 +614,10 @@ class GraphWorldModel:
             tr = np.concatenate([idx_of[u][::self.train_stride] for u in boot])
             va = np.concatenate([idx_of[u][::self.train_stride] for u in val_b])
             net = build_net(self.latent, self.steps, self.interactions, self.node_in)
+            with torch.no_grad():
+                # merges and splits are rare (about 1 % per 0.1 s step): start the two hazard outputs at the
+                # training rate instead of at 50 %, otherwise they stay far too high (Lin et al. 2017, "prior")
+                net.ev[-1].bias[:] = torch.as_tensor(self.hazard_prior, dtype=torch.float32)
             opt = torch.optim.Adam(net.parameters(), lr=self.lr, weight_decay=1e-5)
             vbatches = [Batch(self.exp_index, [graphs[i] for i in va[k:k + 64]], exps, self.stats)
                         for k in range(0, len(va), 64)]
@@ -561,11 +646,70 @@ class GraphWorldModel:
                         break
             net.load_state_dict(best_state)
             net.eval()
+            ev_msg = self._fit_event_head(net, graphs, exps, tr, va, maps, nf, rng) if self.event_weight else ''
             self.nets.append(net)
             if self.verbose:
                 print(f'    {self.name}: member {m + 1}/{self.members} stopped at epoch {ep + 1}, '
-                      f'best validation {best:.3f}  ({time.time() - t0:.0f} s)', flush=True)
+                      f'best validation {best:.3f}{ev_msg}  ({time.time() - t0:.0f} s)', flush=True)
         return self
+
+    def _fit_event_head(self, net, graphs, exps, tr, va, maps, nf, rng, epochs=200, patience=10):
+        """Second stage for merge / split. The early stopping above follows the (much larger) motion loss, so the
+        event head is barely trained when it stops. Here only the event head is trained, on the frozen world
+        model's internal state at every step of its own roll-out, with its own early stopping on the same
+        validation blocks. The state is computed once, so this takes seconds."""
+        torch = _torch()
+        bce = torch.nn.functional.binary_cross_entropy_with_logits
+
+        def collect(idx):
+            Z, Y, OK = [], [], []
+            with torch.no_grad():
+                for k in range(0, len(idx), 64):
+                    b = Batch(self.exp_index, [graphs[i] for i in idx[k:k + 64]], exps, self.stats)
+                    z = self._rollout(net, b, nf, maps, want_z=True)[-1]                     # (n, nf, 2*latent)
+                    y = torch.stack([b.ev_merge[:, :nf], b.ev_split[:, :nf]], -1)
+                    ok = torch.stack([b.ev_merge_ok[:, :nf], b.ev_split_ok[:, :nf]], -1) & b.loss_ok[:, None, None]
+                    keep = ok.reshape(-1, 2).any(1)
+                    Z.append(z.reshape(-1, z.shape[-1])[keep])
+                    Y.append(y.reshape(-1, 2)[keep])
+                    OK.append(ok.reshape(-1, 2)[keep])
+            return torch.cat(Z), torch.cat(Y), torch.cat(OK)
+
+        Zt, Yt, OKt = collect(tr)
+        Zv, Yv, OKv = collect(va)
+        if not OKt.any() or not OKv.any():
+            return ''
+        vloss = lambda: float(bce(net.ev(Zv)[OKv], Yv[OKv]))
+        for p in net.parameters():
+            p.requires_grad_(False)
+        for p in net.ev.parameters():
+            p.requires_grad_(True)
+        opt = torch.optim.Adam(net.ev.parameters(), lr=1e-3, weight_decay=1e-4)
+        with torch.no_grad():
+            best, start = vloss(), vloss()
+        best_state, bad, ep = copy.deepcopy(net.ev.state_dict()), 0, 0
+        for ep in range(epochs):
+            perm = torch.as_tensor(rng.permutation(len(Zt)))
+            for k in range(0, len(perm), 2048):
+                i = perm[k:k + 2048]
+                ok = OKt[i]
+                if ok.any():
+                    loss = bce(net.ev(Zt[i])[ok], Yt[i][ok])
+                    opt.zero_grad()
+                    loss.backward()
+                    opt.step()
+            with torch.no_grad():
+                vl = vloss()
+            if vl < best - 1e-5:
+                best, best_state, bad = vl, copy.deepcopy(net.ev.state_dict()), 0
+            else:
+                bad += 1
+                if bad >= patience:
+                    break
+        net.ev.load_state_dict(best_state)
+        for p in net.parameters():
+            p.requires_grad_(True)
+        return f'; event head {ep + 1} epochs, validation {start:.4f} -> {best:.4f}'
 
     # ------------------------------------------------------------------ prediction
     def predict(self, exp, graphs, act_override=None, chunk=64):
@@ -585,11 +729,15 @@ class GraphWorldModel:
                 epi = mu.var(0, unbiased=False).mean(-1) if len(res) > 1 else torch.zeros_like(alea)
                 la = torch.stack([r[2] for r in res]).mean(0)
                 ar = torch.stack([r[4] for r in res]).mean(0)
+                # chance of at least one merge (split) within the first k steps, averaged over the ensemble
+                cum = lambda i: torch.stack([1 - torch.cumprod(1 - torch.sigmoid(r[i]), 1) for r in res]).mean(0)
+                pm, ps = cum(6), cum(7)
                 start = 0
                 for n in b.n_per:
                     sl = slice(start, start + n)
                     out.append(dict(mu=m_mu[sl].numpy(), var=(alea + epi)[sl].numpy(), var_epistemic=epi[sl].numpy(),
-                                    logA=la[sl].numpy(), aspect=ar[sl].numpy()))
+                                    logA=la[sl].numpy(), aspect=ar[sl].numpy(), p_merge=pm[sl].numpy(),
+                                    p_split=ps[sl].numpy()))
                     start += n
         return out
 
@@ -597,13 +745,13 @@ class GraphWorldModel:
     def state(self):
         return dict(config=dict(interactions=self.interactions, members=self.members, radius_px=self.R,
                                 latent=self.latent, steps=self.steps, context=self.context, fourier=self.fourier,
-                                beta=self.beta), stats=self.stats,
+                                beta=self.beta, extra_inputs=self.extra_inputs), stats=self.stats,
                     nets=[n.state_dict() for n in self.nets])
 
     @classmethod
     def from_state(cls, st):
         m = cls(**{k: st['config'][k] for k in ('interactions', 'members', 'radius_px', 'latent', 'steps', 'context',
-                                                 'fourier', 'beta') if k in st['config']})
+                                                 'fourier', 'beta', 'extra_inputs') if k in st['config']})
         m.stats = st['stats']
         m.nets = []
         for sd in st['nets']:
@@ -612,3 +760,123 @@ class GraphWorldModel:
             net.eval()
             m.nets.append(net)
         return m
+
+
+# =====================================================================================================
+# merge / split: labels and the reference event models
+# =====================================================================================================
+EVENT_KINDS = ('merge', 'split')
+
+
+def event_label(g, kind, h):
+    """Per region: 1 if `kind` happens within the first h steps, 0 if it surely does not, nan if not known."""
+    ev = g[f'ev_{kind}'][:, :h]
+    one = (ev == 1).any(1)
+    zero = (ev == 0).all(1)
+    out = np.full(len(ev), np.nan)
+    out[zero] = 0.0
+    out[one] = 1.0
+    return out
+
+
+def gap_features(g):
+    """Gap (px) to the nearest other region and how fast it is closing (px per 0.1 s, > 0 = approaching)."""
+    pos, n = g['pos'], len(g['pos'])
+    if n < 2:
+        return np.c_[np.full(n, 300.0), np.zeros(n)]
+    d = np.hypot(pos[:, None, 0] - pos[None, :, 0], pos[:, None, 1] - pos[None, :, 1])
+    np.fill_diagonal(d, np.inf)
+    r = np.sqrt(np.exp(g['shape'][:, 0]) / math.pi)
+    gap = d - r[:, None] - r[None, :]
+    j = np.argmin(gap, 1)
+    v = g['hist'][:, 0] * g['hmask'][:, :1]
+    u = (pos[j] - pos) / np.maximum(d[np.arange(n), j], 1e-6)[:, None]
+    closing = ((v - v[j]) * u).sum(1)
+    return np.c_[np.clip(gap[np.arange(n), j], -50, 300), closing]
+
+
+class _EventModel:
+    horizons = (1, 5, 10)
+
+    def _samples(self, exps, graphs, kind, h, featurize):
+        X, y = [], []
+        by_name = {e.name: e for e in exps}
+        for g in graphs:
+            lab = event_label(g, kind, h)
+            ok = loss_mask(g) & np.isfinite(lab)
+            if ok.any():
+                X.append(featurize(by_name[g['exp']], g, h)[ok])
+                y.append(lab[ok])
+        return np.concatenate(X), np.concatenate(y)
+
+    def predict_events(self, exp, graphs, act_override=None):
+        out = []
+        for gi, g in enumerate(graphs):
+            act = act_override[gi] if act_override is not None else g['act']
+            nf = g['fut'].shape[1]
+            o = {}
+            for kind in EVENT_KINDS:
+                p = np.full((len(g['pos']), nf), np.nan)
+                for h in self.horizons:
+                    p[:, h - 1] = self._p(exp, dict(g, act=act), kind, h)
+                o[f'p_{kind}'] = p
+            out.append(o)
+        return out
+
+
+class EventBaseRate(_EventModel):
+    name = 'Base rate'
+
+    def fit(self, exps, graphs):
+        self.rate = {(k, h): float(np.mean(self._samples(exps, graphs, k, h, lambda e, g, h: np.zeros((len(g['pos']), 1)))[1]))
+                     for k in EVENT_KINDS for h in self.horizons}
+        return self
+
+    def _p(self, exp, g, kind, h):
+        return np.full(len(g['pos']), self.rate[(kind, h)])
+
+
+class EventGapRule(_EventModel):
+    name = 'Gap rule'
+
+    def fit(self, exps, graphs):
+        from sklearn.linear_model import LogisticRegression
+        self.m = {}
+        for k in EVENT_KINDS:
+            for h in self.horizons:
+                X, y = self._samples(exps, graphs, k, h, lambda e, g, h: self._x(g))
+                self.m[(k, h)] = (LogisticRegression(C=1.0, max_iter=1000).fit(X, y) if len(np.unique(y)) > 1
+                                  else float(np.mean(y)))
+        return self
+
+    @staticmethod
+    def _x(g):
+        f = gap_features(g)
+        return np.c_[f[:, 0] / 100, f[:, 1] / 5, np.log1p(np.maximum(f[:, 0], 0)), g['shape'][:, 0]]
+
+    def _p(self, exp, g, kind, h):
+        m = self.m[(kind, h)]
+        return np.full(len(g['pos']), m) if isinstance(m, float) else m.predict_proba(self._x(g))[:, 1]
+
+
+class EventBoosting(_EventModel):
+    name = 'Gradient boosting'
+
+    def fit(self, exps, graphs):
+        from sklearn.ensemble import HistGradientBoostingClassifier
+        self.m = {}
+        for k in EVENT_KINDS:
+            for h in self.horizons:
+                X, y = self._samples(exps, graphs, k, h, self._x)
+                self.m[(k, h)] = (HistGradientBoostingClassifier(max_iter=200, learning_rate=0.05, max_leaf_nodes=15,
+                                                                 l2_regularization=1.0, random_state=0).fit(X, y)
+                                  if len(np.unique(y)) > 1 else float(np.mean(y)))
+        return self
+
+    @staticmethod
+    def _x(exp, g, h):
+        return np.c_[node_table(exp, g, horizon=h), gap_features(g)]
+
+    def _p(self, exp, g, kind, h):
+        m = self.m[(kind, h)]
+        return np.full(len(g['pos']), m) if isinstance(m, float) else m.predict_proba(self._x(exp, g, h))[:, 1]

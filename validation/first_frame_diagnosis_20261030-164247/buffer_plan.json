@@ -1,0 +1,92 @@
+[
+  {
+    "name": "isolated_labels_t24_1",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "labels",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_labels_t24_1",
+      "--frames",
+      "60",
+      "--diagnostics"
+    ]
+  },
+  {
+    "name": "isolated_darkness_t24_1",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "darkness",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_darkness_t24_1",
+      "--frames",
+      "60",
+      "--diagnostics"
+    ]
+  },
+  {
+    "name": "isolated_labels_t24_2",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "labels",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_labels_t24_2",
+      "--frames",
+      "60",
+      "--diagnostics"
+    ]
+  },
+  {
+    "name": "isolated_darkness_t24_2",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "darkness",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_darkness_t24_2",
+      "--frames",
+      "60",
+      "--diagnostics"
+    ]
+  },
+  {
+    "name": "isolated_labels_t24_3",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "labels",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_labels_t24_3",
+      "--frames",
+      "60",
+      "--diagnostics"
+    ]
+  },
+  {
+    "name": "isolated_darkness_t24_3",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "darkness",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_darkness_t24_3",
+      "--frames",
+      "60",
+      "--diagnostics"
+    ]
+  }
+]

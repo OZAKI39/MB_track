@@ -1,0 +1,28 @@
+{
+  "case": 4,
+  "name": "四路独立调频",
+  "passed": true,
+  "problems": [],
+  "experiment_status": "completed",
+  "timeline_started_utc": "2026-10-25T11:51:28.741558+00:00",
+  "completed_s": 21.22630940002273,
+  "limit_s": 25.0,
+  "stable_checks": 6,
+  "stable_channel_readbacks": 24,
+  "parameter_commands": 8,
+  "maximum_command_lateness_ms": 1.3658000098075718,
+  "cancel_request": null,
+  "shutdown": {
+    "event": "shutdown_finished",
+    "action": "all_off",
+    "state_requested": "STOP",
+    "planned_s": 20,
+    "actual_start_s": 20.00004350001109,
+    "actual_finish_s": 20.08583290001843,
+    "duration_s": 0.08578940000734292,
+    "errors": []
+  },
+  "independent_all_outputs_off": true,
+  "execution_error": null,
+  "physical_signal_timing_measured": false
+}

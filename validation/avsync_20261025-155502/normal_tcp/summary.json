@@ -1,0 +1,543 @@
+{
+  "identity": {
+    "git_head": "59f30fc6e1eb8e8a81a7edc343553868f45ec526",
+    "working_tree": "/home/lzy/projects/new_microbubble_experiment",
+    "code_sha": {
+      "microbubble_experiment/pipeline.py": "58ef87a5fb2b9da23d1b1e2acd1e197669df006620bf9f07c3e2f3829a1ad64b",
+      "microbubble_experiment/pzt_video.py": "7f59d5acab73ccb3b405ceb575ec901a4460a490f8a390abf267240c0a4da42b",
+      "microbubble_experiment/piv.py": "e30b8c42f34276505acd06f080f616181594317d49345a087e73d16693172bed",
+      "microbubble_experiment/recording.py": "8db21da04225f27c0f89f407183b7c0c1af346f63cdb0b645502c4e64a667d55",
+      "microbubble_experiment/tracking.py": "ff720d302713176bad2ea40c670eea69332ed697578845dcc7ef32d6d9b50ee1",
+      "microbubble_experiment/annotation_store.py": "fecbb912403cffaa6fcd1d4119044ea3dd2e38df67bc5c7b6d4e686e2935b10f",
+      "microbubble_experiment/annotation_library_store.py": "b5fe10e78807b0506c8a7b6b1b60a9843077cc965b818da9a086b4ca2141b405",
+      "microbubble_experiment/vision_evaluation.py": "2e7b6fd411248fa4dcc3696c92ac83cfcb3a3a84031b12e1ab69a1060c0f400c",
+      "microbubble_experiment/pzt_panel.py": "f3d5c9dafb369fd2793d07479c4da5cd6a8b7cc6d5432d9f597447674d482e1a",
+      "microbubble_experiment/annotation_regions.py": "0a4703ff5ce84edebbd3c729a18980f8d6390d0c2435b98032ed5ab1b4bac900",
+      "microbubble_experiment/sources.py": "88d0404d1b2921d74b570fa4e30e0cde453e240589f8c540e452fe45c158c044",
+      "microbubble_experiment/sam_worker.py": "f20b5f31b8724f52f9f1cb87015bd5126f0a56e7033e8d8943a647fe688c919f",
+      "microbubble_experiment/sam_auto_training.py": "bc75735fbb1c0642c4d20c4cd3631cc7cef91b84002785e0650e314f7bb5f730",
+      "microbubble_experiment/live_geometry.py": "3cbee6aeede303f4920d3c28efcdcbbff22f5ed3a1ca15c01d6a4a5d9cc3ef17",
+      "microbubble_experiment/annotation_workflow.py": "356d75d24387edf60f76e33556e2b3704f9c4865a837a56f72a30269f4bd3c1f",
+      "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+      "microbubble_experiment/configuration.py": "abd47121f3e6dfadc976b73aa2621aa4c476ab9ef01ed1cb7da7632bf599142d",
+      "microbubble_experiment/frames.py": "762f67a584f217e4e9a57c3b3c78fbece05af6b3977611762a226f938028677f",
+      "microbubble_experiment/annotation_library.py": "024e6ebc43acaa9a29cc02f6e03eb77ff2e4991a7eb564c29d6e9b4e10541d4b",
+      "microbubble_experiment/cellpose_adaptation.py": "e5796476fa241d2cb475c655064f3f7f24117ff01651b60e1aaeab6f8d71f138",
+      "microbubble_experiment/channel_observation.py": "7a087e534e92d4b83627f19a81c3bef9de5b33bcc6111b34f8d526ea4f7f332f",
+      "microbubble_experiment/camera_gui.py": "d3299bc2e21694a8ca2ebb318f45fea561390d27e0dc7d0aea0f4758ffce4b67",
+      "microbubble_experiment/pzt_monitor.py": "9b25c21500dc2a8c92084c5ce7f938493f0e60c4de25e3671b3e48831c5bc492",
+      "microbubble_experiment/camera_bridge.py": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+      "microbubble_experiment/sam_auto_service.py": "2739be59d82424f631d24509f2330d4e9f0b0e84f7dffb021f8f00bbe3e3242d",
+      "microbubble_experiment/video_detection.py": "14311c2e1486f5fb9712a5fed10c733241256a56b92cef4b4294e7e982607e05",
+      "microbubble_experiment/motion_state.py": "636e2c9cbe606c4dd06afa0cc782e7daf31b3cc25917fdb99ad973b279c1a850",
+      "microbubble_experiment/camera_rtsp.py": "03ed3420ff82d01b3c039e3bed14c27ce34cefa7f04ea5bee496ffc9a4775473",
+      "microbubble_experiment/observation.py": "e36726354aed704be96230586a6eb83bcdaa35191a1a1ead0a50590a93727a44",
+      "microbubble_experiment/sam_prompt_geometry.py": "6895b1fff8cdfa822a7a57b15b622a0b518dd6ac8b06af0f972c6b2204fbb5d5",
+      "microbubble_experiment/geometry.py": "48e87696f47b496b806aaaf7cbd7b3164c034ce4e20c0a856e02653cfbe25cc6",
+      "microbubble_experiment/event_analysis.py": "330a28736323b9d6cc6a5697f987aea0c9e3373c4981cb4a4c90852e8b3f308c",
+      "microbubble_experiment/camera_preview.py": "cb5b808ea28c86ee03c405d3840fd1343e18c129b00bd8f811d4df85f0f61b70",
+      "microbubble_experiment/camera_http.py": "26f583a3fd5b8557aed4189ed0b942583589d1f989c27c49dd5fb3823ba588a8",
+      "microbubble_experiment/video_piv.py": "baf09ce2423a7f5147914518d8ab97874aeae0580c95f04d8ce4b84ea36bc78f",
+      "microbubble_experiment/piv_display.py": "4bc3660db1bdd760e4c058e1fc6cb584a32e0e6ff6fc13ea09527c646cd9e684",
+      "microbubble_experiment/measure_latency.py": "7f196a90504e16e05dd2b4a243d0ec29b846dacab770eadb30f06ee252ce73c5",
+      "microbubble_experiment/common.py": "b5e6f38533ef5fd6687c7b404eb7f7e02f0c8a1bf93463cfb9ea9d1c5cad0d92",
+      "microbubble_experiment/ui.py": "5c5eee99300d8c49f950b9b980bdbad708ce72bf59dd82c5ba5f76bc089c3471",
+      "microbubble_experiment/annotation_batch.py": "e5698661431b56543a523941b8c2157379966fbdbb7ea82bbdaae0d574a1f881",
+      "microbubble_experiment/camera_server.py": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc",
+      "microbubble_experiment/aggregation.py": "143039831b6c8b741281513ea2608efcb88057c7e699e76f73e0ab9fd41c5600",
+      "microbubble_experiment/analyze_stability.py": "2c481501ff50c0650e9fdbe4158c7346a202149e60fbfb598a32f5838aee2170",
+      "microbubble_experiment/calibrate_scale.py": "a9eb2a6777cb971f7b06bb240fa76ac579c9fb0e9373b58cfad5ca75550f8370",
+      "microbubble_experiment/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "microbubble_experiment/camera.py": "672dd4d4300d29ca93d92b0d0088fcaff0da62d40b48fef3cc0e8d6f29d4fcd9",
+      "microbubble_experiment/annotation.py": "d1e509d96e486d4182eaa26543fc9911387165d6d7288e7e1133d5a0a7d32bf1",
+      "microbubble_experiment/video_piv_display.py": "8bcd1dcc270f028333d92898ac61ab71b5ef79615606f6252e8b7b78619823bc",
+      "microbubble_experiment/annotation_sizes.py": "ec1100d2b9886ed9fb88c4043dd7ef64e7c1e9dd1ac4bb1beb20e816e6201ce3",
+      "microbubble_experiment/desktop.py": "c40e9b0b18460c0f0863eb7b903e57999c7a99824d339580dc2ce18a08854a57",
+      "microbubble_experiment/annotation_frame_reset.py": "678058875ef25f7c372be1d950d869644ea112b03781e12b13a055db076271ee",
+      "microbubble_experiment/preannotation_worker.py": "b38f8d434db3d9c1640bd7b30cb8f0961722167b6d528d62c66ed33011f29da9",
+      "microbubble_experiment/annotation_config.py": "5ffdc83f9d1e839d053446ac9a048fe19e3a2721da32c5fd601e7161fe4398cd",
+      "microbubble_experiment/afg_gui.py": "fbb37e1e9d5a772392681dc6bc854df3dab976fcd95cb0db44f3f1dc042baf29",
+      "microbubble_experiment/video_text.py": "cea5e858f131fc9fdf2c0c79d951996cb5817f7edecdbe391e02b710dd64e034",
+      "microbubble_experiment/annotation_snapshot.py": "b77eb637d693299166681b7fa9d8f11af5878f83e0abd7edcf1523290ce76de3",
+      "microbubble_experiment/camera_vlc.py": "fe3dffb5b2f978d90d14b186c17628460199c68f1d60ace530a0b3c56b298115",
+      "microbubble_experiment/annotation_cursor.py": "147f45233476d112bc8512ce9b3f9df60d5333b5a41cbfc9e4e433169bbc5f5a",
+      "microbubble_experiment/sam_batch_review.py": "45912e224341b31ac97f176cdca76d0d5fbf25d808d051f5f6c0ca4570d26f93",
+      "microbubble_experiment/sam_auto_train.py": "0fb05688913d03c639b164ff81479553c36e1ef475d61a464ac87434c62ae687",
+      "microbubble_experiment/overlay_style.py": "4ca7ebe20a2c563249f36a5a7eef5bb4c6e265b749009a5d2e642c3e2c214dd0",
+      "microbubble_experiment/review_labels.py": "25772482396bdd340f0e6fc11a1daeb32da81726f32c80691da4505874d5743c",
+      "microbubble_experiment/focus_assist.py": "cd1503fffe80bdd7fee9a8b7a87352f8e1dac484a7326a6f6c03aee0c2cbb5dc",
+      "microbubble_experiment/afg_telemetry.py": "d5cb7bfc60f9892c3325eda8b79b4c89507c1542ad7274c22a663fb5208bdd9c",
+      "microbubble_experiment/channel_state.py": "4c4bb0886f20ada32f5c5674b7968b31b033976a957c162297c21c1d57fdb3e5",
+      "microbubble_experiment/camera_diagnostics.py": "69d1291012af7672c37c542bdc53bf4c6c8139c59128d506e1f3ac93b191dc16",
+      "microbubble_experiment/collective_motion.py": "871fb6cc694b1d72f32760ed07a26aba5d1eb603c34c9c0cf6d0351a57e22cc1",
+      "microbubble_experiment/detection.py": "a7c467eb04da2985bfc23f5c55438f06f4f97270d35618cde8ee50edfca0b606"
+    }
+  },
+  "config": {
+    "video": "/home/lzy/projects/new_microbubble_experiment/records/imported_assets/videos/Recording 2026-10-15 185901 \u622a\u53d6\u89c6\u9891.mp4",
+    "windows_python": "/mnt/f/CHRONOS_control/.venv/Scripts/python.exe",
+    "pzt_status_path": "/home/lzy/projects/new_microbubble_experiment/records/device_status/observation_status.json",
+    "windows_afg_python": "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "annotation_python": "/home/lzy/projects/new_microbubble_experiment/.venv_annotation/bin/python",
+    "preannotation_python": "/home/lzy/projects/new_microbubble_experiment/.venv_cellpose4/bin/python",
+    "cellpose_python": "/home/lzy/projects/new_microbubble_experiment/.venv_cellpose3/bin/python",
+    "source_mode": "LIVE_CAMERA",
+    "backend": "B4",
+    "speed": 1.0,
+    "loop": false,
+    "ttl_ms": 250.0,
+    "max_pts_gap_s": 0.25,
+    "replay_geometry": "/home/lzy/projects/new_microbubble_experiment/configs/replay_geometry.json",
+    "live_geometry": "/home/lzy/projects/new_microbubble_experiment/records/imported_assets/recorded_sessions/piv_display_20261018/new_ui/geometry/live_mask_1792329786799271155.json",
+    "bridge_session_s": 82,
+    "record_queue": 32,
+    "ui_hz": 20,
+    "analysis_delay_ms": 0,
+    "record_experiment_video": false,
+    "video_queue": 48,
+    "video_annotation_wait_ms": 250,
+    "diagnostics": true,
+    "pzt_layout_path": "/home/lzy/projects/new_microbubble_experiment/configs/pzt_layout.json",
+    "camera_config": "/home/lzy/projects/new_microbubble_experiment/configs/chronos_config.json"
+  },
+  "wall_s": 38.902178545016795,
+  "status": "STOPPED",
+  "error": null,
+  "counters": {
+    "state_published": 754,
+    "bridge_received": 1340,
+    "processed": 317
+  },
+  "source_decoded": 1599,
+  "source_sent": 1340,
+  "source_sessions": 1,
+  "bridge_overwritten": 259,
+  "analysis_skipped": 1023,
+  "recorder_dropped": 0,
+  "recorder_error": null,
+  "recorder_written": 317,
+  "fresh_valid_hz": 0.0,
+  "analysis_hz": 8.148643902633221,
+  "transitions": [
+    {
+      "elapsed": 0.00129810901125893,
+      "status": "CONNECTING"
+    },
+    {
+      "elapsed": 0.019732728018425405,
+      "status": "DISCONNECTED"
+    },
+    {
+      "elapsed": 11.945173114014324,
+      "status": "STREAMING"
+    },
+    {
+      "elapsed": 38.853724180022255,
+      "status": "RECONNECTING"
+    },
+    {
+      "elapsed": 38.853732096002204,
+      "status": "STOPPED"
+    }
+  ],
+  "events": [],
+  "video_recording": null,
+  "threads_closed": true,
+  "record_ms": {
+    "n": 317,
+    "p50": 8.813869004370645,
+    "p95": 10.35175719298422,
+    "max": 70.50731300842017,
+    "mean": 10.22912464547118
+  },
+  "stages": {
+    "publish_ms": {
+      "n": 754,
+      "p50": 0.16942850197665393,
+      "p95": 0.4643628009944223,
+      "max": 10.589779005385935,
+      "mean": 0.22646718993857107
+    },
+    "scan_ms": {
+      "n": 317,
+      "p50": 13.861211977200583,
+      "p95": 19.063376990379766,
+      "max": 52.463911997620016,
+      "mean": 14.552324120842554
+    },
+    "piv_ms": {
+      "n": 317,
+      "p50": 38.70451598777436,
+      "p95": 48.23952759616077,
+      "max": 885.5166370049119,
+      "mean": 40.8813999966705
+    },
+    "aggregation_ms": {
+      "n": 317,
+      "p50": 7.874207018176094,
+      "p95": 11.683327599894255,
+      "max": 30.466521013295278,
+      "mean": 8.381787248962773
+    },
+    "analysis_ms": {
+      "n": 317,
+      "p50": 79.52415800536983,
+      "p95": 104.77110602078027,
+      "max": 930.0940630200785,
+      "mean": 84.11099618436307
+    },
+    "decode_ms": {
+      "n": 317,
+      "p50": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "complete_processing_ms": {
+      "n": 317,
+      "p50": 79.52415800536983,
+      "p95": 104.77110602078027,
+      "max": 930.0940630200785,
+      "mean": 84.11099618436307
+    },
+    "queue_age_ms": {
+      "n": 317,
+      "p50": 14.268166007241234,
+      "p95": 36.24351100297644,
+      "max": 60.26098199072294,
+      "mean": 16.09860122374961
+    },
+    "end_to_end_software_ms": {
+      "n": 317,
+      "p50": 119.57479198463261,
+      "p95": 156.75194279756397,
+      "max": 972.4398219841532,
+      "mean": 125.56707032729229
+    }
+  },
+  "ui_refresh_hz": 0.0,
+  "ui_render_ms": {
+    "n": 0,
+    "p50": null,
+    "p95": null,
+    "max": null,
+    "mean": null
+  },
+  "resources": [
+    {
+      "elapsed_s": 1.0024758820072748,
+      "rss_mib": 337.51953125,
+      "cpu_percent": 46.0,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 14.0,
+      "gpu_mib": 1915.0
+    },
+    {
+      "elapsed_s": 2.15089815002284,
+      "rss_mib": 337.55078125,
+      "cpu_percent": 2.6,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 10.0,
+      "gpu_mib": 1961.0
+    },
+    {
+      "elapsed_s": 3.252714845002629,
+      "rss_mib": 337.5703125,
+      "cpu_percent": 1.8,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 1.0,
+      "gpu_mib": 1954.0
+    },
+    {
+      "elapsed_s": 4.376646892022109,
+      "rss_mib": 337.5703125,
+      "cpu_percent": 2.7,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 1.0,
+      "gpu_mib": 1940.0
+    },
+    {
+      "elapsed_s": 5.492730649013538,
+      "rss_mib": 337.57421875,
+      "cpu_percent": 2.7,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 0.0,
+      "gpu_mib": 1939.0
+    },
+    {
+      "elapsed_s": 6.643823895021342,
+      "rss_mib": 337.57421875,
+      "cpu_percent": 1.7,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 2.0,
+      "gpu_mib": 1907.0
+    },
+    {
+      "elapsed_s": 7.740072801010683,
+      "rss_mib": 337.57421875,
+      "cpu_percent": 1.8,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 3.0,
+      "gpu_mib": 1790.0
+    },
+    {
+      "elapsed_s": 9.000021819025278,
+      "rss_mib": 337.57421875,
+      "cpu_percent": 3.2,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 2.0,
+      "gpu_mib": 1790.0
+    },
+    {
+      "elapsed_s": 10.24128652800573,
+      "rss_mib": 337.91796875,
+      "cpu_percent": 3.2,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 21.0,
+      "gpu_mib": 1790.0
+    },
+    {
+      "elapsed_s": 11.400400072016055,
+      "rss_mib": 338.8828125,
+      "cpu_percent": 6.0,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 15.0,
+      "gpu_mib": 1813.0
+    },
+    {
+      "elapsed_s": 12.517812831007177,
+      "rss_mib": 524.62890625,
+      "cpu_percent": 28.6,
+      "processed": 1,
+      "age_ms": 610.7521890080534,
+      "gpu_percent": 7.0,
+      "gpu_mib": 1910.0
+    },
+    {
+      "elapsed_s": 13.621076327021001,
+      "rss_mib": 715.99609375,
+      "cpu_percent": 106.9,
+      "processed": 11,
+      "age_ms": 157.37974699004553,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2342.0
+    },
+    {
+      "elapsed_s": 14.696371000027284,
+      "rss_mib": 734.3984375,
+      "cpu_percent": 124.6,
+      "processed": 25,
+      "age_ms": 174.0578339959029,
+      "gpu_percent": 13.0,
+      "gpu_mib": 2441.0
+    },
+    {
+      "elapsed_s": 15.783374816004653,
+      "rss_mib": 724.80078125,
+      "cpu_percent": 124.2,
+      "processed": 41,
+      "age_ms": 144.9176660098601,
+      "gpu_percent": 14.0,
+      "gpu_mib": 2390.0
+    },
+    {
+      "elapsed_s": 16.873284258006606,
+      "rss_mib": 729.99609375,
+      "cpu_percent": 126.6,
+      "processed": 53,
+      "age_ms": 288.3189130225219,
+      "gpu_percent": 15.0,
+      "gpu_mib": 2386.0
+    },
+    {
+      "elapsed_s": 17.967695882020053,
+      "rss_mib": 738.9921875,
+      "cpu_percent": 127.0,
+      "processed": 67,
+      "age_ms": 168.98746401420794,
+      "gpu_percent": 17.0,
+      "gpu_mib": 2426.0
+    },
+    {
+      "elapsed_s": 19.03601489000721,
+      "rss_mib": 734.1484375,
+      "cpu_percent": 126.4,
+      "processed": 80,
+      "age_ms": 151.66564600076526,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2330.0
+    },
+    {
+      "elapsed_s": 20.108347986999433,
+      "rss_mib": 739.51953125,
+      "cpu_percent": 123.1,
+      "processed": 94,
+      "age_ms": 152.89092200691812,
+      "gpu_percent": 27.0,
+      "gpu_mib": 2324.0
+    },
+    {
+      "elapsed_s": 21.18010031900485,
+      "rss_mib": 739.765625,
+      "cpu_percent": 121.3,
+      "processed": 108,
+      "age_ms": 184.5765830075834,
+      "gpu_percent": 19.0,
+      "gpu_mib": 2313.0
+    },
+    {
+      "elapsed_s": 22.34323147800751,
+      "rss_mib": 739.95703125,
+      "cpu_percent": 123.0,
+      "processed": 121,
+      "age_ms": 210.30179600347765,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2319.0
+    },
+    {
+      "elapsed_s": 23.428839144005906,
+      "rss_mib": 740.23828125,
+      "cpu_percent": 124.3,
+      "processed": 135,
+      "age_ms": 147.59380699251778,
+      "gpu_percent": 25.0,
+      "gpu_mib": 2297.0
+    },
+    {
+      "elapsed_s": 24.51506973200594,
+      "rss_mib": 713.421875,
+      "cpu_percent": 121.5,
+      "processed": 149,
+      "age_ms": 120.14667098992504,
+      "gpu_percent": 26.0,
+      "gpu_mib": 2295.0
+    },
+    {
+      "elapsed_s": 25.586142300016945,
+      "rss_mib": 720.7734375,
+      "cpu_percent": 126.1,
+      "processed": 162,
+      "age_ms": 153.41273698140867,
+      "gpu_percent": 32.0,
+      "gpu_mib": 2292.0
+    },
+    {
+      "elapsed_s": 26.653706738026813,
+      "rss_mib": 741.0703125,
+      "cpu_percent": 124.5,
+      "processed": 175,
+      "age_ms": 171.457857999485,
+      "gpu_percent": 33.0,
+      "gpu_mib": 2287.0
+    },
+    {
+      "elapsed_s": 27.723820220999187,
+      "rss_mib": 741.3359375,
+      "cpu_percent": 125.2,
+      "processed": 187,
+      "age_ms": 164.57413401803933,
+      "gpu_percent": 26.0,
+      "gpu_mib": 2259.0
+    },
+    {
+      "elapsed_s": 28.793960663024336,
+      "rss_mib": 741.56640625,
+      "cpu_percent": 123.4,
+      "processed": 199,
+      "age_ms": 200.80550701823086,
+      "gpu_percent": 23.0,
+      "gpu_mib": 2252.0
+    },
+    {
+      "elapsed_s": 29.86217225101427,
+      "rss_mib": 741.8828125,
+      "cpu_percent": 125.4,
+      "processed": 213,
+      "age_ms": 127.66386501607485,
+      "gpu_percent": 31.0,
+      "gpu_mib": 2252.0
+    },
+    {
+      "elapsed_s": 30.947416281007463,
+      "rss_mib": 742.1328125,
+      "cpu_percent": 121.6,
+      "processed": 225,
+      "age_ms": 171.1701919848565,
+      "gpu_percent": 28.0,
+      "gpu_mib": 2253.0
+    },
+    {
+      "elapsed_s": 32.0232173660188,
+      "rss_mib": 742.3046875,
+      "cpu_percent": 125.3,
+      "processed": 236,
+      "age_ms": 195.60402003116906,
+      "gpu_percent": 24.0,
+      "gpu_mib": 2256.0
+    },
+    {
+      "elapsed_s": 33.1075786940055,
+      "rss_mib": 737.625,
+      "cpu_percent": 123.7,
+      "processed": 250,
+      "age_ms": 162.0284999953583,
+      "gpu_percent": 32.0,
+      "gpu_mib": 2257.0
+    },
+    {
+      "elapsed_s": 34.17451158500626,
+      "rss_mib": 729.83984375,
+      "cpu_percent": 127.4,
+      "processed": 263,
+      "age_ms": 159.7599120286759,
+      "gpu_percent": 23.0,
+      "gpu_mib": 2257.0
+    },
+    {
+      "elapsed_s": 35.26831186702475,
+      "rss_mib": 730.0390625,
+      "cpu_percent": 124.4,
+      "processed": 275,
+      "age_ms": 177.17661999631673,
+      "gpu_percent": 30.0,
+      "gpu_mib": 2247.0
+    },
+    {
+      "elapsed_s": 36.33259915202507,
+      "rss_mib": 723.33203125,
+      "cpu_percent": 126.8,
+      "processed": 288,
+      "age_ms": 157.21476101316512,
+      "gpu_percent": 32.0,
+      "gpu_mib": 2247.0
+    },
+    {
+      "elapsed_s": 37.40171416901285,
+      "rss_mib": 743.65625,
+      "cpu_percent": 126.3,
+      "processed": 301,
+      "age_ms": 171.66725598508492,
+      "gpu_percent": 29.0,
+      "gpu_mib": 2246.0
+    },
+    {
+      "elapsed_s": 38.46912614401663,
+      "rss_mib": 743.88671875,
+      "cpu_percent": 123.6,
+      "processed": 314,
+      "age_ms": 162.02814097050577,
+      "gpu_percent": 32.0,
+      "gpu_mib": 2246.0
+    }
+  ]
+}

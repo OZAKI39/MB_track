@@ -1,0 +1,618 @@
+[
+  {
+    "path": "customer_workspace/bubble_regions.py",
+    "bytes": 9130,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_region_calibration.py",
+        "line": 17
+      },
+      {
+        "path": "customer_workspace/bubble_frame_review.py",
+        "line": 58
+      },
+      {
+        "path": "customer_workspace/bubble_region_review.py",
+        "line": 27
+      },
+      {
+        "path": "customer_workspace/sam21_initial_tracking.py",
+        "line": 43
+      },
+      {
+        "path": "customer_workspace/bubble_region_comparison.py",
+        "line": 16
+      },
+      {
+        "path": "customer_workspace/mask_shrink_review.py",
+        "line": 20
+      },
+      {
+        "path": "customer_workspace/bubble_dark_preview.py",
+        "line": 27
+      },
+      {
+        "path": "customer_workspace/tests/check_scissors_mask.py",
+        "line": 13
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_regions.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_region_calibration.py",
+        "line": 19
+      },
+      {
+        "path": "customer_workspace/joint_sam21_runner.py",
+        "line": 20
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_dark_regions.py",
+    "bytes": 4477,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_dark_preview.py",
+        "line": 20
+      },
+      {
+        "path": "customer_workspace/bubble_regions.py",
+        "line": 13
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_dark_regions.py",
+        "line": 7
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_dark_preview.py",
+    "bytes": 20806,
+    "referenced_by": [],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_region_review.py",
+    "bytes": 22123,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_region_calibration.py",
+        "line": 16
+      },
+      {
+        "path": "customer_workspace/bubble_benchmark.py",
+        "line": 737
+      },
+      {
+        "path": "customer_workspace/bubble_region_comparison.py",
+        "line": 15
+      },
+      {
+        "path": "customer_workspace/bubble_tracking_review.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/bubble_dark_preview.py",
+        "line": 26
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_tracking_review.py",
+        "line": 13
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_regions.py",
+        "line": 13
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_benchmark.py",
+        "line": 22
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_region_calibration.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/bubble_region_video.py",
+        "line": 26
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_region_annotation.py",
+    "bytes": 99309,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/tests/check_bubble_benchmark_gui.py",
+        "line": 89
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_frame_gui.py",
+        "line": 67
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_region_gui.py",
+        "line": 209
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_frame_review.py",
+    "bytes": 19890,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_region_annotation.py",
+        "line": 49
+      },
+      {
+        "path": "customer_workspace/bubble_region_review.py",
+        "line": 441
+      },
+      {
+        "path": "customer_workspace/sam21_initial_tracking.py",
+        "line": 42
+      },
+      {
+        "path": "customer_workspace/mask_shrink_review.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_frame_gui.py",
+        "line": 16
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_frame_review.py",
+        "line": 10
+      },
+      {
+        "path": "customer_workspace/bubble_region_video.py",
+        "line": 25
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_review_edits.py",
+    "bytes": 7317,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_region_annotation.py",
+        "line": 55
+      },
+      {
+        "path": "customer_workspace/bubble_frame_review.py",
+        "line": 19
+      },
+      {
+        "path": "customer_workspace/channel_mask.py",
+        "line": 22
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_review_edits.py",
+        "line": 8
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_benchmark_gui.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/tests/test_channel_mask.py",
+        "line": 119
+      },
+      {
+        "path": "customer_workspace/tests/test_channel_mask.py",
+        "line": 90
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_region_calibration.py",
+    "bytes": 14470,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_region_comparison.py",
+        "line": 14
+      },
+      {
+        "path": "customer_workspace/bubble_dark_preview.py",
+        "line": 24
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_region_calibration.py",
+        "line": 11
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_region_comparison.py",
+    "bytes": 19911,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/mask_shrink_review.py",
+        "line": 19
+      },
+      {
+        "path": "customer_workspace/bubble_dark_preview.py",
+        "line": 25
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/channel_mask.py",
+    "bytes": 20856,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_region_annotation.py",
+        "line": 63
+      },
+      {
+        "path": "customer_workspace/bubble_frame_review.py",
+        "line": 24
+      },
+      {
+        "path": "customer_workspace/sam21_initial_tracking.py",
+        "line": 44
+      },
+      {
+        "path": "customer_workspace/mask_shrink_review.py",
+        "line": 21
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_benchmark_gui.py",
+        "line": 19
+      },
+      {
+        "path": "customer_workspace/tests/check_scissors_mask.py",
+        "line": 14
+      },
+      {
+        "path": "customer_workspace/tests/test_mask_shrink.py",
+        "line": 7
+      },
+      {
+        "path": "customer_workspace/tests/test_channel_mask.py",
+        "line": 11
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/mask_shrink_review.py",
+    "bytes": 22552,
+    "referenced_by": [],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/mask_shrink_sections.py",
+    "bytes": 4894,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/mask_shrink_review.py",
+        "line": 22
+      },
+      {
+        "path": "customer_workspace/tests/test_mask_shrink.py",
+        "line": 8
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_tracking.py",
+    "bytes": 22141,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/bubble_benchmark.py",
+        "line": 276
+      },
+      {
+        "path": "customer_workspace/bubble_frame_review.py",
+        "line": 63
+      },
+      {
+        "path": "customer_workspace/bubble_tracking_review.py",
+        "line": 20
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_tracking.py",
+        "line": 10
+      },
+      {
+        "path": "customer_workspace/joint_region_fusion.py",
+        "line": 13
+      },
+      {
+        "path": "customer_workspace/tests/test_joint_region_fusion.py",
+        "line": 9
+      },
+      {
+        "path": "customer_workspace/joint_sam21_runner.py",
+        "line": 21
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_tracking_review.py",
+    "bytes": 18893,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/tests/test_bubble_tracking_review.py",
+        "line": 16
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_benchmark.py",
+        "line": 23
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_tracking_display.py",
+    "bytes": 5822,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/joint_tracking_review.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/bubble_benchmark.py",
+        "line": 277
+      },
+      {
+        "path": "customer_workspace/bubble_benchmark.py",
+        "line": 638
+      },
+      {
+        "path": "customer_workspace/initial_tracking_comparison.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/bubble_tracking_review.py",
+        "line": 24
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_tracking_review.py",
+        "line": 15
+      },
+      {
+        "path": "customer_workspace/bubble_region_video.py",
+        "line": 27
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_region_video.py",
+    "bytes": 20943,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/joint_tracking_review.py",
+        "line": 17
+      },
+      {
+        "path": "customer_workspace/bubble_benchmark.py",
+        "line": 272
+      },
+      {
+        "path": "customer_workspace/bubble_benchmark.py",
+        "line": 483
+      },
+      {
+        "path": "customer_workspace/bubble_tracking_review.py",
+        "line": 19
+      },
+      {
+        "path": "customer_workspace/bubble_tracking_review.py",
+        "line": 432
+      },
+      {
+        "path": "customer_workspace/sam21_tracking_review.py",
+        "line": 12
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_tracking_review.py",
+        "line": 14
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_region_video.py",
+        "line": 11
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/bubble_benchmark.py",
+    "bytes": 32710,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/initial_tracking_comparison.py",
+        "line": 17
+      },
+      {
+        "path": "customer_workspace/bubble_region_annotation.py",
+        "line": 41
+      },
+      {
+        "path": "customer_workspace/bubble_frame_review.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/sam21_tracking_review.py",
+        "line": 11
+      },
+      {
+        "path": "customer_workspace/mask_shrink_review.py",
+        "line": 17
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_benchmark_gui.py",
+        "line": 17
+      },
+      {
+        "path": "customer_workspace/tests/check_bubble_frame_gui.py",
+        "line": 15
+      },
+      {
+        "path": "customer_workspace/tests/check_scissors_mask.py",
+        "line": 12
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_benchmark.py",
+        "line": 11
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_region_video.py",
+        "line": 10
+      },
+      {
+        "path": "customer_workspace/tests/test_sam21_tracking_review.py",
+        "line": 9
+      },
+      {
+        "path": "customer_workspace/tests/test_bubble_frame_review.py",
+        "line": 9
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/benchmark_report.py",
+    "bytes": 16196,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/timing_benchmark.py",
+        "line": 22
+      },
+      {
+        "path": "customer_workspace/tests/test_benchmark_report.py",
+        "line": 7
+      },
+      {
+        "path": "customer_workspace/wait_calibration.py",
+        "line": 13
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/sam21_initial_tracking.py",
+    "bytes": 15400,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/joint_tracking_review.py",
+        "line": 22
+      },
+      {
+        "path": "customer_workspace/cutie_initial_tracking.py",
+        "line": 20
+      },
+      {
+        "path": "customer_workspace/tests/test_cutie_initial_tracking.py",
+        "line": 9
+      },
+      {
+        "path": "customer_workspace/joint_region_fusion.py",
+        "line": 18
+      },
+      {
+        "path": "customer_workspace/tests/test_sam21_initial_tracking.py",
+        "line": 8
+      },
+      {
+        "path": "customer_workspace/tests/test_sam21_tracking_review.py",
+        "line": 10
+      },
+      {
+        "path": "customer_workspace/tests/test_joint_region_fusion.py",
+        "line": 12
+      },
+      {
+        "path": "customer_workspace/joint_sam21_runner.py",
+        "line": 23
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/cutie_initial_tracking.py",
+    "bytes": 11108,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/tests/test_cutie_initial_tracking.py",
+        "line": 8
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/sam21_tracking_review.py",
+    "bytes": 11189,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/tests/test_sam21_tracking_review.py",
+        "line": 11
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/initial_tracking_comparison.py",
+    "bytes": 8834,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/joint_tracking_review.py",
+        "line": 19
+      },
+      {
+        "path": "customer_workspace/tests/test_initial_tracking_comparison.py",
+        "line": 5
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/joint_sam21_runner.py",
+    "bytes": 18740,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/joint_tracking_review.py",
+        "line": 20
+      },
+      {
+        "path": "customer_workspace/tests/test_joint_region_fusion.py",
+        "line": 11
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/joint_region_fusion.py",
+    "bytes": 10527,
+    "referenced_by": [
+      {
+        "path": "customer_workspace/tests/test_joint_region_fusion.py",
+        "line": 10
+      },
+      {
+        "path": "customer_workspace/joint_sam21_runner.py",
+        "line": 22
+      }
+    ],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  },
+  {
+    "path": "customer_workspace/joint_tracking_review.py",
+    "bytes": 18822,
+    "referenced_by": [],
+    "decision": "preserve; historical annotation/model workflow, references must be handled as a group, not delete individual modules"
+  }
+]

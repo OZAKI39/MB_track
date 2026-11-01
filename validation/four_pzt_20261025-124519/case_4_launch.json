@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.four_pzt_validation",
+    "--case",
+    "4",
+    "--output-dir",
+    "customer_workspace/validation/four_pzt_20261025-124519/04_frequencies"
+  ],
+  "started_utc": "2026-10-25T11:51:25.877021+00:00",
+  "finished_utc": "2026-10-25T11:51:50.046624+00:00",
+  "returncode": 0
+}

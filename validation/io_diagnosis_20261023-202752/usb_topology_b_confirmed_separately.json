@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-23T18:41:58.586805+00:00",
+  "command": "Get-PnpDeviceProperty -InstanceId 'USB\\VID_0699&PID_0353\\2439003' -KeyName 'DEVPKEY_Device_Parent','DEVPKEY_Device_LocationPaths' | Select-Object InstanceId,KeyName,Data | ConvertTo-Json -Depth 4",
+  "returncode": 0,
+  "stdout": "[\n    {\n        \"InstanceId\":  \"USB\\\\VID_0699\\u0026PID_0353\\\\2439003\",\n        \"KeyName\":  \"DEVPKEY_Device_Parent\",\n        \"Data\":  \"USB\\\\VID_05E3\\u0026PID_0610\\\\6\\u002631a49400\\u00260\\u00261\"\n    },\n    {\n        \"InstanceId\":  \"USB\\\\VID_0699\\u0026PID_0353\\\\2439003\",\n        \"KeyName\":  \"DEVPKEY_Device_LocationPaths\",\n        \"Data\":  [\n                     \"PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(1)#USB(1)#USB(1)\",\n                     \"ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS01)#USB(1)#USB(1)\"\n                 ]\n    }\n]\n",
+  "stderr": ""
+}

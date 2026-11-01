@@ -8,33 +8,42 @@ train A → test B,Response map,PZT switch within horizon,1.0,2610,0.4433,0.649,
 train A → test B,Response map,moved ≥ 2 px,0.1,561,0.3494,0.5508,0.1223
 train A → test B,Response map,moved ≥ 2 px,0.5,1634,0.3654,0.6285,0.1929
 train A → test B,Response map,moved ≥ 2 px,1.0,2109,0.413,0.6354,0.2822
-train A → test B,"Graph world model, no neighbours",all regions,0.1,15883,0.9489,0.9919,0.8277
-train A → test B,"Graph world model, no neighbours",all regions,0.5,15027,0.806,0.9801,0.8945
-train A → test B,"Graph world model, no neighbours",all regions,1.0,14042,0.7468,0.9757,0.8933
-train A → test B,"Graph world model, no neighbours",PZT switch within horizon,0.1,445,0.8584,0.9461,0.7671
-train A → test B,"Graph world model, no neighbours",PZT switch within horizon,0.5,1467,0.7301,0.9427,0.8949
-train A → test B,"Graph world model, no neighbours",PZT switch within horizon,1.0,2610,0.6571,0.9475,0.8936
-train A → test B,"Graph world model, no neighbours",moved ≥ 2 px,0.1,561,0.4848,0.7807,0.5221
-train A → test B,"Graph world model, no neighbours",moved ≥ 2 px,0.5,1634,0.5545,0.817,0.7172
-train A → test B,"Graph world model, no neighbours",moved ≥ 2 px,1.0,2109,0.6259,0.8426,0.8185
-train A → test B,Graph world model,all regions,0.1,15883,0.9718,0.9955,0.7929
-train A → test B,Graph world model,all regions,0.5,15027,0.7944,0.9898,0.8345
-train A → test B,Graph world model,all regions,1.0,14042,0.7312,0.9771,0.8386
-train A → test B,Graph world model,PZT switch within horizon,0.1,445,0.8607,0.9551,0.7202
-train A → test B,Graph world model,PZT switch within horizon,0.5,1467,0.7007,0.94,0.8631
-train A → test B,Graph world model,PZT switch within horizon,1.0,2610,0.6579,0.9341,0.862
-train A → test B,Graph world model,moved ≥ 2 px,0.1,561,0.5668,0.8734,0.5629
-train A → test B,Graph world model,moved ≥ 2 px,0.5,1634,0.5569,0.9241,0.7651
-train A → test B,Graph world model,moved ≥ 2 px,1.0,2109,0.459,0.9023,0.7758
-train A → test B,"Graph world model, trained on reviewed data",all regions,0.1,15883,0.9575,0.9948,0.7772
-train A → test B,"Graph world model, trained on reviewed data",all regions,0.5,15027,0.9033,0.9886,0.8104
-train A → test B,"Graph world model, trained on reviewed data",all regions,1.0,14042,0.8771,0.9808,0.8013
-train A → test B,"Graph world model, trained on reviewed data",PZT switch within horizon,0.1,445,0.8562,0.9596,0.7921
-train A → test B,"Graph world model, trained on reviewed data",PZT switch within horizon,0.5,1467,0.7757,0.9482,0.896
-train A → test B,"Graph world model, trained on reviewed data",PZT switch within horizon,1.0,2610,0.7559,0.9433,0.8947
-train A → test B,"Graph world model, trained on reviewed data",moved ≥ 2 px,0.1,561,0.5348,0.8574,0.5278
-train A → test B,"Graph world model, trained on reviewed data",moved ≥ 2 px,0.5,1634,0.5894,0.9033,0.7307
-train A → test B,"Graph world model, trained on reviewed data",moved ≥ 2 px,1.0,2109,0.6112,0.8834,0.765
+train A → test B,"Graph world model, no neighbours",all regions,0.1,15883,0.9838,0.9953,0.5527
+train A → test B,"Graph world model, no neighbours",all regions,0.5,15027,0.9432,0.9892,0.6943
+train A → test B,"Graph world model, no neighbours",all regions,1.0,14042,0.8519,0.987,0.7168
+train A → test B,"Graph world model, no neighbours",PZT switch within horizon,0.1,445,0.8742,0.9416,0.5898
+train A → test B,"Graph world model, no neighbours",PZT switch within horizon,0.5,1467,0.8439,0.9332,0.7819
+train A → test B,"Graph world model, no neighbours",PZT switch within horizon,1.0,2610,0.7441,0.9444,0.7787
+train A → test B,"Graph world model, no neighbours",moved ≥ 2 px,0.1,561,0.6168,0.8663,0.5099
+train A → test B,"Graph world model, no neighbours",moved ≥ 2 px,0.5,1634,0.6934,0.9002,0.6422
+train A → test B,"Graph world model, no neighbours",moved ≥ 2 px,1.0,2109,0.6657,0.9132,0.6568
+train A → test B,Graph world model,all regions,0.1,15883,0.9236,0.995,0.7979
+train A → test B,Graph world model,all regions,0.5,15027,0.7682,0.9822,0.8655
+train A → test B,Graph world model,all regions,1.0,14042,0.7248,0.9677,0.8675
+train A → test B,Graph world model,PZT switch within horizon,0.1,445,0.809,0.9371,0.6995
+train A → test B,Graph world model,PZT switch within horizon,0.5,1467,0.6735,0.9237,0.838
+train A → test B,Graph world model,PZT switch within horizon,1.0,2610,0.6517,0.9153,0.8568
+train A → test B,Graph world model,moved ≥ 2 px,0.1,561,0.467,0.8574,0.5403
+train A → test B,Graph world model,moved ≥ 2 px,0.5,1634,0.5153,0.8556,0.6338
+train A → test B,Graph world model,moved ≥ 2 px,1.0,2109,0.5192,0.8326,0.7083
+train A → test B,"Graph world model, trained on reviewed data",all regions,0.1,15883,0.9621,0.9945,0.6557
+train A → test B,"Graph world model, trained on reviewed data",all regions,0.5,15027,0.8967,0.9835,0.7272
+train A → test B,"Graph world model, trained on reviewed data",all regions,1.0,14042,0.8621,0.976,0.7542
+train A → test B,"Graph world model, trained on reviewed data",PZT switch within horizon,0.1,445,0.8629,0.9393,0.6794
+train A → test B,"Graph world model, trained on reviewed data",PZT switch within horizon,0.5,1467,0.773,0.9352,0.8073
+train A → test B,"Graph world model, trained on reviewed data",PZT switch within horizon,1.0,2610,0.7563,0.9303,0.804
+train A → test B,"Graph world model, trained on reviewed data",moved ≥ 2 px,0.1,561,0.5062,0.8449,0.4755
+train A → test B,"Graph world model, trained on reviewed data",moved ≥ 2 px,0.5,1634,0.522,0.8482,0.6335
+train A → test B,"Graph world model, trained on reviewed data",moved ≥ 2 px,1.0,2109,0.5168,0.853,0.6987
+train A → test B,"Graph world model, without darkness / density inputs",all regions,0.1,15883,0.9681,0.994,0.724
+train A → test B,"Graph world model, without darkness / density inputs",all regions,0.5,15027,0.7999,0.9896,0.809
+train A → test B,"Graph world model, without darkness / density inputs",all regions,1.0,14042,0.7463,0.9498,0.8072
+train A → test B,"Graph world model, without darkness / density inputs",PZT switch within horizon,0.1,445,0.8517,0.9483,0.7554
+train A → test B,"Graph world model, without darkness / density inputs",PZT switch within horizon,0.5,1467,0.7205,0.9339,0.8779
+train A → test B,"Graph world model, without darkness / density inputs",PZT switch within horizon,1.0,2610,0.6594,0.9172,0.8672
+train A → test B,"Graph world model, without darkness / density inputs",moved ≥ 2 px,0.1,561,0.4902,0.8289,0.5991
+train A → test B,"Graph world model, without darkness / density inputs",moved ≥ 2 px,0.5,1634,0.5288,0.9058,0.7499
+train A → test B,"Graph world model, without darkness / density inputs",moved ≥ 2 px,1.0,2109,0.542,0.8734,0.8124
 train B → test A,Response map,all regions,0.1,20400,0.6749,0.7791,-0.0056
 train B → test A,Response map,all regions,0.5,18468,0.5561,0.6927,-0.068
 train B → test A,Response map,all regions,1.0,16544,0.5246,0.6255,-0.0457
@@ -44,24 +53,24 @@ train B → test A,Response map,PZT switch within horizon,1.0,4663,0.4338,0.5432
 train B → test A,Response map,moved ≥ 2 px,0.1,3856,0.056,0.222,0.3331
 train B → test A,Response map,moved ≥ 2 px,0.5,6573,0.1235,0.2509,0.3114
 train B → test A,Response map,moved ≥ 2 px,1.0,7981,0.2016,0.3048,0.2444
-train B → test A,"Graph world model, no neighbours",all regions,0.1,20400,0.7679,0.8345,0.4305
-train B → test A,"Graph world model, no neighbours",all regions,0.5,18468,0.6936,0.7775,0.4773
-train B → test A,"Graph world model, no neighbours",all regions,1.0,16544,0.6071,0.7468,0.4709
-train B → test A,"Graph world model, no neighbours",PZT switch within horizon,0.1,803,0.4309,0.5355,0.2074
-train B → test A,"Graph world model, no neighbours",PZT switch within horizon,0.5,2604,0.4332,0.5799,0.2976
-train B → test A,"Graph world model, no neighbours",PZT switch within horizon,1.0,4663,0.4379,0.597,0.3375
-train B → test A,"Graph world model, no neighbours",moved ≥ 2 px,0.1,3856,0.0698,0.154,0.1269
-train B → test A,"Graph world model, no neighbours",moved ≥ 2 px,0.5,6573,0.206,0.3749,0.1581
-train B → test A,"Graph world model, no neighbours",moved ≥ 2 px,1.0,7981,0.2518,0.4751,0.2169
-train B → test A,Graph world model,all regions,0.1,20400,0.7175,0.8174,0.493
-train B → test A,Graph world model,all regions,0.5,18468,0.6207,0.7564,0.5405
-train B → test A,Graph world model,all regions,1.0,16544,0.5563,0.7145,0.5405
-train B → test A,Graph world model,PZT switch within horizon,0.1,803,0.3773,0.4857,0.2391
-train B → test A,Graph world model,PZT switch within horizon,0.5,2604,0.3821,0.518,0.3237
-train B → test A,Graph world model,PZT switch within horizon,1.0,4663,0.4057,0.5595,0.3921
-train B → test A,Graph world model,moved ≥ 2 px,0.1,3856,0.0724,0.1616,0.0819
-train B → test A,Graph world model,moved ≥ 2 px,0.5,6573,0.1211,0.3254,0.1898
-train B → test A,Graph world model,moved ≥ 2 px,1.0,7981,0.1748,0.4144,0.2737
+train B → test A,"Graph world model, no neighbours",all regions,0.1,20400,0.7374,0.825,0.4294
+train B → test A,"Graph world model, no neighbours",all regions,0.5,18468,0.6596,0.7654,0.4809
+train B → test A,"Graph world model, no neighbours",all regions,1.0,16544,0.5795,0.7319,0.4729
+train B → test A,"Graph world model, no neighbours",PZT switch within horizon,0.1,803,0.3948,0.5019,0.2456
+train B → test A,"Graph world model, no neighbours",PZT switch within horizon,0.5,2604,0.4051,0.5492,0.3015
+train B → test A,"Graph world model, no neighbours",PZT switch within horizon,1.0,4663,0.4169,0.5758,0.3456
+train B → test A,"Graph world model, no neighbours",moved ≥ 2 px,0.1,3856,0.0646,0.1455,0.0877
+train B → test A,"Graph world model, no neighbours",moved ≥ 2 px,0.5,6573,0.1483,0.3548,0.1204
+train B → test A,"Graph world model, no neighbours",moved ≥ 2 px,1.0,7981,0.215,0.4572,0.177
+train B → test A,Graph world model,all regions,0.1,20400,0.6954,0.8035,0.502
+train B → test A,Graph world model,all regions,0.5,18468,0.6128,0.7459,0.5304
+train B → test A,Graph world model,all regions,1.0,16544,0.5513,0.7006,0.5164
+train B → test A,Graph world model,PZT switch within horizon,0.1,803,0.3624,0.4658,0.2537
+train B → test A,Graph world model,PZT switch within horizon,0.5,2604,0.3859,0.5342,0.3605
+train B → test A,Graph world model,PZT switch within horizon,1.0,4663,0.3967,0.57,0.4025
+train B → test A,Graph world model,moved ≥ 2 px,0.1,3856,0.089,0.1673,0.0155
+train B → test A,Graph world model,moved ≥ 2 px,0.5,6573,0.1357,0.3152,0.1663
+train B → test A,Graph world model,moved ≥ 2 px,1.0,7981,0.1529,0.388,0.2603
 "same recordings, alternating 4 s blocks (even→odd)",Response map,all regions,0.1,11534,0.8119,0.8974,0.0137
 "same recordings, alternating 4 s blocks (even→odd)",Response map,all regions,0.5,10167,0.7465,0.8425,-0.1277
 "same recordings, alternating 4 s blocks (even→odd)",Response map,all regions,1.0,8790,0.7281,0.8092,-0.2037
@@ -71,24 +80,24 @@ train B → test A,Graph world model,moved ≥ 2 px,1.0,7981,0.1748,0.4144,0.273
 "same recordings, alternating 4 s blocks (even→odd)",Response map,moved ≥ 2 px,0.1,1533,0.0939,0.3594,-0.161
 "same recordings, alternating 4 s blocks (even→odd)",Response map,moved ≥ 2 px,0.5,2118,0.1846,0.3702,-0.0778
 "same recordings, alternating 4 s blocks (even→odd)",Response map,moved ≥ 2 px,1.0,2450,0.271,0.4469,0.027
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",all regions,0.1,11534,0.8643,0.9397,0.8189
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",all regions,0.5,10167,0.7923,0.9151,0.8313
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",all regions,1.0,8790,0.7233,0.8966,0.8284
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",PZT switch within horizon,0.1,150,0.4067,0.4733,0.0451
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",PZT switch within horizon,0.5,727,0.542,0.729,0.6043
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",PZT switch within horizon,1.0,1395,0.572,0.7864,0.6739
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",moved ≥ 2 px,0.1,1533,0.3483,0.608,0.3687
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",moved ≥ 2 px,0.5,2118,0.372,0.5925,0.3412
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",moved ≥ 2 px,1.0,2450,0.4392,0.629,0.4759
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,all regions,0.1,11534,0.8802,0.9413,0.8055
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,all regions,0.5,10167,0.7898,0.9242,0.8345
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,all regions,1.0,8790,0.7204,0.9043,0.8463
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,PZT switch within horizon,0.1,150,0.4333,0.5667,0.0242
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,PZT switch within horizon,0.5,727,0.5571,0.7854,0.5261
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,PZT switch within horizon,1.0,1395,0.5541,0.8301,0.6976
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,moved ≥ 2 px,0.1,1533,0.4501,0.6001,0.2875
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,moved ≥ 2 px,0.5,2118,0.3626,0.6369,0.2779
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,moved ≥ 2 px,1.0,2450,0.3849,0.6682,0.4996
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",all regions,0.1,11534,0.8589,0.9387,0.8235
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",all regions,0.5,10167,0.7852,0.9166,0.8377
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",all regions,1.0,8790,0.7109,0.8916,0.8491
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",PZT switch within horizon,0.1,150,0.3333,0.44,0.0544
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",PZT switch within horizon,0.5,727,0.542,0.7442,0.6356
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",PZT switch within horizon,1.0,1395,0.5584,0.7785,0.7295
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",moved ≥ 2 px,0.1,1533,0.377,0.6099,0.3366
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",moved ≥ 2 px,0.5,2118,0.3725,0.6062,0.3835
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",moved ≥ 2 px,1.0,2450,0.4065,0.6233,0.5788
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,all regions,0.1,11534,0.8509,0.9363,0.7544
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,all regions,0.5,10167,0.7853,0.9174,0.8135
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,all regions,1.0,8790,0.703,0.8968,0.8292
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,PZT switch within horizon,0.1,150,0.3133,0.4067,0.016
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,PZT switch within horizon,0.5,727,0.4979,0.7098,0.6301
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,PZT switch within horizon,1.0,1395,0.4703,0.7692,0.7589
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,moved ≥ 2 px,0.1,1533,0.4384,0.5793,0.2581
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,moved ≥ 2 px,0.5,2118,0.4117,0.6043,0.333
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,moved ≥ 2 px,1.0,2450,0.3869,0.6318,0.5449
 "same recordings, alternating 4 s blocks (odd→even)",Response map,all regions,0.1,13383,0.819,0.9092,0.2583
 "same recordings, alternating 4 s blocks (odd→even)",Response map,all regions,0.5,12660,0.7473,0.8566,0.2374
 "same recordings, alternating 4 s blocks (odd→even)",Response map,all regions,1.0,12034,0.6892,0.8103,0.2264
@@ -98,21 +107,21 @@ train B → test A,Graph world model,moved ≥ 2 px,1.0,7981,0.1748,0.4144,0.273
 "same recordings, alternating 4 s blocks (odd→even)",Response map,moved ≥ 2 px,0.1,1129,0.0895,0.4269,0.1774
 "same recordings, alternating 4 s blocks (odd→even)",Response map,moved ≥ 2 px,0.5,3202,0.3045,0.5269,0.2985
 "same recordings, alternating 4 s blocks (odd→even)",Response map,moved ≥ 2 px,1.0,4394,0.3129,0.5184,0.2547
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",all regions,0.1,13383,0.9627,0.9863,0.6376
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",all regions,0.5,12660,0.9265,0.9626,0.6798
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",all regions,1.0,12034,0.8967,0.9431,0.6598
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",PZT switch within horizon,0.1,230,0.8913,0.9522,0.5826
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",PZT switch within horizon,0.5,1169,0.6963,0.8169,0.579
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",PZT switch within horizon,1.0,2114,0.6958,0.7867,0.5537
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",moved ≥ 2 px,0.1,1129,0.558,0.837,-0.0533
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",moved ≥ 2 px,0.5,3202,0.7096,0.8523,0.2164
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",moved ≥ 2 px,1.0,4394,0.7171,0.8441,0.4221
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,all regions,0.1,13383,0.9669,0.9866,0.4764
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,all regions,0.5,12660,0.9239,0.9652,0.5476
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,all regions,1.0,12034,0.904,0.9477,0.5695
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,PZT switch within horizon,0.1,230,0.887,0.9609,0.5416
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,PZT switch within horizon,0.5,1169,0.7408,0.8332,0.6
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,PZT switch within horizon,1.0,2114,0.7242,0.8169,0.5498
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,moved ≥ 2 px,0.1,1129,0.6076,0.8415,-0.1168
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,moved ≥ 2 px,0.5,3202,0.7239,0.8626,0.4163
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,moved ≥ 2 px,1.0,4394,0.744,0.8569,0.4641
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",all regions,0.1,13383,0.9614,0.9852,0.2703
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",all regions,0.5,12660,0.9252,0.9573,0.3805
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",all regions,1.0,12034,0.9036,0.9397,0.4034
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",PZT switch within horizon,0.1,230,0.8826,0.9652,0.4044
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",PZT switch within horizon,0.5,1169,0.7015,0.8033,0.5541
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",PZT switch within horizon,1.0,2114,0.6741,0.7758,0.5303
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",moved ≥ 2 px,0.1,1129,0.543,0.8246,-0.1141
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",moved ≥ 2 px,0.5,3202,0.7042,0.831,0.0074
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",moved ≥ 2 px,1.0,4394,0.736,0.8348,0.233
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,all regions,0.1,13383,0.9691,0.9898,0.7235
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,all regions,0.5,12660,0.9159,0.9744,0.7646
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,all regions,1.0,12034,0.893,0.9599,0.7496
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,PZT switch within horizon,0.1,230,0.9087,0.9609,0.5838
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,PZT switch within horizon,0.5,1169,0.7571,0.8571,0.6328
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,PZT switch within horizon,1.0,2114,0.7346,0.8477,0.6083
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,moved ≥ 2 px,0.1,1129,0.6342,0.8787,0.3202
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,moved ≥ 2 px,0.5,3202,0.7292,0.8988,0.523
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,moved ≥ 2 px,1.0,4394,0.7269,0.8901,0.5466

@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "original_files_checked": 378,
+  "original_dataset_files_unchanged": true,
+  "intentional_code_changes_so_far": [
+    "customer_workspace/bubble_regions.py"
+  ],
+  "old_configuration_reproduces_saved_masks": 15,
+  "new_sample_frames": 15,
+  "new_samples_remain_drafts": true,
+  "frames_with_identical_time_and_source": 1320,
+  "kept_regions_have_identical_boundaries": true,
+  "removed_candidate_instances_across_frames": 51188,
+  "source_video_unchanged": true,
+  "software_tests": "31 passed; test_bubble_regions.py + test_bubble_region_calibration.py"
+}

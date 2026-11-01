@@ -1,0 +1,48 @@
+{
+  "completed": true,
+  "change": "左侧固定显示原图，右侧显示并编辑标注；缩放、拖动和切图同步。",
+  "changed_files": [
+    "customer_workspace/bubble_region_annotation.py",
+    "customer_workspace/tests/check_bubble_region_gui.py",
+    "customer_workspace/README.md"
+  ],
+  "validation": {
+    "gui_checks_passed": 21,
+    "gui_checks": "gui_checks_fixed/checks.json",
+    "offline_test_command": ".venv/bin/python -m pytest customer_workspace/tests/test_bubble_regions.py -q",
+    "offline_tests_passed": 15,
+    "real_dataset_check": "real_dataset_check.json",
+    "preservation_check": "preservation_check.json",
+    "screenshots": [
+      "comparison_gui.png",
+      "comparison_zoom.png"
+    ],
+    "final_checks": [
+      {
+        "command": ".venv/bin/python -m ruff check customer_workspace/bubble_region_annotation.py customer_workspace/tests/check_bubble_region_gui.py",
+        "exit_code": 0,
+        "output": "All checks passed!\n"
+      },
+      {
+        "command": ".venv/bin/python -m ruff format --check customer_workspace/bubble_region_annotation.py customer_workspace/tests/check_bubble_region_gui.py",
+        "exit_code": 0,
+        "output": "2 files already formatted\n"
+      },
+      {
+        "command": "git diff --check",
+        "exit_code": 0,
+        "output": ""
+      }
+    ]
+  },
+  "startup_failure": {
+    "initial_failure": "首次双图启动时显示后端加载顺序导致 OpenGL 上下文错误。",
+    "resolved": true,
+    "evidence": "gui_checks/startup_failure.json",
+    "fix": "在原工作台选择显示后端后加载第二画布，并在同一顶层窗口内布置画布。"
+  },
+  "limitations": [
+    "本次验证界面操作与数据保护，不证明自动轮廓识别正确；仍需人工检查。",
+    "真实数据的原图、轮廓与标注修订未改写；运行时会话偏好不属于受保护输入校验。"
+  ]
+}

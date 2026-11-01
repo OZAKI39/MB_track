@@ -1,0 +1,564 @@
+{
+  "status": "COMPLETED_PENDING_HUMAN_REVIEW",
+  "created_local": "2026-10-26T01:52:38.458323+01:00",
+  "review_directory": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review",
+  "input_sha256": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/bubble_tracking.json": "15f39558182d92ea2c2ac6c5b56fbb418d5c6e55f389175dc2df616db13e2a7d",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/report.json": "ef2b951c0f27679ccf53b1fd58c07c071ca90452099e3af42600fa87aa221370",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/settings.json": "cdc6a702b30bb2cca46478e46428f893c02fa8c8cebbe6fb1b95d4bf96354bdb",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/bubble_tracking_review.py": "e4733aaf905424ba50b8ba740f0d98bd5172b086b3edf8cd00a1b6deb832adb3",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/bubble_tracking.py": "eacef69bf764563c77a91637519334e8fe010137cbfbf9c4c4928259f01e08c3",
+    "/home/lzy/projects/new_microbubble_experiment/microbubble_experiment/tracking.py": "ff720d302713176bad2ea40c670eea69332ed697578845dcc7ef32d6d9b50ee1",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/bubble_region_video.py": "e92784b399d0109f64c4b2970ae92d048bc66f7f91ca2534a86ee40448868a13",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/four_pzt_frames.jsonl.gz": "b8794d30edb63fa4a5a165c5208337e55ce9ad3a223c8802ad60dcf99810a02e",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/two_action_frames.jsonl.gz": "4cf9178874393225d870abce08bf3211f28672c90347a424b3e2a280ae0b0b43"
+  },
+  "sources": [
+    {
+      "id": "four_pzt",
+      "title": "四路切换实验",
+      "experiment": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal",
+      "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "sample_times_s": [
+        0.5,
+        2.8,
+        3.5,
+        5.8,
+        6.5,
+        8.8,
+        9.5,
+        11.8,
+        12.5,
+        14.8,
+        15.5,
+        17.8,
+        18.5,
+        19.5,
+        21.0
+      ],
+      "selection_reason": "覆盖初始、每次工作阶段前后和关断后；每张保留全视野，检查分散、密集、贴壁及外形变化。",
+      "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4"
+    },
+    {
+      "id": "two_action",
+      "title": "A→B→A 双动作实验",
+      "experiment": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment",
+      "video_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "sample_times_s": [
+        0.5,
+        3.5,
+        4.2,
+        5.5,
+        7.5,
+        8.2,
+        9.5,
+        11.5,
+        12.2,
+        13.5,
+        15.5,
+        16.2,
+        17.5,
+        19.5,
+        21.0
+      ],
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4"
+    }
+  ],
+  "videos": [
+    {
+      "source_id": "four_pzt",
+      "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+      "processed_frames": 1320,
+      "track_count": 907,
+      "tracks_with_60_consecutive_frames": 110,
+      "event_counts": {
+        "APPEARED": 502,
+        "MISSING": 872,
+        "REACQUIRED": 395,
+        "MERGE_CANDIDATE": 124,
+        "BOUNDARY_LOSS": 159,
+        "LOST": 287,
+        "ASSOCIATION_AMBIGUOUS": 26,
+        "SPLIT_CANDIDATE": 126,
+        "EXIT_CANDIDATE": 4,
+        "END_OF_RECORDING": 1
+      },
+      "motion_windows": [
+        {
+          "track_id": 110,
+          "from_s": 2.85,
+          "to_s": 5.866666666666666,
+          "centroid_displacement_px": 192.30899946901906
+        },
+        {
+          "track_id": 110,
+          "from_s": 6.183333333333334,
+          "to_s": 9.2,
+          "centroid_displacement_px": 286.24599743952393
+        },
+        {
+          "track_id": 410,
+          "from_s": 10.233333333333333,
+          "to_s": 13.216666666666667,
+          "centroid_displacement_px": 158.08396130961233
+        }
+      ],
+      "tracking_ms_median": 10.14072801626753,
+      "tracking_ms_p95": 15.338398642779794,
+      "longest_tracks": [
+        {
+          "track_id": 24,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            787.4347826086956,
+            703.9855072463768
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 79.32572388659959,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            787.6865671641791,
+            704.5970149253732
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.6613146783881336
+        },
+        {
+          "track_id": 25,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            819.2258064516129,
+            718.6935483870968
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 97.19676276255603,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            819.175572519084,
+            718.7480916030535
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.0741512669090445
+        },
+        {
+          "track_id": 26,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            744.0555555555555,
+            747.9722222222222
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 64.31774953045561,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 1320,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            744.6530612244898,
+            748.8571428571429
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 1.0677535083140743
+        },
+        {
+          "track_id": 32,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            856.8095238095239,
+            869.0238095238095
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 78.70351488741163,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            857.3333333333334,
+            869.1333333333333
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.5351372553711446
+        },
+        {
+          "track_id": 35,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            340.61290322580646,
+            924.494623655914
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 68.99374131157259,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            340.96907216494844,
+            924.7525773195877
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.4397685821113135
+        },
+        {
+          "track_id": 42,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            856.4038461538462,
+            1020.1346153846154
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 58.57968540973929,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 1320,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            857.304347826087,
+            1020.3804347826087
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.933450822560204
+        },
+        {
+          "track_id": 34,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            940.325,
+            920.8375
+          ],
+          "observed_frames": 1319,
+          "measured_path_length_px": 82.10813982232024,
+          "maximum_consecutive_frames": 1182,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 137,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            940.046511627907,
+            920.8488372093024
+          ],
+          "segment_count": 2,
+          "net_displacement_px": 0.27871904439025946
+        },
+        {
+          "track_id": 146,
+          "first_frame": 199,
+          "first_time_s": 3.316666666666667,
+          "first_xy_px": [
+            558.79,
+            684.29
+          ],
+          "observed_frames": 1121,
+          "measured_path_length_px": 155.40076596567962,
+          "maximum_consecutive_frames": 1121,
+          "start_reason": "SPLIT_CANDIDATE",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1121,
+          "last_frame": 1319,
+          "last_time_s": 21.983333333333334,
+          "last_xy_px": [
+            559.1515151515151,
+            683.8181818181819
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.5943951559940269
+        }
+      ],
+      "physical_identity_confirmed": false
+    },
+    {
+      "source_id": "two_action",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "processed_frames": 1320,
+      "track_count": 350,
+      "tracks_with_60_consecutive_frames": 67,
+      "event_counts": {
+        "APPEARED": 211,
+        "MISSING": 417,
+        "REACQUIRED": 237,
+        "LOST": 103,
+        "BOUNDARY_LOSS": 68,
+        "SPLIT_CANDIDATE": 45,
+        "MERGE_CANDIDATE": 46,
+        "EXIT_CANDIDATE": 4,
+        "ASSOCIATION_AMBIGUOUS": 3,
+        "END_OF_RECORDING": 1
+      },
+      "motion_windows": [
+        {
+          "track_id": 7,
+          "from_s": 1.1166555555555555,
+          "to_s": 4.133311111111111,
+          "centroid_displacement_px": 21.244741850537558
+        },
+        {
+          "track_id": 155,
+          "from_s": 9.199988888888889,
+          "to_s": 12.083311111111112,
+          "centroid_displacement_px": 22.673250815068506
+        },
+        {
+          "track_id": 208,
+          "from_s": 12.49998888888889,
+          "to_s": 15.016644444444445,
+          "centroid_displacement_px": 34.56281931828034
+        }
+      ],
+      "tracking_ms_median": 9.044824502780102,
+      "tracking_ms_p95": 11.034162096621003,
+      "longest_tracks": [
+        {
+          "track_id": 1,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            741.28,
+            178.1
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 48.255327612287665,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            741.4391891891892,
+            178.02702702702703
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.1751178253040651
+        },
+        {
+          "track_id": 3,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            636.5746268656717,
+            354.3134328358209
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 60.17612214903453,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            636.562962962963,
+            354.3777777777778
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.06539356376460993
+        },
+        {
+          "track_id": 5,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            612.0913242009133,
+            602.3561643835617
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 58.10569337262236,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            611.8103448275862,
+            602.198275862069
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.3223014015707345
+        },
+        {
+          "track_id": 10,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            717.4313725490196,
+            681.156862745098
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 180.07464624833668,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 1320,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            717.2828282828283,
+            681.2020202020202
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.15525654554311624
+        },
+        {
+          "track_id": 11,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            559.0574712643678,
+            685.8275862068965
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 120.75667910739749,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            559.1685393258427,
+            685.943820224719
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.16076834632157297
+        },
+        {
+          "track_id": 12,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            787.955223880597,
+            705.1194029850747
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 74.06883954479142,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            788.2,
+            705.1538461538462
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.24718754116059846
+        },
+        {
+          "track_id": 13,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            819.508064516129,
+            719.5887096774194
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 88.78360227304765,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 0,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            819.6277372262774,
+            719.3868613138686
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.2346578773925641
+        },
+        {
+          "track_id": 15,
+          "first_frame": 0,
+          "first_time_s": 0.0,
+          "first_xy_px": [
+            744.8684210526316,
+            749.6052631578947
+          ],
+          "observed_frames": 1320,
+          "measured_path_length_px": 55.167067818735916,
+          "maximum_consecutive_frames": 1320,
+          "start_reason": "NEW",
+          "end_reason": "END_OF_RECORDING",
+          "wall_flag_observations": 1320,
+          "consecutive_frames": 1320,
+          "last_frame": 1319,
+          "last_time_s": 21.98331111111111,
+          "last_xy_px": [
+            744.6285714285714,
+            749.4857142857143
+          ],
+          "segment_count": 1,
+          "net_displacement_px": 0.26799211742404183
+        }
+      ],
+      "physical_identity_confirmed": false
+    }
+  ],
+  "semantics": "未人工确认的可见深色区域轨迹；不是单个微泡的物理身份。",
+  "limitations": [
+    "合并与分离是可见区域的变化，也可能来自遮挡、亮度或轮廓抖动。",
+    "短暂消失无法区分遮挡、失焦与漏检；重接编号仍须人工检查。",
+    "壁面和杂质也可能被稳定追踪；没有逐帧身份真值，不能给出准确率。",
+    "位置与形状以像素表示，时间是视频播放时间；本轮没有控制硬件。"
+  ],
+  "inputs_unchanged": true,
+  "output_sha256": {
+    "four_pzt_tracks.csv": "2f2f888f43d62e5b184855d2476ac3ce604693a81a7ed9a196914a251b50c05b",
+    "two_action_tracks.csv": "2fad42fb1738dfaa863186c1af663f1bf30508c98e3bbae1d389dc4a404d85b5",
+    "two_action_frames.jsonl.gz": "577f048a796f121dcc69a089272bcf9512f9b8eedd1f45352578b94569077e36",
+    "settings.json": "6a1cd9714889afd2998d58f1cbbccbe2813ac50b44bf8873bc93a918eb2a3f5c",
+    "two_action_events.csv": "6e594c0c46c81a073a5095ee9718cb166e765e9ba9f651871eef8440e9cbe4e1",
+    "four_pzt_events.jsonl": "70c840363a2e029f084cecb6e60231c7c1f83cc39b2c0e98b2d531f420c72cd0",
+    "four_pzt_events.csv": "7d11ff0f66fa90f67923b9c28fffa02d3b8543e012a4df10ba2ada0d594197b6",
+    "four_pzt_frames.jsonl.gz": "0a8f90c66458192186a9c4f15559508c8f82986af57ad297de711d3517284ff2",
+    "two_action_events.jsonl": "39405bf5258e8f23b88eec6666f315de6fa6abbe41220dfb4a1942447ce4ac8f"
+  },
+  "elapsed_s": 36.52924098298536
+}

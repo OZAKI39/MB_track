@@ -1,0 +1,22 @@
+{
+  "passed": false,
+  "checks": [
+    "single_panel_no_training_and_no_initial_edits",
+    "left_original_and_right_annotation_are_simultaneously_visible",
+    "pan_and_zoom_synchronize_in_both_directions",
+    "fit_restores_full_image_in_both_panes",
+    "narrow_window_keeps_navigation_visible",
+    "automatic_parameter_module_removed_and_direct_eraser_visible",
+    "pick_existing_region_and_highlight",
+    "delete_undo_redo_preserve_other_regions",
+    "unfinished_polygon_blocks_navigation_and_closing_both_panes",
+    "cancel_polygon_preserves_existing_pixels",
+    "draw_missing_region_using_original_polygon_tool",
+    "clicking_left_image_does_not_paint_or_change_annotation",
+    "paint_erase_brush_size_and_undo",
+    "geometry_and_editing_overlays_exist_only_in_right_pane",
+    "erase_shortcut_stays_in_current_review"
+  ],
+  "original_labels_edited": false,
+  "error": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_region_gui.py\", line 389, in inspect\n    check_direct_erasing(w, passed)\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_region_gui.py\", line 118, in check_direct_erasing\n    assert not w.layers[name].data[y - 4 : y + 5, x - 4 : x + 5].any(), (\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('SINGLE_BUBBLE', (299.8259269688943, 149.45998609045444), {'SINGLE_BUBBLE': ('erase', True, True, False), 'AGGREGATE': ('erase', True, True, False), 'BACKGROUND_ARTIFACT': ('erase', True, True, False), 'UNCERTAIN': ('erase', True, True, False), 'OUT_OF_FOCUS': ('erase', True, True, False)})\n"
+}

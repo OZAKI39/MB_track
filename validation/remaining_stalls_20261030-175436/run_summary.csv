@@ -1,0 +1,5 @@
+run,offered,processed,replaced,seconds,process_median_ms,process_p99_ms,process_max_ms,automatic_gc_max_ms,save_peak_pending,database_integrity_ok,stored_frames_match,all_submitted_saved,writer_finished,gc_settings_unchanged,gc_before_stream,gc_after_save
+native_A,3960,3960,0,66.0,9.448152006370947,12.202880806871677,27.78045999002643,0.04059099592268467,2,True,True,True,True,True,True,True
+native_B,3960,3960,0,65.99993328282828,10.97196999762673,14.035507383814547,21.054233016911894,0.05849899025633931,2,True,True,True,True,True,True,True
+host_A,1320,1319,1,22.0,10.846862976904958,14.38660294457804,37.874648987781256,0.036787998396903276,2,True,True,True,True,True,True,True
+host_B,7920,7920,0,131.99986656565656,9.177130996249616,11.879025966627513,18.65998699213378,0.05258398596197367,12,True,True,True,True,True,True,True

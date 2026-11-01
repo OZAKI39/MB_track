@@ -8,6 +8,8 @@ wm_figures.py - stage 2 figures (English labels)
     examples.png        out-of-sample predictions at PZT switches, drawn on the video frame
     imagined.png        the graph world model "imagining" every PZT pattern from the same moment
     synthetic.png       simulated chip: error on unseen sessions vs. number of PZT switches in the training data
+    events.png          merge / split within 0.5 and 1 s: ranking (AUC) and accuracy of the chance (Brier skill)
+    field_map.png       whole field 1 s ahead: merge chances of every region, real and predicted density grid
 """
 import csv
 import os
@@ -28,13 +30,16 @@ import models as M  # noqa: E402
 COL = {'Persistence': F.MUTED, 'Constant velocity': F.OTHER, 'Response map': '#eb6834',
        'Gradient boosting': '#eda100', 'Graph world model, no neighbours': '#e87ba4',
        'Graph world model': '#6250d6', 'Graph world model, trained on reviewed data': '#2a78d6',
-       'Graph world model v1 (field size instead of field motion)': F.INK2}
+       'Graph world model v1 (field size instead of field motion)': F.INK2,
+       'Graph world model, without darkness / density inputs': '#9b8fe8', 'Base rate': F.MUTED, 'Gap rule': '#008300'}
 OBS = '#1baf7a'
-SHORT = {'Graph world model, no neighbours': 'Graph model,\nno neighbours',
-         'Graph world model, trained on reviewed data': 'Graph model,\nreviewed data',
+SHORT = {'Graph world model, no neighbours': 'Graph model,\nno\nneighbours',
+         'Graph world model, trained on reviewed data': 'Graph model,\nreviewed\ndata',
          'Graph world model': 'Graph world\nmodel', 'Gradient boosting': 'Gradient\nboosting',
          'Constant velocity': 'Constant\nvelocity', 'Response map': 'Response\nmap',
-         'Graph world model v1 (field size instead of field motion)': 'Graph model v1\n(field size input)'}
+         'Graph world model v1 (field size instead of field motion)': 'Graph model v1\n(field size input)',
+         'Graph world model, without darkness / density inputs': 'Graph model,\nno darkness\n/ density',
+         'Base rate': 'Base\nrate', 'Gap rule': 'Gap\nrule'}
 
 
 def read(path):
@@ -346,12 +351,102 @@ def fig_synthetic(out):
     return F.save(fig, os.path.join(out, 'figures', 'synthetic.png'))
 
 
+def fig_events(out, kind='merge'):
+    rows = [r for r in read(os.path.join(out, 'events.csv')) if r['event'] == kind and r['horizon_s'] in (0.5, 1.0)]
+    if not rows:
+        return None
+    folds = list(dict.fromkeys(r['fold'] for r in rows))
+    first = ['Base rate', 'Gap rule', 'Gradient boosting']
+    present = list(dict.fromkeys(r['model'] for r in rows))
+    models = [m for m in first if m in present] + [m for m in model_order(present) if m not in first]
+    n_m = [sum(any(r['fold'] == fo and r['model'] == m for r in rows) for m in models) for fo in folds]
+    fig, axs = plt.subplots(2, len(folds), figsize=(0.85 * sum(n_m) + 1.2 * len(folds), 7), squeeze=False,
+                            gridspec_kw=dict(width_ratios=n_m))
+    for j, fo in enumerate(folds):
+        ms = [m for m in models if any(r['fold'] == fo and r['model'] == m for r in rows)]
+        for i, (key, lab) in enumerate((('auc', 'AUC (0.5 = guessing, 1 = perfect ranking)'),
+                                        ('brier_skill_vs_base_rate', 'Brier skill vs. base rate (> 0 = better)'))):
+            ax = axs[i, j]
+            for x, m in enumerate(ms):
+                for k, (h, alpha) in enumerate(((0.5, 0.45), (1.0, 1.0))):
+                    r = next((r for r in rows if r['fold'] == fo and r['model'] == m and r['horizon_s'] == h), None)
+                    if r is None or not np.isfinite(r[key]):
+                        continue
+                    ax.bar(x + (k - 0.5) * 0.38, r[key], 0.36, color=COL.get(m, F.INK2), alpha=alpha)
+            ax.axhline(0.5 if key == 'auc' else 0.0, color=F.MUTED, lw=0.8, ls=':')
+            ax.set_xticks(range(len(ms)))
+            ax.set_xticklabels([SHORT.get(m, m) for m in ms], fontsize=6, rotation=0)
+            ax.set_ylabel(lab, fontsize=8)
+            if key == 'auc':
+                ax.set_ylim(0.3, 1.0)
+            else:
+                lo = min([r[key] for r in rows if r['fold'] == fo and np.isfinite(r[key])] + [-0.1])
+                ax.set_ylim(max(lo * 1.1, -1.0), 0.6)
+            ax.grid(axis='x', visible=False)
+            if i == 0:
+                n = next((int(r['positives']) for r in rows if r['fold'] == fo and r['horizon_s'] == 1.0), 0)
+                ax.set_title(f'{short_fold(fo)}\n{n} region-anchors that {kind} within 1 s', fontsize=8.5)
+    fig.suptitle(f'Will a region {kind} with another within 0.5 s (light) / 1 s (dark)?', fontsize=10, x=0.01, ha='left')
+    fig.tight_layout(rect=(0, 0, 1, 0.95))
+    return F.save(fig, os.path.join(out, 'figures', 'events.png'))
+
+
+def fig_field_map(out, exps, graphs, videos, fold_models):
+    """Whole field 1 s ahead, on a recording the model never saw."""
+    import run as R
+    if not fold_models:
+        return None
+    test = next(iter(fold_models))
+    model = fold_models[test].get('Graph world model')
+    exp = exps[test]
+    if model is None or not getattr(exp, 'has_darkness', False):
+        return None
+    # the moment with the most merges coming up within 1 s
+    best = max(graphs[test], key=lambda g: (np.nansum(g['ev_merge']), -g['frame']))
+    g = best
+    p = model.predict(exp, [g])[0]
+    f2 = g['frame'] + 10 * exp.P['step_frames']
+    obs = exp.grid_area[f2]
+    pred = R.render_grid(exp, p['mu'][:, -1], np.exp(p['logA'][:, -1]))
+    pers = R.render_grid(exp, g['pos'], np.exp(g['shape'][:, 0]))
+    img = frame_image(exp, g['frame'], videos.get(test))
+    fig, axs = plt.subplots(1, 4, figsize=(17, 4.6))
+    ext = (0, exp.W, exp.H, 0)
+    ax = axs[0]
+    ax.imshow(img, extent=ext)
+    pm = p['p_merge'][:, -1]
+    lab = R.M.event_label(g, 'merge', 10)
+    sc = ax.scatter(g['pos'][:, 0], g['pos'][:, 1], c=pm, cmap='plasma', vmin=0, vmax=1, s=28, edgecolors='white',
+                    linewidths=0.5)
+    hit = lab == 1
+    ax.scatter(g['pos'][hit, 0], g['pos'][hit, 1], s=120, facecolors='none', edgecolors=OBS, linewidths=1.6)
+    fig.colorbar(sc, ax=ax, fraction=0.04, pad=0.01).set_label('predicted chance of merging within 1 s', fontsize=7)
+    ax.set_title(f'{test} at {g["frame"] / exp.fps:.2f} s (model trained without {test})\n'
+                 'green ring: really merged within 1 s', fontsize=8.5)
+    vmax = max(obs.max(), pred.max(), pers.max(), 1)
+    for ax, grid, title in ((axs[1], pers, 'nothing moves (regions as discs)'),
+                            (axs[2], pred, 'graph world model (regions as discs)'),
+                            (axs[3], obs, 'what really happened')):
+        ax.imshow(img, extent=ext, alpha=0.35)
+        ax.imshow(np.ma.masked_less(grid, 1), extent=ext, cmap='magma_r', vmin=0, vmax=vmax, alpha=0.85,
+                  interpolation='nearest')
+        ms = R.misplaced_share(grid, obs) if grid is not obs else None
+        ax.set_title(f'density grid 1 s later: {title}' + (f'\narea in the wrong place: {ms * 100:.0f}%' if ms is not None
+                                                        else '\n(real outlines)'), fontsize=8.5)
+    for ax in axs:
+        ax.set_xticks([])
+        ax.set_yticks([])
+        ax.grid(False)
+    fig.tight_layout()
+    return F.save(fig, os.path.join(out, 'figures', 'field_map.png'))
+
+
 def make_all(out, exps, graphs, videos, fold_models=None, final=None):
     if fold_models is None:
         fold_models = load_fold_models(out, exps, graphs)
     files = [fig_errors(out), fig_action_check(out), fig_uncertainty(out),
              fig_examples(out, exps, graphs, videos, fold_models), fig_imagined(out, exps, graphs, videos, fold_models),
-             fig_synthetic(out)]
+             fig_synthetic(out), fig_events(out), fig_field_map(out, exps, graphs, videos, fold_models)]
     return [os.path.relpath(f, out) for f in files if f]
 
 

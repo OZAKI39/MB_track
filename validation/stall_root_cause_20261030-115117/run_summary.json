@@ -1,0 +1,234 @@
+{
+  "runs": [
+    {
+      "run": "repro_A",
+      "offered": 3960,
+      "saved": 3957,
+      "peak_pending": 2,
+      "sqlite_quick_check": "ok",
+      "stages": {
+        "database_commit": {
+          "n": 3957,
+          "median_p99_max_ms": [
+            3.911376028554514,
+            12.750474555650728,
+            24.46721901651472
+          ],
+          "max_record": {
+            "frame": "1721",
+            "stage": "database_commit",
+            "start_s": "205251.230623471",
+            "end_s": "205251.25509069",
+            "wall_ms": "24.46721901651472",
+            "thread_cpu_ms": "2.5184979999999246",
+            "process_cpu_ms": "34.98673500000393",
+            "minor_faults": "0",
+            "major_faults": "0",
+            "voluntary_switches": "9",
+            "involuntary_switches": "0",
+            "process_minor_faults": "1",
+            "process_major_faults": "0",
+            "input_blocks": "0",
+            "output_blocks": "0",
+            "threads": "",
+            "thread_user_ms": "0.0",
+            "thread_system_ms": "2.3919999999999497",
+            "compact_stall": "",
+            "compact_fail": "",
+            "compact_success": "",
+            "allocstall_normal": "",
+            "allocstall_movable": ""
+          }
+        },
+        "convert_bgr": {
+          "n": 3960,
+          "median_p99_max_ms": [
+            0.8010039891814813,
+            2.081094338791443,
+            4.950779984937981
+          ],
+          "max_record": {
+            "frame": "576",
+            "stage": "convert_bgr",
+            "start_s": "205232.119813483",
+            "end_s": "205232.124764263",
+            "wall_ms": "4.950779984937981",
+            "thread_cpu_ms": "4.9712650000000025",
+            "process_cpu_ms": "4.971817999999573",
+            "minor_faults": "960",
+            "major_faults": "0",
+            "voluntary_switches": "0",
+            "involuntary_switches": "0",
+            "process_minor_faults": "960",
+            "process_major_faults": "0",
+            "input_blocks": "0",
+            "output_blocks": "0",
+            "threads": "",
+            "thread_user_ms": "0.0",
+            "thread_system_ms": "7.0189999999999975",
+            "compact_stall": "",
+            "compact_fail": "",
+            "compact_success": "",
+            "allocstall_normal": "",
+            "allocstall_movable": ""
+          }
+        }
+      }
+    },
+    {
+      "run": "repro_B",
+      "offered": 3960,
+      "saved": 3957,
+      "peak_pending": 2,
+      "sqlite_quick_check": "ok",
+      "stages": {
+        "database_commit": {
+          "n": 3957,
+          "median_p99_max_ms": [
+            4.168429004494101,
+            12.752489792183042,
+            19.04318100423552
+          ],
+          "max_record": {
+            "frame": "0",
+            "stage": "database_commit",
+            "start_s": "205291.410267202",
+            "end_s": "205291.429310383",
+            "wall_ms": "19.04318100423552",
+            "thread_cpu_ms": "0.4999470000000006",
+            "process_cpu_ms": "35.566614000000385",
+            "minor_faults": "4",
+            "major_faults": "0",
+            "voluntary_switches": "9",
+            "involuntary_switches": "0",
+            "process_minor_faults": "2544",
+            "process_major_faults": "0",
+            "input_blocks": "0",
+            "output_blocks": "0",
+            "threads": "",
+            "thread_user_ms": "0.0",
+            "thread_system_ms": "0.49",
+            "compact_stall": "",
+            "compact_fail": "",
+            "compact_success": "",
+            "allocstall_normal": "",
+            "allocstall_movable": ""
+          }
+        },
+        "convert_bgr": {
+          "n": 3960,
+          "median_p99_max_ms": [
+            0.9317755175288767,
+            2.5843408724176693,
+            50.048353004967794
+          ],
+          "max_record": {
+            "frame": "572",
+            "stage": "convert_bgr",
+            "start_s": "205300.905555852",
+            "end_s": "205300.955604205",
+            "wall_ms": "50.048353004967794",
+            "thread_cpu_ms": "50.056478000000126",
+            "process_cpu_ms": "50.05811400000049",
+            "minor_faults": "321",
+            "major_faults": "0",
+            "voluntary_switches": "0",
+            "involuntary_switches": "0",
+            "process_minor_faults": "321",
+            "process_major_faults": "0",
+            "input_blocks": "0",
+            "output_blocks": "0",
+            "threads": "",
+            "thread_user_ms": "0.22799999999989495",
+            "thread_system_ms": "47.81499999999994",
+            "compact_stall": "",
+            "compact_fail": "",
+            "compact_success": "",
+            "allocstall_normal": "",
+            "allocstall_movable": ""
+          }
+        }
+      }
+    },
+    {
+      "run": "long_A_retry",
+      "offered": 15840,
+      "saved": 15827,
+      "peak_pending": 7,
+      "sqlite_quick_check": "ok",
+      "stages": {
+        "database_commit": {
+          "n": 15823,
+          "median_p99_max_ms": [
+            3.9787109999451786,
+            12.472636502934623,
+            102.87542999139987
+          ],
+          "max_record": {
+            "frame": "6897",
+            "stage": "database_commit",
+            "start_s": "205926.272719528",
+            "end_s": "205926.375594958",
+            "wall_ms": "102.87542999139987",
+            "thread_cpu_ms": "0.16826899999955458",
+            "process_cpu_ms": "125.61200400000416",
+            "minor_faults": "0",
+            "major_faults": "0",
+            "voluntary_switches": "2",
+            "involuntary_switches": "0",
+            "process_minor_faults": "15",
+            "process_major_faults": "0",
+            "input_blocks": "0",
+            "output_blocks": "0",
+            "threads": "",
+            "thread_user_ms": "0.09600000000009601",
+            "thread_system_ms": "0.0",
+            "compact_stall": "",
+            "compact_fail": "",
+            "compact_success": "",
+            "allocstall_normal": "",
+            "allocstall_movable": ""
+          }
+        },
+        "convert_bgr": {
+          "n": 15840,
+          "median_p99_max_ms": [
+            0.7092084997566417,
+            1.657317657081876,
+            10.175114992307499
+          ],
+          "max_record": {
+            "frame": "2",
+            "stage": "convert_bgr",
+            "start_s": "205811.331054033",
+            "end_s": "205811.341229148",
+            "wall_ms": "10.175114992307499",
+            "thread_cpu_ms": "10.207310000000025",
+            "process_cpu_ms": "10.208393999999288",
+            "minor_faults": "960",
+            "major_faults": "0",
+            "voluntary_switches": "0",
+            "involuntary_switches": "2",
+            "process_minor_faults": "960",
+            "process_major_faults": "0",
+            "input_blocks": "0",
+            "output_blocks": "0",
+            "threads": "",
+            "thread_user_ms": "2.029000000000003",
+            "thread_system_ms": "8.174000000000001",
+            "compact_stall": "",
+            "compact_fail": "",
+            "compact_success": "",
+            "allocstall_normal": "",
+            "allocstall_movable": ""
+          }
+        }
+      }
+    }
+  ],
+  "total_offered": 23760,
+  "total_saved": 23741,
+  "long_flush_ms": 102.55601600511,
+  "background_read_requests_during_flush": 307,
+  "background_read_bytes_during_flush": 1257472
+}

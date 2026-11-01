@@ -1,0 +1,20 @@
+[
+  {
+    "name": "publish_expB",
+    "pid": 27324,
+    "exit_code": 0,
+    "publisher_forced_termination": false
+  },
+  {
+    "name": "publish_expA",
+    "pid": 38680,
+    "exit_code": 0,
+    "publisher_forced_termination": false
+  },
+  {
+    "name": "mediamtx",
+    "pid": 38056,
+    "exit_code": 1,
+    "publisher_forced_termination": false
+  }
+]

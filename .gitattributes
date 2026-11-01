@@ -1,0 +1,6 @@
+# Preserve original research records, including Windows line endings.
+/validation/** -text -whitespace
+/microbubble_tracking/data/** -text -whitespace
+/microbubble_tracking/results/** -text -whitespace
+/microbubble_tracking/figures/** -text -whitespace
+/microbubble_tracking/history/** -text -whitespace

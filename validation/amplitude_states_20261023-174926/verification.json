@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-10-23T15:53:43.805991+00:00",
+  "software_tests_passed": 78,
+  "ruff_check_passed": true,
+  "ruff_format_check_passed": true,
+  "real_complete_runs": 3,
+  "intentional_active_cancel_runs": 1,
+  "unplanned_failures": 0,
+  "four_channels_prepared_at_0_001_vpp": true,
+  "four_outputs_enabled_before_timeline": true,
+  "only_two_amplitude_transitions_per_complete_run": true,
+  "amplitude_readback_and_output_on_verified": true,
+  "four_timestamps_match_raw_events_and_csv": true,
+  "normal_and_cancel_stop_confirmed": true,
+  "final_postflight_all_outputs_off": true,
+  "source_hashes_unchanged_during_verification": true,
+  "original_afg_driver_unchanged": true,
+  "long_run_stability_tested": false,
+  "physical_voltage_edges_or_transients_measured": false,
+  "usb_disconnect_or_visa_failure_injected": false,
+  "mean_delay_ms": {
+    "active_confirmation_delay_ms": 47.167933337429226,
+    "idle_confirmation_delay_ms": 47.11246667041754,
+    "active_schedule_delay_ms": 105.19416666162822,
+    "idle_schedule_delay_ms": 109.24369999459789,
+    "active_before_call_ms": 4.8546999993656454,
+    "active_precheck_ms": 100.33946666226257,
+    "active_write_ms": 0.37263333797454834,
+    "idle_write_ms": 0.41386666998732835
+  },
+  "interpretation": "Three-state behavior verified. Existing apply_live parameter checks still cause about 100 ms before sending; low-latency operation is not achieved."
+}

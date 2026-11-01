@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-23T11:28:55.422291+00:00",
+  "planned_duration_s": 14,
+  "timeline_started_utc": "2026-10-23T11:28:55.422774+00:00",
+  "output_dir": "customer_workspace/validation/mock_14s",
+  "error": null,
+  "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+  "finished_utc": "2026-10-23T11:29:09.462194+00:00",
+  "elapsed_s": 14.03941707299964,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": []
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer_kind": "assistant_visual_inspection_not_human_ground_truth",
+  "checked": "30 full-view thumbnails; original-size examples; 30 left-branch detail views; geometry overlay",
+  "findings": [
+    "主要深色微团在阶段样本中有外轮廓。",
+    "细小、较淡区域中有许多不确定候选，不能从数量认定泡数。",
+    "贴壁微团的墙侧边界沿观察范围截断，不能认为完整真实轮廓。",
+    "静止纹理或杂质仍可能被圈出，需要人工分类。"
+  ],
+  "human_acceptance": false
+}

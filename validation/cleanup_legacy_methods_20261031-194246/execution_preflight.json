@@ -1,0 +1,236 @@
+{
+  "checked_at": "2026-10-31T19:46:07.628593+01:00",
+  "user_approval": "批准按清单删除",
+  "candidate_files": 67,
+  "candidates_changed": [],
+  "protected_files_checked": 888,
+  "protected_files_changed": [],
+  "retained_imports_of_deleted_modules": [],
+  "active_matches": [],
+  "processes_inspected": 54,
+  "inaccessible_process_ids": [
+    1,
+    2,
+    3,
+    10,
+    56,
+    102,
+    164,
+    165,
+    174,
+    175,
+    182,
+    195,
+    197,
+    213,
+    304,
+    305,
+    307,
+    352,
+    469,
+    470,
+    573,
+    575,
+    584,
+    585,
+    1478,
+    1479,
+    629352
+  ],
+  "git_status_unchanged_since_approval_list": true,
+  "readme_patch_ready": true,
+  "local_process_scope_only": true,
+  "deletion_started": false,
+  "ready": true,
+  "inaccessible_process_summary": [
+    {
+      "pid": 1,
+      "name": "systemd",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 2,
+      "name": "init-systemd(Ub",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 3,
+      "name": "init-watcher",
+      "uid": "0",
+      "executable": "init-watcher",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 10,
+      "name": "init",
+      "uid": "0",
+      "executable": "plan9",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 56,
+      "name": "systemd-journal",
+      "uid": "0",
+      "executable": "systemd-journald",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 102,
+      "name": "systemd-udevd",
+      "uid": "0",
+      "executable": "systemd-udevd",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 164,
+      "name": "systemd-resolve",
+      "uid": "991",
+      "executable": "systemd-resolved",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 165,
+      "name": "systemd-timesyn",
+      "uid": "996",
+      "executable": "systemd-timesyncd",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 174,
+      "name": "cron",
+      "uid": "0",
+      "executable": "cron",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 175,
+      "name": "dbus-daemon",
+      "uid": "101",
+      "executable": "@dbus-daemon",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 182,
+      "name": "systemd-logind",
+      "uid": "0",
+      "executable": "systemd-logind",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 195,
+      "name": "rsyslogd",
+      "uid": "102",
+      "executable": "rsyslogd",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 197,
+      "name": "agetty",
+      "uid": "0",
+      "executable": "agetty",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 213,
+      "name": "unattended-upgr",
+      "uid": "0",
+      "executable": "python3",
+      "python_or_pytest": true
+    },
+    {
+      "pid": 304,
+      "name": "SessionLeader",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 305,
+      "name": "Relay(306)",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 307,
+      "name": "login",
+      "uid": "0",
+      "executable": "login",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 352,
+      "name": "(sd-pam)",
+      "uid": "1000",
+      "executable": "(sd-pam)",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 469,
+      "name": "SessionLeader",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 470,
+      "name": "Relay(471)",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 573,
+      "name": "SessionLeader",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 575,
+      "name": "Relay(577)",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 584,
+      "name": "SessionLeader",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 585,
+      "name": "Relay(586)",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 1478,
+      "name": "SessionLeader",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 1479,
+      "name": "Relay(1480)",
+      "uid": "0",
+      "executable": "init",
+      "python_or_pytest": false
+    },
+    {
+      "pid": 629352,
+      "name": "polkitd",
+      "uid": "990",
+      "executable": "polkitd",
+      "python_or_pytest": false
+    }
+  ]
+}

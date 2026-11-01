@@ -1,0 +1,477 @@
+[
+  {
+    "name": "isolated_cold_t24_1",
+    "condition": "cold",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t24_1"
+    ]
+  },
+  {
+    "name": "isolated_touch_t24_1",
+    "condition": "touch",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "touch",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_touch_t24_1"
+    ]
+  },
+  {
+    "name": "isolated_components_t24_1",
+    "condition": "components",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "components",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_components_t24_1"
+    ]
+  },
+  {
+    "name": "isolated_analysis_t24_1",
+    "condition": "analysis",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_analysis_t24_1"
+    ]
+  },
+  {
+    "name": "isolated_cold_t1_1",
+    "condition": "cold",
+    "threads": 1,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "1",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t1_1"
+    ]
+  },
+  {
+    "name": "isolated_touch_t24_2",
+    "condition": "touch",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "touch",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_touch_t24_2"
+    ]
+  },
+  {
+    "name": "isolated_components_t24_2",
+    "condition": "components",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "components",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_components_t24_2"
+    ]
+  },
+  {
+    "name": "isolated_analysis_t24_2",
+    "condition": "analysis",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_analysis_t24_2"
+    ]
+  },
+  {
+    "name": "isolated_cold_t1_2",
+    "condition": "cold",
+    "threads": 1,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "1",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t1_2"
+    ]
+  },
+  {
+    "name": "isolated_cold_t24_2",
+    "condition": "cold",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t24_2"
+    ]
+  },
+  {
+    "name": "isolated_components_t24_3",
+    "condition": "components",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "components",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_components_t24_3"
+    ]
+  },
+  {
+    "name": "isolated_analysis_t24_3",
+    "condition": "analysis",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_analysis_t24_3"
+    ]
+  },
+  {
+    "name": "isolated_cold_t1_3",
+    "condition": "cold",
+    "threads": 1,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "1",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t1_3"
+    ]
+  },
+  {
+    "name": "isolated_cold_t24_3",
+    "condition": "cold",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t24_3"
+    ]
+  },
+  {
+    "name": "isolated_touch_t24_3",
+    "condition": "touch",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "touch",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_touch_t24_3"
+    ]
+  },
+  {
+    "name": "isolated_analysis_t24_4",
+    "condition": "analysis",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_analysis_t24_4"
+    ]
+  },
+  {
+    "name": "isolated_cold_t1_4",
+    "condition": "cold",
+    "threads": 1,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "1",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t1_4"
+    ]
+  },
+  {
+    "name": "isolated_cold_t24_4",
+    "condition": "cold",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t24_4"
+    ]
+  },
+  {
+    "name": "isolated_touch_t24_4",
+    "condition": "touch",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "touch",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_touch_t24_4"
+    ]
+  },
+  {
+    "name": "isolated_components_t24_4",
+    "condition": "components",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "components",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_components_t24_4"
+    ]
+  },
+  {
+    "name": "isolated_cold_t1_5",
+    "condition": "cold",
+    "threads": 1,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "1",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t1_5"
+    ]
+  },
+  {
+    "name": "isolated_cold_t24_5",
+    "condition": "cold",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_cold_t24_5"
+    ]
+  },
+  {
+    "name": "isolated_touch_t24_5",
+    "condition": "touch",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "touch",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_touch_t24_5"
+    ]
+  },
+  {
+    "name": "isolated_components_t24_5",
+    "condition": "components",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "components",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_components_t24_5"
+    ]
+  },
+  {
+    "name": "isolated_analysis_t24_5",
+    "condition": "analysis",
+    "threads": 24,
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--threads",
+      "24",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "customer_workspace/validation/first_frame_diagnosis_20261030-164247/isolated_analysis_t24_5"
+    ]
+  }
+]

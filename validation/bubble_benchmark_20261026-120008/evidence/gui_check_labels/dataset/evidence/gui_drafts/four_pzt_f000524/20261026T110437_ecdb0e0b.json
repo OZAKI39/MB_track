@@ -1,0 +1,46 @@
+{
+  "schema": 2,
+  "candidate_id": "four_pzt_f000524",
+  "image_sha256": "270e6d17b0592485fb7672813d5837dd8d2065ca8b4a5a6230ff68c4a6c6c77d",
+  "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "split": "benchmark_review_only",
+  "sequence_id": "four_pzt",
+  "revision": "20261026T110437_ecdb0e0b",
+  "utc": "2026-10-26T11:04:37.231045+00:00",
+  "mask_file": "20261026T110437_ecdb0e0b.npz",
+  "mask_sha256": "71e0a62115e17cfa8f9b201d0b54e07e6de83b23849e8d41c7ade948e0ec4f1f",
+  "reviewer": "SOFTWARE_TEST",
+  "expert_confirmed": false,
+  "status": "DRAFT_UNREVIEWED",
+  "review_scope": "FULL_FRAME",
+  "review_regions": [],
+  "invalidated_region_ids": [],
+  "workspace_roi_yxyx": null,
+  "proposal_sources": [],
+  "classes": [
+    "SINGLE_BUBBLE",
+    "AGGREGATE",
+    "BACKGROUND_ARTIFACT",
+    "UNCERTAIN",
+    "OUT_OF_FOCUS"
+  ],
+  "class_overlap_pixels": 0,
+  "instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 31,
+    "OUT_OF_FOCUS": 0
+  },
+  "track_ids": {},
+  "notes": "",
+  "units": "pixels",
+  "physical_fusion_claim": false,
+  "reviewed_instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 0,
+    "OUT_OF_FOCUS": 0
+  }
+}

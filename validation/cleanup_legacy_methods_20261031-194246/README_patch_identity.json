@@ -1,0 +1,7 @@
+{
+  "target": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/README.md",
+  "before_sha256": "57ed3df13e6ed9a80f8204130a32fd1cbe56d3628354bdd86d1b9f3d4891112d",
+  "after_sha256": "67159f424217a77c490168f2195edf9ef6050c4d4f94ecd4484878e463453d0d",
+  "status": "proposed_only_not_applied",
+  "note": "Apply only after exact cleanup approval and successful deletion; adapt if any deletion is skipped. Current mainline and baseline instructions remain byte-identical."
+}

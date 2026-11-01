@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_frequency.json",
+    "--output-dir",
+    "customer_workspace/validation/frequency_14s_20261025-120855/frequency"
+  ],
+  "started_utc": "2026-10-25T11:11:36.281098+00:00",
+  "finished_utc": "2026-10-25T11:11:54.044525+00:00",
+  "returncode": 0
+}

@@ -1,0 +1,16 @@
+{
+  "equal_tables": {
+    "frames": 1320,
+    "observations": 17843,
+    "tracks": 75,
+    "events": 137,
+    "event_updates": 274,
+    "track_updates": 198,
+    "input_rejections": 0
+  },
+  "background_equal": true,
+  "excluded_columns": [
+    "frames.processing_ms"
+  ],
+  "input": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4"
+}

@@ -1,0 +1,150 @@
+{
+  "status": "cancelled",
+  "created_utc": "2026-10-25T15:04:45.221567+00:00",
+  "planned_duration_s": 20,
+  "timeline_started_utc": null,
+  "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\avsync_20261025-155502\\normal\\afg_experiment",
+  "error": "ExperimentCancelled: 等待录像时被取消",
+  "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+  "control_mode": "amplitude_write_only",
+  "parameter_order": [
+    "frequency",
+    "amplitude"
+  ],
+  "idle_amplitude_vpp": 0.001,
+  "data_reliable": false,
+  "per_command_confirmation": false,
+  "schedule_wait_method": "Event.wait then perf_counter spin",
+  "schedule_wake_ahead_ms": 22.0,
+  "precheck": {
+    "phase": "before",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      }
+    },
+    "passed": true
+  },
+  "finished_utc": "2026-10-25T15:04:49.848771+00:00",
+  "elapsed_s": null,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": [],
+  "final_state": "STOP",
+  "postcheck_skipped_reason": "未开始时间表或关断未确认",
+  "error_notes": [],
+  "error_traceback": "Traceback (most recent call last):\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 517, in _run_plan\n    self._start_s = self._timeline_origin()\n                    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_video_control.py\", line 120, in _timeline_origin\n    frame = wait_file(self.output / \"recording_started.json\", self._cancel)\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_video_control.py\", line 94, in wait_file\n    raise ExperimentCancelled(\"等待录像时被取消\")\ncustomer_workspace.experiment_runner.ExperimentCancelled: 等待录像时被取消\n"
+}

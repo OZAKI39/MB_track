@@ -1,0 +1,18 @@
+{
+  "status": "cancelled",
+  "created_utc": "2026-10-23T15:51:41.708482+00:00",
+  "planned_duration_s": 14,
+  "timeline_started_utc": "2026-10-23T15:51:43.319841+00:00",
+  "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\amplitude_states_20261023-174926\\cancel_active",
+  "error": "ExperimentCancelled: 实验已取消",
+  "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+  "control_mode": "amplitude_states",
+  "idle_amplitude_vpp": 0.001,
+  "finished_utc": "2026-10-23T15:51:48.857626+00:00",
+  "elapsed_s": 5.537783699997817,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": [],
+  "final_state": "STOP",
+  "error_notes": [],
+  "error_traceback": "Traceback (most recent call last):\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 380, in _run_plan\n    self._wait_until(step.at_s)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 222, in _wait_until\n    self._check_cancelled()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 196, in _check_cancelled\n    raise ExperimentCancelled(\"实验已取消\")\nExperimentCancelled: 实验已取消\n"
+}

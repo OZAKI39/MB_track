@@ -1,0 +1,77 @@
+{
+  "error": [
+    "RuntimeError: ValueError: Camera dimensions/format differ from prepared background",
+    "ValueError: Camera dimensions/format differ from prepared background"
+  ],
+  "resources": [
+    {
+      "elapsed_s": 0.13102146899473155,
+      "rss_mib": 112.6328125,
+      "decoder_rss_mib": 0.765625
+    },
+    {
+      "elapsed_s": 1.133111707997159,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 2.134441384994716,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 3.1357475199984037,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 4.1365495689969976,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 5.138167176999559,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 6.139538172996254,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 7.139688266994199,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    },
+    {
+      "elapsed_s": 8.140715147994342,
+      "rss_mib": 112.66015625,
+      "decoder_rss_mib": 121.1015625
+    }
+  ],
+  "threads_closed": true,
+  "recorder_dropped": null,
+  "analysis_skipped": 0,
+  "bridge_overwritten": 0,
+  "tracking": {
+    "status": "failed",
+    "frames": 0,
+    "observations": 0,
+    "tracks": 0,
+    "confirmed_tracks": 0,
+    "events_by_status": {},
+    "input_rejections": 0,
+    "skipped_source_frames": 0,
+    "peak_active_tracks": 0,
+    "persistence": {
+      "submitted_frames": 0,
+      "committed_frames": 0,
+      "pending_records": 0,
+      "peak_pending_records": 0,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": null,
+      "error": null
+    }
+  }
+}

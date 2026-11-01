@@ -1,0 +1,4 @@
+$ErrorActionPreference='Stop'
+[Reflection.Assembly]::LoadFrom('\\wsl.localhost\Ubuntu\home\lzy\projects\new_microbubble_experiment\customer_workspace\dependencies\traceevent_2.0.74\lib\net45\Microsoft.Diagnostics.Tracing.TraceEvent.dll') | Out-Null
+Add-Type -Path '\\wsl.localhost\Ubuntu\home\lzy\projects\new_microbubble_experiment\customer_workspace\tools\gpu_host_events.cs' -ReferencedAssemblies '\\wsl.localhost\Ubuntu\home\lzy\projects\new_microbubble_experiment\customer_workspace\dependencies\traceevent_2.0.74\lib\net45\Microsoft.Diagnostics.Tracing.TraceEvent.dll'
+[GpuHostEvents]::Read('C:\Users\lzy\AppData\Local\Temp\gpu_decode_root_20261031-231519\host_trace\capture\host.etl','C:\Users\lzy\AppData\Local\Temp\gpu_decode_root_20261031-231519\host_trace\selected_events.tsv',[double[]]@(22146.16946665675,20046.378285178762,58844.68681134586,49144.875431289955),[double[]]@(22208.370054699622,20107.70671749192,58906.790212649226,49210.12297687253))

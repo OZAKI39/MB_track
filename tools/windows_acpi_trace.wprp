@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0" Author="MB_track diagnostics">
+  <Profiles>
+    <SystemCollector Id="AcpiSystem" Name="MBTrack ACPI process timing">
+      <BufferSize Value="256" /><Buffers Value="128" />
+    </SystemCollector>
+    <EventCollector Id="AcpiEvents" Name="MBTrack ACPI origin">
+      <BufferSize Value="256" /><Buffers Value="128" />
+    </EventCollector>
+    <SystemProvider Id="AcpiKernel">
+      <Keywords><Keyword Value="ProcessThread" /><Keyword Value="Loader" /><Keyword Value="CSwitch" /></Keywords>
+    </SystemProvider>
+    <EventProvider Id="Dxg" Name="802ec45a-1e99-4b83-9920-87c98277ba9d" NonPagedMemory="true" Stack="true" Level="5" Strict="true">
+      <Keywords><Keyword Value="0x1800277" /></Keywords>
+      <CaptureStateOnStart Timeout="10"><Keyword Value="0x1800277" /></CaptureStateOnStart>
+    </EventProvider>
+    <EventProvider Id="Aml" Name="c514638f-7723-485b-bcfc-96565d735d4a" NonPagedMemory="true" Stack="true" Level="5">
+      <Keywords><Keyword Value="0x3" /></Keywords>
+    </EventProvider>
+    <EventProvider Id="AcpiDriver" Name="dab01d4d-2d48-477d-b1c3-daad0ce6f06b" NonPagedMemory="true" Stack="true" Level="5">
+      <Keywords><Keyword Value="0xffffffff" /></Keywords>
+    </EventProvider>
+    <EventProvider Id="Wmi" Name="1418ef04-b0b4-4623-bf7e-d74ab47bbdaa" Level="5">
+      <Keywords><Keyword Value="0xffffffffffffffff" /></Keywords>
+    </EventProvider>
+    <EventProvider Id="Dptf" Name="5885720d-f086-4614-a17c-4770c2461af2" Level="5">
+      <Keywords><Keyword Value="0xffffffffffffffff" /></Keywords>
+    </EventProvider>
+    <Profile Id="MBAcpi.Light.File" Name="MBAcpi" Description="Read-only ACPI notification and GPU lock investigation" LoggingMode="File" DetailLevel="Light">
+      <Collectors>
+        <SystemCollectorId Value="AcpiSystem"><SystemProviderId Value="AcpiKernel" /></SystemCollectorId>
+        <EventCollectorId Value="AcpiEvents"><EventProviders>
+          <EventProviderId Value="Dxg" /><EventProviderId Value="Aml" /><EventProviderId Value="AcpiDriver" />
+          <EventProviderId Value="Wmi" /><EventProviderId Value="Dptf" />
+        </EventProviders></EventCollectorId>
+      </Collectors>
+    </Profile>
+  </Profiles>
+</WindowsPerformanceRecorder>

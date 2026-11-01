@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_arial_original_comparison_and_no_training"
+  ],
+  "source_annotations_edited": false,
+  "error": "AssertionError: ",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_benchmark_gui.py\", line 89, in inspect\n    assert initial_ids and all(v.startswith(\"T\") for v in initial_ids.values())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

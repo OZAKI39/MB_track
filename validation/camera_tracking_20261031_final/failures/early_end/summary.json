@@ -1,0 +1,91 @@
+{
+  "error": [
+    "RuntimeError: RuntimeError: Input ended before the requested window",
+    "RuntimeError: Input ended before the requested window"
+  ],
+  "resources": [
+    {
+      "elapsed_s": 0.18011613300041063,
+      "rss_mib": 156.78125,
+      "decoder_rss_mib": 1.0234375
+    },
+    {
+      "elapsed_s": 1.1808974520026823,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 2.181304525001906,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 3.1821954320039367,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 4.1834651620010845,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 5.185431599005824,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 6.187116836001223,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 7.1881471470042015,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 8.188559387999703,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 9.189058153002406,
+      "rss_mib": 156.80859375,
+      "decoder_rss_mib": 120.52734375
+    },
+    {
+      "elapsed_s": 10.1901989790058,
+      "rss_mib": 162.33203125,
+      "decoder_rss_mib": 129.3671875
+    }
+  ],
+  "threads_closed": true,
+  "recorder_dropped": null,
+  "analysis_skipped": 0,
+  "bridge_overwritten": 1,
+  "tracking": {
+    "status": "failed",
+    "frames": 29,
+    "observations": 605,
+    "tracks": 24,
+    "confirmed_tracks": 21,
+    "events_by_status": {
+      "confirmed_tracks": 21,
+      "rejected_short_track": 4,
+      "unresolved_at_end": 1
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 1,
+    "peak_active_tracks": 23,
+    "persistence": {
+      "submitted_frames": 29,
+      "committed_frames": 29,
+      "pending_records": 0,
+      "peak_pending_records": 2,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 30,
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "pair_1_A_auto",
+    "saved_frames": 1319,
+    "transactions": 1319,
+    "max_commit_ms": 20.497503981459886,
+    "max_durable_ms": 22.242687991820276
+  },
+  {
+    "name": "pair_1_A_deferred",
+    "saved_frames": 1320,
+    "transactions": 1316,
+    "max_commit_ms": 106.55296000186354,
+    "max_durable_ms": 107.38603299250826
+  },
+  {
+    "name": "pair_2_B_deferred",
+    "saved_frames": 1320,
+    "transactions": 1320,
+    "max_commit_ms": 17.655425996053964,
+    "max_durable_ms": 19.165461999364197
+  },
+  {
+    "name": "pair_2_B_auto",
+    "saved_frames": 1318,
+    "transactions": 1318,
+    "max_commit_ms": 28.83058399311267,
+    "max_durable_ms": 31.269302999135107
+  },
+  {
+    "name": "pair_3_B_auto",
+    "saved_frames": 1320,
+    "transactions": 1308,
+    "max_commit_ms": 231.0939010058064,
+    "max_durable_ms": 232.6249580073636
+  },
+  {
+    "name": "pair_3_B_deferred",
+    "saved_frames": 1320,
+    "transactions": 1320,
+    "max_commit_ms": 15.146193996770307,
+    "max_durable_ms": 16.491432004841045
+  },
+  {
+    "name": "pair_4_A_deferred",
+    "saved_frames": 1320,
+    "transactions": 1320,
+    "max_commit_ms": 11.317121010506526,
+    "max_durable_ms": 12.341488996753469
+  },
+  {
+    "name": "pair_4_A_auto",
+    "saved_frames": 1320,
+    "transactions": 1320,
+    "max_commit_ms": 14.831605018116534,
+    "max_durable_ms": 15.884093998465687
+  },
+  {
+    "name": "long_B_deferred",
+    "saved_frames": 3956,
+    "transactions": 3954,
+    "max_commit_ms": 16.56010397709906,
+    "max_durable_ms": 40.39970799931325
+  }
+]

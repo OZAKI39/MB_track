@@ -1,0 +1,34 @@
+{
+  "case": 6,
+  "name": "工作途中取消",
+  "passed": true,
+  "problems": [],
+  "experiment_status": "cancelled",
+  "timeline_started_utc": "2026-10-25T11:52:23.337878+00:00",
+  "completed_s": 11.25895610000589,
+  "limit_s": 25.0,
+  "stable_checks": 3,
+  "stable_channel_readbacks": 12,
+  "parameter_commands": 4,
+  "maximum_command_lateness_ms": 1.427700015483424,
+  "cancel_request": {
+    "planned_s": 10.0,
+    "actual_s": 10.000005500012776
+  },
+  "shutdown": {
+    "event": "shutdown_finished",
+    "action": "all_off",
+    "state_requested": "STOP",
+    "planned_s": null,
+    "actual_start_s": 10.000037399993744,
+    "actual_finish_s": 10.092654300009599,
+    "duration_s": 0.09261690001585521,
+    "errors": []
+  },
+  "independent_all_outputs_off": true,
+  "execution_error": {
+    "error": "ExperimentCancelled: 实验已取消",
+    "traceback": "Traceback (most recent call last):\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\four_pzt_validation.py\", line 290, in run_case\n    runner.run(plan, output / \"experiment\")\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 429, in run\n    return self._run_plan(plan, output_dir, log)\n           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 654, in _run_plan\n    raise problem\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 493, in _run_plan\n    self._wait_until(step.at_s)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\four_pzt_validation.py\", line 267, in _wait_until\n    self._check_cancelled()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 254, in _check_cancelled\n    check_cancelled(self._cancel)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 43, in check_cancelled\n    raise ExperimentCancelled(\"实验已取消\")\ncustomer_workspace.experiment_runner.ExperimentCancelled: 实验已取消\n"
+  },
+  "physical_signal_timing_measured": false
+}

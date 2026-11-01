@@ -1,0 +1,12 @@
+{
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_benchmark_20261026-120008": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-153447_b388c85c24/manifest.json",
+    "sha256": "56308484dce63ee509e7c1dea961692027dd79fefbdb7ae44994e65080c82bef",
+    "saved_at": "2026-10-26T15:34:47.962635+01:00"
+  },
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-153909": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-153447_b388c85c24/manifest.json",
+    "sha256": "56308484dce63ee509e7c1dea961692027dd79fefbdb7ae44994e65080c82bef",
+    "saved_at": "2026-10-26T15:34:47.962635+01:00"
+  }
+}

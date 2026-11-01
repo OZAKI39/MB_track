@@ -1,0 +1,152 @@
+{
+  "auto": {
+    "frames": 595,
+    "transactions": 595,
+    "syncs": {
+      "startup_or_finalize": {
+        "wal": {
+          "count": 14,
+          "total_ms": 65.019,
+          "median_ms": 4.6465,
+          "max_ms": 5.518999999999999
+        },
+        "main": {
+          "count": 1,
+          "total_ms": 4.571000000000001,
+          "median_ms": 4.571000000000001,
+          "max_ms": 4.571000000000001
+        },
+        "other": {
+          "count": 4,
+          "total_ms": 30.275,
+          "median_ms": 4.5504999999999995,
+          "max_ms": 18.446
+        }
+      },
+      "commit": {
+        "wal": {
+          "count": 639,
+          "total_ms": 2415.098,
+          "median_ms": 3.8,
+          "max_ms": 47.495999999999995
+        },
+        "main": {
+          "count": 22,
+          "total_ms": 135.216,
+          "median_ms": 6.099500000000001,
+          "max_ms": 7.4879999999999995
+        },
+        "other": {
+          "count": 0,
+          "total_ms": 0,
+          "median_ms": null,
+          "max_ms": null
+        }
+      },
+      "maintenance": {
+        "wal": {
+          "count": 1,
+          "total_ms": 0.9179999999999999,
+          "median_ms": 0.9179999999999999,
+          "max_ms": 0.9179999999999999
+        },
+        "main": {
+          "count": 1,
+          "total_ms": 4.978,
+          "median_ms": 4.978,
+          "max_ms": 4.978
+        },
+        "other": {
+          "count": 0,
+          "total_ms": 0,
+          "median_ms": null,
+          "max_ms": null
+        }
+      }
+    },
+    "commits_with_main_sync": 22,
+    "slowest_commit": {
+      "source_frame": 409,
+      "commit_ms": 64.14414598839357,
+      "sync_ms": 47.495999999999995,
+      "main_syncs": 0,
+      "wal_syncs": 1
+    },
+    "note": "Native tracing affects timing; excluded from performance comparison."
+  },
+  "deferred": {
+    "frames": 584,
+    "transactions": 583,
+    "syncs": {
+      "startup_or_finalize": {
+        "wal": {
+          "count": 14,
+          "total_ms": 65.10000000000001,
+          "median_ms": 4.6515,
+          "max_ms": 5.0920000000000005
+        },
+        "main": {
+          "count": 1,
+          "total_ms": 4.646,
+          "median_ms": 4.646,
+          "max_ms": 4.646
+        },
+        "other": {
+          "count": 4,
+          "total_ms": 30.189999999999998,
+          "median_ms": 4.611000000000001,
+          "max_ms": 18.169999999999998
+        }
+      },
+      "commit": {
+        "wal": {
+          "count": 587,
+          "total_ms": 2711.397,
+          "median_ms": 4.036,
+          "max_ms": 30.083
+        },
+        "main": {
+          "count": 0,
+          "total_ms": 0,
+          "median_ms": null,
+          "max_ms": null
+        },
+        "other": {
+          "count": 0,
+          "total_ms": 0,
+          "median_ms": null,
+          "max_ms": null
+        }
+      },
+      "maintenance": {
+        "wal": {
+          "count": 5,
+          "total_ms": 4.665,
+          "median_ms": 0.959,
+          "max_ms": 1.07
+        },
+        "main": {
+          "count": 5,
+          "total_ms": 42.076,
+          "median_ms": 7.059,
+          "max_ms": 13.215
+        },
+        "other": {
+          "count": 0,
+          "total_ms": 0,
+          "median_ms": null,
+          "max_ms": null
+        }
+      }
+    },
+    "commits_with_main_sync": 0,
+    "slowest_commit": {
+      "source_frame": 556,
+      "commit_ms": 30.945892009185627,
+      "sync_ms": 30.083,
+      "main_syncs": 0,
+      "wal_syncs": 1
+    },
+    "note": "Native tracing affects timing; excluded from performance comparison."
+  }
+}

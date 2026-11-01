@@ -1,0 +1,134 @@
+[
+  {
+    "start_ms": 5143.5941,
+    "pid": 4,
+    "tid": 12040,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 5143.5957,
+    "end_ms": 5151.1249,
+    "wait_ms": 0.0015999999995983671,
+    "held_ms": 7.529199999999946
+  },
+  {
+    "start_ms": 5151.1455,
+    "pid": 4,
+    "tid": 12040,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 5151.2595,
+    "end_ms": 5157.8433,
+    "wait_ms": 0.11400000000048749,
+    "held_ms": 6.583800000000338
+  },
+  {
+    "start_ms": 8167.8914,
+    "pid": 4,
+    "tid": 12040,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 8167.8931,
+    "end_ms": 8167.9484,
+    "wait_ms": 0.0016999999998006388,
+    "held_ms": 0.05529999999998836
+  },
+  {
+    "start_ms": 8168.9376,
+    "pid": 4,
+    "tid": 12040,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 8168.9392,
+    "end_ms": 8168.9883,
+    "wait_ms": 0.0015999999995983671,
+    "held_ms": 0.049100000000180444
+  },
+  {
+    "start_ms": 27757.3431,
+    "pid": 4,
+    "tid": 51140,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 27757.3448,
+    "end_ms": 27757.4087,
+    "wait_ms": 0.0017000000007101335,
+    "held_ms": 0.06390000000101281
+  },
+  {
+    "start_ms": 27758.2511,
+    "pid": 4,
+    "tid": 51140,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 27758.2525,
+    "end_ms": 27758.3245,
+    "wait_ms": 0.0013999999973748345,
+    "held_ms": 0.07200000000011642
+  },
+  {
+    "start_ms": 30738.1182,
+    "pid": 4,
+    "tid": 23584,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 30738.1199,
+    "end_ms": 30747.1099,
+    "wait_ms": 0.0017000000007101335,
+    "held_ms": 8.989999999997963
+  },
+  {
+    "start_ms": 30747.1214,
+    "pid": 4,
+    "tid": 23584,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 30747.1951,
+    "end_ms": 30747.2366,
+    "wait_ms": 0.07370000000082655,
+    "held_ms": 0.041499999999359716
+  },
+  {
+    "start_ms": 39794.6851,
+    "pid": 4,
+    "tid": 47488,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 39794.6868,
+    "end_ms": 39808.4308,
+    "wait_ms": 0.0017000000007101335,
+    "held_ms": 13.743999999998778
+  },
+  {
+    "start_ms": 39808.4485,
+    "pid": 4,
+    "tid": 47488,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 39808.537,
+    "end_ms": 39825.6984,
+    "wait_ms": 0.08849999999802094,
+    "held_ms": 17.161400000004505
+  },
+  {
+    "start_ms": 47325.1111,
+    "pid": 4,
+    "tid": 3724,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 47325.1131,
+    "end_ms": 47325.1744,
+    "wait_ms": 0.0020000000004074536,
+    "held_ms": 0.06130000000121072
+  },
+  {
+    "start_ms": 47326.1407,
+    "pid": 4,
+    "tid": 3724,
+    "adapter": "0xffffda8e2eeec000",
+    "exclusive": true,
+    "acquired_ms": 47326.1422,
+    "end_ms": 47326.1878,
+    "wait_ms": 0.0014999999984866008,
+    "held_ms": 0.04559999999764841
+  }
+]

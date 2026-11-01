@@ -1,0 +1,15 @@
+{
+  "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+  "customer_workspace/experiment_runner.py": "b716f16ca13d5ebd42bf4a87ff80f706e64e50c8637b29416cbe7cb4bbe1d03c",
+  "customer_workspace/afg_timing.py": "d2e4d1a7258a8aef95d6fd1545b019c212d1ac240598494c0e59b3f466c2683e",
+  "customer_workspace/timing_benchmark.py": "0301926efbfb727b918ad677b74b740055628c6c6f68a95d607a4adfdde045e7",
+  "customer_workspace/benchmark_report.py": "9696c9377ee008290faa48f058025cfa9844ef99b115fa6e9129feea6573d75f",
+  "customer_workspace/visa_diagnostics.py": "55ffde434d3e39a326c915b3da90f2f7c74531333663e40e726a743f9d55c626",
+  "configs/afg.json": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d",
+  "customer_workspace/configs/pzt1_pulse.json": "0a5ddf221479480f8ef140d1e648ebd2ffca708eb97b7d6f2f93b1b51587f02b",
+  "customer_workspace/amplitude_pair_diagnostic.py": "53ff24bb7e75d4024919988a2c52802760bfe9c350f83cf23063d1f630821bb0",
+  "customer_workspace/wait_calibration.py": "4c1832267730f45f909fc93b78db84f53cc053d00cdca19e96871913822f59c1",
+  "customer_workspace/tests/test_pair_and_wait.py": "6c9caaf641c6037979d8389e3f584bf35aa7fb698f161e258bc3a84992abecb7",
+  "customer_workspace/wsl_launcher.py": "ff7363698978333e80fec0440a32ab37081b1c701a21a70fce7f499df100cfc9",
+  "configs/machine.local.json": "b4537d49a10a963843d9d6c4b9dbeacc5a5ded0fd1fc4cc74d6f92a0e4d3d1ae"
+}

@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-10-26T15:59:00.242896+01:00",
+  "unit_tests_passed": 48,
+  "new_gui_checks_passed": 15,
+  "legacy_gui_checks_passed": 22,
+  "new_gui_evidence": "evidence/gui_final/gui_check.json",
+  "legacy_gui_evidence": "evidence/legacy_gui_fixed/gui_check.json",
+  "data_evidence": "evidence/data_verification.json",
+  "active_pointer": {
+    "dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-153909",
+    "sha256": "fac008ab4efdc57bee62f197da0cd2d8d7067b222b859c65bd769a01cd3d95b7",
+    "activated_at": "2026-10-26T15:59:00.225134+01:00"
+  },
+  "previous_active_pointer": null,
+  "original_annotation_launch_preserved": true,
+  "earlier_failures": {
+    "gui_2_and_gui_3": "Selecting a current region restored paint mode; fixed by keeping pair selection in pan/select mode.",
+    "gui_4_through_gui_7": "Keyboard focus in WSL test harness and Labels M shortcut priority were checked; tests now activate their own window and M is explicitly bound for pair review.",
+    "legacy_gui": "Legacy test used live user-edited annotations but expected untouched proposals; its sandbox now reconstructs the frozen baseline. User annotations were preserved."
+  },
+  "not_verified": [
+    "Human correctness of all detection contours and suggested tracking IDs; review is still required."
+  ],
+  "hardware_used": false,
+  "current_code_sha256": {
+    "bubble_frame_review.py": "5716870463bf6e87eff2df8171be0b9c8a2fceb3717f4858c09a7d366dd75ba0",
+    "bubble_region_annotation.py": "9ee82a364c67bd893a80e99a483b10c7551c8c63cf32dec2a1814f2fed8a8838",
+    "bubble_region_review.py": "37849539d842828695de58e94e9dc711c82d9b88eb302547c0a3965c3837bebb",
+    "bubble_benchmark.py": "dbb86daf31d6f521572a34ff80afb1243cf17519c87adb9bad2f78287d4bb22a",
+    "README.md": "1a1a0c4d6393568c43476e020a5b296a4c20820b4d7887c4f5b4d5fae2fd52d1",
+    "tests/test_bubble_frame_review.py": "358b7e373d5ff7fde80a22c4e6de6d7b7d0e4371e212eb49ac42c49b8f5e623c",
+    "tests/check_bubble_frame_gui.py": "e0e53f505a91d1bc007720c5705bc19a0fd344f5130a02d5d6f7470094cf14ea",
+    "tests/check_bubble_benchmark_gui.py": "1daa7941119cc1f9d03520e0ae9ef0c81dc055baa1448ef85af50ae68df1fb08"
+  }
+}

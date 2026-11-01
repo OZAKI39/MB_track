@@ -1,0 +1,20 @@
+{
+  "task": "Repeat complete A and B replays once at original playback speed",
+  "source_before_sha256": {
+    "bubble_tracker.py": "026e838a96643626ba5d79bb010aa3916f401cba23bbd3879322352adfa79d0e",
+    "online_tracking.py": "da1f3ffdaa2013a0422ec3c37990bf0308b34842286bf81549207895330e7593",
+    "paced_replay.py": "c715819cae801e67d33b0c974d71308b7e832949e12ae8282f43827a5339f202",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f"
+  },
+  "same_as_blur_reuse_validation": true,
+  "previous": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211",
+  "settings": {
+    "opencv_threads": 24,
+    "conversion_threads": 1,
+    "measure_stages": true,
+    "detailed_diagnostics": false,
+    "repeats": 1
+  },
+  "scope": "offline only; no camera or AFG"
+}

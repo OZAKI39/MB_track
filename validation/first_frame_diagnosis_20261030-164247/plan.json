@@ -1,0 +1,90 @@
+{
+  "scope": "Offline first-frame diagnosis; no hardware, production edits or configuration changes.",
+  "code_sha256": {
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "97e73ee7ec808f7e263f1dd1689d014c666b857d90c061f48363e9d318ed3d63",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "paced_replay.py": "529ad8301bd56a4c92b044e284667fd9ef48e287efa7c658c8a591605f690717",
+    "paced_source.py": "4f6fef88aca61ecf9fab7426eeeff5a934d7e5d8cf9956426c60542aa61f1fc0",
+    "stall_probe.py": "4f2fd99545029582bb7a01ec4d81013c207dcc631690a1ef0667559b2e5ead02",
+    "frame_conversion.py": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3"
+  },
+  "runs": [
+    {
+      "name": "detailed_1",
+      "command": [
+        "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+        "-m",
+        "customer_workspace.microbubble_tracking.paced_replay",
+        "--video",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "--reference",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+        "--pzt",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+        "--output-dir",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/first_frame_diagnosis_20261030-164247/detailed_1",
+        "--opencv-threads",
+        "24",
+        "--conversion-threads",
+        "1",
+        "--max-frames",
+        "120",
+        "--measure-stages",
+        "--diagnose-stalls",
+        "--diagnose-details"
+      ]
+    },
+    {
+      "name": "detailed_2",
+      "command": [
+        "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+        "-m",
+        "customer_workspace.microbubble_tracking.paced_replay",
+        "--video",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "--reference",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+        "--pzt",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+        "--output-dir",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/first_frame_diagnosis_20261030-164247/detailed_2",
+        "--opencv-threads",
+        "24",
+        "--conversion-threads",
+        "1",
+        "--max-frames",
+        "120",
+        "--measure-stages",
+        "--diagnose-stalls",
+        "--diagnose-details"
+      ]
+    },
+    {
+      "name": "detailed_3",
+      "command": [
+        "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+        "-m",
+        "customer_workspace.microbubble_tracking.paced_replay",
+        "--video",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "--reference",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+        "--pzt",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+        "--output-dir",
+        "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/first_frame_diagnosis_20261030-164247/detailed_3",
+        "--opencv-threads",
+        "24",
+        "--conversion-threads",
+        "1",
+        "--max-frames",
+        "120",
+        "--measure-stages",
+        "--diagnose-stalls",
+        "--diagnose-details"
+      ]
+    }
+  ]
+}

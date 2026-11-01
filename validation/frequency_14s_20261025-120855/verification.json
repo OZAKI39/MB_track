@@ -1,0 +1,174 @@
+{
+  "status": "passed",
+  "completed_runs": 2,
+  "runs": [
+    {
+      "group": "frequency",
+      "control_mode": "frequency_write_only",
+      "status": "completed",
+      "timeline_started_local": "2026-10-25T12:11:39.157295+01:00",
+      "commands": [
+        {
+          "run_index": 1,
+          "channel": "PZT1",
+          "parameter": "frequency",
+          "requested_value": 2600000,
+          "unit": "Hz",
+          "planned_s": 5,
+          "call_started_s": 5.00006989997928,
+          "command_sent_s": 5.000123799982248,
+          "write_returned_s": 5.000576299993554,
+          "send_lateness_ms": 0.12379998224787414,
+          "write_ms": 0.45250001130625606,
+          "previous_same_step_command_gap_ms": null,
+          "status": "sent",
+          "error": null
+        },
+        {
+          "run_index": 1,
+          "channel": "PZT1",
+          "parameter": "frequency",
+          "requested_value": 2500000,
+          "unit": "Hz",
+          "planned_s": 6,
+          "call_started_s": 6.000069000001531,
+          "command_sent_s": 6.0001221999991685,
+          "write_returned_s": 6.000622299994575,
+          "send_lateness_ms": 0.1221999991685152,
+          "write_ms": 0.5000999954063445,
+          "previous_same_step_command_gap_ms": null,
+          "status": "sent",
+          "error": null
+        }
+      ],
+      "same_step_pairs": [],
+      "shutdown": {
+        "event": "shutdown_finished",
+        "action": "all_off",
+        "state_requested": "STOP",
+        "planned_s": 14,
+        "actual_start_s": 14.000122500001453,
+        "actual_finish_s": 14.082643999980064,
+        "duration_s": 0.08252149997861125,
+        "errors": []
+      },
+      "pre_and_post_checks_passed": true,
+      "all_error_queue_codes_zero": true,
+      "independent_all_four_off": true,
+      "csv_matches_raw_events": true
+    },
+    {
+      "group": "frequency_amplitude",
+      "control_mode": "frequency_amplitude_write_only",
+      "status": "completed",
+      "timeline_started_local": "2026-10-25T12:11:57.922206+01:00",
+      "commands": [
+        {
+          "run_index": 1,
+          "channel": "PZT1",
+          "parameter": "frequency",
+          "requested_value": 2600000,
+          "unit": "Hz",
+          "planned_s": 5,
+          "call_started_s": 5.000241100002313,
+          "command_sent_s": 5.00043139999616,
+          "write_returned_s": 5.001362599985441,
+          "send_lateness_ms": 0.43139999615959823,
+          "write_ms": 0.9311999892815948,
+          "previous_same_step_command_gap_ms": null,
+          "status": "sent",
+          "error": null
+        },
+        {
+          "run_index": 1,
+          "channel": "PZT1",
+          "parameter": "amplitude",
+          "requested_value": 0.1,
+          "unit": "Vpp",
+          "planned_s": 5,
+          "call_started_s": 5.001539099990623,
+          "command_sent_s": 5.001619299990125,
+          "write_returned_s": 5.00238150000223,
+          "send_lateness_ms": 1.6192999901250005,
+          "write_ms": 0.7622000121045858,
+          "previous_same_step_command_gap_ms": 1.1878999939654022,
+          "status": "sent",
+          "error": null
+        },
+        {
+          "run_index": 1,
+          "channel": "PZT1",
+          "parameter": "frequency",
+          "requested_value": 2500000,
+          "unit": "Hz",
+          "planned_s": 6,
+          "call_started_s": 6.000213699997403,
+          "command_sent_s": 6.000386300001992,
+          "write_returned_s": 6.001061399991158,
+          "send_lateness_ms": 0.3863000019919127,
+          "write_ms": 0.6750999891664833,
+          "previous_same_step_command_gap_ms": null,
+          "status": "sent",
+          "error": null
+        },
+        {
+          "run_index": 1,
+          "channel": "PZT1",
+          "parameter": "amplitude",
+          "requested_value": 0.001,
+          "unit": "Vpp",
+          "planned_s": 6,
+          "call_started_s": 6.001138599996921,
+          "command_sent_s": 6.001168199989479,
+          "write_returned_s": 6.001855599984992,
+          "send_lateness_ms": 1.1681999894790351,
+          "write_ms": 0.6873999955132604,
+          "previous_same_step_command_gap_ms": 0.7818999874871224,
+          "status": "sent",
+          "error": null
+        }
+      ],
+      "same_step_pairs": [
+        {
+          "planned_s": 5,
+          "first_to_second_send_ms": 1.1878999939654022,
+          "first_write_ms": 0.9311999892815948,
+          "first_write_return_to_second_send_ms": 0.2567000046838075,
+          "planned_to_second_write_return_ms": 2.3815000022295862
+        },
+        {
+          "planned_s": 6,
+          "first_to_second_send_ms": 0.7818999874871224,
+          "first_write_ms": 0.6750999891664833,
+          "first_write_return_to_second_send_ms": 0.10679999832063913,
+          "planned_to_second_write_return_ms": 1.8555999849922955
+        }
+      ],
+      "shutdown": {
+        "event": "shutdown_finished",
+        "action": "all_off",
+        "state_requested": "STOP",
+        "planned_s": 14,
+        "actual_start_s": 14.000121799996123,
+        "actual_finish_s": 14.078293400001712,
+        "duration_s": 0.07817160000558943,
+        "errors": []
+      },
+      "pre_and_post_checks_passed": true,
+      "all_error_queue_codes_zero": true,
+      "independent_all_four_off": true,
+      "csv_matches_raw_events": true
+    }
+  ],
+  "measured_parameter_commands": 6,
+  "each_parameter_one_write_no_query": true,
+  "source_unchanged_during_measurement": true,
+  "unchanged_files": [
+    "microbubble_experiment/afg.py",
+    "configs/afg.json",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "customer_workspace/timing_benchmark.py",
+    "customer_workspace/wsl_launcher.py"
+  ],
+  "physical_signal_timing_measured": false
+}

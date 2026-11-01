@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-23T18:51:46.535483+00:00",
+  "command": [
+    "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+    "-NoProfile",
+    "-Command",
+    "Get-CimInstance Win32_Process | Where-Object { $_.Name -match '^python(w)?(.exe)?$' -and $_.CommandLine -match 'microbubble|Tektronix|afg|visa_diagnostics|timing_benchmark|experiment_runner' } | Select-Object ProcessId,Name,CommandLine | ConvertTo-Json -Depth 3"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

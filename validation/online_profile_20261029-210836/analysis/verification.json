@@ -1,0 +1,112 @@
+[
+  {
+    "before": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_profile_20261029-210836/before_fixed_A",
+    "after": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_profile_20261029-210836/final_fixed_A",
+    "checks": {
+      "frames": {
+        "identical": true,
+        "rows": 1320
+      },
+      "observations": {
+        "identical": true,
+        "rows": 22041
+      },
+      "tracks": {
+        "identical": true,
+        "rows": 181
+      },
+      "events": {
+        "identical": true,
+        "rows": 347
+      },
+      "event_updates": {
+        "identical": true,
+        "rows": 694
+      },
+      "track_updates": {
+        "identical": true,
+        "rows": 472
+      },
+      "input_rejections": {
+        "identical": true,
+        "rows": 0
+      },
+      "background_initial.npy": {
+        "identical": true,
+        "sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+      },
+      "background_final.npy": {
+        "identical": true,
+        "sha256": "0935af57444548ed74712c492e2edc9c1817395ac7f3f943b84abc06e20a98a8"
+      },
+      "action_links.csv": {
+        "identical": true,
+        "sha256": "a57135547fbbffcb2cf08e7574ea80fdf2c03ef49c7c1153906532f4664dc4e0"
+      },
+      "source_actions.csv": {
+        "identical": true,
+        "sha256": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7"
+      },
+      "source_video_frames.csv": {
+        "identical": true,
+        "sha256": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2"
+      }
+    },
+    "frames": 1320
+  },
+  {
+    "before": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_profile_20261029-210836/before_fixed_B",
+    "after": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/online_profile_20261029-210836/final_fixed_B",
+    "checks": {
+      "frames": {
+        "identical": true,
+        "rows": 1320
+      },
+      "observations": {
+        "identical": true,
+        "rows": 17843
+      },
+      "tracks": {
+        "identical": true,
+        "rows": 75
+      },
+      "events": {
+        "identical": true,
+        "rows": 137
+      },
+      "event_updates": {
+        "identical": true,
+        "rows": 274
+      },
+      "track_updates": {
+        "identical": true,
+        "rows": 198
+      },
+      "input_rejections": {
+        "identical": true,
+        "rows": 0
+      },
+      "background_initial.npy": {
+        "identical": true,
+        "sha256": "f50b6eace131e00b8ecd8521903d14a68eabe423be72d8aa681b857a62feafd2"
+      },
+      "background_final.npy": {
+        "identical": true,
+        "sha256": "923c13dc027a3e71a8881a74d7576a8950dba7a4fff5f512e7e46cce32da9240"
+      },
+      "action_links.csv": {
+        "identical": true,
+        "sha256": "55c24d17a4525555fe23f519f768c44df921808cca9984091c10253b926bde24"
+      },
+      "source_actions.csv": {
+        "identical": true,
+        "sha256": "dafcd50ff6127b8216d774f79c81d5e04b5a74828f27de27896eace93d1e5721"
+      },
+      "source_video_frames.csv": {
+        "identical": true,
+        "sha256": "b505124a09083355e35875fd775b1fb8ca4725e09cab30c44774521110a702bd"
+      }
+    },
+    "frames": 1320
+  }
+]

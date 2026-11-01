@@ -1,0 +1,3 @@
+api,source_type,destination_type,bytes,known
+cuMemcpyHtoDAsync_v2,1,2,1310720,1
+cuMemcpyDtoHAsync_v2,2,1,1310720,1

@@ -1,0 +1,57 @@
+{
+  "schema": "adjacent_frame_review_v1",
+  "status": "COMPLETE",
+  "created_at": "2026-10-26T16:39:23.389139+01:00",
+  "source_dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_benchmark_20261026-120008",
+  "source_input_lock_sha256": "eb4143b8faf6ca3f86704aeef04ac6d3f2ae6496c97b530ca35b5351e2f3de23",
+  "source_id": "four_pzt",
+  "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "mask_reference": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-163547_c70389142e/manifest.json",
+    "sha256": "ccc8130733c530758a3af500a0bc77f2da5fcfc4990a77ff6f043c2e105d5c7d",
+    "saved_at": "2026-10-26T16:35:47.559936+01:00"
+  },
+  "segment": {
+    "source_id": "four_pzt",
+    "first_frame": 360,
+    "end_frame_exclusive": 660,
+    "source_start_time": "6",
+    "source_end_time": "11",
+    "frames": 300,
+    "lossless_pixels_and_times_verified": true,
+    "preview_verification": {
+      "decoded_frames": 300,
+      "all_frame_times_identical": true,
+      "duration_s": 5.0,
+      "size": [
+        2576,
+        1136
+      ]
+    }
+  },
+  "processed_video_frames": 1320,
+  "review_pairs": 300,
+  "fixed_keyframes": 14,
+  "preceding_context_frame": 359,
+  "thresholds_changed": false,
+  "detections_outside_mask": 0,
+  "original_annotations_preserved": true,
+  "human_confirmed_frames": 0,
+  "tracking_note": "Existing causal tracker, warmed up from frame 0; suggestions only.",
+  "review_note": "Each left frame is exactly current frame minus one. Prior human edits remain in the source dataset; this is a separate unreviewed result.",
+  "code_sha256": {
+    "bubble_frame_review.py": "c6f0589cc0f6c3ddcdcf1b51ad7b69723bea23e7f292c75899dc8ef1489d7ec3",
+    "bubble_regions.py": "be8cade0c12c3339ce25c84f4b69826b70cba6f1a8287d3d5e3cbe817f1079b7",
+    "bubble_dark_regions.py": "2a95a1fe930f291a71d682459c61e14426463b71d0852923dde102999df17627",
+    "bubble_tracking.py": "eacef69bf764563c77a91637519334e8fe010137cbfbf9c4c4928259f01e08c3",
+    "channel_mask.py": "5c619b964d94ce068ac3b8c1728a52c8991d16bf724e41322a12915959651da7"
+  },
+  "files": {
+    "data/frame_manifest.json": "dab88ca476c341b8f9fb4a257e5ad777f6e58edcfde52bd5e797c636fe744b7d",
+    "data/candidate_manifest.json": "476dfa7b92a0beb234ed46c9b2fea5d755e5606f724ccf2ce40d5a3e61ecd4ad",
+    "settings.json": "03bfb7faef53ade42981a17a2cf6d97562b69b7db8984039d3730858901711ab",
+    "tracking_settings.json": "6a1cd9714889afd2998d58f1cbbccbe2813ac50b44bf8873bc93a918eb2a3f5c",
+    "detections.jsonl.gz": "0b83aa9c7578fafd8fdbaaacd1b75f39e9323c3073e6f54daa188fc3a9af7420",
+    "tracking_suggestions.jsonl.gz": "3a3059b12b33250cf0b1abc36aebac2adc17aaef74cd97b810329cb68579b548"
+  }
+}

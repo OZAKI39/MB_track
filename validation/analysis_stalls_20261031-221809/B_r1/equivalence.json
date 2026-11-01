@@ -1,0 +1,68 @@
+{
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_stalls_20261031-221809/B_r1/recording/video.mp4",
+  "source_sha256": "c8cf3a1e6a0c3047168616baa02191d544273b8cf6a8dbec09411ac6f59c3f67",
+  "compared_video_frames": 1320,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 1318,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 1318,
+      "sha256": "ff0d2ab4ca2ecbf269c89b1c20f0de092f76b335771e1e7d9a07a2f15d9b0ea9"
+    },
+    "observations": {
+      "rows": 17716,
+      "sha256": "07dbd68b6efce0bdf458f87861935770ab8dc90c32937804f3d2727339c9390c"
+    },
+    "tracks": {
+      "rows": 85,
+      "sha256": "f1e3d8385b4100e634e7b29ad2db51e593f51eedc2c19261cf4f633b3b493bba"
+    },
+    "events": {
+      "rows": 156,
+      "sha256": "7dc20afcc974879bdc175fe5ba908b0e5a609f2f530a2dccd85215603087c9d8"
+    },
+    "event_updates": {
+      "rows": 312,
+      "sha256": "dda81aa925d0dda36567c93809de74779d880a9bbf60d534fa65e2ff6b72913e"
+    },
+    "track_updates": {
+      "rows": 229,
+      "sha256": "bd28539456b992259500b490752478614b197ffbe0f3c5b7e9decf1201828636"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 1318,
+      "sha256": "ff0d2ab4ca2ecbf269c89b1c20f0de092f76b335771e1e7d9a07a2f15d9b0ea9"
+    },
+    "observations": {
+      "rows": 17716,
+      "sha256": "07dbd68b6efce0bdf458f87861935770ab8dc90c32937804f3d2727339c9390c"
+    },
+    "tracks": {
+      "rows": 85,
+      "sha256": "f1e3d8385b4100e634e7b29ad2db51e593f51eedc2c19261cf4f633b3b493bba"
+    },
+    "events": {
+      "rows": 156,
+      "sha256": "7dc20afcc974879bdc175fe5ba908b0e5a609f2f530a2dccd85215603087c9d8"
+    },
+    "event_updates": {
+      "rows": 312,
+      "sha256": "dda81aa925d0dda36567c93809de74779d880a9bbf60d534fa65e2ff6b72913e"
+    },
+    "track_updates": {
+      "rows": 229,
+      "sha256": "bd28539456b992259500b490752478614b197ffbe0f3c5b7e9decf1201828636"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

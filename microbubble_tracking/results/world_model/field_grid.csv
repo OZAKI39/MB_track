@@ -1,0 +1,53 @@
+fold,horizon_s,model,anchors,misplaced_share_mean,misplaced_share_median
+train A → test B,0.5,Persistence,215,0.0586,0.0398
+train A → test B,0.5,Constant velocity,215,0.0578,0.0434
+train A → test B,0.5,Response map,215,0.0543,0.0434
+train A → test B,0.5,Gradient boosting,215,0.092,0.068
+train A → test B,0.5,"Graph world model, no neighbours",215,0.0704,0.0498
+train A → test B,0.5,Graph world model,215,0.0851,0.0637
+train A → test B,0.5,"Graph world model, trained on reviewed data",215,0.0768,0.0547
+train A → test B,0.5,"Graph world model, without darkness / density inputs",215,0.0893,0.0689
+train A → test B,1.0,Persistence,210,0.0784,0.0475
+train A → test B,1.0,Constant velocity,210,0.0835,0.0522
+train A → test B,1.0,Response map,210,0.0689,0.0537
+train A → test B,1.0,Gradient boosting,210,0.1582,0.0962
+train A → test B,1.0,"Graph world model, no neighbours",210,0.111,0.0649
+train A → test B,1.0,Graph world model,210,0.154,0.0832
+train A → test B,1.0,"Graph world model, trained on reviewed data",210,0.129,0.0883
+train A → test B,1.0,"Graph world model, without darkness / density inputs",210,0.1672,0.1435
+train B → test A,0.5,Persistence,215,0.196,0.1263
+train B → test A,0.5,Constant velocity,215,0.1671,0.1064
+train B → test A,0.5,Response map,215,0.1955,0.1263
+train B → test A,0.5,Gradient boosting,215,0.1927,0.1473
+train B → test A,0.5,"Graph world model, no neighbours",215,0.1914,0.1239
+train B → test A,0.5,Graph world model,215,0.1964,0.1365
+train B → test A,1.0,Persistence,210,0.2851,0.2657
+train B → test A,1.0,Constant velocity,210,0.2725,0.222
+train B → test A,1.0,Response map,210,0.2841,0.2665
+train B → test A,1.0,Gradient boosting,210,0.2719,0.2452
+train B → test A,1.0,"Graph world model, no neighbours",210,0.2826,0.2579
+train B → test A,1.0,Graph world model,210,0.2874,0.266
+"same recordings, alternating 4 s blocks (even→odd)",0.5,Persistence,131,0.1697,0.0859
+"same recordings, alternating 4 s blocks (even→odd)",0.5,Constant velocity,131,0.1298,0.0613
+"same recordings, alternating 4 s blocks (even→odd)",0.5,Response map,131,0.1697,0.0859
+"same recordings, alternating 4 s blocks (even→odd)",0.5,Gradient boosting,131,0.1511,0.0635
+"same recordings, alternating 4 s blocks (even→odd)",0.5,"Graph world model, no neighbours",131,0.2035,0.1489
+"same recordings, alternating 4 s blocks (even→odd)",0.5,Graph world model,131,0.1703,0.1038
+"same recordings, alternating 4 s blocks (even→odd)",1.0,Persistence,121,0.2309,0.1297
+"same recordings, alternating 4 s blocks (even→odd)",1.0,Constant velocity,121,0.2088,0.0909
+"same recordings, alternating 4 s blocks (even→odd)",1.0,Response map,121,0.2311,0.1297
+"same recordings, alternating 4 s blocks (even→odd)",1.0,Gradient boosting,121,0.2154,0.1093
+"same recordings, alternating 4 s blocks (even→odd)",1.0,"Graph world model, no neighbours",121,0.2948,0.2581
+"same recordings, alternating 4 s blocks (even→odd)",1.0,Graph world model,121,0.2561,0.2012
+"same recordings, alternating 4 s blocks (odd→even)",0.5,Persistence,162,0.069,0.0397
+"same recordings, alternating 4 s blocks (odd→even)",0.5,Constant velocity,162,0.0699,0.0433
+"same recordings, alternating 4 s blocks (odd→even)",0.5,Response map,162,0.0702,0.041
+"same recordings, alternating 4 s blocks (odd→even)",0.5,Gradient boosting,162,0.1339,0.0682
+"same recordings, alternating 4 s blocks (odd→even)",0.5,"Graph world model, no neighbours",162,0.0726,0.0469
+"same recordings, alternating 4 s blocks (odd→even)",0.5,Graph world model,162,0.0774,0.0628
+"same recordings, alternating 4 s blocks (odd→even)",1.0,Persistence,162,0.1002,0.0486
+"same recordings, alternating 4 s blocks (odd→even)",1.0,Constant velocity,162,0.1067,0.0515
+"same recordings, alternating 4 s blocks (odd→even)",1.0,Response map,162,0.1021,0.0491
+"same recordings, alternating 4 s blocks (odd→even)",1.0,Gradient boosting,162,0.1827,0.1283
+"same recordings, alternating 4 s blocks (odd→even)",1.0,"Graph world model, no neighbours",162,0.1133,0.0609
+"same recordings, alternating 4 s blocks (odd→even)",1.0,Graph world model,162,0.1294,0.0959

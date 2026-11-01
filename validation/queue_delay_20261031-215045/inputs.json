@@ -1,0 +1,78 @@
+{
+  "simulation": true,
+  "physical_hardware": false,
+  "runs": {
+    "file_A_q1": {
+      "experiment": "A",
+      "waiting_frames": 1,
+      "mode": "file",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+    },
+    "file_A_q2": {
+      "experiment": "A",
+      "waiting_frames": 2,
+      "mode": "file",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+    },
+    "file_B_q2": {
+      "experiment": "B",
+      "waiting_frames": 2,
+      "mode": "file",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2"
+    },
+    "file_B_q1": {
+      "experiment": "B",
+      "waiting_frames": 1,
+      "mode": "file",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2"
+    },
+    "rtsp_A_q2": {
+      "experiment": "A",
+      "waiting_frames": 2,
+      "mode": "rtsp",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+    },
+    "rtsp_A_q1": {
+      "experiment": "A",
+      "waiting_frames": 1,
+      "mode": "rtsp",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+    },
+    "rtsp_B_q1": {
+      "experiment": "B",
+      "waiting_frames": 1,
+      "mode": "rtsp",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2"
+    },
+    "rtsp_B_q2": {
+      "experiment": "B",
+      "waiting_frames": 2,
+      "mode": "rtsp",
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2"
+    }
+  }
+}

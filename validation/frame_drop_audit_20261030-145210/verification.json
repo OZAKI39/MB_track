@@ -1,0 +1,31 @@
+{
+  "source_run": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stall_retest_20261030-143551/expA/replay",
+  "input_sha256": {
+    "source_timing.csv": "aeb9783f36877d1b73ae85fe242c49d8e6bb8ef9372f3f4c57dc4b5c84ea5f85",
+    "consumer_timing.csv": "23558dd4f67737ad7cd4a747ad9f354ec764cbe1e78de4b694f3316a81fa2e56",
+    "frame_outcomes.csv": "506d94ce648893f49a6cbe498339f9e2aac38544c71571e048f6d09fd6387ae4",
+    "source_stalls.csv": "7368f4a35918f7960ffd1923a731ecb1960cb68b4ea3187639bfed025826dc2e",
+    "consumer_stalls.csv": "f5e793d88934668ddc314e83151c0dd255d36eb1e32e9c76ca5b6a7d30dfa989",
+    "consumer_stalls.gc.csv": "9e10a02e04a364f15b8e16c0e1f3c6a5cef94eb95175b81d30b0863604f114c2",
+    "writer_timing.csv": "ec43245e4ecd185f14f696b87c43f66389efd38aab127789ac6fc80f4afe1031",
+    "consumer_stalls.meta.json": "7dec9655ffe19b9ad5699524c109ad86b453004c6b0676627f502d57bf54131a",
+    "run_state.json": "d37755e5046542ed6babe24f1e1b0533eb152403ffec26d5f2a27c312f18a92f",
+    "pacing_settings.json": "7ff75c13500a72f4f96725084f20e0d33105417fa450e5a9d9b1192eb7fe1b7e",
+    "writer_report.json": "b2dff7b3fb4f2d580cf29370991b0847d760db1bf93849fea95db92d14df9faa"
+  },
+  "audit_script_sha256": "5c0496f5507d25f5043fd5f4be4da8fc8de9a20f5f69e0dc31791ef7cd443348",
+  "origin_perf_s": 214990.23137410302,
+  "clock": "One WSL host perf_counter; no cross-OS subtraction",
+  "source_frames": 3960,
+  "processed_frames": 3940,
+  "replaced_frames": 20,
+  "database_frames": 3940,
+  "database_integrity": "ok",
+  "all_submitted_saved": true,
+  "peak_save_pending": 2,
+  "state_counts": {
+    "analysis_running": 12,
+    "between_frames": 5,
+    "boundary_unresolved": 3
+  }
+}

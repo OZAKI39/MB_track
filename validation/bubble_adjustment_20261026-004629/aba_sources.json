@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "two_action",
+      "title": "A→B→A 双动作实验",
+      "experiment": "customer_workspace/validation/avsync_20261025-165523_two_action/experiment",
+      "video_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "sample_times_s": [
+        0.5,
+        3.5,
+        4.2,
+        5.5,
+        7.5,
+        8.2,
+        9.5,
+        11.5,
+        12.2,
+        13.5,
+        15.5,
+        16.2,
+        17.5,
+        19.5,
+        21.0
+      ],
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。"
+    }
+  ]
+}

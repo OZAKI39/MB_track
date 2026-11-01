@@ -1,0 +1,20 @@
+{
+  "original_figure_and_data_unchanged": true,
+  "pixel_csv_byte_identical": true,
+  "source_video_and_algorithm_unchanged": true,
+  "samples": 330,
+  "background_gray": 149.3125,
+  "embedded_pdf_fonts": [
+    "ZEBSMS+ArialMT"
+  ],
+  "svg_fonts_outlined": true,
+  "png_size": [
+    4260,
+    2460
+  ],
+  "png_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "all_visible_labels_arial": true
+}

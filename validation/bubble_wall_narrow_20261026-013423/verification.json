@@ -1,0 +1,43 @@
+{
+  "status": "PASSED",
+  "checked_local": "2026-10-26T01:37:22.169559+01:00",
+  "protected_files_checked": 239,
+  "protected_files_changed": [],
+  "source_review_inputs_unchanged": true,
+  "videos": [
+    {
+      "source_id": "two_action",
+      "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_video_20261026-013423_narrow_aba/review.mp4",
+      "verification": {
+        "decoded_frames": 1320,
+        "all_frame_times_identical": true,
+        "duration_s": 21.99997777777778,
+        "size": [
+          2576,
+          1104
+        ]
+      },
+      "input_and_output_hashes_verified": true,
+      "size_mib": 13.64
+    },
+    {
+      "source_id": "four_pzt",
+      "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_video_20261026-013423_narrow_four_pzt/review.mp4",
+      "verification": {
+        "decoded_frames": 1320,
+        "all_frame_times_identical": true,
+        "duration_s": 22.0,
+        "size": [
+          2576,
+          1104
+        ]
+      },
+      "input_and_output_hashes_verified": true,
+      "size_mib": 14.67
+    }
+  ],
+  "limitations": [
+    "已完整解码核对输出视频，未在用户桌面播放器中实际播放。",
+    "自动轮廓仍需人工检查；收窄边界可能保留少量壁面。"
+  ]
+}

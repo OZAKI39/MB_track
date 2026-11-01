@@ -1,0 +1,27 @@
+[
+    {
+        "Name":  "Microsoft.AccountsControl",
+        "Version":  "10.0.26100.1",
+        "InstallLocation":  "C:\\Windows\\SystemApps\\Microsoft.AccountsControl_cw5n1h2txyewy"
+    },
+    {
+        "Name":  "Microsoft.Windows.ParentalControls",
+        "Version":  "1000.25128.1000.0",
+        "InstallLocation":  "C:\\Windows\\SystemApps\\ParentalControls_cw5n1h2txyewy"
+    },
+    {
+        "Name":  "windows.immersivecontrolpanel",
+        "Version":  "10.0.8.1000",
+        "InstallLocation":  "C:\\Windows\\ImmersiveControlPanel"
+    },
+    {
+        "Name":  "ControlCenter3",
+        "Version":  "5.17.51.19",
+        "InstallLocation":  "C:\\Program Files\\WindowsApps\\ControlCenter3_5.17.51.19_x64__h329z55cwnj8g"
+    },
+    {
+        "Name":  "NVIDIACorp.NVIDIAControlPanel",
+        "Version":  "8.1.969.0",
+        "InstallLocation":  "C:\\Program Files\\WindowsApps\\NVIDIACorp.NVIDIAControlPanel_8.1.969.0_x64__56jybvy8sckqj"
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "cancelled",
+  "created_utc": "2026-10-23T12:17:09.345176+00:00",
+  "planned_duration_s": 30,
+  "timeline_started_utc": "2026-10-23T12:17:09.347449+00:00",
+  "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\wsl_windows_launch\\parent_pipe_closed",
+  "error": "ExperimentCancelled: 实验已取消",
+  "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+  "finished_utc": "2026-10-23T12:17:10.354398+00:00",
+  "elapsed_s": 1.006940899998881,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": []
+}

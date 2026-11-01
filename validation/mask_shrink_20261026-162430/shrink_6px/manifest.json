@@ -1,0 +1,27 @@
+{
+  "schema": "derived_mask_erosion_v1",
+  "status": "PENDING_USER_SELECTION",
+  "parent_dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-153909",
+  "parent_reference": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-153447_b388c85c24/manifest.json",
+    "sha256": "56308484dce63ee509e7c1dea961692027dd79fefbdb7ae44994e65080c82bef",
+    "saved_at": "2026-10-26T15:34:47.962635+01:00"
+  },
+  "parent_mask_sha256": "6eb4f1fd518f03cf738ca148fb2655cc02bd3ae464fd310ce81256719da1e882",
+  "distance_px": 6.0,
+  "section_distances_px": null,
+  "distance_map": null,
+  "mask_sha256": "cea9e391045d928e5b48101e0669caf52308a04df683ae9e169b451afcfad016",
+  "image_wh": [
+    1280,
+    1024
+  ],
+  "algorithm": "OpenCV DIST_L2 / DIST_MASK_PRECISE; retain distance > radius",
+  "image_border": "No zero padding; open image edges are not walls",
+  "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "mask_values": {
+    "allowed": 255,
+    "excluded": 0
+  },
+  "section_provenance": null
+}

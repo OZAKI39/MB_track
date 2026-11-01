@@ -1,0 +1,64 @@
+{
+  "unit_tests_passed": 65,
+  "unit_test_files": [
+    "test_tracking_latency.py",
+    "test_camera_tracking.py",
+    "test_parallel_video.py",
+    "test_streamcopy_recording.py",
+    "test_simulated_rtsp_control.py",
+    "test_windows_camera_sim.py"
+  ],
+  "ruff_passed": true,
+  "acknowledgement_checks": {
+    "A": {
+      "each_sent_frame_acknowledged": true,
+      "each_analyzed_frame_acknowledged": true,
+      "all_window_packets_decoded": true,
+      "no_ack_error": true,
+      "causal_bounds_valid": true,
+      "wsl_components_add_up": true,
+      "nonnegative_communication_residual": true
+    },
+    "B": {
+      "each_sent_frame_acknowledged": true,
+      "each_analyzed_frame_acknowledged": true,
+      "all_window_packets_decoded": true,
+      "no_ack_error": true,
+      "causal_bounds_valid": true,
+      "wsl_components_add_up": true,
+      "nonnegative_communication_residual": true
+    }
+  },
+  "science_and_recording_checks": true,
+  "source_sha256": {
+    "customer_workspace/tracking_latency.py": "437ab0bb1da2c0d46656ce5c1a6a09409b1b1a9f053da8275a34673f6d9da004",
+    "customer_workspace/parallel_camera.py": "fe11b7c9f5ec8b020471dd20e058098e7f7c7fb495689d84cc47861d79fbf493",
+    "customer_workspace/parallel_camera_bridge.py": "62b31cebc26d475198e9d5a2e666a28799da3ec3bb3b773f0fb25ce102e76e9e",
+    "customer_workspace/parallel_video_check.py": "4b5902dcddd23b52ffe67f87901f5972535e7fc377f7b4d8b03568c2a6b25656",
+    "customer_workspace/tools/pipe_latency_check.py": "6736d2bff0f4784c7c14a187f5ee9dc4e5b2103a7b08ed82150108a02829b3aa",
+    "customer_workspace/tools/tracking_latency_report.py": "6294b0afd768a6e65f26abeb455852e7f0f4fadac0f7ac04524b469b857ff0f2",
+    "customer_workspace/tests/test_tracking_latency.py": "c66e4878b534211542b12a1e03b4eee97d52a41cf909355b521eb4fdd3b31e9d",
+    "customer_workspace/README.md": "0f3f6f54a280746088f02db95df759fc2f3af8eaf681e6105f8f1a850f4512af"
+  },
+  "simulator_shutdown": [
+    {
+      "name": "publish_expB",
+      "pid": 42568,
+      "exit_code": 0,
+      "publisher_forced_termination": false
+    },
+    {
+      "name": "publish_expA",
+      "pid": 4588,
+      "exit_code": 0,
+      "publisher_forced_termination": false
+    },
+    {
+      "name": "mediamtx",
+      "pid": 46584,
+      "exit_code": 1,
+      "publisher_forced_termination": false
+    }
+  ],
+  "hardware_used": false
+}

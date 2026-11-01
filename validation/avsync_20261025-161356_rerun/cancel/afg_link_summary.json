@@ -1,0 +1,4779 @@
+{
+  "experiment_id": "f12370e8da314eccab7b6575ab6f014a",
+  "validation_mode": "cancel",
+  "error": {
+    "type": "ExperimentCancelled",
+    "message": "实验已取消",
+    "traceback": "Traceback (most recent call last):\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_video_control.py\", line 242, in run\n    runner.run(plan, output / \"afg_experiment\")\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 457, in run\n    return self._run_plan(plan, output_dir, log)\n           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 685, in _run_plan\n    raise problem\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 524, in _run_plan\n    self._wait_until(step.at_s)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_video_control.py\", line 146, in _wait_until\n    super()._wait_until(planned_s)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\four_pzt_validation.py\", line 268, in _wait_until\n    super()._wait_until(planned_s)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 299, in _wait_until\n    wait_until(self._start_s + planned_s, self._cancel)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 59, in wait_until\n    check_cancelled(cancel_event)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\experiment_runner.py\", line 43, in check_cancelled\n    raise ExperimentCancelled(\"实验已取消\")\ncustomer_workspace.experiment_runner.ExperimentCancelled: 实验已取消\n"
+  },
+  "checks": [
+    {
+      "phase": "stable",
+      "step_at_s": 0,
+      "planned_check_s": 1.0,
+      "deadline_s": 2.75,
+      "started_s": 1.0000134000147227,
+      "expected": {
+        "PZT1": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        },
+        "PZT2": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        },
+        "PZT3": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        },
+        "PZT4": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        }
+      },
+      "channels": {
+        "PZT1": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        },
+        "PZT2": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        },
+        "PZT3": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        },
+        "PZT4": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        }
+      },
+      "queries": [
+        {
+          "target": "PZT1",
+          "command": "OUTPut1:STATe?",
+          "started_s": 1.000069400004577,
+          "reply": "1",
+          "finished_s": 1.0168736999912653
+        },
+        {
+          "target": "PZT1",
+          "command": "SOURce1:FREQuency:FIXed?",
+          "started_s": 1.0170991999912076,
+          "reply": "2.500000e+06",
+          "finished_s": 1.052432399999816
+        },
+        {
+          "target": "PZT1",
+          "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 1.0525820000038948,
+          "reply": "1.000000e-03",
+          "finished_s": 1.0883568999997806
+        },
+        {
+          "target": "PZT2",
+          "command": "OUTPut2:STATe?",
+          "started_s": 1.0885813999921083,
+          "reply": "1",
+          "finished_s": 1.1238239000085741
+        },
+        {
+          "target": "PZT2",
+          "command": "SOURce2:FREQuency:FIXed?",
+          "started_s": 1.1239792999986093,
+          "reply": "2.500000e+06",
+          "finished_s": 1.1596948000078555
+        },
+        {
+          "target": "PZT2",
+          "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 1.1598451000172645,
+          "reply": "1.000000e-03",
+          "finished_s": 1.1955885000061244
+        },
+        {
+          "target": "PZT3",
+          "command": "OUTPut1:STATe?",
+          "started_s": 1.1958604000101332,
+          "reply": "1",
+          "finished_s": 1.2050637000065763
+        },
+        {
+          "target": "PZT3",
+          "command": "SOURce1:FREQuency:FIXed?",
+          "started_s": 1.2052309999999125,
+          "reply": "2.500000e+06",
+          "finished_s": 1.2402435000112746
+        },
+        {
+          "target": "PZT3",
+          "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 1.2403932000161149,
+          "reply": "1.000000e-03",
+          "finished_s": 1.2754017999977805
+        },
+        {
+          "target": "PZT4",
+          "command": "OUTPut2:STATe?",
+          "started_s": 1.2755451000120956,
+          "reply": "1",
+          "finished_s": 1.310760599997593
+        },
+        {
+          "target": "PZT4",
+          "command": "SOURce2:FREQuency:FIXed?",
+          "started_s": 1.3110083999927156,
+          "reply": "2.500000e+06",
+          "finished_s": 1.3460111000167672
+        },
+        {
+          "target": "PZT4",
+          "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 1.3461810000007972,
+          "reply": "1.000000e-03",
+          "finished_s": 1.3812517000187654
+        },
+        {
+          "target": "A",
+          "command": "SYSTem:ERRor:NEXT?",
+          "started_s": 1.3813754000002518,
+          "reply": "0,\"No error\"",
+          "finished_s": 1.4077009000175167
+        },
+        {
+          "target": "B",
+          "command": "SYSTem:ERRor:NEXT?",
+          "started_s": 1.4078554000006989,
+          "reply": "0,\"No error\"",
+          "finished_s": 1.4165226999903098
+        }
+      ],
+      "error_queue_replies": {
+        "A": "0,\"No error\"",
+        "B": "0,\"No error\""
+      },
+      "problems": [],
+      "passed": true,
+      "finished_s": 1.4167674999916926,
+      "io_counts": {
+        "A": {
+          "write_calls": 0,
+          "read_calls": 0,
+          "query_calls": 7,
+          "query_commands": 7
+        },
+        "B": {
+          "write_calls": 0,
+          "read_calls": 0,
+          "query_calls": 7,
+          "query_commands": 7
+        }
+      }
+    },
+    {
+      "phase": "stable",
+      "step_at_s": 3,
+      "planned_check_s": 4.0,
+      "deadline_s": 5.75,
+      "started_s": 4.000011500000255,
+      "expected": {
+        "PZT1": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.8
+        },
+        "PZT2": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        },
+        "PZT3": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        },
+        "PZT4": {
+          "output": true,
+          "frequency_hz": 2500000,
+          "amplitude_vpp": 0.001
+        }
+      },
+      "channels": {
+        "PZT1": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.8
+        },
+        "PZT2": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        },
+        "PZT3": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        },
+        "PZT4": {
+          "output": true,
+          "frequency_hz": 2500000.0,
+          "amplitude_vpp": 0.001
+        }
+      },
+      "queries": [
+        {
+          "target": "PZT1",
+          "command": "OUTPut1:STATe?",
+          "started_s": 4.000052799994592,
+          "reply": "1",
+          "finished_s": 4.013188300014008
+        },
+        {
+          "target": "PZT1",
+          "command": "SOURce1:FREQuency:FIXed?",
+          "started_s": 4.013343300000997,
+          "reply": "2.500000e+06",
+          "finished_s": 4.048502899997402
+        },
+        {
+          "target": "PZT1",
+          "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 4.048630000004778,
+          "reply": "8.000000e-01",
+          "finished_s": 4.084356600011233
+        },
+        {
+          "target": "PZT2",
+          "command": "OUTPut2:STATe?",
+          "started_s": 4.084523300000001,
+          "reply": "1",
+          "finished_s": 4.120119500003057
+        },
+        {
+          "target": "PZT2",
+          "command": "SOURce2:FREQuency:FIXed?",
+          "started_s": 4.120305599994026,
+          "reply": "2.500000e+06",
+          "finished_s": 4.155950699991081
+        },
+        {
+          "target": "PZT2",
+          "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 4.15613210000447,
+          "reply": "1.000000e-03",
+          "finished_s": 4.191760000016075
+        },
+        {
+          "target": "PZT3",
+          "command": "OUTPut1:STATe?",
+          "started_s": 4.192031100013992,
+          "reply": "1",
+          "finished_s": 4.201169500011019
+        },
+        {
+          "target": "PZT3",
+          "command": "SOURce1:FREQuency:FIXed?",
+          "started_s": 4.2013304000138305,
+          "reply": "2.500000e+06",
+          "finished_s": 4.236597000010079
+        },
+        {
+          "target": "PZT3",
+          "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 4.236815900017973,
+          "reply": "1.000000e-03",
+          "finished_s": 4.271840900008101
+        },
+        {
+          "target": "PZT4",
+          "command": "OUTPut2:STATe?",
+          "started_s": 4.27213210001355,
+          "reply": "1",
+          "finished_s": 4.306725600006757
+        },
+        {
+          "target": "PZT4",
+          "command": "SOURce2:FREQuency:FIXed?",
+          "started_s": 4.306980900000781,
+          "reply": "2.500000e+06",
+          "finished_s": 4.341996800008928
+        },
+        {
+          "target": "PZT4",
+          "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+          "started_s": 4.342175199999474,
+          "reply": "1.000000e-03",
+          "finished_s": 4.377115100010997
+        },
+        {
+          "target": "A",
+          "command": "SYSTem:ERRor:NEXT?",
+          "started_s": 4.377243199996883,
+          "reply": "0,\"No error\"",
+          "finished_s": 4.38363309999113
+        },
+        {
+          "target": "B",
+          "command": "SYSTem:ERRor:NEXT?",
+          "started_s": 4.383826300007058,
+          "reply": "0,\"No error\"",
+          "finished_s": 4.412141900014831
+        }
+      ],
+      "error_queue_replies": {
+        "A": "0,\"No error\"",
+        "B": "0,\"No error\""
+      },
+      "problems": [],
+      "passed": true,
+      "finished_s": 4.412311099993531,
+      "io_counts": {
+        "A": {
+          "write_calls": 0,
+          "read_calls": 0,
+          "query_calls": 7,
+          "query_commands": 7
+        },
+        "B": {
+          "write_calls": 0,
+          "read_calls": 0,
+          "query_calls": 7,
+          "query_commands": 7
+        }
+      }
+    }
+  ],
+  "requests": [
+    {
+      "kind": "cancel",
+      "planned_s": 4.5,
+      "windows_s": 241313.6125214
+    }
+  ],
+  "postflight": {
+    "all_outputs_off": true,
+    "devices": {
+      "A": {
+        "resource": "USB::0x0699::0x0353::2147075::INSTR",
+        "manufacturer": "TEKTRONIX",
+        "model": "AFG1062",
+        "serial": "2147075",
+        "firmware": "SCPI:99.0 FV:V1.0.9"
+      },
+      "B": {
+        "resource": "USB::0x0699::0x0353::2439003::INSTR",
+        "manufacturer": "TEKTRONIX",
+        "model": "AFG1062",
+        "serial": "2439003",
+        "firmware": "SCPI:99.0 FV:V1.1.0"
+      }
+    },
+    "initial_channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.8,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      }
+    },
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.8,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        }
+      }
+    },
+    "confirmed_windows_s": 241314.8290647
+  },
+  "clock_before": {
+    "identity": {
+      "experiment_id": "f12370e8da314eccab7b6575ab6f014a",
+      "host": "烤鸡",
+      "os": "nt",
+      "pid": 32260,
+      "python": "3.14.2",
+      "clock": "windows_monotonic",
+      "monotonic": {
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "perf_counter": {
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "windows_s": 241304.6634739
+    },
+    "samples": [
+      {
+        "a1": 241304.6640552,
+        "b2": 241304.664234,
+        "b3": 241304.6642349,
+        "a4": 241304.664313
+      },
+      {
+        "a1": 241304.6647473,
+        "b2": 241304.6650043,
+        "b3": 241304.6650049,
+        "a4": 241304.6650758
+      },
+      {
+        "a1": 241304.6770413,
+        "b2": 241304.6771581,
+        "b3": 241304.677159,
+        "a4": 241304.6772415
+      },
+      {
+        "a1": 241304.6909851,
+        "b2": 241304.6911201,
+        "b3": 241304.6911209,
+        "a4": 241304.6912007
+      },
+      {
+        "a1": 241304.6917065,
+        "b2": 241304.6918894,
+        "b3": 241304.6918902,
+        "a4": 241304.6920141
+      },
+      {
+        "a1": 241304.7066541,
+        "b2": 241304.7068615,
+        "b3": 241304.7068626,
+        "a4": 241304.7069436
+      },
+      {
+        "a1": 241304.7074594,
+        "b2": 241304.7076264,
+        "b3": 241304.7076271,
+        "a4": 241304.7076962
+      },
+      {
+        "a1": 241304.7254724,
+        "b2": 241304.725683,
+        "b3": 241304.7256841,
+        "a4": 241304.7257953
+      },
+      {
+        "a1": 241304.7264204,
+        "b2": 241304.7265013,
+        "b3": 241304.726502,
+        "a4": 241304.726568
+      },
+      {
+        "a1": 241304.7369926,
+        "b2": 241304.7371113,
+        "b3": 241304.737112,
+        "a4": 241304.7372043
+      },
+      {
+        "a1": 241304.7377329,
+        "b2": 241304.7378202,
+        "b3": 241304.7378212,
+        "a4": 241304.7378894
+      },
+      {
+        "a1": 241304.7514794,
+        "b2": 241304.7516248,
+        "b3": 241304.7516259,
+        "a4": 241304.7517424
+      }
+    ],
+    "offset_interval_s": [
+      -6.600000779144466e-05,
+      8.090000483207405e-05
+    ],
+    "applied_offset_s": 0,
+    "meaning": "同机Windows公共时钟；包络仅为软件核对，不是曝光同步误差"
+  },
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "clock_after": {
+    "identity": {
+      "experiment_id": "f12370e8da314eccab7b6575ab6f014a",
+      "host": "烤鸡",
+      "os": "nt",
+      "pid": 32260,
+      "python": "3.14.2",
+      "clock": "windows_monotonic",
+      "monotonic": {
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "perf_counter": {
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "windows_s": 241314.8313027
+    },
+    "samples": [
+      {
+        "a1": 241314.8320863,
+        "b2": 241314.832274,
+        "b3": 241314.8322749,
+        "a4": 241314.8325064
+      },
+      {
+        "a1": 241314.8331531,
+        "b2": 241314.8332811,
+        "b3": 241314.8332817,
+        "a4": 241314.8333583
+      },
+      {
+        "a1": 241314.8338602,
+        "b2": 241314.8340235,
+        "b3": 241314.8340242,
+        "a4": 241314.8341006
+      },
+      {
+        "a1": 241314.8347314,
+        "b2": 241314.8348389,
+        "b3": 241314.8348397,
+        "a4": 241314.8349159
+      },
+      {
+        "a1": 241314.8353107,
+        "b2": 241314.8354029,
+        "b3": 241314.8354036,
+        "a4": 241314.8354798
+      },
+      {
+        "a1": 241314.8542837,
+        "b2": 241314.8548908,
+        "b3": 241314.8548923,
+        "a4": 241314.8550325
+      },
+      {
+        "a1": 241314.8557339,
+        "b2": 241314.8558497,
+        "b3": 241314.8558505,
+        "a4": 241314.8559281
+      },
+      {
+        "a1": 241314.856461,
+        "b2": 241314.8565709,
+        "b3": 241314.8565714,
+        "a4": 241314.8566521
+      },
+      {
+        "a1": 241314.8571163,
+        "b2": 241314.8572111,
+        "b3": 241314.857212,
+        "a4": 241314.857287
+      },
+      {
+        "a1": 241314.8576914,
+        "b2": 241314.8597883,
+        "b3": 241314.8597897,
+        "a4": 241314.8600096
+      },
+      {
+        "a1": 241314.8607022,
+        "b2": 241314.8608017,
+        "b3": 241314.8608022,
+        "a4": 241314.8608905
+      },
+      {
+        "a1": 241314.8613257,
+        "b2": 241314.8643052,
+        "b3": 241314.8643062,
+        "a4": 241314.8644233
+      }
+    ],
+    "offset_interval_s": [
+      -7.619999814778566e-05,
+      9.220000356435776e-05
+    ],
+    "applied_offset_s": 0,
+    "meaning": "同机Windows公共时钟；包络仅为软件核对，不是曝光同步误差"
+  },
+  "origin": {
+    "experiment_id": "f12370e8da314eccab7b6575ab6f014a",
+    "origin_windows_s": 241309.0949496,
+    "first_frame_seq": 274,
+    "first_frame_pts_ns": 5933333333,
+    "observed_windows_s": 241309.1169622
+  },
+  "communication": [
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241304.9659445,
+      "status": "returned",
+      "finished_windows_s": 241304.9662206
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241304.9662264,
+      "reply": "0",
+      "finished_windows_s": 241304.9685781
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241304.9685722
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241304.9685896,
+      "status": "returned",
+      "finished_windows_s": 241304.9687312
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241304.9687356,
+      "reply": "0",
+      "finished_windows_s": 241305.0046585
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.0046499
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241305.0046649,
+      "status": "returned",
+      "finished_windows_s": 241305.0049056
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241305.0049088,
+      "reply": "0",
+      "finished_windows_s": 241305.0181822
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.018176
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241305.0181921,
+      "status": "returned",
+      "finished_windows_s": 241305.0184456
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241305.0184506,
+      "reply": "0",
+      "finished_windows_s": 241305.053148
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.0531434
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241305.0539348,
+      "status": "returned",
+      "finished_windows_s": 241305.0541339
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241305.0541374,
+      "reply": "0",
+      "finished_windows_s": 241305.0612987
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.0612941
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241305.0613082,
+      "status": "returned",
+      "finished_windows_s": 241305.0614803
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241305.0614841,
+      "reply": "0",
+      "finished_windows_s": 241305.0971161
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.0971114
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241305.0971254,
+      "status": "returned",
+      "finished_windows_s": 241305.0973403
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241305.0973438,
+      "reply": "0",
+      "finished_windows_s": 241305.1106562
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.110651
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241305.1106643,
+      "status": "returned",
+      "finished_windows_s": 241305.1108747
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241305.1108785,
+      "reply": "0",
+      "finished_windows_s": 241305.1458509
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.1458439
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.1458692,
+      "status": "returned",
+      "finished_windows_s": 241305.1461075
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.1461157,
+      "status": "returned",
+      "finished_windows_s": 241305.1462696
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.1462737,
+      "status": "returned",
+      "finished_windows_s": 241305.1463994
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.1464014,
+      "status": "returned",
+      "finished_windows_s": 241305.146496
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241305.1465051,
+      "status": "returned",
+      "finished_windows_s": 241305.1465928
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241305.1465949,
+      "reply": "0",
+      "finished_windows_s": 241305.1687483
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.1687259
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.1687732,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.2044727
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.2044637
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.2045151,
+      "status": "returned",
+      "finished_windows_s": 241305.2048227
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:BURSt:STATe OFF",
+      "started_windows_s": 241305.2048262,
+      "status": "returned",
+      "finished_windows_s": 241305.2050432
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FREQuency:MODE CW",
+      "started_windows_s": 241305.2050462,
+      "status": "returned",
+      "finished_windows_s": 241305.2052455
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:AM:STATe OFF",
+      "started_windows_s": 241305.2052471,
+      "status": "returned",
+      "finished_windows_s": 241305.2053395
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FM:STATe OFF",
+      "started_windows_s": 241305.2053408,
+      "status": "returned",
+      "finished_windows_s": 241305.2054214
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:PM:STATe OFF",
+      "started_windows_s": 241305.2054226,
+      "status": "returned",
+      "finished_windows_s": 241305.2054997
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:PWM:STATe OFF",
+      "started_windows_s": 241305.2055008,
+      "status": "returned",
+      "finished_windows_s": 241305.2055784
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FSKey:STATe OFF",
+      "started_windows_s": 241305.2055795,
+      "status": "returned",
+      "finished_windows_s": 241305.2056564
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:ASKey:STATe OFF",
+      "started_windows_s": 241305.2056574,
+      "status": "returned",
+      "finished_windows_s": 241305.2057349
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:PSKey:STATe OFF",
+      "started_windows_s": 241305.2057359,
+      "status": "returned",
+      "finished_windows_s": 241305.205832
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FUNCtion:SHAPe SINusoid",
+      "started_windows_s": 241305.2058332,
+      "status": "returned",
+      "finished_windows_s": 241305.2060529
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:IMPedance 50",
+      "started_windows_s": 241305.2060549,
+      "status": "returned",
+      "finished_windows_s": 241305.2062099
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet 0V",
+      "started_windows_s": 241305.2062126,
+      "status": "returned",
+      "finished_windows_s": 241305.2063587
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.001Vpp",
+      "started_windows_s": 241305.2063601,
+      "status": "returned",
+      "finished_windows_s": 241305.2064836
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed 2500000Hz",
+      "started_windows_s": 241305.2064864,
+      "status": "returned",
+      "finished_windows_s": 241305.206633
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:PHASe:ADJust 0DEG",
+      "started_windows_s": 241305.2066356,
+      "status": "returned",
+      "finished_windows_s": 241305.2067736
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "*WAI",
+      "started_windows_s": 241305.2067765,
+      "status": "returned",
+      "finished_windows_s": 241305.2069496
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.2069548,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.2446706
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.2446638
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?",
+      "started_windows_s": 241305.2447054,
+      "status": "returned",
+      "finished_windows_s": 241305.2449543
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.2804794
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241305.2852119
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241305.2899229
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241305.2948595
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241305.3000499
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.3049446
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.3096229
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241305.3144464
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.319103
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241305.323857
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3286887
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3334524
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3383801
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.343103
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3477759
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3525752
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3575035
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241305.3575958,
+      "status": "returned",
+      "finished_windows_s": 241305.3578649
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241305.3578703,
+      "reply": "0",
+      "finished_windows_s": 241305.3934672
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.3934595
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.3934782,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.4290539
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.4290427
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.4291039,
+      "status": "returned",
+      "finished_windows_s": 241305.4293567
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:BURSt:STATe OFF",
+      "started_windows_s": 241305.4293613,
+      "status": "returned",
+      "finished_windows_s": 241305.4296072
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FREQuency:MODE CW",
+      "started_windows_s": 241305.4296103,
+      "status": "returned",
+      "finished_windows_s": 241305.4297755
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:AM:STATe OFF",
+      "started_windows_s": 241305.4297781,
+      "status": "returned",
+      "finished_windows_s": 241305.4299079
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FM:STATe OFF",
+      "started_windows_s": 241305.4299096,
+      "status": "returned",
+      "finished_windows_s": 241305.4300284
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:PM:STATe OFF",
+      "started_windows_s": 241305.4300303,
+      "status": "returned",
+      "finished_windows_s": 241305.4301792
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:PWM:STATe OFF",
+      "started_windows_s": 241305.4301821,
+      "status": "returned",
+      "finished_windows_s": 241305.4303807
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FSKey:STATe OFF",
+      "started_windows_s": 241305.4303835,
+      "status": "returned",
+      "finished_windows_s": 241305.4305431
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:ASKey:STATe OFF",
+      "started_windows_s": 241305.4305457,
+      "status": "returned",
+      "finished_windows_s": 241305.4307386
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:PSKey:STATe OFF",
+      "started_windows_s": 241305.4307412,
+      "status": "returned",
+      "finished_windows_s": 241305.4308976
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FUNCtion:SHAPe SINusoid",
+      "started_windows_s": 241305.4309002,
+      "status": "returned",
+      "finished_windows_s": 241305.431036
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:IMPedance 50",
+      "started_windows_s": 241305.4310384,
+      "status": "returned",
+      "finished_windows_s": 241305.431227
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet 0V",
+      "started_windows_s": 241305.4312301,
+      "status": "returned",
+      "finished_windows_s": 241305.4313981
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude 0.001Vpp",
+      "started_windows_s": 241305.4314002,
+      "status": "returned",
+      "finished_windows_s": 241305.4315587
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed 2500000Hz",
+      "started_windows_s": 241305.4315612,
+      "status": "returned",
+      "finished_windows_s": 241305.431748
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce2:PHASe:ADJust 0DEG",
+      "started_windows_s": 241305.4317549,
+      "status": "returned",
+      "finished_windows_s": 241305.4319051
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "*WAI",
+      "started_windows_s": 241305.4319098,
+      "status": "returned",
+      "finished_windows_s": 241305.4320851
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.4320914,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.4691628
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.4691379
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?",
+      "started_windows_s": 241305.4692132,
+      "status": "returned",
+      "finished_windows_s": 241305.46948
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5050662
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241305.5097466
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241305.514512
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241305.5193738
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241305.5246755
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.5295167
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.5342711
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241305.5391206
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5437936
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241305.5485491
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5535127
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.558422
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.562816
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5676743
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5730564
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5775172
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5824297
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241305.5825954,
+      "status": "returned",
+      "finished_windows_s": 241305.5830136
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241305.5830204,
+      "reply": "0",
+      "finished_windows_s": 241305.58977
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.5897629
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.5897795,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.6246726
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.6246649
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.6246999,
+      "status": "returned",
+      "finished_windows_s": 241305.6249188
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:BURSt:STATe OFF",
+      "started_windows_s": 241305.6249222,
+      "status": "returned",
+      "finished_windows_s": 241305.6250377
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FREQuency:MODE CW",
+      "started_windows_s": 241305.6250398,
+      "status": "returned",
+      "finished_windows_s": 241305.6251634
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:AM:STATe OFF",
+      "started_windows_s": 241305.625165,
+      "status": "returned",
+      "finished_windows_s": 241305.625256
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FM:STATe OFF",
+      "started_windows_s": 241305.6252572,
+      "status": "returned",
+      "finished_windows_s": 241305.625351
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:PM:STATe OFF",
+      "started_windows_s": 241305.6253525,
+      "status": "returned",
+      "finished_windows_s": 241305.6254458
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:PWM:STATe OFF",
+      "started_windows_s": 241305.6254487,
+      "status": "returned",
+      "finished_windows_s": 241305.6255366
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FSKey:STATe OFF",
+      "started_windows_s": 241305.6255381,
+      "status": "returned",
+      "finished_windows_s": 241305.6256866
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:ASKey:STATe OFF",
+      "started_windows_s": 241305.6256899,
+      "status": "returned",
+      "finished_windows_s": 241305.6258455
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:PSKey:STATe OFF",
+      "started_windows_s": 241305.625848,
+      "status": "returned",
+      "finished_windows_s": 241305.625986
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FUNCtion:SHAPe SINusoid",
+      "started_windows_s": 241305.6259889,
+      "status": "returned",
+      "finished_windows_s": 241305.6261087
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:IMPedance 50",
+      "started_windows_s": 241305.6261174,
+      "status": "returned",
+      "finished_windows_s": 241305.6262179
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet 0V",
+      "started_windows_s": 241305.6262194,
+      "status": "returned",
+      "finished_windows_s": 241305.6263088
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.001Vpp",
+      "started_windows_s": 241305.6263103,
+      "status": "returned",
+      "finished_windows_s": 241305.626403
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed 2500000Hz",
+      "started_windows_s": 241305.6264042,
+      "status": "returned",
+      "finished_windows_s": 241305.6264911
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce1:PHASe:ADJust 0DEG",
+      "started_windows_s": 241305.6264922,
+      "status": "returned",
+      "finished_windows_s": 241305.6265766
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "*WAI",
+      "started_windows_s": 241305.6265782,
+      "status": "returned",
+      "finished_windows_s": 241305.6266623
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.6266668,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.6648792
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.6648684
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?",
+      "started_windows_s": 241305.6649347,
+      "status": "returned",
+      "finished_windows_s": 241305.665275
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.6998728
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241305.7045402
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241305.7093329
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241305.7140445
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241305.7189026
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.7239208
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.7288133
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241305.7338603
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.7383229
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241305.7431464
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.7479643
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.752935
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.7573364
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.7621761
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.7670931
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.7719381
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.776706
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241305.7767772,
+      "status": "returned",
+      "finished_windows_s": 241305.7770156
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241305.77702,
+      "reply": "0",
+      "finished_windows_s": 241305.812079
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.8120647
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.8120962,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.8471046
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.847099
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent OFF",
+      "started_windows_s": 241305.8471285,
+      "status": "returned",
+      "finished_windows_s": 241305.8473442
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:BURSt:STATe OFF",
+      "started_windows_s": 241305.8473473,
+      "status": "returned",
+      "finished_windows_s": 241305.8474799
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FREQuency:MODE CW",
+      "started_windows_s": 241305.8474828,
+      "status": "returned",
+      "finished_windows_s": 241305.8476141
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:AM:STATe OFF",
+      "started_windows_s": 241305.8476156,
+      "status": "returned",
+      "finished_windows_s": 241305.8477166
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FM:STATe OFF",
+      "started_windows_s": 241305.8477189,
+      "status": "returned",
+      "finished_windows_s": 241305.847815
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:PM:STATe OFF",
+      "started_windows_s": 241305.8478165,
+      "status": "returned",
+      "finished_windows_s": 241305.8479054
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:PWM:STATe OFF",
+      "started_windows_s": 241305.8479072,
+      "status": "returned",
+      "finished_windows_s": 241305.8480207
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FSKey:STATe OFF",
+      "started_windows_s": 241305.848022,
+      "status": "returned",
+      "finished_windows_s": 241305.8481029
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:ASKey:STATe OFF",
+      "started_windows_s": 241305.8481076,
+      "status": "returned",
+      "finished_windows_s": 241305.8481958
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:PSKey:STATe OFF",
+      "started_windows_s": 241305.8481975,
+      "status": "returned",
+      "finished_windows_s": 241305.8484354
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FUNCtion:SHAPe SINusoid",
+      "started_windows_s": 241305.848438,
+      "status": "returned",
+      "finished_windows_s": 241305.8485875
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:IMPedance 50",
+      "started_windows_s": 241305.8485902,
+      "status": "returned",
+      "finished_windows_s": 241305.8487079
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet 0V",
+      "started_windows_s": 241305.8487099,
+      "status": "returned",
+      "finished_windows_s": 241305.8488164
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude 0.001Vpp",
+      "started_windows_s": 241305.848818,
+      "status": "returned",
+      "finished_windows_s": 241305.8490673
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed 2500000Hz",
+      "started_windows_s": 241305.8490697,
+      "status": "returned",
+      "finished_windows_s": 241305.8493342
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SOURce2:PHASe:ADJust 0DEG",
+      "started_windows_s": 241305.8493389,
+      "status": "returned",
+      "finished_windows_s": 241305.8494904
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "*WAI",
+      "started_windows_s": 241305.849493,
+      "status": "returned",
+      "finished_windows_s": 241305.8496261
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241305.8496298,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241305.886991
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241305.8869799
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?",
+      "started_windows_s": 241305.8870478,
+      "status": "returned",
+      "finished_windows_s": 241305.887347
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9221211
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241305.9269234
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241305.9317366
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241305.9365659
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241305.9417409
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.9464061
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241305.9512366
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241305.9559649
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9608269
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241305.965653
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.970492
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9754765
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9804315
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9846662
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9897192
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9943809
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241305.9995924
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?;SOURce2:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.0013193,
+      "status": "returned",
+      "finished_windows_s": 241306.0018805
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.0033082
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0083489
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.0129962
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.0178047
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.022978
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.0276793
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.0326725
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.0373734
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.04213
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0471359
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.0516907
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0565896
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0613277
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0661091
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0708897
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0756562
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0805776
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.0853608
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.0899737
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.0951075
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?;SOURce1:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.0952114,
+      "status": "returned",
+      "finished_windows_s": 241306.0955781
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.1308941
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.1354662
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.1404125
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.1452329
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.1499468
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.1548856
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.1596423
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.164625
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.1694727
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.1742419
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.1790001
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.1839424
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.1885308
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.1932112
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.1980432
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2028701
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2078099
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2125584
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.217222
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.2220301
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?;SOURce2:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.2221037,
+      "status": "returned",
+      "finished_windows_s": 241306.2223132
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.2273365
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2322802
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.2370617
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.2419351
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.2469934
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.2516439
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.2564964
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.2612655
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.2659601
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2708524
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.2759796
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2805292
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2852913
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2900059
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2949318
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.2999622
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.3046645
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.3096049
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.3141759
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.3189336
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?;SOURce1:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.3190149,
+      "status": "returned",
+      "finished_windows_s": 241306.3193093
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.3541933
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.3589112
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.3638171
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.3685584
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.3736562
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.3786019
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.3835537
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.3881779
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.3928329
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.3976097
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.4023189
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4072531
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4122168
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4168568
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4216781
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4263367
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.43111
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4359585
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.4409426
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.4458354
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.4473109,
+      "status": "returned",
+      "finished_windows_s": 241306.4477171
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.4513201
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4562368
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.4610582
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.4658783
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.4708517
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.4754289
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.4806342
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.4853972
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.4902982
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.4949392
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.4997886
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5045322
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5092456
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5139459
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5187587
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5238043
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5284362
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.5334298
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.5380799
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe ON",
+      "started_windows_s": 241306.538147,
+      "status": "returned",
+      "finished_windows_s": 241306.5383316
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.5383426,
+      "status": "returned",
+      "finished_windows_s": 241306.5384886
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "1",
+      "received_windows_s": 241306.5738279
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.578667
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.5794514,
+      "status": "returned",
+      "finished_windows_s": 241306.5796965
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.614471
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6192664
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.6240537
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.6290154
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.6338383
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.6386545
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.6434763
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.6483546
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.65365
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6580575
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.6629494
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6676751
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6725405
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6771915
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6819142
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6867742
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6915988
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.6964188
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.7012105
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe ON",
+      "started_windows_s": 241306.7012737,
+      "status": "returned",
+      "finished_windows_s": 241306.7014992
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.7015082,
+      "status": "returned",
+      "finished_windows_s": 241306.7016813
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "1",
+      "received_windows_s": 241306.7370238
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.7421604
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.7431434,
+      "status": "returned",
+      "finished_windows_s": 241306.7433762
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.7475859
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.7524236
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.7572763
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.762134
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.7671081
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.7718834
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.7766503
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.7814054
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.7865763
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.7912153
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.7960422
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.8008703
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.8055962
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.8103241
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.8151393
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.8198199
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.824731
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.8294401
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.8343682
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe ON",
+      "started_windows_s": 241306.834431,
+      "status": "returned",
+      "finished_windows_s": 241306.8346819
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.8346949,
+      "status": "returned",
+      "finished_windows_s": 241306.8348692
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "1",
+      "received_windows_s": 241306.8694592
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.8742929
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.8752429,
+      "status": "returned",
+      "finished_windows_s": 241306.8755445
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.909439
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9141702
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241306.9191478
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241306.9240685
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241306.9288307
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241306.9337079
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.9385678
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241306.943472
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241306.9480806
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9528797
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241306.9578198
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9625062
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.967291
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9720907
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9768242
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9816318
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9865152
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241306.9914732
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241306.9963568
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe ON",
+      "started_windows_s": 241306.9964727,
+      "status": "returned",
+      "finished_windows_s": 241306.9968337
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241306.9968507,
+      "status": "returned",
+      "finished_windows_s": 241306.9970839
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "1",
+      "received_windows_s": 241307.0313921
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241307.0363429
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241310.0957584,
+      "reply": "1",
+      "finished_windows_s": 241310.1118097
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "1",
+      "received_windows_s": 241310.1117985
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "started_windows_s": 241310.1123944,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241310.1473748
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241310.1473702
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241310.1477429,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241310.1832944
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241310.1832834
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241310.1837941,
+      "reply": "1",
+      "finished_windows_s": 241310.2187678
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "1",
+      "received_windows_s": 241310.2187628
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "started_windows_s": 241310.2191515,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241310.2546381
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241310.2546331
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241310.2550135,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241310.2905297
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241310.2905233
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241310.2911107,
+      "reply": "1",
+      "finished_windows_s": 241310.300007
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "1",
+      "received_windows_s": 241310.299999
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "started_windows_s": 241310.3004282,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241310.3351847
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241310.3351792
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241310.3355355,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241310.3703457
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241310.3703416
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241310.3706692,
+      "reply": "1",
+      "finished_windows_s": 241310.4057042
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "1",
+      "received_windows_s": 241310.4056988
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "started_windows_s": 241310.4063026,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241310.4409546
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241310.4409501
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241310.4413236,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241310.4761954
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241310.4761906
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241310.4765099,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241310.50264
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241310.5026321
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241310.5031304,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241310.5114559
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241310.5114472
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.8Vpp",
+      "started_windows_s": 241312.0950818,
+      "status": "returned",
+      "finished_windows_s": 241312.0954357
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241313.0954309,
+      "reply": "1",
+      "finished_windows_s": 241313.108127
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "1",
+      "received_windows_s": 241313.1081183
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "started_windows_s": 241313.1084336,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241313.1434468
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241313.1434412
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241313.1437629,
+      "reply": "8.000000e-01",
+      "finished_windows_s": 241313.1793
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "8.000000e-01",
+      "received_windows_s": 241313.179295
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241313.1796788,
+      "reply": "1",
+      "finished_windows_s": 241313.2150609
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "1",
+      "received_windows_s": 241313.2150521
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "started_windows_s": 241313.2154782,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241313.2508893
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241313.2508815
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241313.251236,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241313.2866981
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241313.2866878
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241313.287254,
+      "reply": "1",
+      "finished_windows_s": 241313.2961104
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "1",
+      "received_windows_s": 241313.2961019
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "started_windows_s": 241313.2964243,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241313.3315313
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241313.3315184
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241313.3320193,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241313.3667787
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241313.3667672
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241313.367336,
+      "reply": "1",
+      "finished_windows_s": 241313.401665
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "1",
+      "received_windows_s": 241313.4016552
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "started_windows_s": 241313.4022498,
+      "reply": "2.500000e+06",
+      "finished_windows_s": 241313.436938
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241313.4369314
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "started_windows_s": 241313.4373894,
+      "reply": "1.000000e-03",
+      "finished_windows_s": 241313.472059
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241313.4720539
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.472533,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241313.478572
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.4785625
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.4790113,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241313.5070827
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.5070759
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241313.6127277,
+      "status": "returned",
+      "finished_windows_s": 241313.6133462
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241313.6133534,
+      "reply": "0",
+      "finished_windows_s": 241313.6174997
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.6174938
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241313.617507,
+      "status": "returned",
+      "finished_windows_s": 241313.6177691
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241313.6177751,
+      "reply": "0",
+      "finished_windows_s": 241313.6531134
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.6531074
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241313.6531232,
+      "status": "returned",
+      "finished_windows_s": 241313.6533797
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241313.6533843,
+      "reply": "0",
+      "finished_windows_s": 241313.6667561
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.666751
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241313.6667627,
+      "status": "returned",
+      "finished_windows_s": 241313.6669787
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241313.6669823,
+      "reply": "0",
+      "finished_windows_s": 241313.7019958
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.7019903
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.703723,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241313.7248046
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.7247784
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.7248349,
+      "reply": "0,\"No error\"",
+      "finished_windows_s": 241313.7372068
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.7372015
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?;SOURce2:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.7372449,
+      "status": "returned",
+      "finished_windows_s": 241313.7375531
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.7603563
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.7650792
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241313.7702192
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241313.7749914
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241313.7798869
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "8.000000e-01",
+      "received_windows_s": 241313.7846677
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241313.7894716
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241313.7943585
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241313.7989809
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8037885
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241313.8086346
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.813449
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8183831
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8230532
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8278122
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8325283
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8374127
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.842395
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241313.847239
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.8519135
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?;SOURce1:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.8519915,
+      "status": "returned",
+      "finished_windows_s": 241313.8523281
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.8878436
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.8924533
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241313.8976618
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241313.9021898
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241313.9070548
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241313.9119248
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241313.9167476
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241313.9215108
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241313.9264422
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.9312662
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241313.9360714
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.9411031
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.9455855
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.950472
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.9550772
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.9599884
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.964759
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.9695728
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241313.974458
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.9793457
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut1:STATe?;OUTPut1:IMPedance?;SOURce1:FUNCtion:SHAPe?;SOURce1:FREQuency:FIXed?;SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce1:VOLTage:LEVel:IMMediate:OFFSet?;SOURce1:PHASe:ADJust?;SOURce1:FREQuency:MODE?;SOURce1:BURSt:STATe?;SOURce1:FREQuency:CONCurrent?;SOURce1:AM:STATe?;SOURce1:FM:STATe?;SOURce1:PM:STATe?;SOURce1:PWM:STATe?;SOURce1:FSKey:STATe?;SOURce1:ASKey:STATe?;SOURce1:PSKey:STATe?;SOURce2:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241313.9794227,
+      "status": "returned",
+      "finished_windows_s": 241313.9797233
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241313.9910801
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241313.995829
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241314.0009497
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241314.005602
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241314.01057
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241314.0155136
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241314.0200689
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241314.0249305
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241314.0296917
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0344874
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241314.0392119
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0441913
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0489909
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0537473
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0585625
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0634247
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0683637
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.0731321
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241314.077883
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241314.0827292
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?;OUTPut2:STATe?;OUTPut2:IMPedance?;SOURce2:FUNCtion:SHAPe?;SOURce2:FREQuency:FIXed?;SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?;SOURce2:VOLTage:LEVel:IMMediate:OFFSet?;SOURce2:PHASe:ADJust?;SOURce2:FREQuency:MODE?;SOURce2:BURSt:STATe?;SOURce2:FREQuency:CONCurrent?;SOURce2:AM:STATe?;SOURce2:FM:STATe?;SOURce2:PM:STATe?;SOURce2:PWM:STATe?;SOURce2:FSKey:STATe?;SOURce2:ASKey:STATe?;SOURce2:PSKey:STATe?;SOURce1:FREQuency:CONCurrent?;SYSTem:ERRor:NEXT?",
+      "started_windows_s": 241314.0828571,
+      "status": "returned",
+      "finished_windows_s": 241314.0831904
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241314.1180305
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.122549
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:IMPedance?",
+      "reply": "50",
+      "received_windows_s": 241314.1274152
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FUNCtion:SHAPe?",
+      "reply": "SIN",
+      "received_windows_s": 241314.1322949
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:FIXed?",
+      "reply": "2.500000e+06",
+      "received_windows_s": 241314.1371079
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "reply": "1.000000e-03",
+      "received_windows_s": 241314.1419454
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:VOLTage:LEVel:IMMediate:OFFSet?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241314.1470066
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PHASe:ADJust?",
+      "reply": "0.000000e+00",
+      "received_windows_s": 241314.1516528
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:MODE?",
+      "reply": "CW",
+      "received_windows_s": 241314.156526
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:BURSt:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1614707
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241314.1660638
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:AM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1708782
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1763883
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.180478
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PWM:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1852765
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:FSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1901945
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:ASKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1948667
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce2:PSKey:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.1997284
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SOURce1:FREQuency:CONCurrent?",
+      "reply": "0",
+      "received_windows_s": 241314.2045938
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "SYSTem:ERRor:NEXT?",
+      "reply": "0,\"No error\"",
+      "received_windows_s": 241314.2091773
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241314.2511867,
+      "status": "returned",
+      "finished_windows_s": 241314.2517595
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241314.2517666,
+      "reply": "0",
+      "finished_windows_s": 241314.266092
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.2660865
+    },
+    {
+      "event": "write",
+      "device": "A",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241314.2660982,
+      "status": "returned",
+      "finished_windows_s": 241314.2664694
+    },
+    {
+      "event": "query",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241314.2664749,
+      "reply": "0",
+      "finished_windows_s": 241314.3018128
+    },
+    {
+      "event": "reply",
+      "device": "A",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.3018076
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut1:STATe OFF",
+      "started_windows_s": 241314.301819,
+      "status": "returned",
+      "finished_windows_s": 241314.3020673
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "started_windows_s": 241314.3020718,
+      "reply": "0",
+      "finished_windows_s": 241314.3153958
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut1:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.315391
+    },
+    {
+      "event": "write",
+      "device": "B",
+      "command": "OUTPut2:STATe OFF",
+      "started_windows_s": 241314.3154073,
+      "status": "returned",
+      "finished_windows_s": 241314.3156337
+    },
+    {
+      "event": "query",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "started_windows_s": 241314.3156389,
+      "reply": "0",
+      "finished_windows_s": 241314.3506887
+    },
+    {
+      "event": "reply",
+      "device": "B",
+      "command": "OUTPut2:STATe?",
+      "reply": "0",
+      "received_windows_s": 241314.3506797
+    }
+  ],
+  "expected_status": "cancelled",
+  "actual_status": "cancelled",
+  "passed": true,
+  "finished_windows_s": 241314.8782729
+}

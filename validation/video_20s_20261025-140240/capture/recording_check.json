@@ -1,0 +1,28 @@
+{
+  "passed": false,
+  "problems": [
+    "RuntimeError: ERROR:NameError(\"name 'uuid' is not defined\")",
+    "没有保存任何帧",
+    "未完成指定时长的录像窗口",
+    "原录像器未报告完整保存",
+    "没有生成可核对的视频",
+    "缺少唯一的完整 Windows 接收报告"
+  ],
+  "requested_duration_s": 20.0,
+  "timing": {
+    "passed": false,
+    "problems": [
+      "没有保存任何帧"
+    ]
+  },
+  "videos": [],
+  "recorder_submitted": 0,
+  "recorder_written": 0,
+  "recorder_dropped": 0,
+  "upstream_sequence_skips_within_window": 0,
+  "receiver_reports": [],
+  "afg_accessed": false,
+  "scope": "真实预览接收与录像；不含图像分析、GUI 负载或相机内部高速录像",
+  "timestamp_meaning": "电脑解码及收到画面的时间，不是相机曝光时间",
+  "upstream_camera_frame_loss": "相机源帧编号与曝光时间未知，不能统计解码前所有丢帧"
+}

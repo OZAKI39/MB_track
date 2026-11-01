@@ -1,0 +1,27 @@
+{
+  "changed_existing_files": [
+    "customer_workspace/bubble_region_review.py",
+    "customer_workspace/tests/test_bubble_regions.py",
+    "customer_workspace/README.md"
+  ],
+  "new_files": [
+    "customer_workspace/bubble_region_annotation.py",
+    "customer_workspace/tests/check_bubble_region_gui.py"
+  ],
+  "source_sha256": {
+    "customer_workspace/bubble_region_review.py": "c860cfd8ee42f22b0f4a7d9f6e7e026fc433b7f7570a3817bbeb612b7fae5cbe",
+    "customer_workspace/tests/test_bubble_regions.py": "75a3eda955897eeba9b8450cedb40681247217f02d14b8a43c4c67c538baccd6",
+    "customer_workspace/README.md": "482b0315d79d1055474f401340e7fcb459c8f517cb69217c133a69adcd27bbb3",
+    "customer_workspace/bubble_region_annotation.py": "2468d82f064a255b5579ecc5278e1f618e33a180fdcbbc4f76ee3886ae10c346",
+    "customer_workspace/tests/check_bubble_region_gui.py": "6a17e45d3b97c23a9766979ee040ca6bf542a6e38e912cba1b1d4bb4372d22a7"
+  },
+  "original_review_dataset_unchanged": true,
+  "original_annotation_and_detection_code_unchanged": true,
+  "gui_checks_passed": 16,
+  "pytest_passed": 47,
+  "pytest_elapsed_s": 3.3,
+  "static_and_format_checks": "passed",
+  "actual_entry_and_duplicate_window_protection": "passed",
+  "hardware_commands_sent": false,
+  "human_annotation_confirmation_performed": false
+}

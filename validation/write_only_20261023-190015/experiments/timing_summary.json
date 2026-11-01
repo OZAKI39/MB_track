@@ -1,0 +1,333 @@
+{
+  "requested_runs": 30,
+  "completed_runs": 30,
+  "reliable_runs": 30,
+  "unreliable_runs": 0,
+  "failed_runs": 0,
+  "paired_pulses": 30,
+  "paired_intervals": 30,
+  "control_mode": "amplitude_write_only",
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "run_01",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 2,
+      "directory": "run_02",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 3,
+      "directory": "run_03",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 4,
+      "directory": "run_04",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 5,
+      "directory": "run_05",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 6,
+      "directory": "run_06",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 7,
+      "directory": "run_07",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 8,
+      "directory": "run_08",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 9,
+      "directory": "run_09",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 10,
+      "directory": "run_10",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 11,
+      "directory": "run_11",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 12,
+      "directory": "run_12",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 13,
+      "directory": "run_13",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 14,
+      "directory": "run_14",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 15,
+      "directory": "run_15",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 16,
+      "directory": "run_16",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 17,
+      "directory": "run_17",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 18,
+      "directory": "run_18",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 19,
+      "directory": "run_19",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 20,
+      "directory": "run_20",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 21,
+      "directory": "run_21",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 22,
+      "directory": "run_22",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 23,
+      "directory": "run_23",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 24,
+      "directory": "run_24",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 25,
+      "directory": "run_25",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 26,
+      "directory": "run_26",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 27,
+      "directory": "run_27",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 28,
+      "directory": "run_28",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 29,
+      "directory": "run_29",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    },
+    {
+      "run_index": 30,
+      "directory": "run_30",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    }
+  ],
+  "statistics_ms": {
+    "PZT1": {
+      "active_schedule_delay_ms": {
+        "count": 30,
+        "mean": 5.894846666584878,
+        "median": 5.171199998585507,
+        "sample_stddev": 4.421690478637918,
+        "min": 0.5444999987957999,
+        "max": 19.265499999164604,
+        "range": 18.721000000368804
+      },
+      "idle_schedule_delay_ms": {
+        "count": 30,
+        "mean": 6.088200000037129,
+        "median": 5.25335000565974,
+        "sample_stddev": 4.971329482867813,
+        "min": 0.9341999975731596,
+        "max": 18.632199993589893,
+        "range": 17.697999996016733
+      },
+      "active_before_call_ms": {
+        "count": 30,
+        "mean": 5.8007266668331185,
+        "median": 5.086499993922189,
+        "sample_stddev": 4.414434664816664,
+        "min": 0.49259999650530517,
+        "max": 19.149999992805533,
+        "range": 18.657399996300228
+      },
+      "active_local_prepare_ms": {
+        "count": 30,
+        "mean": 0.09411999975175907,
+        "median": 0.09610000415705144,
+        "sample_stddev": 0.036245755862850185,
+        "min": 0.045900000259280205,
+        "max": 0.1908999984152615,
+        "range": 0.1449999981559813
+      },
+      "idle_before_call_ms": {
+        "count": 30,
+        "mean": 5.9931866664555855,
+        "median": 5.154800004675053,
+        "sample_stddev": 4.9429575102104115,
+        "min": 0.883599990629591,
+        "max": 18.521199992392212,
+        "range": 17.63760000176262
+      },
+      "idle_local_prepare_ms": {
+        "count": 30,
+        "mean": 0.09501333358154322,
+        "median": 0.09560000034980476,
+        "sample_stddev": 0.04667746882659355,
+        "min": 0.0450000079581514,
+        "max": 0.26890001026913524,
+        "range": 0.22390000231098384
+      },
+      "active_write_ms": {
+        "count": 30,
+        "mean": 0.5426200004876591,
+        "median": 0.541599998541642,
+        "sample_stddev": 0.15969944372286382,
+        "min": 0.2835000050254166,
+        "max": 0.8570000063627958,
+        "range": 0.5735000013373792
+      },
+      "idle_write_ms": {
+        "count": 30,
+        "mean": 0.5428966673207469,
+        "median": 0.49250001029577106,
+        "sample_stddev": 0.21880987428211313,
+        "min": 0.3175000019837171,
+        "max": 1.4429000002564862,
+        "range": 1.1253999982727692
+      }
+    }
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "not_measured_write_only_commands_with_round_boundary_checks",
+  "per_command_confirmation": false,
+  "physical_voltage_timing_verified": false
+}

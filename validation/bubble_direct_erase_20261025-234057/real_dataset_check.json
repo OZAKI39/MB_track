@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "annotations_edited": false,
+  "total_frames": 30,
+  "inspected_frames": [
+    1,
+    16,
+    30
+  ],
+  "parameter_module_absent": true,
+  "eraser_available_without_selection": true,
+  "frame_switch_resets_eraser_and_history": true
+}

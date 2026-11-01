@@ -1,0 +1,15 @@
+{
+  "first_attempt": "runs/run_01",
+  "received_total_frames": 3562,
+  "recorded_window_frames": 3199,
+  "target_frames": 3720,
+  "input_span_seconds": 59.26691960002063,
+  "queue_overruns": {
+    "record_queue": 0,
+    "decode_queue": 0
+  },
+  "rtp_sequence_missing": 0,
+  "batch_stopped": "第1次未达到62秒；第2次由开发程序发送SIGINT正常收尾，未计入完成组数；未执行原批次第3/4次。",
+  "change": "将rtspsrc do-rtsp-keep-alive从false改为true，并在超过3秒无新视频帧时记录明确原因。",
+  "root_cause_status": "59秒停止与未启用RTSP续期一致；待开启续期后四次完整实验验证。"
+}

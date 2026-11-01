@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Local page loads using actual Arial without browser errors",
+    "All 84 frame/parameter selections render with correct download paths",
+    "The left control stays identical while parameters change; 0 px matches both panels",
+    "All crop views show matching original-pixel rectangles",
+    "Raw-image comparison and removed-strip display work"
+  ],
+  "errors": []
+}

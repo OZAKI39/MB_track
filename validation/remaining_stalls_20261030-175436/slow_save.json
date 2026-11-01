@@ -1,0 +1,212 @@
+{
+  "stage": {
+    "frame": "4859",
+    "stage": "database_commit",
+    "start_s": "227386.201186287",
+    "end_s": "227386.389213246",
+    "wall_ms": "188.0269589892123",
+    "thread_cpu_ms": "0.24033100000053764",
+    "process_cpu_ms": "258.3812299999977",
+    "minor_faults": "0",
+    "major_faults": "0",
+    "voluntary_switches": "2",
+    "involuntary_switches": "0",
+    "process_minor_faults": "43",
+    "process_major_faults": "0",
+    "input_blocks": "0",
+    "output_blocks": "0",
+    "threads": "",
+    "thread_user_ms": "0.2369999999998207",
+    "thread_system_ms": "0.0",
+    "compact_stall": "",
+    "compact_fail": "",
+    "compact_success": "",
+    "allocstall_normal": "",
+    "allocstall_movable": ""
+  },
+  "analysis_fully_during": 11,
+  "first_video_frame": "4860",
+  "last_video_frame": "4870",
+  "waits": [
+    {
+      "time_s": 227386.210012883,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.220188799,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.230303056,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.240529671,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.250753056,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.26091292,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.271161479,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.281256981,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.291389381,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.301606604,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.311765402,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.321886906,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.331983049,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46781 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.342090885,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46829 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.352184717,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46829 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.36234862,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46829 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.372401604,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46829 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    },
+    {
+      "time_s": 227386.382550038,
+      "name": "writer",
+      "tid": 749696,
+      "syscall": "75 0x4 0x0 0x0 0x1018 0xa2 0xa9b2ed7c 0x7436e77fd4f0 0x7437c3b1ea4c",
+      "wchan": "submit_bio_wait",
+      "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+      "stat": "749696 (python) D 749300 749294 749294 0 -1 4194368 665 80 0 0 252 169 0 0 20 0 101 0 22730387 4609929216 46829 18446744073709551615 4325376 7352253 140734627777136 0 0 0 0 16781312 2 1 0 0 -1 12 0 0 0 0 0 10653128 12216448 396980224 140734627783750 140734627784416 140734627784416 140734627790777 0",
+      "schedstat": "4217180332 10364492 36068"
+    }
+  ]
+}

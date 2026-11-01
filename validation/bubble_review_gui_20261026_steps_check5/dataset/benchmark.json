@@ -1,0 +1,449 @@
+{
+  "schema": 1,
+  "created_at": "2026-10-26T12:01:02.726567+01:00",
+  "input_status": "FIXED",
+  "reference_status_at_creation": "PENDING_HUMAN_REVIEW",
+  "criterion": "Visible dark bubble-related regions; unclear pixels and identities remain uncertain. Preserve real rapid deformation, aggregation and separation.",
+  "usage": "Fixed development challenge set; already inspected recordings, not an independent held-out test set. No automatic training admission.",
+  "comparison_protocol": "Replay each original video from frame 0 for equal warm-up, then score only the fixed segment and reviewed keyframes/relations. Primary sequential comparisons use no future frames; report offline look-ahead results separately. Keep full resolution, these frame ranges and this reference version fixed.",
+  "segments": [
+    {
+      "source_id": "four_pzt",
+      "first_frame": 360,
+      "end_frame_exclusive": 660,
+      "source_start_time": "6",
+      "source_end_time": "11",
+      "frames": 300,
+      "lossless_pixels_and_times_verified": true,
+      "preview_verification": {
+        "decoded_frames": 300,
+        "all_frame_times_identical": true,
+        "duration_s": 5.0,
+        "size": [
+          2576,
+          1136
+        ]
+      }
+    },
+    {
+      "source_id": "two_action",
+      "first_frame": 660,
+      "end_frame_exclusive": 960,
+      "source_start_time": "989999/90000",
+      "source_end_time": "1439999/90000",
+      "frames": 300,
+      "lossless_pixels_and_times_verified": true,
+      "preview_verification": {
+        "decoded_frames": 300,
+        "all_frame_times_identical": true,
+        "duration_s": 5.0,
+        "size": [
+          2576,
+          1136
+        ]
+      }
+    }
+  ],
+  "cases": [
+    {
+      "event_id": 661,
+      "roi_xywh": [
+        896,
+        881,
+        140,
+        120
+      ],
+      "question": "Wall contact, shape change and an ambiguous ID change.",
+      "id": "four_pzt_e661",
+      "source_id": "four_pzt",
+      "frames": [
+        377,
+        378,
+        384
+      ],
+      "before_sample": "four_pzt_f000377",
+      "after_sample": "four_pzt_f000378",
+      "context_sample": "four_pzt_f000384",
+      "baseline_event": {
+        "event_id": 661,
+        "kind": "ASSOCIATION_AMBIGUOUS",
+        "label": "对应不确定，换号",
+        "frame_index": 378,
+        "time_s": 6.3,
+        "interval_start_s": 6.283333333333333,
+        "interval_end_s": 6.3,
+        "parent_ids": [
+          37,
+          273,
+          274
+        ],
+        "child_ids": [
+          275
+        ],
+        "evidence": {
+          "overlap_pixels": 488,
+          "minimum_total_coverage": 0.39869281045751637,
+          "old_area_px2": 1224.0,
+          "new_area_px2": 1035.0,
+          "basis": "相邻帧可见深色区域的重叠；不等于真实微泡融合或分裂"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "four_pzt",
+        "experiment_id": "16d693442d714bc9974415faaf02d5ff"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 910,
+      "roi_xywh": [
+        752,
+        468,
+        140,
+        120
+      ],
+      "question": "Does the contour incorrectly connect the dark region to the wall?",
+      "id": "four_pzt_e910",
+      "source_id": "four_pzt",
+      "frames": [
+        524,
+        525,
+        531
+      ],
+      "before_sample": "four_pzt_f000524",
+      "after_sample": "four_pzt_f000525",
+      "context_sample": "four_pzt_f000531",
+      "baseline_event": {
+        "event_id": 910,
+        "kind": "MERGE_CANDIDATE",
+        "label": "疑似合并",
+        "frame_index": 525,
+        "time_s": 8.75,
+        "interval_start_s": 8.733333333333333,
+        "interval_end_s": 8.75,
+        "parent_ids": [
+          80,
+          356
+        ],
+        "child_ids": [
+          357
+        ],
+        "evidence": {
+          "overlap_pixels": 788,
+          "minimum_total_coverage": 0.7911646586345381,
+          "old_area_px2": 979.0,
+          "new_area_px2": 996.0,
+          "basis": "相邻帧可见深色区域的重叠；不等于真实微泡融合或分裂"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "four_pzt",
+        "experiment_id": "16d693442d714bc9974415faaf02d5ff"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 919,
+      "roi_xywh": [
+        745,
+        467,
+        140,
+        120
+      ],
+      "question": "Does this remain the same moving region despite the ID change?",
+      "id": "four_pzt_e919",
+      "source_id": "four_pzt",
+      "frames": [
+        535,
+        536,
+        542
+      ],
+      "before_sample": "four_pzt_f000535",
+      "after_sample": "four_pzt_f000536",
+      "context_sample": "four_pzt_f000542",
+      "baseline_event": {
+        "event_id": 919,
+        "kind": "ASSOCIATION_AMBIGUOUS",
+        "label": "对应不确定，换号",
+        "frame_index": 536,
+        "time_s": 8.933333333333334,
+        "interval_start_s": 8.816666666666666,
+        "interval_end_s": 8.933333333333334,
+        "parent_ids": [
+          357,
+          358
+        ],
+        "child_ids": [
+          359
+        ],
+        "evidence": {
+          "basis": "位置、形状和方向的候选差距不足，禁止强行接续"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "four_pzt",
+        "experiment_id": "16d693442d714bc9974415faaf02d5ff"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 1075,
+      "roi_xywh": [
+        376,
+        623,
+        140,
+        120
+      ],
+      "question": "Visible separation or a wall-related contour error?",
+      "id": "four_pzt_e1075",
+      "source_id": "four_pzt",
+      "frames": [
+        609,
+        610,
+        616
+      ],
+      "before_sample": "four_pzt_f000609",
+      "after_sample": "four_pzt_f000610",
+      "context_sample": "four_pzt_f000616",
+      "baseline_event": {
+        "event_id": 1075,
+        "kind": "SPLIT_CANDIDATE",
+        "label": "疑似分离",
+        "frame_index": 610,
+        "time_s": 10.166666666666666,
+        "interval_start_s": 10.15,
+        "interval_end_s": 10.166666666666666,
+        "parent_ids": [
+          187
+        ],
+        "child_ids": [
+          404,
+          405
+        ],
+        "evidence": {
+          "overlap_pixels": 1799,
+          "minimum_total_coverage": 0.9868348875479978,
+          "old_area_px2": 1814.0,
+          "new_area_px2": 1823.0,
+          "basis": "相邻帧可见深色区域的重叠；不等于真实微泡融合或分裂"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "four_pzt",
+        "experiment_id": "16d693442d714bc9974415faaf02d5ff"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 675,
+      "roi_xywh": [
+        386,
+        588,
+        140,
+        120
+      ],
+      "question": "A small wall-adjacent region changes ID; is it a bubble region?",
+      "id": "two_action_e675",
+      "source_id": "two_action",
+      "frames": [
+        715,
+        716,
+        722
+      ],
+      "before_sample": "two_action_f000715",
+      "after_sample": "two_action_f000716",
+      "context_sample": "two_action_f000722",
+      "baseline_event": {
+        "event_id": 675,
+        "kind": "ASSOCIATION_AMBIGUOUS",
+        "label": "对应不确定，换号",
+        "frame_index": 716,
+        "time_s": 11.933311111111111,
+        "interval_start_s": 11.799988888888889,
+        "interval_end_s": 11.933311111111111,
+        "parent_ids": [
+          136,
+          193
+        ],
+        "child_ids": [
+          197
+        ],
+        "evidence": {
+          "basis": "位置、形状和方向的候选差距不足，禁止强行接续"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "two_action",
+        "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 718,
+      "roi_xywh": [
+        334,
+        724,
+        140,
+        120
+      ],
+      "question": "Is the small neighbour already separate before the reported split?",
+      "id": "two_action_e718",
+      "source_id": "two_action",
+      "frames": [
+        749,
+        750,
+        756
+      ],
+      "before_sample": "two_action_f000749",
+      "after_sample": "two_action_f000750",
+      "context_sample": "two_action_f000756",
+      "baseline_event": {
+        "event_id": 718,
+        "kind": "SPLIT_CANDIDATE",
+        "label": "疑似分离",
+        "frame_index": 750,
+        "time_s": 12.49998888888889,
+        "interval_start_s": 12.483311111111112,
+        "interval_end_s": 12.49998888888889,
+        "parent_ids": [
+          155
+        ],
+        "child_ids": [
+          208,
+          209
+        ],
+        "evidence": {
+          "overlap_pixels": 2808,
+          "minimum_total_coverage": 0.9797627355198884,
+          "old_area_px2": 2866.0,
+          "new_area_px2": 2836.0,
+          "basis": "相邻帧可见深色区域的重叠；不等于真实微泡融合或分裂"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "two_action",
+        "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 757,
+      "roi_xywh": [
+        855,
+        904,
+        140,
+        120
+      ],
+      "question": "Visible separation or unstable thresholding inside a small group?",
+      "id": "two_action_e757",
+      "source_id": "two_action",
+      "frames": [
+        814,
+        815,
+        821
+      ],
+      "before_sample": "two_action_f000814",
+      "after_sample": "two_action_f000815",
+      "context_sample": "two_action_f000821",
+      "baseline_event": {
+        "event_id": 757,
+        "kind": "SPLIT_CANDIDATE",
+        "label": "疑似分离",
+        "frame_index": 815,
+        "time_s": 13.583311111111112,
+        "interval_start_s": 13.566644444444444,
+        "interval_end_s": 13.583311111111112,
+        "parent_ids": [
+          213
+        ],
+        "child_ids": [
+          215,
+          216
+        ],
+        "evidence": {
+          "overlap_pixels": 193,
+          "minimum_total_coverage": 0.8935185185185185,
+          "old_area_px2": 216.0,
+          "new_area_px2": 201.0,
+          "basis": "相邻帧可见深色区域的重叠；不等于真实微泡融合或分裂"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "two_action",
+        "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "event_id": 833,
+      "roi_xywh": [
+        856,
+        904,
+        140,
+        120
+      ],
+      "question": "Repeated splitting at the same location; compare with the earlier case.",
+      "id": "two_action_e833",
+      "source_id": "two_action",
+      "frames": [
+        907,
+        908,
+        914
+      ],
+      "before_sample": "two_action_f000907",
+      "after_sample": "two_action_f000908",
+      "context_sample": "two_action_f000914",
+      "baseline_event": {
+        "event_id": 833,
+        "kind": "SPLIT_CANDIDATE",
+        "label": "疑似分离",
+        "frame_index": 908,
+        "time_s": 15.13331111111111,
+        "interval_start_s": 15.116644444444445,
+        "interval_end_s": 15.13331111111111,
+        "parent_ids": [
+          240
+        ],
+        "child_ids": [
+          241,
+          242
+        ],
+        "evidence": {
+          "overlap_pixels": 260,
+          "minimum_total_coverage": 0.9737827715355806,
+          "old_area_px2": 267.0,
+          "new_area_px2": 264.0,
+          "basis": "相邻帧可见深色区域的重叠；不等于真实微泡融合或分裂"
+        },
+        "review_status": "PENDING_HUMAN_REVIEW",
+        "physical_event_confirmed": false,
+        "source_id": "two_action",
+        "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec"
+      },
+      "status": "PENDING_HUMAN_REVIEW"
+    }
+  ],
+  "source_sha256": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/bubble_benchmark_20261026.json": "7a6afe63cbbc4e34d26800457a97f3151b4f02bdc7cc5ac822c0f3a5fdb7feac",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_tracking_20261026-015303/four_pzt_events.jsonl": "70c840363a2e029f084cecb6e60231c7c1f83cc39b2c0e98b2d531f420c72cd0",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_tracking_20261026-015303/four_pzt_frames.jsonl.gz": "0a8f90c66458192186a9c4f15559508c8f82986af57ad297de711d3517284ff2",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_tracking_20261026-015303/report.json": "2465e5276621cddf9f36922e4e9914f70d79c5e674e1aeed3a9c422be6de92f6",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_tracking_20261026-015303/settings.json": "6a1cd9714889afd2998d58f1cbbccbe2813ac50b44bf8873bc93a918eb2a3f5c",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_tracking_20261026-015303/two_action_events.jsonl": "39405bf5258e8f23b88eec6666f315de6fa6abbe41220dfb4a1942447ce4ac8f",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_tracking_20261026-015303/two_action_frames.jsonl.gz": "577f048a796f121dcc69a089272bcf9512f9b8eedd1f45352578b94569077e36",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/four_pzt_frames.jsonl.gz": "b8794d30edb63fa4a5a165c5208337e55ce9ad3a223c8802ad60dcf99810a02e",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/report.json": "ef2b951c0f27679ccf53b1fd58c07c071ca90452099e3af42600fa87aa221370",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/settings.json": "cdc6a702b30bb2cca46478e46428f893c02fa8c8cebbe6fb1b95d4bf96354bdb",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_narrow_20261026-014007/review/two_action_frames.jsonl.gz": "4cf9178874393225d870abce08bf3211f28672c90347a424b3e2a280ae0b0b43"
+  },
+  "selected_keyframes": 28,
+  "annotation_policy": "AGGREGATE/SINGLE_BUBBLE encode accepted visible regions, not physical bubble counts. UNCERTAIN/OUT_OF_FOCUS are ignored in future scoring. Full frames are reviewable; the old wall ROI is a baseline hint, not ground truth.",
+  "baseline_code_sha256": {
+    "bubble_tracking.py": "eacef69bf764563c77a91637519334e8fe010137cbfbf9c4c4928259f01e08c3",
+    "bubble_dark_regions.py": "2a95a1fe930f291a71d682459c61e14426463b71d0852923dde102999df17627",
+    "bubble_regions.py": "be8cade0c12c3339ce25c84f4b69826b70cba6f1a8287d3d5e3cbe817f1079b7",
+    "bubble_benchmark.py": "b90486fc7dc619aa35dd6ceca79caafbca3623a7e76fb7b8ca4db931bfb28b1c"
+  }
+}

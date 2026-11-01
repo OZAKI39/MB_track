@@ -1,0 +1,10 @@
+{
+  "runs": [
+    "customer_workspace/validation/camera_tracking_20261031_final/A_01",
+    "customer_workspace/validation/camera_tracking_20261031_final/B_01",
+    "customer_workspace/validation/camera_tracking_20261031_final/A_02",
+    "customer_workspace/validation/camera_tracking_20261031_final/B_02",
+    "customer_workspace/validation/camera_tracking_20261031_final/long_A",
+    "customer_workspace/validation/camera_tracking_20261031_final/long_B"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "etl_qpc_origin": 2190168972202,
+  "etl_frequency_hz": 10000000,
+  "rtt_ms_median_p99_max": [
+    0.853049976285547,
+    1.567002137890085,
+    1.7434339970350266
+  ],
+  "interpolation_residual_abs_ms_median_p99_max": [
+    0.3423851619288598,
+    13.686585401179627,
+    13.928601558795606
+  ],
+  "clock_limit": "Interpolation is estimated. Enclosing samples, local residuals and +/-15 ms sensitivity are saved; neither is a certified synchronization bound.",
+  "conversions": [
+    {
+      "linux_stage": {
+        "frame": "572",
+        "stage": "convert_bgr",
+        "start_s": "205300.905555852",
+        "end_s": "205300.955604205",
+        "wall_ms": "50.048353004967794",
+        "thread_cpu_ms": "50.056478000000126",
+        "process_cpu_ms": "50.05811400000049",
+        "minor_faults": "321",
+        "major_faults": "0",
+        "voluntary_switches": "0",
+        "involuntary_switches": "0",
+        "process_minor_faults": "321",
+        "process_major_faults": "0",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "0.22799999999989495",
+        "thread_system_ms": "47.81499999999994",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "estimated_etw_start_us": 103445428.22264525,
+      "estimated_etw_end_us": 103495485.66432229,
+      "enclosing_etw_bracket_us": [
+        102529649.89999999,
+        103531162.5
+      ],
+      "nearby_interpolation_residual_ms": [
+        -0.5512163841245865,
+        -0.5872091897174414,
+        -0.4734967018862335,
+        -0.37479680796081993
+      ],
+      "hardfaults_by_host_thread": {
+        "padding_0_us": {
+          "22268": {
+            "count": 136,
+            "bytes": 7643136,
+            "elapsed_us": 39866
+          }
+        },
+        "padding_15000_us": {
+          "22268": {
+            "count": 136,
+            "bytes": 7643136,
+            "elapsed_us": 39866
+          },
+          "25624": {
+            "count": 3,
+            "bytes": 192512,
+            "elapsed_us": 843
+          }
+        }
+      }
+    },
+    {
+      "linux_stage": {
+        "frame": "3363",
+        "stage": "convert_bgr",
+        "start_s": "205347.422616592",
+        "end_s": "205347.453984898",
+        "wall_ms": "31.368305993964896",
+        "thread_cpu_ms": "31.173244999997962",
+        "process_cpu_ms": "31.173760000001494",
+        "minor_faults": "928",
+        "major_faults": "0",
+        "voluntary_switches": "0",
+        "involuntary_switches": "0",
+        "process_minor_faults": "928",
+        "process_major_faults": "0",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "0.8230000000004623",
+        "thread_system_ms": "31.086999999999865",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "estimated_etw_start_us": 149903213.39856058,
+      "estimated_etw_end_us": 149934385.31856984,
+      "enclosing_etw_bracket_us": [
+        149524798.1,
+        150519679.5
+      ],
+      "nearby_interpolation_residual_ms": [
+        0.10802499571127555,
+        -0.16128763428469028,
+        -0.04513835116881637,
+        -0.04080038743836667
+      ],
+      "hardfaults_by_host_thread": {
+        "padding_0_us": {
+          "6128": {
+            "count": 14,
+            "bytes": 765952,
+            "elapsed_us": 4625
+          },
+          "18300": {
+            "count": 103,
+            "bytes": 5603328,
+            "elapsed_us": 23426
+          }
+        },
+        "padding_15000_us": {
+          "18300": {
+            "count": 108,
+            "bytes": 5931008,
+            "elapsed_us": 25589
+          },
+          "6128": {
+            "count": 44,
+            "bytes": 2383872,
+            "elapsed_us": 13001
+          }
+        }
+      }
+    }
+  ],
+  "host_flush_summary": {
+    "0": {
+      "count": 327,
+      "max_elapsed_us": 21520
+    },
+    "1": {
+      "count": 9516,
+      "max_elapsed_us": 13699
+    }
+  }
+}

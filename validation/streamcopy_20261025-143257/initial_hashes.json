@@ -1,0 +1,13 @@
+{
+  "microbubble_experiment/camera.py": "672dd4d4300d29ca93d92b0d0088fcaff0da62d40b48fef3cc0e8d6f29d4fcd9",
+  "microbubble_experiment/camera_bridge.py": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+  "microbubble_experiment/camera_rtsp.py": "03ed3420ff82d01b3c039e3bed14c27ce34cefa7f04ea5bee496ffc9a4775473",
+  "microbubble_experiment/recording.py": "8db21da04225f27c0f89f407183b7c0c1af346f63cdb0b645502c4e64a667d55",
+  "customer_workspace/video_recording_check.py": "b6fe294c28a2b5300bc7b166a7a24e1fd6c26d45e505259f292b148a7d584575",
+  "customer_workspace/experiment_runner.py": "b88209f8fb5fd986b92a6cbaf479c7bcc2d60c99d20ff69ad94438a6cb66ad45",
+  "customer_workspace/afg_timing.py": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+  "configs/chronos_config.json": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+  "configs/machine.local.json": "b4537d49a10a963843d9d6c4b9dbeacc5a5ded0fd1fc4cc74d6f92a0e4d3d1ae",
+  "customer_workspace/README.md": "926333e14974a0fba5d9c54b88ce846f86407a58046959ce457225c1d257cd1c",
+  "customer_workspace/.gitignore": "01a5a1d21b4c15c7fa3c8e8717e5d55ff596194642fa4b4abe6fed8b51a4ac03"
+}

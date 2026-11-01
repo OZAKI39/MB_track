@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-23T15:49:55.785468+00:00",
+  "planned_duration_s": 14,
+  "timeline_started_utc": "2026-10-23T15:49:57.435043+00:00",
+  "output_dir": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\amplitude_states_20261023-174926\\experiments\\run_02",
+  "error": null,
+  "timing_basis": "software_calls_and_driver_readback_not_physical_voltage",
+  "control_mode": "amplitude_states",
+  "idle_amplitude_vpp": 0.001,
+  "finished_utc": "2026-10-23T15:50:11.528179+00:00",
+  "elapsed_s": 14.093135300005088,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": [],
+  "final_state": "STOP"
+}

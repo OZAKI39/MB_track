@@ -1,0 +1,11 @@
+{
+  "status": "audit_verified_deletion_not_performed",
+  "protected_files_rehashed": 888,
+  "protected_files_changed": [],
+  "proposed_files_still_exist": 67,
+  "duplicate_delete_paths": 0,
+  "readme_patch_applies": true,
+  "readme_patch_applied": false,
+  "unrelated_git_status_unchanged": true,
+  "algorithm_or_hardware_tests_run": false
+}

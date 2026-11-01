@@ -1,0 +1,480 @@
+{
+  "recording_and_frame_accounting_passed": true,
+  "every_frame_analyzed": false,
+  "physical_hardware_tested": false,
+  "latency_scope": "Conservative software age bound; Windows and WSL clocks are not subtracted",
+  "runs": [
+    {
+      "run": "A_control",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": true,
+      "windows_received_total": 1419,
+      "before_window": 91,
+      "after_window": 8,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1411,
+      "sent_outside_window": 91,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1320,
+      "saved_analysis": 1320,
+      "skipped": 0,
+      "analysis_hz": 60.0,
+      "processing_ms": {
+        "median": 8.757792500546202,
+        "p95": 11.074912046024108,
+        "p99": 14.025694495503549,
+        "max": 18.657677006558515
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.054901507450268,
+        "p95": 40.07860439378419,
+        "p99": 48.379171077394844,
+        "max": 55.41580000135582
+      },
+      "queue_wait_ms": {
+        "median": 0.22465950314654037,
+        "max": 9.24004300031811
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 2,
+      "source_cycle_start_frame": 364,
+      "source_loop_at_video_frames": [
+        956
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "B_control",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1415,
+      "before_window": 91,
+      "after_window": 4,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1411,
+      "sent_outside_window": 91,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1319,
+      "saved_analysis": 1319,
+      "skipped": 1,
+      "analysis_hz": 59.95454545454545,
+      "processing_ms": {
+        "median": 8.554443003959022,
+        "p95": 10.003413200320209,
+        "p99": 12.686454512295285,
+        "max": 17.921114005730487
+      },
+      "software_age_upper_bound_ms": {
+        "median": 25.465893995715305,
+        "p95": 38.40075120388064,
+        "p99": 43.859659321024004,
+        "max": 57.08571500144899
+      },
+      "queue_wait_ms": {
+        "median": 0.22339599672704935,
+        "max": 9.34129100642167
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 3,
+      "source_cycle_start_frame": 820,
+      "source_loop_at_video_frames": [
+        500
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "A_r1",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1417,
+      "before_window": 90,
+      "after_window": 7,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1410,
+      "sent_outside_window": 90,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1317,
+      "saved_analysis": 1317,
+      "skipped": 3,
+      "analysis_hz": 59.86363636363637,
+      "processing_ms": {
+        "median": 9.31231799768284,
+        "p95": 11.056821793317795,
+        "p99": 13.263758125249288,
+        "max": 21.949016008875333
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.478226005565375,
+        "p95": 39.30934579693712,
+        "p99": 48.40185724082397,
+        "max": 62.17921599454712
+      },
+      "queue_wait_ms": {
+        "median": 0.22293400252237916,
+        "max": 10.733942996012047
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 2,
+      "source_cycle_start_frame": 1274,
+      "source_loop_at_video_frames": [
+        46
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "B_r1",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1416,
+      "before_window": 91,
+      "after_window": 5,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1411,
+      "sent_outside_window": 91,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1318,
+      "saved_analysis": 1318,
+      "skipped": 2,
+      "analysis_hz": 59.90909090909091,
+      "processing_ms": {
+        "median": 9.07077599549666,
+        "p95": 10.945816359890154,
+        "p99": 14.777815297566061,
+        "max": 20.710707001853734
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.113249507034197,
+        "p95": 38.21415873826481,
+        "p99": 46.573314679408156,
+        "max": 54.01822899875697
+      },
+      "queue_wait_ms": {
+        "median": 0.22513949807034805,
+        "max": 11.302295009954832
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 2,
+      "source_cycle_start_frame": 455,
+      "source_loop_at_video_frames": [
+        865
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "B_r2",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1417,
+      "before_window": 92,
+      "after_window": 5,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1412,
+      "sent_outside_window": 92,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1319,
+      "saved_analysis": 1319,
+      "skipped": 1,
+      "analysis_hz": 59.95454545454545,
+      "processing_ms": {
+        "median": 9.083263008506037,
+        "p95": 10.739865593495777,
+        "p99": 11.905005022708787,
+        "max": 20.409959004609846
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.263791995006613,
+        "p95": 38.794756690913346,
+        "p99": 43.95313117245677,
+        "max": 51.812449004501104
+      },
+      "queue_wait_ms": {
+        "median": 0.22621398966293782,
+        "max": 11.526670001330785
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 2,
+      "source_cycle_start_frame": 729,
+      "source_loop_at_video_frames": [
+        591
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "A_r2",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1418,
+      "before_window": 91,
+      "after_window": 7,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1411,
+      "sent_outside_window": 91,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1318,
+      "saved_analysis": 1318,
+      "skipped": 2,
+      "analysis_hz": 59.90909090909091,
+      "processing_ms": {
+        "median": 9.384732504258864,
+        "p95": 11.14902155022719,
+        "p99": 12.735165835474614,
+        "max": 22.820194004452787
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.76389000407653,
+        "p95": 39.57803520752349,
+        "p99": 46.739346303511404,
+        "max": 62.26392899407074
+      },
+      "queue_wait_ms": {
+        "median": 0.22688449826091528,
+        "max": 10.663706008926965
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 2,
+      "source_cycle_start_frame": 1092,
+      "source_loop_at_video_frames": [
+        228
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "A_r3",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1417,
+      "before_window": 91,
+      "after_window": 6,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1411,
+      "sent_outside_window": 91,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1316,
+      "saved_analysis": 1316,
+      "skipped": 4,
+      "analysis_hz": 59.81818181818182,
+      "processing_ms": {
+        "median": 9.517547499854118,
+        "p95": 11.437085006036796,
+        "p99": 14.418160794593845,
+        "max": 19.69969700439833
+      },
+      "software_age_upper_bound_ms": {
+        "median": 27.238438495260198,
+        "p95": 39.67207575988141,
+        "p99": 47.57457059167784,
+        "max": 62.95981000585016
+      },
+      "queue_wait_ms": {
+        "median": 0.24759449297562242,
+        "max": 14.712841002619825
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 2,
+      "source_cycle_start_frame": 91,
+      "source_loop_at_video_frames": [
+        1229
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    },
+    {
+      "run": "B_r3",
+      "checks": {
+        "recording_passed": true,
+        "no_duplicate_frame_records": true,
+        "complete_window_decoded": true,
+        "database_frames_equal_analysis": true,
+        "database_integrity": true,
+        "saved_counts_agree": true,
+        "all_submitted_saved": true,
+        "gaps_fully_accounted": true,
+        "recorded_pixels_match_source_cycle": true,
+        "same_input_tracking_equal_offline": true,
+        "no_pipeline_error": true,
+        "worker_closed": true
+      },
+      "accounting_passed": true,
+      "every_frame_analyzed": false,
+      "windows_received_total": 1418,
+      "before_window": 91,
+      "after_window": 7,
+      "windows_received_window": 1320,
+      "recorded": 1320,
+      "windows_sent_total_including_warmup": 1411,
+      "sent_outside_window": 91,
+      "wsl_received_window": 1320,
+      "wsl_decoded_window": 1320,
+      "analyzed": 1316,
+      "saved_analysis": 1316,
+      "skipped": 4,
+      "analysis_hz": 59.81818181818182,
+      "processing_ms": {
+        "median": 9.202793997246772,
+        "p95": 11.126879489893327,
+        "p99": 13.049032102571797,
+        "max": 17.66017801128328
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.68040600110544,
+        "p95": 39.62505099843838,
+        "p99": 47.488744601287145,
+        "max": 60.75161301123444
+      },
+      "queue_wait_ms": {
+        "median": 0.25069600087590516,
+        "max": 14.49209699057974
+      },
+      "rtp_sequence_missing": 0,
+      "queue_overruns": {
+        "record_queue": 0,
+        "decode_queue": 0
+      },
+      "save_queue_peak_frames": 4,
+      "source_cycle_start_frame": 637,
+      "source_loop_at_video_frames": [
+        683
+      ],
+      "windows_stderr": "'//wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll': The specified module could not be found.\nFailed to load module: //wsl.localhost/Ubuntu/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_gstreamer/Lib/site-packages/gstreamer_plugins_libs/lib/gio/modules/giolibproxy.dll"
+    }
+  ]
+}

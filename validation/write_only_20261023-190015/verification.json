@@ -1,0 +1,116 @@
+{
+  "checked_utc": "2026-10-23T17:13:38.478430+00:00",
+  "passed": true,
+  "normal_runs": 30,
+  "verified_write_only_actions": 60,
+  "full_queries_per_channel_per_boundary": 20,
+  "all_normal_runs_reliable": true,
+  "normal_errors": 0,
+  "intentional_error_test_passed": true,
+  "source_and_config_unchanged_during_measurement": true,
+  "source_hashes_at_verification": {
+    "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+    "configs/afg.json": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d",
+    "customer_workspace/configs/pzt1_pulse.json": "0a5ddf221479480f8ef140d1e648ebd2ffca708eb97b7d6f2f93b1b51587f02b",
+    "customer_workspace/afg_timing.py": "d2e4d1a7258a8aef95d6fd1545b019c212d1ac240598494c0e59b3f466c2683e",
+    "customer_workspace/experiment_runner.py": "b716f16ca13d5ebd42bf4a87ff80f706e64e50c8637b29416cbe7cb4bbe1d03c",
+    "customer_workspace/timing_report.py": "382421934e2c2b90dcdc6171ed62ae2acfdd6eec6c3d97f15d0dadd4addc1ec8",
+    "customer_workspace/wsl_launcher.py": "c3d84794f2bd4d949ddfa36a4a1ea10afd94b31d4d709d66956b8f761fe17553"
+  },
+  "plan_and_config_match_previous_three_run_baseline": true,
+  "csv_matches_raw_events": true,
+  "postchecks_after_stop": true,
+  "final_outputs_off": true,
+  "statistics_ms": {
+    "active_schedule_delay_ms": {
+      "count": 30,
+      "mean": 5.894846666584878,
+      "median": 5.171199998585507,
+      "sample_stddev": 4.421690478637918,
+      "min": 0.5444999987957999,
+      "max": 19.265499999164604,
+      "range": 18.721000000368804
+    },
+    "active_before_call_ms": {
+      "count": 30,
+      "mean": 5.8007266668331185,
+      "median": 5.086499993922189,
+      "sample_stddev": 4.414434664816664,
+      "min": 0.49259999650530517,
+      "max": 19.149999992805533,
+      "range": 18.657399996300228
+    },
+    "active_local_prepare_ms": {
+      "count": 30,
+      "mean": 0.09411999975175907,
+      "median": 0.09610000415705144,
+      "sample_stddev": 0.036245755862850185,
+      "min": 0.045900000259280205,
+      "max": 0.1908999984152615,
+      "range": 0.1449999981559813
+    },
+    "active_write_ms": {
+      "count": 30,
+      "mean": 0.5426200004876591,
+      "median": 0.541599998541642,
+      "sample_stddev": 0.15969944372286382,
+      "min": 0.2835000050254166,
+      "max": 0.8570000063627958,
+      "range": 0.5735000013373792
+    },
+    "idle_schedule_delay_ms": {
+      "count": 30,
+      "mean": 6.088200000037129,
+      "median": 5.25335000565974,
+      "sample_stddev": 4.971329482867813,
+      "min": 0.9341999975731596,
+      "max": 18.632199993589893,
+      "range": 17.697999996016733
+    },
+    "idle_before_call_ms": {
+      "count": 30,
+      "mean": 5.9931866664555855,
+      "median": 5.154800004675053,
+      "sample_stddev": 4.9429575102104115,
+      "min": 0.883599990629591,
+      "max": 18.521199992392212,
+      "range": 17.63760000176262
+    },
+    "idle_local_prepare_ms": {
+      "count": 30,
+      "mean": 0.09501333358154322,
+      "median": 0.09560000034980476,
+      "sample_stddev": 0.04667746882659355,
+      "min": 0.0450000079581514,
+      "max": 0.26890001026913524,
+      "range": 0.22390000231098384
+    },
+    "idle_write_ms": {
+      "count": 30,
+      "mean": 0.5428966673207469,
+      "median": 0.49250001029577106,
+      "sample_stddev": 0.21880987428211313,
+      "min": 0.3175000019837171,
+      "max": 1.4429000002564862,
+      "range": 1.1253999982727692
+    }
+  },
+  "comparison": {
+    "active": {
+      "previous_mean_ms": 105.19416666162822,
+      "current_mean_ms": 5.894846666584878,
+      "mean_reduction_percent": 94.39622285754069
+    },
+    "idle": {
+      "previous_mean_ms": 109.24369999459789,
+      "current_mean_ms": 6.088200000037129,
+      "mean_reduction_percent": 94.42695551291453
+    }
+  },
+  "limits": [
+    "Only PC-side send times; device acceptance and voltage timing were not measured.",
+    "Boundary checks cannot rule out transient changes during a round.",
+    "Baseline has 3 runs; new benchmark has 30 runs at another time.",
+    "Hardware latency data covers PZT1 changes; all four channels were prepared and checked."
+  ]
+}

@@ -1,0 +1,3202 @@
+[
+  {
+    "path": "stimulus_response_slides_20261028-144935/example_trace.csv",
+    "size": 8129,
+    "allocated": 8192,
+    "mtime_ns": 1793195377416018643,
+    "inode": 331937,
+    "kind": "file",
+    "sha256": "51b36912357ecfc0a7c38baa3f27b0495c14526f56e459672af59a99e5e712f1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/example_trace.csv"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/visible_labels.json",
+    "size": 4282,
+    "allocated": 8192,
+    "mtime_ns": 1793195389521190591,
+    "inode": 331948,
+    "kind": "file",
+    "sha256": "9f6a01d04df161c042c90000fb0d4bba244acc734ba0a33dc0349416e3831b22",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/visible_labels.json"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/verification.json",
+    "size": 888,
+    "allocated": 4096,
+    "mtime_ns": 1793195483585873751,
+    "inode": 331946,
+    "kind": "file",
+    "sha256": "7536148434d284bc3ca0030cfef88c8fc64bd366e1f639fb61bdda1f17cf646f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/stimulus_response_verification.json"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/provenance.json",
+    "size": 22946,
+    "allocated": 24576,
+    "mtime_ns": 1793195389520839137,
+    "inode": 331944,
+    "kind": "file",
+    "sha256": "bcc38f6a7943b96202d747301daad558c1b456031b607eb439265736a19aface",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/stimulus_response.json"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/README.md",
+    "size": 1883,
+    "allocated": 4096,
+    "mtime_ns": 1793195389521002131,
+    "inode": 331945,
+    "kind": "file",
+    "sha256": "14c7d40495a08fa679d65cafef5abb3d25e2f040f4f6f0d36a700adc30689fcb",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/original_notes.md"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/slide8_assets.zip",
+    "size": 714233,
+    "allocated": 716800,
+    "mtime_ns": 1793195483604601703,
+    "inode": 331949,
+    "kind": "file",
+    "sha256": "14c1df1e296af0b7dbfab23c3849a0fbdaec4ad283f2909964c8d6ce4cdec34c",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "01_response_example.frames.csv",
+        "size": 12785,
+        "sha256": "4546f2a40a473fe371eea21fbf5fdd0da4356f8dd6f64262fc25ef5571cad029",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/01_response_example.frames.csv"
+        ]
+      },
+      {
+        "member": "01_response_example.mp4",
+        "size": 445160,
+        "sha256": "5cb03b647852b16188bbcaa1cf45708b69802163d0438ba4341070de06852261",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/01_response_example.mp4"
+        ]
+      },
+      {
+        "member": "02_response_summary.pdf",
+        "size": 68484,
+        "sha256": "1ecbcb4fbe1189bafb16d6e5fe858b1173e5c93c6a66b300311ec0210d5a51a0",
+        "retained_copies": []
+      },
+      {
+        "member": "02_response_summary.png",
+        "size": 215842,
+        "sha256": "daf666822659b1cb6097755ab9c46c94cb1dae69718506fb88a91466ce5416f2",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/02_response_summary.png"
+        ]
+      },
+      {
+        "member": "02_response_summary.svg",
+        "size": 70863,
+        "sha256": "0c292d5533426092572f326758c1350d6120d96072b042b1fd1a8e6dc26890b9",
+        "retained_copies": []
+      },
+      {
+        "member": "README.md",
+        "size": 1883,
+        "sha256": "14c7d40495a08fa679d65cafef5abb3d25e2f040f4f6f0d36a700adc30689fcb",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/original_notes.md"
+        ]
+      },
+      {
+        "member": "example_trace.csv",
+        "size": 8129,
+        "sha256": "51b36912357ecfc0a7c38baa3f27b0495c14526f56e459672af59a99e5e712f1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/example_trace.csv"
+        ]
+      },
+      {
+        "member": "provenance.json",
+        "size": 22946,
+        "sha256": "bcc38f6a7943b96202d747301daad558c1b456031b607eb439265736a19aface",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/stimulus_response.json"
+        ]
+      },
+      {
+        "member": "responses.csv",
+        "size": 37093,
+        "sha256": "8c75cfb137c8c68246afd6c4b4d170a7b42d1572eecd94f12b8b611c804f82fd",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/responses.csv"
+        ]
+      },
+      {
+        "member": "summary.csv",
+        "size": 1555,
+        "sha256": "c63cce45cbe55b1b2b2966f1c75adb90ee7e9142ad58b80bda796a306ed86846",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/summary.csv"
+        ]
+      },
+      {
+        "member": "verification.json",
+        "size": 888,
+        "sha256": "7536148434d284bc3ca0030cfef88c8fc64bd366e1f639fb61bdda1f17cf646f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/stimulus_response_verification.json"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 4282,
+        "sha256": "9f6a01d04df161c042c90000fb0d4bba244acc734ba0a33dc0349416e3831b22",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/provenance/visible_labels.json"
+        ]
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/02_response_summary.png",
+    "size": 215842,
+    "allocated": 217088,
+    "mtime_ns": 1793195380630251952,
+    "inode": 331939,
+    "kind": "file",
+    "sha256": "daf666822659b1cb6097755ab9c46c94cb1dae69718506fb88a91466ce5416f2",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/02_response_summary.png"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/01_response_example.frames.csv",
+    "size": 12785,
+    "allocated": 16384,
+    "mtime_ns": 1793195389322704939,
+    "inode": 331943,
+    "kind": "file",
+    "sha256": "4546f2a40a473fe371eea21fbf5fdd0da4356f8dd6f64262fc25ef5571cad029",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/01_response_example.frames.csv"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/01_response_example.mp4",
+    "size": 445160,
+    "allocated": 446464,
+    "mtime_ns": 1793195389321721804,
+    "inode": 331942,
+    "kind": "file",
+    "sha256": "5cb03b647852b16188bbcaa1cf45708b69802163d0438ba4341070de06852261",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/01_response_example.mp4"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/02_response_summary.svg",
+    "size": 70863,
+    "allocated": 73728,
+    "mtime_ns": 1793195381986798500,
+    "inode": 331940,
+    "kind": "file",
+    "sha256": "0c292d5533426092572f326758c1350d6120d96072b042b1fd1a8e6dc26890b9",
+    "retained_copies": []
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/02_response_summary.pdf",
+    "size": 68484,
+    "allocated": 69632,
+    "mtime_ns": 1793195383986917371,
+    "inode": 331941,
+    "kind": "file",
+    "sha256": "1ecbcb4fbe1189bafb16d6e5fe858b1173e5c93c6a66b300311ec0210d5a51a0",
+    "retained_copies": []
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/summary.csv",
+    "size": 1555,
+    "allocated": 4096,
+    "mtime_ns": 1793195377415633794,
+    "inode": 331936,
+    "kind": "file",
+    "sha256": "c63cce45cbe55b1b2b2966f1c75adb90ee7e9142ad58b80bda796a306ed86846",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/summary.csv"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/responses.csv",
+    "size": 37093,
+    "allocated": 40960,
+    "mtime_ns": 1793195377415120638,
+    "inode": 331935,
+    "kind": "file",
+    "sha256": "8c75cfb137c8c68246afd6c4b4d170a7b42d1572eecd94f12b8b611c804f82fd",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/responses.csv"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/checks/frame_000.png",
+    "size": 270518,
+    "allocated": 274432,
+    "mtime_ns": 1793195410018377618,
+    "inode": 331951,
+    "kind": "file",
+    "sha256": "f7fc521fd26b11972b41090ed0528aeef40626bd33e53de816e31e40b61f0317",
+    "retained_copies": []
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/checks/frame_130.png",
+    "size": 304911,
+    "allocated": 307200,
+    "mtime_ns": 1793195410257719536,
+    "inode": 331953,
+    "kind": "file",
+    "sha256": "b122685650e0c91af9b4fceadf5bdc73d7c1526f24317ffd836146c27818ddd1",
+    "retained_copies": []
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/checks/frame_074.png",
+    "size": 280393,
+    "allocated": 282624,
+    "mtime_ns": 1793195410162245389,
+    "inode": 331952,
+    "kind": "file",
+    "sha256": "7191785a3f829fd0958c215ee7930d13749d2f5e78b653cb82cb504a684d6b5a",
+    "retained_copies": []
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144935/checks/frame_226.png",
+    "size": 318902,
+    "allocated": 319488,
+    "mtime_ns": 1793195410374929045,
+    "inode": 331954,
+    "kind": "file",
+    "sha256": "2cc80ef4171ef03f193c88a8abf4bbba9998f49630922b8e7dac7f3f76069ba6",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135635/02_kinematics.mp4",
+    "size": 1270514,
+    "allocated": 1273856,
+    "mtime_ns": 1793192219797467225,
+    "inode": 105234,
+    "kind": "file",
+    "sha256": "33574e29755156358da36436bd9f11ec95473dfa9aeab0cc27ede81332476b20",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135635/visible_labels.json",
+    "size": 7658,
+    "allocated": 8192,
+    "mtime_ns": 1793192220019423219,
+    "inode": 105265,
+    "kind": "file",
+    "sha256": "acdd3ad8aaa5a25af500498c5f4691cd1ba4106a5ece3ca867dd2037e9a2ff2e",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135635/provenance.json",
+    "size": 6802,
+    "allocated": 8192,
+    "mtime_ns": 1793192220019218036,
+    "inode": 105247,
+    "kind": "file",
+    "sha256": "e0c04d36d1ece2f397facd453956370e3b09b69647a7734bc55c385b91112ab2",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135635/slide6_animations.zip",
+    "size": 1282266,
+    "allocated": 1286144,
+    "mtime_ns": 1793192220043447164,
+    "inode": 105274,
+    "kind": "file",
+    "sha256": "cda210010e2d2b486bfc89604373ea0451a1a225e5a5f359db468155e94a2935",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "02_kinematics.frames.csv",
+        "size": 19270,
+        "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+        ]
+      },
+      {
+        "member": "02_kinematics.mp4",
+        "size": 1270514,
+        "sha256": "33574e29755156358da36436bd9f11ec95473dfa9aeab0cc27ede81332476b20",
+        "retained_copies": []
+      },
+      {
+        "member": "provenance.json",
+        "size": 6802,
+        "sha256": "e0c04d36d1ece2f397facd453956370e3b09b69647a7734bc55c385b91112ab2",
+        "retained_copies": []
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 7658,
+        "sha256": "acdd3ad8aaa5a25af500498c5f4691cd1ba4106a5ece3ca867dd2037e9a2ff2e",
+        "retained_copies": []
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "analysis_slides_20261028-135635/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793192203664363393,
+    "inode": 105231,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-135635/02_kinematics.frames.csv",
+    "size": 19270,
+    "allocated": 20480,
+    "mtime_ns": 1793192219798360346,
+    "inode": 105235,
+    "kind": "file",
+    "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/01_trajectory_segmentation.frames.csv",
+    "size": 196054,
+    "allocated": 196608,
+    "mtime_ns": 1793193119159360523,
+    "inode": 327634,
+    "kind": "file",
+    "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/02_kinematics.mp4",
+    "size": 1262521,
+    "allocated": 1265664,
+    "mtime_ns": 1793193145497601122,
+    "inode": 327635,
+    "kind": "file",
+    "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/visible_labels.json",
+    "size": 77827,
+    "allocated": 81920,
+    "mtime_ns": 1793193147462838631,
+    "inode": 331811,
+    "kind": "file",
+    "sha256": "a8dc82d61bf9b25696cef147aecf1c32f9b808b5e73ac831d34606b565121b3d",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-141118/provenance.json",
+    "size": 10488,
+    "allocated": 12288,
+    "mtime_ns": 1793193147462110514,
+    "inode": 331810,
+    "kind": "file",
+    "sha256": "9f8585e60eaff26e481f55b0c0ec888a9a60b2127335bbc7073086a0873aeb93",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-141118/trajectory_cut_events.csv",
+    "size": 891,
+    "allocated": 4096,
+    "mtime_ns": 1793193147382383334,
+    "inode": 327663,
+    "kind": "file",
+    "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/03_morphology.frames.csv",
+    "size": 13775,
+    "allocated": 16384,
+    "mtime_ns": 1793193147307559472,
+    "inode": 327636,
+    "kind": "file",
+    "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/slide6_animations.zip",
+    "size": 9789197,
+    "allocated": 9789440,
+    "mtime_ns": 1793193147633479756,
+    "inode": 331813,
+    "kind": "file",
+    "sha256": "884eccc2a99102f04a7f7209efdca3bfd8407eec777af5e88171d5e5b4fb57c0",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "01_trajectory_segmentation.frames.csv",
+        "size": 196054,
+        "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv"
+        ]
+      },
+      {
+        "member": "01_trajectory_segmentation.mp4",
+        "size": 7882287,
+        "sha256": "d96d5f205540733951e92eb98d587adaa939978473fe868ca92e41a33c43eef8",
+        "retained_copies": []
+      },
+      {
+        "member": "02_kinematics.frames.csv",
+        "size": 19270,
+        "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+        ]
+      },
+      {
+        "member": "02_kinematics.mp4",
+        "size": 1262521,
+        "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4"
+        ]
+      },
+      {
+        "member": "03_morphology.frames.csv",
+        "size": 13775,
+        "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+        ]
+      },
+      {
+        "member": "03_morphology.mp4",
+        "size": 617267,
+        "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4"
+        ]
+      },
+      {
+        "member": "provenance.json",
+        "size": 10488,
+        "sha256": "9f8585e60eaff26e481f55b0c0ec888a9a60b2127335bbc7073086a0873aeb93",
+        "retained_copies": []
+      },
+      {
+        "member": "pzt_command_intervals.csv",
+        "size": 1487,
+        "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv"
+        ]
+      },
+      {
+        "member": "trajectory_cut_events.csv",
+        "size": 891,
+        "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+        ]
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 77827,
+        "sha256": "a8dc82d61bf9b25696cef147aecf1c32f9b808b5e73ac831d34606b565121b3d",
+        "retained_copies": []
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "analysis_slides_20261028-141118/pzt_command_intervals.csv",
+    "size": 1487,
+    "allocated": 4096,
+    "mtime_ns": 1793193147392186405,
+    "inode": 331809,
+    "kind": "file",
+    "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/03_morphology.mp4",
+    "size": 617267,
+    "allocated": 618496,
+    "mtime_ns": 1793193147307088462,
+    "inode": 104637,
+    "kind": "file",
+    "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793193086810458948,
+    "inode": 327618,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141118/01_trajectory_segmentation.mp4",
+    "size": 7882287,
+    "allocated": 7884800,
+    "mtime_ns": 1793193119150054116,
+    "inode": 327633,
+    "kind": "file",
+    "sha256": "d96d5f205540733951e92eb98d587adaa939978473fe868ca92e41a33c43eef8",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-141118/02_kinematics.frames.csv",
+    "size": 19270,
+    "allocated": 20480,
+    "mtime_ns": 1793193145498120596,
+    "inode": 104632,
+    "kind": "file",
+    "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/result_animations.zip",
+    "size": 24163873,
+    "allocated": 24166400,
+    "mtime_ns": 1793199478995006244,
+    "inode": 490923,
+    "kind": "file",
+    "sha256": "84a083d814d005e21756a5d41ec3789bc8b11c8a87be3dd937e2950bd8d504e8",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "videos/01_detection_baseline.frames.csv",
+        "size": 62934,
+        "sha256": "8072d0db4f84cf89b3dfc1aecfb344be4c12b1e0b20f997a4ba9ed4ff1eed0c5",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_baseline.frames.csv",
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_ours.frames.csv"
+        ]
+      },
+      {
+        "member": "videos/01_detection_baseline.mp4",
+        "size": 4522958,
+        "sha256": "81f56fdc2f4069d2e85128dd36949a1c622f44aa8505fd62c4b8444683c46278",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/01_detection_baseline.mp4"
+        ]
+      },
+      {
+        "member": "videos/01_detection_ours.frames.csv",
+        "size": 62934,
+        "sha256": "8072d0db4f84cf89b3dfc1aecfb344be4c12b1e0b20f997a4ba9ed4ff1eed0c5",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_baseline.frames.csv",
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_ours.frames.csv"
+        ]
+      },
+      {
+        "member": "videos/01_detection_ours.mp4",
+        "size": 4390773,
+        "sha256": "ed709ff9df512ec94abc67e8be19051beadedf242c9f8ad51356a2f1dd0afaae",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/01_detection_ours.mp4"
+        ]
+      },
+      {
+        "member": "videos/02_tracking_baseline.frames.csv",
+        "size": 65586,
+        "sha256": "28f4e09ff34e5e258f57e2b9792d7efe2810a71797c48a6e37a80dbf052b2c9a",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_ours.frames.csv",
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_baseline.frames.csv"
+        ]
+      },
+      {
+        "member": "videos/02_tracking_baseline.mp4",
+        "size": 4442847,
+        "sha256": "4a0ca0c11274e2b01898b88aec23997cb402800c75e27419079910f5139c31f7",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/02_tracking_baseline.mp4"
+        ]
+      },
+      {
+        "member": "videos/02_tracking_ours.frames.csv",
+        "size": 65586,
+        "sha256": "28f4e09ff34e5e258f57e2b9792d7efe2810a71797c48a6e37a80dbf052b2c9a",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_ours.frames.csv",
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_baseline.frames.csv"
+        ]
+      },
+      {
+        "member": "videos/02_tracking_ours.mp4",
+        "size": 5316251,
+        "sha256": "4bc3459a39295ba8c55d5d8ad770f9faa6e90cb15f86301635db2f22e0bd4f70",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/02_tracking_ours.mp4"
+        ]
+      },
+      {
+        "member": "videos/03_events_baseline.frames.csv",
+        "size": 25095,
+        "sha256": "c67a4c7e7526a4977dc54db888b32c272dd8a0cdc5d8880d4763fdcca377ae0f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_baseline.frames.csv",
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_ours.frames.csv"
+        ]
+      },
+      {
+        "member": "videos/03_events_baseline.mp4",
+        "size": 2425065,
+        "sha256": "571b26412ac86c867fb04316ea843d6e61c8b08a35ad30a4bc61b11d4ba5289e",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/03_events_baseline.mp4"
+        ]
+      },
+      {
+        "member": "videos/03_events_ours.frames.csv",
+        "size": 25095,
+        "sha256": "c67a4c7e7526a4977dc54db888b32c272dd8a0cdc5d8880d4763fdcca377ae0f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_baseline.frames.csv",
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_ours.frames.csv"
+        ]
+      },
+      {
+        "member": "videos/03_events_ours.mp4",
+        "size": 2743602,
+        "sha256": "c4250c6108f5924a98f7a831f92dc284fdfc6d34ee6c747840a35718e0998193",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/03_events_ours.mp4"
+        ]
+      },
+      {
+        "member": "README.md",
+        "size": 3399,
+        "sha256": "c96e3510e0c413b1da8c9f32c57acee50f45f2af162ec59866c482202f72d921",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/original_notes.md"
+        ]
+      },
+      {
+        "member": "run.json",
+        "size": 3989,
+        "sha256": "044679b2f0bb0c8f10ba3572e253ec439a9db8172a06e11c3b086d1eacde03e1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/run.json"
+        ]
+      },
+      {
+        "member": "animation_manifest.json",
+        "size": 3693,
+        "sha256": "ec01d024a9ab028434d9416c96a578050c7f3614106a9e75931b540573b59239",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/animation_manifest.json"
+        ]
+      },
+      {
+        "member": "video_verification.json",
+        "size": 1930,
+        "sha256": "22f6695faa55237030cad8e7ee75c54ebb5aeebbb7cc6d8f5d122b4eb468030c",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/video_verification.json"
+        ]
+      }
+    ],
+    "zip_all_preserved": true
+  },
+  {
+    "path": "baseline_animations_20261028-154358/visible_labels.json",
+    "size": 53182,
+    "allocated": 53248,
+    "mtime_ns": 1793199478967372785,
+    "inode": 490921,
+    "kind": "file",
+    "sha256": "f1bbd1550a1b75eb89ad98bccfe6829916197e229b143b364f15921572975f2d",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/visible_labels.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/README.md",
+    "size": 3399,
+    "allocated": 4096,
+    "mtime_ns": 1793199478967446401,
+    "inode": 490922,
+    "kind": "file",
+    "sha256": "c96e3510e0c413b1da8c9f32c57acee50f45f2af162ec59866c482202f72d921",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/original_notes.md"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/animation_manifest.json",
+    "size": 3693,
+    "allocated": 4096,
+    "mtime_ns": 1793199478966737104,
+    "inode": 490920,
+    "kind": "file",
+    "sha256": "ec01d024a9ab028434d9416c96a578050c7f3614106a9e75931b540573b59239",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/animation_manifest.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/run.json",
+    "size": 3989,
+    "allocated": 4096,
+    "mtime_ns": 1793199137728101083,
+    "inode": 376812,
+    "kind": "file",
+    "sha256": "044679b2f0bb0c8f10ba3572e253ec439a9db8172a06e11c3b086d1eacde03e1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/run.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline_environment.txt",
+    "size": 767,
+    "allocated": 4096,
+    "mtime_ns": 1793199367323350826,
+    "inode": 490907,
+    "kind": "file",
+    "sha256": "0899ac54f4fa6b0b2ef159425d793ee51becaff48d989c22f3b220b92b5b2f47",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/baseline_environment.txt"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/video_verification.json",
+    "size": 1930,
+    "allocated": 4096,
+    "mtime_ns": 1793199478804098312,
+    "inode": 490902,
+    "kind": "file",
+    "sha256": "22f6695faa55237030cad8e7ee75c54ebb5aeebbb7cc6d8f5d122b4eb468030c",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/video_verification.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/render_environment.json",
+    "size": 246,
+    "allocated": 4096,
+    "mtime_ns": 1793199367574483943,
+    "inode": 490898,
+    "kind": "file",
+    "sha256": "97f2aa9a41c7b15a7778cda80e8186dc658327863a1c6b6968be12609d46fea6",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/provenance/render_environment.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours/events.csv",
+    "size": 8325,
+    "allocated": 12288,
+    "mtime_ns": 1793198670744773461,
+    "inode": 414113,
+    "kind": "file",
+    "sha256": "f81dca506e8bb287ff0025852be73f423ad8280f3f947c3dc2375e9a6ef578bb",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours/objects.csv",
+    "size": 2005650,
+    "allocated": 2007040,
+    "mtime_ns": 1793198670743871193,
+    "inode": 413034,
+    "kind": "file",
+    "sha256": "1b44c86760fcc7bd166fa9807bf0919698b176577d10da832914057155b66944",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours/background.npy",
+    "size": 5243008,
+    "allocated": 5246976,
+    "mtime_ns": 1793198670877819940,
+    "inode": 414127,
+    "kind": "file",
+    "sha256": "4029ba2bd14b406e037eebebd8fae5cfed756618fe3428f01f3573e2ef9a0a52",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours/stats.json",
+    "size": 326,
+    "allocated": 4096,
+    "mtime_ns": 1793198670883206387,
+    "inode": 414131,
+    "kind": "file",
+    "sha256": "5c433debbc376185b9bf440f6902354a8474399a2f95e1b9631253ee47e54323",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours/contours.npz",
+    "size": 412611,
+    "allocated": 413696,
+    "mtime_ns": 1793198670873585825,
+    "inode": 414126,
+    "kind": "file",
+    "sha256": "247c2be1d3ca041d5c8cbc2a151eb7c3d0fc1275d2b22fe1e7e265ca20284b43",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/03_events_ours_70.png",
+    "size": 407076,
+    "allocated": 409600,
+    "mtime_ns": 1793199506083114874,
+    "inode": 490929,
+    "kind": "file",
+    "sha256": "f745f20bfd985f6a5233ef58b5af9c176c855cf9f981c6326a39a9d4b4f739f7",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/tracking_baseline_800.png",
+    "size": 325535,
+    "allocated": 327680,
+    "mtime_ns": 1793199452737110578,
+    "inode": 490914,
+    "kind": "file",
+    "sha256": "0a5df9c4f58a5f3a6422e63574892ff8f5aae21de1b468409bc99a0cb37a27b8",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/02_tracking_ours_200.png",
+    "size": 359616,
+    "allocated": 360448,
+    "mtime_ns": 1793199504729460857,
+    "inode": 490924,
+    "kind": "file",
+    "sha256": "e46f1be99b801f2f2f97be65a6f0962748f906cbe5ab1d03ae4662547b98e142",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/detection_ours_200.png",
+    "size": 327741,
+    "allocated": 331776,
+    "mtime_ns": 1793199386570896435,
+    "inode": 490909,
+    "kind": "file",
+    "sha256": "8b61d94abdd428fe7bdfeaad676d461112debb0c4bd4425c81b0443dc997e00b",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/03_events_baseline_180.png",
+    "size": 439637,
+    "allocated": 442368,
+    "mtime_ns": 1793199505706092895,
+    "inode": 490927,
+    "kind": "file",
+    "sha256": "042b7363e67a3205c2d1ea5f624e7ecc5e5c91ad0f2409053504e972455456d6",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/03_events_ours_350.png",
+    "size": 431182,
+    "allocated": 434176,
+    "mtime_ns": 1793199506427624306,
+    "inode": 490931,
+    "kind": "file",
+    "sha256": "51a7b9cc5a02d88a1b0061107cacc16edf9f1ce11a04d74f168a3891ceb2b3ba",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/tracking_baseline_490.png",
+    "size": 333091,
+    "allocated": 335872,
+    "mtime_ns": 1793199452486382930,
+    "inode": 490913,
+    "kind": "file",
+    "sha256": "7a08bc05e3fffc78500dc5bd6cabc94c262611a077ddffd8883902f06d3ad70b",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/03_events_ours_180.png",
+    "size": 437085,
+    "allocated": 438272,
+    "mtime_ns": 1793199506234211789,
+    "inode": 490930,
+    "kind": "file",
+    "sha256": "b7b12cc5ddb222140065711ab33d9e9ef1b41969d4a40b60c6aa56268746f872",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/03_events_baseline_70.png",
+    "size": 405536,
+    "allocated": 409600,
+    "mtime_ns": 1793199505555233930,
+    "inode": 490926,
+    "kind": "file",
+    "sha256": "504ea138ac52d6410e01c0373871be7828ca13e2c20a20f6d57fd45fe62aad64",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/tracking_baseline_200.png",
+    "size": 341346,
+    "allocated": 344064,
+    "mtime_ns": 1793199452239249057,
+    "inode": 331930,
+    "kind": "file",
+    "sha256": "a384c3c665fc71965c5dcfaff674a5711e1ae0a7522e85b30f53757b7992f075",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/03_events_baseline_350.png",
+    "size": 435588,
+    "allocated": 438272,
+    "mtime_ns": 1793199505900642815,
+    "inode": 490928,
+    "kind": "file",
+    "sha256": "00de62115b6f1ef140d2fb3a08893587f529abcdcb7acea5737d95b349c8a6b1",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/02_tracking_ours_800.png",
+    "size": 332348,
+    "allocated": 335872,
+    "mtime_ns": 1793199505134430817,
+    "inode": 490925,
+    "kind": "file",
+    "sha256": "9dc2ab620261201d5032834dc1a82877f8d2fecb1f6480892c946d211881c7a6",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/checks/detection_baseline_200.png",
+    "size": 337866,
+    "allocated": 339968,
+    "mtime_ns": 1793199292909291615,
+    "inode": 490904,
+    "kind": "file",
+    "sha256": "894d40956b58649ad1d358eaba01534cd86f834daa40f060d01cb644100b262e",
+    "retained_copies": []
+  },
+  {
+    "path": "baseline_animations_20261028-154358/masks/prompt_image.png",
+    "size": 19802,
+    "allocated": 20480,
+    "mtime_ns": 1793198674221461999,
+    "inode": 488206,
+    "kind": "file",
+    "sha256": "802512c9febaa2036d529daae6ee3375b8e67de9d24ce20669127757595b38e1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/masks/prompt_image.png"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/masks/provenance.json",
+    "size": 1409,
+    "allocated": 4096,
+    "mtime_ns": 1793198674267506478,
+    "inode": 488215,
+    "kind": "file",
+    "sha256": "1ba4a71fd8dd3de5e6f7a7c2eed0266073cc8be95fbc957d9d232d72b5543f02",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/masks/provenance.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/masks/mask_ideal.png",
+    "size": 8433,
+    "allocated": 12288,
+    "mtime_ns": 1793198674228125720,
+    "inode": 488214,
+    "kind": "file",
+    "sha256": "377f0f41e6e7b48c6e8572a4d90797e0acc6609d39e744cf50da5fac0102e6fa",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/masks/mask_ideal.png"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/masks/first_frame.png",
+    "size": 565576,
+    "allocated": 569344,
+    "mtime_ns": 1793198674216680577,
+    "inode": 488205,
+    "kind": "file",
+    "sha256": "352659c0ffd859784a9632927650d5cac3c4013ba5169c10086091590f6ee78b",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/masks/first_frame.png"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/masks/mask_mobilesam.png",
+    "size": 8220,
+    "allocated": 12288,
+    "mtime_ns": 1793198674225802248,
+    "inode": 488212,
+    "kind": "file",
+    "sha256": "b65654a49b357cb82223063e6fa8f6e2ee5eb9b13e1704dcb2b9722ca8a6002a",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/masks/mask_mobilesam.png"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_010_threshold_130.csv",
+    "size": 140146,
+    "allocated": 143360,
+    "mtime_ns": 1793198899829808530,
+    "inode": 488258,
+    "kind": "file",
+    "sha256": "9104eb3b548087186535c58931dedc71861561160e299182a51bc9eaa55760e9",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_010_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_067_threshold_100.csv",
+    "size": 52561,
+    "allocated": 53248,
+    "mtime_ns": 1793198895755352366,
+    "inode": 488252,
+    "kind": "file",
+    "sha256": "3a9b21e32a36433ed29639fb3b987a1f3dd1469df993ba26b78922366ef29ee7",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_067_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_008_threshold_130.csv",
+    "size": 34944,
+    "allocated": 36864,
+    "mtime_ns": 1793198800567951818,
+    "inode": 488222,
+    "kind": "file",
+    "sha256": "4e4075ff20b52d97dc72ee1ff6815eff9928cd045b90554a8207a546740cc611",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_008_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_067_threshold_130.csv",
+    "size": 49657,
+    "allocated": 53248,
+    "mtime_ns": 1793198903382517984,
+    "inode": 490575,
+    "kind": "file",
+    "sha256": "c07c7bcd7a7d5e35558b71d8d62382fe54461ad9dfea2183c15713c64295b5e4",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_067_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_011_threshold_100.csv",
+    "size": 105489,
+    "allocated": 106496,
+    "mtime_ns": 1793198783166304333,
+    "inode": 488220,
+    "kind": "file",
+    "sha256": "befcf4a7d62a6b7b87e7c21c245005558dc3d828e4b0ca61ffc5ecfed1abf804",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_011_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_006_threshold_100.csv",
+    "size": 40717,
+    "allocated": 40960,
+    "mtime_ns": 1793198872779897510,
+    "inode": 488245,
+    "kind": "file",
+    "sha256": "1c984204413c74c73b413cd42fa44a071330017fd37f4503d829b3c41d99ed29",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_006_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/summary.json",
+    "size": 3864,
+    "allocated": 4096,
+    "mtime_ns": 1793198903393482424,
+    "inode": 490896,
+    "kind": "file",
+    "sha256": "43d54d43b44346fe42c0fd49578ecd70a94cb3c43f499b7c4d7e12245638025b",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/summary.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_053_threshold_130.csv",
+    "size": 103685,
+    "allocated": 106496,
+    "mtime_ns": 1793198811744747883,
+    "inode": 488225,
+    "kind": "file",
+    "sha256": "0ba8c5eb081167dab021bfe8db33d6abbadb7a83ddb2f3990fa2bdf37b62a64f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_053_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_113_threshold_130.csv",
+    "size": 10801,
+    "allocated": 12288,
+    "mtime_ns": 1793198902792061652,
+    "inode": 488261,
+    "kind": "file",
+    "sha256": "2c80706921d5cb186c1f737dcb5b5d84ce1a08292af4567c9bcf1e4b180089c8",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_113_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_015_threshold_130.csv",
+    "size": 63422,
+    "allocated": 65536,
+    "mtime_ns": 1793198837026598875,
+    "inode": 488242,
+    "kind": "file",
+    "sha256": "39e3dac34bbc5506ce490dbb0b3376be60dfe9b2e9a80718587934013c19cfaf",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_015_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_078_threshold_130.csv",
+    "size": 54726,
+    "allocated": 57344,
+    "mtime_ns": 1793198766179808368,
+    "inode": 414125,
+    "kind": "file",
+    "sha256": "ab99715ea74581d6c0b633954a66a2bba7a247c333195cbbe23f36aab2318039",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_078_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_078_threshold_100.csv",
+    "size": 55515,
+    "allocated": 57344,
+    "mtime_ns": 1793198761214075985,
+    "inode": 414124,
+    "kind": "file",
+    "sha256": "fffba3368384f461a310f5ec27a1939e3f17f2527eec0d9639de6e37103f9217",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_078_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_010_threshold_100.csv",
+    "size": 148305,
+    "allocated": 151552,
+    "mtime_ns": 1793198901080674938,
+    "inode": 488260,
+    "kind": "file",
+    "sha256": "1f30c43d05449a8dd03597b70c2ab282ee628123295902263de2876e65bce429",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_010_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_005_threshold_130.csv",
+    "size": 141422,
+    "allocated": 143360,
+    "mtime_ns": 1793198856958167463,
+    "inode": 488243,
+    "kind": "file",
+    "sha256": "ce445f813fc1614933085fd8a2ccba2f25a189a28b1c4f36865736608c3bb780",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_005_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_011_threshold_130.csv",
+    "size": 105612,
+    "allocated": 106496,
+    "mtime_ns": 1793198782629135754,
+    "inode": 488219,
+    "kind": "file",
+    "sha256": "90c37a6446dec743a4ea4b93829bf85225ecdc16fb3549ea15f47adc3e3d2def",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_011_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/initialization.json",
+    "size": 5932,
+    "allocated": 8192,
+    "mtime_ns": 1793198740803418246,
+    "inode": 414115,
+    "kind": "file",
+    "sha256": "426b14bd5ec861197f587d5d2e152ceccf213d469865ac2c38d4bb63f1871c3c",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/initialization.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_015_threshold_100.csv",
+    "size": 62995,
+    "allocated": 65536,
+    "mtime_ns": 1793198831126504523,
+    "inode": 488236,
+    "kind": "file",
+    "sha256": "300fb9a79bb724c2e70a30fb5988edcc56d70fa565be074cb47b9ac4708276c5",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_015_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_008_threshold_100.csv",
+    "size": 34692,
+    "allocated": 36864,
+    "mtime_ns": 1793198798689792472,
+    "inode": 488221,
+    "kind": "file",
+    "sha256": "4e15258cb87f48c114a159fc52147642a313287a6988084926b78d7ee5e734bd",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_008_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_113_threshold_100.csv",
+    "size": 10928,
+    "allocated": 12288,
+    "mtime_ns": 1793198900069752940,
+    "inode": 488259,
+    "kind": "file",
+    "sha256": "28f67037d9eec38fa71d459a3b57eb1a7f482fddc8ae83b47eaf55b1d81f84c2",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_113_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_053_threshold_100.csv",
+    "size": 103061,
+    "allocated": 106496,
+    "mtime_ns": 1793198805780716309,
+    "inode": 488224,
+    "kind": "file",
+    "sha256": "7337b221c524f426062b4d3154e17399d05d10ea35ff2b1d2c61dcf2ef929bab",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_053_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_005_threshold_100.csv",
+    "size": 143784,
+    "allocated": 147456,
+    "mtime_ns": 1793198866415577524,
+    "inode": 488244,
+    "kind": "file",
+    "sha256": "6d4a98b96a0094b9aa7a06003cfc93445d58d067ca9ace26989c547ad3bf6d43",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_005_threshold_100.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/baseline/target_006_threshold_130.csv",
+    "size": 40995,
+    "allocated": 45056,
+    "mtime_ns": 1793198882073104052,
+    "inode": 488246,
+    "kind": "file",
+    "sha256": "4df5c647be9b9483e6b909bb46264fbf4733410f86b80d604479d0d9b3bff476",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/baseline_runs/target_006_threshold_130.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/02_tracking_ours.frames.csv",
+    "size": 65586,
+    "allocated": 69632,
+    "mtime_ns": 1793199454875148853,
+    "inode": 490915,
+    "kind": "file",
+    "sha256": "28f4e09ff34e5e258f57e2b9792d7efe2810a71797c48a6e37a80dbf052b2c9a",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_ours.frames.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_baseline.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/03_events_baseline.frames.csv",
+    "size": 25095,
+    "allocated": 28672,
+    "mtime_ns": 1793199466914903116,
+    "inode": 490917,
+    "kind": "file",
+    "sha256": "c67a4c7e7526a4977dc54db888b32c272dd8a0cdc5d8880d4763fdcca377ae0f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_baseline.frames.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_ours.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/01_detection_baseline.mp4",
+    "size": 4522958,
+    "allocated": 4526080,
+    "mtime_ns": 1793199276390390827,
+    "inode": 490900,
+    "kind": "file",
+    "sha256": "81f56fdc2f4069d2e85128dd36949a1c622f44aa8505fd62c4b8444683c46278",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/01_detection_baseline.mp4"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/03_events_ours.mp4",
+    "size": 2743602,
+    "allocated": 2744320,
+    "mtime_ns": 1793199478548343165,
+    "inode": 490918,
+    "kind": "file",
+    "sha256": "c4250c6108f5924a98f7a831f92dc284fdfc6d34ee6c747840a35718e0998193",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/03_events_ours.mp4"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/02_tracking_baseline.frames.csv",
+    "size": 65586,
+    "allocated": 69632,
+    "mtime_ns": 1793199399522819332,
+    "inode": 490910,
+    "kind": "file",
+    "sha256": "28f4e09ff34e5e258f57e2b9792d7efe2810a71797c48a6e37a80dbf052b2c9a",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_ours.frames.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/data/02_tracking_baseline.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/03_events_ours.frames.csv",
+    "size": 25095,
+    "allocated": 28672,
+    "mtime_ns": 1793199478548844620,
+    "inode": 490919,
+    "kind": "file",
+    "sha256": "c67a4c7e7526a4977dc54db888b32c272dd8a0cdc5d8880d4763fdcca377ae0f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_baseline.frames.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/data/03_events_ours.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/01_detection_ours.mp4",
+    "size": 4390773,
+    "allocated": 4390912,
+    "mtime_ns": 1793199346493752702,
+    "inode": 490903,
+    "kind": "file",
+    "sha256": "ed709ff9df512ec94abc67e8be19051beadedf242c9f8ad51356a2f1dd0afaae",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/01_detection_ours.mp4"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/01_detection_baseline.frames.csv",
+    "size": 62934,
+    "allocated": 65536,
+    "mtime_ns": 1793199276391100017,
+    "inode": 490901,
+    "kind": "file",
+    "sha256": "8072d0db4f84cf89b3dfc1aecfb344be4c12b1e0b20f997a4ba9ed4ff1eed0c5",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_baseline.frames.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_ours.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/03_events_baseline.mp4",
+    "size": 2425065,
+    "allocated": 2428928,
+    "mtime_ns": 1793199466914819684,
+    "inode": 490916,
+    "kind": "file",
+    "sha256": "571b26412ac86c867fb04316ea843d6e61c8b08a35ad30a4bc61b11d4ba5289e",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/03_merger_separation_disappearance/03_events_baseline.mp4"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/02_tracking_ours.mp4",
+    "size": 5316251,
+    "allocated": 5316608,
+    "mtime_ns": 1793199454874591629,
+    "inode": 490911,
+    "kind": "file",
+    "sha256": "4bc3459a39295ba8c55d5d8ad770f9faa6e90cb15f86301635db2f22e0bd4f70",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/02_tracking_ours.mp4"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/01_detection_ours.frames.csv",
+    "size": 62934,
+    "allocated": 65536,
+    "mtime_ns": 1793199346496460804,
+    "inode": 490905,
+    "kind": "file",
+    "sha256": "8072d0db4f84cf89b3dfc1aecfb344be4c12b1e0b20f997a4ba9ed4ff1eed0c5",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_baseline.frames.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/01_microbubble_detection/data/01_detection_ours.frames.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/videos/02_tracking_baseline.mp4",
+    "size": 4442847,
+    "allocated": 4444160,
+    "mtime_ns": 1793199399520798334,
+    "inode": 490906,
+    "kind": "file",
+    "sha256": "4a0ca0c11274e2b01898b88aec23997cb402800c75e27419079910f5139c31f7",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/02_tracking/02_tracking_baseline.mp4"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours_fixed_background/events.csv",
+    "size": 8239,
+    "allocated": 12288,
+    "mtime_ns": 1793198816746227192,
+    "inode": 488227,
+    "kind": "file",
+    "sha256": "833a8fcf92acac53813de8f6a977437eb639ad17ad583212823478e0519b60bb",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/shared_data/expA/recorded_results/events.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/our_method/events.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours_fixed_background/objects.csv",
+    "size": 2004213,
+    "allocated": 2007040,
+    "mtime_ns": 1793198816745499205,
+    "inode": 488226,
+    "kind": "file",
+    "sha256": "85d11d62a75647d85acc3e58c4433c6149b9a0da4ab8deef829be624e6a075d4",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/shared_data/expA/recorded_results/objects.csv",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/our_method/objects.csv"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours_fixed_background/background.npy",
+    "size": 5243008,
+    "allocated": 5246976,
+    "mtime_ns": 1793198816898048943,
+    "inode": 488229,
+    "kind": "file",
+    "sha256": "ab122a45cd3e0ddf8f17f99be58655b4b67a383afe0f6dd3df51d9399bb68941",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/shared_data/expA/recorded_results/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/our_method/background.npy"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours_fixed_background/stats.json",
+    "size": 207,
+    "allocated": 4096,
+    "mtime_ns": 1793198816905022333,
+    "inode": 488230,
+    "kind": "file",
+    "sha256": "ab0fddc432028587429045c4d5a08812649c5e7ffa080b2b2983fb12a4873d97",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/our_method/stats.json"
+    ]
+  },
+  {
+    "path": "baseline_animations_20261028-154358/ours_fixed_background/contours.npz",
+    "size": 410529,
+    "allocated": 413696,
+    "mtime_ns": 1793198816892223899,
+    "inode": 488228,
+    "kind": "file",
+    "sha256": "14e91e2509ec4bbacd4d54a48793ffae1a6681b3a9786a5377ddde16e815b30d",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/shared_data/expA/recorded_results/contours.npz",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/baseline_comparison/data/our_method/contours.npz"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/01_trajectory_segmentation.frames.csv",
+    "size": 196054,
+    "allocated": 196608,
+    "mtime_ns": 1793193293087764448,
+    "inode": 331827,
+    "kind": "file",
+    "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/02_kinematics.mp4",
+    "size": 1262521,
+    "allocated": 1265664,
+    "mtime_ns": 1793193315996819608,
+    "inode": 331830,
+    "kind": "file",
+    "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/visible_labels.json",
+    "size": 77839,
+    "allocated": 81920,
+    "mtime_ns": 1793193317830315071,
+    "inode": 331856,
+    "kind": "file",
+    "sha256": "2213882708204f26c91a479a2737f9eb9d84aa24bce201eb57dc526562c44b60",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final_visible_labels.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/provenance.json",
+    "size": 10488,
+    "allocated": 12288,
+    "mtime_ns": 1793193317829599161,
+    "inode": 331852,
+    "kind": "file",
+    "sha256": "40a5ac219b413d49a86f738245d4c429ebe78702533a087b93e2632cb30b5c34",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/trajectory_cut_events.csv",
+    "size": 891,
+    "allocated": 4096,
+    "mtime_ns": 1793193317771384260,
+    "inode": 331837,
+    "kind": "file",
+    "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/03_morphology.frames.csv",
+    "size": 13775,
+    "allocated": 16384,
+    "mtime_ns": 1793193317688916560,
+    "inode": 331835,
+    "kind": "file",
+    "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/slide6_animations.zip",
+    "size": 9791715,
+    "allocated": 9793536,
+    "mtime_ns": 1793193317999341207,
+    "inode": 331857,
+    "kind": "file",
+    "sha256": "bd3a1772bbab95dead1b031c1deb3b072da2485838c45bdc68e46360a63a2f4f",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "01_trajectory_segmentation.frames.csv",
+        "size": 196054,
+        "sha256": "5436a7494c62501459780becad041392ff8d51b25b1dddfd9f3ca11fb86456f5",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/01_trajectory_segmentation.frames.csv"
+        ]
+      },
+      {
+        "member": "01_trajectory_segmentation.mp4",
+        "size": 7884796,
+        "sha256": "755666a7c00ce448e30d0851ca730eaf8aef76cc1dd5513fabbb5b9ed40f8ced",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/01_trajectory_segmentation.mp4"
+        ]
+      },
+      {
+        "member": "02_kinematics.frames.csv",
+        "size": 19270,
+        "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+        ]
+      },
+      {
+        "member": "02_kinematics.mp4",
+        "size": 1262521,
+        "sha256": "0ca8ceab6658e5d8f0cff395f154c6a39f559a08ce50896ce2f24926fa35750f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/02_kinematics.mp4"
+        ]
+      },
+      {
+        "member": "03_morphology.frames.csv",
+        "size": 13775,
+        "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+        ]
+      },
+      {
+        "member": "03_morphology.mp4",
+        "size": 617267,
+        "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4"
+        ]
+      },
+      {
+        "member": "provenance.json",
+        "size": 10488,
+        "sha256": "40a5ac219b413d49a86f738245d4c429ebe78702533a087b93e2632cb30b5c34",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final.json"
+        ]
+      },
+      {
+        "member": "pzt_command_intervals.csv",
+        "size": 1487,
+        "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv"
+        ]
+      },
+      {
+        "member": "trajectory_cut_events.csv",
+        "size": 891,
+        "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+        ]
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 77839,
+        "sha256": "2213882708204f26c91a479a2737f9eb9d84aa24bce201eb57dc526562c44b60",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/steps_1_to_3_final_visible_labels.json"
+        ]
+      }
+    ],
+    "zip_all_preserved": true
+  },
+  {
+    "path": "analysis_slides_20261028-141412/pzt_command_intervals.csv",
+    "size": 1487,
+    "allocated": 4096,
+    "mtime_ns": 1793193317771581534,
+    "inode": 331844,
+    "kind": "file",
+    "sha256": "91854900898dd485c8e909d099c55e5055285ad6c9b01a699803f7d3869fef0f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/pzt_command_intervals.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/03_morphology.mp4",
+    "size": 617267,
+    "allocated": 618496,
+    "mtime_ns": 1793193317688379281,
+    "inode": 331833,
+    "kind": "file",
+    "sha256": "04f6a7167db67a81962c8c0af1ccbaf27cec2029ada4f6420ae9e5c4f79918d6",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/03_morphology.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793193260282513097,
+    "inode": 331820,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/01_trajectory_segmentation.mp4",
+    "size": 7884796,
+    "allocated": 7884800,
+    "mtime_ns": 1793193293083582384,
+    "inode": 331824,
+    "kind": "file",
+    "sha256": "755666a7c00ce448e30d0851ca730eaf8aef76cc1dd5513fabbb5b9ed40f8ced",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/01_trajectory_segmentation.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-141412/02_kinematics.frames.csv",
+    "size": 19270,
+    "allocated": 20480,
+    "mtime_ns": 1793193315997593294,
+    "inode": 331832,
+    "kind": "file",
+    "sha256": "39915ee37d67829706478dbf7dcbae90301f64172cfb8816ff1546a3a5b405b8",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/02_kinematics.frames.csv"
+    ]
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/02_world_model_network_detail.png",
+    "size": 200124,
+    "allocated": 200704,
+    "mtime_ns": 1793271665678378177,
+    "inode": 491896,
+    "kind": "file",
+    "sha256": "0e9c677731d60abd3a7fbc7eb5e56dd25d16cf60007ea5e95ecf1e2ac521d3b6",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/02_world_model_network_detail.svg",
+    "size": 121521,
+    "allocated": 122880,
+    "mtime_ns": 1793271672857427796,
+    "inode": 491898,
+    "kind": "file",
+    "sha256": "c9158958eec9a076b04310623cc6f92102f8ed1c8fbb4463fe6b7baf57cf3b65",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/01_world_model_overview.pdf",
+    "size": 313004,
+    "allocated": 315392,
+    "mtime_ns": 1793271652828139719,
+    "inode": 344239,
+    "kind": "file",
+    "sha256": "523d7f01d41c66e3b61024d1396b4ee5f59789bcd9f58e0996dfbc1455274c89",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/README.md",
+    "size": 6035,
+    "allocated": 8192,
+    "mtime_ns": 1793271672858043398,
+    "inode": 491899,
+    "kind": "file",
+    "sha256": "2e5d131ac0a1c6501360bc1c5132a8c8458b9bc43c780ef45258a33e8c6ac718",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/world_model_architecture_refined/README.md",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/world_model_architecture_lime/README.md"
+    ]
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/architecture_manifest.json",
+    "size": 3770,
+    "allocated": 4096,
+    "mtime_ns": 1793271672893543776,
+    "inode": 491900,
+    "kind": "file",
+    "sha256": "d45c6a3daeeaf92da2a8eba0e1153a3af24269042c63ba7f60952efcba089ff9",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/01_world_model_overview.png",
+    "size": 590876,
+    "allocated": 593920,
+    "mtime_ns": 1793271648290664990,
+    "inode": 344238,
+    "kind": "file",
+    "sha256": "01ec53159b84827d4957e0c9eaac73c892d5e1a694d213b023ff2cb93344c9b0",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/02_world_model_network_detail.pdf",
+    "size": 58412,
+    "allocated": 61440,
+    "mtime_ns": 1793271670211462682,
+    "inode": 491897,
+    "kind": "file",
+    "sha256": "f06a52ee50469aba5da08ee78d020a367dc46651f6f35c69101e730587cda97e",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_refined_layout_01/01_world_model_overview.svg",
+    "size": 502515,
+    "allocated": 503808,
+    "mtime_ns": 1793271656383569746,
+    "inode": 365107,
+    "kind": "file",
+    "sha256": "d5018ce890c1c6a22de7e8a9aeebebf6a9da8de270f76d2a4460a94622c409fc",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/output_binary_mask.png",
+    "size": 495145,
+    "allocated": 495616,
+    "mtime_ns": 1793184944352409006,
+    "inode": 103736,
+    "kind": "file",
+    "sha256": "09fb41cb29e24a0dbd16f10299ef14b84840ea0cad39ce2241b87e80fdb7d65d",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/output_binary_mask.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/step_2_relative_darkness.png",
+    "size": 405039,
+    "allocated": 405504,
+    "mtime_ns": 1793184934301658621,
+    "inode": 100451,
+    "kind": "file",
+    "sha256": "c1045f4a60fd349d63160beae6da1857d319619cf10c9b0bfc158e7f2723995b",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_2_relative_darkness.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/step_2_relative_darkness.pdf",
+    "size": 270194,
+    "allocated": 270336,
+    "mtime_ns": 1793184936129215048,
+    "inode": 100452,
+    "kind": "file",
+    "sha256": "74076b883aa396bec2022e0311fcfce9d6855da6bdfe089d2dc590ea8fc771a0",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/step_4_closing_cleanup.png",
+    "size": 101153,
+    "allocated": 102400,
+    "mtime_ns": 1793184941249076157,
+    "inode": 100456,
+    "kind": "file",
+    "sha256": "4c3adfaf1c9cf3c2e52e5bb9747acc7a33a37bb904926123dff486e3021e904f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_4_closing_cleanup.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/provenance.json",
+    "size": 5668,
+    "allocated": 8192,
+    "mtime_ns": 1793184946084772665,
+    "inode": 103742,
+    "kind": "file",
+    "sha256": "0197572f0d8aa8ba3095ad6a6fea909f9d7680e873589facc36e40e719a5fe8a",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/provenance/steps_2_to_4_and_output.json"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/step_4_closing_cleanup.pdf",
+    "size": 50470,
+    "allocated": 53248,
+    "mtime_ns": 1793184942721393920,
+    "inode": 103734,
+    "kind": "file",
+    "sha256": "00b81dce67eff708561226efe74dbd068797f799a4510f5d1dc5eac88c929362",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/step_3_hysteresis.pdf",
+    "size": 45881,
+    "allocated": 49152,
+    "mtime_ns": 1793184939486825112,
+    "inode": 100454,
+    "kind": "file",
+    "sha256": "7256f3e64eb37d76ddfa437b43796f2a4973c8905ec1a303e91defef43641276",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/step_3_hysteresis.png",
+    "size": 107227,
+    "allocated": 110592,
+    "mtime_ns": 1793184938509791546,
+    "inode": 100453,
+    "kind": "file",
+    "sha256": "073db786a740c445bc924683549e4c2a5362a68d9541516c39577c2511dde77f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_3_hysteresis.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/output_binary_mask.pdf",
+    "size": 413692,
+    "allocated": 413696,
+    "mtime_ns": 1793184945495847823,
+    "inode": 103737,
+    "kind": "file",
+    "sha256": "ad039c7684abf7f36e299bdb59c466c2e9eb1abcced5e7c9388d21f63987d391",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/segmentation_figures.zip",
+    "size": 1758156,
+    "allocated": 1761280,
+    "mtime_ns": 1793184994144793814,
+    "inode": 103751,
+    "kind": "file",
+    "sha256": "19fbffbaa18335044a952e7257e7d93f9e1261de7edd281ad0620e6ec562a941",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "step_2_relative_darkness.png",
+        "size": 405039,
+        "sha256": "c1045f4a60fd349d63160beae6da1857d319619cf10c9b0bfc158e7f2723995b",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_2_relative_darkness.png"
+        ]
+      },
+      {
+        "member": "step_2_relative_darkness.pdf",
+        "size": 270194,
+        "sha256": "74076b883aa396bec2022e0311fcfce9d6855da6bdfe089d2dc590ea8fc771a0",
+        "retained_copies": []
+      },
+      {
+        "member": "step_3_hysteresis.png",
+        "size": 107227,
+        "sha256": "073db786a740c445bc924683549e4c2a5362a68d9541516c39577c2511dde77f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_3_hysteresis.png"
+        ]
+      },
+      {
+        "member": "step_3_hysteresis.pdf",
+        "size": 45881,
+        "sha256": "7256f3e64eb37d76ddfa437b43796f2a4973c8905ec1a303e91defef43641276",
+        "retained_copies": []
+      },
+      {
+        "member": "step_4_closing_cleanup.png",
+        "size": 101153,
+        "sha256": "4c3adfaf1c9cf3c2e52e5bb9747acc7a33a37bb904926123dff486e3021e904f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_4_closing_cleanup.png"
+        ]
+      },
+      {
+        "member": "step_4_closing_cleanup.pdf",
+        "size": 50470,
+        "sha256": "00b81dce67eff708561226efe74dbd068797f799a4510f5d1dc5eac88c929362",
+        "retained_copies": []
+      },
+      {
+        "member": "output_binary_mask.png",
+        "size": 495145,
+        "sha256": "09fb41cb29e24a0dbd16f10299ef14b84840ea0cad39ce2241b87e80fdb7d65d",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/output_binary_mask.png"
+        ]
+      },
+      {
+        "member": "output_binary_mask.pdf",
+        "size": 413692,
+        "sha256": "ad039c7684abf7f36e299bdb59c466c2e9eb1abcced5e7c9388d21f63987d391",
+        "retained_copies": []
+      },
+      {
+        "member": "provenance.json",
+        "size": 5668,
+        "sha256": "0197572f0d8aa8ba3095ad6a6fea909f9d7680e873589facc36e40e719a5fe8a",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/provenance/steps_2_to_4_and_output.json"
+        ]
+      },
+      {
+        "member": "data/mask_0000.png",
+        "size": 3516,
+        "sha256": "8a9124678f65fb0fff9b9a023f6e1a893b095b5aac7f752ed2c26325a0d3d741",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/data/mask_0000.png"
+        ]
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/data/stages_0000.npz",
+    "size": 6787937,
+    "allocated": 6791168,
+    "mtime_ns": 1793184946034704256,
+    "inode": 103741,
+    "kind": "file",
+    "sha256": "2fccfe73e22eeb2ca1581b4279507c7e3c1222c3084ab2f965f6eff68bfab822",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/data/stages_0000.npz"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/data/mask_0000.png",
+    "size": 3516,
+    "allocated": 4096,
+    "mtime_ns": 1793184945585284745,
+    "inode": 103740,
+    "kind": "file",
+    "sha256": "8a9124678f65fb0fff9b9a023f6e1a893b095b5aac7f752ed2c26325a0d3d741",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/data/mask_0000.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-115531/data/frame_0000.png",
+    "size": 358150,
+    "allocated": 360448,
+    "mtime_ns": 1793184945580428401,
+    "inode": 103739,
+    "kind": "file",
+    "sha256": "3861e87299cd34095170d26344fb6b478bea7ed5058d7b696aac8e93728cbd7e",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/data/frame_0000.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-150504/step_1_background_estimation.png",
+    "size": 278155,
+    "allocated": 278528,
+    "mtime_ns": 1793196309328437688,
+    "inode": 331973,
+    "kind": "file",
+    "sha256": "9815ca1d8063aa6788a93a383e56391dbdddf69be848ff7daa14c0cd57d8cb3a",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/step_1_background_estimation.png"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-150504/pixel_brightness.csv",
+    "size": 70993,
+    "allocated": 73728,
+    "mtime_ns": 1793196311376495948,
+    "inode": 331976,
+    "kind": "file",
+    "sha256": "1949c97554e908a7bb357e57aac499f0ee38189b6248dba20c101af8a0ab9e53",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/data/pixel_brightness.csv"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-150504/verification.json",
+    "size": 386,
+    "allocated": 4096,
+    "mtime_ns": 1793196322339243213,
+    "inode": 331971,
+    "kind": "file",
+    "sha256": "af2c0b215e30991cb8d8fa3ef650d61b38366d7a0847f5cd4d26a6970d8e9e15",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/provenance/step_1_final_verification.json"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-150504/provenance.json",
+    "size": 3318,
+    "allocated": 4096,
+    "mtime_ns": 1793196311416080864,
+    "inode": 331977,
+    "kind": "file",
+    "sha256": "33bcb6aef283c515b8ae43be16ba6defa6f046c1fd87da2b3e86826c162e5f19",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/provenance/step_1_final.json"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-150504/step_1_background_estimation.svg",
+    "size": 46811,
+    "allocated": 49152,
+    "mtime_ns": 1793196311368194698,
+    "inode": 331975,
+    "kind": "file",
+    "sha256": "4b9bb4103eac274be5f65edd83045f629ce1ffe08c1e29cff640e6c397dc2c56",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-150504/step_1_background_estimation.pdf",
+    "size": 30987,
+    "allocated": 32768,
+    "mtime_ns": 1793196310370470243,
+    "inode": 331974,
+    "kind": "file",
+    "sha256": "9e8033422babaaebe9496215963619ff90b058d3d58021ea1d784ca2dc70402e",
+    "retained_copies": []
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144914/example_trace.csv",
+    "size": 8129,
+    "allocated": 8192,
+    "mtime_ns": 1793195356290799251,
+    "inode": 331933,
+    "kind": "file",
+    "sha256": "51b36912357ecfc0a7c38baa3f27b0495c14526f56e459672af59a99e5e712f1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/example_trace.csv"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144914/summary.csv",
+    "size": 1555,
+    "allocated": 4096,
+    "mtime_ns": 1793195356290337643,
+    "inode": 331932,
+    "kind": "file",
+    "sha256": "c63cce45cbe55b1b2b2966f1c75adb90ee7e9142ad58b80bda796a306ed86846",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/summary.csv"
+    ]
+  },
+  {
+    "path": "stimulus_response_slides_20261028-144914/responses.csv",
+    "size": 37093,
+    "allocated": 40960,
+    "mtime_ns": 1793195356288967325,
+    "inode": 331931,
+    "kind": "file",
+    "sha256": "8c75cfb137c8c68246afd6c4b4d170a7b42d1572eecd94f12b8b611c804f82fd",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_08_stimulus_response_analysis/data/responses.csv"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-120335/step_1_background_estimation.png",
+    "size": 204726,
+    "allocated": 204800,
+    "mtime_ns": 1793185420726721484,
+    "inode": 104348,
+    "kind": "file",
+    "sha256": "5ddce0daf9680300706d8e274a637f61b42bfc47103c2efe4474d777874f6c43",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-120335/pixel_brightness.csv",
+    "size": 70993,
+    "allocated": 73728,
+    "mtime_ns": 1793185422697865039,
+    "inode": 104355,
+    "kind": "file",
+    "sha256": "1949c97554e908a7bb357e57aac499f0ee38189b6248dba20c101af8a0ab9e53",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_03_background_estimation_and_foreground_segmentation/data/pixel_brightness.csv"
+    ]
+  },
+  {
+    "path": "segmentation_slides_20261028-120335/provenance.json",
+    "size": 2928,
+    "allocated": 4096,
+    "mtime_ns": 1793185422731167582,
+    "inode": 104356,
+    "kind": "file",
+    "sha256": "399bdc209424c23cdbdb870a980f3a28fa2d139fbf60844a2bd05bfcbf5bb9f2",
+    "retained_copies": []
+  },
+  {
+    "path": "segmentation_slides_20261028-120335/step_1_background_estimation.pdf",
+    "size": 45109,
+    "allocated": 49152,
+    "mtime_ns": 1793185422684072882,
+    "inode": 104350,
+    "kind": "file",
+    "sha256": "49c7abbba4f33e65bc6b2a65450da288d75670490d8a4305251ab41ddc96eb2d",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/02_world_model_network_detail.png",
+    "size": 627812,
+    "allocated": 630784,
+    "mtime_ns": 1793270610831593275,
+    "inode": 360048,
+    "kind": "file",
+    "sha256": "6d4b7cdaa4823fb7797263fe17779610ccc1c1fd97cbc09c1e8283c0486ec735",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/02_world_model_network_detail.svg",
+    "size": 159398,
+    "allocated": 159744,
+    "mtime_ns": 1793270623029503583,
+    "inode": 363252,
+    "kind": "file",
+    "sha256": "9b79b2643ed749d5afaf467a87514ec163c23d95fdf4e2fe8e9dbfdad1c31706",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/01_world_model_overview.pdf",
+    "size": 66777,
+    "allocated": 69632,
+    "mtime_ns": 1793270593950763210,
+    "inode": 348102,
+    "kind": "file",
+    "sha256": "58d566b11e2e6c55772cdaf07d7621653b08bde9b9302fec8e5eff13b90884da",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/README.md",
+    "size": 4987,
+    "allocated": 8192,
+    "mtime_ns": 1793270623033394495,
+    "inode": 363253,
+    "kind": "file",
+    "sha256": "71b5c81bf156fe3c6ab7e8be952c257a1bbef687fd2ddd38c4215497d0fd730e",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/architecture_manifest.json",
+    "size": 6168,
+    "allocated": 8192,
+    "mtime_ns": 1793270623056109896,
+    "inode": 363254,
+    "kind": "file",
+    "sha256": "2dd01cab3819c46ea606505490ae27c9b0a5ab3ade0f72174f00d3bfd774dacc",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/01_world_model_overview.png",
+    "size": 642899,
+    "allocated": 643072,
+    "mtime_ns": 1793270589236720420,
+    "inode": 348101,
+    "kind": "file",
+    "sha256": "df71449ee146d0669af74600a50014e6ef878386ab32513c3de1d3564d9b5b56",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/02_world_model_network_detail.pdf",
+    "size": 67837,
+    "allocated": 69632,
+    "mtime_ns": 1793270618174624776,
+    "inode": 363251,
+    "kind": "file",
+    "sha256": "cc96db2f2f16a0cfd2290b21dba974741d8598048bcb419553ff34748d3286c7",
+    "retained_copies": []
+  },
+  {
+    "path": "world_model_architecture_layout_01/01_world_model_overview.svg",
+    "size": 160409,
+    "allocated": 163840,
+    "mtime_ns": 1793270597152920677,
+    "inode": 360027,
+    "kind": "file",
+    "sha256": "80cc2cf5a6126cbdcb4ad0fe3a3ec44e8775e9f7e08e2c65790b90df2999b38b",
+    "retained_copies": []
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_4_merge_split_distance.pdf",
+    "size": 146419,
+    "allocated": 147456,
+    "mtime_ns": 1793186615627943145,
+    "inode": 104556,
+    "kind": "file",
+    "sha256": "b18ca7461340510cd81c72445971c52635bb27b713047c472cff4f03acdef448",
+    "retained_copies": []
+  },
+  {
+    "path": "tracking_slides_20261028-122312/output_tracking.pdf",
+    "size": 521357,
+    "allocated": 524288,
+    "mtime_ns": 1793186623947922950,
+    "inode": 104580,
+    "kind": "file",
+    "sha256": "74131a206501798b93da1b48b5589c819925427019c6afeb53b9f2d983113500",
+    "retained_copies": []
+  },
+  {
+    "path": "tracking_slides_20261028-122312/output_tracking.png",
+    "size": 699215,
+    "allocated": 700416,
+    "mtime_ns": 1793186621746256375,
+    "inode": 104563,
+    "kind": "file",
+    "sha256": "e061df844bde77ff3eb15c730b4b0da958fcf57f0f46067769aafd4a75a0a429",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/output_tracking.png"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_1_motion_prediction.pdf",
+    "size": 113592,
+    "allocated": 114688,
+    "mtime_ns": 1793186598629475847,
+    "inode": 104407,
+    "kind": "file",
+    "sha256": "3deda37aeb6f9ad2f2ca8a08fb53ea129c387be32a1bfe6e56a7966daff20416",
+    "retained_copies": []
+  },
+  {
+    "path": "tracking_slides_20261028-122312/provenance.json",
+    "size": 10123,
+    "allocated": 12288,
+    "mtime_ns": 1793186624050511876,
+    "inode": 104586,
+    "kind": "file",
+    "sha256": "8dd5a675eea5cdb03255938ff32edf0d3b20287d9d1a02125630e2e1d867db03",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/provenance/tracking.json"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_3_hungarian_assignment.pdf",
+    "size": 63590,
+    "allocated": 65536,
+    "mtime_ns": 1793186609853588225,
+    "inode": 104530,
+    "kind": "file",
+    "sha256": "b998659815c4285bd1be5e71245e8e624cfa68fa4085f03d4d0077683e7c39a2",
+    "retained_copies": []
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_2_overlap_matrix.pdf",
+    "size": 162673,
+    "allocated": 163840,
+    "mtime_ns": 1793186603905416734,
+    "inode": 104428,
+    "kind": "file",
+    "sha256": "8cd82387dbb32d6a6ac3baf2139b813aae35be40f6d0421d7fb10ff54e687a0d",
+    "retained_copies": []
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_3_hungarian_assignment.png",
+    "size": 149128,
+    "allocated": 151552,
+    "mtime_ns": 1793186607726764908,
+    "inode": 104492,
+    "kind": "file",
+    "sha256": "8ced46d828f3c78ea57ae737b63f553a35fd6fb501f8302c94ff93d1c889a15f",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_3_hungarian_assignment.png"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/tracking_figures.zip",
+    "size": 2414610,
+    "allocated": 2416640,
+    "mtime_ns": 1793186624107559618,
+    "inode": 104587,
+    "kind": "file",
+    "sha256": "80662a00d891112dd175f815c51a70f3accd2c717762c4d3536372a994a0d50b",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "step_1_motion_prediction.png",
+        "size": 209927,
+        "sha256": "23c3579aa8fa9ecab9ec33b4f86e2da6ee7d8d99f15161ba9bd03963840c7927",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_1_motion_prediction.png"
+        ]
+      },
+      {
+        "member": "step_1_motion_prediction.pdf",
+        "size": 113592,
+        "sha256": "3deda37aeb6f9ad2f2ca8a08fb53ea129c387be32a1bfe6e56a7966daff20416",
+        "retained_copies": []
+      },
+      {
+        "member": "step_2_overlap_matrix.png",
+        "size": 220137,
+        "sha256": "663db693b16de74dcc9b0a803d33156760991b82a53947be842da257756158bc",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_2_overlap_matrix.png"
+        ]
+      },
+      {
+        "member": "step_2_overlap_matrix.pdf",
+        "size": 162673,
+        "sha256": "8cd82387dbb32d6a6ac3baf2139b813aae35be40f6d0421d7fb10ff54e687a0d",
+        "retained_copies": []
+      },
+      {
+        "member": "step_3_hungarian_assignment.png",
+        "size": 149128,
+        "sha256": "8ced46d828f3c78ea57ae737b63f553a35fd6fb501f8302c94ff93d1c889a15f",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_3_hungarian_assignment.png"
+        ]
+      },
+      {
+        "member": "step_3_hungarian_assignment.pdf",
+        "size": 63590,
+        "sha256": "b998659815c4285bd1be5e71245e8e624cfa68fa4085f03d4d0077683e7c39a2",
+        "retained_copies": []
+      },
+      {
+        "member": "step_4_merge_split_distance.png",
+        "size": 294556,
+        "sha256": "fa5b0deaa754b2203559b3a4846e455e9252be22dd78b5961e996fbf0eb1fce3",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_4_merge_split_distance.png"
+        ]
+      },
+      {
+        "member": "step_4_merge_split_distance.pdf",
+        "size": 146419,
+        "sha256": "b18ca7461340510cd81c72445971c52635bb27b713047c472cff4f03acdef448",
+        "retained_copies": []
+      },
+      {
+        "member": "output_tracking.png",
+        "size": 699215,
+        "sha256": "e061df844bde77ff3eb15c730b4b0da958fcf57f0f46067769aafd4a75a0a429",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/output_tracking.png"
+        ]
+      },
+      {
+        "member": "output_tracking.pdf",
+        "size": 521357,
+        "sha256": "74131a206501798b93da1b48b5589c819925427019c6afeb53b9f2d983113500",
+        "retained_copies": []
+      },
+      {
+        "member": "provenance.json",
+        "size": 10123,
+        "sha256": "8dd5a675eea5cdb03255938ff32edf0d3b20287d9d1a02125630e2e1d867db03",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/provenance/tracking.json"
+        ]
+      },
+      {
+        "member": "data/overlap_matrix.csv",
+        "size": 46,
+        "sha256": "03376e21199cd2e583f780a5af6f87539704307527968a35b0f79d6eafe4211b",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/data/overlap_matrix.csv"
+        ]
+      },
+      {
+        "member": "data/trajectory_excerpt.csv",
+        "size": 31268,
+        "sha256": "18b8f4c7313c16869ea9a25727935e783a8cb07333563535c5412c3d97dc40db",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/data/trajectory_excerpt.csv"
+        ]
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_2_overlap_matrix.png",
+    "size": 220137,
+    "allocated": 221184,
+    "mtime_ns": 1793186602087514795,
+    "inode": 104421,
+    "kind": "file",
+    "sha256": "663db693b16de74dcc9b0a803d33156760991b82a53947be842da257756158bc",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_2_overlap_matrix.png"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_1_motion_prediction.png",
+    "size": 209927,
+    "allocated": 212992,
+    "mtime_ns": 1793186595626769035,
+    "inode": 104388,
+    "kind": "file",
+    "sha256": "23c3579aa8fa9ecab9ec33b4f86e2da6ee7d8d99f15161ba9bd03963840c7927",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_1_motion_prediction.png"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/step_4_merge_split_distance.png",
+    "size": 294556,
+    "allocated": 294912,
+    "mtime_ns": 1793186613557618373,
+    "inode": 104535,
+    "kind": "file",
+    "sha256": "fa5b0deaa754b2203559b3a4846e455e9252be22dd78b5961e996fbf0eb1fce3",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/step_4_merge_split_distance.png"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/data/overlap_matrix.csv",
+    "size": 46,
+    "allocated": 4096,
+    "mtime_ns": 1793186623989925549,
+    "inode": 104583,
+    "kind": "file",
+    "sha256": "03376e21199cd2e583f780a5af6f87539704307527968a35b0f79d6eafe4211b",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/data/overlap_matrix.csv"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/data/trajectory_excerpt.csv",
+    "size": 31268,
+    "allocated": 32768,
+    "mtime_ns": 1793186623990810204,
+    "inode": 104584,
+    "kind": "file",
+    "sha256": "18b8f4c7313c16869ea9a25727935e783a8cb07333563535c5412c3d97dc40db",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/data/trajectory_excerpt.csv"
+    ]
+  },
+  {
+    "path": "tracking_slides_20261028-122312/data/tracking_arrays.npz",
+    "size": 25427,
+    "allocated": 28672,
+    "mtime_ns": 1793186623985053672,
+    "inode": 104581,
+    "kind": "file",
+    "sha256": "aca241ea54fd9eb05c7bbde0410661f1f10e7c9dae041d63f0b5b1feeee6af2d",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_04_multi_object_tracking/data/tracking_arrays.npz"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-143326/visible_labels.json",
+    "size": 33920,
+    "allocated": 36864,
+    "mtime_ns": 1793194501921573425,
+    "inode": 331913,
+    "kind": "file",
+    "sha256": "0c2a3b6a16522d73d12db47d9b5a2dda94f76767a45a87ddc42db57537031a78",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_visible_labels.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-143326/verification.json",
+    "size": 456,
+    "allocated": 4096,
+    "mtime_ns": 1793194592425816871,
+    "inode": 331929,
+    "kind": "file",
+    "sha256": "e94829aabce435c7938c52838d33bc04fa6325c231d4c0cb093d38cf2eab0b41",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_verification.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-143326/provenance.json",
+    "size": 7627,
+    "allocated": 8192,
+    "mtime_ns": 1793194501921033778,
+    "inode": 331905,
+    "kind": "file",
+    "sha256": "9557dcc46e14b235c6fd3cfbab8bd886d9c6f0cf0a1230f3ba76f01c74431342",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-143326/slide6_animations.zip",
+    "size": 4069984,
+    "allocated": 4071424,
+    "mtime_ns": 1793194501995055489,
+    "inode": 331914,
+    "kind": "file",
+    "sha256": "2a2bfac717ffb49f979d756e429fbcc5dd36fbfb16c3aafbc54d25bc09ab9ff9",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "04_collective_metrics.frames.csv",
+        "size": 35803,
+        "sha256": "39f2f896384c1e07e404f46100531bf60299445e60081e53e9ca1e39eef4a4bf",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/04_collective_metrics.frames.csv"
+        ]
+      },
+      {
+        "member": "04_collective_metrics.mp4",
+        "size": 4050138,
+        "sha256": "ae4b2de179bbcf5fdd8452601914ed9a8c16b88d5bc1594d73f7adb263c10a34",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/04_collective_metrics.mp4"
+        ]
+      },
+      {
+        "member": "provenance.json",
+        "size": 7627,
+        "sha256": "9557dcc46e14b235c6fd3cfbab8bd886d9c6f0cf0a1230f3ba76f01c74431342",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background.json"
+        ]
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 33920,
+        "sha256": "0c2a3b6a16522d73d12db47d9b5a2dda94f76767a45a87ddc42db57537031a78",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/step_4_final_white_background_visible_labels.json"
+        ]
+      }
+    ],
+    "zip_all_preserved": true
+  },
+  {
+    "path": "analysis_slides_20261028-143326/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793194414472391778,
+    "inode": 331902,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-143326/04_collective_metrics.mp4",
+    "size": 4050138,
+    "allocated": 4050944,
+    "mtime_ns": 1793194501301410808,
+    "inode": 331903,
+    "kind": "file",
+    "sha256": "ae4b2de179bbcf5fdd8452601914ed9a8c16b88d5bc1594d73f7adb263c10a34",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/04_collective_metrics.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-143326/04_collective_metrics.frames.csv",
+    "size": 35803,
+    "allocated": 36864,
+    "mtime_ns": 1793194501302004347,
+    "inode": 331904,
+    "kind": "file",
+    "sha256": "39f2f896384c1e07e404f46100531bf60299445e60081e53e9ca1e39eef4a4bf",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/04_collective_metrics.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-135218/01_trajectory_segmentation.frames.csv",
+    "size": 142601,
+    "allocated": 143360,
+    "mtime_ns": 1793191999674472575,
+    "inode": 105039,
+    "kind": "file",
+    "sha256": "1a4272b42d6f7e16ee196e668419f8685c3f006b834cb000d4d27baecd67bd26",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135218/visible_labels.json",
+    "size": 78994,
+    "allocated": 81920,
+    "mtime_ns": 1793192000641459668,
+    "inode": 105043,
+    "kind": "file",
+    "sha256": "dc180574318be363915e3ddc405d323d0eb05f6e6aba7453bbed7e93caf86873",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135218/provenance.json",
+    "size": 6347,
+    "allocated": 8192,
+    "mtime_ns": 1793192000640763156,
+    "inode": 105042,
+    "kind": "file",
+    "sha256": "1d5ef3877941df47b100cf624a56a390cf2508d084a72b25735bc0588fe1ea43",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135218/trajectory_cut_events.csv",
+    "size": 891,
+    "allocated": 4096,
+    "mtime_ns": 1793192000563743407,
+    "inode": 105041,
+    "kind": "file",
+    "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-135218/slide6_animations.zip",
+    "size": 4987328,
+    "allocated": 4988928,
+    "mtime_ns": 1793192000738385625,
+    "inode": 105045,
+    "kind": "file",
+    "sha256": "ce3dd358dc72d8f7ab18257fd964f6464966341720448baf22eefc19d18c8be2",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "01_trajectory_segmentation.frames.csv",
+        "size": 142601,
+        "sha256": "1a4272b42d6f7e16ee196e668419f8685c3f006b834cb000d4d27baecd67bd26",
+        "retained_copies": []
+      },
+      {
+        "member": "01_trajectory_segmentation.mp4",
+        "size": 4975055,
+        "sha256": "c31c8ee3d02537923910c5678604c5e6d8def7f2a86ca56b02bc714431b147d2",
+        "retained_copies": []
+      },
+      {
+        "member": "provenance.json",
+        "size": 6347,
+        "sha256": "1d5ef3877941df47b100cf624a56a390cf2508d084a72b25735bc0588fe1ea43",
+        "retained_copies": []
+      },
+      {
+        "member": "trajectory_cut_events.csv",
+        "size": 891,
+        "sha256": "4c41dc510953ad03c00347812df576a1a4c53a65fd9a65db30b1d92e3909b749",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/trajectory_cut_events.csv"
+        ]
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 78994,
+        "sha256": "dc180574318be363915e3ddc405d323d0eb05f6e6aba7453bbed7e93caf86873",
+        "retained_copies": []
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "analysis_slides_20261028-135218/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793191946772759022,
+    "inode": 105037,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-135218/01_trajectory_segmentation.mp4",
+    "size": 4975055,
+    "allocated": 4976640,
+    "mtime_ns": 1793191999670654386,
+    "inode": 105038,
+    "kind": "file",
+    "sha256": "c31c8ee3d02537923910c5678604c5e6d8def7f2a86ca56b02bc714431b147d2",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-142835/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793194123221400841,
+    "inode": 331872,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-142835/04_collective_metrics.mp4",
+    "size": 1310768,
+    "allocated": 1314816,
+    "mtime_ns": 1793194348944338793,
+    "inode": 331873,
+    "kind": "file",
+    "sha256": "4cb7f1ebe170a34192a7937ce23111cea6fdbcd1b0cfb108187eaf4fb73e4221",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-142835/interrupted.json",
+    "size": 214,
+    "allocated": 4096,
+    "mtime_ns": 1793194406117732243,
+    "inode": 331897,
+    "kind": "file",
+    "sha256": "9de59ecd74aa463c58b11cbf6773ad1af50d0c2c3d0f3a1059ccab98e7d07bae",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/05_raw_video_validation.mp4",
+    "size": 437054,
+    "allocated": 438272,
+    "mtime_ns": 1793191478361140769,
+    "inode": 104898,
+    "kind": "file",
+    "sha256": "1fc753e2d20771d442a352126448fe9661c1f2140e1440cad434c748e540badf",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/05_raw_video_validation.mp4"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-134345/01_trajectory_segmentation.frames.csv",
+    "size": 13408,
+    "allocated": 16384,
+    "mtime_ns": 1793191438598278731,
+    "inode": 104709,
+    "kind": "file",
+    "sha256": "95eb87e95cd982cbc23ef05e3a8804e29eab601cd5b27314cc513112b373ee8d",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/02_kinematics.mp4",
+    "size": 897353,
+    "allocated": 901120,
+    "mtime_ns": 1793191442149933401,
+    "inode": 104712,
+    "kind": "file",
+    "sha256": "5430cd1227ed622fedb78e4b2565d6e844d92eb06cbaa061b3d5c8e99c9cf659",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/visible_labels.json",
+    "size": 57941,
+    "allocated": 61440,
+    "mtime_ns": 1793191478619787559,
+    "inode": 105014,
+    "kind": "file",
+    "sha256": "7d7e66b2ade2c2720459081375e0774b885b7f605b0da2ffe1997473b2022ffc",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/output_validation_visible_labels.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-134345/05_raw_video_validation.frames.csv",
+    "size": 19539,
+    "allocated": 20480,
+    "mtime_ns": 1793191478361780174,
+    "inode": 104915,
+    "kind": "file",
+    "sha256": "817ae4d7b4c4fadc8c13405edcd184d561c5b61869487a4bee4ef31473a21777",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/05_raw_video_validation.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-134345/provenance.json",
+    "size": 7329,
+    "allocated": 8192,
+    "mtime_ns": 1793191478619142883,
+    "inode": 104920,
+    "kind": "file",
+    "sha256": "fce7a6279ad5ab9fde28959dba60c211ba66dd7d3e0d2c1716cd8206b81c7d24",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/output_validation.json"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-134345/03_morphology.frames.csv",
+    "size": 7460,
+    "allocated": 8192,
+    "mtime_ns": 1793191444110812034,
+    "inode": 104746,
+    "kind": "file",
+    "sha256": "27d06a78c59dffd33dd8bc6e1c525d05ce4af900a960d30835f4f8c36c05387a",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/slide6_animations.zip",
+    "size": 7403883,
+    "allocated": 7405568,
+    "mtime_ns": 1793191478767584086,
+    "inode": 105022,
+    "kind": "file",
+    "sha256": "d06ec46f52036b43e975d6b1e1d112bfffdb4501d96622845cf91a9a957820d2",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "01_trajectory_segmentation.frames.csv",
+        "size": 13408,
+        "sha256": "95eb87e95cd982cbc23ef05e3a8804e29eab601cd5b27314cc513112b373ee8d",
+        "retained_copies": []
+      },
+      {
+        "member": "01_trajectory_segmentation.mp4",
+        "size": 1248513,
+        "sha256": "88a2cd08ae5e6f7348845db0377d61627909dbca565ade871de1d166298820fd",
+        "retained_copies": []
+      },
+      {
+        "member": "02_kinematics.frames.csv",
+        "size": 10412,
+        "sha256": "8b6a877847e9f38e596d19833f6150854f78fb41438fa1faeb3a072e73a94633",
+        "retained_copies": []
+      },
+      {
+        "member": "02_kinematics.mp4",
+        "size": 897353,
+        "sha256": "5430cd1227ed622fedb78e4b2565d6e844d92eb06cbaa061b3d5c8e99c9cf659",
+        "retained_copies": []
+      },
+      {
+        "member": "03_morphology.frames.csv",
+        "size": 7460,
+        "sha256": "27d06a78c59dffd33dd8bc6e1c525d05ce4af900a960d30835f4f8c36c05387a",
+        "retained_copies": []
+      },
+      {
+        "member": "03_morphology.mp4",
+        "size": 499007,
+        "sha256": "8c359af3ea1851f3c2eb26ffc1fec6473196395476a455cdf97b07b2c71aae59",
+        "retained_copies": []
+      },
+      {
+        "member": "04_collective_metrics.frames.csv",
+        "size": 23797,
+        "sha256": "424d149b9019e44db942b76b206364e03718a7300b989459418ece10beb3a33c",
+        "retained_copies": []
+      },
+      {
+        "member": "04_collective_metrics.mp4",
+        "size": 4350526,
+        "sha256": "967e1b30f098b8a10f077d78836b92390db59d8ed955af5f3aea6c6b183a2124",
+        "retained_copies": []
+      },
+      {
+        "member": "05_raw_video_validation.frames.csv",
+        "size": 19539,
+        "sha256": "817ae4d7b4c4fadc8c13405edcd184d561c5b61869487a4bee4ef31473a21777",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/05_raw_video_validation.frames.csv"
+        ]
+      },
+      {
+        "member": "05_raw_video_validation.mp4",
+        "size": 437054,
+        "sha256": "1fc753e2d20771d442a352126448fe9661c1f2140e1440cad434c748e540badf",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/05_raw_video_validation.mp4"
+        ]
+      },
+      {
+        "member": "provenance.json",
+        "size": 7329,
+        "sha256": "fce7a6279ad5ab9fde28959dba60c211ba66dd7d3e0d2c1716cd8206b81c7d24",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/output_validation.json"
+        ]
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 57941,
+        "sha256": "7d7e66b2ade2c2720459081375e0774b885b7f605b0da2ffe1997473b2022ffc",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/provenance/output_validation_visible_labels.json"
+        ]
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "analysis_slides_20261028-134345/03_morphology.mp4",
+    "size": 499007,
+    "allocated": 499712,
+    "mtime_ns": 1793191444110337578,
+    "inode": 104716,
+    "kind": "file",
+    "sha256": "8c359af3ea1851f3c2eb26ffc1fec6473196395476a455cdf97b07b2c71aae59",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793191433436561510,
+    "inode": 104704,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-134345/01_trajectory_segmentation.mp4",
+    "size": 1248513,
+    "allocated": 1249280,
+    "mtime_ns": 1793191438597608204,
+    "inode": 104706,
+    "kind": "file",
+    "sha256": "88a2cd08ae5e6f7348845db0377d61627909dbca565ade871de1d166298820fd",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/02_kinematics.frames.csv",
+    "size": 10412,
+    "allocated": 12288,
+    "mtime_ns": 1793191442150454833,
+    "inode": 104714,
+    "kind": "file",
+    "sha256": "8b6a877847e9f38e596d19833f6150854f78fb41438fa1faeb3a072e73a94633",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/04_collective_metrics.mp4",
+    "size": 4350526,
+    "allocated": 4354048,
+    "mtime_ns": 1793191474102838633,
+    "inode": 104805,
+    "kind": "file",
+    "sha256": "967e1b30f098b8a10f077d78836b92390db59d8ed955af5f3aea6c6b183a2124",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-134345/04_collective_metrics.frames.csv",
+    "size": 23797,
+    "allocated": 24576,
+    "mtime_ns": 1793191474104725509,
+    "inode": 104862,
+    "kind": "file",
+    "sha256": "424d149b9019e44db942b76b206364e03718a7300b989459418ece10beb3a33c",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135903/visible_labels.json",
+    "size": 2287,
+    "allocated": 4096,
+    "mtime_ns": 1793192354567774610,
+    "inode": 323909,
+    "kind": "file",
+    "sha256": "ca4bd4991379ad5a856f750ca7ddb577eec749e19d81389a411ab95bb7978106",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135903/provenance.json",
+    "size": 6633,
+    "allocated": 8192,
+    "mtime_ns": 1793192354558750440,
+    "inode": 105335,
+    "kind": "file",
+    "sha256": "db78009b432d53c9b78046ebeebfee3477766e246f5c8e57ece7d24457228388",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135903/03_morphology.frames.csv",
+    "size": 13775,
+    "allocated": 16384,
+    "mtime_ns": 1793192354379377658,
+    "inode": 105331,
+    "kind": "file",
+    "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+    ]
+  },
+  {
+    "path": "analysis_slides_20261028-135903/slide6_animations.zip",
+    "size": 652328,
+    "allocated": 655360,
+    "mtime_ns": 1793192354585696557,
+    "inode": 327561,
+    "kind": "file",
+    "sha256": "fdc09663f177732acdcc3d79919b852b8e9a755b0d030058f3a32b99dd530c9c",
+    "retained_copies": [],
+    "zip_members": [
+      {
+        "member": "03_morphology.frames.csv",
+        "size": 13775,
+        "sha256": "bdae6fb7397f469235756dd1040db757a2d7e79653f638b3612cf2e02bb476be",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/03_morphology.frames.csv"
+        ]
+      },
+      {
+        "member": "03_morphology.mp4",
+        "size": 643500,
+        "sha256": "0137d008a1e0113ebacf36dd78175d50a4b62c7a76da90fc0d08a2c27b44a0a4",
+        "retained_copies": []
+      },
+      {
+        "member": "provenance.json",
+        "size": 6633,
+        "sha256": "db78009b432d53c9b78046ebeebfee3477766e246f5c8e57ece7d24457228388",
+        "retained_copies": []
+      },
+      {
+        "member": "validation_samples.csv",
+        "size": 17157,
+        "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+        "retained_copies": [
+          "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+        ]
+      },
+      {
+        "member": "visible_labels.json",
+        "size": 2287,
+        "sha256": "ca4bd4991379ad5a856f750ca7ddb577eec749e19d81389a411ab95bb7978106",
+        "retained_copies": []
+      }
+    ],
+    "zip_all_preserved": false
+  },
+  {
+    "path": "analysis_slides_20261028-135903/03_morphology.mp4",
+    "size": 643500,
+    "allocated": 647168,
+    "mtime_ns": 1793192354378584766,
+    "inode": 105329,
+    "kind": "file",
+    "sha256": "0137d008a1e0113ebacf36dd78175d50a4b62c7a76da90fc0d08a2c27b44a0a4",
+    "retained_copies": []
+  },
+  {
+    "path": "analysis_slides_20261028-135903/validation_samples.csv",
+    "size": 17157,
+    "allocated": 20480,
+    "mtime_ns": 1793192351897888780,
+    "inode": 105324,
+    "kind": "file",
+    "sha256": "e44620abe4636ce762d31a341526b165bdef14db0bccba2a9a9d130b49a12cf1",
+    "retained_copies": [
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/figures/expA/slide_06_motion_shape_and_collective_analysis/data/validation_samples.csv"
+    ]
+  }
+]

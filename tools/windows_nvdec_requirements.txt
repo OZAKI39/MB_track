@@ -1,0 +1,5 @@
+# 独立 Windows Python 3.12 环境；与 WSL 对照使用相同的库版本。
+PyNvVideoCodec==2.2.3
+numpy==2.2.6
+av==19.0.1
+opencv-python==4.10.0.84

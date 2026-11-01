@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "unit_tests_passed": 33,
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "candidate_masks_checked": 6,
+  "saved_keyframe_masks_checked": 84,
+  "candidate_frames": {
+    "shrink_0px": 300,
+    "shrink_4px": 300,
+    "shrink_6px": 300,
+    "mix_a": 300,
+    "mix_b": 300,
+    "mix_c": 300
+  },
+  "uniform_results_match_previous_sweep": true,
+  "spatial_fields_within_requested_bounds": true,
+  "spatial_masks_within_uniform_min_max_bounds": true,
+  "benchmark_lock": "unchanged",
+  "default_mask_and_active_dataset": "unchanged",
+  "browser_check": "browser_check.json",
+  "human_adoption": false,
+  "hardware_used": false,
+  "limitation": "Human review is needed to distinguish wall removal from loss of real bubbles; no optimal setting or accuracy score is claimed.",
+  "supersedes_failed_candidate": "../mask_shrink_20261026-162430/verification_failed.json"
+}

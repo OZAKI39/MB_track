@@ -1,0 +1,27 @@
+[
+  {
+    "file": "av-19.0.1-cp312-abi3-win_amd64.whl",
+    "sha256": "906fc3db09288319a75ea23ffefb59961c7dbe0d1c074601507a89de7d8593d8",
+    "bytes": 28149519
+  },
+  {
+    "file": "numpy-2.2.6-cp312-cp312-win_amd64.whl",
+    "sha256": "c1f9540be57940698ed329904db803cf7a402f3fc200bfe599334c9bd84a40b2",
+    "bytes": 12614190
+  },
+  {
+    "file": "opencv_python-4.10.0.84-cp37-abi3-win_amd64.whl",
+    "sha256": "32dbbd94c26f611dc5cc6979e6b7aa1f55a64d6b463cc1dcd3c95505a63e48fe",
+    "bytes": 38842521
+  },
+  {
+    "file": "pip-26.2.2-py3-none-any.whl",
+    "sha256": "fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70",
+    "bytes": 1819850
+  },
+  {
+    "file": "pynvvideocodec-2.2.3-cp312-cp312-win_amd64.whl",
+    "sha256": "a535d5acededa18602cfc5898be7e906099e34419e91448e348f18bdf6f11329",
+    "bytes": 20595121
+  }
+]

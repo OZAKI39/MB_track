@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "actual_arial_original_comparison_and_no_training",
+    "baseline_ids_filled_and_visible_without_typing",
+    "relationship_ids_are_suggested_without_human_confirmation",
+    "classification_id_assignment_and_grouped_undo_redo",
+    "accept_all_is_current_frame_only_preserves_uncertainty_ids_and_undo",
+    "real_mouse_drag_moves_outer_and_excluded_wall_vertices",
+    "wall_edit_cancel_and_unsaved_navigation_close_guards",
+    "wall_apply_clips_labels_and_undo_restores_geometry_masks_and_ids",
+    "draft_storage_and_no_fake_human_confirmation",
+    "before_after_context_navigation_uses_correct_original_frames",
+    "pending_frames_of_same_video_use_shared_wall_boundary",
+    "wall_edit_does_not_change_the_other_video",
+    "unsaved_relation_blocks_discard_by_case_change_or_close",
+    "software_gui_check_cannot_confirm_relations"
+  ],
+  "source_annotations_edited": false
+}

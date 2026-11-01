@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "metadata": {
+    "duration": 22,
+    "width": 2576,
+    "height": 1136,
+    "error": null
+  },
+  "font_family": "Arial",
+  "seek_times_s": [
+    6,
+    16.5
+  ],
+  "browser_errors": []
+}

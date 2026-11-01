@@ -1,0 +1,56 @@
+{
+  "compact": {
+    "collected": 0,
+    "count": 0,
+    "types": [],
+    "functions": []
+  },
+  "indented": {
+    "collected": 33,
+    "count": 33,
+    "types": [
+      [
+        "builtins.cell",
+        22
+      ],
+      [
+        "builtins.tuple",
+        4
+      ],
+      [
+        "builtins.function",
+        4
+      ],
+      [
+        "json.encoder.JSONEncoder",
+        1
+      ],
+      [
+        "builtins.method",
+        1
+      ],
+      [
+        "builtins.dict",
+        1
+      ]
+    ],
+    "functions": [
+      [
+        "/usr/lib/python3.12/json/encoder.py:224:floatstr",
+        1
+      ],
+      [
+        "/usr/lib/python3.12/json/encoder.py:278:_iterencode_list",
+        1
+      ],
+      [
+        "/usr/lib/python3.12/json/encoder.py:334:_iterencode_dict",
+        1
+      ],
+      [
+        "/usr/lib/python3.12/json/encoder.py:414:_iterencode",
+        1
+      ]
+    ]
+  }
+}

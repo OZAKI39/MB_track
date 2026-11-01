@@ -1,0 +1,7 @@
+{
+  "module": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\.venv_gstreamer\\Lib\\site-packages\\gstreamer_plugins_libs\\lib\\gio\\modules\\giolibproxy.dll",
+  "dependency_directory": "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\.venv_gstreamer\\Lib\\site-packages\\gstreamer_plugins_libs\\lib\\libproxy",
+  "persistent_changes": false,
+  "before": "Could not find module '\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\.venv_gstreamer\\Lib\\site-packages\\gstreamer_plugins_libs\\lib\\gio\\modules\\giolibproxy.dll' (or one of its dependencies). Try using the full path with constructor syntax.",
+  "after_process_local_search_path": "Could not find module '\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\.venv_gstreamer\\Lib\\site-packages\\gstreamer_plugins_libs\\lib\\gio\\modules\\giolibproxy.dll' (or one of its dependencies). Try using the full path with constructor syntax."
+}

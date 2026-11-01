@@ -1,0 +1,437 @@
+{
+  "requested_runs": 70,
+  "completed_runs": 70,
+  "paired_pulses": 70,
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "run_01",
+      "status": "completed"
+    },
+    {
+      "run_index": 2,
+      "directory": "run_02",
+      "status": "completed"
+    },
+    {
+      "run_index": 3,
+      "directory": "run_03",
+      "status": "completed"
+    },
+    {
+      "run_index": 4,
+      "directory": "run_04",
+      "status": "completed"
+    },
+    {
+      "run_index": 5,
+      "directory": "run_05",
+      "status": "completed"
+    },
+    {
+      "run_index": 6,
+      "directory": "run_06",
+      "status": "completed"
+    },
+    {
+      "run_index": 7,
+      "directory": "run_07",
+      "status": "completed"
+    },
+    {
+      "run_index": 8,
+      "directory": "run_08",
+      "status": "completed"
+    },
+    {
+      "run_index": 9,
+      "directory": "run_09",
+      "status": "completed"
+    },
+    {
+      "run_index": 10,
+      "directory": "run_10",
+      "status": "completed"
+    },
+    {
+      "run_index": 11,
+      "directory": "run_11",
+      "status": "completed"
+    },
+    {
+      "run_index": 12,
+      "directory": "run_12",
+      "status": "completed"
+    },
+    {
+      "run_index": 13,
+      "directory": "run_13",
+      "status": "completed"
+    },
+    {
+      "run_index": 14,
+      "directory": "run_14",
+      "status": "completed"
+    },
+    {
+      "run_index": 15,
+      "directory": "run_15",
+      "status": "completed"
+    },
+    {
+      "run_index": 16,
+      "directory": "run_16",
+      "status": "completed"
+    },
+    {
+      "run_index": 17,
+      "directory": "run_17",
+      "status": "completed"
+    },
+    {
+      "run_index": 18,
+      "directory": "run_18",
+      "status": "completed"
+    },
+    {
+      "run_index": 19,
+      "directory": "run_19",
+      "status": "completed"
+    },
+    {
+      "run_index": 20,
+      "directory": "run_20",
+      "status": "completed"
+    },
+    {
+      "run_index": 21,
+      "directory": "run_21",
+      "status": "completed"
+    },
+    {
+      "run_index": 22,
+      "directory": "run_22",
+      "status": "completed"
+    },
+    {
+      "run_index": 23,
+      "directory": "run_23",
+      "status": "completed"
+    },
+    {
+      "run_index": 24,
+      "directory": "run_24",
+      "status": "completed"
+    },
+    {
+      "run_index": 25,
+      "directory": "run_25",
+      "status": "completed"
+    },
+    {
+      "run_index": 26,
+      "directory": "run_26",
+      "status": "completed"
+    },
+    {
+      "run_index": 27,
+      "directory": "run_27",
+      "status": "completed"
+    },
+    {
+      "run_index": 28,
+      "directory": "run_28",
+      "status": "completed"
+    },
+    {
+      "run_index": 29,
+      "directory": "run_29",
+      "status": "completed"
+    },
+    {
+      "run_index": 30,
+      "directory": "run_30",
+      "status": "completed"
+    },
+    {
+      "run_index": 31,
+      "directory": "run_31",
+      "status": "completed"
+    },
+    {
+      "run_index": 32,
+      "directory": "run_32",
+      "status": "completed"
+    },
+    {
+      "run_index": 33,
+      "directory": "run_33",
+      "status": "completed"
+    },
+    {
+      "run_index": 34,
+      "directory": "run_34",
+      "status": "completed"
+    },
+    {
+      "run_index": 35,
+      "directory": "run_35",
+      "status": "completed"
+    },
+    {
+      "run_index": 36,
+      "directory": "run_36",
+      "status": "completed"
+    },
+    {
+      "run_index": 37,
+      "directory": "run_37",
+      "status": "completed"
+    },
+    {
+      "run_index": 38,
+      "directory": "run_38",
+      "status": "completed"
+    },
+    {
+      "run_index": 39,
+      "directory": "run_39",
+      "status": "completed"
+    },
+    {
+      "run_index": 40,
+      "directory": "run_40",
+      "status": "completed"
+    },
+    {
+      "run_index": 41,
+      "directory": "run_41",
+      "status": "completed"
+    },
+    {
+      "run_index": 42,
+      "directory": "run_42",
+      "status": "completed"
+    },
+    {
+      "run_index": 43,
+      "directory": "run_43",
+      "status": "completed"
+    },
+    {
+      "run_index": 44,
+      "directory": "run_44",
+      "status": "completed"
+    },
+    {
+      "run_index": 45,
+      "directory": "run_45",
+      "status": "completed"
+    },
+    {
+      "run_index": 46,
+      "directory": "run_46",
+      "status": "completed"
+    },
+    {
+      "run_index": 47,
+      "directory": "run_47",
+      "status": "completed"
+    },
+    {
+      "run_index": 48,
+      "directory": "run_48",
+      "status": "completed"
+    },
+    {
+      "run_index": 49,
+      "directory": "run_49",
+      "status": "completed"
+    },
+    {
+      "run_index": 50,
+      "directory": "run_50",
+      "status": "completed"
+    },
+    {
+      "run_index": 51,
+      "directory": "run_51",
+      "status": "completed"
+    },
+    {
+      "run_index": 52,
+      "directory": "run_52",
+      "status": "completed"
+    },
+    {
+      "run_index": 53,
+      "directory": "run_53",
+      "status": "completed"
+    },
+    {
+      "run_index": 54,
+      "directory": "run_54",
+      "status": "completed"
+    },
+    {
+      "run_index": 55,
+      "directory": "run_55",
+      "status": "completed"
+    },
+    {
+      "run_index": 56,
+      "directory": "run_56",
+      "status": "completed"
+    },
+    {
+      "run_index": 57,
+      "directory": "run_57",
+      "status": "completed"
+    },
+    {
+      "run_index": 58,
+      "directory": "run_58",
+      "status": "completed"
+    },
+    {
+      "run_index": 59,
+      "directory": "run_59",
+      "status": "completed"
+    },
+    {
+      "run_index": 60,
+      "directory": "run_60",
+      "status": "completed"
+    },
+    {
+      "run_index": 61,
+      "directory": "run_61",
+      "status": "completed"
+    },
+    {
+      "run_index": 62,
+      "directory": "run_62",
+      "status": "completed"
+    },
+    {
+      "run_index": 63,
+      "directory": "run_63",
+      "status": "completed"
+    },
+    {
+      "run_index": 64,
+      "directory": "run_64",
+      "status": "completed"
+    },
+    {
+      "run_index": 65,
+      "directory": "run_65",
+      "status": "completed"
+    },
+    {
+      "run_index": 66,
+      "directory": "run_66",
+      "status": "completed"
+    },
+    {
+      "run_index": 67,
+      "directory": "run_67",
+      "status": "completed"
+    },
+    {
+      "run_index": 68,
+      "directory": "run_68",
+      "status": "completed"
+    },
+    {
+      "run_index": 69,
+      "directory": "run_69",
+      "status": "completed"
+    },
+    {
+      "run_index": 70,
+      "directory": "run_70",
+      "status": "completed"
+    }
+  ],
+  "statistics_ms": {
+    "PZT1": {
+      "on_confirmation_delay_ms": {
+        "count": 70,
+        "mean": 35.41480857072332,
+        "median": 35.3957499974058,
+        "sample_stddev": 0.2237469299373314,
+        "min": 34.99020000163,
+        "max": 35.93139999429695,
+        "range": 0.9411999926669523
+      },
+      "off_confirmation_delay_ms": {
+        "count": 70,
+        "mean": 9.374547142735016,
+        "median": 9.125300006417092,
+        "sample_stddev": 5.1405114780633925,
+        "min": 1.1431000020820647,
+        "max": 36.390900000697,
+        "range": 35.24779999861494
+      },
+      "on_schedule_delay_ms": {
+        "count": 70,
+        "mean": 181.3652485721312,
+        "median": 182.34534999646712,
+        "sample_stddev": 11.51596073561823,
+        "min": 168.23700000531971,
+        "max": 233.78100000263657,
+        "range": 65.54399999731686
+      },
+      "off_schedule_delay_ms": {
+        "count": 70,
+        "mean": 8.516314285641004,
+        "median": 7.237450001412071,
+        "sample_stddev": 5.801232297761379,
+        "min": 1.220100006321445,
+        "max": 29.992800002219155,
+        "range": 28.77269999589771
+      },
+      "on_before_call_ms": {
+        "count": 70,
+        "mean": 81.4831828563391,
+        "median": 82.08059999742545,
+        "sample_stddev": 11.450923305669669,
+        "min": 67.77930000680499,
+        "max": 137.32110000273678,
+        "range": 69.5417999959318
+      },
+      "on_precheck_ms": {
+        "count": 70,
+        "mean": 99.88206571579212,
+        "median": 99.87914999510394,
+        "sample_stddev": 1.6190825779571647,
+        "min": 96.27150000596885,
+        "max": 103.92020001017954,
+        "range": 7.648700004210696
+      },
+      "on_write_ms": {
+        "count": 70,
+        "mean": 0.4121057136217132,
+        "median": 0.41044999670702964,
+        "sample_stddev": 0.16048523681932736,
+        "min": 0.1252999936696142,
+        "max": 0.7196000078693032,
+        "range": 0.594300014199689
+      },
+      "off_write_ms": {
+        "count": 70,
+        "mean": 0.5413199995278514,
+        "median": 0.45775000035064295,
+        "sample_stddev": 0.20690772859529957,
+        "min": 0.258400003076531,
+        "max": 1.1211000091861933,
+        "range": 0.8627000061096624
+      }
+    }
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "output_state_reply_received_at_PC_and_subsequently_validated_by_driver",
+  "physical_voltage_timing_verified": false
+}

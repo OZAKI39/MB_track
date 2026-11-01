@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.four_pzt_validation",
+    "--case",
+    "3",
+    "--output-dir",
+    "customer_workspace/validation/four_pzt_20261025-124519/03_all_together"
+  ],
+  "started_utc": "2026-10-25T11:49:31.260830+00:00",
+  "finished_utc": "2026-10-25T11:49:55.416811+00:00",
+  "returncode": 0
+}

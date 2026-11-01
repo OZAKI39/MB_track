@@ -1,0 +1,3 @@
+$ErrorActionPreference='Stop'
+Add-Type -Path 'C:\Users\lzy\AppData\Local\Temp\gpu_host_cause_20261031-235434\host_driver\gpu_host_symbols.cs'
+[GpuHostSymbols]::Resolve('\\wsl.localhost\Ubuntu\home\lzy\projects\new_microbubble_experiment\customer_workspace\validation\gpu_host_cause_20261031-235434\host_driver\symbols\modules.tsv','\\wsl.localhost\Ubuntu\home\lzy\projects\new_microbubble_experiment\customer_workspace\validation\gpu_host_cause_20261031-235434\host_driver\symbols\addresses.txt','C:\Users\lzy\AppData\Local\Temp\gpu_host_cause_20261031-235434\host_driver\symbols','C:\Users\lzy\AppData\Local\Temp\gpu_host_cause_20261031-235434\host_driver\symbols.tsv')

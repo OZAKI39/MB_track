@@ -1,0 +1,51 @@
+{
+  "schema": 2,
+  "candidate_id": "two_action_f000907",
+  "image_sha256": "516ba76e3258a6a2c12e2d61b8f05477f172489151768b02c0dc3f0b9f8cdfd9",
+  "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+  "split": "benchmark_review_only",
+  "sequence_id": "two_action",
+  "revision": "20261026T110056_fcad8228",
+  "utc": "2026-10-26T11:00:56.623664+00:00",
+  "mask_file": "20261026T110056_fcad8228.npz",
+  "mask_sha256": "0e2652d4b74a9c9fb8aa651d6d407e28f194b0ac4adef35f88dd1d2ffc06f7c6",
+  "reviewer": "",
+  "expert_confirmed": false,
+  "status": "DRAFT_UNREVIEWED",
+  "review_scope": "FULL_FRAME",
+  "review_regions": [],
+  "invalidated_region_ids": [],
+  "workspace_roi_yxyx": null,
+  "proposal_sources": [
+    {
+      "method": "frozen_opencv_baseline",
+      "human_verified": false
+    }
+  ],
+  "classes": [
+    "SINGLE_BUBBLE",
+    "AGGREGATE",
+    "BACKGROUND_ARTIFACT",
+    "UNCERTAIN",
+    "OUT_OF_FOCUS"
+  ],
+  "class_overlap_pixels": 0,
+  "instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 29,
+    "OUT_OF_FOCUS": 0
+  },
+  "track_ids": {},
+  "notes": "Unreviewed baseline proposal. Keep unclear regions uncertain.",
+  "units": "pixels",
+  "physical_fusion_claim": false,
+  "reviewed_instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 0,
+    "OUT_OF_FOCUS": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "reason": "End-only candidate increased median commit time; retain completed comparisons and stop remaining candidate load tests before revising checkpoint scheduling.",
+  "runner_pid": 666534,
+  "children": [
+    {
+      "pid": 668744,
+      "output": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/database_save_20261030-140229/B_batch16"
+    }
+  ]
+}

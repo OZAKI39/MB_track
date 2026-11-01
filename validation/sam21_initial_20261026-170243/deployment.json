@@ -1,0 +1,7 @@
+{
+  "local_run": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/sam21_initial_20261026-170243",
+  "remote_directory": "/workspace/microbubble_sam21_initial_20261026-170243",
+  "sam2_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "source_dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-163801_mix_a",
+  "created_at": "2026-10-26T17:02:43.242420+01:00"
+}

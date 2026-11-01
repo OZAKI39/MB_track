@@ -1,0 +1,338 @@
+[
+  {
+    "time_s": 205926.282145074,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624028 (python) R 624025 624019 624019 0 -1 4194304 107428 81 207 1 6679 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 0 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74670608751 97984649 44155"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624140 (python) R 624028 624019 624019 0 -1 4194304 935699 0 0 0 3400 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37031124894 121593284 13964"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.457615009509027
+  },
+  {
+    "time_s": 205926.292259038,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "202 0x70cd99d3e000 0x109 0x0 0x7ffe00821c70 0x0 0xffffffff 0x7ffe00821ba0 0x70cd9a298e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624028 (python) S 624025 624019 624019 0 -1 4194304 107428 81 207 1 6680 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74677168263 97984649 44155"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "202 0x794127258000 0x109 0x0 0x7ffc861dbe50 0x0 0xffffffff 0x7ffc861dbd80 0x79412a098e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624140 (python) S 624028 624019 624019 0 -1 4194304 935699 0 0 0 3400 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37031881976 121593284 13964"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.35269500222057104
+  },
+  {
+    "time_s": 205926.302387773,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624028 (python) R 624025 624019 624019 0 -1 4194304 107428 81 207 1 6680 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 0 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74684342897 97984649 44157"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "202 0x794127258000 0x109 0x0 0x7ffc861dbe50 0x0 0xffffffff 0x7ffc861dbd80 0x79412a098e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624140 (python) S 624028 624019 624019 0 -1 4194304 935699 0 0 0 3401 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37037066834 121593284 13966"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "system": {
+      "diskstats": "1       0 ram0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       1 ram1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       2 ram2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       3 ram3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       4 ram4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       5 ram5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       6 ram6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       7 ram7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       8 ram8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1       9 ram9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1      10 ram10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1      11 ram11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1      12 ram12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1      13 ram13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1      14 ram14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   1      15 ram15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       0 loop0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       1 loop1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       2 loop2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       3 loop3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       4 loop4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       5 loop5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       6 loop6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   7       7 loop7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n   8      16 sdb 2763 834 106042 13121 0 0 0 0 0 6076080 13121 0 0 0 0 0 0\n   8       0 sda 2774 6262 592722 7167 0 0 0 0 0 5024 7167 0 0 0 0 0 0\n   8      32 sdc 395722 165842 4496440 110694 602147 380176 7858568 8312885 0 104528 8423586 0 0 0 0 2 5\n   8      48 sdd 2364896 849560 154832666 794369 801247 463380 50082880 4587352 1 2650180 6737928 14333 1483 27176296 4701 305646 1351505",
+      "vmstat": "nr_free_pages 112807\nnr_free_pages_blocks 23552\nnr_zone_inactive_anon 1369247\nnr_zone_active_anon 1259\nnr_zone_inactive_file 185435\nnr_zone_active_file 115707\nnr_zone_unevictable 0\nnr_zone_write_pending 8466\nnr_mlock 0\nnr_zspages 0\nnr_free_cma 0\nnuma_hit 703156202\nnuma_miss 0\nnuma_foreign 0\nnuma_interleave 1286\nnuma_local 703132967\nnuma_other 0\nnr_inactive_anon 1369247\nnr_active_anon 1259\nnr_inactive_file 185435\nnr_active_file 115707\nnr_unevictable 0\nnr_slab_reclaimable 58570\nnr_slab_unreclaimable 36324\nnr_isolated_anon 0\nnr_isolated_file 0\nworkingset_nodes 0\nworkingset_refault_anon 566215\nworkingset_refault_file 2779107\nworkingset_activate_anon 34975\nworkingset_activate_file 2115101\nworkingset_restore_anon 113\nworkingset_restore_file 989630\nworkingset_nodereclaim 734\nnr_anon_pages 1367563\nnr_mapped 51137\nnr_file_pages 305967\nnr_dirty 8466\nnr_writeback 0\nnr_shmem 2461\nnr_shmem_hugepages 0\nnr_shmem_pmdmapped 0\nnr_file_hugepages 9\nnr_file_pmdmapped 0\nnr_anon_transparent_hugepages 18\nnr_vmscan_write 1001184\nnr_vmscan_immediate_reclaim 6979\nnr_dirtied 6006871\nnr_written 6817343\nnr_throttled_written 0\nnr_kernel_misc_reclaimable 0\nnr_foll_pin_acquired 4217906\nnr_foll_pin_released 4217906\nnr_kernel_stack 13232\nnr_page_table_pages 32563\nnr_sec_page_table_pages 0\nnr_iommu_pages 0\nnr_swapcached 2221\npgdemote_kswapd 0\npgdemote_direct 0\npgdemote_khugepaged 0\npgdemote_proactive 0\nnr_hugetlb 0\nnr_balloon_pages 0\nnr_kernel_file_pages 0\nnr_dirty_threshold 78577\nnr_dirty_background_threshold 39240\nnr_memmap_pages 32768\nnr_memmap_boot_pages 32768\npgpgin 80015855\npgpgout 28970724\npswpin 561465\npswpout 982319\npgalloc_dma32 713329048\npgalloc_normal 370445421\npgalloc_movable 0\npgalloc_device 0\nallocstall_dma32 0\nallocstall_normal 1281\nallocstall_movable 33504\nallocstall_device 0\npgskip_dma32 0\npgskip_normal 561098\npgskip_movable 0\npgskip_device 0\npgfree 1089861012\npgactivate 5501387\npgdeactivate 2614701\npglazyfree 67\npgfault 808628423\npgmajfault 419610\npglazyfreed 5\npgrefill 2962334\npgreuse 141179866\npgsteal_kswapd 5781464\npgsteal_direct 1689332\npgsteal_khugepaged 215\npgsteal_proactive 0\npgscan_kswapd 7791137\npgscan_direct 5063851\npgscan_khugepaged 297\npgscan_proactive 0\npgscan_direct_throttle 0\npgscan_anon 4655570\npgscan_file 8199715\npgsteal_anon 1130789\npgsteal_file 6340222\nzone_reclaim_success 0\nzone_reclaim_failed 0\npginodesteal 25364\nslabs_scanned 22337124\nkswapd_inodesteal 65073\nkswapd_low_wmark_hit_quickly 1792\nkswapd_high_wmark_hit_quickly 88\npageoutrun 2125\npgrotated 984351\ndrop_pagecache 89\ndrop_slab 89\noom_kill 0\npgmigrate_success 5774666\npgmigrate_fail 32260\nthp_migration_success 0\nthp_migration_fail 0\nthp_migration_split 0\ncompact_migrate_scanned 88861290\ncompact_free_scanned 90194202\ncompact_isolated 11703382\ncompact_stall 2688\ncompact_fail 2155\ncompact_success 533\ncompact_daemon_wake 1263\ncompact_daemon_migrate_scanned 9468832\ncompact_daemon_free_scanned 45036411\nhtlb_buddy_alloc_success 0\nhtlb_buddy_alloc_fail 0\nunevictable_pgs_culled 0\nunevictable_pgs_scanned 0\nunevictable_pgs_rescued 0\nunevictable_pgs_mlocked 0\nunevictable_pgs_munlocked 0\nunevictable_pgs_cleared 0\nunevictable_pgs_stranded 0\nthp_fault_alloc 562054\nthp_fault_fallback 132\nthp_fault_fallback_charge 0\nthp_collapse_alloc 1151\nthp_collapse_alloc_failed 5\nthp_file_alloc 0\nthp_file_fallback 0\nthp_file_fallback_charge 0\nthp_file_mapped 335\nthp_split_page 0\nthp_split_page_failed 0\nthp_deferred_split_page 6146\nthp_underused_split_page 0\nthp_split_pmd 6146\nthp_scan_exceed_none_pte 0\nthp_scan_exceed_swap_pte 0\nthp_scan_exceed_share_pte 0\nthp_split_pud 0\nthp_zero_page_alloc 2\nthp_zero_page_alloc_failed 0\nthp_swpout 0\nthp_swpout_fallback 0\nswap_ra 185426\nswap_ra_hit 152335\nswpin_zero 4750\nswpout_zero 18865\nksm_swpin_copy 0\ncow_ksm 0\ndirect_map_level2_splits 21\ndirect_map_level3_splits 2\ndirect_map_level2_collapses 0\ndirect_map_level3_collapses 0\nnr_unstable 0",
+      "stat": "cpu  1617448 652 809898 491112397 319717 0 263517 0 0 0\ncpu0 59398 0 37015 20423919 44257 0 214321 0 0 0\ncpu1 60537 0 24294 20473514 23559 0 22396 0 0 0\ncpu2 79148 34 46718 20405640 37643 0 8343 0 0 0\ncpu3 69221 50 33557 20468501 10324 0 4677 0 0 0\ncpu4 79735 0 43590 20412139 34282 0 5104 0 0 0\ncpu5 66907 0 30498 20471726 14093 0 3226 0 0 0\ncpu6 84906 0 44552 20417878 25097 0 768 0 0 0\ncpu7 65048 0 28845 20485630 6608 0 429 0 0 0\ncpu8 72524 0 39031 20440737 19407 0 473 0 0 0\ncpu9 60535 0 26288 20491680 5929 0 295 0 0 0\ncpu10 77942 92 42198 20438793 10117 0 380 0 0 0\ncpu11 59631 0 26807 20494529 5293 0 275 0 0 0\ncpu12 74872 4 39605 20447900 8591 0 324 0 0 0\ncpu13 64634 138 27613 20487533 5400 0 245 0 0 0\ncpu14 74683 0 38736 20447260 10074 0 333 0 0 0\ncpu15 60299 111 25740 20495374 3646 0 178 0 0 0\ncpu16 67278 6 39429 20457643 7921 0 275 0 0 0\ncpu17 51124 2 25296 20503974 4455 0 260 0 0 0\ncpu18 70038 0 37438 20456298 8416 0 246 0 0 0\ncpu19 51854 96 24578 20500029 7163 0 223 0 0 0\ncpu20 71527 0 38853 20448805 9777 0 292 0 0 0\ncpu21 54019 116 22482 20504141 5439 0 145 0 0 0\ncpu22 77190 0 38718 20448499 8577 0 185 0 0 0\ncpu23 64387 0 28007 20490239 3638 0 114 0 0 0\nintr 233754833 0 0 0 0 0 0 0 0 0 196 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 117061 0 1 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\nctxt 311370602\nbtime 1793152365\nprocesses 644638\nprocs_running 3\nprocs_blocked 1\nsoftirq 117078197 0 16381534 53 1395217 0 0 7127122 68544769 450 23629052",
+      "pressure/io": "some avg10=9.36 avg60=4.39 avg300=1.81 total=1097950204\nfull avg10=9.36 avg60=4.39 avg300=1.81 total=1094972601"
+    },
+    "sample_ms": 0.5578639975283295
+  },
+  {
+    "time_s": 205926.312526681,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "[<0>] dl_server_update+0x2e/0x40\n[<0>] update_curr+0xf7/0x110\n[<0>] task_sched_runtime+0x8a/0xe0",
+        "stat": "624028 (python) R 624025 624019 624019 0 -1 4194304 107428 81 207 1 6681 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 0 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74687305275 97984649 44159"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624140 (python) R 624028 624019 624019 0 -1 4194304 935699 0 0 0 3401 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37038301601 121593284 13968"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.3810370108112693
+  },
+  {
+    "time_s": 205926.3227508,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "202 0x70cd99d3e000 0x109 0x0 0x7ffe00821c70 0x0 0xffffffff 0x7ffe00821ba0 0x70cd9a298e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624028 (python) S 624025 624019 624019 0 -1 4194304 107428 81 207 1 6682 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74697230220 97984649 44159"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "202 0x794127258000 0x109 0x0 0x7ffc861dbe50 0x0 0xffffffff 0x7ffc861dbd80 0x79412a098e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624140 (python) S 624028 624019 624019 0 -1 4194304 935699 0 0 0 3401 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37041616958 121593284 13968"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.3466820053290576
+  },
+  {
+    "time_s": 205926.332902527,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624028 (python) R 624025 624019 624019 0 -1 4194304 107428 81 207 1 6682 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 0 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74700537987 97984649 44161"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624140 (python) R 624028 624019 624019 0 -1 4194304 935699 0 0 0 3402 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 0 0 0 17 10 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37047185817 121593284 13970"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.44458400225266814
+  },
+  {
+    "time_s": 205926.343162661,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "202 0x70cd99d3e000 0x109 0x0 0x7ffe00821c70 0x0 0xffffffff 0x7ffe00821ba0 0x70cd9a298e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624028 (python) S 624025 624019 624019 0 -1 4194304 107432 81 207 1 6683 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74709028455 97984649 44161"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "202 0x794127258000 0x109 0x0 0x7ffc861dbe50 0x0 0xffffffff 0x7ffc861dbd80 0x79412a098e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624140 (python) S 624028 624019 624019 0 -1 4194304 935699 0 0 0 3402 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 1 0 0 17 10 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37047223692 121593284 13970"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.37411198718473315
+  },
+  {
+    "time_s": 205926.353344192,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624028 (python) R 624025 624019 624019 0 -1 4194304 107433 81 207 1 6683 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 0 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74716365792 97984649 44163"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "202 0x794127258000 0x109 0x0 0x7ffc861dbe50 0x0 0xffffffff 0x7ffc861dbd80 0x79412a098e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624140 (python) S 624028 624019 624019 0 -1 4194304 935699 0 0 0 3402 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 1 0 0 17 10 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37052401975 121593284 13972"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.434669986134395
+  },
+  {
+    "time_s": 205926.363504039,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624028 (python) R 624025 624019 624019 0 -1 4194304 107438 81 207 1 6684 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 0 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74720071592 97984649 44165"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "running",
+        "wchan": "0",
+        "stack": "",
+        "stat": "624140 (python) R 624028 624019 624019 0 -1 4194304 935699 0 0 0 3403 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 0 0 0 17 10 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37053673863 121593284 13974"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.35788799868896604
+  },
+  {
+    "time_s": 205926.37364663,
+    "threads": [
+      {
+        "name": "consumer",
+        "tid": 624028,
+        "syscall": "202 0x70cd99d3e000 0x109 0x0 0x7ffe00821c70 0x0 0xffffffff 0x7ffe00821ba0 0x70cd9a298e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624028 (python) S 624025 624019 624019 0 -1 4194304 107443 81 207 1 6685 787 0 0 20 0 101 0 20580871 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 17 12 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "74730418163 97984649 44165"
+      },
+      {
+        "name": "source",
+        "tid": 624140,
+        "syscall": "202 0x794127258000 0x109 0x0 0x7ffc861dbe50 0x0 0xffffffff 0x7ffc861dbd80 0x79412a098e51",
+        "wchan": "futex_do_wait",
+        "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624140 (python) S 624028 624019 624019 0 -1 4194304 935699 0 0 0 3403 302 0 0 20 0 47 0 20581008 2468425728 33010 18446744073709551615 4325376 7352253 140722558583680 0 0 0 0 16781312 2 1 0 0 17 10 0 0 0 0 0 10653128 12216448 54263808 140722558592445 140722558592622 140722558592622 140722558599097 0",
+        "schedstat": "37057594244 121593284 13974"
+      },
+      {
+        "name": "writer",
+        "tid": 624137,
+        "syscall": "75 0x4 0x0 0x0 0x1018 0x8b 0xcb785f94 0x70cca5ffa4f0 0x70cd9a31ea4c",
+        "wchan": "submit_bio_wait",
+        "stack": "[<0>] submit_bio_wait+0xb0/0xc0\n[<0>] blkdev_issue_flush+0x3e/0x60\n[<0>] ext4_sync_file+0x22c/0x2b0\n[<0>] vfs_fsync_range+0x49/0x90\n[<0>] do_fsync+0x40/0x90\n[<0>] __x64_sys_fdatasync+0x1a/0x30\n[<0>] x64_sys_call+0x1d2d/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+        "stat": "624137 (python) D 624025 624019 624019 0 -1 4194368 671 81 1 1 405 262 0 0 20 0 101 0 20580998 4608966656 46707 18446744073709551615 4325376 7352253 140728906949232 0 0 0 0 16781312 2 1 0 0 -1 18 0 0 0 0 0 10653128 12216448 430215168 140728906954068 140728906954464 140728906954464 140728906960825 0",
+        "schedstat": "6686594612 56977200 55960"
+      }
+    ],
+    "sample_ms": 0.36021400592289865
+  }
+]

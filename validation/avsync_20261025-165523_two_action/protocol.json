@@ -1,0 +1,131 @@
+{
+  "name": "双动作切换 A→B→A",
+  "action_A": "PZT1",
+  "action_B": "PZT3",
+  "plan": {
+    "duration_s": 20,
+    "settings": {
+      "PZT1": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.8,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      },
+      "PZT2": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.8,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      },
+      "PZT3": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.8,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      },
+      "PZT4": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.8,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      }
+    },
+    "steps": [
+      {
+        "at_s": 0,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {}
+      },
+      {
+        "at_s": 4,
+        "state": "ACTIVE",
+        "active_channels": [
+          "PZT1"
+        ],
+        "frequencies_hz": {}
+      },
+      {
+        "at_s": 8,
+        "state": "ACTIVE",
+        "active_channels": [
+          "PZT3"
+        ],
+        "frequencies_hz": {}
+      },
+      {
+        "at_s": 12,
+        "state": "ACTIVE",
+        "active_channels": [
+          "PZT1"
+        ],
+        "frequencies_hz": {}
+      },
+      {
+        "at_s": 16,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {}
+      },
+      {
+        "at_s": 20,
+        "state": "STOP",
+        "active_channels": [],
+        "frequencies_hz": {}
+      }
+    ]
+  },
+  "active_vpp": 0.8,
+  "idle_vpp": 0.001,
+  "frequency_hz": 2500000,
+  "action_seconds": 20,
+  "video_seconds": 22,
+  "observe": [
+    "位置",
+    "形状",
+    "分布"
+  ],
+  "assumptions": "不预设组装、变形或移动方向；再次A是否重复前次效果需要观察，不预先判定。",
+  "same_settings_as": "avsync_20261025-161356_rerun/normal",
+  "control_checks_at_s": [
+    1,
+    5,
+    9,
+    13,
+    17
+  ],
+  "expected_amplitude_commands": 6,
+  "recording_extra_lost_allowed": 0,
+  "performance_criteria": {
+    "analysis_at_least_hz": 5.6,
+    "analysis_rate_ratio_to_baseline_min": 0.8,
+    "p95_max": "max(baseline_p95*1.2,baseline_p95+20ms)",
+    "maximum_analysis_completion_gap_ms": 1000
+  },
+  "clock_domain": "同一Windows主机monotonic；不减WSL时钟",
+  "physical_sync_accuracy": "未知，记录接收/解码和通信回复，不是曝光或实测电压变化"
+}

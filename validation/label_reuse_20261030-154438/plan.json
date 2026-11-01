@@ -1,0 +1,54 @@
+{
+  "created": "2026-10-30T15:44:38.951729+01:00",
+  "before_code_sha256": {
+    "bubble_tracker.py": "14d64f570c0b050d55ed744fd9655a3d8691629da729430d3dc7d005f4fafe12",
+    "online_tracking.py": "88d9d4a0ce4f8e3af53a8fcaf6d8509d96d232810600612b5ae6f056b6725106"
+  },
+  "prior_normal_replay": "../diagnostics_off_20261030-153434",
+  "scope": "Reuse only region selection/label memory; preserve segmentation/tracking semantics. Offline validation only.",
+  "after_code_sha256": {
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "97e73ee7ec808f7e263f1dd1689d014c666b857d90c061f48363e9d318ed3d63",
+    "paced_replay.py": "c3d84511006d5d498a89aee00f02b86f469535a7eb4f688b0ebaed20cd3f9f7e",
+    "paced_source.py": "4f6fef88aca61ecf9fab7426eeeff5a934d7e5d8cf9956426c60542aa61f1fc0",
+    "label_reuse_check.py": "efa5e65a3cd302516809a143d3dad350e430f59fe6c971bf1586c533da4cf19e"
+  },
+  "commands": {
+    "normal_1": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/paced_replay.py",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/label_reuse_20261030-154438/normal_1/replay",
+      "--repeats",
+      "3",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1"
+    ],
+    "normal_2": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/paced_replay.py",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/label_reuse_20261030-154438/normal_2/replay",
+      "--repeats",
+      "3",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1"
+    ]
+  }
+}

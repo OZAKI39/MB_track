@@ -1,0 +1,24 @@
+{
+  "event_counts": {
+    "ReadyThread": 7950,
+    "CSwitch": 13053,
+    "Stack": 36060,
+    "DiskReadInit": 515,
+    "DiskRead": 514,
+    "SampledProfile": 1225,
+    "T-Start": 1,
+    "HardFault": 30,
+    "InMemoryStoreFault": 6299,
+    "DiskWriteInit": 71,
+    "DiskWrite": 70,
+    "FileNameDelete": 6,
+    "DiskFlushInit": 18,
+    "DiskFlush": 18,
+    "FileNameCreate": 3
+  },
+  "first_event_us": 30060640,
+  "last_event_us": 30370994,
+  "wsl_hardfaults": 0,
+  "source": "/mnt/c/Users/lzy/AppData/Local/Temp/startup_conversion_20261030-130843/capture/run7_window.txt",
+  "extraction_exit_code": 0
+}

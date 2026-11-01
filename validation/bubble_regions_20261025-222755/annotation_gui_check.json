@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked_indices": [
+    1,
+    15,
+    16,
+    30
+  ],
+  "labels_edited": false,
+  "automatic_training_enabled": false
+}

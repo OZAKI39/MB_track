@@ -1,0 +1,40 @@
+{
+  "status": "PASSED",
+  "wall_edge_shift_x_px": -3,
+  "recovered_observation_pixels": 1317,
+  "dark_region_parameters_unchanged": true,
+  "videos": [
+    {
+      "source_id": "two_action",
+      "frames_checked": 1320,
+      "all_frame_identities_and_times_unchanged": true,
+      "previously_retained_pixels_removed": 0,
+      "pixels_outside_new_observation_range": 0,
+      "left_image_unchanged": true,
+      "sample_masks_match_contours": 15,
+      "added_dark_pixels_min": 234,
+      "added_dark_pixels_median": 243.0,
+      "added_dark_pixels_max": 306
+    },
+    {
+      "source_id": "four_pzt",
+      "frames_checked": 1320,
+      "all_frame_identities_and_times_unchanged": true,
+      "previously_retained_pixels_removed": 0,
+      "pixels_outside_new_observation_range": 0,
+      "left_image_unchanged": true,
+      "sample_masks_match_contours": 15,
+      "added_dark_pixels_min": 240,
+      "added_dark_pixels_median": 349.0,
+      "added_dark_pixels_max": 519
+    }
+  ],
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q customer_workspace/tests/test_bubble_dark_regions.py customer_workspace/tests/test_bubble_regions.py",
+    "passed": 41
+  },
+  "limitations": [
+    "新增深色像素可能包含壁面，不能解释为新增真实微泡。",
+    "固定排除范围仍可能裁切贴壁部分，需人工检查。"
+  ]
+}

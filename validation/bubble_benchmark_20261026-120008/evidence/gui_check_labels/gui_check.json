@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "actual_arial_original_comparison_and_no_training",
+    "classification_id_assignment_and_grouped_undo_redo",
+    "draft_storage_and_no_fake_human_confirmation",
+    "before_after_context_navigation_uses_correct_original_frames",
+    "unsaved_relation_blocks_discard_by_case_change_or_close",
+    "software_gui_check_cannot_confirm_relations"
+  ],
+  "source_annotations_edited": false
+}

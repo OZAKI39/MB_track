@@ -1,0 +1,12 @@
+{
+  "camera_ip": "127.0.0.1",
+  "rtsp_url": "rtsp://127.0.0.1:8554/expA",
+  "rtsp_transport": "udp",
+  "udp_port": 5500,
+  "open_timeout_ms": 5000,
+  "read_timeout_ms": 1500,
+  "reconnect_seconds": 0.5,
+  "output_dir": "../validation",
+  "latency_mode": "low",
+  "rtsp_control_relay": true
+}

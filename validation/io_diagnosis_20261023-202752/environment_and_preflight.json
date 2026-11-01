@@ -1,0 +1,153 @@
+{
+  "checked_utc": "2026-10-23T18:29:38.982066+00:00",
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pyvisa_version": "1.16.2",
+  "pyvisa_debug": "Machine Details:\n   Platform ID:    Windows-11-10.0.26200-SP0\n   Processor:      Intel64 Family 6 Model 191 Stepping 2, GenuineIntel\n\nPython:\n   Implementation: CPython\n   Executable:     F:\\Tektronix_control\\.venv\\Scripts\\python.exe\n   Version:        3.14.2\n   Compiler:       MSC v.1944 64 bit (AMD64)\n   Architecture:   AMD64\n   Build:          Dec  5 2025 17:18:21 (#tags/v3.14.2:df79316)\n   Unicode:        UCS4\n\nPyVISA Version: 1.16.2\n\nBackends:\n   ivi:\n      Version: 1.16.2 (bundled with PyVISA)\n      #1: C:\\Windows\\system32\\visa32.dll:\n         found by: auto\n         architecture:\n            ('x86', 64)\n         Vendor: Tektronix\n         Impl. Version: 5245697\n         Spec. Version: 5244928\n      #2: C:\\Windows\\system32\\visa64.dll:\n         found by: auto\n         architecture:\n            ('x86', 64)\n         Vendor: Tektronix\n         Impl. Version: 5245697\n         Spec. Version: 5244928\n",
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "library_path": "C:\\Windows\\system32\\visa32.dll",
+  "library_type": "<class 'pyvisa.ctwrapper.highlevel.IVIVisaLibrary'>",
+  "sessions": {
+    "A": {
+      "resource_name": "USB0::0x0699::0x0353::2147075::0::INSTR",
+      "timeout": 3000,
+      "chunk_size": 20480,
+      "query_delay": 0.0,
+      "read_termination": "\n",
+      "write_termination": "\n",
+      "send_end": true,
+      "resource_manufacturer_name": "Tektronix",
+      "resource_impl_version": 5245697,
+      "usb_bulk_in_status": {
+        "error": "VI_ERROR_NSUP_ATTR (-1073807331): The specified attribute is not defined or supported by the referenced object."
+      },
+      "usb_bulk_out_status": {
+        "error": "VI_ERROR_NSUP_ATTR (-1073807331): The specified attribute is not defined or supported by the referenced object."
+      },
+      "usb_end_in": {
+        "error": "VI_ERROR_NSUP_ATTR (-1073807331): The specified attribute is not defined or supported by the referenced object."
+      }
+    },
+    "B": {
+      "resource_name": "USB0::0x0699::0x0353::2439003::0::INSTR",
+      "timeout": 3000,
+      "chunk_size": 20480,
+      "query_delay": 0.0,
+      "read_termination": "\n",
+      "write_termination": "\n",
+      "send_end": true,
+      "resource_manufacturer_name": "Tektronix",
+      "resource_impl_version": 5245697,
+      "usb_bulk_in_status": {
+        "error": "VI_ERROR_NSUP_ATTR (-1073807331): The specified attribute is not defined or supported by the referenced object."
+      },
+      "usb_bulk_out_status": {
+        "error": "VI_ERROR_NSUP_ATTR (-1073807331): The specified attribute is not defined or supported by the referenced object."
+      },
+      "usb_end_in": {
+        "error": "VI_ERROR_NSUP_ATTR (-1073807331): The specified attribute is not defined or supported by the referenced object."
+      }
+    }
+  },
+  "channels": {
+    "PZT1": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT2": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT3": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    },
+    "PZT4": {
+      "output": false,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.001,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      }
+    }
+  }
+}

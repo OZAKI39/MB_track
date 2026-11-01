@@ -1,0 +1,8 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "executable": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_nvdec/bin/python",
+  "os": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "av": "19.0.1",
+  "opencv": "4.10.0",
+  "numpy": "2.2.6"
+}

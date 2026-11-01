@@ -1,0 +1,22 @@
+{
+  "microbubble_experiment/camera_bridge.py": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+  "microbubble_experiment/camera_server.py": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc",
+  "microbubble_experiment/pipeline.py": "58ef87a5fb2b9da23d1b1e2acd1e197669df006620bf9f07c3e2f3829a1ad64b",
+  "microbubble_experiment/observation.py": "e36726354aed704be96230586a6eb83bcdaa35191a1a1ead0a50590a93727a44",
+  "microbubble_experiment/detection.py": "a7c467eb04da2985bfc23f5c55438f06f4f97270d35618cde8ee50edfca0b606",
+  "microbubble_experiment/camera_rtsp.py": "03ed3420ff82d01b3c039e3bed14c27ce34cefa7f04ea5bee496ffc9a4775473",
+  "customer_workspace/streamcopy_recording.py": "df5fb009052821248515099dafcb24bd6e936058b2c4b88b99251c6fc81ebc08",
+  "customer_workspace/streamcopy_report.py": "99cbe620b983579093a63b3b80e53c3c2aa4bc460df364053f26aec9f6237daa",
+  "customer_workspace/parallel_camera.py": "b8cb45ad85b2975933ee2e5c072d262479afde746ef5088c23d418e9e3984bfc",
+  "customer_workspace/parallel_camera_bridge.py": "6f80ac44fa6fb9ea7387f60b217feadbe40f63deab5bff91e973f811b966030d",
+  "customer_workspace/parallel_video_check.py": "2eafacecb17a9d7e18586da85a4a6c0fce9e90bd5730cbac4a14d75e9baeef8e",
+  "customer_workspace/parallel_video_report.py": "8dbcf551b31644c5d66e7411fc34d63767bb697ab8261da9f7a29fefe8c3c70e",
+  "customer_workspace/tests/test_parallel_video.py": "104e44d8fc5cc4701544feb23b2a4b52632b4fcb2ee413498f1db105ac6d8e7a",
+  "customer_workspace/README.md": "2a07da0c1c5d6c640424beb693df74da00071057e457868d00b9d5fd805629e8",
+  "customer_workspace/.gitignore": "a154cc5c970f6af8e15e41bcb099d650cb7bb102bcdcbbc6a523d3612a28cd67",
+  "customer_workspace/tools/gstreamer/requirements.txt": "43af19a4f1fcee918c49f2f5c2cec11889a84795b835e235effb3b809aa9108d",
+  "customer_workspace/tools/gstreamer/INSTALL.md": "617aabfbf709c517d5a7c4d2f44ebd642f99c6c5f8a41520013d7a77de049acf",
+  "configs/default.json": "b3b1beb5317ff43680af0d2d1440368e177746a353dcb2534fd99da8d5e2ed9a",
+  "configs/chronos_config.json": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+  "configs/machine.local.json": "b4537d49a10a963843d9d6c4b9dbeacc5a5ded0fd1fc4cc74d6f92a0e4d3d1ae"
+}

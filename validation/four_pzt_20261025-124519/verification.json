@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "cases_passed": 6,
+  "cases_expected_cancelled": 1,
+  "stable_checks": 31,
+  "channel_readbacks": 124,
+  "parameter_commands": 82,
+  "stable_queries": 434,
+  "error_replies_checked": 170,
+  "nonzero_error_replies": 0,
+  "minimum_last_write_to_snapshot_ms": 995.1569999975618,
+  "maximum_snapshot_duration_ms": 415.1590999972541,
+  "execution_sources_unchanged": true,
+  "independent_final_outputs_off": true,
+  "physical_signal_timing_measured": false
+}

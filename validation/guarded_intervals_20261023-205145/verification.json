@@ -1,0 +1,100 @@
+{
+  "groups": [
+    {
+      "group": "schedule_50ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "schedule_55ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "schedule_60ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "scheduled_readback_50ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "scheduled_readback_55ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "scheduled_readback_60ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "scheduled_readback_sleep_50ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "scheduled_readback_sleep_55ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    },
+    {
+      "group": "scheduled_readback_sleep_60ms",
+      "csv_matches_jsonl": true,
+      "statistics_recomputed_match": true,
+      "timestamps_and_wait_verified": true,
+      "io_counts_match": true,
+      "pre_post_full_checks_passed": true,
+      "error_queues_zero": true,
+      "outputs_off_confirmed": true
+    }
+  ],
+  "recorded_commands": 4500,
+  "correct_amplitude_replies": 3000,
+  "io_errors": 0,
+  "sources_match_sleep_batch_hashes": true,
+  "original_afg_driver_unchanged": true,
+  "initial_event_wait_data_preserved": true
+}

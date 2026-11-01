@@ -1,0 +1,24 @@
+{
+  "video": {
+    "width": 2576,
+    "height": 1136,
+    "duration": 22
+  },
+  "seek_positions": [
+    0,
+    6.3,
+    14.166667,
+    21.9
+  ],
+  "played_to_s": 6.6065,
+  "gallery_keyboard_navigation": true,
+  "actual_fonts": [
+    {
+      "familyName": "Arial",
+      "postScriptName": "ArialMT",
+      "isCustomFont": true,
+      "glyphCount": 21
+    }
+  ],
+  "status": "PASS"
+}

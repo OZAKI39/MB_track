@@ -1,0 +1,28 @@
+{
+  "case": 5,
+  "name": "四路分别设置频率和幅值",
+  "passed": true,
+  "problems": [],
+  "experiment_status": "completed",
+  "timeline_started_utc": "2026-10-25T11:51:57.020524+00:00",
+  "completed_s": 21.2003912999935,
+  "limit_s": 25.0,
+  "stable_checks": 5,
+  "stable_channel_readbacks": 20,
+  "parameter_commands": 32,
+  "maximum_command_lateness_ms": 2.841499983333051,
+  "cancel_request": null,
+  "shutdown": {
+    "event": "shutdown_finished",
+    "action": "all_off",
+    "state_requested": "STOP",
+    "planned_s": 20,
+    "actual_start_s": 20.000070799986133,
+    "actual_finish_s": 20.085705299978144,
+    "duration_s": 0.08563449999201111,
+    "errors": []
+  },
+  "independent_all_outputs_off": true,
+  "execution_error": null,
+  "physical_signal_timing_measured": false
+}

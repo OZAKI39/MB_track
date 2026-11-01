@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "problems": [],
+  "received_window_frames": 1320,
+  "record_branch_frames": 1320,
+  "saved_frames": 1320,
+  "recording_extra_lost": 0,
+  "clock_comparison_max_error_ticks": 0,
+  "camera_play_count": 1,
+  "rtp_sequence_missing": 0,
+  "queue_overruns": {
+    "record_queue": 0,
+    "decode_queue": 0
+  },
+  "queue_max_buffers": {
+    "record_queue": 38,
+    "decode_queue": 0,
+    "latest_queue": 0
+  },
+  "decoded_frames_total": 0
+}

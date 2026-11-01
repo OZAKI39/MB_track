@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "deleted_caches_absent": true,
+    "cache_source_files_unchanged": true,
+    "current_processing_source_visible": true,
+    "historical_outputs_not_in_default_search": true,
+    "explicit_evidence_search_works": true,
+    "offline_replay_cli_imports": true
+  },
+  "visible_files_before": 21833,
+  "visible_files_after": 200,
+  "scope": "Search rules and cache cleanup; no algorithm or hardware changes."
+}

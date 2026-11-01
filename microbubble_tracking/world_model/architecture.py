@@ -81,7 +81,7 @@ def read_architecture():
     for node in tree.body:
         if isinstance(node, ast.Assign) and isinstance(node.targets[0], ast.Name):
             name = node.targets[0].id
-            if name in {"NODE_IN", "EDGE_IN", "GLOBAL_IN", "FOURIER_CYCLES", "POS_SCALE"}:
+            if name in {"NODE_IN", "EXTRA_IN", "EDGE_IN", "GLOBAL_IN", "EV_IN", "FOURIER_CYCLES", "POS_SCALE"}:
                 constants[name] = ast.literal_eval(node.value)
     model = next(n for n in tree.body if isinstance(n, ast.ClassDef) and n.name == "GraphWorldModel")
     init = next(n for n in model.body if isinstance(n, ast.FunctionDef) and n.name == "__init__")
@@ -96,7 +96,11 @@ def read_architecture():
     spec = {
         "node_base": constants["NODE_IN"],
         "fourier_features": 4 * len(constants["FOURIER_CYCLES"]),
-        "node_input": constants["NODE_IN"] + 4 * len(constants["FOURIER_CYCLES"]),
+        # 暗度和局部密度（EXTRA_IN）默认也进入节点输入
+        "node_input": constants["NODE_IN"] + 4 * len(constants["FOURIER_CYCLES"])
+        + (constants.get("EXTRA_IN", 0) if defaults.get("extra_inputs", False) else 0),
+        # 合并/分裂的事件头（EV_IN）是否存在；这一版的图里没有画它
+        "event_head": "EV_IN" in constants,
         "edge_input": constants["EDGE_IN"],
         "global_input": constants["GLOBAL_IN"],
         "latent": defaults["latent"],
@@ -113,7 +117,7 @@ def read_architecture():
     }
     # 语义标签对应这一版 _features/_rollout；尺寸变化时要求更新图，不能照旧输出。
     expected = {
-        "node_base": 21, "fourier_features": 24, "node_input": 45,
+        "node_base": 21, "fourier_features": 24, "node_input": 45, "event_head": False,
         "edge_input": 5, "global_input": 12, "latent": 64, "message_blocks": 3,
         "members": 5, "radius_px": 150.0, "history_steps": 3,
         "future_steps": 10, "frames_per_step": 6, "position_scale_px": 5.0,

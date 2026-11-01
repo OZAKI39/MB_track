@@ -1,0 +1,22 @@
+{
+  "source": "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/GCUService.exe",
+  "sha256": "785150abc1b7344434459e74ed17ebaf487e58d24fe3bcb6d356cf8a29465d11",
+  "pattern": "GetCpuUsageforCPUGPUCombine",
+  "caller_depth": 0,
+  "errors": [],
+  "methods": [
+    {
+      "name": "MyControlCenter.MySystemManager::GetCpuUsageforCPUGPUCombine",
+      "token": "0x60010a4",
+      "instructions": [
+        "000c ldarg.0 None",
+        "000d ldfld cCpuInfo",
+        "0012 callvirt MyControlCenter.CPUInfo::GetCPUUsageforCPUGPUCombine",
+        "0017 stloc.0 None",
+        "0018 ldloca.s local(0x0000)",
+        "001a call ToString",
+        "001f ret None"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "run": "A_r1",
+    "frame_zero_based": 417,
+    "total_ms": 19.573198,
+    "decode_ms": 19.424284,
+    "decode_cpu_ms": 1.047179,
+    "linux_runqueue_ms": 0.0,
+    "longest_lock2_ms": 15.608683,
+    "host_frame_start_ms": 12014.980572789904,
+    "host_frame_end_ms": 12034.547644525821,
+    "clock_half_rtt_max_ms": 0.43658900540322065,
+    "exclusive_locks": [
+      {
+        "start_ms": 12017.6422,
+        "pid": 4,
+        "tid": 47772,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 12017.6439,
+        "end_ms": 12026.2216,
+        "wait_ms": 0.001699999998891144,
+        "held_ms": 8.577700000001641
+      },
+      {
+        "start_ms": 12026.2427,
+        "pid": 4,
+        "tid": 47772,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 12026.3598,
+        "end_ms": 12033.554,
+        "wait_ms": 0.11709999999948195,
+        "held_ms": 7.19419999999991
+      }
+    ],
+    "exclusive_total_held_ms": 15.771900000001551,
+    "stack_count": 4
+  },
+  {
+    "run": "A_r2",
+    "frame_zero_based": 404,
+    "total_ms": 20.654374,
+    "decode_ms": 20.466706,
+    "decode_cpu_ms": 0.674161,
+    "linux_runqueue_ms": 0.0,
+    "longest_lock2_ms": 17.466762,
+    "host_frame_start_ms": 66343.60358832763,
+    "host_frame_end_ms": 66364.25480866236,
+    "clock_half_rtt_max_ms": 0.37703899579355493,
+    "exclusive_locks": [
+      {
+        "start_ms": 66345.8652,
+        "pid": 4,
+        "tid": 24908,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 66345.8669,
+        "end_ms": 66355.3085,
+        "wait_ms": 0.0016999999934341758,
+        "held_ms": 9.441600000005565
+      },
+      {
+        "start_ms": 66355.3256,
+        "pid": 4,
+        "tid": 24908,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 66355.6146,
+        "end_ms": 66363.477,
+        "wait_ms": 0.28900000000430737,
+        "held_ms": 7.862399999998161
+      }
+    ],
+    "exclusive_total_held_ms": 17.304000000003725,
+    "stack_count": 0
+  },
+  {
+    "run": "A_r2",
+    "frame_zero_based": 765,
+    "total_ms": 40.831151,
+    "decode_ms": 38.069663,
+    "decode_cpu_ms": 0.691656,
+    "linux_runqueue_ms": 0.0,
+    "longest_lock2_ms": 33.936537,
+    "host_frame_start_ms": 72360.17606276552,
+    "host_frame_end_ms": 72401.01583502998,
+    "clock_half_rtt_max_ms": 0.5492865020642057,
+    "exclusive_locks": [
+      {
+        "start_ms": 72364.2461,
+        "pid": 4,
+        "tid": 49044,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 72364.2749,
+        "end_ms": 72381.0235,
+        "wait_ms": 0.028800000000046566,
+        "held_ms": 16.74859999999171
+      },
+      {
+        "start_ms": 72381.0496,
+        "pid": 4,
+        "tid": 49044,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 72381.3011,
+        "end_ms": 72397.6861,
+        "wait_ms": 0.2514999999984866,
+        "held_ms": 16.385000000009313
+      }
+    ],
+    "exclusive_total_held_ms": 33.133600000001024,
+    "stack_count": 4
+  },
+  {
+    "run": "B_r2",
+    "frame_zero_based": 847,
+    "total_ms": 26.528231,
+    "decode_ms": 25.987829,
+    "decode_cpu_ms": 0.818188,
+    "linux_runqueue_ms": 0.0,
+    "longest_lock2_ms": 21.945596,
+    "host_frame_start_ms": 101004.55302248608,
+    "host_frame_end_ms": 101031.0751751903,
+    "clock_half_rtt_max_ms": 0.41598650568630546,
+    "exclusive_locks": [
+      {
+        "start_ms": 101007.3193,
+        "pid": 4,
+        "tid": 44948,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 101007.3211,
+        "end_ms": 101017.4537,
+        "wait_ms": 0.001799999998183921,
+        "held_ms": 10.132599999997183
+      },
+      {
+        "start_ms": 101017.4736,
+        "pid": 4,
+        "tid": 44948,
+        "adapter": "0xffffda8e2eeec000",
+        "exclusive": true,
+        "acquired_ms": 101017.5846,
+        "end_ms": 101029.6217,
+        "wait_ms": 0.11100000000442378,
+        "held_ms": 12.037100000001374
+      }
+    ],
+    "exclusive_total_held_ms": 22.169699999998556,
+    "stack_count": 4
+  }
+]

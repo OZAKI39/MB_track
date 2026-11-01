@@ -1,0 +1,33 @@
+{
+    "TotalMemoryMB":  16115,
+    "FreeMemoryMB":  830,
+    "PageFiles":  {
+                      "Name":  "C:\\pagefile.sys",
+                      "AllocatedBaseSize":  34345,
+                      "CurrentUsage":  8191,
+                      "PeakUsage":  10068
+                  },
+    "Disks":  [
+                  {
+                      "Index":  1,
+                      "Model":  "Predator SSD GM7 1TB",
+                      "Size":  1024203640320
+                  },
+                  {
+                      "Index":  0,
+                      "Model":  "KINGSTON OM8PGP41024N-A0",
+                      "Size":  1024203640320
+                  }
+              ],
+    "Wsl":  [
+                {
+                    "DistributionName":  "Ubuntu",
+                    "BasePath":  "F:\\WSL\\Ubuntu"
+                },
+                {
+                    "DistributionName":  "docker-desktop",
+                    "BasePath":  "\\\\?\\C:\\Users\\lzy\\AppData\\Local\\Docker\\wsl\\main"
+                }
+            ],
+    "IsAdmin":  false
+}

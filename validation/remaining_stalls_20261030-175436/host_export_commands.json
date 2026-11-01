@@ -1,0 +1,29 @@
+[
+  {
+    "command": [
+      "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+      "-i",
+      "C:\\Users\\lzy\\AppData\\Local\\Temp\\remaining_stalls_20261030-175436\\capture\\host.etl",
+      "-o",
+      "C:\\Users\\lzy\\AppData\\Local\\Temp\\remaining_stalls_20261030-175436\\trace_header.txt",
+      "-a",
+      "dumper",
+      "-range",
+      "0",
+      "1"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+      "-i",
+      "C:\\Users\\lzy\\AppData\\Local\\Temp\\remaining_stalls_20261030-175436\\capture\\host.etl",
+      "-o",
+      "C:\\Users\\lzy\\AppData\\Local\\Temp\\remaining_stalls_20261030-175436\\trace_stats.txt",
+      "-a",
+      "tracestats"
+    ],
+    "exit": 0
+  }
+]

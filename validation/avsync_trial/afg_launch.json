@@ -1,0 +1,19 @@
+{
+  "args": [
+    "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.afg_video_control",
+    "--output",
+    "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\avsync_trial",
+    "--plan",
+    "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\avsync_trial\\selected_plan.json",
+    "--config",
+    "\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\configs\\afg_video_800mv.json",
+    "--mode",
+    "normal"
+  ]
+}

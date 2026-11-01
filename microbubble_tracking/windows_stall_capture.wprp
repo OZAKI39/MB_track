@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0" Author="MB_track diagnostics">
+  <Profiles>
+    <SystemCollector Id="MBCollector" Name="MBTrack diagnostic system collector">
+      <BufferSize Value="256" />
+      <Buffers Value="128" />
+    </SystemCollector>
+    <SystemProvider Id="MBProvider">
+      <Keywords>
+        <Keyword Value="ProcessThread" />
+        <Keyword Value="Loader" />
+        <Keyword Value="CSwitch" />
+        <Keyword Value="ReadyThread" />
+        <Keyword Value="SampledProfile" />
+        <Keyword Value="DiskIO" />
+        <Keyword Value="DiskIOInit" />
+        <Keyword Value="HardFaults" />
+        <Keyword Value="MemoryInfo" />
+      </Keywords>
+      <Stacks>
+        <Stack Value="DiskReadInit" />
+        <Stack Value="DiskWriteInit" />
+        <Stack Value="DiskFlushInit" />
+      </Stacks>
+    </SystemProvider>
+    <Profile Id="MBStalls.Light.File" Name="MBStalls" Description="Bounded storage, memory and scheduling diagnosis" LoggingMode="File" DetailLevel="Light">
+      <Collectors>
+        <SystemCollectorId Value="MBCollector">
+          <SystemProviderId Value="MBProvider" />
+        </SystemCollectorId>
+      </Collectors>
+    </Profile>
+    <Profile Id="MBStalls.Light.Memory" Name="MBStalls" Description="Storage, memory and scheduling diagnosis" LoggingMode="Memory" DetailLevel="Light">
+      <Collectors>
+        <SystemCollectorId Value="MBCollector">
+          <SystemProviderId Value="MBProvider" />
+        </SystemCollectorId>
+      </Collectors>
+    </Profile>
+  </Profiles>
+</WindowsPerformanceRecorder>

@@ -1,0 +1,68 @@
+{
+  "source_video": "customer_workspace/validation/camera_tracking_20261031_final/synthetic_A_repeated.mp4",
+  "source_sha256": "dff060a539af80837dbfb0092d4288477c4489dc0519cdef05b2ccbfd3e35970",
+  "compared_video_frames": 3720,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 3695,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 3695,
+      "sha256": "2610411360625283514758db22abaa87d63c06a44165efa7abe4e6678a2b95a8"
+    },
+    "observations": {
+      "rows": 62708,
+      "sha256": "28ce019b80c1a1161d38b8acc8357b17764a2135b3105b495c3e1e3f1efd534c"
+    },
+    "tracks": {
+      "rows": 512,
+      "sha256": "03def495ccce1e3e55b41804e51b34c38f2754c519f7fe8da0f29d3dabd505c0"
+    },
+    "events": {
+      "rows": 1009,
+      "sha256": "64772154ffb05722bf91dc9c7ac58b598fefd708ef55d732faaf0ebc925e1cd9"
+    },
+    "event_updates": {
+      "rows": 2018,
+      "sha256": "3f483cb498dce0884d7fc5d9ffcacd377a6bb82125106aa8b1d8e979930940b0"
+    },
+    "track_updates": {
+      "rows": 1358,
+      "sha256": "d73da4d71101717a464de4d4301f85cdfeabff693d03c5eca9c6ddee26135707"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 3695,
+      "sha256": "2610411360625283514758db22abaa87d63c06a44165efa7abe4e6678a2b95a8"
+    },
+    "observations": {
+      "rows": 62708,
+      "sha256": "28ce019b80c1a1161d38b8acc8357b17764a2135b3105b495c3e1e3f1efd534c"
+    },
+    "tracks": {
+      "rows": 512,
+      "sha256": "03def495ccce1e3e55b41804e51b34c38f2754c519f7fe8da0f29d3dabd505c0"
+    },
+    "events": {
+      "rows": 1009,
+      "sha256": "64772154ffb05722bf91dc9c7ac58b598fefd708ef55d732faaf0ebc925e1cd9"
+    },
+    "event_updates": {
+      "rows": 2018,
+      "sha256": "3f483cb498dce0884d7fc5d9ffcacd377a6bb82125106aa8b1d8e979930940b0"
+    },
+    "track_updates": {
+      "rows": 1358,
+      "sha256": "d73da4d71101717a464de4d4301f85cdfeabff693d03c5eca9c6ddee26135707"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

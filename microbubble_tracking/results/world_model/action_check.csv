@@ -2,51 +2,54 @@ fold,model,horizon_s,n,error_real_action_px,error_no_switch_px,prediction_change
 train A → test B,Response map,0.1,445,3.8911,4.578,2.943,0.373
 train A → test B,Response map,0.5,1467,12.7955,12.5337,9.1395,0.3756
 train A → test B,Response map,1.0,2610,19.4699,18.3857,14.3866,0.3923
-train A → test B,Gradient boosting,0.1,445,4.5203,3.8917,3.0362,0.3978
-train A → test B,Gradient boosting,0.5,1467,10.2041,10.8002,6.37,0.4976
-train A → test B,Gradient boosting,1.0,2610,13.9418,13.8947,6.5334,0.5452
-train A → test B,"Graph world model, no neighbours",0.1,445,3.271,3.8491,2.0859,0.6629
-train A → test B,"Graph world model, no neighbours",0.5,1467,11.5081,11.2674,7.1206,0.5337
-train A → test B,"Graph world model, no neighbours",1.0,2610,17.8135,15.8265,10.9402,0.5218
-train A → test B,Graph world model,0.1,445,3.2919,3.7394,1.9852,0.636
-train A → test B,Graph world model,0.5,1467,12.1748,11.428,7.0331,0.5331
-train A → test B,Graph world model,1.0,2610,19.8601,17.5655,11.8529,0.5276
-train A → test B,"Graph world model, trained on reviewed data",0.1,445,3.6801,3.945,3.282,0.6494
-train A → test B,"Graph world model, trained on reviewed data",0.5,1467,11.8917,11.3513,9.3033,0.5794
-train A → test B,"Graph world model, trained on reviewed data",1.0,2610,18.0415,15.7885,13.8128,0.531
+train A → test B,Gradient boosting,0.1,445,4.3268,3.6009,2.9618,0.3348
+train A → test B,Gradient boosting,0.5,1467,9.8771,10.4116,6.6174,0.4383
+train A → test B,Gradient boosting,1.0,2610,13.3008,12.8296,6.5451,0.4402
+train A → test B,"Graph world model, no neighbours",0.1,445,3.345,3.8033,1.4696,0.7169
+train A → test B,"Graph world model, no neighbours",0.5,1467,12.1571,11.7191,5.9307,0.6019
+train A → test B,"Graph world model, no neighbours",1.0,2610,18.8741,16.2896,9.9423,0.569
+train A → test B,Graph world model,0.1,445,3.5403,3.9147,2.2385,0.6382
+train A → test B,Graph world model,0.5,1467,12.45,11.8337,7.548,0.5358
+train A → test B,Graph world model,1.0,2610,19.9489,16.8525,12.5119,0.5149
+train A → test B,"Graph world model, trained on reviewed data",0.1,445,3.5398,3.8388,2.4981,0.5933
+train A → test B,"Graph world model, trained on reviewed data",0.5,1467,10.249,9.2772,6.0041,0.5119
+train A → test B,"Graph world model, trained on reviewed data",1.0,2610,14.759,12.783,9.9561,0.5586
+train A → test B,"Graph world model, without darkness / density inputs",0.1,445,3.3696,3.6535,2.1062,0.6022
+train A → test B,"Graph world model, without darkness / density inputs",0.5,1467,12.23,11.7325,7.1421,0.6115
+train A → test B,"Graph world model, without darkness / density inputs",1.0,2610,19.5039,17.5749,11.0246,0.6207
 train B → test A,Response map,0.1,803,7.5615,7.6743,0.2987,0.2827
 train B → test A,Response map,0.5,2604,18.6536,18.9966,0.9753,0.3579
 train B → test A,Response map,1.0,4663,26.9023,27.47,1.5023,0.3416
-train B → test A,Gradient boosting,0.1,803,8.2236,8.4518,1.5076,0.523
-train B → test A,Gradient boosting,0.5,2604,25.3152,20.322,10.5417,0.4389
-train B → test A,Gradient boosting,1.0,4663,30.2063,27.601,9.982,0.5619
-train B → test A,"Graph world model, no neighbours",0.1,803,7.6164,7.7908,1.056,0.594
-train B → test A,"Graph world model, no neighbours",0.5,2604,18.7281,19.2401,3.5676,0.5691
-train B → test A,"Graph world model, no neighbours",1.0,4663,27.0549,27.9548,5.4691,0.596
-train B → test A,Graph world model,0.1,803,7.6564,7.9096,1.0614,0.5778
-train B → test A,Graph world model,0.5,2604,19.0487,19.4047,3.9821,0.4946
-train B → test A,Graph world model,1.0,4663,28.2437,28.682,6.9643,0.493
+train B → test A,Gradient boosting,0.1,803,8.1692,8.3887,1.4628,0.4907
+train B → test A,Gradient boosting,0.5,2604,25.0412,20.4331,10.3452,0.4666
+train B → test A,Gradient boosting,1.0,4663,30.1065,27.7055,9.6714,0.5351
+train B → test A,"Graph world model, no neighbours",0.1,803,7.7034,7.8688,1.1259,0.5704
+train B → test A,"Graph world model, no neighbours",0.5,2604,19.4602,19.3007,4.2715,0.5065
+train B → test A,"Graph world model, no neighbours",1.0,4663,28.8581,27.8378,7.2395,0.5164
+train B → test A,Graph world model,0.1,803,7.8183,8.0547,1.4784,0.5542
+train B → test A,Graph world model,0.5,2604,20.1376,20.5357,5.6345,0.571
+train B → test A,Graph world model,1.0,4663,30.3596,30.4584,9.1591,0.593
 "same recordings, alternating 4 s blocks (even→odd)",Response map,0.1,150,10.6813,10.5773,0.4545,0.24
 "same recordings, alternating 4 s blocks (even→odd)",Response map,0.5,727,18.2366,17.9207,1.5411,0.315
 "same recordings, alternating 4 s blocks (even→odd)",Response map,1.0,1395,28.1751,27.6124,3.0846,0.3505
-"same recordings, alternating 4 s blocks (even→odd)",Gradient boosting,0.1,150,11.5991,11.3247,1.0586,0.44
-"same recordings, alternating 4 s blocks (even→odd)",Gradient boosting,0.5,727,18.0332,17.6625,3.0987,0.392
-"same recordings, alternating 4 s blocks (even→odd)",Gradient boosting,1.0,1395,27.1134,27.8383,3.1597,0.5541
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,150,10.8933,12.7794,3.3841,0.7667
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,727,21.809,19.0294,7.8241,0.3824
-"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,1395,35.7579,28.8786,14.5215,0.372
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,150,10.7957,12.6532,3.2069,0.8133
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,727,21.366,19.6325,7.2297,0.5392
-"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,1395,36.296,31.6443,13.8064,0.5269
+"same recordings, alternating 4 s blocks (even→odd)",Gradient boosting,0.1,150,11.6861,11.3568,1.0072,0.4467
+"same recordings, alternating 4 s blocks (even→odd)",Gradient boosting,0.5,727,18.3828,17.8457,3.5814,0.4333
+"same recordings, alternating 4 s blocks (even→odd)",Gradient boosting,1.0,1395,26.957,27.9674,3.5675,0.5663
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.1,150,10.8874,12.8617,3.3424,0.7333
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",0.5,727,22.4728,20.7474,7.25,0.3618
+"same recordings, alternating 4 s blocks (even→odd)","Graph world model, no neighbours",1.0,1395,36.5677,31.1971,12.2018,0.3233
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.1,150,10.7557,12.1595,2.4337,0.7533
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,0.5,727,22.558,19.4841,7.3188,0.3934
+"same recordings, alternating 4 s blocks (even→odd)",Graph world model,1.0,1395,38.2113,30.5839,14.1534,0.3828
 "same recordings, alternating 4 s blocks (odd→even)",Response map,0.1,230,2.7065,3.3151,0.8761,0.487
 "same recordings, alternating 4 s blocks (odd→even)",Response map,0.5,1169,16.0861,17.9915,2.8462,0.645
 "same recordings, alternating 4 s blocks (odd→even)",Response map,1.0,2114,24.4233,27.1807,4.5004,0.6906
-"same recordings, alternating 4 s blocks (odd→even)",Gradient boosting,0.1,230,7.5926,5.2317,3.5349,0.187
-"same recordings, alternating 4 s blocks (odd→even)",Gradient boosting,0.5,1169,21.0185,21.1778,3.5497,0.4234
-"same recordings, alternating 4 s blocks (odd→even)",Gradient boosting,1.0,2114,23.1687,23.6258,2.4328,0.4834
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,230,2.6664,2.764,0.4334,0.5696
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,1169,14.8401,14.714,1.9841,0.5167
-"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,2114,22.7094,22.8103,3.7907,0.57
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,230,2.5689,2.6967,0.3958,0.5522
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,1169,15.2246,15.9621,1.7914,0.6792
-"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,2114,23.8027,25.1663,2.9928,0.7271
+"same recordings, alternating 4 s blocks (odd→even)",Gradient boosting,0.1,230,7.4105,4.9618,3.4197,0.1652
+"same recordings, alternating 4 s blocks (odd→even)",Gradient boosting,0.5,1169,19.7796,20.3019,3.3159,0.4953
+"same recordings, alternating 4 s blocks (odd→even)",Gradient boosting,1.0,2114,22.1996,22.6585,2.491,0.4697
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.1,230,2.7065,2.7901,0.3443,0.3913
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",0.5,1169,15.6151,15.788,1.8576,0.4671
+"same recordings, alternating 4 s blocks (odd→even)","Graph world model, no neighbours",1.0,2114,23.9846,24.4833,3.6079,0.5019
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.1,230,2.5276,2.7134,0.511,0.6522
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,0.5,1169,15.684,16.7148,3.3746,0.6459
+"same recordings, alternating 4 s blocks (odd→even)",Graph world model,1.0,2114,23.3987,25.8759,6.9174,0.667

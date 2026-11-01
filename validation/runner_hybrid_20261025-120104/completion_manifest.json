@@ -1,0 +1,100 @@
+{
+  "status": "completed",
+  "source_files_reviewed": [
+    "customer_workspace/experiment_runner.py",
+    "customer_workspace/timing_benchmark.py",
+    "customer_workspace/tests/test_pair_and_wait.py",
+    "customer_workspace/README.md"
+  ],
+  "whitespace_checks_passed": true,
+  "new_report_links_exist": true,
+  "source_unchanged_since_hardware_run": true,
+  "git_status": " M .gitignore\n M docs/DATA_POLICY.md\n M inputs/external_resources.json\n?? AGENTS_CODING.md\n?? customer_workspace/\n?? docs/PROJECTS_STORAGE_CLEANUP_20261023.md\n?? docs/assets/\n",
+  "artifacts": [
+    {
+      "path": "environment.json",
+      "bytes": 550,
+      "sha256": "0e70353e943dcc2697b55a9bd26b55b8978bff0076e2c27ed0296251e2ea4e89"
+    },
+    {
+      "path": "execution_hashes.json",
+      "bytes": 870,
+      "sha256": "1ea2ecacbe1ef2c813e54526d5ab0273b9ace3686cc092f7d29da274f605b1f1"
+    },
+    {
+      "path": "experiment/all_attempts.csv",
+      "bytes": 115,
+      "sha256": "52678cc1e11653cc9f33072808be8dea80144711acd6636bc03f9ac6c0f660e8"
+    },
+    {
+      "path": "experiment/events.jsonl",
+      "bytes": 11745,
+      "sha256": "4395a4e296a1efae38cfe27c581ba5b329bbaf621f74659d1f81bb5cf1e63ad3"
+    },
+    {
+      "path": "experiment/plan.json",
+      "bytes": 3322,
+      "sha256": "6f104d619d33b38b899701400cb65997ac1189265c50a3967e769e91b0353c74"
+    },
+    {
+      "path": "experiment/summary.json",
+      "bytes": 6926,
+      "sha256": "eec3e72fa78f6fcb0a0c59fa7c3150e2394b588b7ba3346bdb80e32fa448e0a0"
+    },
+    {
+      "path": "experiment/timing.csv",
+      "bytes": 714,
+      "sha256": "da909f8006e4cc0b4976e24d4b30b5d4795cf11b8f98bf7d4365774f8d24d16f"
+    },
+    {
+      "path": "experiment/timing_summary.json",
+      "bytes": 2939,
+      "sha256": "05dced9c95777effda027205890c4a5fb2842d0b0e5a3755fa64cc6643634f64"
+    },
+    {
+      "path": "initial_hashes.json",
+      "bytes": 972,
+      "sha256": "75b5350cb839628f01115849cb11c4477c3843060abbf87bebae741cc32b3e5a"
+    },
+    {
+      "path": "measured_actions.csv",
+      "bytes": 362,
+      "sha256": "4cf3fb88514f8980b697d25b6e17177e646270a460a9cca7589e0b63550b9f08"
+    },
+    {
+      "path": "postflight.json",
+      "bytes": 2954,
+      "sha256": "311416a900830c7044a85ee4a3e95fb503d7cc10ef51bd7cb6bc3cf53904b508"
+    },
+    {
+      "path": "preflight.json",
+      "bytes": 2901,
+      "sha256": "8fe5fa22adcbedd62ca3c54155694df26bc061fe9c8722489739464775e2219b"
+    },
+    {
+      "path": "process_preflight.json",
+      "bytes": 374,
+      "sha256": "c3860d00f374797d2a8d434f63ba8766a32b0dc7626611f4bfc8c698eed73790"
+    },
+    {
+      "path": "run_console.log",
+      "bytes": 3300,
+      "sha256": "bf39188bde52fa76f1030fba173b0e7f61e69a3724198a88de15991086462812"
+    },
+    {
+      "path": "run_launch.json",
+      "bytes": 425,
+      "sha256": "d33f59f1086c4fd13da1723f604e8242d6513f9b3198a995bff19ed8aab658e5"
+    },
+    {
+      "path": "software_validation.json",
+      "bytes": 1090,
+      "sha256": "74d56b5106c471a25e5ea0eb61d0b6a7ac0f2465693b1102c9db4ad226aed806"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1766,
+      "sha256": "e70eda5f000c763f2c430190c5bd6c27628dbf6619ab0a5031062172100cbee8"
+    }
+  ]
+}

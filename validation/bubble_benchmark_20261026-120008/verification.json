@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-26T12:10:25.176556+01:00",
+  "software_status": "PASSED",
+  "reference_status": "PENDING_HUMAN_REVIEW",
+  "segments": [
+    {
+      "source": "four_pzt",
+      "opencv_decoded_frames": 300,
+      "pixels_match_original": true,
+      "source_start": "6",
+      "source_end": "11"
+    },
+    {
+      "source": "two_action",
+      "opencv_decoded_frames": 300,
+      "pixels_match_original": true,
+      "source_start": "989999/90000",
+      "source_end": "1439999/90000"
+    }
+  ],
+  "keyframes": 28,
+  "review_cases": 8,
+  "confirmed_frames": 0,
+  "confirmed_relations": 0,
+  "input_lock_sha256": "eb4143b8faf6ca3f86704aeef04ac6d3f2ae6496c97b530ca35b5351e2f3de23",
+  "source_inputs_unchanged": true,
+  "offline_unit_and_integration_tests": {
+    "passed": 46,
+    "failed": 0
+  },
+  "gui_checks": {
+    "benchmark": 6,
+    "existing_editing": 29,
+    "all_passed": true,
+    "source_annotations_edited": false
+  },
+  "freeze_refuses_unreviewed_data": true,
+  "local_page_links_checked": 34,
+  "actual_arial_verified_in_qt": true,
+  "hardware_accessed": false,
+  "models_trained": false,
+  "final_source_sha256": {
+    "bubble_benchmark.py": "773a8415810b1b15cedddea153fc21a7b2ac6e7ec7726aed88f2a8b6b52ce34b",
+    "bubble_region_annotation.py": "b52e2a5df602a66aef877bc12c1abfbd061c46e9aa65d3034b997d6e21c7186e",
+    "bubble_tracking.py": "eacef69bf764563c77a91637519334e8fe010137cbfbf9c4c4928259f01e08c3",
+    "bubble_dark_regions.py": "2a95a1fe930f291a71d682459c61e14426463b71d0852923dde102999df17627",
+    "bubble_regions.py": "be8cade0c12c3339ce25c84f4b69826b70cba6f1a8287d3d5e3cbe817f1079b7"
+  },
+  "post_build_changes": "The GUI was completed and annotation revision consistency checks were added after input extraction. Fixed dataset files were not changed.",
+  "remaining_work": "A human reviewer must correct and confirm the 28 keyframes and 8 relationships before a reference can be frozen. No accuracy improvement is claimed."
+}

@@ -1,0 +1,9 @@
+{
+  "protected_files_checked": 888,
+  "protected_files_changed": [],
+  "deleted_paths_absent": 67,
+  "retained_python_files_parsed": 209,
+  "retained_imports_of_deleted_modules": [],
+  "unrelated_git_status_unchanged": true,
+  "readme_matches_approved_patch": true
+}

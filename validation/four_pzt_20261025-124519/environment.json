@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "import json,platform,sys,time; print(json.dumps({'platform':platform.platform(),'python':sys.version,'executable':sys.executable,'monotonic':repr(time.get_clock_info('monotonic')),'perf_counter':repr(time.get_clock_info('perf_counter'))},indent=2))"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"platform\": \"Windows-11-10.0.26200-SP0\",\n  \"python\": \"3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]\",\n  \"executable\": \"F:\\\\Tektronix_control\\\\.venv\\\\Scripts\\\\python.exe\",\n  \"monotonic\": \"namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)\",\n  \"perf_counter\": \"namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)\"\n}\n",
+  "stderr": ""
+}

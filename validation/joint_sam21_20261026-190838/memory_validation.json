@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "frames": 64,
+  "model_updates_each": 244,
+  "new_objects_each": 22,
+  "all_raw_masks_final_masks_decisions_feedback_equal": true,
+  "full_s": 74.15269289398566,
+  "bounded_s": 70.57120834197849
+}

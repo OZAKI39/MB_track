@@ -1,0 +1,194 @@
+{
+  "software_test_only": true,
+  "human_confirmed": false,
+  "frames": [
+    {
+      "id": "four_pzt_f000360",
+      "anchor_origin": "software_test_points_selected_from_original_frame_not_human_truth",
+      "anchors_requested_xy": [
+        [
+          548,
+          -20
+        ],
+        [
+          544,
+          200
+        ],
+        [
+          537,
+          400
+        ],
+        [
+          552,
+          540
+        ],
+        [
+          523,
+          592
+        ],
+        [
+          420,
+          630
+        ],
+        [
+          300,
+          800
+        ],
+        [
+          180,
+          1040
+        ],
+        [
+          410,
+          1040
+        ],
+        [
+          540,
+          750
+        ],
+        [
+          662,
+          598
+        ],
+        [
+          790,
+          900
+        ],
+        [
+          843,
+          1040
+        ],
+        [
+          1040,
+          1040
+        ],
+        [
+          952,
+          730
+        ],
+        [
+          829,
+          450
+        ],
+        [
+          814,
+          -20
+        ]
+      ],
+      "trace_and_smoothing_s": 5.133393413969316,
+      "raw_vertices": 836,
+      "smoothed_vertices": 329,
+      "removed_join_pixels": 31
+    },
+    {
+      "id": "two_action_f000660",
+      "anchor_origin": "software_test_points_selected_from_original_frame_not_human_truth",
+      "anchors_requested_xy": [
+        [
+          548,
+          -20
+        ],
+        [
+          544,
+          200
+        ],
+        [
+          537,
+          400
+        ],
+        [
+          552,
+          540
+        ],
+        [
+          523,
+          592
+        ],
+        [
+          422,
+          639
+        ],
+        [
+          300,
+          800
+        ],
+        [
+          180,
+          1040
+        ],
+        [
+          410,
+          1040
+        ],
+        [
+          540,
+          750
+        ],
+        [
+          662,
+          598
+        ],
+        [
+          790,
+          900
+        ],
+        [
+          843,
+          1040
+        ],
+        [
+          1040,
+          1040
+        ],
+        [
+          952,
+          730
+        ],
+        [
+          829,
+          450
+        ],
+        [
+          814,
+          -20
+        ]
+      ],
+      "trace_and_smoothing_s": 5.102824730973225,
+      "raw_vertices": 853,
+      "smoothed_vertices": 323,
+      "removed_join_pixels": 130
+    }
+  ],
+  "examples": [
+    {
+      "id": "four_pzt_f000360",
+      "reference": {
+        "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-150729_1bc8fa6d42/manifest.json",
+        "sha256": "2f866de07dc5de37b2d9de683162073a3c6a1e530ebac6aab257d92c5e2d069b",
+        "saved_at": "2026-10-26T15:07:29.701837+01:00"
+      },
+      "source_video_pixels_match": true,
+      "replayed_mask_matches": true,
+      "existing_detector_accepts_mask": true,
+      "regions_with_draft_mask": 26,
+      "comparison": "four_pzt_draft.png"
+    },
+    {
+      "id": "two_action_f000660",
+      "reference": {
+        "manifest": "data/channel_masks/6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1/20261026-150741_ef42cd6dea/manifest.json",
+        "sha256": "858cc6e79d1250fad36416bfc8bbab686d87005935daf691c1699ebf4249f1be",
+        "saved_at": "2026-10-26T15:07:41.552530+01:00"
+      },
+      "source_video_pixels_match": true,
+      "replayed_mask_matches": true,
+      "existing_detector_accepts_mask": true,
+      "regions_with_draft_mask": 23,
+      "comparison": "two_action_draft.png"
+    }
+  ],
+  "original_annotations_unchanged": true,
+  "input_lock_verified": true,
+  "generated": 2,
+  "failures": 0
+}

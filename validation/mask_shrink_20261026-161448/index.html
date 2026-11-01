@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mask shrink comparison</title>
+<style>
+@font-face{font-family:ReviewArial;src:url('assets/arial.ttf') format('truetype');font-weight:100 900}
+*{box-sizing:border-box;font-family:ReviewArial}
+body{margin:0;background:#111a23;color:#eef4f8;padding:20px;line-height:1.45}
+h1{font-size:23px;margin:0 0 14px}button,select{font:inherit;background:#253747;color:inherit;border:1px solid #52677b;border-radius:5px;padding:7px 11px}
+button{cursor:pointer}button.active{background:#126675;border-color:#43d8dc}button:focus-visible,select:focus-visible{outline:2px solid #ffbe3c}
+label{display:inline-flex;gap:6px;align-items:center}.toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{min-width:0;background:#1b2935;border:1px solid #344b5e;border-radius:7px;overflow:hidden}
+h2{font-size:17px;margin:10px 12px}.image-box{position:relative;background:#05080b;text-align:center}canvas{width:100%;height:auto;display:block;margin:auto;max-height:72vh;object-fit:contain}
+.info{font-size:14px;margin:12px 0;color:#c3d2df}a{color:#8edce5}.swatch{display:inline-block;width:12px;height:12px;margin-right:5px}#error{color:#ff9f9f}#sheets a{display:inline-block;margin:4px 16px 4px 0}details{margin-top:16px}#metrics{font-variant-numeric:tabular-nums}
+@media(max-width:800px){.panels{grid-template-columns:1fr}body{padding:10px}}
+</style>
+<h1>Mask shrink comparison</h1>
+<div class="toolbar">
+<button id="previous">Previous</button><select id="frame" aria-label="Frame"></select><button id="next">Next</button>
+<label>View <select id="view"></select></label>
+</div>
+<div class="toolbar" id="radii"></div>
+<div class="toolbar">
+<label><input type="checkbox" id="detection" checked> Detection</label>
+<label><input type="checkbox" id="mask" checked> Mask boundary</label>
+<label><input type="checkbox" id="removed"> Removed strip</label>
+<span><i class="swatch" style="background:#18d8e7"></i>Detection</span>
+<span><i class="swatch" style="background:#ffbe3c"></i>Mask</span>
+</div>
+<div class="panels">
+<section class="panel"><h2>Original Mask · 0 px</h2><div class="image-box"><canvas id="before"></canvas></div></section>
+<section class="panel"><h2 id="after-title">Candidate</h2><div class="image-box"><canvas id="after"></canvas></div></section>
+</div>
+<p class="info" id="metrics"></p>
+<p class="info">Check wall remnants and nearby bubbles. Less detection does not necessarily mean better detection.</p>
+<p><a id="download" download>Download candidate Mask</a> · <a href="report.json">Report</a> · <a href="per_frame.csv">Frame measurements</a></p>
+<p id="error" role="alert"></p>
+<details><summary>All-distance comparison images</summary><div id="sheets"></div></details>
+<script type="application/json" id="review-data">{"frames": [{"id": "four_pzt_f000360", "frame_index": 360, "relative_time_s": 6.0, "image": "frames/four_pzt_f000360_original.png", "image_sha256": "f3d7bd201e831fe2b5a1db8172eccd5a6cdb8895177e20b46c6ae7f939342b8d", "overlays": ["shrink_0px/four_pzt_f000360_detection.png", "shrink_2px/four_pzt_f000360_detection.png", "shrink_4px/four_pzt_f000360_detection.png", "shrink_6px/four_pzt_f000360_detection.png", "shrink_8px/four_pzt_f000360_detection.png", "shrink_12px/four_pzt_f000360_detection.png"]}, {"id": "four_pzt_f000377", "frame_index": 377, "relative_time_s": 6.283333333333333, "image": "frames/four_pzt_f000377_original.png", "image_sha256": "972da27b8c493f22bf3b28c61156c44153027c8d60c121328d39821107d3b102", "overlays": ["shrink_0px/four_pzt_f000377_detection.png", "shrink_2px/four_pzt_f000377_detection.png", "shrink_4px/four_pzt_f000377_detection.png", "shrink_6px/four_pzt_f000377_detection.png", "shrink_8px/four_pzt_f000377_detection.png", "shrink_12px/four_pzt_f000377_detection.png"]}, {"id": "four_pzt_f000378", "frame_index": 378, "relative_time_s": 6.3, "image": "frames/four_pzt_f000378_original.png", "image_sha256": "c52b5f206ab4f06f2fc2d21e92abf2a3332f5bc600e9b20b1cb949f5bb2ea721", "overlays": ["shrink_0px/four_pzt_f000378_detection.png", "shrink_2px/four_pzt_f000378_detection.png", "shrink_4px/four_pzt_f000378_detection.png", "shrink_6px/four_pzt_f000378_detection.png", "shrink_8px/four_pzt_f000378_detection.png", "shrink_12px/four_pzt_f000378_detection.png"]}, {"id": "four_pzt_f000384", "frame_index": 384, "relative_time_s": 6.4, "image": "frames/four_pzt_f000384_original.png", "image_sha256": "895383c3424ca86e50cb605732c507d9f1103470800ac14477542f2fca30d236", "overlays": ["shrink_0px/four_pzt_f000384_detection.png", "shrink_2px/four_pzt_f000384_detection.png", "shrink_4px/four_pzt_f000384_detection.png", "shrink_6px/four_pzt_f000384_detection.png", "shrink_8px/four_pzt_f000384_detection.png", "shrink_12px/four_pzt_f000384_detection.png"]}, {"id": "four_pzt_f000524", "frame_index": 524, "relative_time_s": 8.733333333333333, "image": "frames/four_pzt_f000524_original.png", "image_sha256": "270e6d17b0592485fb7672813d5837dd8d2065ca8b4a5a6230ff68c4a6c6c77d", "overlays": ["shrink_0px/four_pzt_f000524_detection.png", "shrink_2px/four_pzt_f000524_detection.png", "shrink_4px/four_pzt_f000524_detection.png", "shrink_6px/four_pzt_f000524_detection.png", "shrink_8px/four_pzt_f000524_detection.png", "shrink_12px/four_pzt_f000524_detection.png"]}, {"id": "four_pzt_f000525", "frame_index": 525, "relative_time_s": 8.75, "image": "frames/four_pzt_f000525_original.png", "image_sha256": "fa888889acc613e48b563e2797f1dee61ab58f8740b4f2e0fce794a876c26415", "overlays": ["shrink_0px/four_pzt_f000525_detection.png", "shrink_2px/four_pzt_f000525_detection.png", "shrink_4px/four_pzt_f000525_detection.png", "shrink_6px/four_pzt_f000525_detection.png", "shrink_8px/four_pzt_f000525_detection.png", "shrink_12px/four_pzt_f000525_detection.png"]}, {"id": "four_pzt_f000531", "frame_index": 531, "relative_time_s": 8.85, "image": "frames/four_pzt_f000531_original.png", "image_sha256": "74fcbae72362535c0115b9697144c50e4b1cd21dfcecc48ddb138f4077bf52cf", "overlays": ["shrink_0px/four_pzt_f000531_detection.png", "shrink_2px/four_pzt_f000531_detection.png", "shrink_4px/four_pzt_f000531_detection.png", "shrink_6px/four_pzt_f000531_detection.png", "shrink_8px/four_pzt_f000531_detection.png", "shrink_12px/four_pzt_f000531_detection.png"]}, {"id": "four_pzt_f000535", "frame_index": 535, "relative_time_s": 8.916666666666666, "image": "frames/four_pzt_f000535_original.png", "image_sha256": "8f80b697c3726a09dd247a7690032eb277ac7b8823bfb789f899682962d9df4b", "overlays": ["shrink_0px/four_pzt_f000535_detection.png", "shrink_2px/four_pzt_f000535_detection.png", "shrink_4px/four_pzt_f000535_detection.png", "shrink_6px/four_pzt_f000535_detection.png", "shrink_8px/four_pzt_f000535_detection.png", "shrink_12px/four_pzt_f000535_detection.png"]}, {"id": "four_pzt_f000536", "frame_index": 536, "relative_time_s": 8.933333333333334, "image": "frames/four_pzt_f000536_original.png", "image_sha256": "0204e040b886d204cf063c842501b6bbbde92c9408fbd422b9228d316fbc7788", "overlays": ["shrink_0px/four_pzt_f000536_detection.png", "shrink_2px/four_pzt_f000536_detection.png", "shrink_4px/four_pzt_f000536_detection.png", "shrink_6px/four_pzt_f000536_detection.png", "shrink_8px/four_pzt_f000536_detection.png", "shrink_12px/four_pzt_f000536_detection.png"]}, {"id": "four_pzt_f000542", "frame_index": 542, "relative_time_s": 9.033333333333333, "image": "frames/four_pzt_f000542_original.png", "image_sha256": "6e9356e977181568c45fb353a0a26345010132f339f5609c2ceb5b9951b780af", "overlays": ["shrink_0px/four_pzt_f000542_detection.png", "shrink_2px/four_pzt_f000542_detection.png", "shrink_4px/four_pzt_f000542_detection.png", "shrink_6px/four_pzt_f000542_detection.png", "shrink_8px/four_pzt_f000542_detection.png", "shrink_12px/four_pzt_f000542_detection.png"]}, {"id": "four_pzt_f000609", "frame_index": 609, "relative_time_s": 10.15, "image": "frames/four_pzt_f000609_original.png", "image_sha256": "eb09ac520cb3dd0be29be72ef2a7efef08e37e4c5b175d1b9460c667c6b4c8fd", "overlays": ["shrink_0px/four_pzt_f000609_detection.png", "shrink_2px/four_pzt_f000609_detection.png", "shrink_4px/four_pzt_f000609_detection.png", "shrink_6px/four_pzt_f000609_detection.png", "shrink_8px/four_pzt_f000609_detection.png", "shrink_12px/four_pzt_f000609_detection.png"]}, {"id": "four_pzt_f000610", "frame_index": 610, "relative_time_s": 10.166666666666666, "image": "frames/four_pzt_f000610_original.png", "image_sha256": "1cd46e7dd3b929fe9f50de32015f038e6bcd86f2705e3defc4b8bc46df1e7e43", "overlays": ["shrink_0px/four_pzt_f000610_detection.png", "shrink_2px/four_pzt_f000610_detection.png", "shrink_4px/four_pzt_f000610_detection.png", "shrink_6px/four_pzt_f000610_detection.png", "shrink_8px/four_pzt_f000610_detection.png", "shrink_12px/four_pzt_f000610_detection.png"]}, {"id": "four_pzt_f000616", "frame_index": 616, "relative_time_s": 10.266666666666667, "image": "frames/four_pzt_f000616_original.png", "image_sha256": "a44c991d48fe2e74e7780c2d26f0e3a3dc22358329b88cf7dace6f7be21a2c64", "overlays": ["shrink_0px/four_pzt_f000616_detection.png", "shrink_2px/four_pzt_f000616_detection.png", "shrink_4px/four_pzt_f000616_detection.png", "shrink_6px/four_pzt_f000616_detection.png", "shrink_8px/four_pzt_f000616_detection.png", "shrink_12px/four_pzt_f000616_detection.png"]}, {"id": "four_pzt_f000659", "frame_index": 659, "relative_time_s": 10.983333333333333, "image": "frames/four_pzt_f000659_original.png", "image_sha256": "1150cc4db56281eeca5f63202602bb0566626bf8c350bac2eb1a8042dd3ca422", "overlays": ["shrink_0px/four_pzt_f000659_detection.png", "shrink_2px/four_pzt_f000659_detection.png", "shrink_4px/four_pzt_f000659_detection.png", "shrink_6px/four_pzt_f000659_detection.png", "shrink_8px/four_pzt_f000659_detection.png", "shrink_12px/four_pzt_f000659_detection.png"]}], "variants": [{"distance_px": 0, "mask": "shrink_0px/mask.png", "mask_sha256": "6eb4f1fd518f03cf738ca148fb2655cc02bd3ae464fd310ce81256719da1e882", "boundary": "shrink_0px/boundary.png", "removed": "shrink_0px/removed.png", "allowed_pixels": 321366, "removed_mask_pixels": 0, "removed_mask_percent": 0.0, "median_region_count": 34.0, "detected_pixel_sum": 4877213, "wall_band_detected_pixel_sum": 3828435, "retained_detection_percent": 100.0, "wall_band_detection_reduction_percent": 0.0}, {"distance_px": 2, "mask": "shrink_2px/mask.png", "mask_sha256": "18e59410a5f42663edf80251429326dee752ae209fdd24aac1f99a259d93f521", "boundary": "shrink_2px/boundary.png", "removed": "shrink_2px/removed.png", "allowed_pixels": 315396, "removed_mask_pixels": 5970, "removed_mask_percent": 1.8576949646197827, "median_region_count": 39.0, "detected_pixel_sum": 2915028, "wall_band_detected_pixel_sum": 1866250, "retained_detection_percent": 59.768314404148434, "wall_band_detection_reduction_percent": 51.252927109902615}, {"distance_px": 4, "mask": "shrink_4px/mask.png", "mask_sha256": "fe866d2078ca5894d35d6ecc6b0c4c81aeddecf6973783b2118c66635269b2c1", "boundary": "shrink_4px/boundary.png", "removed": "shrink_4px/removed.png", "allowed_pixels": 309341, "removed_mask_pixels": 12025, "removed_mask_percent": 3.7418395225381706, "median_region_count": 36.0, "detected_pixel_sum": 2281051, "wall_band_detected_pixel_sum": 1232276, "retained_detection_percent": 46.76955876235055, "wall_band_detection_reduction_percent": 67.81253958863087}, {"distance_px": 6, "mask": "shrink_6px/mask.png", "mask_sha256": "cea9e391045d928e5b48101e0669caf52308a04df683ae9e169b451afcfad016", "boundary": "shrink_6px/boundary.png", "removed": "shrink_6px/removed.png", "allowed_pixels": 302673, "removed_mask_pixels": 18693, "removed_mask_percent": 5.816732323892381, "median_region_count": 31.0, "detected_pixel_sum": 1892780, "wall_band_detected_pixel_sum": 844005, "retained_detection_percent": 38.808639278210734, "wall_band_detection_reduction_percent": 77.9543077001438}, {"distance_px": 8, "mask": "shrink_8px/mask.png", "mask_sha256": "bbaa65e03b3ab33dca0275496b73831aaa106b69a51ee31392c7d45431731ff8", "boundary": "shrink_8px/boundary.png", "removed": "shrink_8px/removed.png", "allowed_pixels": 296594, "removed_mask_pixels": 24772, "removed_mask_percent": 7.708345002271555, "median_region_count": 27.0, "detected_pixel_sum": 1651586, "wall_band_detected_pixel_sum": 602811, "retained_detection_percent": 33.863314971070565, "wall_band_detection_reduction_percent": 84.25437548240991}, {"distance_px": 12, "mask": "shrink_12px/mask.png", "mask_sha256": "42b059bfdab853e9075806684fc6d6ff0bfb48b3b851adb0a3593ea213a38055", "boundary": "shrink_12px/boundary.png", "removed": "shrink_12px/removed.png", "allowed_pixels": 283643, "removed_mask_pixels": 37723, "removed_mask_percent": 11.738329505921596, "median_region_count": 23.0, "detected_pixel_sum": 1375576, "wall_band_detected_pixel_sum": 326801, "retained_detection_percent": 28.204140356387963, "wall_band_detection_reduction_percent": 91.46384880506004}], "views": [{"id": "full", "title": "Full view", "xywh": [0, 0, 1280, 1024]}, {"id": "upper", "title": "Upper walls", "xywh": [480, 60, 380, 500]}, {"id": "left", "title": "Left branch", "xywh": [250, 560, 360, 450]}, {"id": "right", "title": "Right branch", "xywh": [650, 600, 400, 420]}], "sheets": ["frame_360_full.png", "frame_360_upper.png", "frame_360_left.png", "frame_360_right.png", "frame_535_full.png", "frame_535_upper.png", "frame_535_left.png", "frame_535_right.png", "frame_659_full.png", "frame_659_upper.png", "frame_659_left.png", "frame_659_right.png"]}</script>
+<script>
+const data=JSON.parse(document.getElementById('review-data').textContent);
+const byId=id=>document.getElementById(id);
+const frameSelect=byId('frame'), viewSelect=byId('view');
+const cache=new Map(); let variantIndex=1, requestNumber=0;
+data.frames.forEach((frame,i)=>frameSelect.add(new Option(`Frame ${frame.frame_index} | ${frame.relative_time_s.toFixed(3)} s`,i)));
+data.views.forEach((view,i)=>viewSelect.add(new Option(view.title,i)));
+data.variants.forEach((variant,i)=>{
+ const button=document.createElement('button'); button.textContent=`${variant.distance_px} px`;
+ button.addEventListener('click',()=>{variantIndex=i;render()});byId('radii').append(button);
+});
+data.sheets.forEach(path=>{const link=document.createElement('a');link.href=path;link.textContent=path.replaceAll('_',' ').replace('.png','');byId('sheets').append(link)});
+function picture(path){
+ if(!cache.has(path)) cache.set(path,new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error(`Cannot load ${path}`));image.src=path}));
+ return cache.get(path);
+}
+async function render(){
+ const request=++requestNumber; byId('error').textContent='';
+ const frame=data.frames[Number(frameSelect.value)], variant=data.variants[variantIndex], view=data.views[Number(viewSelect.value)];
+ document.querySelectorAll('#radii button').forEach((button,i)=>{button.classList.toggle('active',i===variantIndex);button.setAttribute('aria-pressed',String(i===variantIndex))});
+ byId('previous').disabled=Number(frameSelect.value)===0;byId('next').disabled=Number(frameSelect.value)===data.frames.length-1;
+ byId('after-title').textContent=`Candidate · ${variant.distance_px} px`;
+ byId('metrics').textContent=`Mask area removed: ${variant.removed_mask_percent.toFixed(2)}% | Frame ${frame.frame_index}`;
+ byId('download').href=variant.mask;
+ try{
+  await document.fonts.load('16px ReviewArial');
+  if(!document.fonts.check('16px ReviewArial'))throw new Error('Arial could not be loaded.');
+  const original=await picture(frame.image);
+  const panels=await Promise.all([0,variantIndex].map(async index=>{
+   const v=data.variants[index], layers=[];
+   if(byId('removed').checked)layers.push(await picture(v.removed));
+   if(byId('mask').checked)layers.push(await picture(v.boundary));
+   if(byId('detection').checked)layers.push(await picture(frame.overlays[index]));
+   return layers;
+  }));
+  if(request!==requestNumber)return;
+  ['before','after'].forEach((id,i)=>{
+   const canvas=byId(id),[x,y,w,h]=view.xywh;canvas.width=w;canvas.height=h;
+   const context=canvas.getContext('2d');context.imageSmoothingEnabled=false;
+   for(const image of [original,...panels[i]])context.drawImage(image,x,y,w,h,0,0,w,h);
+  });
+  document.body.dataset.rendered=`${frame.frame_index}:${variant.distance_px}:${view.id}`;
+ }catch(error){if(request===requestNumber)byId('error').textContent=error.message}
+}
+frameSelect.addEventListener('change',render);viewSelect.addEventListener('change',render);
+['detection','mask','removed'].forEach(id=>byId(id).addEventListener('change',render));
+byId('previous').addEventListener('click',()=>{frameSelect.selectedIndex=Math.max(0,frameSelect.selectedIndex-1);render()});
+byId('next').addEventListener('click',()=>{frameSelect.selectedIndex=Math.min(data.frames.length-1,frameSelect.selectedIndex+1);render()});
+document.addEventListener('keydown',event=>{if(event.target.matches('select,input,button'))return;if(event.key==='ArrowRight')byId('next').click();if(event.key==='ArrowLeft')byId('previous').click()});
+variantIndex=Math.min(1,data.variants.length-1);render();
+</script>
+</html>

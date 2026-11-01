@@ -1,0 +1,207 @@
+{
+  "runs": [
+    {
+      "run": "A_01",
+      "seconds": 22.0,
+      "received": 1320,
+      "recorded": 1320,
+      "processed": 1301,
+      "saved": 1301,
+      "skipped": 19,
+      "rate_hz": 59.13636363636363,
+      "processing_ms": {
+        "median": 11.528563998581376,
+        "p95": 18.493144001695327,
+        "p99": 22.290706998319365,
+        "max": 30.129968996334355
+      },
+      "software_age_upper_bound_ms": {
+        "median": 29.87609200499719,
+        "p95": 46.5023669967195,
+        "p99": 51.355796997086145,
+        "max": 72.96897200285457
+      },
+      "save_peak_pending": 2,
+      "pixels_and_scientific_results_equal": true
+    },
+    {
+      "run": "B_01",
+      "seconds": 22.0,
+      "received": 1320,
+      "recorded": 1320,
+      "processed": 1317,
+      "saved": 1317,
+      "skipped": 3,
+      "rate_hz": 59.86363636363637,
+      "processing_ms": {
+        "median": 8.996592005132698,
+        "p95": 12.393674801569432,
+        "p99": 17.31704063859069,
+        "max": 24.64602099644253
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.535851997323334,
+        "p95": 42.020911994040944,
+        "p99": 47.03254747495519,
+        "max": 68.91865200304892
+      },
+      "save_peak_pending": 2,
+      "pixels_and_scientific_results_equal": true
+    },
+    {
+      "run": "A_02",
+      "seconds": 22.0,
+      "received": 1320,
+      "recorded": 1320,
+      "processed": 1317,
+      "saved": 1317,
+      "skipped": 3,
+      "rate_hz": 59.86363636363637,
+      "processing_ms": {
+        "median": 10.30601700040279,
+        "p95": 15.143967197218444,
+        "p99": 18.369256279547695,
+        "max": 23.845684998377692
+      },
+      "software_age_upper_bound_ms": {
+        "median": 27.96464799757814,
+        "p95": 42.83383240108378,
+        "p99": 47.97250411589627,
+        "max": 53.36077199171996
+      },
+      "save_peak_pending": 2,
+      "pixels_and_scientific_results_equal": true
+    },
+    {
+      "run": "B_02",
+      "seconds": 22.0,
+      "received": 1320,
+      "recorded": 1320,
+      "processed": 1319,
+      "saved": 1319,
+      "skipped": 1,
+      "rate_hz": 59.95454545454545,
+      "processing_ms": {
+        "median": 9.013092996610794,
+        "p95": 11.469378098991,
+        "p99": 14.107306059449858,
+        "max": 30.53578500112053
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.375030996860005,
+        "p95": 41.657077601121266,
+        "p99": 45.61893318314105,
+        "max": 65.81194900354603
+      },
+      "save_peak_pending": 7,
+      "pixels_and_scientific_results_equal": true
+    },
+    {
+      "run": "long_A",
+      "seconds": 62.0,
+      "received": 3720,
+      "recorded": 3720,
+      "processed": 3674,
+      "saved": 3674,
+      "skipped": 46,
+      "rate_hz": 59.25806451612903,
+      "processing_ms": {
+        "median": 9.806628499063663,
+        "p95": 16.251291898515774,
+        "p99": 20.775922692628228,
+        "max": 35.2744289994007
+      },
+      "software_age_upper_bound_ms": {
+        "median": 27.57425950403558,
+        "p95": 44.365135350017226,
+        "p99": 54.46640972193562,
+        "max": 125.59547999990173
+      },
+      "save_peak_pending": 2,
+      "pixels_and_scientific_results_equal": true
+    },
+    {
+      "run": "long_B",
+      "seconds": 62.0,
+      "received": 3720,
+      "recorded": 3720,
+      "processed": 3710,
+      "saved": 3710,
+      "skipped": 10,
+      "rate_hz": 59.83870967741935,
+      "processing_ms": {
+        "median": 9.401470499142306,
+        "p95": 12.872490752852169,
+        "p99": 15.772725205315485,
+        "max": 21.50318000349216
+      },
+      "software_age_upper_bound_ms": {
+        "median": 26.889361499343067,
+        "p95": 42.24488114887208,
+        "p99": 47.06818379898322,
+        "max": 115.99808300525183
+      },
+      "save_peak_pending": 2,
+      "pixels_and_scientific_results_equal": true
+    },
+    {
+      "run": "current_long_A",
+      "seconds": 62.0,
+      "received": 3720,
+      "recorded": 3720,
+      "processed": 3695,
+      "saved": 3695,
+      "skipped": 25,
+      "rate_hz": 59.596774193548384,
+      "processing_ms": {
+        "median": 10.193022993917111,
+        "p95": 15.286087297863558,
+        "p99": 19.661708843777884,
+        "max": 39.80094399594236
+      },
+      "software_age_upper_bound_ms": {
+        "median": 27.84137200069381,
+        "p95": 43.755831396265414,
+        "p99": 50.48706408095311,
+        "max": 81.92602700000862
+      },
+      "save_peak_pending": 2,
+      "pixels_and_scientific_results_equal": true
+    }
+  ],
+  "total_recorded": 16440,
+  "total_processed_and_saved": 16333,
+  "total_skipped": 107,
+  "recording_and_save_integrity_passed": true,
+  "pixel_and_tracking_equivalence_passed": true,
+  "every_frame_at_60_fps_passed": false,
+  "live_hardware_tested": false,
+  "fault_checks": {
+    "cancel": {
+      "errors": [
+        "KeyboardInterrupt: Cancelled after completing the current frame"
+      ],
+      "processed": 182,
+      "saved": 182,
+      "status": "cancelled"
+    },
+    "early_end": {
+      "errors": [
+        "RuntimeError: RuntimeError: Input ended before the requested window",
+        "RuntimeError: Input ended before the requested window"
+      ],
+      "processed": 29,
+      "saved": 29,
+      "status": "failed"
+    },
+    "wrong_shape": {
+      "errors": [
+        "RuntimeError: ValueError: Camera dimensions/format differ from prepared background",
+        "ValueError: Camera dimensions/format differ from prepared background"
+      ],
+      "processed": 0,
+      "saved": 0,
+      "status": "failed"
+    }
+  }
+}

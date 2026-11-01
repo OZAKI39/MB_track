@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "frames": 0,
+  "observations": 0,
+  "tracks": 0,
+  "confirmed_tracks": 0,
+  "events_by_status": {},
+  "input_rejections": 0,
+  "skipped_source_frames": 0,
+  "peak_active_tracks": 0
+}

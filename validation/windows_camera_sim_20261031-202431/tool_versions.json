@@ -1,0 +1,10 @@
+{
+  "windows": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.2",
+  "python_executable": "F:\\MB_camera_sim\\.venv\\Scripts\\python.exe",
+  "python_base": "C:/Python314/python.exe",
+  "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+  "ffplay": "ffplay version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2003-2026 the FFmpeg developers",
+  "mediamtx": "v1.21.3"
+}

@@ -1,0 +1,32 @@
+{
+  "pytest": {
+    "passed": 47,
+    "failed": 0,
+    "elapsed_s": 4.07,
+    "files": [
+      "customer_workspace/tests/test_bubble_regions.py",
+      "tests/test_annotation_regions.py",
+      "tests/test_live_mask.py",
+      "tests/test_microscope_detector.py"
+    ]
+  },
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "git_diff_check": "passed",
+  "html_images": 60,
+  "html_links_checked": 213,
+  "html_missing_links": [],
+  "original_code_and_geometry_unchanged": true,
+  "changed_existing_files": [
+    "customer_workspace/README.md",
+    "customer_workspace/.gitignore"
+  ],
+  "new_files_sha256": {
+    "customer_workspace/bubble_regions.py": "d669800f44524b4ae20e6a4f5d69e73faf381aa833e88c3837ed9daf01c4b516",
+    "customer_workspace/bubble_region_review.py": "540d056df7dab3c3a951dd98b2d36de46bd28727c01608639dab540774c31bd9",
+    "customer_workspace/tests/test_bubble_regions.py": "d7ffa22f405e318b272dbe6a7278b4b6d0088e71fa75fbe4c80e0cf586251a8f",
+    "customer_workspace/configs/bubble_regions_20261025.json": "20669a2138abc45f68ee9787d3419a77020915afdd4bffd419838513d0a73177",
+    "customer_workspace/configs/bubble_review_sources.json": "05334493fd3038105cadaa474780ac19445c3d36a11420cdb251772d5f1d2073"
+  },
+  "human_confirmed_frames": 0
+}

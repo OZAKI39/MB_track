@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-10-23T19:34:21.853209+00:00",
+  "windows": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "F:\\Tektronix_control\\.venv\\Scripts\\python.exe",
+    "clocks": {
+      "monotonic": {
+        "output": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "perf_counter": {
+        "output": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      }
+    }
+  },
+  "wsl": {
+    "os": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "executable": "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+    "clocks": {
+      "monotonic": {
+        "output": "namespace(implementation='clock_gettime(CLOCK_MONOTONIC)', monotonic=True, adjustable=False, resolution=1e-09)",
+        "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-09
+      },
+      "perf_counter": {
+        "output": "namespace(implementation='clock_gettime(CLOCK_MONOTONIC)', monotonic=True, adjustable=False, resolution=1e-09)",
+        "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-09
+      }
+    }
+  }
+}

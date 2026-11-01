@@ -1,0 +1,55 @@
+{
+  "simulation": true,
+  "physical_hardware": false,
+  "simulator_run": "F:/MB_camera_sim/runs/20261031-200236Z_latency",
+  "wsl_python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "wsl_platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "runs": {
+    "A_on": {
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_A.json",
+      "camera_configuration": {
+        "camera_ip": "127.0.0.1",
+        "rtsp_url": "rtsp://127.0.0.1:8554/expA",
+        "rtsp_transport": "udp",
+        "udp_port": 5500,
+        "open_timeout_ms": 5000,
+        "read_timeout_ms": 1500,
+        "reconnect_seconds": 0.5,
+        "output_dir": "../validation",
+        "latency_mode": "low",
+        "rtsp_control_relay": true
+      }
+    },
+    "B_on": {
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_B.json",
+      "camera_configuration": {
+        "camera_ip": "127.0.0.1",
+        "rtsp_url": "rtsp://127.0.0.1:8554/expB",
+        "rtsp_transport": "udp",
+        "udp_port": 5500,
+        "open_timeout_ms": 5000,
+        "read_timeout_ms": 1500,
+        "reconnect_seconds": 0.5,
+        "output_dir": "../validation",
+        "latency_mode": "low",
+        "rtsp_control_relay": true
+      }
+    }
+  },
+  "capture_order": [
+    "A_smoke",
+    "A_on",
+    "B_on",
+    "A_off",
+    "B_off"
+  ],
+  "diagnostic_flag": "--measure-latency"
+}

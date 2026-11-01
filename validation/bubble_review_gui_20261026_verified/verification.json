@@ -1,0 +1,29 @@
+{
+  "completed_at": "2026-10-26T13:42:44.321598+01:00",
+  "scope": "Offline annotation GUI; no detection/tracking algorithm or hardware changes",
+  "unit_tests_passed": 13,
+  "unit_test_files": [
+    "customer_workspace/tests/test_bubble_review_edits.py",
+    "customer_workspace/tests/test_bubble_benchmark.py"
+  ],
+  "benchmark_gui_checks_passed": 14,
+  "benchmark_gui_report": "gui_check.json",
+  "legacy_gui_checks_passed": 29,
+  "legacy_gui_report": "customer_workspace/validation/bubble_review_gui_20261026_legacy_check1/checks.json",
+  "ruff_check": "passed",
+  "fixed_input_files_verified": 81,
+  "original_annotations_modified": false,
+  "current_source_sha256": {
+    "customer_workspace/bubble_region_annotation.py": "0a9edb4825e230112317eb6036dbfa80df766fedd4fa398915a7b6072fff277e",
+    "customer_workspace/bubble_review_edits.py": "f33475fbf87a9ac2078c8e29c48988a5d8c071cd9fbb7f4aef94774964b5f82f",
+    "customer_workspace/tests/check_bubble_benchmark_gui.py": "359b38f831adc6424b24386172e554e63756431781352acb2ceb0d445d4a78c0",
+    "customer_workspace/tests/test_bubble_review_edits.py": "442b41f7fb4c825211dbe94726a8d6a7507f4efac8791dadba5476fe8b02bd97",
+    "customer_workspace/README.md": "7110b3f80496be21f44f12b1f36b0d3433828092d52f06e221380ab085c1d4c0"
+  },
+  "limitations": [
+    "IDs are proposals until explicitly reviewed and confirmed.",
+    "Shared walls apply to pending frames on opening; confirmed revisions retain their own geometry.",
+    "Expanding a boundary does not run detection or restore previously removed contours.",
+    "Changing an ID changes the current frame only; corresponding frames must be checked."
+  ]
+}

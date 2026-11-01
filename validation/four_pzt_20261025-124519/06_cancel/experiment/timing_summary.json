@@ -1,0 +1,27 @@
+{
+  "requested_runs": 1,
+  "completed_runs": 0,
+  "reliable_runs": 0,
+  "unreliable_runs": 0,
+  "failed_runs": 0,
+  "paired_pulses": 0,
+  "paired_intervals": 0,
+  "recorded_parameter_commands": 4,
+  "control_mode": "amplitude_write_only",
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "experiment",
+      "status": "cancelled",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": false,
+      "error": "ExperimentCancelled: 实验已取消"
+    }
+  ],
+  "statistics_ms": {},
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "not_measured_write_only_commands_with_round_boundary_checks",
+  "per_command_confirmation": false,
+  "physical_voltage_timing_verified": false
+}

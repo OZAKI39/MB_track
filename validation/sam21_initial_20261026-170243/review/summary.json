@@ -1,0 +1,315 @@
+{
+  "objects": [
+    {
+      "object_id": 1,
+      "empty_frames": 943,
+      "longest_empty_run": 943,
+      "shape_check_frames": 0,
+      "first_empty_s": 6.283333333333333
+    },
+    {
+      "object_id": 2,
+      "empty_frames": 908,
+      "longest_empty_run": 906,
+      "shape_check_frames": 190,
+      "first_empty_s": 0.85
+    },
+    {
+      "object_id": 3,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 35,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 4,
+      "empty_frames": 1320,
+      "longest_empty_run": 1320,
+      "shape_check_frames": 0,
+      "first_empty_s": 0.0
+    },
+    {
+      "object_id": 5,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 60,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 6,
+      "empty_frames": 949,
+      "longest_empty_run": 949,
+      "shape_check_frames": 179,
+      "first_empty_s": 6.183333333333334
+    },
+    {
+      "object_id": 7,
+      "empty_frames": 1319,
+      "longest_empty_run": 1319,
+      "shape_check_frames": 1,
+      "first_empty_s": 0.016666666666666666
+    },
+    {
+      "object_id": 8,
+      "empty_frames": 860,
+      "longest_empty_run": 860,
+      "shape_check_frames": 1,
+      "first_empty_s": 7.666666666666667
+    },
+    {
+      "object_id": 9,
+      "empty_frames": 628,
+      "longest_empty_run": 628,
+      "shape_check_frames": 19,
+      "first_empty_s": 11.533333333333333
+    },
+    {
+      "object_id": 10,
+      "empty_frames": 705,
+      "longest_empty_run": 705,
+      "shape_check_frames": 60,
+      "first_empty_s": 10.25
+    },
+    {
+      "object_id": 11,
+      "empty_frames": 6,
+      "longest_empty_run": 6,
+      "shape_check_frames": 3,
+      "first_empty_s": 14.55
+    },
+    {
+      "object_id": 12,
+      "empty_frames": 1076,
+      "longest_empty_run": 1075,
+      "shape_check_frames": 20,
+      "first_empty_s": 3.85
+    },
+    {
+      "object_id": 13,
+      "empty_frames": 472,
+      "longest_empty_run": 472,
+      "shape_check_frames": 607,
+      "first_empty_s": 14.133333333333333
+    },
+    {
+      "object_id": 14,
+      "empty_frames": 9,
+      "longest_empty_run": 9,
+      "shape_check_frames": 341,
+      "first_empty_s": 8.833333333333334
+    },
+    {
+      "object_id": 15,
+      "empty_frames": 1313,
+      "longest_empty_run": 1312,
+      "shape_check_frames": 0,
+      "first_empty_s": 0.0
+    },
+    {
+      "object_id": 16,
+      "empty_frames": 485,
+      "longest_empty_run": 485,
+      "shape_check_frames": 716,
+      "first_empty_s": 13.916666666666666
+    },
+    {
+      "object_id": 17,
+      "empty_frames": 526,
+      "longest_empty_run": 526,
+      "shape_check_frames": 702,
+      "first_empty_s": 13.233333333333333
+    },
+    {
+      "object_id": 18,
+      "empty_frames": 1131,
+      "longest_empty_run": 1131,
+      "shape_check_frames": 126,
+      "first_empty_s": 3.15
+    },
+    {
+      "object_id": 19,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 1139,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 20,
+      "empty_frames": 486,
+      "longest_empty_run": 485,
+      "shape_check_frames": 673,
+      "first_empty_s": 5.15
+    },
+    {
+      "object_id": 21,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 6,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 22,
+      "empty_frames": 521,
+      "longest_empty_run": 521,
+      "shape_check_frames": 1,
+      "first_empty_s": 13.316666666666666
+    },
+    {
+      "object_id": 23,
+      "empty_frames": 1211,
+      "longest_empty_run": 1211,
+      "shape_check_frames": 11,
+      "first_empty_s": 1.8166666666666667
+    },
+    {
+      "object_id": 24,
+      "empty_frames": 107,
+      "longest_empty_run": 107,
+      "shape_check_frames": 950,
+      "first_empty_s": 4.483333333333333
+    },
+    {
+      "object_id": 25,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 0,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 26,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 0,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 27,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 1111,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 28,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 1103,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 29,
+      "empty_frames": 1117,
+      "longest_empty_run": 1117,
+      "shape_check_frames": 13,
+      "first_empty_s": 3.3833333333333333
+    },
+    {
+      "object_id": 30,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 8,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 31,
+      "empty_frames": 1320,
+      "longest_empty_run": 1320,
+      "shape_check_frames": 0,
+      "first_empty_s": 0.0
+    },
+    {
+      "object_id": 32,
+      "empty_frames": 1320,
+      "longest_empty_run": 1320,
+      "shape_check_frames": 0,
+      "first_empty_s": 0.0
+    },
+    {
+      "object_id": 33,
+      "empty_frames": 1221,
+      "longest_empty_run": 1221,
+      "shape_check_frames": 5,
+      "first_empty_s": 1.65
+    },
+    {
+      "object_id": 34,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 30,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 35,
+      "empty_frames": 1319,
+      "longest_empty_run": 1319,
+      "shape_check_frames": 0,
+      "first_empty_s": 0.016666666666666666
+    },
+    {
+      "object_id": 36,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 2,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 37,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 1,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 38,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 0,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 39,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 942,
+      "first_empty_s": null
+    },
+    {
+      "object_id": 40,
+      "empty_frames": 1126,
+      "longest_empty_run": 1126,
+      "shape_check_frames": 4,
+      "first_empty_s": 3.2333333333333334
+    },
+    {
+      "object_id": 41,
+      "empty_frames": 737,
+      "longest_empty_run": 370,
+      "shape_check_frames": 580,
+      "first_empty_s": 0.1
+    },
+    {
+      "object_id": 42,
+      "empty_frames": 1314,
+      "longest_empty_run": 941,
+      "shape_check_frames": 5,
+      "first_empty_s": 0.05
+    },
+    {
+      "object_id": 43,
+      "empty_frames": 0,
+      "longest_empty_run": 0,
+      "shape_check_frames": 0,
+      "first_empty_s": null
+    }
+  ],
+  "initial_count": 43,
+  "frame_count": 1320,
+  "initial_frame_only": true,
+  "mask_cropping": false,
+  "limitations": [
+    "A stable ID is assigned by the initial prompt; it does not prove that the contour stays on the correct bubble.",
+    "Empty prediction means no output Mask, not confirmed physical disappearance.",
+    "Shape and overlap flags are review aids, not proven tracking failures.",
+    "Objects appearing after frame 0 are not initialized in this test."
+  ]
+}

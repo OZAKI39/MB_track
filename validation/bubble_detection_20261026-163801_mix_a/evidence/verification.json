@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "verified_at": "2026-10-26T16:41:43.190714+01:00",
+  "active_review": {
+    "dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-163801_mix_a",
+    "sha256": "9a986209d82999b6c48f7b401029e2f4891909ec744c7e300b29ccd850a2b838",
+    "activated_at": "2026-10-26T16:41:43.174980+01:00"
+  },
+  "previous_review": {
+    "dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-153909",
+    "sha256": "fac008ab4efdc57bee62f197da0cd2d8d7067b222b859c65bd769a01cd3d95b7",
+    "activated_at": "2026-10-26T15:59:00.225134+01:00"
+  },
+  "mask_reference": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-163547_c70389142e/manifest.json",
+    "sha256": "ccc8130733c530758a3af500a0bc77f2da5fcfc4990a77ff6f043c2e105d5c7d",
+    "saved_at": "2026-10-26T16:35:47.559936+01:00"
+  },
+  "unit_tests_passed": 31,
+  "gui_checks_passed": 16,
+  "video": {
+    "decoded_frames": 1320,
+    "all_frame_times_identical": true,
+    "duration_s": 22.0,
+    "size": [
+      2576,
+      1104
+    ]
+  },
+  "video_and_gui_use_same_detection_log": true,
+  "video_page_check": "video_page_check.json",
+  "data_check": "data_verification.json",
+  "gui_check": "gui_check/gui_check.json",
+  "benchmark_launcher_resolves_new_dataset": true,
+  "original_launcher_still_available": true,
+  "already_open_windows_restarted": false,
+  "hardware_used": false,
+  "limitation": "Detection contours and suggested tracking IDs still require human review; no new human confirmations were generated."
+}

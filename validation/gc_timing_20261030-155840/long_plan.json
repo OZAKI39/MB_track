@@ -1,0 +1,47 @@
+{
+  "order": [
+    [
+      "long_normal",
+      "normal"
+    ],
+    [
+      "long_precollect",
+      "precollect"
+    ]
+  ],
+  "duration_per_run_s": 330,
+  "repeats": 15,
+  "decision": "Compare unmodified automatic GC with startup/end collection. Short test gave no extra need to postpone generation 2.",
+  "code_sha256": {
+    "gc_replay_check.py": "be005855ca64f2a911d94ac8e5136499849fedd9cbe4543800a8631cfabf832b",
+    "paced_replay.py": "20a0b5b76083a75533d89c073225a131c65805c1916a638ee91495269a5cf565",
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "97e73ee7ec808f7e263f1dd1689d014c666b857d90c061f48363e9d318ed3d63",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f"
+  },
+  "commands": {
+    "long_normal": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_timing_20261030-155840/long_normal",
+      "--mode",
+      "normal",
+      "--repeats",
+      "15"
+    ],
+    "long_precollect": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_timing_20261030-155840/long_precollect",
+      "--mode",
+      "precollect",
+      "--repeats",
+      "15"
+    ]
+  }
+}

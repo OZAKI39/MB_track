@@ -1,0 +1,28 @@
+{
+  "cancel": {
+    "errors": [
+      "KeyboardInterrupt: Cancelled after completing the current frame"
+    ],
+    "processed": 182,
+    "saved": 182,
+    "status": "cancelled"
+  },
+  "early_end": {
+    "errors": [
+      "RuntimeError: RuntimeError: Input ended before the requested window",
+      "RuntimeError: Input ended before the requested window"
+    ],
+    "processed": 29,
+    "saved": 29,
+    "status": "failed"
+  },
+  "wrong_shape": {
+    "errors": [
+      "RuntimeError: ValueError: Camera dimensions/format differ from prepared background",
+      "ValueError: Camera dimensions/format differ from prepared background"
+    ],
+    "processed": 0,
+    "saved": 0,
+    "status": "failed"
+  }
+}

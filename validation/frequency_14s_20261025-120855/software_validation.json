@@ -1,0 +1,52 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/afg_timing.py",
+      "customer_workspace/experiment_runner.py",
+      "customer_workspace/timing_report.py",
+      "customer_workspace/tests/test_experiment_runner.py",
+      "customer_workspace/tests/test_write_only_guards.py",
+      "customer_workspace/tests/test_timing_report.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/afg_timing.py",
+      "customer_workspace/experiment_runner.py",
+      "customer_workspace/timing_report.py",
+      "customer_workspace/tests/test_experiment_runner.py",
+      "customer_workspace/tests/test_write_only_guards.py",
+      "customer_workspace/tests/test_timing_report.py"
+    ],
+    "returncode": 0,
+    "stdout": "6 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "customer_workspace/tests"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [ 45%]\n........................................................................ [ 91%]\n.............                                                            [100%]\n157 passed in 0.36s\n",
+    "stderr": ""
+  }
+]

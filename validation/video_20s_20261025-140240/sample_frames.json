@@ -1,0 +1,17 @@
+[
+  {
+    "file": "capture_after_uuid_fix/sample_frames/frame_0001.png",
+    "frame": 1,
+    "elapsed_s": 0.0
+  },
+  {
+    "file": "capture_after_uuid_fix/sample_frames/frame_0515.png",
+    "frame": 515,
+    "elapsed_s": 10.002561750006862
+  },
+  {
+    "file": "capture_after_uuid_fix/sample_frames/frame_1011.png",
+    "frame": 1011,
+    "elapsed_s": 19.999203357991064
+  }
+]

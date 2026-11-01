@@ -1,0 +1,214 @@
+{
+  "baseline": {
+    "runs": [
+      {
+        "run": 1,
+        "offered": 3960,
+        "saved": 3946,
+        "analysis_skipped": 14,
+        "sqlite_check": "ok",
+        "writer": {
+          "submitted_frames": 3946,
+          "committed_frames": 3946,
+          "pending_records": 0,
+          "peak_pending_records": 7,
+          "oldest_pending_ms": 0.0,
+          "last_committed_source_frame": 3959,
+          "error": null,
+          "settings": {
+            "queue_frames": 32,
+            "batch_frames": 4,
+            "max_pending_s": 1.0,
+            "close_timeout_s": 30.0
+          },
+          "error_details": null,
+          "uncommitted": [],
+          "all_submitted_saved": true,
+          "worker_finished": true,
+          "summary": {
+            "status": "completed",
+            "frames": 3946,
+            "observations": 53114,
+            "tracks": 209,
+            "confirmed_tracks": 134,
+            "events_by_status": {
+              "confirmed_tracks": 255,
+              "rejected_short_track": 150
+            },
+            "input_rejections": 0,
+            "skipped_source_frames": 14,
+            "peak_active_tracks": 19
+          }
+        }
+      },
+      {
+        "run": 2,
+        "offered": 3960,
+        "saved": 3955,
+        "analysis_skipped": 5,
+        "sqlite_check": "ok",
+        "writer": {
+          "submitted_frames": 3955,
+          "committed_frames": 3955,
+          "pending_records": 0,
+          "peak_pending_records": 2,
+          "oldest_pending_ms": 0.0,
+          "last_committed_source_frame": 3959,
+          "error": null,
+          "settings": {
+            "queue_frames": 32,
+            "batch_frames": 4,
+            "max_pending_s": 1.0,
+            "close_timeout_s": 30.0
+          },
+          "error_details": null,
+          "uncommitted": [],
+          "all_submitted_saved": true,
+          "worker_finished": true,
+          "summary": {
+            "status": "completed",
+            "frames": 3955,
+            "observations": 53205,
+            "tracks": 212,
+            "confirmed_tracks": 137,
+            "events_by_status": {
+              "confirmed_tracks": 261,
+              "rejected_short_track": 150
+            },
+            "input_rejections": 0,
+            "skipped_source_frames": 5,
+            "peak_active_tracks": 19
+          }
+        }
+      }
+    ],
+    "conversion_median_p99_max_ms": [
+      0.7327579951379448,
+      2.1260007741511786,
+      109.60309498477727
+    ],
+    "over10ms": 8,
+    "over50ms": 2,
+    "windows_available_mib_median_min": [
+      1323.5,
+      305
+    ],
+    "windows_commit_headroom_min_mib": 4522.90234375,
+    "wsl_available_mib_median_min": [
+      1803.501953125,
+      1738.98046875
+    ],
+    "pylance_present_samples": 146
+  },
+  "background_off": {
+    "runs": [
+      {
+        "run": 1,
+        "offered": 3960,
+        "saved": 3958,
+        "analysis_skipped": 2,
+        "sqlite_check": "ok",
+        "writer": {
+          "submitted_frames": 3958,
+          "committed_frames": 3958,
+          "pending_records": 0,
+          "peak_pending_records": 2,
+          "oldest_pending_ms": 0.0,
+          "last_committed_source_frame": 3959,
+          "error": null,
+          "settings": {
+            "queue_frames": 32,
+            "batch_frames": 4,
+            "max_pending_s": 1.0,
+            "close_timeout_s": 30.0
+          },
+          "error_details": null,
+          "uncommitted": [],
+          "all_submitted_saved": true,
+          "worker_finished": true,
+          "summary": {
+            "status": "completed",
+            "frames": 3958,
+            "observations": 53263,
+            "tracks": 211,
+            "confirmed_tracks": 135,
+            "events_by_status": {
+              "confirmed_tracks": 257,
+              "rejected_short_track": 152
+            },
+            "input_rejections": 0,
+            "skipped_source_frames": 2,
+            "peak_active_tracks": 19
+          }
+        }
+      },
+      {
+        "run": 2,
+        "offered": 3960,
+        "saved": 3960,
+        "analysis_skipped": 0,
+        "sqlite_check": "ok",
+        "writer": {
+          "submitted_frames": 3960,
+          "committed_frames": 3960,
+          "pending_records": 0,
+          "peak_pending_records": 2,
+          "oldest_pending_ms": 0.0,
+          "last_committed_source_frame": 3959,
+          "error": null,
+          "settings": {
+            "queue_frames": 32,
+            "batch_frames": 4,
+            "max_pending_s": 1.0,
+            "close_timeout_s": 30.0
+          },
+          "error_details": null,
+          "uncommitted": [],
+          "all_submitted_saved": true,
+          "worker_finished": true,
+          "summary": {
+            "status": "completed",
+            "frames": 3960,
+            "observations": 53290,
+            "tracks": 207,
+            "confirmed_tracks": 135,
+            "events_by_status": {
+              "confirmed_tracks": 257,
+              "rejected_short_track": 144
+            },
+            "input_rejections": 0,
+            "skipped_source_frames": 0,
+            "peak_active_tracks": 19
+          }
+        }
+      }
+    ],
+    "conversion_median_p99_max_ms": [
+      0.7147754949983209,
+      1.929976739629637,
+      29.582529998151585
+    ],
+    "over10ms": 1,
+    "over50ms": 0,
+    "windows_available_mib_median_min": [
+      2116.0,
+      2033
+    ],
+    "windows_commit_headroom_min_mib": 8461.78515625,
+    "wsl_available_mib_median_min": [
+      5221.30078125,
+      5169.81640625
+    ],
+    "pylance_present_samples": 0
+  },
+  "matched_conditions": {
+    "code_hashes": true,
+    "nominal_fps": true,
+    "repeats": true,
+    "max_age_ms": true,
+    "conversion_threads": true,
+    "persistence": true,
+    "pending_capacity": true
+  },
+  "same_wsl_config": true
+}

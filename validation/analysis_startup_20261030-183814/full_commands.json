@@ -1,0 +1,70 @@
+[
+  {
+    "name": "paced_A",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/paced_A",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "paced_B",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/paced_B",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "science_A",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "import sys,cv2; from pathlib import Path; from customer_workspace.microbubble_tracking.online_replay import replay; cv2.setNumThreads(24); replay(*[Path(x) for x in sys.argv[1:]],save_mode=\"async\")",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/science_A"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "science_B",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "import sys,cv2; from pathlib import Path; from customer_workspace.microbubble_tracking.online_replay import replay; cv2.setNumThreads(24); replay(*[Path(x) for x in sys.argv[1:]],save_mode=\"async\")",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/science_B"
+    ],
+    "exit_code": 0
+  }
+]

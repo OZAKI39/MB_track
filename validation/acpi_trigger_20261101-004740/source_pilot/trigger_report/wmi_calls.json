@@ -1,0 +1,38 @@
+[
+  {
+    "time_ms": 5133.7776,
+    "client_pid": 10940,
+    "group": "171,220",
+    "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+  },
+  {
+    "time_ms": 8158.3306,
+    "client_pid": 10940,
+    "group": "171,234",
+    "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+  },
+  {
+    "time_ms": 27743.8697,
+    "client_pid": 10940,
+    "group": "171,287",
+    "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+  },
+  {
+    "time_ms": 30732.4454,
+    "client_pid": 10940,
+    "group": "171,315",
+    "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+  },
+  {
+    "time_ms": 39784.2676,
+    "client_pid": 10940,
+    "group": "171,341",
+    "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+  },
+  {
+    "time_ms": 47316.8951,
+    "client_pid": 10940,
+    "group": "171,360",
+    "operation": "Start IWbemServices::ExecMethod - root\\WMI : AcpiTest_MULong.InstanceName=\"ACPI\\\\PNP0C14\\\\1_1\"::GetSetULong"
+  }
+]

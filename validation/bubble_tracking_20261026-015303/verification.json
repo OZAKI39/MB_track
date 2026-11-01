@@ -1,0 +1,61 @@
+{
+  "status": "PASSED",
+  "checked_local": "2026-10-26T01:55:32.006592+01:00",
+  "prior_artifact_hashes_checked": 468,
+  "inputs_and_tracking_outputs_unchanged": true,
+  "videos": [
+    {
+      "source_id": "four_pzt",
+      "frames": 1320,
+      "all_regions_accounted_for": true,
+      "unique_ids_per_frame": true,
+      "no_retired_id_reused": true,
+      "no_invented_gap_positions_or_velocities": true,
+      "frame_events_equal_complete_log": true,
+      "simultaneous_regions_min": 24,
+      "simultaneous_regions_max": 43,
+      "video_verification": {
+        "decoded_frames": 1320,
+        "all_frame_times_identical": true,
+        "duration_s": 22.0,
+        "size": [
+          2576,
+          1160
+        ]
+      }
+    },
+    {
+      "source_id": "two_action",
+      "frames": 1320,
+      "all_regions_accounted_for": true,
+      "unique_ids_per_frame": true,
+      "no_retired_id_reused": true,
+      "no_invented_gap_positions_or_velocities": true,
+      "frame_events_equal_complete_log": true,
+      "simultaneous_regions_min": 23,
+      "simultaneous_regions_max": 33,
+      "video_verification": {
+        "decoded_frames": 1320,
+        "all_frame_times_identical": true,
+        "duration_s": 21.99997777777778,
+        "size": [
+          2576,
+          1160
+        ]
+      }
+    }
+  ],
+  "software_tests_passed": 45,
+  "visual_audit_cases": [
+    395,
+    420,
+    239,
+    718
+  ],
+  "visual_audit_note": "抽查显示保存区域的分合与标记相符；边界闪动也会触发分合，不能认定为真实微泡事件。",
+  "browser_interaction_tested": false,
+  "limitations": [
+    "完整视频已解码和抽查画面；没有逐帧人工身份真值，未给出准确率。",
+    "未把算法输出当作已确认的遮挡、离场或物理分合。"
+  ]
+}

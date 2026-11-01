@@ -1,0 +1,37 @@
+{
+  "window": {
+    "seconds": 22.0,
+    "first_seq": 273,
+    "last_seq": 1592,
+    "frames": 1320,
+    "ffmpeg_exit": 0
+  },
+  "processed": 277,
+  "analysis_hz": 12.590909090909092,
+  "actual_detector_and_piv_results": 277,
+  "processing_ms": {
+    "median": 76.83518700650893,
+    "p95": 93.42899378389117,
+    "p99": 140.89770970167595,
+    "max": 181.2781889748294
+  },
+  "software_age_upper_bound_ms": {
+    "median": 115.02647699671797,
+    "p95": 142.21000499674116,
+    "p99": 178.61816023127182,
+    "max": 231.66810598922893
+  },
+  "completion_interval_ms": {
+    "median": 77.08849949995056,
+    "p95": 93.6434322502464,
+    "p99": 141.53499374515377,
+    "max": 181.37494899565354
+  },
+  "fresh_valid_results": 100,
+  "pipeline_error": null,
+  "recorder_dropped": 0,
+  "analysis_skipped": 1071,
+  "bridge_overwritten": 189,
+  "threads_closed": true,
+  "latency_scope": "Windows 解码完成至分析完成的保守上界，不是曝光至结果的延迟"
+}

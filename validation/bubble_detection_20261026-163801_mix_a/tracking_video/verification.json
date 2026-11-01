@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "verified_at": "2026-10-26T16:53:33.010426+01:00",
+  "source_dataset": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-163801_mix_a",
+  "mask_reference": {
+    "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-163547_c70389142e/manifest.json",
+    "sha256": "ccc8130733c530758a3af500a0bc77f2da5fcfc4990a77ff6f043c2e105d5c7d",
+    "saved_at": "2026-10-26T16:35:47.559936+01:00"
+  },
+  "unit_tests_passed": 42,
+  "static_checks_passed": true,
+  "video_verification": {
+    "decoded_frames": 1320,
+    "all_frame_times_identical": true,
+    "duration_s": 22.0,
+    "size": [
+      2576,
+      1136
+    ]
+  },
+  "tracking_data_verification": "../evidence/tracking_export_checks.json",
+  "gui_id_mappings_verified": 301,
+  "browser_check": "browser_check.json",
+  "input_preservation": "input_preservation.json",
+  "active_gui_dataset_unchanged": true,
+  "fixed_benchmark_lock_unchanged": true,
+  "algorithm_changed": false,
+  "hardware_used": false,
+  "human_identity_or_event_accuracy_verified": false
+}

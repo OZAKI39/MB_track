@@ -1,0 +1,50 @@
+{
+  "frames": {
+    "identical": true,
+    "rows": 1320
+  },
+  "observations": {
+    "identical": true,
+    "rows": 22041
+  },
+  "tracks": {
+    "identical": true,
+    "rows": 181
+  },
+  "events": {
+    "identical": true,
+    "rows": 347
+  },
+  "event_updates": {
+    "identical": true,
+    "rows": 694
+  },
+  "track_updates": {
+    "identical": true,
+    "rows": 472
+  },
+  "input_rejections": {
+    "identical": true,
+    "rows": 0
+  },
+  "background_initial.npy": {
+    "identical": true,
+    "sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+  },
+  "background_final.npy": {
+    "identical": true,
+    "sha256": "0935af57444548ed74712c492e2edc9c1817395ac7f3f943b84abc06e20a98a8"
+  },
+  "action_links.csv": {
+    "identical": true,
+    "sha256": "a57135547fbbffcb2cf08e7574ea80fdf2c03ef49c7c1153906532f4664dc4e0"
+  },
+  "source_actions.csv": {
+    "identical": true,
+    "sha256": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7"
+  },
+  "source_video_frames.csv": {
+    "identical": true,
+    "sha256": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2"
+  }
+}

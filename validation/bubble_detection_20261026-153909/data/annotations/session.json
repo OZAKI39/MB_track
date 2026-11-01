@@ -1,0 +1,11 @@
+{
+  "index": 0,
+  "reviewer": "",
+  "candidate_id": "four_pzt_f000360",
+  "bulk_diameter_filter": "REFERENCE_ONLY",
+  "label_opacity_pct": 18,
+  "bulk_diameter_range_px": [
+    8.0,
+    24.0
+  ]
+}

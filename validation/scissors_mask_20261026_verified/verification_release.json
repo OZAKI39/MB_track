@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-26T15:19:09.886878+01:00",
+  "status": "passed_offline_software_verification",
+  "unit_tests": {
+    "passed": 32,
+    "failed": 0,
+    "command": ".venv/bin/python -m pytest -q customer_workspace/tests/test_channel_mask.py customer_workspace/tests/test_bubble_review_edits.py customer_workspace/tests/test_bubble_benchmark.py"
+  },
+  "gui_tests": {
+    "new_editor_checks": 22,
+    "legacy_checks": 29,
+    "total": 51,
+    "new_report": "../scissors_mask_20261026_release_verified/gui_check.json",
+    "legacy_report": "../scissors_mask_20261026_legacy/checks.json"
+  },
+  "video_examples_verified": 2,
+  "source_video_and_detector_checks": [
+    {
+      "id": "four_pzt_f000360",
+      "reference": {
+        "manifest": "data/channel_masks/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-150729_1bc8fa6d42/manifest.json",
+        "sha256": "2f866de07dc5de37b2d9de683162073a3c6a1e530ebac6aab257d92c5e2d069b",
+        "saved_at": "2026-10-26T15:07:29.701837+01:00"
+      },
+      "source_video_pixels_match": true,
+      "replayed_mask_matches": true,
+      "existing_detector_accepts_mask": true,
+      "regions_with_draft_mask": 26,
+      "comparison": "four_pzt_draft.png"
+    },
+    {
+      "id": "two_action_f000660",
+      "reference": {
+        "manifest": "data/channel_masks/6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1/20261026-150741_ef42cd6dea/manifest.json",
+        "sha256": "858cc6e79d1250fad36416bfc8bbab686d87005935daf691c1699ebf4249f1be",
+        "saved_at": "2026-10-26T15:07:41.552530+01:00"
+      },
+      "source_video_pixels_match": true,
+      "replayed_mask_matches": true,
+      "existing_detector_accepts_mask": true,
+      "regions_with_draft_mask": 23,
+      "comparison": "two_action_draft.png"
+    }
+  ],
+  "input_lock_verified": true,
+  "original_annotations_unchanged": true,
+  "human_confirmed_masks_created": 0,
+  "hardware_commands_sent": false,
+  "code_sha256": {
+    "customer_workspace/channel_mask.py": "4ba5f3d6452bce4331bf743d4883370af46080d0fb162774d1bdd3a3a6043581",
+    "customer_workspace/bubble_region_annotation.py": "4a9d296263efa3a01ca342ae8210d26d124fbd7a7214f2317ac0d41f094ad098",
+    "customer_workspace/tests/test_channel_mask.py": "d4fc469f2ae2c6ba40580892ae8c89257dc070017ac4b7d37c7d7e8e702ea111",
+    "customer_workspace/tests/check_scissors_mask.py": "47eeac7b6792d7ad5c7e3e7289e0bdc2d69b6075d53d0a04c30dc2466f15bfd2",
+    "customer_workspace/tests/check_bubble_benchmark_gui.py": "21b14b83872fc2bfcc8eaa6c77eac6b9badb2d574494565677b851496c13168d"
+  },
+  "ruff_check_and_format": "passed",
+  "resolved_failures": [
+    {
+      "directory": "../scissors_mask_20261026_gui1",
+      "reason": "A mouse test attempted to select a densely spaced vertex; corrected the test target and checked real vertex movement."
+    },
+    {
+      "directory": "../scissors_mask_20261026_samples1",
+      "reason": "Adjacent paths returned around slightly off-edge anchors; added bounded local-join cleanup while retaining all raw paths."
+    },
+    {
+      "directory": "../scissors_mask_20261026_samples2",
+      "reason": "ABA software anchor created a 9 px / 19 px^2 loop; the invalid outline was rejected, then redrawn with a different explicitly logged anchor."
+    },
+    {
+      "directory": "../scissors_mask_20261026_gui_verified",
+      "reason": "Napari resets an empty Shapes layer to polygon; now every preview segment explicitly carries path type. A crossing exclusion was rejected; final test redraws a valid exclusion."
+    },
+    {
+      "directory": "../scissors_mask_20261026_gui_final",
+      "reason": "Visual review found an excessive vertex displacement in a software mouse trial. Added a displacement bound and exclusion-preserves-outline check; deferred vertex clipping until mouse release to avoid resetting native drag state mid-gesture. Both subsequent displacement checks passed."
+    }
+  ],
+  "limitations": [
+    "Scissors can follow unintended edges; the human must inspect the live line and place anchors accordingly",
+    "Smoothing can round small genuine corners; strength 0 restores the pre-smoothing line",
+    "The sample anchor sequences are software tests, not human-confirmed wall positions",
+    "Existing bubble contours/tracks are not recomputed"
+  ],
+  "supersedes": "verification.json",
+  "vertex_drag_check": {
+    "requested_canvas_move_px": 3,
+    "largest_image_move_px": 5.623722553253174,
+    "exclusion_preserves_outer_boundary": true,
+    "bounds_alignment_applied_after_mouse_release": true
+  }
+}

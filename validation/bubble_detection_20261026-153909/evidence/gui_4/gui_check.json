@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_adjacent_frames_both_detection_overlays_Arial_no_training",
+    "real_clicks_select_highlight_and_toggle_both_views"
+  ],
+  "error": "IndexError('list index out of range')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_frame_gui.py\", line 118, in check\n    assert w.current_pair_decisions[-1][\"kind\"] == \"SAME\", w.status.value\n           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^\nIndexError: list index out of range\n"
+}

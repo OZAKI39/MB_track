@@ -1,0 +1,9 @@
+{
+  "kernel_config_available": true,
+  "schedstat": "22103499 0 85\n",
+  "sched_schedstats_exists": false,
+  "kernel_config": [
+    "CONFIG_SCHED_INFO=y",
+    "# CONFIG_SCHEDSTATS is not set"
+  ]
+}

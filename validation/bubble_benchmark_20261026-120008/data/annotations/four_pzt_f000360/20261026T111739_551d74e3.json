@@ -1,0 +1,51 @@
+{
+  "schema": 2,
+  "candidate_id": "four_pzt_f000360",
+  "image_sha256": "f3d7bd201e831fe2b5a1db8172eccd5a6cdb8895177e20b46c6ae7f939342b8d",
+  "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "split": "benchmark_review_only",
+  "sequence_id": "four_pzt",
+  "revision": "20261026T111739_551d74e3",
+  "utc": "2026-10-26T11:17:39.138312+00:00",
+  "mask_file": "20261026T111739_551d74e3.npz",
+  "mask_sha256": "7c5b5c35870a5ff49ac14cdf7312226122f3cf45a5d8301650d1ccc9e97316e0",
+  "reviewer": "",
+  "expert_confirmed": false,
+  "status": "DRAFT_UNREVIEWED",
+  "review_scope": "FULL_FRAME",
+  "review_regions": [],
+  "invalidated_region_ids": [],
+  "workspace_roi_yxyx": null,
+  "proposal_sources": [
+    {
+      "method": "frozen_opencv_baseline",
+      "human_verified": false
+    }
+  ],
+  "classes": [
+    "SINGLE_BUBBLE",
+    "AGGREGATE",
+    "BACKGROUND_ARTIFACT",
+    "UNCERTAIN",
+    "OUT_OF_FOCUS"
+  ],
+  "class_overlap_pixels": 0,
+  "instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 1,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 32,
+    "OUT_OF_FOCUS": 0
+  },
+  "track_ids": {},
+  "notes": "",
+  "units": "pixels",
+  "physical_fusion_claim": false,
+  "reviewed_instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 0,
+    "OUT_OF_FOCUS": 0
+  }
+}

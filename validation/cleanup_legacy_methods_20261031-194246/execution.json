@@ -1,0 +1,11 @@
+{
+  "executed_at": "2026-10-31T19:47:02.568525+01:00",
+  "user_approval": "批准按清单删除",
+  "approved_count": 67,
+  "deleted_count": 67,
+  "deleted_bytes": 1188884208,
+  "deleted_allocated_bytes": 1189036032,
+  "skipped": [],
+  "directories_deleted": 0,
+  "readme_updated": true
+}

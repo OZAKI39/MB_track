@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-23T18:28:12.101372+00:00",
+  "command": "Get-CimInstance Win32_Process | Where-Object { ($_.Name -match '^python(w)?(.exe)?$' -and $_.CommandLine -match 'microbubble|Tektronix|afg|experiment_runner|timing_benchmark') -or $_.Name -match 'OpenChoice|TekVisa|VisaIC|NIMax' } | Select-Object ProcessId,Name,CommandLine | ConvertTo-Json -Depth 3",
+  "returncode": 0,
+  "stdout": "{\n    \"ProcessId\":  29064,\n    \"Name\":  \"TekVisaRM.exe\",\n    \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\IVI Foundation\\\\VISA\\\\Win64\\\\TekVISA\\\\Bin\\\\TekVisaRM.exe\\\" \"\n}\n",
+  "stderr": ""
+}

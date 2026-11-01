@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "single_panel_no_training_and_no_initial_edits",
+    "narrow_window_keeps_navigation_visible",
+    "pick_existing_region_and_highlight",
+    "delete_undo_redo_preserve_other_regions",
+    "unfinished_polygon_blocks_navigation_and_original_view",
+    "cancel_polygon_preserves_existing_pixels",
+    "draw_missing_region_using_original_polygon_tool",
+    "paint_erase_brush_size_and_undo",
+    "original_view_cannot_edit_and_geometry_is_optional",
+    "new_revision_saved_and_previous_revision_preserved",
+    "navigation_saves_and_reloads_edits",
+    "save_failure_keeps_frame_and_unsaved_pixels",
+    "confirmation_requires_acknowledgement_and_reviewer",
+    "both_experiments_and_all_navigation_boundaries",
+    "close_saves_modified_draft"
+  ],
+  "original_labels_edited": false
+}

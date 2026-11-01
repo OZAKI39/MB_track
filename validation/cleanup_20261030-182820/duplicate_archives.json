@@ -1,0 +1,329 @@
+{
+  "proposed_only": true,
+  "candidates": [
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/result_animations.zip",
+      "bytes": 20991508,
+      "mtime_ns": 1793205066991735888,
+      "sha256": "4139eacb5db938d43fb4b1f0af2028b0dbd950a4076e73b0efc38d6cd7ecc2ca",
+      "type": "duplicate_delivery_zip",
+      "preservation": [
+        {
+          "member": "videos/01_detection_baseline.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/01_detection_baseline.frames.csv",
+          "sha256": "4a52612ed5e7971b66c5d8df69ddde9a0b0a54b56c53f3c91d0c00c4363082c0",
+          "bytes": 68672
+        },
+        {
+          "member": "videos/01_detection_baseline.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/01_detection_baseline.mp4",
+          "sha256": "e5d6e878b18aef58caea08dfd24148f7b609464421bf330b34420ea49ad90694",
+          "bytes": 4035232
+        },
+        {
+          "member": "videos/01_detection_ours.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/01_detection_ours.frames.csv",
+          "sha256": "4a52612ed5e7971b66c5d8df69ddde9a0b0a54b56c53f3c91d0c00c4363082c0",
+          "bytes": 68672
+        },
+        {
+          "member": "videos/01_detection_ours.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/01_detection_ours.mp4",
+          "sha256": "f0153381874e3bca164e089e6bef5dcc33188aa377d5802d2bd69aa8774b148a",
+          "bytes": 3908939
+        },
+        {
+          "member": "videos/02_tracking_baseline.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/02_tracking_baseline.frames.csv",
+          "sha256": "fade92a2a800d943bf65edae18bd8708c0d06c7fd7d8caec724880fc10c3081c",
+          "bytes": 70004
+        },
+        {
+          "member": "videos/02_tracking_baseline.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/02_tracking_baseline.mp4",
+          "sha256": "2553b51363dc6a392e77f444ba55747c76fa205d1c1e1dfb0274263a6c3648f2",
+          "bytes": 3979125
+        },
+        {
+          "member": "videos/02_tracking_ours.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/02_tracking_ours.frames.csv",
+          "sha256": "fade92a2a800d943bf65edae18bd8708c0d06c7fd7d8caec724880fc10c3081c",
+          "bytes": 70004
+        },
+        {
+          "member": "videos/02_tracking_ours.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/02_tracking_ours.mp4",
+          "sha256": "ff4aeb7d1f4eb7d3ce24289706859236c2d1412bbe6d845f1dd514d3526fae2e",
+          "bytes": 4407934
+        },
+        {
+          "member": "videos/03_events_baseline.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/03_events_baseline.frames.csv",
+          "sha256": "f84ea4439afeaffebe72f6eba50d994424f3333990f9860149774ee873e52615",
+          "bytes": 24387
+        },
+        {
+          "member": "videos/03_events_baseline.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/03_events_baseline.mp4",
+          "sha256": "05c4da58e371f804fe783bb6d7a3320b347c175894b5392cd7e4762af4fbcce1",
+          "bytes": 2061733
+        },
+        {
+          "member": "videos/03_events_ours.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/03_events_ours.frames.csv",
+          "sha256": "f84ea4439afeaffebe72f6eba50d994424f3333990f9860149774ee873e52615",
+          "bytes": 24387
+        },
+        {
+          "member": "videos/03_events_ours.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/videos/03_events_ours.mp4",
+          "sha256": "4b0c1050ff2726ae669bdbbbf6036b26826a00a19b87d568e9a6fa9cb47192e3",
+          "bytes": 2258880
+        },
+        {
+          "member": "README.md",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/README.md",
+          "sha256": "95b5762f4510f8de6320846313c7fcc9997c03341fba809533fbb5e6bd0e1c8c",
+          "bytes": 1081
+        },
+        {
+          "member": "run.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/run.json",
+          "sha256": "dc302c732900be28a8e7242af3b70df17ac2defed74e8f2af6dcda358208f625",
+          "bytes": 4644
+        },
+        {
+          "member": "animation_manifest.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/animation_manifest.json",
+          "sha256": "0b3f8d2f23103494c50ff68686d2fde58b13dfbefc671267cfd3a14442371e8b",
+          "bytes": 3720
+        },
+        {
+          "member": "video_verification.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/baseline_comparison/video_verification.json",
+          "sha256": "460c91f45c1dca915773cb1a69154c8f6ad8153640b1ef00f6038eba88d40fed",
+          "bytes": 1958
+        }
+      ]
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/slide6_animations.zip",
+      "bytes": 3452791,
+      "mtime_ns": 1793204889958625614,
+      "sha256": "862cc15d018d10e16ec8ae93c2303c04920e3badb8a5b24f572ac3ae2283f238",
+      "type": "duplicate_delivery_zip",
+      "preservation": [
+        {
+          "member": "04_collective_metrics.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/04_collective_metrics.frames.csv",
+          "sha256": "4d5f1ef10ef5532d8c8922c474d7dc9b2ed6324a8562f17628dc31d49bd3e681",
+          "bytes": 37049
+        },
+        {
+          "member": "04_collective_metrics.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/04_collective_metrics.mp4",
+          "sha256": "659a86ee052852f145af7823dd8f512c5725f815a7dee0214d5c277dd6769a90",
+          "bytes": 3437254
+        },
+        {
+          "member": "provenance.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/provenance.json",
+          "sha256": "dd640f1d51c513964fdc590dc97d26f750548607476931c2178f2812c4f2c027",
+          "bytes": 7670
+        },
+        {
+          "member": "validation_samples.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/validation_samples.csv",
+          "sha256": "5c6ededca2be82ef0e89df8bf2ddc98b4f980f5345a35cbb3ca42fe62b89a792",
+          "bytes": 17164
+        },
+        {
+          "member": "visible_labels.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/collective_metrics/visible_labels.json",
+          "sha256": "2cd9d6c7b01ea4d1bbe46d40a7ce233aee2bb778a7f0145c1ea155f002ac51c2",
+          "bytes": 29648
+        }
+      ]
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/slide6_animations.zip",
+      "bytes": 939375,
+      "mtime_ns": 1793204170393647351,
+      "sha256": "9cc92867fba71532a70231ddae90a1f3a9b32b242ecb5e994c898675be8040cb",
+      "type": "duplicate_delivery_zip",
+      "preservation": [
+        {
+          "member": "02_kinematics.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/02_kinematics.frames.csv",
+          "sha256": "4e87d399b868084213989a15a7af822668b9037e3ce7bdcbb1bb458ea8670a4c",
+          "bytes": 19186
+        },
+        {
+          "member": "02_kinematics.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/02_kinematics.mp4",
+          "sha256": "c4eaa8b2007aaee4f3b6dc59ebd36c9a6af0975784dd37f35a08cb6556375cc6",
+          "bytes": 926541
+        },
+        {
+          "member": "provenance.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/provenance.json",
+          "sha256": "b2f3c75ef2496c1d87374438e3769ae26e4de8fefb4511c1dae286e96fa6ae65",
+          "bytes": 7050
+        },
+        {
+          "member": "validation_samples.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/validation_samples.csv",
+          "sha256": "5c6ededca2be82ef0e89df8bf2ddc98b4f980f5345a35cbb3ca42fe62b89a792",
+          "bytes": 17164
+        },
+        {
+          "member": "visible_labels.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/kinematics/visible_labels.json",
+          "sha256": "c2f9a5ce0f17d82ff3aaecda2c1d850ab0d074a8d074310aec76d5a4ba9d4274",
+          "bytes": 5494
+        }
+      ]
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/slide6_animations.zip",
+      "bytes": 550744,
+      "mtime_ns": 1793204807199143744,
+      "sha256": "c2fcb77ba398438d2c7b3993ae95e0a1dcb78a3f56577ef52ec2e8b1e0a7880f",
+      "type": "duplicate_delivery_zip",
+      "preservation": [
+        {
+          "member": "03_morphology.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/03_morphology.frames.csv",
+          "sha256": "aaead231faa366ae56240feb5f932e408a51c3e37c3c797642f4bcddaf945a4d",
+          "bytes": 13735
+        },
+        {
+          "member": "03_morphology.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/03_morphology.mp4",
+          "sha256": "4b66952bbaffa9b1984ef545b394acff61ad9952967492886e3995685bbad279",
+          "bytes": 540054
+        },
+        {
+          "member": "provenance.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/provenance.json",
+          "sha256": "f244914e8c158f04760f9e97e68bd521eb3edaec133b74da3a93b16c021bfa14",
+          "bytes": 6873
+        },
+        {
+          "member": "validation_samples.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/validation_samples.csv",
+          "sha256": "5c6ededca2be82ef0e89df8bf2ddc98b4f980f5345a35cbb3ca42fe62b89a792",
+          "bytes": 17164
+        },
+        {
+          "member": "visible_labels.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/morphology/visible_labels.json",
+          "sha256": "107e74c78e38cf7ae8b8287459d8f3c63adff9c182d7be8c21aac4537ca286a4",
+          "bytes": 1508
+        }
+      ]
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/slide6_animations.zip",
+      "bytes": 461542,
+      "mtime_ns": 1793204903036749992,
+      "sha256": "4b18889a949bb86d698910123737590c2f1858e3c82bb80432f1543312590d41",
+      "type": "duplicate_delivery_zip",
+      "preservation": [
+        {
+          "member": "05_raw_video_validation.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/05_raw_video_validation.frames.csv",
+          "sha256": "4656a83dc2a5285a4df25a457273b49d5d07069a9773531b33a148d270438c3a",
+          "bytes": 18963
+        },
+        {
+          "member": "05_raw_video_validation.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/05_raw_video_validation.mp4",
+          "sha256": "ba602be20ea8fecf4548c353d3649fcf13288b48c603a3acf1726a8e2a00f902",
+          "bytes": 481177
+        },
+        {
+          "member": "provenance.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/provenance.json",
+          "sha256": "bf2b33e77f92464f2be6757dcd446bb251720e571004cff920b92310649949b5",
+          "bytes": 6378
+        },
+        {
+          "member": "validation_samples.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/validation_samples.csv",
+          "sha256": "5c6ededca2be82ef0e89df8bf2ddc98b4f980f5345a35cbb3ca42fe62b89a792",
+          "bytes": 17164
+        },
+        {
+          "member": "visible_labels.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/raw_video_validation/visible_labels.json",
+          "sha256": "03d0f21b9ad8f8f38264775ed8ebe70f2e1af5ae82aa687a83c86597cd6192bd",
+          "bytes": 1632
+        }
+      ]
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/slide6_animations.zip",
+      "bytes": 7373509,
+      "mtime_ns": 1793204794917888716,
+      "sha256": "05ca9e3e03af74f7532aed430613e6551c000c649a40f8b77ae9583e2dc859c4",
+      "type": "duplicate_delivery_zip",
+      "preservation": [
+        {
+          "member": "01_trajectory_segmentation.frames.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/01_trajectory_segmentation.frames.csv",
+          "sha256": "86138ce4ba9b541195f1a2d7f1c49bdfc85145841b99ebb26c5b96374bc9ed17",
+          "bytes": 176146
+        },
+        {
+          "member": "01_trajectory_segmentation.mp4",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/01_trajectory_segmentation.mp4",
+          "sha256": "d4a37d1b0430778c641f3dee18b68fa87d442c5aa75b3fd378f6bd21c771cb97",
+          "bytes": 7352099
+        },
+        {
+          "member": "provenance.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/provenance.json",
+          "sha256": "6697226270bc9a00829c5e2645a7aede3dd829e3c16216c64f867633d1201b16",
+          "bytes": 8708
+        },
+        {
+          "member": "pzt_command_intervals.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/pzt_command_intervals.csv",
+          "sha256": "fa0fce875f56c0eee8d86bdaf539c7aa3face1e2cf5b1575081ea5f2023066b2",
+          "bytes": 1173
+        },
+        {
+          "member": "trajectory_cut_events.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/trajectory_cut_events.csv",
+          "sha256": "35db122b088a5daf0690e07e10babcb80904875be679f8f63226ea263d2a686d",
+          "bytes": 321
+        },
+        {
+          "member": "validation_samples.csv",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/validation_samples.csv",
+          "sha256": "5c6ededca2be82ef0e89df8bf2ddc98b4f980f5345a35cbb3ca42fe62b89a792",
+          "bytes": 17164
+        },
+        {
+          "member": "visible_labels.json",
+          "preserved_path": "customer_workspace/microbubble_tracking/figures/expB/slide_06_motion_shape_and_collective_analysis/trajectory_segmentation/visible_labels.json",
+          "sha256": "f7a496433207a0d3ec9e7ce8a4c10a388306aab2c32950e1af7cc4ccef16e4a0",
+          "bytes": 69151
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_04_multi_object_tracking/tracking_figures.zip",
+      "reason": "Some member missing or not byte-identical to adjacent extracted file",
+      "member": "step_1_motion_prediction.pdf"
+    },
+    {
+      "path": "customer_workspace/microbubble_tracking/figures/expB/slide_08_stimulus_response_analysis/slide8_assets.zip",
+      "reason": "Some member missing or not byte-identical to adjacent extracted file",
+      "member": "02_response_summary.pdf"
+    }
+  ]
+}

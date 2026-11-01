@@ -1,0 +1,16 @@
+{
+  "seconds": 62,
+  "runs": 4,
+  "analysis_min_hz": 5.6,
+  "analysis_tail_rate_ratio_min": 0.8,
+  "latency_tail_ratio_max": 1.2,
+  "latency_tail_increase_ms": 20,
+  "completion_gap_max_ms": 1000,
+  "queue_tail_increase_frames": 2,
+  "queue_slope_max_frames_s": 0.05,
+  "memory_total_growth_limit_mib": 64,
+  "memory_late_growth_limit_mib": 16,
+  "memory_late_slope_limit_mib_s": 0.5,
+  "monitor_min_samples_per_second": 0.7,
+  "description": "首轮62秒加三次重复；录像不允许新增缺失。前后20秒比较分析速度和延迟，内存同时检查前后10秒及后半程趋势；这些是本轮工程检查阈值，不是长期稳定性保证。"
+}

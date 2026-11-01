@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-26T14:40:39.465568+01:00",
+  "status": "passed_offline_software_verification",
+  "unit_tests": {
+    "passed": 27,
+    "failed": 0,
+    "command": ".venv/bin/python -m pytest -q customer_workspace/tests/test_canny_wall.py customer_workspace/tests/test_bubble_review_edits.py customer_workspace/tests/test_bubble_benchmark.py"
+  },
+  "gui_tests": {
+    "new_editor_checks": 19,
+    "legacy_checks": 29,
+    "total": 48,
+    "new_report": "../canny_wall_20261026_gui_final/gui_check.json",
+    "legacy_report": "../canny_wall_20261026_legacy_gui/checks.json"
+  },
+  "fixed_frames_generated": 28,
+  "fixed_frames_rejected": 0,
+  "raw_video_pixel_verification": [
+    {
+      "id": "four_pzt_f000360",
+      "reference": {
+        "manifest": "data/canny_walls/51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03/20261026-143814_6cf13b8583/manifest.json",
+        "sha256": "f9ed5951f128faece90afd889e5cc4d3b6d229215391ffdc78c446e02277452b",
+        "saved_at": "2026-10-26T14:38:14.055791+01:00"
+      },
+      "source_video_pixels_match": true,
+      "replayed_mask_matches": true,
+      "existing_detector_accepts_mask": true,
+      "regions_with_draft_mask": 26,
+      "comparison": "four_pzt_draft.png"
+    },
+    {
+      "id": "two_action_f000660",
+      "reference": {
+        "manifest": "data/canny_walls/6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1/20261026-143815_48cf664101/manifest.json",
+        "sha256": "88c003b1beff1919af89e6872cc4a27e204ce9bb357cfec5f1c4bd5cc7d167fa",
+        "saved_at": "2026-10-26T14:38:15.541519+01:00"
+      },
+      "source_video_pixels_match": true,
+      "replayed_mask_matches": true,
+      "existing_detector_accepts_mask": true,
+      "regions_with_draft_mask": 22,
+      "comparison": "two_action_draft.png"
+    }
+  ],
+  "input_lock_verified": true,
+  "original_annotations_unchanged": true,
+  "ruff_check_and_format": "passed",
+  "human_confirmed_masks_created": 0,
+  "hardware_commands_sent": false,
+  "resolved_failures": [
+    {
+      "directory": "../canny_wall_20261026_gui_initial",
+      "cause": "Qt worker import selected the wrong OpenGL backend before the base workbench configured GLX",
+      "fix": "Load the Qt worker lazily after the base workbench"
+    },
+    {
+      "directory": "../canny_wall_20261026_gui_check1",
+      "cause": "The software mouse drag crossed adjacent edges; polygon validation rejected it",
+      "fix": "Retained rejection and tested a valid manual drag"
+    },
+    {
+      "directory": "../canny_wall_20261026_gui_verified",
+      "cause": "Injected write error was re-raised by the worker framework into the Qt event loop",
+      "fix": "Handle errored signal without re-raising; final GUI test verifies error display, retained edit and successful retry"
+    }
+  ],
+  "limitations": [
+    "Canny candidates need human review, particularly attached bubbles and weak wall edges",
+    "Existing annotations and detection/tracking results are not recomputed",
+    "The automatic test seed is explicitly a software test choice, not a human annotation"
+  ],
+  "code_sha256": {
+    "customer_workspace/canny_wall.py": "923d69cf5c3d5b704e38fe90c2ead05bf64015a7018dcc9587086a7d1bfc73d6",
+    "customer_workspace/bubble_region_annotation.py": "6a95611e281898ba96490a0f0de9fc981ae31b34748dcd7aea91ee48960f4e29",
+    "customer_workspace/tests/test_canny_wall.py": "6b6b2199c8f54ad3af6d08ed544ab892e6444a1dfcd82703a1abafaaf8d95143",
+    "customer_workspace/tests/check_canny_wall.py": "2fd4955d7ac9d9b5712ab927928a055f8e1715869cf0d3ecaf43b59eb5daf617",
+    "customer_workspace/tests/check_bubble_benchmark_gui.py": "b166f459fa8c26e12c8e6ae36ff59fd3dc4032eb5d6397ee67b2d66fc334e7d2"
+  }
+}

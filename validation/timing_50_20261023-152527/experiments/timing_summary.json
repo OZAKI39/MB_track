@@ -1,0 +1,202 @@
+{
+  "requested_runs": 50,
+  "completed_runs": 22,
+  "paired_pulses": 22,
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "run_01",
+      "status": "completed"
+    },
+    {
+      "run_index": 2,
+      "directory": "run_02",
+      "status": "completed"
+    },
+    {
+      "run_index": 3,
+      "directory": "run_03",
+      "status": "completed"
+    },
+    {
+      "run_index": 4,
+      "directory": "run_04",
+      "status": "completed"
+    },
+    {
+      "run_index": 5,
+      "directory": "run_05",
+      "status": "completed"
+    },
+    {
+      "run_index": 6,
+      "directory": "run_06",
+      "status": "completed"
+    },
+    {
+      "run_index": 7,
+      "directory": "run_07",
+      "status": "completed"
+    },
+    {
+      "run_index": 8,
+      "directory": "run_08",
+      "status": "completed"
+    },
+    {
+      "run_index": 9,
+      "directory": "run_09",
+      "status": "completed"
+    },
+    {
+      "run_index": 10,
+      "directory": "run_10",
+      "status": "completed"
+    },
+    {
+      "run_index": 11,
+      "directory": "run_11",
+      "status": "completed"
+    },
+    {
+      "run_index": 12,
+      "directory": "run_12",
+      "status": "completed"
+    },
+    {
+      "run_index": 13,
+      "directory": "run_13",
+      "status": "completed"
+    },
+    {
+      "run_index": 14,
+      "directory": "run_14",
+      "status": "completed"
+    },
+    {
+      "run_index": 15,
+      "directory": "run_15",
+      "status": "completed"
+    },
+    {
+      "run_index": 16,
+      "directory": "run_16",
+      "status": "completed"
+    },
+    {
+      "run_index": 17,
+      "directory": "run_17",
+      "status": "completed"
+    },
+    {
+      "run_index": 18,
+      "directory": "run_18",
+      "status": "completed"
+    },
+    {
+      "run_index": 19,
+      "directory": "run_19",
+      "status": "completed"
+    },
+    {
+      "run_index": 20,
+      "directory": "run_20",
+      "status": "completed"
+    },
+    {
+      "run_index": 21,
+      "directory": "run_21",
+      "status": "completed"
+    },
+    {
+      "run_index": 22,
+      "directory": "run_22",
+      "status": "completed"
+    },
+    {
+      "run_index": 23,
+      "directory": "run_23",
+      "status": "failed"
+    }
+  ],
+  "statistics_ms": {
+    "PZT1": {
+      "on_confirmation_delay_ms": {
+        "count": 22,
+        "mean": 35.42609999964373,
+        "median": 35.4624999963562,
+        "sample_stddev": 0.18478381091903154,
+        "min": 34.9084000044968,
+        "max": 35.66080000018701,
+        "range": 0.7523999956902117
+      },
+      "off_confirmation_delay_ms": {
+        "count": 22,
+        "mean": 9.8903363657221,
+        "median": 11.20450000234996,
+        "sample_stddev": 3.600603986326036,
+        "min": 4.472100001294166,
+        "max": 15.106600003491621,
+        "range": 10.634500002197456
+      },
+      "on_schedule_delay_ms": {
+        "count": 22,
+        "mean": 179.62553636409046,
+        "median": 179.35989999750745,
+        "sample_stddev": 7.709696791498427,
+        "min": 166.00309999921592,
+        "max": 202.33070000540465,
+        "range": 36.32760000618873
+      },
+      "off_schedule_delay_ms": {
+        "count": 22,
+        "mean": 9.208195453869518,
+        "median": 9.331400000519352,
+        "sample_stddev": 4.434234713070209,
+        "min": 2.643200001330115,
+        "max": 17.540099994221237,
+        "range": 14.896899992891122
+      },
+      "on_before_call_ms": {
+        "count": 22,
+        "mean": 83.42407727369309,
+        "median": 83.42470000206959,
+        "sample_stddev": 7.242352691755049,
+        "min": 70.01450000097975,
+        "max": 102.15070000413107,
+        "range": 32.136200003151316
+      },
+      "on_precheck_ms": {
+        "count": 22,
+        "mean": 96.20145909039738,
+        "median": 96.06074999828706,
+        "sample_stddev": 1.0225753204882924,
+        "min": 95.11790000397014,
+        "max": 100.18000000127358,
+        "range": 5.062099997303449
+      },
+      "on_write_ms": {
+        "count": 22,
+        "mean": 0.3783136364125477,
+        "median": 0.3943999981856905,
+        "sample_stddev": 0.13776888589190325,
+        "min": 0.1325999983237125,
+        "max": 0.6313999983831309,
+        "range": 0.4988000000594184
+      },
+      "off_write_ms": {
+        "count": 22,
+        "mean": 0.6046590927078135,
+        "median": 0.5840000048920047,
+        "sample_stddev": 0.24433586744305608,
+        "min": 0.2482999989297241,
+        "max": 1.3737000044784509,
+        "range": 1.1254000055487268
+      }
+    }
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "output_state_reply_received_at_PC_and_subsequently_validated_by_driver",
+  "physical_voltage_timing_verified": false
+}

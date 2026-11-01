@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-23T18:55:35.868918+00:00",
+  "methods": [
+    "scheduled_readback"
+  ],
+  "intervals_ms": [
+    50,
+    55,
+    60
+  ],
+  "commands_per_group": 500,
+  "query_guard_ms": 10,
+  "wait_method": "time.sleep",
+  "reason": "Initial Event.wait guard was observed to last about 15.4–15.8 ms on average, up to 36.4 ms. Use the same time.sleep(0.010) as the previous successful diagnostic; retain and report all first-batch results.",
+  "source_changes": [
+    "customer_workspace/timing_benchmark.py"
+  ],
+  "automatic_failure_retries": false
+}

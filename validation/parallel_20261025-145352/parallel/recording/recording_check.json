@@ -1,0 +1,65 @@
+{
+  "passed": false,
+  "problems": [
+    "没有保存要求的完整画面数量",
+    "实际视频未完整覆盖请求的录像时间"
+  ],
+  "scope": "Windows FFmpeg 收到的本录像窗口内压缩视频；非相机内部采集计数",
+  "timestamp_meaning": "视频流播放时间，不是曝光时间或电脑收包时间",
+  "requested_seconds": 20.0,
+  "capture_wall_seconds": 28.245438899990404,
+  "rtsp_teardown_confirmed": true,
+  "capture_warning_lines": [],
+  "startup_header_warning_lines": [
+    "[h264 @ 00000299b2681040] non-existing PPS 0 referenced",
+    "[h264 @ 00000299b2681040] no frame!",
+    "[h264 @ 00000299b2681040] non-existing PPS 0 referenced",
+    "[h264 @ 00000299b2681040] no frame!"
+  ],
+  "probe.log": "",
+  "decode.log": "",
+  "counts": {
+    "received_total_packets": 1200,
+    "received_window_frames": 1198,
+    "before_window_packets": 2,
+    "startup_untimed_packets": 0,
+    "after_window_packets": 0,
+    "first_mux_pts": 3000,
+    "output_seek_ticks": 0,
+    "actual_window_duration_s": 19.966666666666665,
+    "file_timestamp_offset_ticks": 3000,
+    "muxed_packets": 1198,
+    "saved_packets": 1198,
+    "missing_in_saved": 0,
+    "unexpected_in_saved": 0,
+    "input_to_mux_missing": 0,
+    "mux_to_file_missing": 0,
+    "ordered_timestamps_match": true,
+    "decoded_frames": 1198
+  },
+  "video": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 1024,
+    "time_base": "1/90000",
+    "duration_s": 19.966667,
+    "size_bytes": 12472455
+  },
+  "timing": {
+    "nominal_fps": 60.0,
+    "first_frame_s": 0.0,
+    "last_frame_s": 19.95,
+    "first_to_last_s": 19.95,
+    "playback_end_s": 19.966666666666665,
+    "median_interval_ms": 16.666666666666607,
+    "p99_interval_ms": 16.666666666669272,
+    "min_interval_ms": 16.66666666666572,
+    "max_interval_ms": 16.666666666669272,
+    "non_increasing": 0,
+    "gap_limit_ms": 25.0,
+    "gaps_over_1_5_frames": 0,
+    "gaps_over_100ms": 0,
+    "covers_requested_window": false
+  },
+  "source_directory": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/parallel_20261025-145352/parallel/recording"
+}

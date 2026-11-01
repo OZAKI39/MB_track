@@ -1,0 +1,8 @@
+{
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "opencv": "4.10.0",
+  "pyav": "19.0.1",
+  "numpy": "2.2.6",
+  "sqlite": "3.45.1"
+}

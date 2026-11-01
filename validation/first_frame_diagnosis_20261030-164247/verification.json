@@ -1,0 +1,329 @@
+{
+  "groups": [
+    {
+      "condition": "analysis",
+      "threads": 24,
+      "starts": 5,
+      "first_ms": {
+        "median": 12.490526016335934,
+        "min": 9.91562899434939,
+        "max": 14.170736016239971
+      },
+      "later_median_ms": {
+        "median": 9.294043993577361,
+        "min": 9.12271998822689,
+        "max": 11.085592996096238
+      },
+      "first_components_ms": {
+        "median": 0.5933729989919811,
+        "min": 0.5519319965969771,
+        "max": 0.7820299942977726
+      },
+      "first_contrast_ms": {
+        "median": 1.9178820075467229,
+        "min": 1.275724993320182,
+        "max": 2.531527978135273
+      },
+      "first_process_minor_faults": {
+        "median": 326.0,
+        "min": 278,
+        "max": 328
+      },
+      "components_minor_faults": {
+        "median": 3.0,
+        "min": 1,
+        "max": 13
+      },
+      "preparation_ms": {
+        "median": 16.15900397882797,
+        "min": 14.701655978569761,
+        "max": 20.7382160006091
+      }
+    },
+    {
+      "condition": "cold",
+      "threads": 1,
+      "starts": 5,
+      "first_ms": {
+        "median": 17.43818901013583,
+        "min": 16.20577898574993,
+        "max": 19.55160897341557
+      },
+      "later_median_ms": {
+        "median": 11.000508995493874,
+        "min": 10.892016987781972,
+        "max": 11.380243988242
+      },
+      "first_components_ms": {
+        "median": 3.5259919823147357,
+        "min": 3.439232998061925,
+        "max": 3.977009007940069
+      },
+      "first_contrast_ms": {
+        "median": 2.3887360002845526,
+        "min": 2.317917998880148,
+        "max": 3.4056380100082606
+      },
+      "first_process_minor_faults": {
+        "median": 4127.0,
+        "min": 3617,
+        "max": 4128
+      },
+      "components_minor_faults": {
+        "median": 262.0,
+        "min": 262,
+        "max": 262
+      },
+      "preparation_ms": {
+        "median": 0.0039660080801695585,
+        "min": 0.003844004822894931,
+        "max": 0.00631698640063405
+      }
+    },
+    {
+      "condition": "cold",
+      "threads": 24,
+      "starts": 5,
+      "first_ms": {
+        "median": 18.59038698603399,
+        "min": 18.43534898944199,
+        "max": 22.07703498424962
+      },
+      "later_median_ms": {
+        "median": 9.42473000031896,
+        "min": 9.26927401451394,
+        "max": 10.416019998956472
+      },
+      "first_components_ms": {
+        "median": 5.066280020400882,
+        "min": 2.3195100075099617,
+        "max": 5.762779008364305
+      },
+      "first_contrast_ms": {
+        "median": 2.6412300067022443,
+        "min": 2.0722210174426436,
+        "max": 2.9174409864936024
+      },
+      "first_process_minor_faults": {
+        "median": 3367.0,
+        "min": 3319,
+        "max": 3897
+      },
+      "components_minor_faults": {
+        "median": 848.0,
+        "min": 345,
+        "max": 866
+      },
+      "preparation_ms": {
+        "median": 0.006104994099587202,
+        "min": 0.004014989826828241,
+        "max": 0.02166398917324841
+      }
+    },
+    {
+      "condition": "components",
+      "threads": 24,
+      "starts": 5,
+      "first_ms": {
+        "median": 15.823244000785053,
+        "min": 14.988042996264994,
+        "max": 19.265593000454828
+      },
+      "later_median_ms": {
+        "median": 9.28076502168551,
+        "min": 9.125128999585286,
+        "max": 9.286760992836207
+      },
+      "first_components_ms": {
+        "median": 1.1160459835082293,
+        "min": 0.565333990380168,
+        "max": 1.2763460108544677
+      },
+      "first_contrast_ms": {
+        "median": 2.883098990423605,
+        "min": 2.1069020149298012,
+        "max": 3.336536989081651
+      },
+      "first_process_minor_faults": {
+        "median": 3104.0,
+        "min": 2600,
+        "max": 3613
+      },
+      "components_minor_faults": {
+        "median": 62.0,
+        "min": 61,
+        "max": 72
+      },
+      "preparation_ms": {
+        "median": 5.270324007142335,
+        "min": 2.799461013637483,
+        "max": 6.425547006074339
+      }
+    },
+    {
+      "condition": "darkness",
+      "threads": 24,
+      "starts": 3,
+      "first_ms": {
+        "median": 22.407716023735702,
+        "min": 17.767857003491372,
+        "max": 27.923061978071928
+      },
+      "later_median_ms": {
+        "median": 9.192366997012869,
+        "min": 9.186212992062792,
+        "max": 9.633795998524874
+      },
+      "first_components_ms": {
+        "median": 2.48252201708965,
+        "min": 2.2211080067791045,
+        "max": 5.397786007961258
+      },
+      "first_contrast_ms": {
+        "median": 2.030083996942267,
+        "min": 1.685106020886451,
+        "max": 2.2235910000745207
+      },
+      "first_process_minor_faults": {
+        "median": 3116.0,
+        "min": 3116,
+        "max": 3620
+      },
+      "components_minor_faults": {
+        "median": 333.0,
+        "min": 331,
+        "max": 839
+      },
+      "preparation_ms": {
+        "median": 0.9667510166764259,
+        "min": 0.7111379818525165,
+        "max": 1.0229719919152558
+      }
+    },
+    {
+      "condition": "labels",
+      "threads": 24,
+      "starts": 3,
+      "first_ms": {
+        "median": 13.520640000933781,
+        "min": 13.058812997769564,
+        "max": 14.175796008203179
+      },
+      "later_median_ms": {
+        "median": 9.578531986335292,
+        "min": 9.448515978874639,
+        "max": 10.937143990304321
+      },
+      "first_components_ms": {
+        "median": 0.5696990119758993,
+        "min": 0.5610219959635288,
+        "max": 0.5794139869976789
+      },
+      "first_contrast_ms": {
+        "median": 2.2699439723510295,
+        "min": 2.129443979356438,
+        "max": 2.6298349839635193
+      },
+      "first_process_minor_faults": {
+        "median": 3104.0,
+        "min": 3047,
+        "max": 3558
+      },
+      "components_minor_faults": {
+        "median": 64.0,
+        "min": 63,
+        "max": 67
+      },
+      "preparation_ms": {
+        "median": 0.6983220227994025,
+        "min": 0.6815509987063706,
+        "max": 1.2682149827014655
+      }
+    },
+    {
+      "condition": "touch",
+      "threads": 24,
+      "starts": 5,
+      "first_ms": {
+        "median": 15.212829021038488,
+        "min": 11.133005988085642,
+        "max": 17.08187599433586
+      },
+      "later_median_ms": {
+        "median": 9.370041021611542,
+        "min": 9.21862100949511,
+        "max": 9.674996981630102
+      },
+      "first_components_ms": {
+        "median": 0.6483390170615166,
+        "min": 0.6304680136963725,
+        "max": 0.9221030049957335
+      },
+      "first_contrast_ms": {
+        "median": 1.6899339971132576,
+        "min": 1.4040169771760702,
+        "max": 2.2942119976505637
+      },
+      "first_process_minor_faults": {
+        "median": 1956.0,
+        "min": 1448,
+        "max": 1962
+      },
+      "components_minor_faults": {
+        "median": 69.0,
+        "min": 64,
+        "max": 88
+      },
+      "preparation_ms": {
+        "median": 3.043528995476663,
+        "min": 2.8113889857195318,
+        "max": 3.799455997068435
+      }
+    }
+  ],
+  "run_count": 31,
+  "all_31_scientific_outputs_equal": true,
+  "baseline_tables": {
+    "frames": {
+      "rows": 60,
+      "sha256": "8a35183e0c33ccb35292258cdc0fb7f95bd8fc8fc06d4188eb6d44946365ab6e"
+    },
+    "observations": {
+      "rows": 1234,
+      "sha256": "3a51212987f208176a20775cd6ba905d6acf112f8bc7fad20aa6fe35601801ed"
+    },
+    "tracks": {
+      "rows": 24,
+      "sha256": "22fbeea0a47706a3ea5599947ad190fa7d33618a6b5b3a32956f3bb67f592e1e"
+    },
+    "events": {
+      "rows": 28,
+      "sha256": "0934a3b26dfffa0150d1303166d396a7c4ebe240f3791575605d1cae232be297"
+    },
+    "event_updates": {
+      "rows": 56,
+      "sha256": "465a7c6eb585584aedbd6e96ed0fe6dcaf9d24ffbd472fbeaab33edcdd3434a4"
+    },
+    "track_updates": {
+      "rows": 70,
+      "sha256": "7a5fcb742222fecea1747599b20f38288b0cbbc7326252ff4bc4ddbbf15263b9"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "production_code_unchanged": {
+    "bubble_tracker.py": true,
+    "online_tracking.py": true,
+    "online_store.py": true,
+    "async_store.py": true,
+    "paced_replay.py": true,
+    "paced_source.py": true,
+    "stall_probe.py": true,
+    "frame_conversion.py": true
+  },
+  "new_threads_during_sampled_first_frame": [],
+  "tests_passed": 13,
+  "scope": "Offline A prefix and paced startup diagnosis; no hardware or live recording validation. Isolated frame times are synthetic frame/fps, not camera exposure times."
+}

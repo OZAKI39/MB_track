@@ -1,0 +1,12 @@
+[
+  "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xperf.exe",
+  "-i",
+  "C:\\Users\\lzy\\AppData\\Local\\Temp\\memory_pressure_20261030-123155\\background_off\\host.etl",
+  "-o",
+  "C:\\Users\\lzy\\AppData\\Local\\Temp\\startup_conversion_20261030-130843\\original_window.txt",
+  "-a",
+  "dumper",
+  "-range",
+  "75",
+  "80"
+]

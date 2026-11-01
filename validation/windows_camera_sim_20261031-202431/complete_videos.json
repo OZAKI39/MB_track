@@ -1,0 +1,82 @@
+{
+  "expA_1": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 1024,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "60/1",
+        "start_time": "0.000000",
+        "duration": "22.000000",
+        "nb_frames": "1320"
+      }
+    ],
+    "format": {
+      "duration": "22.000000",
+      "size": "13760424"
+    }
+  },
+  "expA_2": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 1024,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "60/1",
+        "start_time": "0.000000",
+        "duration": "22.000000",
+        "nb_frames": "1320"
+      }
+    ],
+    "format": {
+      "duration": "22.000000",
+      "size": "13760424"
+    }
+  },
+  "expB_1": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 1024,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "59400000/989999",
+        "start_time": "0.000000",
+        "duration": "21.999978",
+        "nb_frames": "1320"
+      }
+    ],
+    "format": {
+      "duration": "21.999978",
+      "size": "13765218"
+    }
+  },
+  "expB_2": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 1024,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "59400000/989999",
+        "start_time": "0.000000",
+        "duration": "21.999978",
+        "nb_frames": "1320"
+      }
+    ],
+    "format": {
+      "duration": "21.999978",
+      "size": "13765218"
+    }
+  }
+}

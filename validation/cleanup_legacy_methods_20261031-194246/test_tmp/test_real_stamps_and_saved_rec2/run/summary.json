@@ -1,0 +1,35 @@
+{
+  "error": [
+    "KeyboardInterrupt: "
+  ],
+  "resources": [
+    {
+      "elapsed_s": 0.09940180600096937,
+      "rss_mib": 123.70703125
+    }
+  ],
+  "threads_closed": true,
+  "recorder_dropped": null,
+  "analysis_skipped": 2,
+  "bridge_overwritten": 0,
+  "tracking": {
+    "status": "cancelled",
+    "frames": 1,
+    "observations": 0,
+    "tracks": 0,
+    "confirmed_tracks": 0,
+    "events_by_status": {},
+    "input_rejections": 0,
+    "skipped_source_frames": 0,
+    "peak_active_tracks": 0,
+    "persistence": {
+      "submitted_frames": 1,
+      "committed_frames": 1,
+      "pending_records": 0,
+      "peak_pending_records": 1,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 10,
+      "error": null
+    }
+  }
+}

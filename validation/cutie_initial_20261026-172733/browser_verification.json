@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "video": {
+    "duration": 22,
+    "width": 2576,
+    "height": 1136,
+    "error": null
+  },
+  "title": "Four-PZT experiment | Cutie | Initial masks only",
+  "seeks_s": [
+    0,
+    6,
+    13.9,
+    14.1,
+    21.9
+  ],
+  "played_from_s": 14,
+  "played_to_s": 14.5179,
+  "fonts": [
+    {
+      "familyName": "Arial",
+      "postScriptName": "ArialMT",
+      "isCustomFont": true,
+      "glyphCount": 48
+    }
+  ],
+  "page_errors": []
+}

@@ -1,0 +1,155 @@
+{
+  "measurements": [
+    {
+      "frame": "756",
+      "stage": "convert_gray",
+      "start_s": "203320.860570251",
+      "end_s": "203320.898388481",
+      "wall_ms": "37.81822999008",
+      "thread_cpu_ms": "37.53829299999989",
+      "process_cpu_ms": "37.539053999999794",
+      "minor_faults": "0",
+      "major_faults": "0",
+      "voluntary_switches": "0",
+      "involuntary_switches": "0",
+      "process_minor_faults": "0",
+      "process_major_faults": "0",
+      "input_blocks": "0",
+      "output_blocks": "0",
+      "threads": "",
+      "thread_user_ms": "20.523999999999987",
+      "thread_system_ms": "17.34300000000011",
+      "compact_stall": "",
+      "compact_fail": "",
+      "compact_success": "",
+      "allocstall_normal": "",
+      "allocstall_movable": ""
+    },
+    {
+      "frame": "3909",
+      "stage": "convert_bgr",
+      "start_s": "203373.410541226",
+      "end_s": "203373.441574849",
+      "wall_ms": "31.03362300316803",
+      "thread_cpu_ms": "0.7725409999999044",
+      "process_cpu_ms": "0.7725510000007318",
+      "minor_faults": "1",
+      "major_faults": "0",
+      "voluntary_switches": "1",
+      "involuntary_switches": "0",
+      "process_minor_faults": "1",
+      "process_major_faults": "0",
+      "input_blocks": "0",
+      "output_blocks": "0",
+      "threads": "",
+      "thread_user_ms": "2.612999999996646",
+      "thread_system_ms": "0.0",
+      "compact_stall": "",
+      "compact_fail": "",
+      "compact_success": "",
+      "allocstall_normal": "",
+      "allocstall_movable": ""
+    }
+  ],
+  "migration_samples": [
+    {
+      "time_s": 203373.411979588,
+      "threads": [
+        {
+          "name": "consumer",
+          "tid": 612292,
+          "syscall": "202 0x17e456b4 0x189 0x0 0x0 0x0 0xffffffff 0x7ffd04c432b0 0x73228dc98e51",
+          "wchan": "futex_do_wait",
+          "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+          "stat": "612292 (python) S 612290 612289 612289 34823 612289 4194560 40338 80 1 1 4148 510 0 0 20 0 101 0 20330569 4608663552 46317 18446744073709551615 4325376 7352253 140724683424368 0 0 0 134217728 16783360 2 1 0 0 17 18 0 0 0 0 0 10653128 12216448 382910464 140724683428130 140724683428840 140724683428840 140724683431865 0",
+          "schedstat": "46585426915 13906553 27046"
+        },
+        {
+          "name": "source",
+          "tid": 612401,
+          "syscall": "-1 0x7ffd80375820 0x584a06",
+          "wchan": "migration_entry_wait_on_locked",
+          "stack": "[<0>] migration_entry_wait_on_locked+0x248/0x290\n[<0>] migration_entry_wait+0xe7/0x100\n[<0>] do_swap_page+0x120f/0x1910\n[<0>] __handle_mm_fault+0x638/0x870\n[<0>] handle_mm_fault+0x175/0x340\n[<0>] do_user_addr_fault+0x174/0x710\n[<0>] exc_page_fault+0x6d/0x140\n[<0>] asm_exc_page_fault+0x2b/0x30",
+          "stat": "612401 (python) D 612292 612289 612289 34823 612289 4194304 1343273 0 0 0 2146 257 0 0 20 0 47 0 20330685 2467241984 32836 18446744073709551615 4325376 7352253 140726754566224 0 0 0 134217728 16783360 2 1 0 0 17 6 0 0 0 0 0 10653128 12216448 957599744 140726754575062 140726754575239 140726754575239 140726754578361 0",
+          "schedstat": "24044372188 8693528 7735"
+        },
+        {
+          "name": "writer",
+          "tid": 612398,
+          "syscall": "202 0x73218409bcd0 0x89 0x0 0x73219d7f98f0 0x0 0xffffffff 0x73219d7f9820 0x73228dc98e51",
+          "wchan": "futex_do_wait",
+          "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+          "stat": "612398 (python) S 612290 612289 612289 34823 612289 4194368 1090 80 0 1 229 193 0 0 20 0 101 0 20330671 4608663552 46317 18446744073709551615 4325376 7352253 140724683424368 0 0 0 134217728 16783360 2 1 0 0 -1 9 0 0 0 0 0 10653128 12216448 382910464 140724683428130 140724683428840 140724683428840 140724683431865 0",
+          "schedstat": "4237619383 7942097 32092"
+        }
+      ],
+      "sample_ms": 0.8686519868206233
+    },
+    {
+      "time_s": 203373.422123306,
+      "threads": [
+        {
+          "name": "consumer",
+          "tid": 612292,
+          "syscall": "202 0x17e456b4 0x189 0x0 0x0 0x0 0xffffffff 0x7ffd04c432b0 0x73228dc98e51",
+          "wchan": "futex_do_wait",
+          "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+          "stat": "612292 (python) S 612290 612289 612289 34823 612289 4194560 40338 80 1 1 4148 510 0 0 20 0 101 0 20330569 4608663552 46317 18446744073709551615 4325376 7352253 140724683424368 0 0 0 134217728 16783360 2 1 0 0 17 18 0 0 0 0 0 10653128 12216448 382910464 140724683428130 140724683428840 140724683428840 140724683431865 0",
+          "schedstat": "46585426915 13906553 27046"
+        },
+        {
+          "name": "source",
+          "tid": 612401,
+          "syscall": "-1 0x7ffd80375820 0x584a06",
+          "wchan": "migration_entry_wait_on_locked",
+          "stack": "[<0>] migration_entry_wait_on_locked+0x248/0x290\n[<0>] migration_entry_wait+0xe7/0x100\n[<0>] do_swap_page+0x120f/0x1910\n[<0>] __handle_mm_fault+0x638/0x870\n[<0>] handle_mm_fault+0x175/0x340\n[<0>] do_user_addr_fault+0x174/0x710\n[<0>] exc_page_fault+0x6d/0x140\n[<0>] asm_exc_page_fault+0x2b/0x30",
+          "stat": "612401 (python) D 612292 612289 612289 34823 612289 4194304 1343273 0 0 0 2146 257 0 0 20 0 47 0 20330685 2467241984 32836 18446744073709551615 4325376 7352253 140726754566224 0 0 0 134217728 16783360 2 1 0 0 17 6 0 0 0 0 0 10653128 12216448 957599744 140726754575062 140726754575239 140726754575239 140726754578361 0",
+          "schedstat": "24044372188 8693528 7735"
+        },
+        {
+          "name": "writer",
+          "tid": 612398,
+          "syscall": "202 0x73218409bcd0 0x89 0x0 0x73219d7f98f0 0x0 0xffffffff 0x73219d7f9820 0x73228dc98e51",
+          "wchan": "futex_do_wait",
+          "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+          "stat": "612398 (python) S 612290 612289 612289 34823 612289 4194368 1090 80 0 1 229 193 0 0 20 0 101 0 20330671 4608663552 46317 18446744073709551615 4325376 7352253 140724683424368 0 0 0 134217728 16783360 2 1 0 0 -1 9 0 0 0 0 0 10653128 12216448 382910464 140724683428130 140724683428840 140724683428840 140724683431865 0",
+          "schedstat": "4237619383 7942097 32092"
+        }
+      ],
+      "sample_ms": 0.37408099160529673
+    },
+    {
+      "time_s": 203373.432242298,
+      "threads": [
+        {
+          "name": "consumer",
+          "tid": 612292,
+          "syscall": "202 0x17e456b4 0x189 0x0 0x0 0x0 0xffffffff 0x7ffd04c432b0 0x73228dc98e51",
+          "wchan": "futex_do_wait",
+          "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+          "stat": "612292 (python) S 612290 612289 612289 34823 612289 4194560 40338 80 1 1 4148 510 0 0 20 0 101 0 20330569 4608663552 46317 18446744073709551615 4325376 7352253 140724683424368 0 0 0 134217728 16783360 2 1 0 0 17 18 0 0 0 0 0 10653128 12216448 382910464 140724683428130 140724683428840 140724683428840 140724683431865 0",
+          "schedstat": "46585426915 13906553 27046"
+        },
+        {
+          "name": "source",
+          "tid": 612401,
+          "syscall": "-1 0x7ffd80375820 0x584a06",
+          "wchan": "migration_entry_wait_on_locked",
+          "stack": "[<0>] migration_entry_wait_on_locked+0x248/0x290\n[<0>] migration_entry_wait+0xe7/0x100\n[<0>] do_swap_page+0x120f/0x1910\n[<0>] __handle_mm_fault+0x638/0x870\n[<0>] handle_mm_fault+0x175/0x340\n[<0>] do_user_addr_fault+0x174/0x710\n[<0>] exc_page_fault+0x6d/0x140\n[<0>] asm_exc_page_fault+0x2b/0x30",
+          "stat": "612401 (python) D 612292 612289 612289 34823 612289 4194304 1343273 0 0 0 2146 257 0 0 20 0 47 0 20330685 2467241984 32836 18446744073709551615 4325376 7352253 140726754566224 0 0 0 134217728 16783360 2 1 0 0 17 6 0 0 0 0 0 10653128 12216448 957599744 140726754575062 140726754575239 140726754575239 140726754578361 0",
+          "schedstat": "24044372188 8693528 7735"
+        },
+        {
+          "name": "writer",
+          "tid": 612398,
+          "syscall": "202 0x73218409bcd0 0x89 0x0 0x73219d7f98f0 0x0 0xffffffff 0x73219d7f9820 0x73228dc98e51",
+          "wchan": "futex_do_wait",
+          "stack": "[<0>] futex_do_wait+0x3e/0x70\n[<0>] __futex_wait+0x9d/0x100\n[<0>] futex_wait+0x69/0x110\n[<0>] do_futex+0xcd/0x1a0\n[<0>] __x64_sys_futex+0x111/0x1d0\n[<0>] x64_sys_call+0xa79/0x20f0\n[<0>] do_syscall_64+0x6e/0xfa0\n[<0>] entry_SYSCALL_64_after_hwframe+0x76/0x7e",
+          "stat": "612398 (python) S 612290 612289 612289 34823 612289 4194368 1090 80 0 1 229 193 0 0 20 0 101 0 20330671 4608663552 46317 18446744073709551615 4325376 7352253 140724683424368 0 0 0 134217728 16783360 2 1 0 0 -1 9 0 0 0 0 0 10653128 12216448 382910464 140724683428130 140724683428840 140724683428840 140724683431865 0",
+          "schedstat": "4237798162 7942097 32093"
+        }
+      ],
+      "sample_ms": 0.48796398914419115
+    }
+  ]
+}

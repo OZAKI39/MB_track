@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-10-23T15:24:02.984847+00:00",
+  "complete_experiments_verified": 70,
+  "channel_switch_records_verified": 1120,
+  "four_timestamps_match_raw_events_and_batch_csv": true,
+  "timestamp_order_and_readbacks_verified": true,
+  "plan_and_config_match_previous_50": true,
+  "source_hashes_unchanged_during_batch": true,
+  "all_successful_runs_shutdown_confirmed": true,
+  "postflight_all_outputs_off": true,
+  "software_tests_passed": 62,
+  "ruff_check_passed": true,
+  "ruff_format_check_passed": true,
+  "real_hardware_failure_diagnostics_exercised": false,
+  "physical_voltage_timing_verified": false
+}

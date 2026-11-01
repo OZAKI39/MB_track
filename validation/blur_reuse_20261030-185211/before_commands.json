@@ -1,0 +1,134 @@
+[
+  {
+    "name": "before_A_1",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211/before_A_1",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1",
+      "--measure-stages"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "before_B_1",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211/before_B_1",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1",
+      "--measure-stages"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "before_B_2",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211/before_B_2",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1",
+      "--measure-stages"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "before_A_2",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211/before_A_2",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1",
+      "--measure-stages"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "before_A_3",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211/before_A_3",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1",
+      "--measure-stages"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "before_B_3",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.paced_replay",
+      "--video",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "--reference",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "--pzt",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/blur_reuse_20261030-185211/before_B_3",
+      "--opencv-threads",
+      "24",
+      "--conversion-threads",
+      "1",
+      "--measure-stages"
+    ],
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "frame_number": 16,
+  "total_frames": 30,
+  "same_pixels": true,
+  "same_camera_view": true,
+  "original_labels_edited": false,
+  "actual_entry_and_duplicate_window_guard": true
+}

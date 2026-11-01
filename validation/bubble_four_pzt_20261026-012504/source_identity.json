@@ -1,0 +1,11 @@
+{
+  "requested_review": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/review_20261025-162530/review.mp4",
+  "requested_review_sha256": "4659a1c09fb86a9f81947787c8ebcd7377421a620203d231359034e30d4bf3ed",
+  "manifest": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/review_20261025-162530/review_manifest.json",
+  "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-161356_rerun/normal/recording/video.mp4",
+  "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+  "config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/bubble_dark_four_pzt_wall_20261026.json",
+  "review_output": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_four_pzt_20261026-012504/review",
+  "video_output": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_video_20261026-012504_four_pzt"
+}

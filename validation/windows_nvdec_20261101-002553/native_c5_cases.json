@@ -1,0 +1,191 @@
+{
+  "clock": "All intervals use the same Windows QPC clock",
+  "cases": [
+    {
+      "run": "A_r1",
+      "frame": 636,
+      "pid": 42544,
+      "tid": 8928,
+      "frame_start_ms": 13927.6682,
+      "frame_end_ms": 13970.2773,
+      "decode_ready_ms": 42.598,
+      "decode_call_ms": 40.7515,
+      "native_lock_wait_ms": 38.04099999999926,
+      "native_waits": [
+        {
+          "start_ms": 13929.8875,
+          "pid": 42544,
+          "tid": 8928,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": false,
+          "acquired_ms": 13939.3243,
+          "end_ms": 13939.3689,
+          "wait_ms": 9.436799999999494,
+          "held_ms": 0.04459999999926367
+        },
+        {
+          "start_ms": 13939.4311,
+          "pid": 42544,
+          "tid": 8928,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": false,
+          "acquired_ms": 13968.0353,
+          "end_ms": 13968.0814,
+          "wait_ms": 28.604199999999764,
+          "held_ms": 0.04609999999956926
+        }
+      ],
+      "exclusive_holders": [
+        {
+          "start_ms": 13929.4164,
+          "pid": 4,
+          "tid": 47488,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": true,
+          "acquired_ms": 13929.4182,
+          "end_ms": 13939.2285,
+          "wait_ms": 0.0018000000000029104,
+          "held_ms": 9.810299999999188
+        },
+        {
+          "start_ms": 13939.2503,
+          "pid": 4,
+          "tid": 47488,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": true,
+          "acquired_ms": 13939.3788,
+          "end_ms": 13967.8965,
+          "wait_ms": 0.12850000000071304,
+          "held_ms": 28.517700000000332
+        }
+      ],
+      "acpi_events": [
+        {
+          "time_ms": 13929.3915,
+          "event": "ACPIEvent",
+          "pid": 4,
+          "tid": 47928,
+          "Id": "197"
+        },
+        {
+          "time_ms": 13929.8445,
+          "event": "ACPIEvent",
+          "pid": 4,
+          "tid": 47928,
+          "Id": "197"
+        }
+      ],
+      "native_calls": [
+        {
+          "pid": 42544,
+          "tid": 8928,
+          "name": "DxgkSubmitCommandToHwQueue",
+          "start_ms": 13929.879,
+          "end_ms": 13939.3983,
+          "duration_ms": 9.51929999999993
+        },
+        {
+          "pid": 42544,
+          "tid": 8928,
+          "name": "DxgkSubmitCommandToHwQueue",
+          "start_ms": 13939.4251,
+          "end_ms": 13968.1101,
+          "duration_ms": 28.68499999999949
+        }
+      ]
+    },
+    {
+      "run": "A_r2",
+      "frame": 1165,
+      "pid": 24920,
+      "tid": 47664,
+      "frame_start_ms": 72781.35930000001,
+      "frame_end_ms": 72804.9185,
+      "decode_ready_ms": 23.5471,
+      "decode_call_ms": 23.4132,
+      "native_lock_wait_ms": 20.482399999993504,
+      "native_waits": [
+        {
+          "start_ms": 72781.519,
+          "pid": 24920,
+          "tid": 47664,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": false,
+          "acquired_ms": 72787.1062,
+          "end_ms": 72787.1278,
+          "wait_ms": 5.587199999994482,
+          "held_ms": 0.021600000007310882
+        },
+        {
+          "start_ms": 72787.2165,
+          "pid": 24920,
+          "tid": 47664,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": false,
+          "acquired_ms": 72802.1117,
+          "end_ms": 72802.125,
+          "wait_ms": 14.895199999999022,
+          "held_ms": 0.013300000005983748
+        }
+      ],
+      "exclusive_holders": [
+        {
+          "start_ms": 72772.5302,
+          "pid": 4,
+          "tid": 24908,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": true,
+          "acquired_ms": 72772.532,
+          "end_ms": 72786.882,
+          "wait_ms": 0.0018000000127358362,
+          "held_ms": 14.349999999991269
+        },
+        {
+          "start_ms": 72786.909,
+          "pid": 4,
+          "tid": 24908,
+          "adapter": "0xffffda8e2eeec000",
+          "exclusive": true,
+          "acquired_ms": 72787.141,
+          "end_ms": 72802.0255,
+          "wait_ms": 0.23200000000360887,
+          "held_ms": 14.884500000000116
+        }
+      ],
+      "acpi_events": [
+        {
+          "time_ms": 72772.4726,
+          "event": "ACPIEvent",
+          "pid": 4,
+          "tid": 49804,
+          "Id": "197"
+        },
+        {
+          "time_ms": 72772.9993,
+          "event": "ACPIEvent",
+          "pid": 4,
+          "tid": 49804,
+          "Id": "197"
+        }
+      ],
+      "native_calls": [
+        {
+          "pid": 24920,
+          "tid": 47664,
+          "name": "DxgkLock2",
+          "start_ms": 72781.5069,
+          "end_ms": 72787.1446,
+          "duration_ms": 5.637700000006589
+        },
+        {
+          "pid": 24920,
+          "tid": 47664,
+          "name": "DxgkLock2",
+          "start_ms": 72787.2109,
+          "end_ms": 72802.1358,
+          "duration_ms": 14.92489999999816
+        }
+      ]
+    }
+  ]
+}

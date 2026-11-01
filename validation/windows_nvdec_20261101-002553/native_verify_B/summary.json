@@ -1,0 +1,42 @@
+{
+  "completed": true,
+  "frames": 1320,
+  "warmup_frames": 8,
+  "preparation_ms": 102.2365999961039,
+  "verification": true,
+  "full_image_downloads": 1320,
+  "pixel_mismatches": 0,
+  "stages": {
+    "prepare_ms": {
+      "median": 0.019,
+      "p95": 0.03381999999999998,
+      "p99": 0.07789099999999995,
+      "max": 0.1174
+    },
+    "decode_call_ms": {
+      "median": 0.9101,
+      "p95": 1.6272499999999999,
+      "p99": 1.7119109999999997,
+      "max": 1.8271
+    },
+    "decoder_sync_ms": {
+      "median": 0.0026,
+      "p95": 0.0041,
+      "p99": 0.021442999999999983,
+      "max": 0.0963
+    },
+    "stream_sync_ms": {
+      "median": 0.0047,
+      "p95": 0.0728099999999999,
+      "p99": 0.39327199999999995,
+      "max": 2.0044
+    },
+    "decode_ready_ms": {
+      "median": 0.95185,
+      "p95": 1.683265,
+      "p99": 2.016523999999998,
+      "max": 3.6448
+    }
+  },
+  "over_16_67_ms": 0
+}

@@ -1,0 +1,10 @@
+{
+  "fixed_input_lock_valid": true,
+  "confirmed_frames": 0,
+  "confirmed_relations": 0,
+  "human_reference_frozen": false,
+  "preserved_inputs": {
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_benchmark_20261026-120008/input_lock.json": "eb4143b8faf6ca3f86704aeef04ac6d3f2ae6496c97b530ca35b5351e2f3de23",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_detection_20261026-163801_mix_a/frame_review.json": "9a986209d82999b6c48f7b401029e2f4891909ec744c7e300b29ccd850a2b838"
+  }
+}

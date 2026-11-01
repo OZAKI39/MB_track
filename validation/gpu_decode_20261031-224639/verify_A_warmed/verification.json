@@ -1,0 +1,12 @@
+{
+  "warmup_frames": 8,
+  "frames": 1320,
+  "native_different_pixels": 0,
+  "native_max_error": 0,
+  "image_max_error": 0.0,
+  "mask_different_pixels": 0,
+  "all_addresses_shared": true,
+  "decoder_timestamp_matches": 1,
+  "native_y_vs_legacy_gray_mean_abs": 3.6858661986842303,
+  "native_y_vs_legacy_gray_max_abs": 12
+}

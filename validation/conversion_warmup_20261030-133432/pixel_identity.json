@@ -1,0 +1,9 @@
+{
+  "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+  "sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+  "compared_frames": 1320,
+  "bgr_identical": true,
+  "gray_identical": true,
+  "pts_identical": true,
+  "method": "Two independent decoder streams, exact NumPy array equality; warm up only the first frame of the second stream"
+}

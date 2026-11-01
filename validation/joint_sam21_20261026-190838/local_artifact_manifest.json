@@ -1,0 +1,29 @@
+{
+  "original_inputs_preserved": true,
+  "files": {
+    "RUN_REPORT.md": "cfbca5f2b6d26171ea23ec1e97dec476358dc1d1709e9c28cf513f68be91a8f0",
+    "software_validation.json": "75e5b3dab470ad4c5ebcbf264c44febdb85a1794033ad471935253705e54fc62",
+    "rule_regression.json": "42fc144cb26ecc866accc140fa7da01c05eb89aa6773cf8f3e502fcc7df319a2",
+    "memory_validation.json": "4738207d958b52847ddea72f4b9a37792315bbb9320052f5ee5c17eb1d41ac54",
+    "transfer_verification.json": "bf396cf355ce5567ed4e4a84b2b6c2d1e2534123c683975707dab3e28679f8e4",
+    "reference_status.json": "7a895017be2c121e4b585d4fcc935e1273e76a6d18bcb9127260706afc2bff7c",
+    "id3_limitation.json": "df135d95909b6556396bfbd91af37f6ab01e4d984d9e1075a5d315bf988d16ed",
+    "browser_verification.json": "0d52a7e834f39af5112cb2992a645857e10667b62c5f8a4ad68e06d2cbce8bba",
+    "comparison/report.json": "8113f7795985a37a4f210abadb4c5fe42ea8ce47046ae798a3aa55436f793000",
+    "comparison/per_frame.csv": "7a701d228504dd6ab260d7437d533db2d196c20c931c73451650bc96cbead859",
+    "comparison/fixed_6_11s.csv": "7e71c4e35f65aab23365f370af532b2fa96a09d6f4be973c11727677684eaa61",
+    "comparison/mechanism_cases.json": "f360a215072349d5e1b7eda2928c5f21af11eb4c4cf629a347f6f288c2f41e46",
+    "comparison/feedback_case.png": "3f86ec63dd72ffcd4f10b5bdd0a62571443c68485e42483495ca731afc27a808",
+    "comparison/cv_miss_case.png": "eafc400e45857f95785f43445ac59bab9d454ee56a944782000e8b3de6b09a26",
+    "review/video/report.json": "17112bdae87ba8f2c3b80aabc7efaf94aa9e7ebb8a951fbb33b8d50ccffb75a9",
+    "review/video/review.mp4": "e152957bb0e749a8631015fab0101b38ae8d4a4f7ea5fb35c5e5591866f7ec24"
+  },
+  "source_files": {
+    "customer_workspace/joint_region_fusion.py": "0a35a2256c35c7b2c05e3cc7ead0ec76a44fba1fc3f25c3fc7b34d434d0e2818",
+    "customer_workspace/joint_sam21_runner.py": "ffa663cf9e85bfba64e3f00413fd50630ad6cd98a7d43978fb075f8a4fc31b26",
+    "customer_workspace/joint_tracking_review.py": "be8b955d27d4cb54515be5d5370a230055dfdefed347c4254a6687e603959287",
+    "customer_workspace/bubble_tracking.py": "7e4e07172511ed2139b086a35164392bf0af54455b7acb486a54989e4a16969c",
+    "customer_workspace/bubble_tracking_display.py": "0956ecaba193980404c4f0c5fba7534408dd91237eb90349a8cfd2ac8b0d07ac",
+    "customer_workspace/tests/test_joint_region_fusion.py": "eb78e91c4d9b0d57af410194542242cbc2c6ff011303b2271968b865ab847537"
+  }
+}

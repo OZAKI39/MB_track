@@ -1,0 +1,19 @@
+[
+  "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+  "-B",
+  "-m",
+  "customer_workspace.parallel_video_check",
+  "--camera-config",
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_B.json",
+  "--background",
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+  "--mode",
+  "parallel",
+  "--seconds",
+  "22",
+  "--measure-latency",
+  "--waiting-frames",
+  "2",
+  "--output-dir",
+  "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/queue_compare_20261031-211619/B_q2_r2"
+]

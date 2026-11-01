@@ -1,0 +1,124 @@
+{
+  "experiment_id": "2d1306913023448c89d1e2975732a4c0",
+  "validation_mode": "normal",
+  "error": {
+    "type": "AFGError",
+    "message": "A: expected one USB AFG1062 with serial 2147075, found 0. Check driver, power, USB cable and config.json.",
+    "traceback": "Traceback (most recent call last):\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_video_control.py\", line 240, in run\n    with rig:\n         ^^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\microbubble_experiment\\afg.py\", line 278, in __enter__\n    self.connect()\n    ~~~~~~~~~~~~^^\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_video_control.py\", line 82, in connect\n    identities = super().connect()\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\afg_timing.py\", line 160, in connect\n    identities = super().connect()\n  File \"\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\microbubble_experiment\\afg.py\", line 238, in connect\n    raise AFGError(\n    ...<2 lines>...\n    )\nmicrobubble_experiment.afg.AFGError: A: expected one USB AFG1062 with serial 2147075, found 0. Check driver, power, USB cable and config.json.\n"
+  },
+  "checks": [],
+  "requests": [],
+  "postflight": {
+    "all_outputs_off": false,
+    "error": "AFGError: A: expected one USB AFG1062 with serial 2147075, found 0. Check driver, power, USB cable and config.json."
+  },
+  "clock_before": {
+    "identity": {
+      "experiment_id": "2d1306913023448c89d1e2975732a4c0",
+      "host": "烤鸡",
+      "os": "nt",
+      "pid": 41192,
+      "python": "3.14.2",
+      "clock": "windows_monotonic",
+      "monotonic": {
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "perf_counter": {
+        "implementation": "QueryPerformanceCounter()",
+        "monotonic": true,
+        "adjustable": false,
+        "resolution": 1e-07
+      },
+      "windows_s": 151898.2628642
+    },
+    "samples": [
+      {
+        "a1": 151898.2634111,
+        "b2": 151898.2636744,
+        "b3": 151898.2636753,
+        "a4": 151898.2637834
+      },
+      {
+        "a1": 151898.2646116,
+        "b2": 151898.2647069,
+        "b3": 151898.2647077,
+        "a4": 151898.2647788
+      },
+      {
+        "a1": 151898.2756833,
+        "b2": 151898.2775186,
+        "b3": 151898.2775195,
+        "a4": 151898.2776798
+      },
+      {
+        "a1": 151898.2783379,
+        "b2": 151898.27843,
+        "b3": 151898.2784306,
+        "a4": 151898.278504
+      },
+      {
+        "a1": 151898.2789869,
+        "b2": 151898.2790719,
+        "b3": 151898.2790724,
+        "a4": 151898.2791338
+      },
+      {
+        "a1": 151898.2794632,
+        "b2": 151898.2795423,
+        "b3": 151898.2795427,
+        "a4": 151898.2796051
+      },
+      {
+        "a1": 151898.279891,
+        "b2": 151898.2799587,
+        "b3": 151898.2799592,
+        "a4": 151898.2800123
+      },
+      {
+        "a1": 151898.2802779,
+        "b2": 151898.2803515,
+        "b3": 151898.280352,
+        "a4": 151898.2804127
+      },
+      {
+        "a1": 151898.2968743,
+        "b2": 151898.2972069,
+        "b3": 151898.2972088,
+        "a4": 151898.2973977
+      },
+      {
+        "a1": 151898.2981038,
+        "b2": 151898.2981942,
+        "b3": 151898.2981947,
+        "a4": 151898.2983047
+      },
+      {
+        "a1": 151898.3101033,
+        "b2": 151898.3131688,
+        "b3": 151898.3131713,
+        "a4": 151898.3135581
+      },
+      {
+        "a1": 151898.3144121,
+        "b2": 151898.3147598,
+        "b3": 151898.3147608,
+        "a4": 151898.3148838
+      }
+    ],
+    "offset_interval_s": [
+      -5.3099996875971556e-05,
+      6.769999163225293e-05
+    ],
+    "applied_offset_s": 0,
+    "meaning": "同机Windows公共时钟；包络仅为软件核对，不是曝光同步误差"
+  },
+  "origin": null,
+  "communication": [],
+  "expected_status": "completed",
+  "actual_status": null,
+  "passed": false,
+  "finished_windows_s": 151899.0113232
+}

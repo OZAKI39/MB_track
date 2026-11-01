@@ -1,0 +1,8 @@
+{
+  "pytest_command": ".venv/bin/python -m pytest -q customer_workspace/microbubble_tracking/tests/test_first_frame_diagnosis.py customer_workspace/microbubble_tracking/tests/test_stall_probe.py",
+  "pytest_result": "13 passed in 2.54s",
+  "production_code_unchanged": true,
+  "verified_isolated_runs": 31,
+  "saved_frames_each": 60,
+  "hardware_tested": false
+}

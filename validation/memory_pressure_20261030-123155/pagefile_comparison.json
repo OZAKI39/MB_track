@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "faults": 71697,
+    "bytes": 3676041216,
+    "duration_s": 159.5454962,
+    "read_bytes_per_s": 23040708.158830497,
+    "lost_events": 0,
+    "lost_buffers": 0
+  },
+  "background_off": {
+    "faults": 1695,
+    "bytes": 93827072,
+    "duration_s": 147.2137404,
+    "read_bytes_per_s": 637352.6801578366,
+    "lost_events": 0,
+    "lost_buffers": 0
+  },
+  "rate_reduction_percent": 97.2337973478755
+}

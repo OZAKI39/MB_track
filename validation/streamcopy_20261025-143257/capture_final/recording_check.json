@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "problems": [
+    "接收日志存在网络、数据或时间异常，见原始日志",
+    "证据不能完整核对：ValueError: 不能完整解析 muxed 时间记录：[vost#0:0/copy @ 000001dd1e41ffc0] muxer <- pts:NOPTS pts_time:NOPTS dts:0 dts_time:0 duration:0 duration_time:0 size:41504 latency(total:0.592ms, demux-mux: 0.592ms/100%)"
+  ],
+  "scope": "Windows FFmpeg 收到的本录像窗口内压缩视频；非相机内部采集计数",
+  "timestamp_meaning": "视频流播放时间，不是曝光时间或电脑收包时间",
+  "requested_seconds": 20.0,
+  "capture_wall_seconds": 21.414260799996555,
+  "rtsp_teardown_confirmed": true,
+  "capture_warning_lines": [
+    "[vost#0:0/copy @ 000001dd1e41ffc0] Non-monotonic DTS; previous: 0, current: 0; changing to 1. This may result in incorrect timestamps in the output file."
+  ],
+  "startup_header_warning_lines": [],
+  "probe.log": "",
+  "decode.log": ""
+}

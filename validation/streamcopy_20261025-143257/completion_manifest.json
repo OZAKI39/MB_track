@@ -1,0 +1,68 @@
+{
+  "completed_at": "2026-10-25T14:46:15.449221+01:00",
+  "passed": true,
+  "authoritative_report": "verified_report/recording_check.json",
+  "video": "capture_valid_start/video.mp4",
+  "original_file_checks": {
+    "microbubble_experiment/camera.py": {
+      "sha256": "672dd4d4300d29ca93d92b0d0088fcaff0da62d40b48fef3cc0e8d6f29d4fcd9",
+      "unchanged": true
+    },
+    "microbubble_experiment/camera_bridge.py": {
+      "sha256": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+      "unchanged": true
+    },
+    "microbubble_experiment/camera_rtsp.py": {
+      "sha256": "03ed3420ff82d01b3c039e3bed14c27ce34cefa7f04ea5bee496ffc9a4775473",
+      "unchanged": true
+    },
+    "microbubble_experiment/recording.py": {
+      "sha256": "8db21da04225f27c0f89f407183b7c0c1af346f63cdb0b645502c4e64a667d55",
+      "unchanged": true
+    },
+    "customer_workspace/video_recording_check.py": {
+      "sha256": "b6fe294c28a2b5300bc7b166a7a24e1fd6c26d45e505259f292b148a7d584575",
+      "unchanged": true
+    },
+    "customer_workspace/experiment_runner.py": {
+      "sha256": "b88209f8fb5fd986b92a6cbaf479c7bcc2d60c99d20ff69ad94438a6cb66ad45",
+      "unchanged": true
+    },
+    "customer_workspace/afg_timing.py": {
+      "sha256": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+      "unchanged": true
+    },
+    "configs/chronos_config.json": {
+      "sha256": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+      "unchanged": true
+    },
+    "configs/machine.local.json": {
+      "sha256": "b4537d49a10a963843d9d6c4b9dbeacc5a5ded0fd1fc4cc74d6f92a0e4d3d1ae",
+      "unchanged": true
+    },
+    "customer_workspace/README.md": {
+      "sha256": "7d5b505701822feb098c9df2271c9a669187b22c3ba3248542a97f786d2853d6",
+      "unchanged": false
+    },
+    "customer_workspace/.gitignore": {
+      "sha256": "00d79f854aa52d4181dde0492e16b05b9b9e9f132956125beea1a2534f24c3d0",
+      "unchanged": false
+    }
+  },
+  "source_sha256": {
+    "customer_workspace/streamcopy_recording.py": "df5fb009052821248515099dafcb24bd6e936058b2c4b88b99251c6fc81ebc08",
+    "customer_workspace/streamcopy_report.py": "99cbe620b983579093a63b3b80e53c3c2aa4bc460df364053f26aec9f6237daa",
+    "customer_workspace/tests/test_streamcopy_recording.py": "a931035d13b132d12a4e10d4059d3d638a4a9a2e2d46b4f661f0d814049d7b64",
+    "customer_workspace/README.md": "7d5b505701822feb098c9df2271c9a669187b22c3ba3248542a97f786d2853d6",
+    "customer_workspace/.gitignore": "00d79f854aa52d4181dde0492e16b05b9b9e9f132956125beea1a2534f24c3d0"
+  },
+  "software_tests_passed": 222,
+  "post_capture_udp_ports_5000_5001_free": true,
+  "raw_attempts_preserved": [
+    "capture",
+    "capture_after_start_fix",
+    "capture_final",
+    "capture_valid_start"
+  ],
+  "note": "最后一次采集最初因末帧边界相差 1 个时钟单位被误判。原录像和原报告保留，修正计数后对同一原文件复核通过；未为改成通过而修改视频。"
+}

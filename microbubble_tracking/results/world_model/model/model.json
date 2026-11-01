@@ -1,5 +1,5 @@
 {
- "created": "2026-10-29T02:54:11",
+ "created": "2026-10-29T22:51:05",
  "experiments": [
   "A",
   "B"
@@ -28,7 +28,8 @@
   "wall_dilate_px": 2,
   "full_vpp": 0.8,
   "active_vpp": 0.1,
-  "tsc_cap_s": 3.0
+  "tsc_cap_s": 3.0,
+  "grid_px": 40
  },
  "note": "load with models.GraphWorldModel.from_state(torch.load(path))"
 }

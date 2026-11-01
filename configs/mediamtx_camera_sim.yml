@@ -1,0 +1,22 @@
+# Windows localhost simulation only; no real camera or instrument addresses.
+logLevel: info
+logDestinations: [stdout]
+rtsp: true
+rtspAddress: 127.0.0.1:8554
+rtspTransports: [udp, tcp]
+rtpAddress: 127.0.0.1:8000
+rtcpAddress: 127.0.0.1:8001
+rtmp: false
+hls: false
+webrtc: false
+srt: false
+moq: false
+api: false
+metrics: false
+pprof: false
+playback: false
+paths:
+  expA:
+    source: publisher
+  expB:
+    source: publisher

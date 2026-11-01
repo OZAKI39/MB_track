@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--output-dir",
+    "customer_workspace/validation/runner_hybrid_20261025-120104/experiment"
+  ],
+  "started_utc": "2026-10-25T11:02:23.433922+00:00",
+  "finished_utc": "2026-10-25T11:02:41.304598+00:00",
+  "returncode": 0,
+  "console": "run_console.log"
+}

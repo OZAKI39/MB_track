@@ -1,0 +1,15 @@
+{
+  "python_static_checks": "Ruff check, format, py_compile passed",
+  "cli_help": "Windows native, WSL native, report and trace help passed",
+  "native_source_copies_match": true,
+  "all_four_pixel_checks_passed": true,
+  "untraced_runs": 12,
+  "untraced_frames": 15840,
+  "native_traced_frames": 5280,
+  "wpr_stopped": true,
+  "protected_files_unchanged": 12,
+  "etl_archive_verified": true,
+  "native_event_export_compiled_and_run": true,
+  "native_xperf_cross_checks": 2,
+  "acpi_core_stacks": 8
+}

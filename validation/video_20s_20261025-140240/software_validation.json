@@ -1,0 +1,46 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/video_recording_check.py",
+      "customer_workspace/tests/test_video_recording_check.py"
+    ],
+    "returncode": 1,
+    "stdout": "RUF007 Prefer `itertools.pairwise()` over `zip()` when iterating over successive pairs\n   --> customer_workspace/video_recording_check.py:334:34\n    |\n332 |     upstream_skipped = sum(\n333 |         max(0, current[\"source_frame_id\"] - previous[\"source_frame_id\"] - 1)\n334 |         for previous, current in zip(received, received[1:])\n    |                                  ^^^\n335 |         if previous[\"source_session_id\"] == current[\"source_session_id\"]\n336 |     )\n    |\nhelp: Replace `zip()` with `itertools.pairwise()`\n    |\n22  | from microbubble_experiment.recording import DEFAULT_LAYERS, ExperimentVideoRecorder\n23  + import itertools\n24  |\n--------------------------------------------------------------------------------\n334 |         max(0, current[\"source_frame_id\"] - previous[\"source_frame_id\"] - 1)\n    -         for previous, current in zip(received, received[1:])\n335 +         for previous, current in itertools.pairwise(received)\n336 |         if previous[\"source_session_id\"] == current[\"source_session_id\"]\n    |\nnote: This is an unsafe fix and may change runtime behavior\n\nFound 1 error.\n1 unsafe fix available with `--fix --unsafe-fixes`.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/video_recording_check.py",
+      "customer_workspace/tests/test_video_recording_check.py"
+    ],
+    "returncode": 0,
+    "stdout": "2 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "customer_workspace/tests",
+      "tests/test_experiment_video.py",
+      "tests/test_camera_rtsp_control.py"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [ 36%]\n........................................................................ [ 72%]\n......................................................                   [100%]\n198 passed in 3.22s\n",
+    "stderr": ""
+  }
+]

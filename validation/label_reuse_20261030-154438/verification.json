@@ -1,0 +1,284 @@
+{
+  "status": "passed",
+  "runs": {
+    "before_normal_1": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "process_ms": {
+        "min": 7.541942992247641,
+        "median": 9.161126494291238,
+        "p95": 10.869578362326134,
+        "p99": 12.532086000719573,
+        "max": 23.61850201850757
+      },
+      "source_send_late_ms": {
+        "min": 0.1347396755591035,
+        "median": 0.1654746592976153,
+        "p95": 0.22931875573704014,
+        "p99": 0.27203809528145934,
+        "max": 8.228777995100245
+      },
+      "rss_mb": {
+        "min": 151.6796875,
+        "median": 183.50390625,
+        "p95": 184.529296875,
+        "p99": 184.5625,
+        "max": 184.5625
+      },
+      "max_pending_records": 2,
+      "saved_all": true,
+      "scientific_tables": {
+        "frames": {
+          "rows": 3960,
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec"
+        },
+        "tracks": {
+          "rows": 565,
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0"
+        },
+        "observations": {
+          "rows": 66515,
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c"
+        },
+        "events": {
+          "rows": 1115,
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d"
+        },
+        "event_updates": {
+          "rows": 2230,
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c"
+        },
+        "track_updates": {
+          "rows": 1479,
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    "before_normal_2": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "process_ms": {
+        "min": 7.372172985924408,
+        "median": 9.164585004327819,
+        "p95": 11.002364895830397,
+        "p99": 12.434532657789527,
+        "max": 26.38105399091728
+      },
+      "source_send_late_ms": {
+        "min": 0.1384176721330732,
+        "median": 0.16658716776873916,
+        "p95": 0.22282466088654465,
+        "p99": 0.2610498029389418,
+        "max": 6.649704999290407
+      },
+      "rss_mb": {
+        "min": 151.76171875,
+        "median": 183.3203125,
+        "p95": 183.583984375,
+        "p99": 183.6126953125,
+        "max": 183.640625
+      },
+      "max_pending_records": 2,
+      "saved_all": true,
+      "scientific_tables": {
+        "frames": {
+          "rows": 3960,
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec"
+        },
+        "tracks": {
+          "rows": 565,
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0"
+        },
+        "observations": {
+          "rows": 66515,
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c"
+        },
+        "events": {
+          "rows": 1115,
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d"
+        },
+        "event_updates": {
+          "rows": 2230,
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c"
+        },
+        "track_updates": {
+          "rows": 1479,
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    "after_normal_1": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "process_ms": {
+        "min": 8.52143601514399,
+        "median": 10.939423998934217,
+        "p95": 12.735481884737965,
+        "p99": 14.146840129687916,
+        "max": 22.69225800409913
+      },
+      "source_send_late_ms": {
+        "min": 0.13454598956741393,
+        "median": 0.1632058119866997,
+        "p95": 0.2202114250394514,
+        "p99": 0.27481478289701045,
+        "max": 9.821570973144844
+      },
+      "rss_mb": {
+        "min": 152.33203125,
+        "median": 174.927734375,
+        "p95": 175.171875,
+        "p99": 184.566015625,
+        "max": 184.75390625
+      },
+      "max_pending_records": 2,
+      "saved_all": true,
+      "scientific_tables": {
+        "frames": {
+          "rows": 3960,
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec"
+        },
+        "tracks": {
+          "rows": 565,
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0"
+        },
+        "observations": {
+          "rows": 66515,
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c"
+        },
+        "events": {
+          "rows": 1115,
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d"
+        },
+        "event_updates": {
+          "rows": 2230,
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c"
+        },
+        "track_updates": {
+          "rows": 1479,
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    "after_normal_2": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "process_ms": {
+        "min": 7.734552986221388,
+        "median": 9.323143502115272,
+        "p95": 11.28925869561499,
+        "p99": 13.057066490000576,
+        "max": 24.23333001206629
+      },
+      "source_send_late_ms": {
+        "min": 0.13743931776843965,
+        "median": 0.1607790036359802,
+        "p95": 0.22013297129888088,
+        "p99": 0.27352171862730756,
+        "max": 8.75442597316578
+      },
+      "rss_mb": {
+        "min": 152.1875,
+        "median": 185.94140625,
+        "p95": 186.154296875,
+        "p99": 186.15625,
+        "max": 186.15625
+      },
+      "max_pending_records": 2,
+      "saved_all": true,
+      "scientific_tables": {
+        "frames": {
+          "rows": 3960,
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec"
+        },
+        "tracks": {
+          "rows": 565,
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0"
+        },
+        "observations": {
+          "rows": 66515,
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c"
+        },
+        "events": {
+          "rows": 1115,
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d"
+        },
+        "event_updates": {
+          "rows": 2230,
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c"
+        },
+        "track_updates": {
+          "rows": 1479,
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    }
+  },
+  "baseline_code_matches_previous_run": true,
+  "code_unchanged_during_capture": true,
+  "all_scientific_tables_identical": true,
+  "kernel": {
+    "index": {
+      "samples": 480,
+      "median_ms": 2.098510492942296,
+      "p99_ms": 2.704001273959875,
+      "max_ms": 2.910363982664421,
+      "temporary_peak_bytes": 2689824
+    },
+    "reuse": {
+      "samples": 480,
+      "median_ms": 0.8889415039448068,
+      "p99_ms": 1.147891278087627,
+      "max_ms": 1.6042630013544112,
+      "temporary_peak_bytes": 736
+    }
+  },
+  "tests_passed": 139,
+  "scope": "Offline A/B full-frame equality and A real-speed 66 s replay twice. No live camera, recording or AFG load.",
+  "limits": [
+    "Before/after replays were sequential, not simultaneous nor interleaved; host scheduling is not controlled.",
+    "Kernel is 24 real label maps with an explicit test lookup, not all full-frame operations.",
+    "The remap branch is conditional; its speedup does not imply the same gain on every frame.",
+    "tracemalloc measures tracked Python/NumPy allocations, not all native memory or Windows page-file activity."
+  ]
+}

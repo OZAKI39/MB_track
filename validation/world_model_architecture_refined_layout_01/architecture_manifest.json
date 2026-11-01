@@ -1,0 +1,133 @@
+{
+  "created": "2026-10-29T12:01:12+01:00",
+  "architecture": {
+    "node_base": 21,
+    "fourier_features": 24,
+    "node_input": 45,
+    "edge_input": 5,
+    "global_input": 12,
+    "latent": 64,
+    "message_blocks": 3,
+    "members": 5,
+    "radius_px": 150.0,
+    "history_steps": 3,
+    "future_steps": 10,
+    "frames_per_step": 6,
+    "position_scale_px": 5.0,
+    "history_dropout": 0.5,
+    "beta": 1.0,
+    "context": "motion"
+  },
+  "checkpoint_verification": {
+    "status": "not requested"
+  },
+  "palette": {
+    "name": "mint_gold",
+    "swatches": [
+      "#803028",
+      "#E1C48C",
+      "#C8E0D8",
+      "#C8E0D8",
+      "#DAEDE7"
+    ]
+  },
+  "palette_comparison": null,
+  "illustration": {
+    "experiment": "B",
+    "frame": 240,
+    "fold": "train A → test B",
+    "crop_xyxy": [
+      480,
+      520,
+      1110,
+      1024
+    ],
+    "displayed_horizons_s": [
+      0,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "prediction_tracks": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "note": "Forecast centroids on the SAME initial frame; not future video frames. The examples are saved held-out predictions, not an accuracy claim.",
+    "source_sha256": {
+      "results/world_model/predictions.csv": "614313da274188b7ad97fb5345d20167b8beac76c8d337312a115fc1f00eb3cb",
+      "results/B_offline/objects.csv": "990788b8d5ce040945c0b3116611f2a7539283a9296d171dc6cd8ced32206c3c",
+      "results/B_offline/contours.npz": "38712815c3a829e8f42ccfc5fbbf1427badb5ff6d5668315b7ab619f4e1654c5",
+      "data/raw/expB.mp4": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1"
+    }
+  },
+  "source_files": {
+    "world_model/models.py": "c510e370b79b176de11eddf94ea2bb34327dfb18ba982e621edc774e2d8447dc",
+    "world_model/dataset.py": "7d24f972509a7147f3c4d05bae4d2568b4b7b8bf9f4d9fa19200ef7d22ac51af",
+    "world_model/architecture.py": "20407165e33819076f78f1235d122c45abd8356bc09b2d5aba4ac0a1456ca493"
+  },
+  "fonts": [
+    {
+      "path": "/mnt/c/Windows/Fonts/arial.ttf",
+      "family": "Arial",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    {
+      "path": "/mnt/c/Windows/Fonts/arialbd.ttf",
+      "family": "Arial",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  ],
+  "png_size_px": [
+    3000,
+    1575
+  ],
+  "figures": {
+    "01_world_model_overview": {
+      "files": [
+        {
+          "file": "01_world_model_overview.png",
+          "bytes": 590876,
+          "sha256": "01ec53159b84827d4957e0c9eaac73c892d5e1a694d213b023ff2cb93344c9b0"
+        },
+        {
+          "file": "01_world_model_overview.pdf",
+          "bytes": 313004,
+          "sha256": "523d7f01d41c66e3b61024d1396b4ee5f59789bcd9f58e0996dfbc1455274c89"
+        },
+        {
+          "file": "01_world_model_overview.svg",
+          "bytes": 502515,
+          "sha256": "d5018ce890c1c6a22de7e8a9aeebebf6a9da8de270f76d2a4460a94622c409fc"
+        }
+      ],
+      "text_count": 58,
+      "font": "Arial",
+      "text_overlaps": []
+    },
+    "02_world_model_network_detail": {
+      "files": [
+        {
+          "file": "02_world_model_network_detail.png",
+          "bytes": 200124,
+          "sha256": "0e9c677731d60abd3a7fbc7eb5e56dd25d16cf60007ea5e95ecf1e2ac521d3b6"
+        },
+        {
+          "file": "02_world_model_network_detail.pdf",
+          "bytes": 58412,
+          "sha256": "f06a52ee50469aba5da08ee78d020a367dc46651f6f35c69101e730587cda97e"
+        },
+        {
+          "file": "02_world_model_network_detail.svg",
+          "bytes": 121521,
+          "sha256": "c9158958eec9a076b04310623cc6f92102f8ed1c8fbb4463fe6b7baf57cf3b65"
+        }
+      ],
+      "text_count": 46,
+      "font": "Arial",
+      "text_overlaps": []
+    }
+  }
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "run": "A_r1",
+    "frame": 417,
+    "held_ms": 8.577700000001641,
+    "tid": 47772,
+    "start_ms": 12017.6439,
+    "end_ms": 12026.2216,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DpiFdoMessageInterruptRoutine": 21,
+      "VidSchDdiNotifyInterrupt": 20,
+      "DdiNotifyDpc": 20,
+      "DpiDpcForIsr": 19,
+      "NotifyVSync": 1,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 5.161099999995713,
+      "DpiFdoMessageInterruptRoutine": 0.2577000000037515,
+      "VidSchDdiNotifyInterrupt": 0.06719999999222637,
+      "DdiNotifyDpc": 0.07899999999972351,
+      "DpiDpcForIsr": 0.07390000000123109,
+      "NotifyVSync": 0.0033999999996012775,
+      "DdiResumeContext": 0.9227000000046246
+    }
+  },
+  {
+    "run": "A_r1",
+    "frame": 417,
+    "held_ms": 7.19419999999991,
+    "tid": 47772,
+    "start_ms": 12026.3598,
+    "end_ms": 12033.554,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 2.959499999997206,
+      "DdiResumeContext": 0.8938999999991211
+    }
+  },
+  {
+    "run": "A_r2",
+    "frame": 404,
+    "held_ms": 9.441600000005565,
+    "tid": 24908,
+    "start_ms": 66345.8669,
+    "end_ms": 66355.3085,
+    "calls": {
+      "DpiFdoMessageInterruptRoutine": 38,
+      "VidSchDdiNotifyInterrupt": 37,
+      "DxgkVmBusSendAsyncMessage": 1,
+      "DdiNotifyDpc": 35,
+      "DpiDpcForIsr": 35,
+      "DdiSuspendContext": 69,
+      "NotifyVSync": 1,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DpiFdoMessageInterruptRoutine": 0.44660000001022127,
+      "VidSchDdiNotifyInterrupt": 0.1239000000350643,
+      "DxgkVmBusSendAsyncMessage": 0.01630000000295695,
+      "DdiNotifyDpc": 0.19089999997231644,
+      "DpiDpcForIsr": 0.09770000002754387,
+      "DdiSuspendContext": 5.983000000036554,
+      "NotifyVSync": 0.003200000006472692,
+      "DdiResumeContext": 0.8871000000508502
+    }
+  },
+  {
+    "run": "A_r2",
+    "frame": 404,
+    "held_ms": 7.862399999998161,
+    "tid": 24908,
+    "start_ms": 66355.6146,
+    "end_ms": 66363.477,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DpiFdoMessageInterruptRoutine": 1,
+      "VidSchDdiNotifyInterrupt": 1,
+      "DdiNotifyDpc": 1,
+      "DpiDpcForIsr": 1,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 3.0288999999756925,
+      "DpiFdoMessageInterruptRoutine": 0.011999999987892807,
+      "VidSchDdiNotifyInterrupt": 0.003200000006472692,
+      "DdiNotifyDpc": 0.003299999996670522,
+      "DpiDpcForIsr": 0.0029000000067753717,
+      "DdiResumeContext": 0.8360000000539003
+    }
+  },
+  {
+    "run": "A_r2",
+    "frame": 765,
+    "held_ms": 16.74859999999171,
+    "tid": 49044,
+    "start_ms": 72364.2749,
+    "end_ms": 72381.0235,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DpiFdoMessageInterruptRoutine": 33,
+      "VidSchDdiNotifyInterrupt": 33,
+      "DdiNotifyDpc": 33,
+      "DpiDpcForIsr": 33,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 6.501399999993737,
+      "DpiFdoMessageInterruptRoutine": 0.4426999999996042,
+      "VidSchDdiNotifyInterrupt": 0.10319999993953388,
+      "DdiNotifyDpc": 0.09740000002784654,
+      "DpiDpcForIsr": 0.08479999999690335,
+      "DdiResumeContext": 0.9512000000540866
+    }
+  },
+  {
+    "run": "A_r2",
+    "frame": 765,
+    "held_ms": 16.385000000009313,
+    "tid": 49044,
+    "start_ms": 72381.3011,
+    "end_ms": 72397.6861,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DpiFdoMessageInterruptRoutine": 2,
+      "VidSchDdiNotifyInterrupt": 2,
+      "DdiNotifyDpc": 2,
+      "DpiDpcForIsr": 2,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 3.066400000054273,
+      "DpiFdoMessageInterruptRoutine": 0.02609999998821877,
+      "VidSchDdiNotifyInterrupt": 0.006299999993643723,
+      "DdiNotifyDpc": 0.005799999984446913,
+      "DpiDpcForIsr": 0.005100000009406358,
+      "DdiResumeContext": 0.9128999999520602
+    }
+  },
+  {
+    "run": "B_r2",
+    "frame": 847,
+    "held_ms": 10.132599999997183,
+    "tid": 44948,
+    "start_ms": 101007.3211,
+    "end_ms": 101017.4537,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DpiFdoMessageInterruptRoutine": 37,
+      "VidSchDdiNotifyInterrupt": 37,
+      "DdiNotifyDpc": 37,
+      "DpiDpcForIsr": 37,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 5.869100000069011,
+      "DpiFdoMessageInterruptRoutine": 0.4869999999937136,
+      "VidSchDdiNotifyInterrupt": 0.1111999999411637,
+      "DdiNotifyDpc": 0.10410000001138542,
+      "DpiDpcForIsr": 0.09449999997741543,
+      "DdiResumeContext": 0.9345999999495689
+    }
+  },
+  {
+    "run": "B_r2",
+    "frame": 847,
+    "held_ms": 12.037100000001374,
+    "tid": 44948,
+    "start_ms": 101017.5846,
+    "end_ms": 101029.6217,
+    "calls": {
+      "DdiSuspendContext": 69,
+      "DdiResumeContext": 69
+    },
+    "call_duration_ms": {
+      "DdiSuspendContext": 3.2013999999471707,
+      "DdiResumeContext": 0.8782000000355765
+    }
+  }
+]

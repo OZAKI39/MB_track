@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "adopted": false,
+  "frames": [
+    {
+      "frame_number": 1,
+      "candidate_count": 236,
+      "compute_ms": 55.792165017919615,
+      "settings": [
+        {
+          "sigma_px": 3.0,
+          "threshold": 3,
+          "min_area_px": 5,
+          "max_area_px": 65536,
+          "max_aspect": 20,
+          "border_px": 0
+        },
+        {
+          "sigma_px": 16.0,
+          "threshold": 5,
+          "min_area_px": 12,
+          "max_area_px": 65536,
+          "max_aspect": 20,
+          "border_px": 0
+        }
+      ]
+    },
+    {
+      "frame_number": 1,
+      "candidate_count": 43,
+      "compute_ms": 43.37763800867833,
+      "settings": [
+        {
+          "sigma_px": 3.0,
+          "threshold": 18,
+          "min_area_px": 5,
+          "max_area_px": 65536,
+          "max_aspect": 20,
+          "border_px": 0
+        },
+        {
+          "sigma_px": 16.0,
+          "threshold": 18,
+          "min_area_px": 12,
+          "max_area_px": 65536,
+          "max_aspect": 20,
+          "border_px": 0
+        }
+      ]
+    },
+    {
+      "frame_number": 16,
+      "candidate_count": 22,
+      "compute_ms": 53.86399300186895,
+      "settings": [
+        {
+          "sigma_px": 3.0,
+          "threshold": 18,
+          "min_area_px": 5,
+          "max_area_px": 65536,
+          "max_aspect": 20,
+          "border_px": 0
+        },
+        {
+          "sigma_px": 16.0,
+          "threshold": 18,
+          "min_area_px": 12,
+          "max_area_px": 65536,
+          "max_aspect": 20,
+          "border_px": 0
+        }
+      ]
+    }
+  ]
+}

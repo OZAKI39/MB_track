@@ -1,0 +1,19 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.amplitude_pair_diagnostic",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--count",
+    "500",
+    "--loss-limit",
+    "20",
+    "--output-dir",
+    "customer_workspace/validation/pair_wait_20261023-213421/pairs"
+  ],
+  "started_utc": "2026-10-23T19:39:41.161068+00:00",
+  "finished_utc": "2026-10-23T19:54:20.297368+00:00",
+  "returncode": 0
+}

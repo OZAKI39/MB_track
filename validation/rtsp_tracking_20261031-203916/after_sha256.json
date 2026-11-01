@@ -1,0 +1,8 @@
+{
+  "customer_workspace/streamcopy_recording.py": "d3873dea51acf5606901052761ec9a166b3e24e17af102faea738dd9c833af6e",
+  "customer_workspace/parallel_camera.py": "e0d23c5e3dca8bd4a3cdb02c62adaed0ab988ae9e4201fcf0fa94441679f1472",
+  "customer_workspace/tools/rtsp_tracking_report.py": "25b8cdc0853f281a81ffb77a773377ed1b71e5eade8d603ba9fca16a95a02c34",
+  "customer_workspace/tests/test_simulated_rtsp_control.py": "75bc28da88136f9d7ddf9768cc1f997f15faabd7677c8ecc739760de4c9585da",
+  "customer_workspace/configs/rtsp_sim_A.json": "1113ed3004b3a3ea38071e2fc45eb3ee9a2c9cf14ed3f2c18677ba7b433a5689",
+  "customer_workspace/configs/rtsp_sim_B.json": "2c8bfebce85a8492907d42de204cddffdf089b553ecd6338f7315deb4622f7ec"
+}

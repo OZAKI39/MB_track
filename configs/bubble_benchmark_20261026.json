@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "review_directory": "customer_workspace/validation/bubble_wall_narrow_20261026-014007/review",
+  "tracking_directory": "customer_workspace/validation/bubble_tracking_20261026-015303",
+  "criterion": "Visible dark bubble-related regions; unclear pixels and identities remain uncertain. Preserve real rapid deformation, aggregation and separation.",
+  "usage": "Fixed development challenge set; already inspected recordings, not an independent held-out test set. No automatic training admission.",
+  "segments": [
+    {
+      "source_id": "four_pzt",
+      "first_frame": 360,
+      "end_frame_exclusive": 660,
+      "cases": [
+        {"event_id": 661, "roi_xywh": [896, 881, 140, 120], "question": "Wall contact, shape change and an ambiguous ID change."},
+        {"event_id": 910, "roi_xywh": [752, 468, 140, 120], "question": "Does the contour incorrectly connect the dark region to the wall?"},
+        {"event_id": 919, "roi_xywh": [745, 467, 140, 120], "question": "Does this remain the same moving region despite the ID change?"},
+        {"event_id": 1075, "roi_xywh": [376, 623, 140, 120], "question": "Visible separation or a wall-related contour error?"}
+      ]
+    },
+    {
+      "source_id": "two_action",
+      "first_frame": 660,
+      "end_frame_exclusive": 960,
+      "cases": [
+        {"event_id": 675, "roi_xywh": [386, 588, 140, 120], "question": "A small wall-adjacent region changes ID; is it a bubble region?"},
+        {"event_id": 718, "roi_xywh": [334, 724, 140, 120], "question": "Is the small neighbour already separate before the reported split?"},
+        {"event_id": 757, "roi_xywh": [855, 904, 140, 120], "question": "Visible separation or unstable thresholding inside a small group?"},
+        {"event_id": 833, "roi_xywh": [856, 904, 140, 120], "question": "Repeated splitting at the same location; compare with the earlier case."}
+      ]
+    }
+  ]
+}

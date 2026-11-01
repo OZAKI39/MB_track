@@ -1,0 +1,27 @@
+{
+  "scope": "Workspace experimental entries; original project GUI unchanged",
+  "hardware_commands_sent": false,
+  "algorithm_changes": false,
+  "files": {
+    "customer_workspace/parallel_camera.py": "01347d73411b4cc7e2f4c917532699df9b9e30be91c017173f9d80efc871a1d8",
+    "customer_workspace/parallel_camera_bridge.py": "3a2e7062e6faf004d4f6624696b790f20a74f3406e89fe5e949c3696c5a819c5",
+    "customer_workspace/parallel_video_check.py": "7d8ff28b69c45e6f7016cf0cdf77e75e874dcde5f539b67a06f8dbfe88e71560",
+    "customer_workspace/parallel_video_report.py": "53922784cfdf1ad014aaf93a658fac9e47f7805290995c74af899f5712d4b32c",
+    "customer_workspace/stability_check.py": "500b2a601117895425044d899daff5dc5086ec99b3c34cca621babe5e1339c89",
+    "customer_workspace/stability_report.py": "7a0daa997112cdf11256a0de943689b89f76b1d74c4d076f7128844775e522cc",
+    "customer_workspace/afg_video_check.py": "ce452394a323ffcda6ba67aa01c0ea250d9fd74b34160d6024379df0ac04f62c",
+    "customer_workspace/afg_video_report.py": "63c288d9215cb7cb37a54972d126d2853ac5855a9169f4f32354223b9a20e9e9",
+    "customer_workspace/streamcopy_report.py": "a7cfea896c305ea87c4ef7b8387f8d8d763c17a34ae9e05a13f9387e9f393cf4",
+    "customer_workspace/configs/video_stability.json": "d917aabc379ed72fc3b3b6237db2a884687cbf32d56ca61874ea827ebb380f07",
+    "customer_workspace/README.md": "b41919ae434c254caefc12cc9e6e47a95ef08ef1917f67f0736460df6dafa848",
+    "customer_workspace/microbubble_tracking/online_tracking.py": "e2cdfe08e877f12fda8dc2c3cfc8a8518da20f017336723417aa2483b986a469",
+    "customer_workspace/microbubble_tracking/ONLINE_TRACKING.md": "7f51bbfc80acb681e205be128ff35c6d3f3c80acea557eb6cff5784c8cf7ae32",
+    "customer_workspace/tests/test_camera_tracking.py": "14b6cfed2ccc80ce8ad073ec589dc0727eacf584d245a0ad6708af99a77ec4c4",
+    "customer_workspace/tools/camera_input_check.py": "3bb5d947a40d23c92f8049db05fd98e1c3a0a66db8a0e7ef2c16bf24cb3754e9",
+    "customer_workspace/tools/camera_tracking_validation.py": "0a6feca346beab9cadf1ae49fbf9ec4c136037dee992bda946aa8f2756e09fa1",
+    "customer_workspace/tools/camera_tracking_failures.py": "e99074659f1ab7c6aac027a2f1a6702139e3e45be5b89625e2209bd6b24c0962",
+    "customer_workspace/tools/camera_tracking_report.py": "b7344066f296028fcb75dc806e6d9e78e41239193ff7d80f1597310b6aa78343"
+  },
+  "tests": "143 passed; latest relevant subset 49 passed",
+  "data": "Seven complete captures: 16440 recorded, 16333 analyzed/saved, 107 analysis gaps; full raw pixel and scientific table equality for the selected input sequences."
+}

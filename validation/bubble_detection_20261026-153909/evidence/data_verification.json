@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-26T15:56:50.980858+01:00",
+  "original_video_frames": 1320,
+  "adjacent_review_pairs": 300,
+  "original_frame_images_checked": 301,
+  "video_pixels_and_timestamps_match_saved_frames": true,
+  "all_saved_detection_masks_within_confirmed_channel_mask": true,
+  "detection_and_annotation_masks_identical": true,
+  "thresholds_unchanged": true,
+  "fixed_input_lock_unchanged": true,
+  "human_confirmations_created": 0,
+  "hardware_used": false,
+  "mask_sha256": "6eb4f1fd518f03cf738ca148fb2655cc02bd3ae464fd310ce81256719da1e882",
+  "detection_manifest_sha256": "fac008ab4efdc57bee62f197da0cd2d8d7067b222b859c65bd769a01cd3d95b7"
+}

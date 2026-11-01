@@ -1,0 +1,101 @@
+{
+  "requested_runs": 1,
+  "completed_runs": 1,
+  "reliable_runs": 1,
+  "unreliable_runs": 0,
+  "failed_runs": 0,
+  "paired_pulses": 1,
+  "paired_intervals": 1,
+  "control_mode": "amplitude_write_only",
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "experiment",
+      "status": "completed",
+      "control_mode": "amplitude_write_only",
+      "data_reliable": true,
+      "error": null
+    }
+  ],
+  "statistics_ms": {
+    "PZT1": {
+      "active_schedule_delay_ms": {
+        "count": 1,
+        "mean": 0.14260000898502767,
+        "median": 0.14260000898502767,
+        "sample_stddev": null,
+        "min": 0.14260000898502767,
+        "max": 0.14260000898502767,
+        "range": 0.0
+      },
+      "idle_schedule_delay_ms": {
+        "count": 1,
+        "mean": 0.1230000052601099,
+        "median": 0.1230000052601099,
+        "sample_stddev": null,
+        "min": 0.1230000052601099,
+        "max": 0.1230000052601099,
+        "range": 0.0
+      },
+      "active_before_call_ms": {
+        "count": 1,
+        "mean": 0.08370002615265548,
+        "median": 0.08370002615265548,
+        "sample_stddev": null,
+        "min": 0.08370002615265548,
+        "max": 0.08370002615265548,
+        "range": 0.0
+      },
+      "active_local_prepare_ms": {
+        "count": 1,
+        "mean": 0.05889998283237219,
+        "median": 0.05889998283237219,
+        "sample_stddev": null,
+        "min": 0.05889998283237219,
+        "max": 0.05889998283237219,
+        "range": 0.0
+      },
+      "idle_before_call_ms": {
+        "count": 1,
+        "mean": 0.07150002056732774,
+        "median": 0.07150002056732774,
+        "sample_stddev": null,
+        "min": 0.07150002056732774,
+        "max": 0.07150002056732774,
+        "range": 0.0
+      },
+      "idle_local_prepare_ms": {
+        "count": 1,
+        "mean": 0.051499984692782164,
+        "median": 0.051499984692782164,
+        "sample_stddev": null,
+        "min": 0.051499984692782164,
+        "max": 0.051499984692782164,
+        "range": 0.0
+      },
+      "active_write_ms": {
+        "count": 1,
+        "mean": 0.32580000697635114,
+        "median": 0.32580000697635114,
+        "sample_stddev": null,
+        "min": 0.32580000697635114,
+        "max": 0.32580000697635114,
+        "range": 0.0
+      },
+      "idle_write_ms": {
+        "count": 1,
+        "mean": 0.6065000197850168,
+        "median": 0.6065000197850168,
+        "sample_stddev": null,
+        "min": 0.6065000197850168,
+        "max": 0.6065000197850168,
+        "range": 0.0
+      }
+    }
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "not_measured_write_only_commands_with_round_boundary_checks",
+  "per_command_confirmation": false,
+  "physical_voltage_timing_verified": false
+}

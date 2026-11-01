@@ -1,0 +1,7 @@
+{
+  "run": "/mnt/f/MB_camera_sim/runs/20261031-205814Z_queue_delay",
+  "ready": {
+    "status": "ready",
+    "maximum_seconds": 900
+  }
+}

@@ -1,0 +1,4208 @@
+{
+  "controls": {
+    "A_hybrid": {
+      "frames": 600,
+      "total_ms": {
+        "median": 3.097847,
+        "p95": 4.6166129,
+        "p99": 5.771291359999999,
+        "max": 13.829377
+      },
+      "decode_ms": {
+        "median": 2.938772,
+        "p95": 4.40253205,
+        "p99": 5.4884688399999995,
+        "max": 6.402527
+      },
+      "decode_cpu_ms": {
+        "median": 0.5806625000000001,
+        "p95": 0.96246775,
+        "p99": 1.20757494,
+        "max": 1.457307
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.04572699999999996,
+        "p99": 0.08655309999999994,
+        "max": 1.142953
+      },
+      "stream_sync_ms": {
+        "median": 0.06461,
+        "p95": 0.17524969999999992,
+        "p99": 0.24184366999999965,
+        "max": 11.373152
+      },
+      "major_faults": 0
+    },
+    "A_spin": {
+      "frames": 600,
+      "total_ms": {
+        "median": 2.3319965,
+        "p95": 3.0210355,
+        "p99": 3.22969266,
+        "max": 3.73981
+      },
+      "decode_ms": {
+        "median": 2.2113050000000003,
+        "p95": 2.8920006999999996,
+        "p99": 3.0948893199999996,
+        "max": 3.640778
+      },
+      "decode_cpu_ms": {
+        "median": 0.352554,
+        "p95": 0.46116814999999994,
+        "p99": 0.53608309,
+        "max": 0.669986
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.01133844999999999,
+        "p99": 0.025704400000000002,
+        "max": 0.039364
+      },
+      "stream_sync_ms": {
+        "median": 0.053784,
+        "p95": 0.14362674999999994,
+        "p99": 0.23245702,
+        "max": 0.371998
+      },
+      "major_faults": 0
+    },
+    "A_gpu": {
+      "frames": 600,
+      "total_ms": {
+        "median": 1.5647375000000001,
+        "p95": 2.0960014,
+        "p99": 2.3147060899999996,
+        "max": 2.725824
+      },
+      "decode_ms": {
+        "median": 1.507271,
+        "p95": 2.0252992499999998,
+        "p99": 2.2453095800000002,
+        "max": 2.635009
+      },
+      "decode_cpu_ms": {
+        "median": 0.322054,
+        "p95": 0.4248599,
+        "p99": 0.49144058999999995,
+        "max": 0.600582
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.0072374,
+        "p99": 0.021100199999999982,
+        "max": 0.968423
+      },
+      "stream_sync_ms": {
+        "median": 0.006954,
+        "p95": 0.07080619999999997,
+        "p99": 0.09577979999999997,
+        "max": 0.132879
+      },
+      "major_faults": 0
+    },
+    "A_none": {
+      "frames": 600,
+      "total_ms": {
+        "median": 1.314057,
+        "p95": 1.788428699999999,
+        "p99": 2.70063297,
+        "max": 4.915158
+      },
+      "decode_ms": {
+        "median": 1.288079,
+        "p95": 1.6918778999999988,
+        "p99": 2.4831177899999983,
+        "max": 4.834225
+      },
+      "decode_cpu_ms": {
+        "median": 0.2065705,
+        "p95": 0.3665479999999996,
+        "p99": 0.6809031899999999,
+        "max": 3.598125
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.015605399999999988,
+        "p99": 0.03139255999999996,
+        "max": 0.06773
+      },
+      "stream_sync_ms": {
+        "median": 0.004498,
+        "p95": 0.049523999999999964,
+        "p99": 0.16069258999999989,
+        "max": 0.4036
+      },
+      "major_faults": 0
+    },
+    "B_none": {
+      "frames": 600,
+      "total_ms": {
+        "median": 1.324163,
+        "p95": 1.5392122499999998,
+        "p99": 1.63574947,
+        "max": 1.958944
+      },
+      "decode_ms": {
+        "median": 1.298124,
+        "p95": 1.5057667999999995,
+        "p99": 1.5889612699999998,
+        "max": 1.934312
+      },
+      "decode_cpu_ms": {
+        "median": 0.201498,
+        "p95": 0.2902335,
+        "p99": 0.33591522999999984,
+        "max": 0.528754
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.013650699999999997,
+        "p99": 0.03736468,
+        "max": 0.050582
+      },
+      "stream_sync_ms": {
+        "median": 0.0046155,
+        "p95": 0.028924499999999895,
+        "p99": 0.1179418899999997,
+        "max": 0.211003
+      },
+      "major_faults": 0
+    },
+    "B_gpu": {
+      "frames": 600,
+      "total_ms": {
+        "median": 1.586711,
+        "p95": 2.1174935500000003,
+        "p99": 2.3882659299999993,
+        "max": 2.692889
+      },
+      "decode_ms": {
+        "median": 1.5260585,
+        "p95": 2.0327633499999997,
+        "p99": 2.2937340299999995,
+        "max": 2.582081
+      },
+      "decode_cpu_ms": {
+        "median": 0.3288285,
+        "p95": 0.4404747,
+        "p99": 0.54362201,
+        "max": 0.657952
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.007359949999999996,
+        "p99": 0.023824949999999994,
+        "max": 0.908943
+      },
+      "stream_sync_ms": {
+        "median": 0.006635500000000001,
+        "p95": 0.08251634999999992,
+        "p99": 0.13146535999999998,
+        "max": 0.257154
+      },
+      "major_faults": 0
+    },
+    "B_spin": {
+      "frames": 600,
+      "total_ms": {
+        "median": 2.4198945,
+        "p95": 3.0897709,
+        "p99": 3.5140608799999997,
+        "max": 3.726831
+      },
+      "decode_ms": {
+        "median": 2.2967595000000003,
+        "p95": 2.94999965,
+        "p99": 3.3600504599999996,
+        "max": 3.642669
+      },
+      "decode_cpu_ms": {
+        "median": 0.345542,
+        "p95": 0.44438884999999984,
+        "p99": 0.5014970099999999,
+        "max": 0.643325
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.007888099999999985,
+        "p99": 0.025133479999999993,
+        "max": 0.040225
+      },
+      "stream_sync_ms": {
+        "median": 0.054957000000000006,
+        "p95": 0.1384354,
+        "p99": 0.21181150999999998,
+        "max": 0.456747
+      },
+      "major_faults": 0
+    },
+    "B_hybrid": {
+      "frames": 600,
+      "total_ms": {
+        "median": 3.019436,
+        "p95": 4.6868539,
+        "p99": 5.604841849999998,
+        "max": 6.479733
+      },
+      "decode_ms": {
+        "median": 2.8924795000000003,
+        "p95": 4.483438799999999,
+        "p99": 5.4052019699999985,
+        "max": 6.123353
+      },
+      "decode_cpu_ms": {
+        "median": 0.529173,
+        "p95": 0.9310307499999998,
+        "p99": 1.1821971499999997,
+        "max": 1.459667
+      },
+      "linux_runqueue_ms": {
+        "median": 0.0,
+        "p95": 0.031544499999999996,
+        "p99": 0.06476093999999995,
+        "max": 0.13022
+      },
+      "stream_sync_ms": {
+        "median": 0.056887,
+        "p95": 0.16002404999999997,
+        "p99": 0.22061776999999996,
+        "max": 0.416281
+      },
+      "major_faults": 0
+    }
+  },
+  "traces": {
+    "hybrid": {
+      "frames": 180,
+      "parser_ms": {
+        "median": 2.966012,
+        "p95": 4.858162749999999,
+        "p99": 5.344913110000001,
+        "max": 6.59677
+      },
+      "submit_ms": {
+        "median": 1.4110145,
+        "p95": 2.5833136,
+        "p99": 3.1400960200000014,
+        "max": 3.433381
+      },
+      "map_ms": {
+        "median": 1.112828,
+        "p95": 1.4414488499999998,
+        "p99": 1.59274333,
+        "max": 1.889129
+      },
+      "ioctl_ms": {
+        "median": 2.7357224999999996,
+        "p95": 4.5822382,
+        "p99": 4.897107980000002,
+        "max": 6.108047
+      },
+      "lock_ms": {
+        "median": 0.9218005,
+        "p95": 1.657627,
+        "p99": 1.7961580400000017,
+        "max": 2.206296
+      },
+      "unlock_ms": {
+        "median": 0.733177,
+        "p95": 1.5131624,
+        "p99": 1.761275330000001,
+        "max": 2.033399
+      },
+      "frame_ready_wait_ms": {
+        "median": 1.0411695,
+        "p95": 1.3238436,
+        "p99": 1.4168470100000006,
+        "max": 1.716068
+      }
+    },
+    "spin": {
+      "frames": 180,
+      "parser_ms": {
+        "median": 2.192437,
+        "p95": 2.74393195,
+        "p99": 3.2212118000000003,
+        "max": 3.374477
+      },
+      "submit_ms": {
+        "median": 0.8277235000000001,
+        "p95": 1.3292269499999998,
+        "p99": 1.5665277500000006,
+        "max": 1.753698
+      },
+      "map_ms": {
+        "median": 1.0210805,
+        "p95": 1.15107205,
+        "p99": 1.2243871499999999,
+        "max": 1.22822
+      },
+      "ioctl_ms": {
+        "median": 2.007644,
+        "p95": 2.57774345,
+        "p99": 3.0481663600000006,
+        "max": 3.1778180000000003
+      },
+      "lock_ms": {
+        "median": 0.587626,
+        "p95": 0.8508643,
+        "p99": 1.0668317500000002,
+        "max": 1.084893
+      },
+      "unlock_ms": {
+        "median": 0.39960549999999995,
+        "p95": 0.6351091499999999,
+        "p99": 0.7870882500000007,
+        "max": 0.9003310000000001
+      },
+      "frame_ready_wait_ms": {
+        "median": 0.9445785,
+        "p95": 1.0810316,
+        "p99": 1.1454203200000002,
+        "max": 1.166925
+      }
+    },
+    "gpu": {
+      "frames": 180,
+      "parser_ms": {
+        "median": 1.603451,
+        "p95": 2.0329997,
+        "p99": 2.25464151,
+        "max": 2.708835
+      },
+      "submit_ms": {
+        "median": 0.5334605,
+        "p95": 0.8627417999999994,
+        "p99": 1.05577048,
+        "max": 1.253702
+      },
+      "map_ms": {
+        "median": 0.847454,
+        "p95": 0.9549384499999999,
+        "p99": 0.99295634,
+        "max": 1.021061
+      },
+      "ioctl_ms": {
+        "median": 1.4431734999999999,
+        "p95": 1.8493531999999997,
+        "p99": 2.0215226900000007,
+        "max": 2.5092589999999997
+      },
+      "lock_ms": {
+        "median": 0.36101249999999996,
+        "p95": 0.5803209499999996,
+        "p99": 0.6938468800000006,
+        "max": 0.906536
+      },
+      "unlock_ms": {
+        "median": 0.236103,
+        "p95": 0.43647764999999983,
+        "p99": 0.5251737500000001,
+        "max": 0.6730959999999999
+      },
+      "frame_ready_wait_ms": {
+        "median": 0.7916665,
+        "p95": 0.884393,
+        "p99": 0.91321918,
+        "max": 0.96642
+      }
+    },
+    "none": {
+      "frames": 180,
+      "parser_ms": {
+        "median": 1.4136795,
+        "p95": 1.6455912499999992,
+        "p99": 1.9198042800000004,
+        "max": 1.984007
+      },
+      "submit_ms": {
+        "median": 0.3659485,
+        "p95": 0.5467262499999995,
+        "p99": 0.65864097,
+        "max": 0.678321
+      },
+      "map_ms": {
+        "median": 0.8237625,
+        "p95": 0.9180560499999999,
+        "p99": 0.9839765500000002,
+        "max": 1.101414
+      },
+      "ioctl_ms": {
+        "median": 1.2950315,
+        "p95": 1.4632865,
+        "p99": 1.6672930800000003,
+        "max": 1.7703870000000002
+      },
+      "lock_ms": {
+        "median": 0.253141,
+        "p95": 0.36570734999999993,
+        "p99": 0.4153940200000001,
+        "max": 0.443481
+      },
+      "unlock_ms": {
+        "median": 0.205716,
+        "p95": 0.27567634999999974,
+        "p99": 0.34480079000000025,
+        "max": 0.383987
+      },
+      "frame_ready_wait_ms": {
+        "median": 0.771332,
+        "p95": 0.8540481,
+        "p99": 0.9342493900000001,
+        "max": 1.021184
+      }
+    },
+    "full_A": {
+      "frames": 1320,
+      "parser_ms": {
+        "median": 2.9021850000000002,
+        "p95": 4.1247187,
+        "p99": 4.877288179999995,
+        "max": 26.501638
+      },
+      "submit_ms": {
+        "median": 0.7765390000000001,
+        "p95": 1.6563655499999996,
+        "p99": 2.213986669999999,
+        "max": 24.251034
+      },
+      "map_ms": {
+        "median": 1.900507,
+        "p95": 2.23424325,
+        "p99": 2.5138894399999985,
+        "max": 3.478723
+      },
+      "ioctl_ms": {
+        "median": 2.646935,
+        "p95": 3.768135,
+        "p99": 4.27889041,
+        "max": 26.162267
+      },
+      "lock_ms": {
+        "median": 0.5046735,
+        "p95": 1.0455227,
+        "p99": 1.3983918499999997,
+        "max": 23.833882
+      },
+      "unlock_ms": {
+        "median": 0.382067,
+        "p95": 0.8847209499999996,
+        "p99": 1.2331539399999978,
+        "max": 1.955864
+      },
+      "frame_ready_wait_ms": {
+        "median": 1.8174350000000001,
+        "p95": 2.11037525,
+        "p99": 2.3680445999999993,
+        "max": 3.388529
+      }
+    },
+    "full_B": {
+      "frames": 1320,
+      "parser_ms": {
+        "median": 2.9289405000000004,
+        "p95": 4.1253822,
+        "p99": 5.2801962099999935,
+        "max": 23.348454
+      },
+      "submit_ms": {
+        "median": 0.823025,
+        "p95": 1.6257968,
+        "p99": 2.4321189299999952,
+        "max": 20.8974
+      },
+      "map_ms": {
+        "median": 1.908716,
+        "p95": 2.22698415,
+        "p99": 2.4210593499999997,
+        "max": 4.68246
+      },
+      "ioctl_ms": {
+        "median": 2.6852115,
+        "p95": 3.8201677,
+        "p99": 4.997231539999994,
+        "max": 22.958658
+      },
+      "lock_ms": {
+        "median": 0.5320485,
+        "p95": 1.0214607999999998,
+        "p99": 1.4847135899999997,
+        "max": 20.331438
+      },
+      "unlock_ms": {
+        "median": 0.41195149999999997,
+        "p95": 0.8517011999999999,
+        "p99": 1.2685890799999997,
+        "max": 2.128069
+      },
+      "frame_ready_wait_ms": {
+        "median": 1.8287550000000001,
+        "p95": 2.1108155,
+        "p99": 2.3054030599999993,
+        "max": 4.590624
+      }
+    }
+  },
+  "slow_frames": [
+    {
+      "run": "full_A",
+      "frame": 660,
+      "total_ms": 27.367706,
+      "decode_ms": 26.548211,
+      "decode_cpu_ms": 0.756344,
+      "linux_runqueue_ms": 0.0,
+      "major_faults": 0,
+      "minor_faults": 0,
+      "parser_ms": 26.501638,
+      "submit_ms": 24.251034,
+      "map_ms": 1.962578,
+      "ioctl_ms": 26.162267,
+      "lock_ms": 23.833882,
+      "unlock_ms": 0.426121,
+      "frame_ready_wait_ms": 1.869144,
+      "calls": [
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 10.875438,
+          "start_from_parser_ms": 0.023562,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 12.73566,
+          "start_from_parser_ms": 11.010827,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.172788,
+          "start_from_parser_ms": 23.760382,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.091468,
+          "start_from_parser_ms": 23.941078,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.109445,
+          "start_from_parser_ms": 24.041199,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.005216,
+          "start_from_parser_ms": 24.15603,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.096328,
+          "start_from_parser_ms": 24.162545,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003773,
+          "start_from_parser_ms": 24.261439,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001442,
+          "start_from_parser_ms": 24.265589,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTWaitForSynchronizationObjectFromCpu",
+          "duration_ms": 1.869144,
+          "start_from_parser_ms": 24.286327,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.01408,
+          "start_from_parser_ms": 26.216994,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001294,
+          "start_from_parser_ms": 26.241204,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.113339,
+          "start_from_parser_ms": 26.24931,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.065537,
+          "start_from_parser_ms": 26.369213,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.005855,
+          "start_from_parser_ms": 26.470031,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.00146,
+          "start_from_parser_ms": 26.486416,
+          "return": 0
+        }
+      ]
+    },
+    {
+      "run": "full_A",
+      "frame": 657,
+      "total_ms": 7.709563,
+      "decode_ms": 5.444456,
+      "decode_cpu_ms": 1.221923,
+      "linux_runqueue_ms": 0.0,
+      "major_faults": 0,
+      "minor_faults": 0,
+      "parser_ms": 5.400062,
+      "submit_ms": 2.217807,
+      "map_ms": 2.319001,
+      "ioctl_ms": 5.01643,
+      "lock_ms": 1.399586,
+      "unlock_ms": 1.332869,
+      "frame_ready_wait_ms": 2.183979,
+      "calls": [
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.389367,
+          "start_from_parser_ms": 0.04493,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.322506,
+          "start_from_parser_ms": 0.449566,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.354727,
+          "start_from_parser_ms": 0.785834,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.307856,
+          "start_from_parser_ms": 1.151854,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.333583,
+          "start_from_parser_ms": 1.477338,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.017354,
+          "start_from_parser_ms": 1.827555,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.349223,
+          "start_from_parser_ms": 1.846546,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTSubmitCommand",
+          "duration_ms": 0.024338,
+          "start_from_parser_ms": 2.208384,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.005145,
+          "start_from_parser_ms": 2.24142,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003407,
+          "start_from_parser_ms": 2.248013,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTWaitForSynchronizationObjectFromCpu",
+          "duration_ms": 2.183979,
+          "start_from_parser_ms": 2.271139,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTSubmitCommandToHwQueue",
+          "duration_ms": 0.021153,
+          "start_from_parser_ms": 4.532792,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003566,
+          "start_from_parser_ms": 4.574114,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.35413,
+          "start_from_parser_ms": 4.588505,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.321063,
+          "start_from_parser_ms": 4.952615,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.0189,
+          "start_from_parser_ms": 5.331061,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.00367,
+          "start_from_parser_ms": 5.371056,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.002463,
+          "start_from_parser_ms": 5.382391,
+          "return": 0
+        }
+      ]
+    },
+    {
+      "run": "full_A",
+      "frame": 1065,
+      "total_ms": 7.16736,
+      "decode_ms": 3.315046,
+      "decode_cpu_ms": 0.799796,
+      "linux_runqueue_ms": 0.0,
+      "major_faults": 0,
+      "minor_faults": 0,
+      "parser_ms": 3.287491,
+      "submit_ms": 1.084053,
+      "map_ms": 1.947528,
+      "ioctl_ms": 3.025769,
+      "lock_ms": 0.584473,
+      "unlock_ms": 0.510372,
+      "frame_ready_wait_ms": 1.868059,
+      "calls": [
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.218258,
+          "start_from_parser_ms": 0.034986,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.181629,
+          "start_from_parser_ms": 0.270724,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.156402,
+          "start_from_parser_ms": 0.464086,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.132767,
+          "start_from_parser_ms": 0.627962,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.110434,
+          "start_from_parser_ms": 0.774142,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.010692,
+          "start_from_parser_ms": 0.894822,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.153242,
+          "start_from_parser_ms": 0.9069,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTSubmitCommand",
+          "duration_ms": 0.021306,
+          "start_from_parser_ms": 1.072686,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.004643,
+          "start_from_parser_ms": 1.099731,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.002799,
+          "start_from_parser_ms": 1.105944,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTWaitForSynchronizationObjectFromCpu",
+          "duration_ms": 1.868059,
+          "start_from_parser_ms": 1.127718,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.009697,
+          "start_from_parser_ms": 3.042681,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003033,
+          "start_from_parser_ms": 3.063448,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.074152,
+          "start_from_parser_ms": 3.07364,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.067961,
+          "start_from_parser_ms": 3.150939,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.004915,
+          "start_from_parser_ms": 3.250251,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003011,
+          "start_from_parser_ms": 3.26659,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.002769,
+          "start_from_parser_ms": 3.275008,
+          "return": 0
+        }
+      ]
+    },
+    {
+      "run": "full_B",
+      "frame": 760,
+      "total_ms": 23.619366,
+      "decode_ms": 23.391971,
+      "decode_cpu_ms": 1.254359,
+      "linux_runqueue_ms": 0.0,
+      "major_faults": 0,
+      "minor_faults": 0,
+      "parser_ms": 23.348454,
+      "submit_ms": 20.8974,
+      "map_ms": 1.966521,
+      "ioctl_ms": 22.958658,
+      "lock_ms": 20.331438,
+      "unlock_ms": 0.71458,
+      "frame_ready_wait_ms": 1.833524,
+      "calls": [
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 7.629549,
+          "start_from_parser_ms": 0.082852,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 12.393948,
+          "start_from_parser_ms": 7.745632,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.233605,
+          "start_from_parser_ms": 20.162464,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.179894,
+          "start_from_parser_ms": 20.406275,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.17954,
+          "start_from_parser_ms": 20.602004,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.010889,
+          "start_from_parser_ms": 20.791586,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.121735,
+          "start_from_parser_ms": 20.803894,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.011205,
+          "start_from_parser_ms": 20.93099,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001853,
+          "start_from_parser_ms": 20.943117,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.002229,
+          "start_from_parser_ms": 20.945204,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTWaitForSynchronizationObjectFromCpu",
+          "duration_ms": 1.833524,
+          "start_from_parser_ms": 20.968234,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTSubmitCommandToHwQueue",
+          "duration_ms": 0.03364,
+          "start_from_parser_ms": 22.87252,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.004209,
+          "start_from_parser_ms": 22.921938,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.128401,
+          "start_from_parser_ms": 22.935033,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.179346,
+          "start_from_parser_ms": 23.069613,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.010535,
+          "start_from_parser_ms": 23.299185,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003267,
+          "start_from_parser_ms": 23.324318,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001289,
+          "start_from_parser_ms": 23.334114,
+          "return": 0
+        }
+      ]
+    },
+    {
+      "run": "full_B",
+      "frame": 308,
+      "total_ms": 13.4043,
+      "decode_ms": 13.326364,
+      "decode_cpu_ms": 0.946594,
+      "linux_runqueue_ms": 0.005406,
+      "major_faults": 0,
+      "minor_faults": 0,
+      "parser_ms": 13.291602,
+      "submit_ms": 12.051373,
+      "map_ms": 0.926126,
+      "ioctl_ms": 12.97536,
+      "lock_ms": 11.544455000000001,
+      "unlock_ms": 0.523306,
+      "frame_ready_wait_ms": 0.840837,
+      "calls": [
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 1.245247,
+          "start_from_parser_ms": 0.034011,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 10.073195,
+          "start_from_parser_ms": 1.294063,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.188474,
+          "start_from_parser_ms": 11.429661,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.124818,
+          "start_from_parser_ms": 11.625165,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.150094,
+          "start_from_parser_ms": 11.762441,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.019191,
+          "start_from_parser_ms": 11.92676,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.103575,
+          "start_from_parser_ms": 11.947369,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.012922,
+          "start_from_parser_ms": 12.055872,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003971,
+          "start_from_parser_ms": 12.070059,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001898,
+          "start_from_parser_ms": 12.074353,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTWaitForSynchronizationObjectFromCpu",
+          "duration_ms": 0.840837,
+          "start_from_parser_ms": 12.099499,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.00863,
+          "start_from_parser_ms": 12.990903,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001796,
+          "start_from_parser_ms": 13.016435,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.075919,
+          "start_from_parser_ms": 13.024788,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.106439,
+          "start_from_parser_ms": 13.103657,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.010981,
+          "start_from_parser_ms": 13.247288,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003182,
+          "start_from_parser_ms": 13.26938,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.004191,
+          "start_from_parser_ms": 13.277833,
+          "return": 0
+        }
+      ]
+    },
+    {
+      "run": "full_B",
+      "frame": 991,
+      "total_ms": 8.883007,
+      "decode_ms": 2.789601,
+      "decode_cpu_ms": 0.460989,
+      "linux_runqueue_ms": 0.0,
+      "major_faults": 0,
+      "minor_faults": 0,
+      "parser_ms": 2.766863,
+      "submit_ms": 0.537689,
+      "map_ms": 2.016437,
+      "ioctl_ms": 2.582198,
+      "lock_ms": 0.358904,
+      "unlock_ms": 0.24204499999999998,
+      "frame_ready_wait_ms": 1.945437,
+      "calls": [
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.192718,
+          "start_from_parser_ms": 0.027764,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.058919,
+          "start_from_parser_ms": 0.226564,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.081937,
+          "start_from_parser_ms": 0.289332,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.059639,
+          "start_from_parser_ms": 0.376096,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.053384,
+          "start_from_parser_ms": 0.44285,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.005788,
+          "start_from_parser_ms": 0.501741,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.041157,
+          "start_from_parser_ms": 0.508435,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.004171,
+          "start_from_parser_ms": 0.551645,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.001661,
+          "start_from_parser_ms": 0.55627,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTWaitForSynchronizationObjectFromCpu",
+          "duration_ms": 1.945437,
+          "start_from_parser_ms": 0.565557,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.007893,
+          "start_from_parser_ms": 2.556379,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.002498,
+          "start_from_parser_ms": 2.57348,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTLock2",
+          "duration_ms": 0.053883,
+          "start_from_parser_ms": 2.58165,
+          "return": 0
+        },
+        {
+          "name": "D3DKMTUnlock2",
+          "duration_ms": 0.059312,
+          "start_from_parser_ms": 2.63782,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.008325,
+          "start_from_parser_ms": 2.730496,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.003466,
+          "start_from_parser_ms": 2.749506,
+          "return": 0
+        },
+        {
+          "name": "unknown",
+          "duration_ms": 0.00201,
+          "start_from_parser_ms": 2.757594,
+          "return": 0
+        }
+      ]
+    }
+  ],
+  "gpu_status": {
+    "A_hybrid_r1": [
+      {
+        "frame": "0",
+        "observed_s": "86983.758147747",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16102"
+      },
+      {
+        "frame": "15",
+        "observed_s": "86984.006448808",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19216"
+      },
+      {
+        "frame": "30",
+        "observed_s": "86984.257633742",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23856"
+      },
+      {
+        "frame": "45",
+        "observed_s": "86984.505954242",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23896"
+      },
+      {
+        "frame": "60",
+        "observed_s": "86984.757054548",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24001"
+      },
+      {
+        "frame": "75",
+        "observed_s": "86985.008123035",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24012"
+      },
+      {
+        "frame": "90",
+        "observed_s": "86985.256365759",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23997"
+      },
+      {
+        "frame": "105",
+        "observed_s": "86985.506732469",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24005"
+      },
+      {
+        "frame": "120",
+        "observed_s": "86985.757067368",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24014"
+      },
+      {
+        "frame": "135",
+        "observed_s": "86986.007432606",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24019"
+      },
+      {
+        "frame": "150",
+        "observed_s": "86986.256892905",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24019"
+      },
+      {
+        "frame": "165",
+        "observed_s": "86986.508627175",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24050"
+      },
+      {
+        "frame": "180",
+        "observed_s": "86986.756151839",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24073"
+      },
+      {
+        "frame": "195",
+        "observed_s": "86987.007435238",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24087"
+      },
+      {
+        "frame": "210",
+        "observed_s": "86987.256315132",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24079"
+      },
+      {
+        "frame": "225",
+        "observed_s": "86987.506020802",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24060"
+      },
+      {
+        "frame": "240",
+        "observed_s": "86987.756064526",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23998"
+      },
+      {
+        "frame": "255",
+        "observed_s": "86988.006245609",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23999"
+      },
+      {
+        "frame": "270",
+        "observed_s": "86988.25610076",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24003"
+      },
+      {
+        "frame": "285",
+        "observed_s": "86988.506711796",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24015"
+      }
+    ],
+    "A_spin_r1": [
+      {
+        "frame": "0",
+        "observed_s": "86991.879646711",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16354"
+      },
+      {
+        "frame": "15",
+        "observed_s": "86992.128959009",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19791"
+      },
+      {
+        "frame": "30",
+        "observed_s": "86992.379893723",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "22209"
+      },
+      {
+        "frame": "45",
+        "observed_s": "86992.629611475",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23795"
+      },
+      {
+        "frame": "60",
+        "observed_s": "86992.878946271",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23860"
+      },
+      {
+        "frame": "75",
+        "observed_s": "86993.129033259",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23890"
+      },
+      {
+        "frame": "90",
+        "observed_s": "86993.37899852",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23877"
+      },
+      {
+        "frame": "105",
+        "observed_s": "86993.628471755",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23894"
+      },
+      {
+        "frame": "120",
+        "observed_s": "86993.879228924",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23914"
+      },
+      {
+        "frame": "135",
+        "observed_s": "86994.129232209",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23952"
+      },
+      {
+        "frame": "150",
+        "observed_s": "86994.379603742",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23919"
+      },
+      {
+        "frame": "165",
+        "observed_s": "86994.628971886",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23924"
+      },
+      {
+        "frame": "180",
+        "observed_s": "86994.880037785",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23940"
+      },
+      {
+        "frame": "195",
+        "observed_s": "86995.128761776",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23984"
+      },
+      {
+        "frame": "210",
+        "observed_s": "86995.379349128",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23959"
+      },
+      {
+        "frame": "225",
+        "observed_s": "86995.629034723",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23965"
+      },
+      {
+        "frame": "240",
+        "observed_s": "86995.879072172",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23954"
+      },
+      {
+        "frame": "255",
+        "observed_s": "86996.128637527",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23983"
+      },
+      {
+        "frame": "270",
+        "observed_s": "86996.379589052",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23962"
+      },
+      {
+        "frame": "285",
+        "observed_s": "86996.629577955",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23978"
+      }
+    ],
+    "A_gpu_r1": [
+      {
+        "frame": "0",
+        "observed_s": "86998.150086714",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16439"
+      },
+      {
+        "frame": "15",
+        "observed_s": "86998.400373105",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "17833"
+      },
+      {
+        "frame": "30",
+        "observed_s": "86998.649582438",
+        "graphics_mhz": "2595",
+        "memory_mhz": "7001",
+        "video_mhz": "2160",
+        "pstate": "3",
+        "power_mw": "22049"
+      },
+      {
+        "frame": "45",
+        "observed_s": "86998.89959806",
+        "graphics_mhz": "2595",
+        "memory_mhz": "7001",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "24770"
+      },
+      {
+        "frame": "60",
+        "observed_s": "86999.14971777",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "27194"
+      },
+      {
+        "frame": "75",
+        "observed_s": "86999.399571993",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "27893"
+      },
+      {
+        "frame": "90",
+        "observed_s": "86999.649736734",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28485"
+      },
+      {
+        "frame": "105",
+        "observed_s": "86999.899632881",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28833"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87000.149505358",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29085"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87000.399583467",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29088"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87000.649632895",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29090"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87000.900162246",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29108"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87001.149605548",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29107"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87001.399600252",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29105"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87001.650012853",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29120"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87001.899529043",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29130"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87002.149935995",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29155"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87002.400439994",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29157"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87002.649753261",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29164"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87002.89988931",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29177"
+      }
+    ],
+    "A_none_r1": [
+      {
+        "frame": "0",
+        "observed_s": "87005.71679744",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21847"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87005.807530697",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21689"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87005.831154669",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21689"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87005.855754054",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21689"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87005.883063584",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21689"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87005.908251725",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21705"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87005.932948689",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21705"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87005.957327227",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21705"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87005.981370974",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21705"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87006.006896316",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21710"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87006.032217302",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21710"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87006.056977381",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21710"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87006.082862514",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21710"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87006.108282364",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21585"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87006.158401654",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21585"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87006.192890738",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21585"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87006.218113796",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "22573"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87006.242661114",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "22573"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87006.268632526",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "22573"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87006.296697387",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "22573"
+      }
+    ],
+    "B_none_r1": [
+      {
+        "frame": "0",
+        "observed_s": "87007.752201218",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23426"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87007.784502733",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23426"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87007.809102566",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23822"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87007.834161521",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23822"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87007.859258143",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23822"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87007.883821318",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23822"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87007.908047426",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24292"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87007.933625456",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24292"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87007.958930563",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24292"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87007.985203453",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24292"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87008.012513902",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24622"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87008.038621501",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24622"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87008.066184939",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24622"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87008.091052244",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24622"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87008.115410729",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24785"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87008.140288682",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24785"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87008.166144217",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24785"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87008.191098191",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24785"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87008.217068667",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24924"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87008.242512831",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "24924"
+      }
+    ],
+    "B_gpu_r1": [
+      {
+        "frame": "0",
+        "observed_s": "87009.528582443",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23554"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87009.778466362",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "24519"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87010.028668107",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "26156"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87010.27914568",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "27237"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87010.528488063",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28642"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87010.778530174",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29315"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87011.028676369",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29429"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87011.27826861",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29462"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87011.528289707",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29424"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87011.77831117",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29404"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87012.028277517",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29402"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87012.27834223",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29414"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87012.528416541",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29371"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87012.778614101",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29360"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87013.02884102",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29379"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87013.278979207",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29416"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87013.528318628",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29388"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87013.778664288",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29396"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87014.028370156",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29405"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87014.278411847",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29413"
+      }
+    ],
+    "B_spin_r1": [
+      {
+        "frame": "0",
+        "observed_s": "87017.376041052",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16484"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87017.625550034",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18824"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87017.875275995",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21166"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87018.125270321",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24292"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87018.375498011",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24303"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87018.625256107",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24274"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87018.875183031",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24267"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87019.126197027",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24269"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87019.375950546",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24274"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87019.624949537",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24263"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87019.87503207",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24264"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87020.125264218",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24268"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87020.374895156",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24258"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87020.625407246",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24262"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87020.875686634",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24253"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87021.125584683",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24293"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87021.375455349",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24309"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87021.625256525",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24309"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87021.875105821",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24313"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87022.124762292",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24295"
+      }
+    ],
+    "B_hybrid_r1": [
+      {
+        "frame": "0",
+        "observed_s": "87024.924841193",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "15656"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87025.172280342",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18112"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87025.422293416",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21699"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87025.673377595",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24113"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87025.921913572",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24475"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87026.173335792",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24462"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87026.423493233",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24429"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87026.673636497",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24440"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87026.922636301",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24454"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87027.173367887",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24457"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87027.422608999",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24456"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87027.673819246",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24466"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87027.921996546",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24457"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87028.17267549",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24442"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87028.421654756",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24447"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87028.673248495",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24432"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87028.924462499",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24423"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87029.172710152",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24438"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87029.422671046",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24465"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87029.671914806",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24480"
+      }
+    ],
+    "A_none_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87032.493800676",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "13956"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87032.527636839",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "13956"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87032.550762928",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "13956"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87032.573770385",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "13956"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87032.596936934",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "15346"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87032.620101994",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "15346"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87032.642866097",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "15346"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87032.665645846",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "15346"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87032.688602742",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "15346"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87032.711354422",
+        "graphics_mhz": "285",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "16764"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87032.734593787",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16764"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87032.757409306",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16764"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87032.780945403",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16764"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87032.80605554",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18192"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87032.830251599",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18192"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87032.853385478",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18192"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87032.876442048",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18192"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87032.900758865",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19587"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87032.924544085",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19587"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87032.948301662",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19587"
+      }
+    ],
+    "A_gpu_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87035.625244953",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23871"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87035.874646771",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24155"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87036.124844823",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "25501"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87036.374778582",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "26493"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87036.624825609",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28140"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87036.875385981",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28791"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87037.124839865",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29244"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87037.375318824",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29289"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87037.624974914",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29267"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87037.874874055",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29263"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87038.124692716",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29257"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87038.375510699",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29269"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87038.62466104",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29236"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87038.874554064",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29243"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87039.124625765",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29269"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87039.375018398",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29320"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87039.624667962",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29309"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87039.874593673",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29338"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87040.124856591",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29354"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87040.374562213",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29382"
+      }
+    ],
+    "A_spin_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87043.722488796",
+        "graphics_mhz": "435",
+        "memory_mhz": "810",
+        "video_mhz": "945",
+        "pstate": "0",
+        "power_mw": "15064"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87043.970800573",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "17394"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87044.220904683",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "20922"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87044.470928772",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "23304"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87044.721284575",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24270"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87044.971528532",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24273"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87045.221150657",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24271"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87045.471502888",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24252"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87045.72112237",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24238"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87045.971185149",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24245"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87046.22115513",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24240"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87046.471249147",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24256"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87046.720768362",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24248"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87046.971703362",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24246"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87047.221431589",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24249"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87047.471457576",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24251"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87047.72074565",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24248"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87047.970829275",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24251"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87048.221378926",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24270"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87048.470539276",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24295"
+      }
+    ],
+    "A_hybrid_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87051.381397394",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18040"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87051.627046786",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "20453"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87051.876920348",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "22869"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87052.127594769",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24404"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87052.37566021",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24498"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87052.62760287",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24460"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87052.877298639",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24446"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87053.128264712",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24439"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87053.374976474",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24434"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87053.627657893",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24396"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87053.876598108",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24377"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87054.126529551",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24365"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87054.376843417",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24389"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87054.627244425",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24389"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87054.879959848",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24369"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87055.127853917",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24346"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87055.377264712",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24373"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87055.627028605",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24366"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87055.877907476",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24369"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87056.126284414",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24391"
+      }
+    ],
+    "B_hybrid_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87060.219973618",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16468"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87060.472113493",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "18903"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87060.719966691",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "22504"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87060.968433616",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24284"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87061.21968629",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24361"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87061.469406884",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24395"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87061.719910765",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24371"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87061.970865128",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24376"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87062.219250069",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24389"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87062.470224759",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24414"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87062.718507507",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24383"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87062.968712259",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24378"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87063.219035409",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24318"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87063.470600405",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24348"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87063.720735107",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24349"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87063.96957854",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24358"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87064.220021931",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24386"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87064.468591231",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24455"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87064.723253452",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24434"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87064.968578881",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24429"
+      }
+    ],
+    "B_spin_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87067.128983909",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16667"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87067.378564698",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19019"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87067.628348695",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "22569"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87067.878388878",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24068"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87068.12826994",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24124"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87068.378481413",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24131"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87068.628801642",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24160"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87068.878366099",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24168"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87069.128259399",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24169"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87069.378281389",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24153"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87069.62828756",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24143"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87069.877951274",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24150"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87070.128504645",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24148"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87070.378469537",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24164"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87070.628295788",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24168"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87070.878411125",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24173"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87071.127647457",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24164"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87071.378790873",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24165"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87071.628624173",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24173"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87071.878185666",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24188"
+      }
+    ],
+    "B_gpu_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87075.208264868",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "16726"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87075.458932964",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "19356"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87075.708305311",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "24180"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87075.958158519",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "26758"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87076.208115137",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28154"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87076.458090523",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "28861"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87076.708129011",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29309"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87076.958063769",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29311"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87077.207982173",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29305"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87077.458631952",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29336"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87077.708781216",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29313"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87077.958115516",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29321"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87078.208223146",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29331"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87078.458032308",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29363"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87078.707762178",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29331"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87078.957946986",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29324"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87079.207812049",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29311"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87079.458086315",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29330"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87079.707912655",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29318"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87079.958179113",
+        "graphics_mhz": "2595",
+        "memory_mhz": "8501",
+        "video_mhz": "2160",
+        "pstate": "0",
+        "power_mw": "29338"
+      }
+    ],
+    "B_none_r2": [
+      {
+        "frame": "0",
+        "observed_s": "87082.610016522",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21889"
+      },
+      {
+        "frame": "15",
+        "observed_s": "87082.651862744",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21889"
+      },
+      {
+        "frame": "30",
+        "observed_s": "87082.675352166",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21889"
+      },
+      {
+        "frame": "45",
+        "observed_s": "87082.699576109",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21804"
+      },
+      {
+        "frame": "60",
+        "observed_s": "87082.723055636",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21804"
+      },
+      {
+        "frame": "75",
+        "observed_s": "87082.7460854",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21804"
+      },
+      {
+        "frame": "90",
+        "observed_s": "87082.770315719",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21804"
+      },
+      {
+        "frame": "105",
+        "observed_s": "87082.79484879",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "0",
+        "power_mw": "21801"
+      },
+      {
+        "frame": "120",
+        "observed_s": "87082.818473861",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21801"
+      },
+      {
+        "frame": "135",
+        "observed_s": "87082.842471201",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21801"
+      },
+      {
+        "frame": "150",
+        "observed_s": "87082.866301621",
+        "graphics_mhz": "2370",
+        "memory_mhz": "8501",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21801"
+      },
+      {
+        "frame": "165",
+        "observed_s": "87082.889792432",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21696"
+      },
+      {
+        "frame": "180",
+        "observed_s": "87082.914651486",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21696"
+      },
+      {
+        "frame": "195",
+        "observed_s": "87082.938430842",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21696"
+      },
+      {
+        "frame": "210",
+        "observed_s": "87082.96167808",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21696"
+      },
+      {
+        "frame": "225",
+        "observed_s": "87082.984168288",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21508"
+      },
+      {
+        "frame": "240",
+        "observed_s": "87083.006864688",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21508"
+      },
+      {
+        "frame": "255",
+        "observed_s": "87083.028738656",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21508"
+      },
+      {
+        "frame": "270",
+        "observed_s": "87083.050345957",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21508"
+      },
+      {
+        "frame": "285",
+        "observed_s": "87083.072037371",
+        "graphics_mhz": "2370",
+        "memory_mhz": "7001",
+        "video_mhz": "1995",
+        "pstate": "3",
+        "power_mw": "21508"
+      }
+    ]
+  }
+}

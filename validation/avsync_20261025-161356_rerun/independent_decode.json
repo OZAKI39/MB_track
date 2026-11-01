@@ -1,0 +1,34 @@
+[
+  {
+    "case": "baseline",
+    "decoder": "WSL PyAV",
+    "frames": 1320,
+    "first_pts_s": 0.0,
+    "last_pts_s": 21.983322222222224,
+    "strictly_increasing": true
+  },
+  {
+    "case": "normal",
+    "decoder": "WSL PyAV",
+    "frames": 1320,
+    "first_pts_s": 0.0,
+    "last_pts_s": 21.983333333333334,
+    "strictly_increasing": true
+  },
+  {
+    "case": "cancel",
+    "decoder": "WSL PyAV",
+    "frames": 1320,
+    "first_pts_s": 0.0,
+    "last_pts_s": 21.983333333333334,
+    "strictly_increasing": true
+  },
+  {
+    "case": "fault",
+    "decoder": "WSL PyAV",
+    "frames": 1320,
+    "first_pts_s": 0.0,
+    "last_pts_s": 21.983333333333334,
+    "strictly_increasing": true
+  }
+]

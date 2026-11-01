@@ -1,0 +1,15 @@
+# 第二、三轮真实验证环境；安装来源与 wheel SHA-256 见 INSTALL.md 所指的清单。
+gstreamer_bundle==1.28.7
+gstreamer_cli==1.28.8
+gstreamer_ext_runtime==1.28.8
+gstreamer_gtk==1.28.8
+gstreamer_libs==1.28.8
+gstreamer_plugins==1.28.7
+gstreamer_plugins_gpl==1.28.7
+gstreamer_plugins_gpl_restricted==1.28.7
+gstreamer_plugins_libs==1.28.7
+gstreamer_plugins_restricted==1.28.7
+gstreamer_python==1.28.8
+numpy==2.5.4
+psutil==7.2.2
+setuptools==84.2.1

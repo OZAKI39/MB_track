@@ -1,0 +1,81 @@
+{
+  "created": "2026-10-30T16:24:22.648007+01:00",
+  "scope": "Repeat previous offline GC comparison; no implementation edits, hardware actions or Windows configuration changes.",
+  "order": [
+    "normal",
+    "precollect",
+    "cancel_precollect"
+  ],
+  "duration_s_each_long": 330,
+  "opencv_threads": 24,
+  "conversion_threads": 1,
+  "gc_observation_only": true,
+  "previous_result": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_timing_20261030-155840",
+  "commands": {
+    "normal": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_retest_20261030-162422/normal",
+      "--mode",
+      "normal",
+      "--repeats",
+      "15"
+    ],
+    "precollect": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_retest_20261030-162422/precollect",
+      "--mode",
+      "precollect",
+      "--repeats",
+      "15"
+    ],
+    "cancel_precollect": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_retest_20261030-162422/cancel_precollect",
+      "--mode",
+      "precollect",
+      "--repeats",
+      "3",
+      "--cancel-after-s",
+      "2"
+    ]
+  },
+  "code_sha256": {
+    "gc_replay_check.py": "be005855ca64f2a911d94ac8e5136499849fedd9cbe4543800a8631cfabf832b",
+    "paced_replay.py": "529ad8301bd56a4c92b044e284667fd9ef48e287efa7c658c8a591605f690717",
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "97e73ee7ec808f7e263f1dd1689d014c666b857d90c061f48363e9d318ed3d63",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "tests/test_gc_timing.py": "2987db044dab44b5a1f625c0f982bbdb6f379a39a5521e1c72ca6aa1c14e1b53",
+    "paced_source.py": "4f6fef88aca61ecf9fab7426eeeff5a934d7e5d8cf9956426c60542aa61f1fc0",
+    "frame_conversion.py": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3",
+    "paced_report.py": "aa6f42aa89641a8b2a1d5429b5b102481778af12e84f2bc89587ec687f7a2844",
+    "online_replay.py": "b3a8bca22d914d97dc29f929153fc519b549f5217148575a0be69b84bb9dbb85"
+  },
+  "matches_previous_final_code": {
+    "gc_replay_check.py": true,
+    "paced_replay.py": true,
+    "bubble_tracker.py": true,
+    "online_tracking.py": true,
+    "async_store.py": true,
+    "online_store.py": true,
+    "tests/test_gc_timing.py": true
+  },
+  "input_sha256": {
+    "data/raw/expA.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "results/B_offline/background.npy": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8",
+    "data/pzt/manifest.json": "5a6a01e282d909c12bf3bd170a7c511dea6dde0b80d5c0dfeb10466076f7f0d4",
+    "data/pzt/expA/video_frames.csv": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2",
+    "data/pzt/expA/actions.csv": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7",
+    "data/pzt/expA/link_session.json": "e195160acfcbf02c1a4e9ddba88b0429cd93534ef04dcabe0739fbdda8abf144"
+  }
+}

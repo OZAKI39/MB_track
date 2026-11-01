@@ -1,0 +1,28 @@
+{
+  "timed_runs": 12,
+  "timed_frames": 15840,
+  "all_timed_runs_1320_frames": true,
+  "native_pixel_checks": {
+    "A": 1320,
+    "B": 1320
+  },
+  "native_pixel_errors": 0,
+  "mask_pixel_errors": 0,
+  "observed_gpu_copy_directions": {
+    "A": [
+      "2->2"
+    ],
+    "B": [
+      "2->2"
+    ]
+  },
+  "positive_control_directions": [
+    "1->2",
+    "2->1"
+  ],
+  "protected_files_unchanged": true,
+  "formal_environment_unchanged": true,
+  "ruff": "Passed: gpu_decode_check.py, gpu_decode_suite.py, gpu_decode_report.py",
+  "formal_tracking_run": false,
+  "camera_or_pzt_connected": false
+}

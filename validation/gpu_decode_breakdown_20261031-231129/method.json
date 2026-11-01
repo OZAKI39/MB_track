@@ -1,0 +1,14 @@
+{
+  "scope": "Read-only short diagnosis; formal code and previous benchmark unchanged",
+  "frames_per_condition": 300,
+  "conditions": "A: paced then unpaced; B: unpaced then paced; same source frames 0..299; 8 warmup frames per decoder",
+  "timing": "Separate packet preparation, Decode, SyncOnCUStream, CUDA stream synchronize; wall and calling-thread CPU times",
+  "processing": "Same GPU image demo after every decoded frame; excluded from decoding timing",
+  "limits": [
+    "Single repetition per condition; not a replacement for prior full repeated benchmark",
+    "Wall time minus calling-thread CPU time cannot distinguish GPU work, driver waits and OS descheduling",
+    "Unpaced results measure continuous work, not real-time source arrival latency",
+    "No driver-level timing or power-state measurements in this short test"
+  ],
+  "api_reference": "https://docs.nvidia.com/video-technologies/pynvvideocodec/pynvc-api-reference/decoder.html"
+}

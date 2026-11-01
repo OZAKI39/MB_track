@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "-B",
+    "-m",
+    "microbubble_experiment.afg",
+    "status"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"devices\": {\n    \"A\": {\n      \"resource\": \"USB::0x0699::0x0353::2147075::INSTR\",\n      \"manufacturer\": \"TEKTRONIX\",\n      \"model\": \"AFG1062\",\n      \"serial\": \"2147075\",\n      \"firmware\": \"SCPI:99.0 FV:V1.0.9\"\n    },\n    \"B\": {\n      \"resource\": \"USB::0x0699::0x0353::2439003::INSTR\",\n      \"manufacturer\": \"TEKTRONIX\",\n      \"model\": \"AFG1062\",\n      \"serial\": \"2439003\",\n      \"firmware\": \"SCPI:99.0 FV:V1.1.0\"\n    }\n  },\n  \"channels\": {\n    \"PZT1\": {\n      \"output\": false,\n      \"load_ohm\": 50.0,\n      \"waveform\": \"SIN\",\n      \"frequency_hz\": 2500000.0,\n      \"amplitude_vpp\": 0.001,\n      \"offset_v\": 0.0,\n      \"phase_deg\": 0.0,\n      \"frequency_mode\": \"CW\",\n      \"burst_enabled\": false,\n      \"concurrent\": false,\n      \"modulation\": {\n        \"AM\": false,\n        \"FM\": false,\n        \"PM\": false,\n        \"PWM\": false,\n        \"FSKey\": false,\n        \"ASKey\": false,\n        \"PSKey\": false\n      }\n    },\n    \"PZT2\": {\n      \"output\": false,\n      \"load_ohm\": 50.0,\n      \"waveform\": \"SIN\",\n      \"frequency_hz\": 2500000.0,\n      \"amplitude_vpp\": 0.001,\n      \"offset_v\": 0.0,\n      \"phase_deg\": 0.0,\n      \"frequency_mode\": \"CW\",\n      \"burst_enabled\": false,\n      \"concurrent\": false,\n      \"modulation\": {\n        \"AM\": false,\n        \"FM\": false,\n        \"PM\": false,\n        \"PWM\": false,\n        \"FSKey\": false,\n        \"ASKey\": false,\n        \"PSKey\": false\n      }\n    },\n    \"PZT3\": {\n      \"output\": false,\n      \"load_ohm\": 50.0,\n      \"waveform\": \"SIN\",\n      \"frequency_hz\": 2500000.0,\n      \"amplitude_vpp\": 0.001,\n      \"offset_v\": 0.0,\n      \"phase_deg\": 0.0,\n      \"frequency_mode\": \"CW\",\n      \"burst_enabled\": false,\n      \"concurrent\": false,\n      \"modulation\": {\n        \"AM\": false,\n        \"FM\": false,\n        \"PM\": false,\n        \"PWM\": false,\n        \"FSKey\": false,\n        \"ASKey\": false,\n        \"PSKey\": false\n      }\n    },\n    \"PZT4\": {\n      \"output\": false,\n      \"load_ohm\": 50.0,\n      \"waveform\": \"SIN\",\n      \"frequency_hz\": 2500000.0,\n      \"amplitude_vpp\": 0.001,\n      \"offset_v\": 0.0,\n      \"phase_deg\": 0.0,\n      \"frequency_mode\": \"CW\",\n      \"burst_enabled\": false,\n      \"concurrent\": false,\n      \"modulation\": {\n        \"AM\": false,\n        \"FM\": false,\n        \"PM\": false,\n        \"PWM\": false,\n        \"FSKey\": false,\n        \"ASKey\": false,\n        \"PSKey\": false\n      }\n    }\n  }\n}\n",
+  "stderr": ""
+}

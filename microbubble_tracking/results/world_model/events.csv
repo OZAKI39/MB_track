@@ -1,0 +1,133 @@
+fold,event,horizon_s,model,n,positives,observed_rate,mean_predicted,brier,brier_skill_vs_base_rate,auc
+train A → test B,merge,0.1,Base rate,15935,52,0.0033,0.0077,0.0033,0.0,0.5
+train A → test B,merge,0.1,Gap rule,15935,52,0.0033,0.0088,0.0035,-0.0638,0.9772
+train A → test B,merge,0.1,Gradient boosting,15935,52,0.0033,0.0058,0.0039,-0.1785,0.9492
+train A → test B,merge,0.1,"Graph world model, no neighbours",15935,52,0.0033,0.0055,0.0032,0.0351,0.8214
+train A → test B,merge,0.1,Graph world model,15935,52,0.0033,0.0047,0.0027,0.1886,0.9799
+train A → test B,merge,0.1,"Graph world model, trained on reviewed data",15935,52,0.0033,0.0048,0.0029,0.1121,0.9407
+train A → test B,merge,0.1,"Graph world model, without darkness / density inputs",15935,52,0.0033,0.0102,0.0035,-0.0549,0.9467
+train A → test B,merge,0.5,Base rate,15604,265,0.017,0.0403,0.0172,0.0,0.5
+train A → test B,merge,0.5,Gap rule,15604,265,0.017,0.0383,0.0128,0.2554,0.9529
+train A → test B,merge,0.5,Gradient boosting,15604,265,0.017,0.0168,0.0161,0.0665,0.9136
+train A → test B,merge,0.5,"Graph world model, no neighbours",15604,265,0.017,0.0283,0.0159,0.0803,0.7945
+train A → test B,merge,0.5,Graph world model,15604,265,0.017,0.0287,0.0126,0.2698,0.9584
+train A → test B,merge,0.5,"Graph world model, trained on reviewed data",15604,265,0.017,0.0203,0.0143,0.1723,0.9191
+train A → test B,merge,0.5,"Graph world model, without darkness / density inputs",15604,265,0.017,0.0384,0.0159,0.0791,0.9449
+train A → test B,merge,1.0,Base rate,15224,480,0.0315,0.0743,0.0324,0.0,0.5
+train A → test B,merge,1.0,Gap rule,15224,480,0.0315,0.0714,0.0248,0.2339,0.849
+train A → test B,merge,1.0,Gradient boosting,15224,480,0.0315,0.0232,0.0284,0.1227,0.8184
+train A → test B,merge,1.0,"Graph world model, no neighbours",15224,480,0.0315,0.0531,0.0285,0.1187,0.8303
+train A → test B,merge,1.0,Graph world model,15224,480,0.0315,0.0524,0.0228,0.2946,0.9182
+train A → test B,merge,1.0,"Graph world model, trained on reviewed data",15224,480,0.0315,0.038,0.0265,0.181,0.8687
+train A → test B,merge,1.0,"Graph world model, without darkness / density inputs",15224,480,0.0315,0.066,0.0278,0.1395,0.9372
+train A → test B,split,0.1,Base rate,15901,18,0.0011,0.0023,0.0011,0.0,0.5
+train A → test B,split,0.1,Gap rule,15901,18,0.0011,0.0026,0.0011,-0.0038,0.8728
+train A → test B,split,0.1,Gradient boosting,15901,18,0.0011,0.0002,0.0011,-0.0008,0.826
+train A → test B,split,0.1,"Graph world model, no neighbours",15901,18,0.0011,0.0016,0.0011,0.0,0.5968
+train A → test B,split,0.1,Graph world model,15901,18,0.0011,0.0025,0.0012,-0.0457,0.6722
+train A → test B,split,0.1,"Graph world model, trained on reviewed data",15901,18,0.0011,0.0018,0.0011,-0.0059,0.8272
+train A → test B,split,0.1,"Graph world model, without darkness / density inputs",15901,18,0.0011,0.0027,0.0012,-0.0362,0.7521
+train A → test B,split,0.5,Base rate,15429,90,0.0058,0.0126,0.0058,0.0,0.5
+train A → test B,split,0.5,Gap rule,15429,90,0.0058,0.0152,0.0061,-0.0501,0.7962
+train A → test B,split,0.5,Gradient boosting,15429,90,0.0058,0.0024,0.0059,-0.0121,0.8259
+train A → test B,split,0.5,"Graph world model, no neighbours",15429,90,0.0058,0.0087,0.0058,-0.0009,0.6805
+train A → test B,split,0.5,Graph world model,15429,90,0.0058,0.0129,0.0066,-0.1318,0.7581
+train A → test B,split,0.5,"Graph world model, trained on reviewed data",15429,90,0.0058,0.0098,0.006,-0.0244,0.8259
+train A → test B,split,0.5,"Graph world model, without darkness / density inputs",15429,90,0.0058,0.0154,0.0063,-0.0828,0.8203
+train A → test B,split,1.0,Base rate,14924,180,0.0121,0.0241,0.0121,0.0,0.5
+train A → test B,split,1.0,Gap rule,14924,180,0.0121,0.0308,0.0133,-0.1049,0.8323
+train A → test B,split,1.0,Gradient boosting,14924,180,0.0121,0.0215,0.0165,-0.3686,0.8033
+train A → test B,split,1.0,"Graph world model, no neighbours",14924,180,0.0121,0.0167,0.012,0.0092,0.7072
+train A → test B,split,1.0,Graph world model,14924,180,0.0121,0.0219,0.0133,-0.1065,0.7887
+train A → test B,split,1.0,"Graph world model, trained on reviewed data",14924,180,0.0121,0.0176,0.012,0.0019,0.8552
+train A → test B,split,1.0,"Graph world model, without darkness / density inputs",14924,180,0.0121,0.0296,0.0129,-0.0716,0.8288
+train B → test A,merge,0.1,Base rate,20602,159,0.0077,0.0033,0.0077,0.0,0.5
+train B → test A,merge,0.1,Gap rule,20602,159,0.0077,0.0041,0.0069,0.1,0.9687
+train B → test A,merge,0.1,Gradient boosting,20602,159,0.0077,0.005,0.0077,-0.0002,0.9139
+train B → test A,merge,0.1,"Graph world model, no neighbours",20602,159,0.0077,0.0208,0.0115,-0.4921,0.6472
+train B → test A,merge,0.1,Graph world model,20602,159,0.0077,0.0213,0.0111,-0.4474,0.7293
+train B → test A,merge,0.5,Base rate,19657,792,0.0403,0.017,0.0392,0.0,0.5
+train B → test A,merge,0.5,Gap rule,19657,792,0.0403,0.0323,0.0387,0.0139,0.8443
+train B → test A,merge,0.5,Gradient boosting,19657,792,0.0403,0.0105,0.04,-0.0201,0.794
+train B → test A,merge,0.5,"Graph world model, no neighbours",19657,792,0.0403,0.0511,0.047,-0.1979,0.6401
+train B → test A,merge,0.5,Graph world model,19657,792,0.0403,0.0376,0.0417,-0.0625,0.7078
+train B → test A,merge,1.0,Base rate,18746,1392,0.0743,0.0315,0.0706,0.0,0.5
+train B → test A,merge,1.0,Gap rule,18746,1392,0.0743,0.0578,0.0701,0.0062,0.7269
+train B → test A,merge,1.0,Gradient boosting,18746,1392,0.0743,0.0095,0.0713,-0.0107,0.7717
+train B → test A,merge,1.0,"Graph world model, no neighbours",18746,1392,0.0743,0.0773,0.0791,-0.121,0.6107
+train B → test A,merge,1.0,Graph world model,18746,1392,0.0743,0.0536,0.0723,-0.0245,0.6613
+train B → test A,split,0.1,Base rate,20491,48,0.0023,0.0011,0.0023,0.0,0.5
+train B → test A,split,0.1,Gap rule,20491,48,0.0023,0.001,0.0023,-0.0022,0.9049
+train B → test A,split,0.1,Gradient boosting,20491,48,0.0023,0.0004,0.0024,-0.0057,0.8697
+train B → test A,split,0.1,"Graph world model, no neighbours",20491,48,0.0023,0.0023,0.0024,-0.0054,0.637
+train B → test A,split,0.1,Graph world model,20491,48,0.0023,0.0032,0.0024,-0.028,0.6196
+train B → test A,split,0.5,Base rate,19105,240,0.0126,0.0058,0.0124,0.0,0.5
+train B → test A,split,0.5,Gap rule,19105,240,0.0126,0.0129,0.0169,-0.3611,0.8324
+train B → test A,split,0.5,Gradient boosting,19105,240,0.0126,0.0003,0.0126,-0.0106,0.767
+train B → test A,split,0.5,"Graph world model, no neighbours",19105,240,0.0126,0.0103,0.0123,0.0112,0.66
+train B → test A,split,0.5,Graph world model,19105,240,0.0126,0.0141,0.0125,-0.0006,0.6351
+train B → test A,split,1.0,Base rate,17783,429,0.0241,0.0121,0.0237,0.0,0.5
+train B → test A,split,1.0,Gap rule,17783,429,0.0241,0.0263,0.0341,-0.4379,0.8057
+train B → test A,split,1.0,Gradient boosting,17783,429,0.0241,0.0039,0.0265,-0.1172,0.7306
+train B → test A,split,1.0,"Graph world model, no neighbours",17783,429,0.0241,0.0196,0.023,0.0293,0.7236
+train B → test A,split,1.0,Graph world model,17783,429,0.0241,0.0269,0.0231,0.0258,0.7028
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.1,Base rate,11643,79,0.0068,0.0041,0.0067,0.0,0.5
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.1,Gap rule,11643,79,0.0068,0.0081,0.0076,-0.1201,0.97
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.1,Gradient boosting,11643,79,0.0068,0.0096,0.0114,-0.6868,0.94
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.1,"Graph world model, no neighbours",11643,79,0.0068,0.0072,0.0068,-0.014,0.6528
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.1,Graph world model,11643,79,0.0068,0.0033,0.0065,0.0339,0.7679
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.5,Base rate,11201,334,0.0298,0.024,0.029,0.0,0.5
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.5,Gap rule,11201,334,0.0298,0.0397,0.0315,-0.0893,0.87
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.5,Gradient boosting,11201,334,0.0298,0.0264,0.0443,-0.5304,0.7694
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.5,"Graph world model, no neighbours",11201,334,0.0298,0.0365,0.0325,-0.1218,0.5455
+"same recordings, alternating 4 s blocks (even→odd)",merge,0.5,Graph world model,11201,334,0.0298,0.0147,0.0291,-0.006,0.6312
+"same recordings, alternating 4 s blocks (even→odd)",merge,1.0,Base rate,10833,564,0.0521,0.0387,0.0495,0.0,0.5
+"same recordings, alternating 4 s blocks (even→odd)",merge,1.0,Gap rule,10833,564,0.0521,0.0534,0.0481,0.0288,0.8123
+"same recordings, alternating 4 s blocks (even→odd)",merge,1.0,Gradient boosting,10833,564,0.0521,0.07,0.0892,-0.8003,0.6559
+"same recordings, alternating 4 s blocks (even→odd)",merge,1.0,"Graph world model, no neighbours",10833,564,0.0521,0.0595,0.0591,-0.1934,0.442
+"same recordings, alternating 4 s blocks (even→odd)",merge,1.0,Graph world model,10833,564,0.0521,0.0271,0.0521,-0.052,0.5583
+"same recordings, alternating 4 s blocks (even→odd)",split,0.1,Base rate,11576,12,0.001,0.0018,0.001,0.0,0.5
+"same recordings, alternating 4 s blocks (even→odd)",split,0.1,Gap rule,11576,12,0.001,0.0019,0.0011,-0.029,0.9722
+"same recordings, alternating 4 s blocks (even→odd)",split,0.1,Gradient boosting,11576,12,0.001,0.0017,0.0016,-0.5457,0.9711
+"same recordings, alternating 4 s blocks (even→odd)",split,0.1,"Graph world model, no neighbours",11576,12,0.001,0.003,0.0012,-0.1287,0.812
+"same recordings, alternating 4 s blocks (even→odd)",split,0.1,Graph world model,11576,12,0.001,0.0044,0.0014,-0.3496,0.6072
+"same recordings, alternating 4 s blocks (even→odd)",split,0.5,Base rate,10926,59,0.0054,0.0113,0.0054,0.0,0.5
+"same recordings, alternating 4 s blocks (even→odd)",split,0.5,Gap rule,10926,59,0.0054,0.01,0.0054,-0.003,0.9153
+"same recordings, alternating 4 s blocks (even→odd)",split,0.5,Gradient boosting,10926,59,0.0054,0.0057,0.0078,-0.4441,0.8976
+"same recordings, alternating 4 s blocks (even→odd)",split,0.5,"Graph world model, no neighbours",10926,59,0.0054,0.0162,0.0069,-0.2784,0.8576
+"same recordings, alternating 4 s blocks (even→odd)",split,0.5,Graph world model,10926,59,0.0054,0.0169,0.0077,-0.4252,0.7728
+"same recordings, alternating 4 s blocks (even→odd)",split,1.0,Base rate,10366,97,0.0094,0.0216,0.0094,0.0,0.5
+"same recordings, alternating 4 s blocks (even→odd)",split,1.0,Gap rule,10366,97,0.0094,0.0204,0.01,-0.0633,0.9342
+"same recordings, alternating 4 s blocks (even→odd)",split,1.0,Gradient boosting,10366,97,0.0094,0.0163,0.0217,-1.3034,0.9139
+"same recordings, alternating 4 s blocks (even→odd)",split,1.0,"Graph world model, no neighbours",10366,97,0.0094,0.0263,0.0111,-0.177,0.8581
+"same recordings, alternating 4 s blocks (even→odd)",split,1.0,Graph world model,10366,97,0.0094,0.028,0.0129,-0.3649,0.8011
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.1,Base rate,13439,55,0.0041,0.0068,0.0041,0.0,0.5
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.1,Gap rule,13439,55,0.0041,0.0083,0.0042,-0.0254,0.9805
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.1,Gradient boosting,13439,55,0.0041,0.001,0.004,0.009,0.9639
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.1,"Graph world model, no neighbours",13439,55,0.0041,0.0079,0.0042,-0.0217,0.2742
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.1,Graph world model,13439,55,0.0041,0.011,0.0041,-0.0054,0.8366
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.5,Base rate,12975,312,0.024,0.0298,0.0235,0.0,0.5
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.5,Gap rule,12975,312,0.024,0.027,0.0188,0.1982,0.8539
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.5,Gradient boosting,12975,312,0.024,0.0176,0.0326,-0.3893,0.8555
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.5,"Graph world model, no neighbours",12975,312,0.024,0.0386,0.0248,-0.0554,0.3536
+"same recordings, alternating 4 s blocks (odd→even)",merge,0.5,Graph world model,12975,312,0.024,0.0461,0.0252,-0.0705,0.7383
+"same recordings, alternating 4 s blocks (odd→even)",merge,1.0,Base rate,12520,485,0.0387,0.0521,0.0374,0.0,0.5
+"same recordings, alternating 4 s blocks (odd→even)",merge,1.0,Gap rule,12520,485,0.0387,0.0484,0.0306,0.1831,0.8667
+"same recordings, alternating 4 s blocks (odd→even)",merge,1.0,Gradient boosting,12520,485,0.0387,0.0389,0.0569,-0.5201,0.7391
+"same recordings, alternating 4 s blocks (odd→even)",merge,1.0,"Graph world model, no neighbours",12520,485,0.0387,0.0679,0.0403,-0.0763,0.3809
+"same recordings, alternating 4 s blocks (odd→even)",merge,1.0,Graph world model,12520,485,0.0387,0.0739,0.0393,-0.0491,0.7673
+"same recordings, alternating 4 s blocks (odd→even)",split,0.1,Base rate,13408,24,0.0018,0.001,0.0018,0.0,0.5
+"same recordings, alternating 4 s blocks (odd→even)",split,0.1,Gap rule,13408,24,0.0018,0.0014,0.0018,0.0011,0.9268
+"same recordings, alternating 4 s blocks (odd→even)",split,0.1,Gradient boosting,13408,24,0.0018,0.0,0.0018,-0.0014,0.6404
+"same recordings, alternating 4 s blocks (odd→even)",split,0.1,"Graph world model, no neighbours",13408,24,0.0018,0.0012,0.0018,0.0009,0.8254
+"same recordings, alternating 4 s blocks (odd→even)",split,0.1,Graph world model,13408,24,0.0018,0.0024,0.0019,-0.0576,0.8278
+"same recordings, alternating 4 s blocks (odd→even)",split,0.5,Base rate,12808,145,0.0113,0.0054,0.0112,0.0,0.5
+"same recordings, alternating 4 s blocks (odd→even)",split,0.5,Gap rule,12808,145,0.0113,0.0065,0.0111,0.0077,0.8372
+"same recordings, alternating 4 s blocks (odd→even)",split,0.5,Gradient boosting,12808,145,0.0113,0.0003,0.0113,-0.0047,0.8461
+"same recordings, alternating 4 s blocks (odd→even)",split,0.5,"Graph world model, no neighbours",12808,145,0.0113,0.006,0.0112,0.0059,0.8629
+"same recordings, alternating 4 s blocks (odd→even)",split,0.5,Graph world model,12808,145,0.0113,0.0092,0.0114,-0.0182,0.7133
+"same recordings, alternating 4 s blocks (odd→even)",split,1.0,Base rate,12301,266,0.0216,0.0094,0.0213,0.0,0.5
+"same recordings, alternating 4 s blocks (odd→even)",split,1.0,Gap rule,12301,266,0.0216,0.0106,0.021,0.0145,0.794
+"same recordings, alternating 4 s blocks (odd→even)",split,1.0,Gradient boosting,12301,266,0.0216,0.0046,0.0233,-0.0942,0.8272
+"same recordings, alternating 4 s blocks (odd→even)",split,1.0,"Graph world model, no neighbours",12301,266,0.0216,0.0118,0.021,0.0122,0.8454
+"same recordings, alternating 4 s blocks (odd→even)",split,1.0,Graph world model,12301,266,0.0216,0.0149,0.0208,0.0238,0.6725

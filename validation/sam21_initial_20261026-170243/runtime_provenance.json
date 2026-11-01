@@ -1,0 +1,26 @@
+{
+  "sam2_direct_url": {
+    "archive_info": {
+      "hash": "sha256=fe93082a71a885a427894b1eab76341768781b6b58a298a0717e03862097d137",
+      "hashes": {
+        "sha256": "fe93082a71a885a427894b1eab76341768781b6b58a298a0717e03862097d137"
+      }
+    },
+    "url": "https://github.com/facebookresearch/sam2/archive/2b90b9f5ceec907a1c18123530e92e794ad901a4.zip"
+  },
+  "files": {
+    "sam2_video_predictor.py": "912555920a77f72ded07839efa33fcceecc79f3523abbec783f0be46ee2c55c2",
+    "build_sam.py": "856d64d71e44407401297b551884fb4cd1aba8082de0ff5fc60fac3dd42f094d",
+    "modeling/sam2_base.py": "69a46b44e8625f509791352bd09beaafe589cd7d872721384e63d37f9fdc6e41",
+    "utils/misc.py": "01600c01c161cd079d7106fb1d4da845cf91aa31ab2bcecaf8cb151b6d6d20a2",
+    "configs/sam2.1/sam2.1_hiera_l.yaml": "1dbd6cb6dfebeaf588c7006ee222c6efbfa9049a7ad472a3cdfb2f5d919e8107"
+  },
+  "python": "3.12.14",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+  "torch": "2.14.0+cu126",
+  "cuda_runtime": "12.6",
+  "device": "NVIDIA GeForce RTX 4090",
+  "workspace_survives_instance_recycle": false,
+  "execution_directory": "/workspace/microbubble_sam21_initial_20261026-170243",
+  "shared_supervisor_issue": "Existing unrelated log directory missing; used a task-local supervisor without changing other project configs."
+}

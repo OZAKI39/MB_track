@@ -1,0 +1,46 @@
+{
+  "schema": 2,
+  "candidate_id": "gui_fixture_two_action_f000030",
+  "image_sha256": "807634dc54f3843f24677ab5bb36661b632dec0fd5309bb358bf99aca48b3c03",
+  "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+  "split": "gui_validation",
+  "sequence_id": "two_action",
+  "revision": "20261026T110525_35417ed2",
+  "utc": "2026-10-26T11:05:25.071258+00:00",
+  "mask_file": "20261026T110525_35417ed2.npz",
+  "mask_sha256": "80c6e42e289fe724eea2da48aa06267a81d205481b21d8c8c487bc355a2da6cb",
+  "reviewer": "SOFTWARE_TEST",
+  "expert_confirmed": false,
+  "status": "DRAFT_UNREVIEWED",
+  "review_scope": "REGIONS",
+  "review_regions": [],
+  "invalidated_region_ids": [],
+  "workspace_roi_yxyx": null,
+  "proposal_sources": [],
+  "classes": [
+    "SINGLE_BUBBLE",
+    "AGGREGATE",
+    "BACKGROUND_ARTIFACT",
+    "UNCERTAIN",
+    "OUT_OF_FOCUS"
+  ],
+  "class_overlap_pixels": 0,
+  "instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 30,
+    "OUT_OF_FOCUS": 0
+  },
+  "track_ids": {},
+  "notes": "",
+  "units": "pixels",
+  "physical_fusion_claim": false,
+  "reviewed_instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 0,
+    "OUT_OF_FOCUS": 0
+  }
+}

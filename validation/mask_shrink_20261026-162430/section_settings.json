@@ -1,0 +1,20 @@
+{
+  "status": "SOFTWARE_PROPOSAL_PENDING_USER_REVIEW",
+  "parent_mask_sha256": "6eb4f1fd518f03cf738ca148fb2655cc02bd3ae464fd310ce81256719da1e882",
+  "transition_length_px": 40,
+  "sections": {
+    "UL": "Upper left", "UR": "Upper right",
+    "LO": "Left branch outer", "LI": "Left branch inner",
+    "RI": "Right branch inner", "RO": "Right branch outer"
+  },
+  "chains": [
+    {"sections": ["UL", "LO"], "anchors_xy": [[560.77, 0], [549.573, 595.843], [240.267, 1023]]},
+    {"sections": ["LI", "RI"], "anchors_xy": [[440.427, 1023], [669.39, 590.617], [846.508, 1023]]},
+    {"sections": ["RO", "UR"], "anchors_xy": [[1022.36, 1023], [803.188, 453.289], [823.792, 0]]}
+  ],
+  "profiles": [
+    {"id": "mix_a", "label": "Mix A", "distances_px": {"UL": 6, "UR": 2, "LO": 4, "LI": 2, "RI": 2, "RO": 2}},
+    {"id": "mix_b", "label": "Mix B", "distances_px": {"UL": 8, "UR": 2, "LO": 4, "LI": 2, "RI": 4, "RO": 2}},
+    {"id": "mix_c", "label": "Mix C", "distances_px": {"UL": 8, "UR": 4, "LO": 6, "LI": 4, "RI": 4, "RO": 4}}
+  ]
+}

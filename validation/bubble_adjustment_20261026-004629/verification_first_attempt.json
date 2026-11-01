@@ -1,0 +1,6 @@
+{
+  "initial_verification": "FAILED",
+  "cause": "核对脚本直接按灰度读取 PNG，与正式算法先读取 BGR 再转灰度的取整结果不同；核对脚本改为使用正式转换方式。正式生成和规则调整代码都使用 BGR 再转灰度，未受影响。",
+  "gray_pixels_differ": 457496,
+  "old_mask_matches_with_correct_conversion": true
+}

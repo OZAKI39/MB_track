@@ -1,0 +1,360 @@
+{
+  "traceevent_version": "2.0.74 (.NET Framework 4.5 build)",
+  "selected_events": 120563,
+  "field_decode_errors": 0,
+  "events_lost": 0,
+  "host_functions": {
+    "DxgkLock2": {
+      "count": 61,
+      "median_ms": 0.009799999999813735,
+      "p99_ms": 0.1006399999991115,
+      "max_ms": 0.20720000000073924
+    },
+    "DxgkUnlock2": {
+      "count": 61,
+      "median_ms": 0.010500000000320142,
+      "p99_ms": 0.0340200000006007,
+      "max_ms": 0.03419999999823631
+    }
+  },
+  "windows": [
+    {
+      "video": "A",
+      "frame": 805,
+      "start_etw_ms": 22171.16946665675,
+      "end_etw_ms": 22183.370054699622,
+      "max_half_rtt_ms": 1.3264459994388744,
+      "faults_and_reads": [
+        {
+          "ms": 22181.692,
+          "event": "DiskIO/Read",
+          "pid": 23324,
+          "tid": 30376,
+          "data": [
+            "DiskNumber=0",
+            "IrpFlags=Nocache, MountCompletion, SynchronousPagingIO",
+            "Priority=Normal",
+            "TransferSize=16,384",
+            "ByteOffset=310,968,567,296",
+            "Irp=0xffffda8e36a24540",
+            "ElapsedTimeMSec=0.329",
+            "DiskServiceTimeMSec=0.329",
+            "FileKey=0xffffb4834114c180",
+            "FileName="
+          ]
+        },
+        {
+          "ms": 22181.8071,
+          "event": "Memory/HardFault",
+          "pid": 23324,
+          "tid": 30376,
+          "data": [
+            "ElapsedTimeMSec=0.512",
+            "ReadOffset=251,299,328",
+            "VirtualAddress=0x7ffe39f1d144",
+            "FileKey=0xffffb4834114c180",
+            "ByteCount=16,384",
+            "FileName="
+          ]
+        }
+      ],
+      "host_resource_calls": [
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 4932,
+          "start_ms": 22172.0155,
+          "end_ms": 22172.0397,
+          "duration_ms": 0.02419999999983702
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 4932,
+          "start_ms": 22172.7326,
+          "end_ms": 22172.7581,
+          "duration_ms": 0.025499999999738066
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 4932,
+          "start_ms": 22173.6833,
+          "end_ms": 22173.7175,
+          "duration_ms": 0.03419999999823631
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 4932,
+          "start_ms": 22174.4079,
+          "end_ms": 22174.4404,
+          "duration_ms": 0.03250000000116415
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 4932,
+          "start_ms": 22175.4632,
+          "end_ms": 22175.4889,
+          "duration_ms": 0.025700000001961598
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 11372,
+          "start_ms": 22176.3171,
+          "end_ms": 22176.3416,
+          "duration_ms": 0.02449999999953434
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 31656,
+          "start_ms": 22181.6447,
+          "end_ms": 22181.8519,
+          "duration_ms": 0.20720000000073924
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 42336,
+          "start_ms": 22182.4583,
+          "end_ms": 22182.4757,
+          "duration_ms": 0.017400000000634464
+        }
+      ]
+    },
+    {
+      "video": "A",
+      "frame": 679,
+      "start_etw_ms": 20071.378285178762,
+      "end_etw_ms": 20082.70671749192,
+      "max_half_rtt_ms": 1.0492834990145639,
+      "faults_and_reads": [],
+      "host_resource_calls": [
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 24292,
+          "start_ms": 20071.7222,
+          "end_ms": 20071.7385,
+          "duration_ms": 0.01629999999931897
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 24292,
+          "start_ms": 20072.2867,
+          "end_ms": 20072.3031,
+          "duration_ms": 0.016400000000430737
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 24292,
+          "start_ms": 20072.8493,
+          "end_ms": 20072.8673,
+          "duration_ms": 0.018000000000029104
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 24292,
+          "start_ms": 20073.3557,
+          "end_ms": 20073.3883,
+          "duration_ms": 0.03259999999863794
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 24292,
+          "start_ms": 20074.114,
+          "end_ms": 20074.1355,
+          "duration_ms": 0.02149999999892316
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 25808,
+          "start_ms": 20075.1967,
+          "end_ms": 20075.2233,
+          "duration_ms": 0.02660000000105356
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 11372,
+          "start_ms": 20080.3618,
+          "end_ms": 20080.3791,
+          "duration_ms": 0.017299999999522697
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 11372,
+          "start_ms": 20081.1984,
+          "end_ms": 20081.2305,
+          "duration_ms": 0.03210000000035507
+        }
+      ]
+    },
+    {
+      "video": "B",
+      "frame": 1215,
+      "start_etw_ms": 58869.68681134586,
+      "end_etw_ms": 58881.790212649226,
+      "max_half_rtt_ms": 0.6801869967603125,
+      "faults_and_reads": [],
+      "host_resource_calls": [
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 37028,
+          "start_ms": 58870.1257,
+          "end_ms": 58870.1409,
+          "duration_ms": 0.015200000001641456
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 37028,
+          "start_ms": 58870.7688,
+          "end_ms": 58870.79,
+          "duration_ms": 0.021200000002863817
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 37028,
+          "start_ms": 58871.4219,
+          "end_ms": 58871.4439,
+          "duration_ms": 0.021999999997206032
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 37028,
+          "start_ms": 58872.0761,
+          "end_ms": 58872.1063,
+          "duration_ms": 0.03020000000105938
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 37028,
+          "start_ms": 58872.7106,
+          "end_ms": 58872.7341,
+          "duration_ms": 0.02350000000296859
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 25520,
+          "start_ms": 58873.5649,
+          "end_ms": 58873.5988,
+          "duration_ms": 0.033900000002176967
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 24172,
+          "start_ms": 58879.344,
+          "end_ms": 58879.3617,
+          "duration_ms": 0.017700000003969762
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 7544,
+          "start_ms": 58880.2273,
+          "end_ms": 58880.252,
+          "duration_ms": 0.02470000000175787
+        }
+      ]
+    },
+    {
+      "video": "B",
+      "frame": 633,
+      "start_etw_ms": 49169.875431289955,
+      "end_etw_ms": 49185.12297687253,
+      "max_half_rtt_ms": 0.8732060014153831,
+      "faults_and_reads": [],
+      "host_resource_calls": [
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 25520,
+          "start_ms": 49170.3092,
+          "end_ms": 49170.3225,
+          "duration_ms": 0.01329999999870779
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 25520,
+          "start_ms": 49170.655,
+          "end_ms": 49170.6677,
+          "duration_ms": 0.01269999999931315
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 3004,
+          "start_ms": 49171.0312,
+          "end_ms": 49171.0463,
+          "duration_ms": 0.015100000004167669
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 32908,
+          "start_ms": 49171.325,
+          "end_ms": 49171.3416,
+          "duration_ms": 0.01660000000265427
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 32908,
+          "start_ms": 49171.6313,
+          "end_ms": 49171.6381,
+          "duration_ms": 0.006799999995564576
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 3004,
+          "start_ms": 49171.8468,
+          "end_ms": 49171.8522,
+          "duration_ms": 0.0054000000018277206
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 37336,
+          "tid": 39992,
+          "start_ms": 49174.0563,
+          "end_ms": 49174.0652,
+          "duration_ms": 0.008900000000721775
+        },
+        {
+          "name": "DxgkLock2",
+          "pid": 4,
+          "tid": 45648,
+          "start_ms": 49174.1956,
+          "end_ms": 49174.1996,
+          "duration_ms": 0.004000000000814907
+        },
+        {
+          "name": "DxgkUnlock2",
+          "pid": 4,
+          "tid": 45648,
+          "start_ms": 49174.3103,
+          "end_ms": 49174.3166,
+          "duration_ms": 0.006300000000919681
+        }
+      ]
+    }
+  ],
+  "clock_method": "Measured Windows QPC reply lies between WSL send/receive; midpoint used only for approximate window alignment; half-RTT bounds retained; no direct raw-clock subtraction"
+}

@@ -1,0 +1,35 @@
+{
+  "unit_tests_passed": 72,
+  "ruff_passed": true,
+  "timed_runs": 12,
+  "recorded_and_decoded_frames": 15840,
+  "analyzed_and_saved_frames": 15828,
+  "all_queue_checks_passed": true,
+  "all_ack_checks_passed": true,
+  "all_recording_and_scientific_checks_passed": true,
+  "comparison_criteria_met": false,
+  "default_waiting_frames": 1,
+  "source_algorithms_raw_videos_device_configs_unchanged": true,
+  "figure_font": "/mnt/c/Windows/Fonts/arial.ttf",
+  "simulator_shutdown": [
+    {
+      "name": "publish_expB",
+      "pid": 19724,
+      "exit_code": 0,
+      "publisher_forced_termination": false
+    },
+    {
+      "name": "publish_expA",
+      "pid": 42056,
+      "exit_code": 0,
+      "publisher_forced_termination": false
+    },
+    {
+      "name": "mediamtx",
+      "pid": 9948,
+      "exit_code": 1,
+      "publisher_forced_termination": false
+    }
+  ],
+  "physical_devices_tested": false
+}

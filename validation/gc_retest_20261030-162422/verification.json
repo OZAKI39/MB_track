@@ -1,0 +1,799 @@
+{
+  "runs": {
+    "normal": {
+      "status": "completed",
+      "counts": {
+        "offered_frames": 19800,
+        "processed_frames": 19799,
+        "replaced_frames": 1,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcome_counts": {
+        "processed": 19799,
+        "replaced": 1
+      },
+      "metrics": {
+        "queue_ms": {
+          "min": 0.1590890169609338,
+          "median": 0.2539750130381435,
+          "p95": 0.38080512022133917,
+          "p99": 0.4935735662002117,
+          "max": 15.13183198403567
+        },
+        "process_ms": {
+          "min": 7.606794009916484,
+          "median": 9.044998994795606,
+          "p95": 10.553564710426144,
+          "p99": 11.784637505188584,
+          "max": 40.216534020146355
+        },
+        "core_ms": {
+          "min": 7.086430996423587,
+          "median": 8.495641988702118,
+          "p95": 9.967332289670594,
+          "p99": 11.139042933355087,
+          "max": 39.08456800854765
+        },
+        "age_ms": {
+          "min": 8.032877318328246,
+          "median": 9.477024315856397,
+          "p95": 11.059530929196624,
+          "p99": 12.470091636641884,
+          "max": 41.343977994984016
+        },
+        "send_late_ms": {
+          "min": 0.13229367323219776,
+          "median": 0.16213065828196704,
+          "p95": 0.21077201236039395,
+          "p99": 0.2543962743948213,
+          "max": 13.421499985270202
+        },
+        "decode_ms": {
+          "min": 2.325152017874643,
+          "median": 3.404614995815791,
+          "p95": 4.321047323173843,
+          "p99": 5.884676883579231,
+          "max": 35.88023397605866
+        }
+      },
+      "process_ms": {
+        "min": 7.606794009916484,
+        "median": 9.044998994795606,
+        "p95": 10.553564710426144,
+        "p99": 11.784637505188584,
+        "max": 40.216534020146355
+      },
+      "gc_during_frames": {
+        "counts": {
+          "0": 14,
+          "1": 1,
+          "2": 1
+        },
+        "max_ms": 13.913825008785352,
+        "collected": 33
+      },
+      "gc_outside_frames": [
+        {
+          "phase": "preparation",
+          "thread_id": "718063",
+          "generation": "0",
+          "start_s": "221498.01555825",
+          "end_s": "221498.015715505",
+          "wall_ms": "0.15725500998087227",
+          "thread_cpu_ms": "0.15568300000001756",
+          "collected": "95",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        },
+        {
+          "phase": "preparation",
+          "thread_id": "718063",
+          "generation": "0",
+          "start_s": "221498.022197497",
+          "end_s": "221498.022273561",
+          "wall_ms": "0.07606399594806135",
+          "thread_cpu_ms": "0.07499299999991216",
+          "collected": "0",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        }
+      ],
+      "memory": {
+        "sampled_max_mib": 191.125,
+        "median_30_to_90_s_mib": 190.435546875,
+        "median_last_60_s_mib": 191.11328125,
+        "growth_mib": 0.677734375
+      },
+      "all_saved": true,
+      "settings_restored": true,
+      "max_pending_records": 13,
+      "pending_at_end": 0,
+      "scientific_tables": {
+        "frames": {
+          "rows": 19799,
+          "sha256": "710a4048784d72755cf8d114a6bbd25ef93405523f36f56da4b6a90c7be5839e"
+        },
+        "observations": {
+          "rows": 337029,
+          "sha256": "d0b9d1163dc3a287901aaa364e8a9e7cb64f85933615de2c9ca9867ed4cbc15d"
+        },
+        "tracks": {
+          "rows": 2966,
+          "sha256": "52d0bb8a00b2e2b87c079e35407b21e3687c7520ba915b62730f2c00e3044632"
+        },
+        "events": {
+          "rows": 5917,
+          "sha256": "227b9943448ca09db238427fc71f179cfe4cfa74389186972422f40b50b156c0"
+        },
+        "event_updates": {
+          "rows": 11834,
+          "sha256": "b798ace6c0ef4c31a8c43374432096810f7f041c055e98b0d6192a72f210f1aa"
+        },
+        "track_updates": {
+          "rows": 7841,
+          "sha256": "a3165a08c54a4a96bb669cc077a61af9153fb3fa6f63ae5d18d9cdb9cca4a62f"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "worst_frame": {
+        "source_frame": 0,
+        "process_ms": 40.216534020146355,
+        "gc_overlap_ms": 0.06838701665401459
+      },
+      "gap_context": [
+        {
+          "gap": {
+            "video_frame": "1",
+            "source_frame": "1",
+            "video_s": "0.016666666666666666",
+            "outcome": "replaced"
+          },
+          "nearby_consumer": [
+            {
+              "video_frame": "0",
+              "source_frame": "0",
+              "video_s": "0.0",
+              "taken_s": "221499.227868545",
+              "process_start_s": "221499.227870693",
+              "finished_s": "221499.268087227",
+              "send_late_ms": "0.42518097325228155",
+              "queue_ms": "0.70011499337852",
+              "injected_ms": "0.002148008206859231",
+              "process_ms": "40.216534020146355",
+              "core_ms": "39.08456800854765",
+              "age_ms": "41.343977994984016",
+              "active_tracks": "22",
+              "outcome": "processed"
+            },
+            {
+              "video_frame": "2",
+              "source_frame": "2",
+              "video_s": "0.03333333333333333",
+              "taken_s": "221499.268396745",
+              "process_start_s": "221499.268399796",
+              "finished_s": "221499.280062375",
+              "send_late_ms": "0.22070965496823192",
+              "queue_ms": "8.099452999886125",
+              "injected_ms": "0.0030510127544403076",
+              "process_ms": "11.662578996038064",
+              "core_ms": "10.953203978715464",
+              "age_ms": "19.985792663646862",
+              "active_tracks": "23",
+              "outcome": "processed"
+            },
+            {
+              "video_frame": "3",
+              "source_frame": "3",
+              "video_s": "0.05",
+              "taken_s": "221499.280502118",
+              "process_start_s": "221499.280504173",
+              "finished_s": "221499.289885711",
+              "send_late_ms": "0.2188039943575859",
+              "queue_ms": "3.540064994012937",
+              "injected_ms": "0.00205499236471951",
+              "process_ms": "9.381538024172187",
+              "core_ms": "8.790432009845972",
+              "age_ms": "13.14246200490743",
+              "active_tracks": "23",
+              "outcome": "processed"
+            },
+            {
+              "video_frame": "4",
+              "source_frame": "4",
+              "video_s": "0.06666666666666667",
+              "taken_s": "221499.294044164",
+              "process_start_s": "221499.294047526",
+              "finished_s": "221499.304604575",
+              "send_late_ms": "0.27026530005969107",
+              "queue_ms": "0.3639830101747066",
+              "injected_ms": "0.0033619871828705072",
+              "process_ms": "10.557049012277275",
+              "core_ms": "9.871470014331862",
+              "age_ms": "11.194659309694543",
+              "active_tracks": "23",
+              "outcome": "processed"
+            }
+          ],
+          "nearby_source": [
+            {
+              "video_frame": "0",
+              "source_frame": "0",
+              "video_s": "0.0",
+              "received_windows_s": "241246.9743632",
+              "decoded_windows_s": "241246.9813831",
+              "deadline_s": "221499.22674324902",
+              "published_s": "221499.22716843",
+              "decode_ms": "35.88023397605866",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "0",
+              "original_source_frame": "274",
+              "original_video_s": "0.0"
+            },
+            {
+              "video_frame": "1",
+              "source_frame": "1",
+              "video_s": "0.016666666666666666",
+              "received_windows_s": "241246.9755202",
+              "decoded_windows_s": "241246.9882114",
+              "deadline_s": "221499.24340991568",
+              "published_s": "221499.243662574",
+              "decode_ms": "4.498541995417327",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "1",
+              "original_source_frame": "275",
+              "original_video_s": "0.016666666666666666"
+            },
+            {
+              "video_frame": "2",
+              "source_frame": "2",
+              "video_s": "0.03333333333333333",
+              "received_windows_s": "241246.9759465",
+              "decoded_windows_s": "241246.9927412",
+              "deadline_s": "221499.26007658234",
+              "published_s": "221499.260297292",
+              "decode_ms": "2.4981270253192633",
+              "replaced_video_frame": "1",
+              "replay_cycle": "0",
+              "original_video_frame": "2",
+              "original_source_frame": "276",
+              "original_video_s": "0.03333333333333333"
+            },
+            {
+              "video_frame": "3",
+              "source_frame": "3",
+              "video_s": "0.05",
+              "received_windows_s": "241246.9884737",
+              "decoded_windows_s": "241246.9966654",
+              "deadline_s": "221499.276743249",
+              "published_s": "221499.276962053",
+              "decode_ms": "3.1952560239005834",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "3",
+              "original_source_frame": "277",
+              "original_video_s": "0.05"
+            },
+            {
+              "video_frame": "4",
+              "source_frame": "4",
+              "video_s": "0.06666666666666667",
+              "received_windows_s": "241247.0081796",
+              "decoded_windows_s": "241247.0149895",
+              "deadline_s": "221499.2934099157",
+              "published_s": "221499.293680181",
+              "decode_ms": "3.172665979946032",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "4",
+              "original_source_frame": "278",
+              "original_video_s": "0.06666666666666667"
+            }
+          ]
+        }
+      ]
+    },
+    "precollect": {
+      "status": "completed",
+      "counts": {
+        "offered_frames": 19800,
+        "processed_frames": 19800,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcome_counts": {
+        "processed": 19800
+      },
+      "metrics": {
+        "queue_ms": {
+          "min": 0.15446299221366644,
+          "median": 0.25987651315517724,
+          "p95": 0.40088649693643674,
+          "p99": 0.5154135561315342,
+          "max": 6.04418502189219
+        },
+        "process_ms": {
+          "min": 7.710236997809261,
+          "median": 9.23857800080441,
+          "p95": 10.951039862993639,
+          "p99": 12.488523276115302,
+          "max": 21.576879982603714
+        },
+        "core_ms": {
+          "min": 7.174321013735607,
+          "median": 8.669493996421807,
+          "p95": 10.333685553632677,
+          "p99": 11.825246619409867,
+          "max": 20.673691004049033
+        },
+        "age_ms": {
+          "min": 8.06307332823053,
+          "median": 9.681274663307704,
+          "p95": 11.475386573874856,
+          "p99": 13.168293793278268,
+          "max": 22.6770986628253
+        },
+        "send_late_ms": {
+          "min": 0.12680568033829331,
+          "median": 0.16420666361227632,
+          "p95": 0.22511330316774544,
+          "p99": 0.26889617089182116,
+          "max": 8.31643000128679
+        },
+        "decode_ms": {
+          "min": 2.269753982545808,
+          "median": 3.4415929985698313,
+          "p95": 4.541858563607093,
+          "p99": 6.079382469470129,
+          "max": 24.43401498021558
+        }
+      },
+      "process_ms": {
+        "min": 7.710236997809261,
+        "median": 9.23857800080441,
+        "p95": 10.951039862993639,
+        "p99": 12.488523276115302,
+        "max": 21.576879982603714
+      },
+      "gc_during_frames": {
+        "counts": {
+          "0": 8
+        },
+        "max_ms": 0.04061302752234042,
+        "collected": 0
+      },
+      "gc_outside_frames": [
+        {
+          "phase": "preparation",
+          "thread_id": "719309",
+          "generation": "0",
+          "start_s": "221833.915174946",
+          "end_s": "221833.915298368",
+          "wall_ms": "0.12342198169790208",
+          "thread_cpu_ms": "0.12227100000006264",
+          "collected": "95",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        },
+        {
+          "phase": "preparation",
+          "thread_id": "719309",
+          "generation": "0",
+          "start_s": "221833.91838757",
+          "end_s": "221833.918482618",
+          "wall_ms": "0.09504798799753189",
+          "thread_cpu_ms": "0.0947839999999589",
+          "collected": "0",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        },
+        {
+          "phase": "pre_stream_collection",
+          "thread_id": "719309",
+          "generation": "2",
+          "start_s": "221834.913070129",
+          "end_s": "221834.922949836",
+          "wall_ms": "9.879707009531558",
+          "thread_cpu_ms": "9.88035399999998",
+          "collected": "33",
+          "uncollectable": "0",
+          "trigger_stack": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:137:begin_stream | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/paced_replay.py:417:paced_replay | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:234:main | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:248:<module> | <frozen runpy>:88:_run_code | <frozen runpy>:198:_run_module_as_main"
+        },
+        {
+          "phase": "stream",
+          "thread_id": "719309",
+          "generation": "0",
+          "start_s": "222165.116257186",
+          "end_s": "222165.116308638",
+          "wall_ms": "0.051452021580189466",
+          "thread_cpu_ms": "0.05041299999675175",
+          "collected": "0",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        },
+        {
+          "phase": "shutdown",
+          "thread_id": "719309",
+          "generation": "2",
+          "start_s": "222165.180724676",
+          "end_s": "222165.192179538",
+          "wall_ms": "11.45486198947765",
+          "thread_cpu_ms": "11.44456800000171",
+          "collected": "66",
+          "uncollectable": "0",
+          "trigger_stack": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:166:finish | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/paced_replay.py:479:paced_replay | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:234:main | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:248:<module> | <frozen runpy>:88:_run_code | <frozen runpy>:198:_run_module_as_main"
+        }
+      ],
+      "memory": {
+        "sampled_max_mib": 191.5546875,
+        "median_30_to_90_s_mib": 191.185546875,
+        "median_last_60_s_mib": 191.55078125,
+        "growth_mib": 0.365234375
+      },
+      "all_saved": true,
+      "settings_restored": true,
+      "max_pending_records": 2,
+      "pending_at_end": 0,
+      "scientific_tables": {
+        "frames": {
+          "rows": 19800,
+          "sha256": "64d5d8e1b1e90cb1e81ed4d9e114af8f78c9d8dd83e282bc0a8706a22a4f73f5"
+        },
+        "observations": {
+          "rows": 337646,
+          "sha256": "ade8ab3527b0389e05c3590dddab6e9149c4d7168366600af7c0173948880877"
+        },
+        "tracks": {
+          "rows": 2928,
+          "sha256": "e98753b56e80a8b9adc1f10114373be320eddf6f1731e27ead0de892efa563c3"
+        },
+        "events": {
+          "rows": 5841,
+          "sha256": "4217d042713e6e0a9f12da427ec5635b17ad0749482e191639becd25eb04efe8"
+        },
+        "event_updates": {
+          "rows": 11682,
+          "sha256": "70683ca994699b2676c56bd47543eec27ce1975220c77433d6f12f4765215fd3"
+        },
+        "track_updates": {
+          "rows": 7754,
+          "sha256": "3b141dd8ada7d8bcf37c7b725917cb2420464c9d20eb3fd8ea1b3b2935dd7ea0"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "worst_frame": {
+        "source_frame": 10397,
+        "process_ms": 21.576879982603714,
+        "gc_overlap_ms": 0
+      },
+      "gap_context": []
+    },
+    "cancel_precollect": {
+      "status": "cancelled",
+      "counts": {
+        "offered_frames": 121,
+        "processed_frames": 120,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 1
+      },
+      "outcome_counts": {
+        "processed": 120,
+        "abandoned_on_stop": 1
+      },
+      "metrics": {
+        "queue_ms": {
+          "min": 0.15892600640654564,
+          "median": 0.29048848955426365,
+          "p95": 0.6581755529623479,
+          "p99": 10.7956677931361,
+          "max": 15.406991995405406
+        },
+        "process_ms": {
+          "min": 8.871404017554596,
+          "median": 10.96240250626579,
+          "p95": 12.2745602944633,
+          "p99": 13.784918654127981,
+          "max": 30.821646010736004
+        },
+        "core_ms": {
+          "min": 8.139735989971086,
+          "median": 9.896645991830155,
+          "p95": 11.059861896501388,
+          "p99": 12.530839270330038,
+          "max": 28.665038000326604
+        },
+        "age_ms": {
+          "min": 9.306427993578836,
+          "median": 11.472960482933559,
+          "p95": 13.214151847932953,
+          "p99": 27.173401030304387,
+          "max": 31.861975003266707
+        },
+        "send_late_ms": {
+          "min": 0.14426998677663505,
+          "median": 0.15991966938599944,
+          "p95": 0.20238730940036476,
+          "p99": 0.3250125970225778,
+          "max": 0.3789049806073308
+        },
+        "decode_ms": {
+          "min": 2.3046190035529435,
+          "median": 3.2813700090628117,
+          "p95": 4.008207004517317,
+          "p99": 5.656624014955013,
+          "max": 23.340190993621945
+        }
+      },
+      "process_ms": {
+        "min": 8.871404017554596,
+        "median": 10.96240250626579,
+        "p95": 12.2745602944633,
+        "p99": 13.784918654127981,
+        "max": 30.821646010736004
+      },
+      "gc_during_frames": {
+        "counts": {
+          "0": 1
+        },
+        "max_ms": 0.04162601544521749,
+        "collected": 0
+      },
+      "gc_outside_frames": [
+        {
+          "phase": "preparation",
+          "thread_id": "720614",
+          "generation": "0",
+          "start_s": "222169.785592598",
+          "end_s": "222169.785699341",
+          "wall_ms": "0.10674301302060485",
+          "thread_cpu_ms": "0.1057399999999653",
+          "collected": "95",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        },
+        {
+          "phase": "preparation",
+          "thread_id": "720614",
+          "generation": "0",
+          "start_s": "222169.788576243",
+          "end_s": "222169.788647069",
+          "wall_ms": "0.07082600495778024",
+          "thread_cpu_ms": "0.07027300000000958",
+          "collected": "0",
+          "uncollectable": "0",
+          "trigger_stack": ""
+        },
+        {
+          "phase": "pre_stream_collection",
+          "thread_id": "720614",
+          "generation": "2",
+          "start_s": "222170.774442343",
+          "end_s": "222170.782809625",
+          "wall_ms": "8.367281989194453",
+          "thread_cpu_ms": "8.367732000000016",
+          "collected": "33",
+          "uncollectable": "0",
+          "trigger_stack": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:137:begin_stream | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/paced_replay.py:417:paced_replay | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:234:main | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:248:<module> | <frozen runpy>:88:_run_code | <frozen runpy>:198:_run_module_as_main"
+        },
+        {
+          "phase": "shutdown",
+          "thread_id": "720614",
+          "generation": "2",
+          "start_s": "222173.03505889",
+          "end_s": "222173.04447815",
+          "wall_ms": "9.419259993592277",
+          "thread_cpu_ms": "9.397979000000056",
+          "collected": "66",
+          "uncollectable": "0",
+          "trigger_stack": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:166:finish | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/paced_replay.py:479:paced_replay | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:234:main | /home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/gc_replay_check.py:248:<module> | <frozen runpy>:88:_run_code | <frozen runpy>:198:_run_module_as_main"
+        }
+      ],
+      "memory": {
+        "sampled_max_mib": 172.82421875
+      },
+      "all_saved": true,
+      "settings_restored": true,
+      "max_pending_records": 2,
+      "pending_at_end": 0,
+      "scientific_tables": {
+        "frames": {
+          "rows": 120,
+          "sha256": "38dea2a29f12f2de9f2851003354bdf6f9bde3a4a33c11f953e89ead50fdc36a"
+        },
+        "observations": {
+          "rows": 2440,
+          "sha256": "67ab99f3922b57bf4cfae13d4730ea6bd2f8dc7808ab9706bfae71ce0463b84f"
+        },
+        "tracks": {
+          "rows": 30,
+          "sha256": "e17ab7b206f8a3ea42fe5f9d3c54f15202bcf7c7b2cd5fd90160c06787c95617"
+        },
+        "events": {
+          "rows": 39,
+          "sha256": "10614513976c3d30b8a797bfcd356ee703ea09d78372a5c956eeeaea86c1890d"
+        },
+        "event_updates": {
+          "rows": 78,
+          "sha256": "7fc29be5077f2875ada2d94546f5416a38e4e7b43fd4684543c2faff7932bc10"
+        },
+        "track_updates": {
+          "rows": 87,
+          "sha256": "533f8e3525f2fa7c5b263e704b6f9cadc64bc82df0df8b4cf3f79e07d7ddbe57"
+        },
+        "input_rejections": {
+          "rows": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "worst_frame": {
+        "source_frame": 0,
+        "process_ms": 30.821646010736004,
+        "gc_overlap_ms": 0
+      },
+      "gap_context": [
+        {
+          "gap": {
+            "video_frame": "120",
+            "source_frame": "120",
+            "video_s": "2.0",
+            "outcome": "abandoned_on_stop"
+          },
+          "nearby_consumer": [
+            {
+              "video_frame": "117",
+              "source_frame": "117",
+              "video_s": "1.95",
+              "taken_s": "222172.933309712",
+              "process_start_s": "222172.933312137",
+              "finished_s": "222172.945584134",
+              "send_late_ms": "0.1681589928921312",
+              "queue_ms": "0.31829799991101027",
+              "injected_ms": "0.0024249893613159657",
+              "process_ms": "12.271996994968504",
+              "core_ms": "11.011022026650608",
+              "age_ms": "12.760878977132961",
+              "active_tracks": "22",
+              "outcome": "processed"
+            },
+            {
+              "video_frame": "118",
+              "source_frame": "118",
+              "video_s": "1.9666666666666666",
+              "taken_s": "222172.950293728",
+              "process_start_s": "222172.950296406",
+              "finished_s": "222172.961386377",
+              "send_late_ms": "0.1623063290026039",
+              "queue_ms": "0.6414999952539802",
+              "injected_ms": "0.0026779889594763517",
+              "process_ms": "11.089970998000354",
+              "core_ms": "9.6666710160207",
+              "age_ms": "11.896455311216414",
+              "active_tracks": "22",
+              "outcome": "processed"
+            },
+            {
+              "video_frame": "119",
+              "source_frame": "119",
+              "video_s": "1.9833333333333334",
+              "taken_s": "222172.966625486",
+              "process_start_s": "222172.966628069",
+              "finished_s": "222172.977591016",
+              "send_late_ms": "0.1863546494860202",
+              "queue_ms": "0.2825430128723383",
+              "injected_ms": "0.002582994056865573",
+              "process_ms": "10.962947009829804",
+              "core_ms": "10.015912004746497",
+              "age_ms": "11.434427666245028",
+              "active_tracks": "21",
+              "outcome": "processed"
+            }
+          ],
+          "nearby_source": [
+            {
+              "video_frame": "117",
+              "source_frame": "117",
+              "video_s": "1.95",
+              "received_windows_s": "241248.8921786",
+              "decoded_windows_s": "241248.8968263",
+              "deadline_s": "222172.93282325502",
+              "published_s": "222172.932991414",
+              "decode_ms": "3.053692023968324",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "117",
+              "original_source_frame": "391",
+              "original_video_s": "1.95"
+            },
+            {
+              "video_frame": "118",
+              "source_frame": "118",
+              "video_s": "1.9666666666666666",
+              "received_windows_s": "241248.9066443",
+              "decoded_windows_s": "241248.9111737",
+              "deadline_s": "222172.94948992168",
+              "published_s": "222172.949652228",
+              "decode_ms": "3.3334899926558137",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "118",
+              "original_source_frame": "392",
+              "original_video_s": "1.9666666666666666"
+            },
+            {
+              "video_frame": "119",
+              "source_frame": "119",
+              "video_s": "1.9833333333333334",
+              "received_windows_s": "241248.9288482",
+              "decoded_windows_s": "241248.9337875",
+              "deadline_s": "222172.96615658834",
+              "published_s": "222172.966342943",
+              "decode_ms": "3.6118309944868088",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "119",
+              "original_source_frame": "393",
+              "original_video_s": "1.9833333333333334"
+            },
+            {
+              "video_frame": "120",
+              "source_frame": "120",
+              "video_s": "2.0",
+              "received_windows_s": "241248.9490657",
+              "decoded_windows_s": "241248.9537564",
+              "deadline_s": "222172.982823255",
+              "published_s": "222172.982986716",
+              "decode_ms": "3.8163709978107363",
+              "replaced_video_frame": "",
+              "replay_cycle": "0",
+              "original_video_frame": "120",
+              "original_source_frame": "394",
+              "original_video_s": "2.0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "code_unchanged": {
+    "gc_replay_check.py": true,
+    "paced_replay.py": true,
+    "bubble_tracker.py": true,
+    "online_tracking.py": true,
+    "async_store.py": true,
+    "online_store.py": true,
+    "tests/test_gc_timing.py": true,
+    "paced_source.py": true,
+    "frame_conversion.py": true,
+    "paced_report.py": true,
+    "online_replay.py": true
+  },
+  "inputs_unchanged": {
+    "data/raw/expA.mp4": true,
+    "results/B_offline/background.npy": true,
+    "data/pzt/manifest.json": true,
+    "data/pzt/expA/video_frames.csv": true,
+    "data/pzt/expA/actions.csv": true,
+    "data/pzt/expA/link_session.json": true
+  },
+  "paired_processed_frames_identical": false,
+  "paired_scientific_tables_identical": null,
+  "matches_previous_complete_baseline": {
+    "normal": false,
+    "precollect": true
+  },
+  "comparison_limit": "Different processed input sequences cannot establish paired output equality.",
+  "scope": "Offline 1x A replay only; no live camera, recording or AFG load."
+}

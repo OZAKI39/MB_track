@@ -1,0 +1,691 @@
+{
+  "state": "SAVED",
+  "written_frames": 1011,
+  "submitted_frames": 1185,
+  "dropped_frames": 174,
+  "error": null,
+  "directory": "customer_workspace/validation/video_20s_20261025-140240/capture_after_uuid_fix",
+  "schema": "EXPERIMENT_VIDEO_1.1",
+  "start_utc": "2026-10-25T13:06:22.470210+00:00",
+  "start_monotonic": 221227.589518308,
+  "first_received_monotonic": 221229.583848624,
+  "last_frame_elapsed_s": 19.999203357991064,
+  "time_base": "1/1000000",
+  "timeline": "WSL/local monotonic receive intervals; variable frame rate; no synthetic frames",
+  "utc_scope": "local host receive wall clock; not camera exposure time",
+  "recording_scope": "Received preview frames only; not the camera internal high-speed recording",
+  "raw_encoding": "H.264 CRF18 yuv420p; unannotated, not lossless sensor data",
+  "annotations": "Exact frame preferred; recent past overlay delay recorded in metadata; future/stale/other-ROI results excluded",
+  "piv_display": {
+    "velocity_units": "px/s",
+    "gain_seconds": 0.8,
+    "maximum_arrow_length_px": 40.0,
+    "sampling_cell_px": 48.0,
+    "zero_motion": "No directional arrow below 3 display pixels",
+    "reference_speed_px_s": 25.0,
+    "glyph": "Thin open arrowhead; no filled triangle",
+    "stroke_screen_px": 1.35,
+    "smooth_grid_px": 72.0,
+    "smooth_time_constant_s": 0.12,
+    "smoothing": "Display only: local spatial mean then causal EMA; no missing-cell persistence; raw data unchanged"
+  },
+  "overlay_display": {
+    "brightness": "Constant throughout the original validity window",
+    "stale_results": "Removed at the original TTL",
+    "temporal_interpolation": false,
+    "piv_smoothing": "Optional display-only spatial mean and causal temporal filter; raw observations unchanged"
+  },
+  "typography": {
+    "family": "Arial",
+    "path": "/mnt/c/Windows/Fonts/arial.ttf",
+    "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "captions": "Essential measurements and status only; interpretation stored in metadata"
+  },
+  "pzt_recording": {
+    "samples": "pzt_readbacks.jsonl",
+    "geometry": "pzt_experiment_model.json",
+    "sample_count": 1,
+    "frame_reference": "video_frames.jsonl: pzt_sample_id, pzt_frame_unix_s",
+    "association": "Latest monitor observation available at local frame arrival; no future readback; not exposure synchronized",
+    "replay_policy": "No live AFG values assigned to historical replay",
+    "overlay": "Native camera pixels plus black PZT status/layout sidebar; raw video dimensions unchanged"
+  },
+  "source_modes": [
+    "LIVE_CAMERA"
+  ],
+  "match_counts": {
+    "EXACT_FRAME": 0,
+    "RECENT_PAST_FRAME": 0,
+    "NO_CURRENT_ANALYSIS": 1011
+  },
+  "parts": [
+    {
+      "part": 1,
+      "raw": "experiment_raw.mp4",
+      "overlay": "experiment_overlay.mp4",
+      "source_mode": "LIVE_CAMERA",
+      "image_wh": [
+        1280,
+        1024
+      ],
+      "encoded_wh": [
+        1280,
+        1024
+      ],
+      "overlay_encoded_wh": [
+        1964,
+        1024
+      ],
+      "overlay_camera_xy": [
+        0,
+        0
+      ],
+      "start_elapsed_s": 0.0,
+      "frames": 1011
+    }
+  ],
+  "dropped_frame_examples": [
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 616,
+      "arrival_monotonic": 221239.33946825,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 626,
+      "arrival_monotonic": 221239.525883652,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 628,
+      "arrival_monotonic": 221239.553781259,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 632,
+      "arrival_monotonic": 221239.610027698,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 639,
+      "arrival_monotonic": 221239.740762553,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 641,
+      "arrival_monotonic": 221239.762577916,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 643,
+      "arrival_monotonic": 221239.783720942,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 651,
+      "arrival_monotonic": 221239.921193662,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 659,
+      "arrival_monotonic": 221240.060657648,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 665,
+      "arrival_monotonic": 221240.163133313,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 667,
+      "arrival_monotonic": 221240.185621139,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 678,
+      "arrival_monotonic": 221240.376147894,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 684,
+      "arrival_monotonic": 221240.483759248,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 686,
+      "arrival_monotonic": 221240.50860029,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 694,
+      "arrival_monotonic": 221240.63659207,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 698,
+      "arrival_monotonic": 221240.708711543,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 701,
+      "arrival_monotonic": 221240.751595667,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 711,
+      "arrival_monotonic": 221240.935264742,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 716,
+      "arrival_monotonic": 221241.007060708,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 717,
+      "arrival_monotonic": 221241.016738197,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 722,
+      "arrival_monotonic": 221241.100956984,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 738,
+      "arrival_monotonic": 221241.379839498,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 745,
+      "arrival_monotonic": 221241.486872672,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 749,
+      "arrival_monotonic": 221241.553968502,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 770,
+      "arrival_monotonic": 221241.914628244,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 776,
+      "arrival_monotonic": 221242.014987894,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 782,
+      "arrival_monotonic": 221242.113951117,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 784,
+      "arrival_monotonic": 221242.141212728,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 789,
+      "arrival_monotonic": 221242.223096867,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 795,
+      "arrival_monotonic": 221242.322091501,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 805,
+      "arrival_monotonic": 221242.496187945,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 812,
+      "arrival_monotonic": 221242.612119294,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 819,
+      "arrival_monotonic": 221242.729134858,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 824,
+      "arrival_monotonic": 221242.81005193,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 829,
+      "arrival_monotonic": 221242.893460753,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 833,
+      "arrival_monotonic": 221242.962558298,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 836,
+      "arrival_monotonic": 221243.008531779,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 841,
+      "arrival_monotonic": 221243.095522648,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 846,
+      "arrival_monotonic": 221243.179904376,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 851,
+      "arrival_monotonic": 221243.257094841,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 859,
+      "arrival_monotonic": 221243.396444091,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 860,
+      "arrival_monotonic": 221243.406951017,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 870,
+      "arrival_monotonic": 221243.58379745,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 877,
+      "arrival_monotonic": 221243.691706054,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 882,
+      "arrival_monotonic": 221243.778726596,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 887,
+      "arrival_monotonic": 221243.860060844,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 891,
+      "arrival_monotonic": 221243.918742021,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 904,
+      "arrival_monotonic": 221244.136111566,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 915,
+      "arrival_monotonic": 221244.313578337,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 925,
+      "arrival_monotonic": 221244.490826963,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 932,
+      "arrival_monotonic": 221244.607562518,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 935,
+      "arrival_monotonic": 221244.659480674,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 939,
+      "arrival_monotonic": 221244.72202361,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 947,
+      "arrival_monotonic": 221244.860915534,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 952,
+      "arrival_monotonic": 221244.939703557,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 961,
+      "arrival_monotonic": 221245.103420029,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 965,
+      "arrival_monotonic": 221245.16256894,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 968,
+      "arrival_monotonic": 221245.210917917,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 969,
+      "arrival_monotonic": 221245.219923971,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 979,
+      "arrival_monotonic": 221245.391711877,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 982,
+      "arrival_monotonic": 221245.437311189,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 986,
+      "arrival_monotonic": 221245.500326804,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 994,
+      "arrival_monotonic": 221245.644397988,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 998,
+      "arrival_monotonic": 221245.709498564,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1000,
+      "arrival_monotonic": 221245.734250029,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1006,
+      "arrival_monotonic": 221245.833009552,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1013,
+      "arrival_monotonic": 221245.953517777,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1021,
+      "arrival_monotonic": 221246.091613763,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1026,
+      "arrival_monotonic": 221246.172855015,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1033,
+      "arrival_monotonic": 221246.283260546,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1036,
+      "arrival_monotonic": 221246.331486576,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1044,
+      "arrival_monotonic": 221246.468693528,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1050,
+      "arrival_monotonic": 221246.565615575,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1059,
+      "arrival_monotonic": 221246.723394803,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1064,
+      "arrival_monotonic": 221246.800905903,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1075,
+      "arrival_monotonic": 221246.979874765,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1081,
+      "arrival_monotonic": 221247.079788155,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1087,
+      "arrival_monotonic": 221247.180515247,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1097,
+      "arrival_monotonic": 221247.350537979,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1100,
+      "arrival_monotonic": 221247.399063339,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1104,
+      "arrival_monotonic": 221247.458727524,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1115,
+      "arrival_monotonic": 221247.65845997,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1118,
+      "arrival_monotonic": 221247.701156768,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1123,
+      "arrival_monotonic": 221247.783335994,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1131,
+      "arrival_monotonic": 221247.913443696,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1137,
+      "arrival_monotonic": 221248.017265998,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1139,
+      "arrival_monotonic": 221248.042700957,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1146,
+      "arrival_monotonic": 221248.175167732,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1148,
+      "arrival_monotonic": 221248.20186582,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1153,
+      "arrival_monotonic": 221248.281299732,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1158,
+      "arrival_monotonic": 221248.367944287,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1161,
+      "arrival_monotonic": 221248.414672904,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1173,
+      "arrival_monotonic": 221248.618436574,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1180,
+      "arrival_monotonic": 221248.707299252,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1186,
+      "arrival_monotonic": 221248.810630167,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1202,
+      "arrival_monotonic": 221249.08097443,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1210,
+      "arrival_monotonic": 221249.208201469,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1216,
+      "arrival_monotonic": 221249.312060918,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1226,
+      "arrival_monotonic": 221249.476392121,
+      "reason": "QUEUE_FULL"
+    },
+    {
+      "session_id": "ac4ee825c504493c83ab7cce0a059483:1",
+      "frame_id": 1227,
+      "arrival_monotonic": 221249.486048472,
+      "reason": "QUEUE_FULL"
+    }
+  ],
+  "metadata": "video_frames.jsonl",
+  "video_complete": false
+}

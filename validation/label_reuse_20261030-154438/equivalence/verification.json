@@ -1,0 +1,208 @@
+{
+  "environment": {
+    "os": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "cpu_count": 24,
+    "affinity_count": 24,
+    "opencv": "4.10.0",
+    "opencv_threads": 24,
+    "numpy": "2.2.6",
+    "pyav": "19.0.1",
+    "perf_counter": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "monotonic": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    }
+  },
+  "videos": {
+    "A": {
+      "frames": 1320,
+      "inputs": {
+        "experiment_id": "16d693442d714bc9974415faaf02d5ff",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+        "video_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+        "reference": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+        "reference_sha256": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8",
+        "pzt": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expA",
+        "synchronization_hashes": {
+          "link_session.json": "e195160acfcbf02c1a4e9ddba88b0429cd93534ef04dcabe0739fbdda8abf144",
+          "video_frames.csv": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2",
+          "actions.csv": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7"
+        },
+        "expected_frames": 1320,
+        "expected_actions": 20,
+        "clock_margin_s": 0.0001109000004362315,
+        "precision_notes": [
+          "\u4e24\u7aef\u4e3a\u540c\u4e00Windows\u4e3b\u673a\u7684\u516c\u5171monotonic/QPC\u65f6\u949f\uff0c\u5b9e\u9a8c\u524d\u540e\u53cc\u5411\u6838\u5bf9\uff0c\u4e0d\u4f7f\u7528WSL\u8ba1\u65f6\u5668\u505a\u5dee\u3002",
+          "\u5bf9\u5e94\u8303\u56f4\u8868\u793a\u52a8\u4f5c\u8c03\u7528\u524d\u540e\u63a5\u6536\u7aef\u6536\u5230\u7684\u5e27\uff1b\u63a5\u6536\u65f6\u95f4\u53d6\u538b\u7f29\u5e27\u89e3\u6790\u540e\uff0c\u89e3\u7801\u65f6\u95f4\u53e6\u5b58\u3002",
+          "AFG\u786e\u8ba4\u662f\u5207\u6362\u540e\u7ea61\u79d2\u7684\u7a33\u5b9a\u8bfb\u56de\uff1b\u53d1\u9001\u5230\u786e\u8ba4\u4e4b\u95f4\u662f\u8f6f\u4ef6\u786e\u8ba4\u533a\u95f4\uff0c\u4e0d\u662f\u6a21\u62df\u7535\u538b\u53d8\u5316\u533a\u95f4\u3002",
+          "\u65f6\u949f\u6838\u5bf9\u5305\u7edc\u548c\u5e27\u8303\u56f4\u4e0d\u80fd\u8986\u76d6\u672a\u77e5\u7684\u66dd\u5149\u3001\u76f8\u673a\u7f16\u7801/\u7f51\u7edc\u4f20\u8f93\u548cAFG\u6a21\u62df\u8f93\u51fa\u5ef6\u8fdf\uff1b\u7269\u7406\u540c\u6b65\u8bef\u5dee\u672a\u77e5\u3002",
+          "\u89c6\u9891\u5e27\u7f16\u53f7\u4ece0\u5f00\u59cb\uff1b\u5de5\u4f5c\u6bb5\u6309\u771f\u5b9e\u547d\u4ee4\u53d1\u9001\u63a8\u7b97\uff0c\u4e0d\u8868\u793a\u5df2\u6d4b\u5f97\u58f0\u6ce2\u5f3a\u5f31\u3002"
+        ]
+      },
+      "all_equal": true,
+      "events": {
+        "appear": 145,
+        "enter": 11,
+        "lost": 121,
+        "merge": 36,
+        "exit": 9,
+        "split": 25
+      },
+      "remap_temporary_peak_bytes": [
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        }
+      ],
+      "fixed_selection_bytes": 1310720,
+      "fixed_index_bytes": 655360,
+      "fixed_output_bytes": 2621440
+    },
+    "B": {
+      "frames": 1320,
+      "inputs": {
+        "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+        "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+        "video_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+        "reference": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/A_offline/background.npy",
+        "reference_sha256": "ab122a45cd3e0ddf8f17f99be58655b4b67a383afe0f6dd3df51d9399bb68941",
+        "pzt": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/pzt/expB",
+        "synchronization_hashes": {
+          "link_session.json": "158c29b5d0b15d4701140e2bcbb84660c2d788104c85308552902287502d1bac",
+          "video_frames.csv": "b505124a09083355e35875fd775b1fb8ca4725e09cab30c44774521110a702bd",
+          "actions.csv": "dafcd50ff6127b8216d774f79c81d5e04b5a74828f27de27896eace93d1e5721"
+        },
+        "expected_frames": 1320,
+        "expected_actions": 14,
+        "clock_margin_s": 9.53000271692872e-05,
+        "precision_notes": [
+          "\u4e24\u7aef\u4e3a\u540c\u4e00Windows\u4e3b\u673a\u7684\u516c\u5171monotonic/QPC\u65f6\u949f\uff0c\u5b9e\u9a8c\u524d\u540e\u53cc\u5411\u6838\u5bf9\uff0c\u4e0d\u4f7f\u7528WSL\u8ba1\u65f6\u5668\u505a\u5dee\u3002",
+          "\u5bf9\u5e94\u8303\u56f4\u8868\u793a\u52a8\u4f5c\u8c03\u7528\u524d\u540e\u63a5\u6536\u7aef\u6536\u5230\u7684\u5e27\uff1b\u63a5\u6536\u65f6\u95f4\u53d6\u538b\u7f29\u5e27\u89e3\u6790\u540e\uff0c\u89e3\u7801\u65f6\u95f4\u53e6\u5b58\u3002",
+          "AFG\u786e\u8ba4\u662f\u5207\u6362\u540e\u7ea61\u79d2\u7684\u7a33\u5b9a\u8bfb\u56de\uff1b\u53d1\u9001\u5230\u786e\u8ba4\u4e4b\u95f4\u662f\u8f6f\u4ef6\u786e\u8ba4\u533a\u95f4\uff0c\u4e0d\u662f\u6a21\u62df\u7535\u538b\u53d8\u5316\u533a\u95f4\u3002",
+          "\u65f6\u949f\u6838\u5bf9\u5305\u7edc\u548c\u5e27\u8303\u56f4\u4e0d\u80fd\u8986\u76d6\u672a\u77e5\u7684\u66dd\u5149\u3001\u76f8\u673a\u7f16\u7801/\u7f51\u7edc\u4f20\u8f93\u548cAFG\u6a21\u62df\u8f93\u51fa\u5ef6\u8fdf\uff1b\u7269\u7406\u540c\u6b65\u8bef\u5dee\u672a\u77e5\u3002",
+          "\u89c6\u9891\u5e27\u7f16\u53f7\u4ece0\u5f00\u59cb\uff1b\u5de5\u4f5c\u6bb5\u6309\u771f\u5b9e\u547d\u4ee4\u53d1\u9001\u63a8\u7b97\uff0c\u4e0d\u8868\u793a\u5df2\u6d4b\u5f97\u58f0\u6ce2\u5f3a\u5f31\u3002"
+        ]
+      },
+      "all_equal": true,
+      "events": {
+        "appear": 59,
+        "split": 13,
+        "merge": 13,
+        "lost": 46,
+        "enter": 4,
+        "exit": 4
+      },
+      "remap_temporary_peak_bytes": [
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        },
+        {
+          "index": 2689824,
+          "reuse": 736
+        }
+      ],
+      "fixed_selection_bytes": 1310720,
+      "fixed_index_bytes": 655360,
+      "fixed_output_bytes": 2621440
+    }
+  },
+  "status": "passed"
+}

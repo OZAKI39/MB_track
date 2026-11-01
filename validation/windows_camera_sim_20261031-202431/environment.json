@@ -1,0 +1,10 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.2",
+  "script_sha256": "e70eeeb41adabed2d5f691dc6224c35f954099e69fef92c04eada4fe583b0208",
+  "mode": "verify",
+  "transport": "udp",
+  "root": "F:\\MB_camera_sim",
+  "hardware": false,
+  "wsl_analysis": false
+}

@@ -1,0 +1,102 @@
+{
+  "configs/chronos_config.json": {
+    "before": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+    "after": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+    "unchanged": true
+  },
+  "customer_workspace/configs/afg_video.json": {
+    "before": "f4fdb3934b4963bd5c2bcfd64f5bba9ab206f35e8c75ae7c35fb2088173b686d",
+    "after": "f4fdb3934b4963bd5c2bcfd64f5bba9ab206f35e8c75ae7c35fb2088173b686d",
+    "unchanged": true
+  },
+  "customer_workspace/parallel_camera.py": {
+    "before": "fe11b7c9f5ec8b020471dd20e058098e7f7c7fb495689d84cc47861d79fbf493",
+    "after": "fe11b7c9f5ec8b020471dd20e058098e7f7c7fb495689d84cc47861d79fbf493",
+    "unchanged": true
+  },
+  "customer_workspace/parallel_camera_bridge.py": {
+    "before": "d9efc7a2efe528872739a40c0da837eedb24431c36a67605e11ca6b223f37049",
+    "after": "d9efc7a2efe528872739a40c0da837eedb24431c36a67605e11ca6b223f37049",
+    "unchanged": true
+  },
+  "customer_workspace/parallel_video_check.py": {
+    "before": "7846096b99781055eeea0564e2d11d2b472fc51ee6f320989d7d775ee9149d40",
+    "after": "9c51d22c9eaef7b96460e734045f7feda615eee9917202b2fd5f3b2daebe5e9a",
+    "unchanged": false
+  },
+  "customer_workspace/streamcopy_recording.py": {
+    "before": "d3873dea51acf5606901052761ec9a166b3e24e17af102faea738dd9c833af6e",
+    "after": "d3873dea51acf5606901052761ec9a166b3e24e17af102faea738dd9c833af6e",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/bubble_tracker.py": {
+    "before": "026e838a96643626ba5d79bb010aa3916f401cba23bbd3879322352adfa79d0e",
+    "after": "026e838a96643626ba5d79bb010aa3916f401cba23bbd3879322352adfa79d0e",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/online_tracking.py": {
+    "before": "e2cdfe08e877f12fda8dc2c3cfc8a8518da20f017336723417aa2483b986a469",
+    "after": "e2cdfe08e877f12fda8dc2c3cfc8a8518da20f017336723417aa2483b986a469",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/frame_conversion.py": {
+    "before": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3",
+    "after": "ef359d006ccb9952a1153278f8c75e01c7ced0d70cf5c9cf254eca03598aeff3",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/online_store.py": {
+    "before": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "after": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/async_store.py": {
+    "before": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "after": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/data/raw/expA.mp4": {
+    "before": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "after": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/data/raw/expB.mp4": {
+    "before": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "after": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "unchanged": true
+  },
+  "customer_workspace/README.md": {
+    "before": "76d93f74d044337f7de9c89eb56ea9ec0ceec296e179ba0f9de3a4e9cc45cbb7",
+    "after": "e0ea460eca986380d83e0d86cbff7c73b4d27fb147a18a84c867bc3ad2f5ada2",
+    "unchanged": false
+  },
+  "customer_workspace/tests/test_camera_tracking.py": {
+    "before": "14b6cfed2ccc80ce8ad073ec589dc0727eacf584d245a0ad6708af99a77ec4c4",
+    "after": "eee5fd2f5df654d1169bed35bfe8b8c8f8471893a4b54759c204c7e5cd57ce40",
+    "unchanged": false
+  },
+  "customer_workspace/tools/tracking_latency_report.py": {
+    "before": "6294b0afd768a6e65f26abeb455852e7f0f4fadac0f7ac04524b469b857ff0f2",
+    "after": "6294b0afd768a6e65f26abeb455852e7f0f4fadac0f7ac04524b469b857ff0f2",
+    "unchanged": true
+  },
+  "customer_workspace/tools/frame_waiting_check.py": {
+    "before": "67e5f8ae925ad20060d917b097b3d5e6d7062072b1e03be2a7458082651bb2f4",
+    "after": "67e5f8ae925ad20060d917b097b3d5e6d7062072b1e03be2a7458082651bb2f4",
+    "unchanged": true
+  },
+  "customer_workspace/tracking_latency.py": {
+    "before": "437ab0bb1da2c0d46656ce5c1a6a09409b1b1a9f053da8275a34673f6d9da004",
+    "after": "437ab0bb1da2c0d46656ce5c1a6a09409b1b1a9f053da8275a34673f6d9da004",
+    "unchanged": true
+  },
+  "customer_workspace/microbubble_tracking/stall_probe.py": {
+    "before": "4803c4466c204faeae740e0463f8cf7fea65ded9dc65990d828927476417f479",
+    "after": "2246a810e1a80fe680559269d94158c828d279b19a76e3efa6821040e7eeff1f",
+    "unchanged": false
+  },
+  "customer_workspace/microbubble_tracking/native_stall_watch.py": {
+    "before": "9533e96de1bf5832af789c68d23c31454c6c84c41c11d98d280a024d9cc696cb",
+    "after": "89ea51b7e7dd8083510b035ae3572d0c50bd028d468dd8a037815d22eb76ce29",
+    "unchanged": false
+  }
+}

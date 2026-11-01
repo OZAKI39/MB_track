@@ -1,0 +1,17 @@
+{
+  "reason": "Float interpolation produced a distance slightly below the configured minimum; strict threshold can retain an extra boundary pixel. Profiles remain unadopted. Rebuilt with distance bounds enforced.",
+  "measured_ranges": {
+    "mix_a": [
+      2.0,
+      6.0
+    ],
+    "mix_b": [
+      1.9999995231628418,
+      8.0
+    ],
+    "mix_c": [
+      4.0,
+      8.0
+    ]
+  }
+}

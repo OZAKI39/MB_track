@@ -1,0 +1,46 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/video_recording_check.py",
+      "customer_workspace/tests/test_video_recording_check.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/video_recording_check.py",
+      "customer_workspace/tests/test_video_recording_check.py"
+    ],
+    "returncode": 0,
+    "stdout": "2 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "customer_workspace/tests",
+      "tests/test_experiment_video.py",
+      "tests/test_camera_rtsp_control.py"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [ 36%]\n........................................................................ [ 72%]\n.......................................................                  [100%]\n199 passed in 3.01s\n",
+    "stderr": ""
+  }
+]

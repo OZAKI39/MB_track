@@ -1,0 +1,10 @@
+﻿group,channel,mode,reader,interval_ms,before_query_ms,before_read_ms,status,planned_count,successful_replies,failed_index,write_to_query_gap_mean_ms,write_to_query_gap_min_ms,query_to_read_gap_mean_ms,failed_read_duration_ms,failed_native_returned_bytes,all_outputs_off_confirmed
+a_query_only,PZT1,query_only,native,50.0,0,0,completed,1000,1000,,,,0.0016966000548563898,,,True
+b_query_only,PZT3,query_only,native,50.0,0,0,completed,1000,1000,,,,0.0015561002073809505,,,True
+a_write_query_immediate,PZT1,write_query,native,50.0,0,0,failed,1000,101,102,0.002475490071125986,0.0009999930625781417,0.001149021081087709,40.71460000704974,0,True
+b_write_query_immediate,PZT3,write_query,native,50.0,0,0,failed,1000,125,126,0.0023968252843053687,0.0012999953469261527,0.001251587015022302,71.70849999238271,0,True
+a_delay_before_read_10ms,PZT1,write_query,native,50.0,0,10.0,failed,1000,595,596,0.0024832209742912436,0.0010999938240274787,10.433810738010266,25.99549999285955,0,True
+a_delay_before_query_10ms,PZT1,write_query,native,50.0,10.0,0,completed,1000,1000,,10.416976800028351,10.033700003987178,0.002087799774017185,,,True
+b_delay_before_query_10ms,PZT3,write_query,native,50.0,10.0,0,completed,1000,1000,,10.424014199787052,10.034899998572655,0.0020425002148840576,,,True
+a_immediate_pyvisa_repeat,PZT1,write_query,pyvisa,50.0,0.0,0,failed,1000,622,623,0.0024094701291287666,0.0010999938240274787,0.0012776891762214335,37.37679999903776,,True
+a_before_query_10ms_pyvisa_repeat,PZT1,write_query,pyvisa,50.0,10.0,0,completed,1000,1000,,10.417702799735707,10.042199995950796,0.0019763002201216295,,,True

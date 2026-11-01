@@ -1,0 +1,6 @@
+# 独立验证环境，不安装进正式 .venv；驱动及 CUDA toolkit 使用现有配置。
+pynvvideocodec==2.2.3
+cupy-cuda12x==13.6.0
+numpy==2.2.6
+av==19.0.1
+opencv-python==4.10.0.84

@@ -1,0 +1,53 @@
+{
+  "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+  "status": "completed",
+  "inputs": {
+    "video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+    "manifest": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/link_session.json",
+    "afg": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_link_summary.json",
+    "plan": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/plan.json",
+    "events": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_experiment/events.jsonl",
+    "session": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/gst_session.json",
+    "probe": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/probe.json",
+    "report": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/report/link_report.json",
+    "ready": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/afg_ready.json"
+  },
+  "input_sha256": {
+    "video": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+    "manifest": "158c29b5d0b15d4701140e2bcbb84660c2d788104c85308552902287502d1bac",
+    "afg": "e973bbc7bb3d7f69e6787ee8795e4ae2aa0d30ba8d2a137f21376e222350225a",
+    "plan": "726ce7e51a2d5bc2a9f13d7eb5b706745b410f01445a42d8bad2cd37af28ff56",
+    "events": "6c102445617d7ad4a6c65b667238fce6c3376011ae7e6194f5a1dfa794a8d127",
+    "session": "e3f44bb9ff27543157c352337054108038855de0a32e043939c36c2c5dc2d73e",
+    "probe": "e95eee5c4dbb0f52097b5ac15aee0b17b493044dfae5a271cf7c6aa3662c670f",
+    "report": "a22e255b22fbd741b92c6d8ba5cac007a7a6e2bad805c99e37e488e12358b927",
+    "ready": "55ecf08b7e01a8c774c972f8a053bf65ad0007271c37961d85f05ceadfb27e9d"
+  },
+  "font": "/home/lzy/.local/share/fonts/mevo-msyh.ttc",
+  "encoding": {
+    "codec": "libx264",
+    "pixel_format": "yuv420p",
+    "crf": 18,
+    "preset": "fast",
+    "threads": 4
+  },
+  "meaning": "离线审查副本；原画面不裁剪不缩放，重新编码；不表示物理同步",
+  "original_image_region": [
+    0,
+    0,
+    1280,
+    1024
+  ],
+  "verification": {
+    "decoded_frames": 1320,
+    "all_frame_times_identical": true,
+    "duration_s": 21.99997777777778,
+    "size": [
+      2080,
+      1024
+    ]
+  },
+  "inputs_unchanged": true,
+  "output_sha256": "5bb38bd26d0af5c1a376d53a227add3b7db71684afdabb769215543139cf4f38",
+  "elapsed_s": 28.021243186987704
+}

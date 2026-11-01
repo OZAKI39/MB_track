@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "problems": [
+    "证据不能完整核对：ValueError: 不能完整解析 source 时间记录：[vist#0:0/h264 @ 0000023e8a51edc0] demuxer -> ist_index:0:0 type:video pkt_pts:NOPTS pkt_pts_time:NOPTS pkt_dts:NOPTS pkt_dts_time:NOPTS duration:0 duration_time:0"
+  ],
+  "scope": "Windows FFmpeg 收到的本录像窗口内压缩视频；非相机内部采集计数",
+  "timestamp_meaning": "视频流播放时间，不是曝光时间或电脑收包时间",
+  "requested_seconds": 20.0,
+  "capture_wall_seconds": 21.41888030001428,
+  "capture_warning_lines": [],
+  "probe.log": "",
+  "decode.log": ""
+}

@@ -1,0 +1,858 @@
+{
+  "identity": {
+    "git_head": "59f30fc6e1eb8e8a81a7edc343553868f45ec526",
+    "working_tree": "/home/lzy/projects/new_microbubble_experiment",
+    "code_sha": {
+      "microbubble_experiment/pipeline.py": "58ef87a5fb2b9da23d1b1e2acd1e197669df006620bf9f07c3e2f3829a1ad64b",
+      "microbubble_experiment/pzt_video.py": "7f59d5acab73ccb3b405ceb575ec901a4460a490f8a390abf267240c0a4da42b",
+      "microbubble_experiment/piv.py": "e30b8c42f34276505acd06f080f616181594317d49345a087e73d16693172bed",
+      "microbubble_experiment/recording.py": "8db21da04225f27c0f89f407183b7c0c1af346f63cdb0b645502c4e64a667d55",
+      "microbubble_experiment/tracking.py": "ff720d302713176bad2ea40c670eea69332ed697578845dcc7ef32d6d9b50ee1",
+      "microbubble_experiment/annotation_store.py": "fecbb912403cffaa6fcd1d4119044ea3dd2e38df67bc5c7b6d4e686e2935b10f",
+      "microbubble_experiment/annotation_library_store.py": "b5fe10e78807b0506c8a7b6b1b60a9843077cc965b818da9a086b4ca2141b405",
+      "microbubble_experiment/vision_evaluation.py": "2e7b6fd411248fa4dcc3696c92ac83cfcb3a3a84031b12e1ab69a1060c0f400c",
+      "microbubble_experiment/pzt_panel.py": "f3d5c9dafb369fd2793d07479c4da5cd6a8b7cc6d5432d9f597447674d482e1a",
+      "microbubble_experiment/annotation_regions.py": "0a4703ff5ce84edebbd3c729a18980f8d6390d0c2435b98032ed5ab1b4bac900",
+      "microbubble_experiment/sources.py": "88d0404d1b2921d74b570fa4e30e0cde453e240589f8c540e452fe45c158c044",
+      "microbubble_experiment/sam_worker.py": "f20b5f31b8724f52f9f1cb87015bd5126f0a56e7033e8d8943a647fe688c919f",
+      "microbubble_experiment/sam_auto_training.py": "bc75735fbb1c0642c4d20c4cd3631cc7cef91b84002785e0650e314f7bb5f730",
+      "microbubble_experiment/live_geometry.py": "3cbee6aeede303f4920d3c28efcdcbbff22f5ed3a1ca15c01d6a4a5d9cc3ef17",
+      "microbubble_experiment/annotation_workflow.py": "356d75d24387edf60f76e33556e2b3704f9c4865a837a56f72a30269f4bd3c1f",
+      "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+      "microbubble_experiment/configuration.py": "abd47121f3e6dfadc976b73aa2621aa4c476ab9ef01ed1cb7da7632bf599142d",
+      "microbubble_experiment/frames.py": "762f67a584f217e4e9a57c3b3c78fbece05af6b3977611762a226f938028677f",
+      "microbubble_experiment/annotation_library.py": "024e6ebc43acaa9a29cc02f6e03eb77ff2e4991a7eb564c29d6e9b4e10541d4b",
+      "microbubble_experiment/cellpose_adaptation.py": "e5796476fa241d2cb475c655064f3f7f24117ff01651b60e1aaeab6f8d71f138",
+      "microbubble_experiment/channel_observation.py": "7a087e534e92d4b83627f19a81c3bef9de5b33bcc6111b34f8d526ea4f7f332f",
+      "microbubble_experiment/camera_gui.py": "d3299bc2e21694a8ca2ebb318f45fea561390d27e0dc7d0aea0f4758ffce4b67",
+      "microbubble_experiment/pzt_monitor.py": "9b25c21500dc2a8c92084c5ce7f938493f0e60c4de25e3671b3e48831c5bc492",
+      "microbubble_experiment/camera_bridge.py": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+      "microbubble_experiment/sam_auto_service.py": "2739be59d82424f631d24509f2330d4e9f0b0e84f7dffb021f8f00bbe3e3242d",
+      "microbubble_experiment/video_detection.py": "14311c2e1486f5fb9712a5fed10c733241256a56b92cef4b4294e7e982607e05",
+      "microbubble_experiment/motion_state.py": "636e2c9cbe606c4dd06afa0cc782e7daf31b3cc25917fdb99ad973b279c1a850",
+      "microbubble_experiment/camera_rtsp.py": "03ed3420ff82d01b3c039e3bed14c27ce34cefa7f04ea5bee496ffc9a4775473",
+      "microbubble_experiment/observation.py": "e36726354aed704be96230586a6eb83bcdaa35191a1a1ead0a50590a93727a44",
+      "microbubble_experiment/sam_prompt_geometry.py": "6895b1fff8cdfa822a7a57b15b622a0b518dd6ac8b06af0f972c6b2204fbb5d5",
+      "microbubble_experiment/geometry.py": "48e87696f47b496b806aaaf7cbd7b3164c034ce4e20c0a856e02653cfbe25cc6",
+      "microbubble_experiment/event_analysis.py": "330a28736323b9d6cc6a5697f987aea0c9e3373c4981cb4a4c90852e8b3f308c",
+      "microbubble_experiment/camera_preview.py": "cb5b808ea28c86ee03c405d3840fd1343e18c129b00bd8f811d4df85f0f61b70",
+      "microbubble_experiment/camera_http.py": "26f583a3fd5b8557aed4189ed0b942583589d1f989c27c49dd5fb3823ba588a8",
+      "microbubble_experiment/video_piv.py": "baf09ce2423a7f5147914518d8ab97874aeae0580c95f04d8ce4b84ea36bc78f",
+      "microbubble_experiment/piv_display.py": "4bc3660db1bdd760e4c058e1fc6cb584a32e0e6ff6fc13ea09527c646cd9e684",
+      "microbubble_experiment/measure_latency.py": "7f196a90504e16e05dd2b4a243d0ec29b846dacab770eadb30f06ee252ce73c5",
+      "microbubble_experiment/common.py": "b5e6f38533ef5fd6687c7b404eb7f7e02f0c8a1bf93463cfb9ea9d1c5cad0d92",
+      "microbubble_experiment/ui.py": "5c5eee99300d8c49f950b9b980bdbad708ce72bf59dd82c5ba5f76bc089c3471",
+      "microbubble_experiment/annotation_batch.py": "e5698661431b56543a523941b8c2157379966fbdbb7ea82bbdaae0d574a1f881",
+      "microbubble_experiment/camera_server.py": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc",
+      "microbubble_experiment/aggregation.py": "143039831b6c8b741281513ea2608efcb88057c7e699e76f73e0ab9fd41c5600",
+      "microbubble_experiment/analyze_stability.py": "2c481501ff50c0650e9fdbe4158c7346a202149e60fbfb598a32f5838aee2170",
+      "microbubble_experiment/calibrate_scale.py": "a9eb2a6777cb971f7b06bb240fa76ac579c9fb0e9373b58cfad5ca75550f8370",
+      "microbubble_experiment/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "microbubble_experiment/camera.py": "672dd4d4300d29ca93d92b0d0088fcaff0da62d40b48fef3cc0e8d6f29d4fcd9",
+      "microbubble_experiment/annotation.py": "d1e509d96e486d4182eaa26543fc9911387165d6d7288e7e1133d5a0a7d32bf1",
+      "microbubble_experiment/video_piv_display.py": "8bcd1dcc270f028333d92898ac61ab71b5ef79615606f6252e8b7b78619823bc",
+      "microbubble_experiment/annotation_sizes.py": "ec1100d2b9886ed9fb88c4043dd7ef64e7c1e9dd1ac4bb1beb20e816e6201ce3",
+      "microbubble_experiment/desktop.py": "c40e9b0b18460c0f0863eb7b903e57999c7a99824d339580dc2ce18a08854a57",
+      "microbubble_experiment/annotation_frame_reset.py": "678058875ef25f7c372be1d950d869644ea112b03781e12b13a055db076271ee",
+      "microbubble_experiment/preannotation_worker.py": "b38f8d434db3d9c1640bd7b30cb8f0961722167b6d528d62c66ed33011f29da9",
+      "microbubble_experiment/annotation_config.py": "5ffdc83f9d1e839d053446ac9a048fe19e3a2721da32c5fd601e7161fe4398cd",
+      "microbubble_experiment/afg_gui.py": "fbb37e1e9d5a772392681dc6bc854df3dab976fcd95cb0db44f3f1dc042baf29",
+      "microbubble_experiment/video_text.py": "cea5e858f131fc9fdf2c0c79d951996cb5817f7edecdbe391e02b710dd64e034",
+      "microbubble_experiment/annotation_snapshot.py": "b77eb637d693299166681b7fa9d8f11af5878f83e0abd7edcf1523290ce76de3",
+      "microbubble_experiment/camera_vlc.py": "fe3dffb5b2f978d90d14b186c17628460199c68f1d60ace530a0b3c56b298115",
+      "microbubble_experiment/annotation_cursor.py": "147f45233476d112bc8512ce9b3f9df60d5333b5a41cbfc9e4e433169bbc5f5a",
+      "microbubble_experiment/sam_batch_review.py": "45912e224341b31ac97f176cdca76d0d5fbf25d808d051f5f6c0ca4570d26f93",
+      "microbubble_experiment/sam_auto_train.py": "0fb05688913d03c639b164ff81479553c36e1ef475d61a464ac87434c62ae687",
+      "microbubble_experiment/overlay_style.py": "4ca7ebe20a2c563249f36a5a7eef5bb4c6e265b749009a5d2e642c3e2c214dd0",
+      "microbubble_experiment/review_labels.py": "25772482396bdd340f0e6fc11a1daeb32da81726f32c80691da4505874d5743c",
+      "microbubble_experiment/focus_assist.py": "cd1503fffe80bdd7fee9a8b7a87352f8e1dac484a7326a6f6c03aee0c2cbb5dc",
+      "microbubble_experiment/afg_telemetry.py": "d5cb7bfc60f9892c3325eda8b79b4c89507c1542ad7274c22a663fb5208bdd9c",
+      "microbubble_experiment/channel_state.py": "4c4bb0886f20ada32f5c5674b7968b31b033976a957c162297c21c1d57fdb3e5",
+      "microbubble_experiment/camera_diagnostics.py": "69d1291012af7672c37c542bdc53bf4c6c8139c59128d506e1f3ac93b191dc16",
+      "microbubble_experiment/collective_motion.py": "871fb6cc694b1d72f32760ed07a26aba5d1eb603c34c9c0cf6d0351a57e22cc1",
+      "microbubble_experiment/detection.py": "a7c467eb04da2985bfc23f5c55438f06f4f97270d35618cde8ee50edfca0b606"
+    }
+  },
+  "config": {
+    "video": "/home/lzy/projects/new_microbubble_experiment/records/imported_assets/videos/Recording 2026-10-15 185901 \u622a\u53d6\u89c6\u9891.mp4",
+    "windows_python": "/mnt/f/CHRONOS_control/.venv/Scripts/python.exe",
+    "pzt_status_path": "/home/lzy/projects/new_microbubble_experiment/records/device_status/observation_status.json",
+    "windows_afg_python": "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "annotation_python": "/home/lzy/projects/new_microbubble_experiment/.venv_annotation/bin/python",
+    "preannotation_python": "/home/lzy/projects/new_microbubble_experiment/.venv_cellpose4/bin/python",
+    "cellpose_python": "/home/lzy/projects/new_microbubble_experiment/.venv_cellpose3/bin/python",
+    "source_mode": "LIVE_CAMERA",
+    "backend": "B4",
+    "speed": 1.0,
+    "loop": false,
+    "ttl_ms": 250.0,
+    "max_pts_gap_s": 0.25,
+    "replay_geometry": "/home/lzy/projects/new_microbubble_experiment/configs/replay_geometry.json",
+    "live_geometry": "/home/lzy/projects/new_microbubble_experiment/records/imported_assets/recorded_sessions/piv_display_20261018/new_ui/geometry/live_mask_1792329786799271155.json",
+    "bridge_session_s": 122,
+    "record_queue": 32,
+    "ui_hz": 20,
+    "analysis_delay_ms": 0,
+    "record_experiment_video": false,
+    "video_queue": 48,
+    "video_annotation_wait_ms": 250,
+    "diagnostics": true,
+    "pzt_layout_path": "/home/lzy/projects/new_microbubble_experiment/configs/pzt_layout.json",
+    "camera_config": "/home/lzy/projects/new_microbubble_experiment/configs/chronos_config.json"
+  },
+  "wall_s": 76.15040560497437,
+  "status": "STOPPED",
+  "error": null,
+  "counters": {
+    "state_published": 1492,
+    "bridge_received": 3478,
+    "processed": 755
+  },
+  "source_decoded": 3998,
+  "source_sent": 3478,
+  "source_sessions": 1,
+  "bridge_overwritten": 520,
+  "analysis_skipped": 2723,
+  "recorder_dropped": 0,
+  "recorder_error": null,
+  "recorder_written": 755,
+  "fresh_valid_hz": 0.0,
+  "analysis_hz": 9.914589344625647,
+  "transitions": [
+    {
+      "elapsed": 0.0024933579843491316,
+      "status": "CONNECTING"
+    },
+    {
+      "elapsed": 0.009120635979343206,
+      "status": "DISCONNECTED"
+    },
+    {
+      "elapsed": 9.064154302992392,
+      "status": "STREAMING"
+    },
+    {
+      "elapsed": 76.0487800759729,
+      "status": "RECONNECTING"
+    },
+    {
+      "elapsed": 76.04878937499598,
+      "status": "STOPPED"
+    }
+  ],
+  "events": [],
+  "video_recording": null,
+  "threads_closed": true,
+  "record_ms": {
+    "n": 755,
+    "p50": 8.796471985988319,
+    "p95": 11.339983099605888,
+    "max": 100.42552798404358,
+    "mean": 10.300921447326843
+  },
+  "stages": {
+    "publish_ms": {
+      "n": 1492,
+      "p50": 0.20660899463109672,
+      "p95": 0.5245707943686285,
+      "max": 10.430683993035927,
+      "mean": 0.2629191623231329
+    },
+    "scan_ms": {
+      "n": 755,
+      "p50": 15.898793993983418,
+      "p95": 22.359253713511862,
+      "max": 61.066838999977335,
+      "mean": 16.34616045052315
+    },
+    "piv_ms": {
+      "n": 755,
+      "p50": 42.03256100299768,
+      "p95": 58.42264960228931,
+      "max": 297.39574700943194,
+      "mean": 43.53471534856324
+    },
+    "aggregation_ms": {
+      "n": 755,
+      "p50": 6.683436018647626,
+      "p95": 9.3630080926232,
+      "max": 13.885178981581703,
+      "mean": 6.812899131004063
+    },
+    "analysis_ms": {
+      "n": 755,
+      "p50": 85.56020600371994,
+      "p95": 113.43516749620902,
+      "max": 335.792762984056,
+      "mean": 88.12547258089069
+    },
+    "decode_ms": {
+      "n": 755,
+      "p50": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "complete_processing_ms": {
+      "n": 755,
+      "p50": 85.56020600371994,
+      "p95": 113.43516749620902,
+      "max": 335.792762984056,
+      "mean": 88.12547258089069
+    },
+    "queue_age_ms": {
+      "n": 755,
+      "p50": 12.886605982203037,
+      "p95": 30.013572997995645,
+      "max": 53.368617984233424,
+      "mean": 14.05774077565551
+    },
+    "end_to_end_software_ms": {
+      "n": 755,
+      "p50": 124.94434500695206,
+      "p95": 158.85951842356008,
+      "max": 366.1175839952193,
+      "mean": 127.07956736989856
+    }
+  },
+  "ui_refresh_hz": 0.0,
+  "ui_render_ms": {
+    "n": 0,
+    "p50": null,
+    "p95": null,
+    "max": null,
+    "mean": null
+  },
+  "resources": [
+    {
+      "elapsed_s": 1.002457117981976,
+      "rss_mib": 751.7421875,
+      "cpu_percent": 3.0,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 5.0,
+      "gpu_mib": 2235.0
+    },
+    {
+      "elapsed_s": 2.0789064779819455,
+      "rss_mib": 751.74609375,
+      "cpu_percent": 3.7,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 14.0,
+      "gpu_mib": 2235.0
+    },
+    {
+      "elapsed_s": 3.154829090985004,
+      "rss_mib": 751.74609375,
+      "cpu_percent": 1.9,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 6.0,
+      "gpu_mib": 2233.0
+    },
+    {
+      "elapsed_s": 4.221104176976951,
+      "rss_mib": 751.74609375,
+      "cpu_percent": 2.8,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 9.0,
+      "gpu_mib": 2233.0
+    },
+    {
+      "elapsed_s": 5.293601626995951,
+      "rss_mib": 751.74609375,
+      "cpu_percent": 1.9,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 6.0,
+      "gpu_mib": 2233.0
+    },
+    {
+      "elapsed_s": 6.374610455997754,
+      "rss_mib": 751.74609375,
+      "cpu_percent": 1.8,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 6.0,
+      "gpu_mib": 2233.0
+    },
+    {
+      "elapsed_s": 7.561487544997362,
+      "rss_mib": 751.74609375,
+      "cpu_percent": 2.5,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 14.0,
+      "gpu_mib": 2232.0
+    },
+    {
+      "elapsed_s": 8.635492444998818,
+      "rss_mib": 751.75,
+      "cpu_percent": 3.7,
+      "processed": 0,
+      "age_ms": null,
+      "gpu_percent": 15.0,
+      "gpu_mib": 2236.0
+    },
+    {
+      "elapsed_s": 9.797149227990303,
+      "rss_mib": 818.05859375,
+      "cpu_percent": 80.9,
+      "processed": 7,
+      "age_ms": 147.99687199410982,
+      "gpu_percent": 12.0,
+      "gpu_mib": 2235.0
+    },
+    {
+      "elapsed_s": 10.898128336993977,
+      "rss_mib": 815.953125,
+      "cpu_percent": 128.1,
+      "processed": 24,
+      "age_ms": 111.66613001842052,
+      "gpu_percent": 13.0,
+      "gpu_mib": 2234.0
+    },
+    {
+      "elapsed_s": 11.971315112983575,
+      "rss_mib": 784.84765625,
+      "cpu_percent": 126.7,
+      "processed": 40,
+      "age_ms": 121.85018599848263,
+      "gpu_percent": 21.0,
+      "gpu_mib": 2258.0
+    },
+    {
+      "elapsed_s": 13.046945880982094,
+      "rss_mib": 810.953125,
+      "cpu_percent": 123.6,
+      "processed": 52,
+      "age_ms": 196.23541701002978,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2235.0
+    },
+    {
+      "elapsed_s": 14.148431979992893,
+      "rss_mib": 795.91796875,
+      "cpu_percent": 122.6,
+      "processed": 65,
+      "age_ms": 207.40536198718473,
+      "gpu_percent": 16.0,
+      "gpu_mib": 2239.0
+    },
+    {
+      "elapsed_s": 15.2237231489853,
+      "rss_mib": 815.953125,
+      "cpu_percent": 122.8,
+      "processed": 78,
+      "age_ms": 153.43966401997022,
+      "gpu_percent": 23.0,
+      "gpu_mib": 2241.0
+    },
+    {
+      "elapsed_s": 16.350338208983885,
+      "rss_mib": 784.84765625,
+      "cpu_percent": 125.1,
+      "processed": 93,
+      "age_ms": 180.25063598179258,
+      "gpu_percent": 27.0,
+      "gpu_mib": 2235.0
+    },
+    {
+      "elapsed_s": 17.428237624990288,
+      "rss_mib": 800.93359375,
+      "cpu_percent": 122.5,
+      "processed": 106,
+      "age_ms": 188.11606799135916,
+      "gpu_percent": 37.0,
+      "gpu_mib": 2236.0
+    },
+    {
+      "elapsed_s": 18.492492171993945,
+      "rss_mib": 810.953125,
+      "cpu_percent": 124.0,
+      "processed": 118,
+      "age_ms": 197.7357899886556,
+      "gpu_percent": 33.0,
+      "gpu_mib": 2236.0
+    },
+    {
+      "elapsed_s": 19.559227038989775,
+      "rss_mib": 795.91796875,
+      "cpu_percent": 124.7,
+      "processed": 131,
+      "age_ms": 153.35217796382494,
+      "gpu_percent": 25.0,
+      "gpu_mib": 2265.0
+    },
+    {
+      "elapsed_s": 20.613365711993538,
+      "rss_mib": 815.953125,
+      "cpu_percent": 125.2,
+      "processed": 143,
+      "age_ms": 211.63751897984184,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2280.0
+    },
+    {
+      "elapsed_s": 21.673233542998787,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 123.6,
+      "processed": 156,
+      "age_ms": 119.43292498472147,
+      "gpu_percent": 17.0,
+      "gpu_mib": 2325.0
+    },
+    {
+      "elapsed_s": 22.734636237990344,
+      "rss_mib": 788.3984375,
+      "cpu_percent": 124.3,
+      "processed": 167,
+      "age_ms": 196.13304498489015,
+      "gpu_percent": 38.0,
+      "gpu_mib": 2327.0
+    },
+    {
+      "elapsed_s": 23.793930993997492,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.5,
+      "processed": 179,
+      "age_ms": 182.46145200100727,
+      "gpu_percent": 29.0,
+      "gpu_mib": 2325.0
+    },
+    {
+      "elapsed_s": 24.866854139982024,
+      "rss_mib": 788.3984375,
+      "cpu_percent": 124.9,
+      "processed": 193,
+      "age_ms": 159.8170660145115,
+      "gpu_percent": 23.0,
+      "gpu_mib": 2326.0
+    },
+    {
+      "elapsed_s": 25.93153129698476,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 124.0,
+      "processed": 206,
+      "age_ms": 156.01840600720607,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2352.0
+    },
+    {
+      "elapsed_s": 26.996484133997,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.8,
+      "processed": 218,
+      "age_ms": 153.97047199076042,
+      "gpu_percent": 32.0,
+      "gpu_mib": 2362.0
+    },
+    {
+      "elapsed_s": 28.058535111980746,
+      "rss_mib": 777.328125,
+      "cpu_percent": 125.2,
+      "processed": 232,
+      "age_ms": 117.19996997271664,
+      "gpu_percent": 17.0,
+      "gpu_mib": 2363.0
+    },
+    {
+      "elapsed_s": 29.126280425000004,
+      "rss_mib": 773.5234375,
+      "cpu_percent": 126.5,
+      "processed": 243,
+      "age_ms": 186.16100697545335,
+      "gpu_percent": 23.0,
+      "gpu_mib": 2370.0
+    },
+    {
+      "elapsed_s": 30.190182669000933,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.9,
+      "processed": 254,
+      "age_ms": 176.05952499434352,
+      "gpu_percent": 31.0,
+      "gpu_mib": 2378.0
+    },
+    {
+      "elapsed_s": 31.249608021986205,
+      "rss_mib": 777.328125,
+      "cpu_percent": 125.6,
+      "processed": 267,
+      "age_ms": 177.8092999884393,
+      "gpu_percent": 29.0,
+      "gpu_mib": 2275.0
+    },
+    {
+      "elapsed_s": 32.30626059399219,
+      "rss_mib": 788.4140625,
+      "cpu_percent": 127.8,
+      "processed": 280,
+      "age_ms": 141.30253400071524,
+      "gpu_percent": 46.0,
+      "gpu_mib": 2341.0
+    },
+    {
+      "elapsed_s": 33.37031778797973,
+      "rss_mib": 777.328125,
+      "cpu_percent": 125.9,
+      "processed": 292,
+      "age_ms": 136.02430300670676,
+      "gpu_percent": 29.0,
+      "gpu_mib": 2364.0
+    },
+    {
+      "elapsed_s": 34.424843698972836,
+      "rss_mib": 782.39453125,
+      "cpu_percent": 127.1,
+      "processed": 304,
+      "age_ms": 157.58092000032775,
+      "gpu_percent": 34.0,
+      "gpu_mib": 2364.0
+    },
+    {
+      "elapsed_s": 35.527616194973234,
+      "rss_mib": 777.328125,
+      "cpu_percent": 125.1,
+      "processed": 316,
+      "age_ms": 186.79665500530973,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2361.0
+    },
+    {
+      "elapsed_s": 36.607811692985706,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.8,
+      "processed": 329,
+      "age_ms": 180.15553802251816,
+      "gpu_percent": 26.0,
+      "gpu_mib": 2361.0
+    },
+    {
+      "elapsed_s": 37.674657714000205,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 127.5,
+      "processed": 342,
+      "age_ms": 195.6166430027224,
+      "gpu_percent": 31.0,
+      "gpu_mib": 2362.0
+    },
+    {
+      "elapsed_s": 38.73151495298953,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.8,
+      "processed": 354,
+      "age_ms": 131.61076602409594,
+      "gpu_percent": 25.0,
+      "gpu_mib": 2353.0
+    },
+    {
+      "elapsed_s": 39.794506598991575,
+      "rss_mib": 813.43359375,
+      "cpu_percent": 126.1,
+      "processed": 367,
+      "age_ms": 121.26740399980918,
+      "gpu_percent": 19.0,
+      "gpu_mib": 2353.0
+    },
+    {
+      "elapsed_s": 40.86946442397311,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.6,
+      "processed": 380,
+      "age_ms": 146.1618820030708,
+      "gpu_percent": 37.0,
+      "gpu_mib": 2364.0
+    },
+    {
+      "elapsed_s": 41.95734093399369,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.8,
+      "processed": 391,
+      "age_ms": 203.69574596406892,
+      "gpu_percent": 35.0,
+      "gpu_mib": 2364.0
+    },
+    {
+      "elapsed_s": 43.04210554997553,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.5,
+      "processed": 404,
+      "age_ms": 125.79452301724814,
+      "gpu_percent": 18.0,
+      "gpu_mib": 2364.0
+    },
+    {
+      "elapsed_s": 44.11645032497472,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.5,
+      "processed": 416,
+      "age_ms": 140.06903904373758,
+      "gpu_percent": 43.0,
+      "gpu_mib": 2401.0
+    },
+    {
+      "elapsed_s": 45.18300145099056,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.5,
+      "processed": 426,
+      "age_ms": 194.251026987331,
+      "gpu_percent": 30.0,
+      "gpu_mib": 2402.0
+    },
+    {
+      "elapsed_s": 46.242417124973144,
+      "rss_mib": 803.43359375,
+      "cpu_percent": 122.8,
+      "processed": 436,
+      "age_ms": 194.31941898074,
+      "gpu_percent": 27.0,
+      "gpu_mib": 2400.0
+    },
+    {
+      "elapsed_s": 47.307351596973604,
+      "rss_mib": 783.3984375,
+      "cpu_percent": 123.0,
+      "processed": 449,
+      "age_ms": 144.6370639896486,
+      "gpu_percent": 26.0,
+      "gpu_mib": 2401.0
+    },
+    {
+      "elapsed_s": 48.37395518500125,
+      "rss_mib": 793.4140625,
+      "cpu_percent": 120.9,
+      "processed": 460,
+      "age_ms": 196.58166798762977,
+      "gpu_percent": 40.0,
+      "gpu_mib": 2398.0
+    },
+    {
+      "elapsed_s": 49.431782551982906,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 125.7,
+      "processed": 471,
+      "age_ms": 182.85214202478528,
+      "gpu_percent": 36.0,
+      "gpu_mib": 2394.0
+    },
+    {
+      "elapsed_s": 50.49732052598847,
+      "rss_mib": 788.3984375,
+      "cpu_percent": 124.8,
+      "processed": 481,
+      "age_ms": 231.57217097468674,
+      "gpu_percent": 31.0,
+      "gpu_mib": 2393.0
+    },
+    {
+      "elapsed_s": 51.636720798996976,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 122.9,
+      "processed": 492,
+      "age_ms": 203.56469100806862,
+      "gpu_percent": 33.0,
+      "gpu_mib": 2391.0
+    },
+    {
+      "elapsed_s": 52.69680251998943,
+      "rss_mib": 813.43359375,
+      "cpu_percent": 125.5,
+      "processed": 505,
+      "age_ms": 139.88128397613764,
+      "gpu_percent": 24.0,
+      "gpu_mib": 2302.0
+    },
+    {
+      "elapsed_s": 53.768935768981464,
+      "rss_mib": 788.3984375,
+      "cpu_percent": 125.9,
+      "processed": 515,
+      "age_ms": 167.79113598749973,
+      "gpu_percent": 28.0,
+      "gpu_mib": 2364.0
+    },
+    {
+      "elapsed_s": 54.82869595498778,
+      "rss_mib": 803.43359375,
+      "cpu_percent": 122.7,
+      "processed": 527,
+      "age_ms": 135.93411800684407,
+      "gpu_percent": 26.0,
+      "gpu_mib": 2366.0
+    },
+    {
+      "elapsed_s": 55.891231347981375,
+      "rss_mib": 793.4140625,
+      "cpu_percent": 127.0,
+      "processed": 538,
+      "age_ms": 155.71737801656127,
+      "gpu_percent": 34.0,
+      "gpu_mib": 2371.0
+    },
+    {
+      "elapsed_s": 56.9503417989763,
+      "rss_mib": 783.3984375,
+      "cpu_percent": 124.6,
+      "processed": 549,
+      "age_ms": 189.78434999007732,
+      "gpu_percent": 35.0,
+      "gpu_mib": 2378.0
+    },
+    {
+      "elapsed_s": 58.02650234400062,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 123.5,
+      "processed": 560,
+      "age_ms": 219.77248700568452,
+      "gpu_percent": 20.0,
+      "gpu_mib": 2378.0
+    },
+    {
+      "elapsed_s": 59.08814992097905,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 127.3,
+      "processed": 571,
+      "age_ms": 222.39414497744292,
+      "gpu_percent": 39.0,
+      "gpu_mib": 2372.0
+    },
+    {
+      "elapsed_s": 60.150571944977855,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 127.1,
+      "processed": 584,
+      "age_ms": 146.1729529837612,
+      "gpu_percent": 19.0,
+      "gpu_mib": 2369.0
+    },
+    {
+      "elapsed_s": 61.27684595598839,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 127.9,
+      "processed": 596,
+      "age_ms": 156.23173100175336,
+      "gpu_percent": 50.0,
+      "gpu_mib": 2378.0
+    },
+    {
+      "elapsed_s": 62.33939943998121,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.1,
+      "processed": 606,
+      "age_ms": 297.3842459905427,
+      "gpu_percent": 28.0,
+      "gpu_mib": 2413.0
+    },
+    {
+      "elapsed_s": 63.40709831099957,
+      "rss_mib": 777.328125,
+      "cpu_percent": 129.3,
+      "processed": 615,
+      "age_ms": 201.16446900647134,
+      "gpu_percent": 21.0,
+      "gpu_mib": 2418.0
+    },
+    {
+      "elapsed_s": 64.47296715297853,
+      "rss_mib": 777.328125,
+      "cpu_percent": 125.7,
+      "processed": 628,
+      "age_ms": 129.5123349991627,
+      "gpu_percent": 42.0,
+      "gpu_mib": 2418.0
+    },
+    {
+      "elapsed_s": 65.53849728099885,
+      "rss_mib": 773.5234375,
+      "cpu_percent": 127.6,
+      "processed": 639,
+      "age_ms": 155.8926599973347,
+      "gpu_percent": 43.0,
+      "gpu_mib": 2419.0
+    },
+    {
+      "elapsed_s": 66.6161074609845,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 127.1,
+      "processed": 651,
+      "age_ms": 167.7825770166237,
+      "gpu_percent": 25.0,
+      "gpu_mib": 2419.0
+    },
+    {
+      "elapsed_s": 67.68495302999509,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 127.2,
+      "processed": 662,
+      "age_ms": 224.34980198158883,
+      "gpu_percent": 22.0,
+      "gpu_mib": 2406.0
+    },
+    {
+      "elapsed_s": 68.75762579997536,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.8,
+      "processed": 675,
+      "age_ms": 134.963071992388,
+      "gpu_percent": 25.0,
+      "gpu_mib": 2396.0
+    },
+    {
+      "elapsed_s": 69.83078547398327,
+      "rss_mib": 783.3984375,
+      "cpu_percent": 125.8,
+      "processed": 687,
+      "age_ms": 222.26193599635735,
+      "gpu_percent": 24.0,
+      "gpu_mib": 2391.0
+    },
+    {
+      "elapsed_s": 70.89389902798575,
+      "rss_mib": 778.3515625,
+      "cpu_percent": 128.0,
+      "processed": 700,
+      "age_ms": 122.1392200095579,
+      "gpu_percent": 24.0,
+      "gpu_mib": 2375.0
+    },
+    {
+      "elapsed_s": 72.00401966497884,
+      "rss_mib": 803.43359375,
+      "cpu_percent": 127.0,
+      "processed": 712,
+      "age_ms": 211.88917601830326,
+      "gpu_percent": 34.0,
+      "gpu_mib": 2384.0
+    },
+    {
+      "elapsed_s": 73.06921315399813,
+      "rss_mib": 777.33203125,
+      "cpu_percent": 125.8,
+      "processed": 724,
+      "age_ms": 129.5552949886769,
+      "gpu_percent": 36.0,
+      "gpu_mib": 2369.0
+    },
+    {
+      "elapsed_s": 74.13148326598457,
+      "rss_mib": 803.43359375,
+      "cpu_percent": 127.1,
+      "processed": 737,
+      "age_ms": 140.341887017712,
+      "gpu_percent": 26.0,
+      "gpu_mib": 2368.0
+    },
+    {
+      "elapsed_s": 75.19007983998745,
+      "rss_mib": 808.43359375,
+      "cpu_percent": 126.6,
+      "processed": 749,
+      "age_ms": 228.11389999696985,
+      "gpu_percent": 32.0,
+      "gpu_mib": 2393.0
+    }
+  ]
+}

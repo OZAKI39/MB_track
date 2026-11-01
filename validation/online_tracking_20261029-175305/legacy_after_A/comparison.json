@@ -1,0 +1,6 @@
+{
+  "objects.csv": true,
+  "events.csv": true,
+  "background_final.npy": true,
+  "contours": true
+}

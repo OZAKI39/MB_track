@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-23T15:49:39.219556+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--repeat",
+    "3",
+    "--output-dir",
+    "customer_workspace/validation/amplitude_states_20261023-174926/experiments"
+  ],
+  "pid": 260476,
+  "returncode": 0,
+  "finished_utc": "2026-10-23T15:50:27.244410+00:00"
+}

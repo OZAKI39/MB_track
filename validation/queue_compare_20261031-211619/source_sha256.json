@@ -1,0 +1,8 @@
+{
+  "customer_workspace/parallel_camera_bridge.py": "924441d5e17657bbc704eb04c78909af939144eb2ffc0ca1748dc62cfe6db623",
+  "customer_workspace/parallel_video_check.py": "969c989f0bffc3fb60ca2ab2cfe053e52f64583654e3249202632f07dd55a062",
+  "customer_workspace/tools/frame_waiting_check.py": "67e5f8ae925ad20060d917b097b3d5e6d7062072b1e03be2a7458082651bb2f4",
+  "customer_workspace/tools/frame_waiting_report.py": "c44f369f97cfc68cd74df1f788f510a1c56f57ccbdefe31d7e5204e4012b3f73",
+  "customer_workspace/tests/test_frame_waiting.py": "3ac8efa5cdb4da354ddee3d483f23cd7640a75fd97c90b28a829809120e76621",
+  "customer_workspace/README.md": "a17b4577481d55f76ba27f95b94dadd63e28668b0e352b9f40f533d833375668"
+}

@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-23T18:29:01.175569+00:00",
+  "command": "Get-Item 'C:\\Windows\\System32\\visa64.dll','C:\\Windows\\System32\\visa32.dll' -ErrorAction SilentlyContinue | ForEach-Object { $_.VersionInfo } | Select-Object FileName,CompanyName,FileVersion,ProductVersion | ConvertTo-Json -Depth 3",
+  "returncode": 0,
+  "stdout": "[\n    {\n        \"FileName\":  \"C:\\\\Windows\\\\System32\\\\visa64.dll\",\n        \"CompanyName\":  \"IVI Foundation\",\n        \"FileVersion\":  \"5.12.4420.0\",\n        \"ProductVersion\":  \"5.12.4420.0\"\n    },\n    {\n        \"FileName\":  \"C:\\\\Windows\\\\System32\\\\visa32.dll\",\n        \"CompanyName\":  \"IVI Foundation\",\n        \"FileVersion\":  \"5.12.4420.0\",\n        \"ProductVersion\":  \"5.12.4420.0\"\n    }\n]\n",
+  "stderr": ""
+}

@@ -1,0 +1,124 @@
+{
+  "status": "COMPLETED_PENDING_HUMAN_REVIEW",
+  "checked_at": "2026-10-26T17:45:31.982671+01:00",
+  "software_tests_passed": 32,
+  "test_batches": [
+    {
+      "test_files": [
+        "test_cutie_initial_tracking.py",
+        "test_sam21_initial_tracking.py",
+        "test_sam21_tracking_review.py",
+        "test_bubble_region_video.py"
+      ],
+      "passed": 30
+    },
+    {
+      "test_files": [
+        "test_initial_tracking_comparison.py"
+      ],
+      "passed": 2
+    }
+  ],
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "source_code_sha256": {
+    "cutie_initial_tracking.py": "81d09459cc907df6a35c694b25865ef932eff24d22140f487a722697319f948e",
+    "sam21_tracking_review.py": "9de087897d2bf428e40aebbb60738f4756921c4044b26bf4d8aa09607bc43fe2",
+    "initial_tracking_comparison.py": "59e1680d51ac0c372826f81873a43c4d76d1116694f0cd3899e793119822ba9f",
+    "tests/test_cutie_initial_tracking.py": "c8fb38af1e33baed24010ac7b2b2cdf9de21d5e01837b4060ff5c12c2afdae8e",
+    "tests/test_initial_tracking_comparison.py": "5d31ea0d6ffdc714b177ce9efa9c0f4da09f437a99e767abb066d251abad393b",
+    "tests/test_sam21_tracking_review.py": "b8cd5da983f2aae779072e32c3defee3195fc5b2fdf067bc917d0eee2c521a52"
+  },
+  "transferred_files_verified": 1402,
+  "full_run": {
+    "processed_frames": 1320,
+    "elapsed_s": 458.9222038689768,
+    "initial_object_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "later_prompts": 0
+  },
+  "data_checks": "data_verification.json",
+  "video": {
+    "decoded_frames": 1320,
+    "all_frame_times_identical": true,
+    "duration_s": 22.0,
+    "size": [
+      2576,
+      1136
+    ]
+  },
+  "output_video_sha256": "8971b419e881cf119eb56904dc50f5cb8437366ad68bab7dd93f8b1c661d964e",
+  "browser_checks": [
+    "browser_verification.json",
+    "comparison_browser_verification.json"
+  ],
+  "existing_raw_video_mask_detector_tracker_gui_and_sam_video_unchanged": true,
+  "comparison_summary": [
+    {
+      "model": "SAM 2.1",
+      "initial_objects": 43,
+      "always_nonempty": 15,
+      "ever_empty": 28,
+      "never_nonempty": 3,
+      "empty_at_first_output": 4,
+      "nonempty_at_last_output": 18
+    },
+    {
+      "model": "Cutie",
+      "initial_objects": 43,
+      "always_nonempty": 15,
+      "ever_empty": 28,
+      "never_nonempty": 0,
+      "empty_at_first_output": 0,
+      "nonempty_at_last_output": 21
+    }
+  ],
+  "review_scope": "Selected raw frames, exit sequences and #3 interference case visually inspected by assistant; not a frozen human reference",
+  "overall_accuracy_ranked": false,
+  "new_tracker_adopted": false,
+  "remote_task_supervisor_shutdown": true,
+  "server_instance_stopped": false
+}

@@ -1,0 +1,68 @@
+{
+  "source_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/queue_compare_20261031-211619/A_q1_r1/recording/video.mp4",
+  "source_sha256": "a03e19ee9c69bdeef375a7f17a951c14058cc40492551357c5c3af3e44166e21",
+  "compared_video_frames": 1320,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 1320,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 1320,
+      "sha256": "ebafb7c3d372f4ca09aea743862c3e424c80f5bc2d3ec1795e23529a4e248eb2"
+    },
+    "observations": {
+      "rows": 21893,
+      "sha256": "0f3d18aeed14720668ddfb28a5dd1f2dc5bb1f72583ca29b5dce2ac78a821331"
+    },
+    "tracks": {
+      "rows": 190,
+      "sha256": "e2981f6fab85b25eb4b91a4d24f63059e26e02364bcdfe9752996762036a07c6"
+    },
+    "events": {
+      "rows": 365,
+      "sha256": "8f2eaed878764f293749e4f17ccc7ef2f0506a63e36fcb709dd55ce4fb96f543"
+    },
+    "event_updates": {
+      "rows": 730,
+      "sha256": "266f49dbc4687314f1dfe4226fa4fac8cc011762c755b87b0c9b532babb2bddb"
+    },
+    "track_updates": {
+      "rows": 502,
+      "sha256": "93eca0b6d424d95c765bd557f30435996812fb06ddd5f6f7e87265c35165e1c6"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 1320,
+      "sha256": "ebafb7c3d372f4ca09aea743862c3e424c80f5bc2d3ec1795e23529a4e248eb2"
+    },
+    "observations": {
+      "rows": 21893,
+      "sha256": "0f3d18aeed14720668ddfb28a5dd1f2dc5bb1f72583ca29b5dce2ac78a821331"
+    },
+    "tracks": {
+      "rows": 190,
+      "sha256": "e2981f6fab85b25eb4b91a4d24f63059e26e02364bcdfe9752996762036a07c6"
+    },
+    "events": {
+      "rows": 365,
+      "sha256": "8f2eaed878764f293749e4f17ccc7ef2f0506a63e36fcb709dd55ce4fb96f543"
+    },
+    "event_updates": {
+      "rows": 730,
+      "sha256": "266f49dbc4687314f1dfe4226fa4fac8cc011762c755b87b0c9b532babb2bddb"
+    },
+    "track_updates": {
+      "rows": 502,
+      "sha256": "93eca0b6d424d95c765bd557f30435996812fb06ddd5f6f7e87265c35165e1c6"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

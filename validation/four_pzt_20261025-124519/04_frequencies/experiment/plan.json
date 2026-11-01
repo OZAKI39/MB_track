@@ -1,0 +1,157 @@
+{
+  "plan": {
+    "duration_s": 20,
+    "settings": {
+      "PZT1": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.1,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      },
+      "PZT2": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.1,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      },
+      "PZT3": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.1,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      },
+      "PZT4": {
+        "frequency_hz": 2500000,
+        "amplitude_vpp": 0.1,
+        "phase_deg": 0.0,
+        "mode": "continuous",
+        "sweep_start_hz": 2000000.0,
+        "sweep_stop_hz": 3000000.0,
+        "sweep_time_s": 0.1,
+        "sweep_spacing": "LIN",
+        "trigger_source": "MAN",
+        "burst_cycles": 10
+      }
+    },
+    "steps": [
+      {
+        "at_s": 0,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {}
+      },
+      {
+        "at_s": 2,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {
+          "PZT1": 2600000
+        }
+      },
+      {
+        "at_s": 6,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {
+          "PZT2": 2600000,
+          "PZT1": 2500000
+        }
+      },
+      {
+        "at_s": 10,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {
+          "PZT3": 2600000,
+          "PZT2": 2500000
+        }
+      },
+      {
+        "at_s": 14,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {
+          "PZT4": 2600000,
+          "PZT3": 2500000
+        }
+      },
+      {
+        "at_s": 18,
+        "state": "IDLE",
+        "active_channels": [],
+        "frequencies_hz": {
+          "PZT4": 2500000
+        }
+      },
+      {
+        "at_s": 20,
+        "state": "STOP",
+        "active_channels": [],
+        "frequencies_hz": {}
+      }
+    ]
+  },
+  "afg_config": {
+    "visa_library": "",
+    "timeout_ms": 3000,
+    "query_batch_mode": "legacy_lines",
+    "devices": {
+      "A": {
+        "serial": "2147075"
+      },
+      "B": {
+        "serial": "2439003"
+      }
+    },
+    "channels": {
+      "PZT1": {
+        "device": "A",
+        "channel": 1,
+        "max_input_vpp": 0.5,
+        "max_frequency_hz": 10000000,
+        "phase_correction_deg": 0
+      },
+      "PZT2": {
+        "device": "A",
+        "channel": 2,
+        "max_input_vpp": 0.5,
+        "max_frequency_hz": 10000000,
+        "phase_correction_deg": 0
+      },
+      "PZT3": {
+        "device": "B",
+        "channel": 1,
+        "max_input_vpp": 0.5,
+        "max_frequency_hz": 10000000,
+        "phase_correction_deg": 0
+      },
+      "PZT4": {
+        "device": "B",
+        "channel": 2,
+        "max_input_vpp": 0.5,
+        "max_frequency_hz": 10000000,
+        "phase_correction_deg": 0
+      }
+    },
+    "wiring_note": "4 x High Wave 3.2, one input per amplifier; PZT between the two red 4 mm output sockets (bridge). Physical PZT numbering must follow the cables.",
+    "clock_note": "External 10 MHz wiring, front-panel selection and phase calibration must be completed manually. No cross-device synchronization is claimed."
+  }
+}

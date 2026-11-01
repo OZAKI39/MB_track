@@ -1,0 +1,291 @@
+{
+  "origin_qpc": 2410968444593,
+  "frequency": 10000000,
+  "rtt_median_p99_max_ms": [
+    0.7882280042394996,
+    1.5989754995098335,
+    8.62531500752084
+  ],
+  "interpolation_abs_residual_median_p99_max_ms": [
+    0.11068180194939714,
+    4.902505447497275,
+    6.866382909237245
+  ],
+  "windows": [
+    {
+      "run": "A",
+      "stage": {
+        "frame": "0",
+        "stage": "candidates",
+        "start_s": "227280.516358593",
+        "end_s": "227280.533600222",
+        "wall_ms": "17.241628986084834",
+        "thread_cpu_ms": "2.4708609999999354",
+        "process_cpu_ms": "2.546495999999898",
+        "minor_faults": "626",
+        "major_faults": "1",
+        "voluntary_switches": "1",
+        "involuntary_switches": "0",
+        "process_minor_faults": "626",
+        "process_major_faults": "1",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "1.727000000000034",
+        "thread_system_ms": "0.0",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "start_etw_s": 3.013971536277254,
+      "end_etw_s": 3.0310794495734465,
+      "file": "host_events_A_0_candidates.txt",
+      "exit": 0,
+      "nearby_residual_ms": [
+        -0.11858875000925195,
+        -0.4293377353459249,
+        -0.08063940927716118,
+        -0.3642592044625914,
+        -0.08801543287439983
+      ],
+      "enclosing_samples": [
+        {
+          "send_s": "227280.167683069",
+          "receive_s": "227280.168442701",
+          "unix_s": "1793379646.0425067",
+          "qpc": "2410995128363",
+          "frequency": "10000000"
+        },
+        {
+          "send_s": "227280.668589972",
+          "receive_s": "227280.669292419",
+          "unix_s": "1793379646.53934",
+          "qpc": "2411000098301",
+          "frequency": "10000000"
+        }
+      ]
+    },
+    {
+      "run": "A",
+      "stage": {
+        "frame": "606",
+        "stage": "blur",
+        "start_s": "227290.608824396",
+        "end_s": "227290.614611055",
+        "wall_ms": "5.7866589922923595",
+        "thread_cpu_ms": "5.810021000000276",
+        "process_cpu_ms": "5.8111560000000395",
+        "minor_faults": "769",
+        "major_faults": "0",
+        "voluntary_switches": "0",
+        "involuntary_switches": "0",
+        "process_minor_faults": "769",
+        "process_major_faults": "0",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "2.567000000000874",
+        "thread_system_ms": "0.7150000000000212",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "start_etw_s": 13.096752575772143,
+      "end_etw_s": 13.102561604901858,
+      "file": "host_events_A_606_blur.txt",
+      "exit": 0,
+      "nearby_residual_ms": [
+        -0.020128127982133037,
+        -0.12954436308909578,
+        0.025665608692548858,
+        -0.1746525203500937,
+        0.0035646398561794967
+      ],
+      "enclosing_samples": [
+        {
+          "send_s": "227290.189044053",
+          "receive_s": "227290.189868584",
+          "unix_s": "1793379656.0505679",
+          "qpc": "2411095202226",
+          "frequency": "10000000"
+        },
+        {
+          "send_s": "227290.690168283",
+          "receive_s": "227290.691100832",
+          "unix_s": "1793379656.5533164",
+          "qpc": "2411100233383",
+          "frequency": "10000000"
+        }
+      ]
+    },
+    {
+      "run": "B",
+      "stage": {
+        "frame": "5505",
+        "stage": "blur",
+        "start_s": "227396.959862725",
+        "end_s": "227396.964328038",
+        "wall_ms": "4.465313017135486",
+        "thread_cpu_ms": "4.49961500000029",
+        "process_cpu_ms": "4.500301000007312",
+        "minor_faults": "0",
+        "major_faults": "0",
+        "voluntary_switches": "0",
+        "involuntary_switches": "0",
+        "process_minor_faults": "0",
+        "process_major_faults": "0",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "4.23399999999674",
+        "thread_system_ms": "0.0",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "start_etw_s": 119.52144107997472,
+      "end_etw_s": 119.52594068081203,
+      "file": "host_events_B_5505_blur.txt",
+      "exit": 0,
+      "nearby_residual_ms": [
+        -0.06895832626696574,
+        -0.0071535120440557876,
+        0.014290838080910362,
+        -0.08771924649408902,
+        0.02480126502746316
+      ],
+      "enclosing_samples": [
+        {
+          "send_s": "227396.932863391",
+          "receive_s": "227396.933658434",
+          "unix_s": "1793379762.8686695",
+          "qpc": "2412163390943",
+          "frequency": "10000000"
+        },
+        {
+          "send_s": "227397.433815056",
+          "receive_s": "227397.434568965",
+          "unix_s": "1793379763.3723495",
+          "qpc": "2412168438719",
+          "frequency": "10000000"
+        }
+      ]
+    },
+    {
+      "run": "B",
+      "stage": {
+        "frame": "3129",
+        "stage": "tracking",
+        "start_s": "227357.365398787",
+        "end_s": "227357.369892197",
+        "wall_ms": "4.493410000577569",
+        "thread_cpu_ms": "4.515443999999036",
+        "process_cpu_ms": "4.5165169999989985",
+        "minor_faults": "0",
+        "major_faults": "0",
+        "voluntary_switches": "0",
+        "involuntary_switches": "0",
+        "process_minor_faults": "0",
+        "process_major_faults": "0",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "3.0749999999990507",
+        "thread_system_ms": "0.0",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "start_etw_s": 79.89568311882611,
+      "end_etw_s": 79.90019719836093,
+      "file": "host_events_B_3129_tracking.txt",
+      "exit": 0,
+      "nearby_residual_ms": [
+        0.06246019725608676,
+        -0.09594414956382025,
+        -0.03657773704901501,
+        -0.0107494386156759,
+        -0.10730194200903043
+      ],
+      "enclosing_samples": [
+        {
+          "send_s": "227357.348325356",
+          "receive_s": "227357.348998558",
+          "unix_s": "1793379723.2536697",
+          "qpc": "2411767233286",
+          "frequency": "10000000"
+        },
+        {
+          "send_s": "227357.849206175",
+          "receive_s": "227357.850267285",
+          "unix_s": "1793379723.7563162",
+          "qpc": "2411772267083",
+          "frequency": "10000000"
+        }
+      ]
+    },
+    {
+      "run": "B",
+      "stage": {
+        "frame": "7883",
+        "stage": "selection_strong_core",
+        "start_s": "227436.59928983",
+        "end_s": "227436.602917372",
+        "wall_ms": "3.6275419988669455",
+        "thread_cpu_ms": "3.5511490000033064",
+        "process_cpu_ms": "5.987546000000066",
+        "minor_faults": "0",
+        "major_faults": "0",
+        "voluntary_switches": "0",
+        "involuntary_switches": "0",
+        "process_minor_faults": "0",
+        "process_major_faults": "0",
+        "input_blocks": "0",
+        "output_blocks": "0",
+        "threads": "",
+        "thread_user_ms": "0.8289999999959718",
+        "thread_system_ms": "0.0",
+        "compact_stall": "",
+        "compact_fail": "",
+        "compact_success": "",
+        "allocstall_normal": "",
+        "allocstall_movable": ""
+      },
+      "start_etw_s": 159.17449986335282,
+      "end_etw_s": 159.17805043675926,
+      "file": "host_events_B_7883_selection_strong_core.txt",
+      "exit": 0,
+      "nearby_residual_ms": [
+        -0.9106296075458431,
+        -0.21074677172805423,
+        -0.7133788778332928,
+        -0.18271648463041856,
+        -0.7196378605272002
+      ],
+      "enclosing_samples": [
+        {
+          "send_s": "227436.514448894",
+          "receive_s": "227436.515446729",
+          "unix_s": "1793379802.4639392",
+          "qpc": "2412559364067",
+          "frequency": "10000000"
+        },
+        {
+          "send_s": "227437.016667997",
+          "receive_s": "227437.017441471",
+          "unix_s": "1793379802.9581127",
+          "qpc": "2412564278600",
+          "frequency": "10000000"
+        }
+      ]
+    }
+  ]
+}

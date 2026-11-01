@@ -1,0 +1,46 @@
+{
+  "note": "These parent-project modules are referenced, not copied or included in the workspace split. Local working files can differ from the parent commit.",
+  "parent_commit_before": "df07df7ed3b65d8655fbd92457ea26984973fd79",
+  "modules": [
+    {
+      "module": "microbubble_experiment.afg",
+      "parent_path": "microbubble_experiment/afg.py",
+      "sha256": "d88da51bc98220b8dc54cb48228759d055a7ae42797aee38bce8d94a0fcf8852"
+    },
+    {
+      "module": "microbubble_experiment.camera",
+      "parent_path": "microbubble_experiment/camera.py",
+      "sha256": "672dd4d4300d29ca93d92b0d0088fcaff0da62d40b48fef3cc0e8d6f29d4fcd9"
+    },
+    {
+      "module": "microbubble_experiment.camera_bridge",
+      "parent_path": "microbubble_experiment/camera_bridge.py",
+      "sha256": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93"
+    },
+    {
+      "module": "microbubble_experiment.camera_rtsp",
+      "parent_path": "microbubble_experiment/camera_rtsp.py",
+      "sha256": "03ed3420ff82d01b3c039e3bed14c27ce34cefa7f04ea5bee496ffc9a4775473"
+    },
+    {
+      "module": "microbubble_experiment.camera_server",
+      "parent_path": "microbubble_experiment/camera_server.py",
+      "sha256": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc"
+    },
+    {
+      "module": "microbubble_experiment.configuration",
+      "parent_path": "microbubble_experiment/configuration.py",
+      "sha256": "abd47121f3e6dfadc976b73aa2621aa4c476ab9ef01ed1cb7da7632bf599142d"
+    },
+    {
+      "module": "microbubble_experiment.desktop",
+      "parent_path": "microbubble_experiment/desktop.py",
+      "sha256": "c40e9b0b18460c0f0863eb7b903e57999c7a99824d339580dc2ce18a08854a57"
+    },
+    {
+      "module": "microbubble_experiment.recording",
+      "parent_path": "microbubble_experiment/recording.py",
+      "sha256": "8db21da04225f27c0f89f407183b7c0c1af346f63cdb0b645502c4e64a667d55"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "checked_html_links": 102,
+  "only_modified_preexisting_files": [
+    "customer_workspace/bubble_regions.py",
+    "customer_workspace/README.md"
+  ],
+  "profile_identical_to_selected": true,
+  "protected_old_files_unchanged": 376
+}

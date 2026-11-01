@@ -1,0 +1,59 @@
+{
+  "engine": "microbubble_tracking.OnlineProcessor",
+  "window": null,
+  "processed": 29,
+  "saved": 29,
+  "analysis_hz": 14.5,
+  "actual_tracking_results": 29,
+  "processing_ms": {
+    "median": 10.556594999798108,
+    "p95": 16.247998000471853,
+    "p99": 18.34725064167287,
+    "max": 19.063004001509398
+  },
+  "software_age_upper_bound_ms": {
+    "median": 28.30016399093438,
+    "p95": 44.43915860028937,
+    "p99": 46.74966723949183,
+    "max": 47.240959996997844
+  },
+  "completion_interval_ms": {
+    "median": 15.941729998303344,
+    "p95": 22.118286252225516,
+    "p99": 28.54443509859266,
+    "max": 30.77551799651701
+  },
+  "recorder_dropped": null,
+  "analysis_skipped": 0,
+  "bridge_overwritten": 1,
+  "threads_closed": true,
+  "pipeline_error": [
+    "RuntimeError: RuntimeError: Input ended before the requested window",
+    "RuntimeError: Input ended before the requested window"
+  ],
+  "latency_scope": "Windows receipt to WSL result conservative bound; not exposure time",
+  "tracking_summary": {
+    "status": "failed",
+    "frames": 29,
+    "observations": 605,
+    "tracks": 24,
+    "confirmed_tracks": 21,
+    "events_by_status": {
+      "confirmed_tracks": 21,
+      "rejected_short_track": 4,
+      "unresolved_at_end": 1
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 1,
+    "peak_active_tracks": 23,
+    "persistence": {
+      "submitted_frames": 29,
+      "committed_frames": 29,
+      "pending_records": 0,
+      "peak_pending_records": 2,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 30,
+      "error": null
+    }
+  }
+}

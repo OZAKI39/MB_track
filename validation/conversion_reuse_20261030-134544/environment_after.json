@@ -1,0 +1,209 @@
+{
+  "linux": {
+    "perf_counter_s": 212307.384088032,
+    "unix_s": 1793364673.2948856,
+    "total_bytes": 8324632576,
+    "available_bytes": 5680898048,
+    "used_bytes": 2643734528,
+    "cached_bytes": 1254404096,
+    "swap_used_bytes": 63115264,
+    "vmstat": {
+      "pswpin": 561465,
+      "pswpout": 982328,
+      "pgmajfault": 422437,
+      "oom_kill": 0
+    },
+    "memory_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=7722676\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=7356885\n",
+    "processes": [
+      {
+        "pid": 314293,
+        "name": "MainThread",
+        "rss_bytes": 888938496,
+        "pylance": false
+      },
+      {
+        "pid": 314274,
+        "name": "MainThread",
+        "rss_bytes": 430678016,
+        "pylance": false
+      },
+      {
+        "pid": 314370,
+        "name": "codex",
+        "rss_bytes": 238723072,
+        "pylance": false
+      },
+      {
+        "pid": 313480,
+        "name": "MainThread",
+        "rss_bytes": 131387392,
+        "pylance": false
+      },
+      {
+        "pid": 314119,
+        "name": "MainThread",
+        "rss_bytes": 119857152,
+        "pylance": false
+      }
+    ]
+  },
+  "windows": {
+    "unix_ms": 1793364674203,
+    "total_physical_bytes": 16898142208,
+    "available_bytes": 1593348096,
+    "processes": [
+      {
+        "Id": 29464,
+        "ProcessName": "vmmemWSL",
+        "WorkingSet64": 2607906816,
+        "PrivateMemorySize64": 4436357120
+      },
+      {
+        "Id": 57616,
+        "ProcessName": "chrome",
+        "WorkingSet64": 602578944,
+        "PrivateMemorySize64": 587538432
+      },
+      {
+        "Id": 27244,
+        "ProcessName": "Code",
+        "WorkingSet64": 542101504,
+        "PrivateMemorySize64": 740614144
+      },
+      {
+        "Id": 42376,
+        "ProcessName": "chrome",
+        "WorkingSet64": 513056768,
+        "PrivateMemorySize64": 679538688
+      },
+      {
+        "Id": 13540,
+        "ProcessName": "chrome",
+        "WorkingSet64": 470732800,
+        "PrivateMemorySize64": 469716992
+      },
+      {
+        "Id": 14412,
+        "ProcessName": "Code",
+        "WorkingSet64": 463360000,
+        "PrivateMemorySize64": 561315840
+      },
+      {
+        "Id": 52412,
+        "ProcessName": "chrome",
+        "WorkingSet64": 388587520,
+        "PrivateMemorySize64": 397807616
+      },
+      {
+        "Id": 15552,
+        "ProcessName": "Weixin",
+        "WorkingSet64": 382328832,
+        "PrivateMemorySize64": 325726208
+      },
+      {
+        "Id": 33212,
+        "ProcessName": "chrome",
+        "WorkingSet64": 350445568,
+        "PrivateMemorySize64": 402276352
+      },
+      {
+        "Id": 3728,
+        "ProcessName": "NVDisplay.Container",
+        "WorkingSet64": 324349952,
+        "PrivateMemorySize64": 2976702464
+      },
+      {
+        "Id": 15628,
+        "ProcessName": "explorer",
+        "WorkingSet64": 315027456,
+        "PrivateMemorySize64": 683065344
+      },
+      {
+        "Id": 32564,
+        "ProcessName": "MsMpEng",
+        "WorkingSet64": 297803776,
+        "PrivateMemorySize64": 648790016
+      },
+      {
+        "Id": 33952,
+        "ProcessName": "chrome",
+        "WorkingSet64": 251445248,
+        "PrivateMemorySize64": 175214592
+      },
+      {
+        "Id": 21844,
+        "ProcessName": "Code",
+        "WorkingSet64": 182181888,
+        "PrivateMemorySize64": 777342976
+      },
+      {
+        "Id": 18928,
+        "ProcessName": "chrome",
+        "WorkingSet64": 176873472,
+        "PrivateMemorySize64": 423219200
+      },
+      {
+        "Id": 4148,
+        "ProcessName": "Memory Compression",
+        "WorkingSet64": 162033664,
+        "PrivateMemorySize64": 16347136
+      },
+      {
+        "Id": 28764,
+        "ProcessName": "Code",
+        "WorkingSet64": 161103872,
+        "PrivateMemorySize64": 283009024
+      },
+      {
+        "Id": 16604,
+        "ProcessName": "QQ",
+        "WorkingSet64": 153530368,
+        "PrivateMemorySize64": 342216704
+      },
+      {
+        "Id": 28900,
+        "ProcessName": "chrome",
+        "WorkingSet64": 147492864,
+        "PrivateMemorySize64": 781312000
+      },
+      {
+        "Id": 21020,
+        "ProcessName": "msedgewebview2",
+        "WorkingSet64": 146866176,
+        "PrivateMemorySize64": 208670720
+      },
+      {
+        "Id": 32288,
+        "ProcessName": "QQ",
+        "WorkingSet64": 142413824,
+        "PrivateMemorySize64": 321691648
+      },
+      {
+        "Id": 2140,
+        "ProcessName": "Code",
+        "WorkingSet64": 133447680,
+        "PrivateMemorySize64": 208601088
+      },
+      {
+        "Id": 17004,
+        "ProcessName": "StartMenuExperienceHost",
+        "WorkingSet64": 122925056,
+        "PrivateMemorySize64": 241909760
+      },
+      {
+        "Id": 57052,
+        "ProcessName": "chrome",
+        "WorkingSet64": 115691520,
+        "PrivateMemorySize64": 101748736
+      },
+      {
+        "Id": 52116,
+        "ProcessName": "WeChatAppEx",
+        "WorkingSet64": 110354432,
+        "PrivateMemorySize64": 73519104
+      }
+    ],
+    "wsl_config_path": "C:\\Users\\lzy\\.wslconfig",
+    "wsl_config": "[wsl2]\nnetworkingMode=nat\nswapFile=F:\\\\WSL-Swap\\\\swap.vhdx\nmemory=8GB\nswap=8GB\ncrashDumpFolder=F:\\\\WSL\\\\CrashDumps\nmaxCrashDumpCount=1\ndebugConsoleLogFile=F:\\\\WSL\\\\Logs\\\\kernel-console.log\n\n[general]\ndistributionInstallPath=F:\\\\WSL\\\\Distributions\r\n"
+  }
+}

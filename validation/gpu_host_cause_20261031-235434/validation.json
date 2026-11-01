@@ -1,0 +1,50 @@
+{
+  "host_light": {
+    "clock_validated": true,
+    "clock": {
+      "origin_qpc": 905894351540,
+      "frequency": 10000000,
+      "utc_check_median_ms": 0.021219253540039062,
+      "rtt_ms": {
+        "median": 0.6961614926694892,
+        "p95": 0.9035773495270405,
+        "p99": 1.0645173108787276,
+        "max": 2.537510998081416
+      }
+    },
+    "stop_exit_code": 0
+  },
+  "host_gpu": {
+    "clock_validated": true,
+    "clock": {
+      "origin_qpc": 909100136253,
+      "frequency": 10000000,
+      "utc_check_median_ms": 0.19478797912597656,
+      "rtt_ms": {
+        "median": 0.7218809914775193,
+        "p95": 0.9599217533832415,
+        "p99": 1.142065366148017,
+        "max": 1.6082549991551787
+      }
+    },
+    "stop_exit_code": 0
+  },
+  "host_driver": {
+    "clock_validated": true,
+    "clock": {
+      "origin_qpc": 910709774996,
+      "frequency": 10000000,
+      "utc_check_median_ms": 0.2180337905883789,
+      "rtt_ms": {
+        "median": 0.7671519997529685,
+        "p95": 1.0509865467611235,
+        "p99": 1.8103309716389007,
+        "max": 3.1404839974129573
+      }
+    },
+    "stop_exit_code": 0
+  },
+  "profile_xml_valid": true,
+  "python_checks": "Ruff check, Ruff format, py_compile and CLI help passed",
+  "protected_files": 12
+}

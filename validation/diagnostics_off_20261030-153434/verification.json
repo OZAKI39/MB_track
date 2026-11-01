@@ -1,0 +1,537 @@
+{
+  "runs": {
+    "previous_diagnostics_1": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3957,
+        "replaced_frames": 3,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcomes": {
+        "processed": 3957,
+        "replaced": 3
+      },
+      "process_ms": {
+        "min": 7.894590002251789,
+        "median": 9.293562994571403,
+        "p95": 10.930610599461943,
+        "p99": 12.362743834964933,
+        "max": 32.56159200100228
+      },
+      "queue_ms": {
+        "min": 0.17205500626005232,
+        "median": 0.261634006164968,
+        "p95": 0.3833383845631033,
+        "p99": 0.5184951471164824,
+        "max": 19.99684699694626
+      },
+      "source_send_late_ms": {
+        "min": 0.15120062744244933,
+        "median": 0.18705331603996456,
+        "p95": 0.23439222422894088,
+        "p99": 0.28501187392976124,
+        "max": 9.84322396107018
+      },
+      "ready_frame_handoff_ms": {
+        "n": 16,
+        "median": 0.5866405117558315,
+        "p99": 3.8533261555130585,
+        "max": 4.296564002288505
+      },
+      "available_to_take_ms": {
+        "n": 3956,
+        "median": 0.26161750429309905,
+        "p99": 0.4995692477677939,
+        "max": 4.730657004984096
+      },
+      "writer": {
+        "committed_frames": 3957,
+        "pending_records": 0,
+        "peak_pending_records": 4,
+        "all_submitted_saved": true,
+        "error": null
+      },
+      "flags": {
+        "measure_stages": true,
+        "diagnose_stalls": true,
+        "diagnose_details": false
+      },
+      "diagnostic_files": [
+        "consumer_stalls.csv",
+        "consumer_stalls.gc.csv",
+        "consumer_stalls.meta.json",
+        "source_stalls.csv",
+        "source_stalls.gc.csv",
+        "source_stalls.meta.json",
+        "writer_stalls.csv",
+        "writer_stalls.gc.csv",
+        "writer_stalls.meta.json"
+      ],
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "saved_ids_match_consumer": true,
+      "scientific_tables": {
+        "frames": {
+          "sha256": "a76b9b81d3dc474a51d74c681f45d35810d8da912ce9ca9194007b3556fd8f26",
+          "rows": 3957
+        },
+        "tracks": {
+          "sha256": "4d38f7c13f91bce5c3946657b0f1bebf99b8f106dafa434d89dd2cc8502bf0a3",
+          "rows": 565
+        },
+        "observations": {
+          "sha256": "e1c04a96558a2068024f94ee21407fc9e7d2d6a1c11bc0505c70ace2f0805613",
+          "rows": 66474
+        },
+        "track_updates": {
+          "sha256": "7727e376191fd926efd7394adbae5beba41ecf163c417a27d0d6c3f72d1c808b",
+          "rows": 1479
+        },
+        "events": {
+          "sha256": "a1e924b9545fd4fb44fa219d2856bf2cfcabda4ea4241ceb3a71cab08e01cd70",
+          "rows": 1115
+        },
+        "event_updates": {
+          "sha256": "dac7f0264fa099b090a107a856c82c3d7b6784045ab18334fa78f7968517c914",
+          "rows": 2230
+        },
+        "input_rejections": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "rows": 0
+        }
+      }
+    },
+    "normal_1": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcomes": {
+        "processed": 3960
+      },
+      "process_ms": {
+        "min": 7.541942992247641,
+        "median": 9.161126494291238,
+        "p95": 10.869578362326134,
+        "p99": 12.532086000719573,
+        "max": 23.61850201850757
+      },
+      "queue_ms": {
+        "min": 0.16407598741352558,
+        "median": 0.2788190031424165,
+        "p95": 0.4179434326943009,
+        "p99": 0.5270596331683919,
+        "max": 8.195583010092378
+      },
+      "source_send_late_ms": {
+        "min": 0.1347396755591035,
+        "median": 0.1654746592976153,
+        "p95": 0.22931875573704014,
+        "p99": 0.27203809528145934,
+        "max": 8.228777995100245
+      },
+      "ready_frame_handoff_ms": {
+        "n": 7,
+        "median": 0.21868300973437726,
+        "p99": 0.5826746742241085,
+        "max": 0.5863599944859743
+      },
+      "available_to_take_ms": {
+        "n": 3959,
+        "median": 0.27864400180988014,
+        "p99": 0.5236163252266124,
+        "max": 0.9092250256799161
+      },
+      "writer": {
+        "committed_frames": 3960,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "all_submitted_saved": true,
+        "error": null
+      },
+      "flags": {
+        "measure_stages": false,
+        "diagnose_stalls": false,
+        "diagnose_details": false
+      },
+      "diagnostic_files": [],
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "saved_ids_match_consumer": true,
+      "scientific_tables": {
+        "frames": {
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec",
+          "rows": 3960
+        },
+        "tracks": {
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0",
+          "rows": 565
+        },
+        "observations": {
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c",
+          "rows": 66515
+        },
+        "track_updates": {
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f",
+          "rows": 1479
+        },
+        "events": {
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d",
+          "rows": 1115
+        },
+        "event_updates": {
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c",
+          "rows": 2230
+        },
+        "input_rejections": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "rows": 0
+        }
+      }
+    },
+    "normal_2": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcomes": {
+        "processed": 3960
+      },
+      "process_ms": {
+        "min": 7.372172985924408,
+        "median": 9.164585004327819,
+        "p95": 11.002364895830397,
+        "p99": 12.434532657789527,
+        "max": 26.38105399091728
+      },
+      "queue_ms": {
+        "min": 0.17891800962388515,
+        "median": 0.28639950323849916,
+        "p95": 0.42547820921754465,
+        "p99": 0.5393438902683554,
+        "max": 11.431310995249078
+      },
+      "source_send_late_ms": {
+        "min": 0.1384176721330732,
+        "median": 0.16658716776873916,
+        "p95": 0.22282466088654465,
+        "p99": 0.2610498029389418,
+        "max": 6.649704999290407
+      },
+      "ready_frame_handoff_ms": {
+        "n": 4,
+        "median": 0.19510849961079657,
+        "p99": 0.4088514065369963,
+        "max": 0.41529000736773014
+      },
+      "available_to_take_ms": {
+        "n": 3959,
+        "median": 0.28632301837205887,
+        "p99": 0.5305171851068738,
+        "max": 0.7491170254070312
+      },
+      "writer": {
+        "committed_frames": 3960,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "all_submitted_saved": true,
+        "error": null
+      },
+      "flags": {
+        "measure_stages": false,
+        "diagnose_stalls": false,
+        "diagnose_details": false
+      },
+      "diagnostic_files": [],
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "saved_ids_match_consumer": true,
+      "scientific_tables": {
+        "frames": {
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec",
+          "rows": 3960
+        },
+        "tracks": {
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0",
+          "rows": 565
+        },
+        "observations": {
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c",
+          "rows": 66515
+        },
+        "track_updates": {
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f",
+          "rows": 1479
+        },
+        "events": {
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d",
+          "rows": 1115
+        },
+        "event_updates": {
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c",
+          "rows": 2230
+        },
+        "input_rejections": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "rows": 0
+        }
+      }
+    },
+    "previous_diagnostics_2": {
+      "counts": {
+        "offered_frames": 3960,
+        "processed_frames": 3960,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcomes": {
+        "processed": 3960
+      },
+      "process_ms": {
+        "min": 7.7521960192825645,
+        "median": 9.436414984520525,
+        "p95": 11.081587146327365,
+        "p99": 12.58484623220283,
+        "max": 29.479802993591875
+      },
+      "queue_ms": {
+        "min": 0.17158102127723396,
+        "median": 0.2633105032145977,
+        "p95": 0.3820640849880873,
+        "p99": 0.49385928025003495,
+        "max": 14.756415999727324
+      },
+      "source_send_late_ms": {
+        "min": 0.1558643125463277,
+        "median": 0.19014264398720115,
+        "p95": 0.2604164546937681,
+        "p99": 0.305733257846441,
+        "max": 8.982551982626319
+      },
+      "ready_frame_handoff_ms": {
+        "n": 7,
+        "median": 0.5942759744357318,
+        "p99": 1.363743041292764,
+        "max": 1.3971410226076841
+      },
+      "available_to_take_ms": {
+        "n": 3959,
+        "median": 0.2632990072015673,
+        "p99": 0.48830555228050804,
+        "max": 1.7398030031472445
+      },
+      "writer": {
+        "committed_frames": 3960,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "all_submitted_saved": true,
+        "error": null
+      },
+      "flags": {
+        "measure_stages": true,
+        "diagnose_stalls": true,
+        "diagnose_details": false
+      },
+      "diagnostic_files": [
+        "consumer_stalls.csv",
+        "consumer_stalls.gc.csv",
+        "consumer_stalls.meta.json",
+        "source_stalls.csv",
+        "source_stalls.gc.csv",
+        "source_stalls.meta.json",
+        "writer_stalls.csv",
+        "writer_stalls.gc.csv",
+        "writer_stalls.meta.json"
+      ],
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "saved_ids_match_consumer": true,
+      "scientific_tables": {
+        "frames": {
+          "sha256": "4a2db02f874d25c1647426cd33141dec2dc275d8dfb0f8545498aea49d5d1bec",
+          "rows": 3960
+        },
+        "tracks": {
+          "sha256": "6b86669ceb4114c187da27c22112b35be7513edab6e9a60a28bbad12df3b87e0",
+          "rows": 565
+        },
+        "observations": {
+          "sha256": "12ea84d2da0ddd8287849b7ec80066616d0b3687b185215b102b347e9f08355c",
+          "rows": 66515
+        },
+        "track_updates": {
+          "sha256": "4d5a9de222232fff82d2697f0718a8da3abf4a994da7676a656741774969b31f",
+          "rows": 1479
+        },
+        "events": {
+          "sha256": "67b797900aba0ca4e6260ce2c427efbb58c17f9c8ed112862cce7c66eef5c71d",
+          "rows": 1115
+        },
+        "event_updates": {
+          "sha256": "7c968936d3f1c4c47fd9c0a8a6146c58f11e404f61400c0ae9a63d91ae9dfe6c",
+          "rows": 2230
+        },
+        "input_rejections": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "rows": 0
+        }
+      }
+    },
+    "detailed_smoke": {
+      "counts": {
+        "offered_frames": 180,
+        "processed_frames": 179,
+        "replaced_frames": 1,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0
+      },
+      "outcomes": {
+        "processed": 179,
+        "replaced": 1
+      },
+      "process_ms": {
+        "min": 8.620969019830227,
+        "median": 9.732156002428383,
+        "p95": 11.463517000083812,
+        "p99": 13.509188444586469,
+        "max": 31.949085008818656
+      },
+      "queue_ms": {
+        "min": 0.19762999727390707,
+        "median": 0.273067009402439,
+        "p95": 0.4277316009392962,
+        "p99": 0.5616485083010045,
+        "max": 0.7219320104923099
+      },
+      "source_send_late_ms": {
+        "min": 0.15574367716908455,
+        "median": 0.19460184557829052,
+        "p95": 0.24451265198877078,
+        "p99": 0.3246201679576197,
+        "max": 8.634499332401901
+      },
+      "ready_frame_handoff_ms": {
+        "n": 0
+      },
+      "available_to_take_ms": {
+        "n": 178,
+        "median": 0.2729680127231404,
+        "p99": 0.5011845854460258,
+        "max": 0.6945409986656159
+      },
+      "writer": {
+        "committed_frames": 179,
+        "pending_records": 0,
+        "peak_pending_records": 1,
+        "all_submitted_saved": true,
+        "error": null
+      },
+      "flags": {
+        "measure_stages": true,
+        "diagnose_stalls": true,
+        "diagnose_details": true
+      },
+      "diagnostic_files": [
+        "consumer_stalls.csv",
+        "consumer_stalls.gc.csv",
+        "consumer_stalls.meta.json",
+        "source_stalls.csv",
+        "source_stalls.gc.csv",
+        "source_stalls.meta.json",
+        "writer_stalls.csv",
+        "writer_stalls.gc.csv",
+        "writer_stalls.meta.json"
+      ],
+      "integrity": "ok",
+      "foreign_key_errors": [],
+      "saved_ids_match_consumer": true,
+      "scientific_tables": {
+        "frames": {
+          "sha256": "9adbc23059276bd03ac67076d951b841bbc151ac337bdedbd5dff0f8f065b707",
+          "rows": 179
+        },
+        "tracks": {
+          "sha256": "67c3496ae87d51a4ef45c2ebe66328796742abdfe0d764b713bb39cca39c9a7e",
+          "rows": 32
+        },
+        "observations": {
+          "sha256": "a77950387c6302d72801ce565fa3a23706110c19222241ecd090a3c2fa569495",
+          "rows": 3653
+        },
+        "track_updates": {
+          "sha256": "975c7aaead9365d506a8c54ce06934d8512f8de3bfb3dbeceb7550f325c4f698",
+          "rows": 92
+        },
+        "events": {
+          "sha256": "c257df17e762ec0226591853dd021369ccedd3c9a8f77ba33136e0ae1df8d199",
+          "rows": 42
+        },
+        "event_updates": {
+          "sha256": "f42c6b46eab788faf6914b55834f42cfddd5cdb434f52b7a548c64107726e509",
+          "rows": 84
+        },
+        "input_rejections": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "rows": 0
+        }
+      }
+    }
+  },
+  "scientific_equality_to_normal_1": {
+    "normal_2": {
+      "frames": true,
+      "tracks": true,
+      "observations": true,
+      "track_updates": true,
+      "events": true,
+      "event_updates": true,
+      "input_rejections": true
+    },
+    "previous_diagnostics_2": {
+      "frames": true,
+      "tracks": true,
+      "observations": true,
+      "track_updates": true,
+      "events": true,
+      "event_updates": true,
+      "input_rejections": true
+    }
+  },
+  "inputs_and_code_unchanged": {
+    "customer_workspace/microbubble_tracking/data/raw/expA.mp4": true,
+    "customer_workspace/microbubble_tracking/results/B_offline/background.npy": true,
+    "customer_workspace/microbubble_tracking/paced_replay.py": true,
+    "customer_workspace/microbubble_tracking/paced_source.py": true,
+    "customer_workspace/microbubble_tracking/memory_pressure_check.py": true,
+    "customer_workspace/microbubble_tracking/memory_pressure_report.py": true,
+    "customer_workspace/microbubble_tracking/online_tracking.py": true,
+    "customer_workspace/microbubble_tracking/async_store.py": true,
+    "customer_workspace/microbubble_tracking/online_store.py": true,
+    "customer_workspace/microbubble_tracking/bubble_tracker.py": true,
+    "customer_workspace/microbubble_tracking/stall_probe.py": true
+  },
+  "automatic_tests": {
+    "passed": 131,
+    "targeted_passed": 17,
+    "ruff": "passed"
+  },
+  "limitations": [
+    "Offline 1x replay, no live camera or recording/AFG load.",
+    "First control overlapped two short CLI-help commands near its end; this is a timing confound, not discarded.",
+    "Ready-frame handoff only includes frames already published when the previous frame finished; small samples are not a global speed claim.",
+    "Detailed smoke is a functional diagnostic-switch test, not a no-drop acceptance test."
+  ]
+}

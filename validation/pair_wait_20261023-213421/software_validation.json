@@ -1,0 +1,48 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/timing_benchmark.py",
+      "customer_workspace/amplitude_pair_diagnostic.py",
+      "customer_workspace/wait_calibration.py",
+      "customer_workspace/tests/test_pair_and_wait.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/timing_benchmark.py",
+      "customer_workspace/amplitude_pair_diagnostic.py",
+      "customer_workspace/wait_calibration.py",
+      "customer_workspace/tests/test_pair_and_wait.py"
+    ],
+    "returncode": 0,
+    "stdout": "4 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "customer_workspace/tests"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [ 53%]\n..............................................................           [100%]\n134 passed in 0.22s\n",
+    "stderr": ""
+  }
+]

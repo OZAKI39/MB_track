@@ -1,0 +1,46 @@
+{
+  "checked_commands": {
+    "initial_pytest_console_entry": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "96dbe4",
+        "wall_time_seconds": 0.210631557,
+        "exit_code": 2,
+        "original_token_count": 983,
+        "output": "\n==================================== ERRORS ====================================\n______ ERROR collecting customer_workspace/tests/test_benchmark_report.py ______\nImportError while importing test module '/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/test_benchmark_report.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/usr/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncustomer_workspace/tests/test_benchmark_report.py:7: in <module>\n    from customer_workspace.benchmark_report import distribution, summarize_samples\nE   ModuleNotFoundError: No module named 'customer_workspace'\n_____ ERROR collecting customer_workspace/tests/test_experiment_runner.py ______\nImportError while importing test module '/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/test_experiment_runner.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/usr/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncustomer_workspace/tests/test_experiment_runner.py:10: in <module>\n    from customer_workspace import experiment_runner\nE   ModuleNotFoundError: No module named 'customer_workspace'\n_______ ERROR collecting customer_workspace/tests/test_timing_report.py ________\nImportError while importing test module '/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/test_timing_report.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/usr/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncustomer_workspace/tests/test_timing_report.py:8: in <module>\n    from customer_workspace.afg_timing import OutputTiming\nE   ModuleNotFoundError: No module named 'customer_workspace'\n_____ ERROR collecting customer_workspace/tests/test_write_only_guards.py ______\nImportError while importing test module '/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/test_write_only_guards.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/usr/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncustomer_workspace/tests/test_write_only_guards.py:5: in <module>\n    from customer_workspace.afg_timing import RoundUnreliable, TimedRig\nE   ModuleNotFoundError: No module named 'customer_workspace'\n________ ERROR collecting customer_workspace/tests/test_wsl_launcher.py ________\nImportError while importing test module '/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/test_wsl_launcher.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/usr/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncustomer_workspace/tests/test_wsl_launcher.py:10: in <module>\n    from customer_workspace import wsl_launcher\nE   ModuleNotFoundError: No module named 'customer_workspace'\n=========================== short test summary info ============================\nERROR customer_workspace/tests/test_benchmark_report.py\nERROR customer_workspace/tests/test_experiment_runner.py\nERROR customer_workspace/tests/test_timing_report.py\nERROR customer_workspace/tests/test_write_only_guards.py\nERROR customer_workspace/tests/test_wsl_launcher.py\n!!!!!!!!!!!!!!!!!!! Interrupted: 5 errors during collection !!!!!!!!!!!!!!!!!!!!\n5 errors in 0.13s\n"
+      }
+    },
+    "static_check": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "9efd63",
+        "wall_time_seconds": 0.000011925,
+        "exit_code": 0,
+        "original_token_count": 5,
+        "output": "All checks passed!\n"
+      }
+    },
+    "format_check": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "db0819",
+        "wall_time_seconds": 0.000011058,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "1 file already formatted\n"
+      }
+    },
+    "correct_module_pytest_entry": {
+      "chunk_id": "8a12c7",
+      "wall_time_seconds": 0.157385188,
+      "exit_code": 0,
+      "original_token_count": 45,
+      "output": "........................................................................ [ 66%]\n....................................                                     [100%]\n108 passed in 0.17s\n"
+    }
+  },
+  "option_validation": {
+    "valid_defaults_accepted": true,
+    "invalid_cases_rejected": 6
+  },
+  "note": "首次直接使用 pytest 控制台入口未能找到项目包；改用项目根目录下 python -m pytest，108 项全部通过。没有修改 sys.path 或测试配置。"
+}

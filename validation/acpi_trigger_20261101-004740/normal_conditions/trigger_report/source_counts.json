@@ -1,0 +1,21 @@
+{
+  "c5": 46,
+  "wmi_calls": 23,
+  "wmi_clients": {
+    "10940": 23
+  },
+  "method_counts": {
+    "\\_SB.AMW0.WMBC": 46,
+    "\\_SB.NPCF._DSM": 46,
+    "\\_SB.PC00.HDAS._DSW": 3,
+    "\\_SB.PC00.HDAS._PS3": 2,
+    "\\_SB.BAT0._BST": 16,
+    "\\_SB.AC0._PSR": 13,
+    "\\_SB.PC00.LPCB.EC0._Q89": 4,
+    "\\_SB.BAT0._STA": 4,
+    "\\_SB.BAT0._BTP": 4,
+    "\\_SB.PC00.HDAS._PS0": 1
+  },
+  "matched_notifications": 46,
+  "limitations": "Temporal links use 100 ms WMI / 20 ms AML windows; these are not ACPI argument tracing."
+}

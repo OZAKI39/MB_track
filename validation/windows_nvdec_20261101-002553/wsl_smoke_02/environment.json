@@ -1,0 +1,20 @@
+{
+  "os": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "executable": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/.venv_nvdec/bin/python",
+  "pid": 1684702,
+  "tid": 1684702,
+  "qpc_frequency": null,
+  "perf_counter": {
+    "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-09
+  },
+  "versions": {
+    "pynvvideocodec": "2.2.3",
+    "numpy": "2.2.6",
+    "av": "19.0.1"
+  },
+  "scope": "H.264 packet to synchronized GPU frame; no image processing; no image download during timing"
+}

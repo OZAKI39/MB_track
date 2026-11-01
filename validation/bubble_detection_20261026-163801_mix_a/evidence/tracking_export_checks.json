@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "frame_count": 1320,
+  "unique_ids": 1362,
+  "observation_count": 47750,
+  "events": {
+    "APPEARED": 647,
+    "MISSING": 1271,
+    "REACQUIRED": 655,
+    "SPLIT_CANDIDATE": 221,
+    "MERGE_CANDIDATE": 216,
+    "BOUNDARY_LOSS": 254,
+    "LOST": 308,
+    "ASSOCIATION_AMBIGUOUS": 49,
+    "EXIT_CANDIDATE": 5
+  },
+  "review_frame_id_mappings_checked": 301,
+  "current_gui_suggested_ids_match_video": true,
+  "all_frame_times_match_detection": true,
+  "all_observations_match_visible_region_centroids": true,
+  "duplicate_ids_within_frame": 0,
+  "missing_positions_not_fabricated": true,
+  "physical_identity_or_events_confirmed": false
+}

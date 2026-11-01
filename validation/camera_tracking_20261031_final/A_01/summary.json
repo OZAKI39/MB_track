@@ -1,0 +1,160 @@
+{
+  "error": null,
+  "resources": [
+    {
+      "elapsed_s": 0.19952118399669416,
+      "rss_mib": 202.453125
+    },
+    {
+      "elapsed_s": 1.200542566999502,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 2.20141941899783,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 3.2023859479959356,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 4.203850221994799,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 5.2045019259967376,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 6.205915828999423,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 7.207236737995117,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 8.208313739000005,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 9.208601173995703,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 10.211451971001225,
+      "rss_mib": 202.4765625
+    },
+    {
+      "elapsed_s": 11.225101074000122,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 12.22552001800068,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 13.234600726995268,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 14.235121054000047,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 15.249973466001393,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 16.25094528900081,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 17.252496775996406,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 18.2581318550001,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 19.26914271900023,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 20.278325330997177,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 21.28857046199846,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 22.28922119699564,
+      "rss_mib": 202.48828125
+    },
+    {
+      "elapsed_s": 23.291661506998935,
+      "rss_mib": 202.4921875
+    },
+    {
+      "elapsed_s": 24.29812141200091,
+      "rss_mib": 202.4921875
+    },
+    {
+      "elapsed_s": 25.302933942999516,
+      "rss_mib": 202.53515625
+    },
+    {
+      "elapsed_s": 26.30534476399771,
+      "rss_mib": 202.53515625
+    },
+    {
+      "elapsed_s": 27.315021990994865,
+      "rss_mib": 202.53515625
+    },
+    {
+      "elapsed_s": 28.321382212998287,
+      "rss_mib": 202.53515625
+    },
+    {
+      "elapsed_s": 29.327261940001335,
+      "rss_mib": 202.53515625
+    },
+    {
+      "elapsed_s": 30.327766115995473,
+      "rss_mib": 202.53515625
+    },
+    {
+      "elapsed_s": 31.327988356999413,
+      "rss_mib": 202.53515625
+    }
+  ],
+  "threads_closed": true,
+  "recorder_dropped": null,
+  "analysis_skipped": 19,
+  "bridge_overwritten": 19,
+  "tracking": {
+    "status": "completed",
+    "frames": 1301,
+    "observations": 21652,
+    "tracks": 178,
+    "confirmed_tracks": 108,
+    "events_by_status": {
+      "confirmed_tracks": 202,
+      "rejected_short_track": 140
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 19,
+    "peak_active_tracks": 26,
+    "persistence": {
+      "submitted_frames": 1301,
+      "committed_frames": 1301,
+      "pending_records": 0,
+      "peak_pending_records": 2,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 1320,
+      "error": null
+    }
+  }
+}

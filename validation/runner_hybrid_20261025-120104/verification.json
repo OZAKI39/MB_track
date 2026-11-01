@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "actual_executor": "Windows Python 3.14.2",
+  "timeline_started_local": "2026-10-25T12:02:26.457825+01:00",
+  "wait_method": "Event.wait then perf_counter spin",
+  "wake_ahead_ms": 22,
+  "measured_actions": [
+    {
+      "state": "ACTIVE",
+      "planned_s": 5,
+      "call_started_s": 5.000083700026153,
+      "command_sent_s": 5.000142600008985,
+      "write_returned_s": 5.000468400015961,
+      "call_lateness_ms": 0.08370002615265548,
+      "send_lateness_ms": 0.14260000898502767,
+      "write_duration_ms": 0.32580000697635114
+    },
+    {
+      "state": "IDLE",
+      "planned_s": 6,
+      "call_started_s": 6.000071500020567,
+      "command_sent_s": 6.00012300000526,
+      "write_returned_s": 6.000729500025045,
+      "call_lateness_ms": 0.07150002056732774,
+      "send_lateness_ms": 0.1230000052601099,
+      "write_duration_ms": 0.6065000197850168
+    }
+  ],
+  "shutdown": {
+    "event": "shutdown_finished",
+    "action": "all_off",
+    "state_requested": "STOP",
+    "planned_s": 14,
+    "actual_start_s": 14.000048100017011,
+    "actual_finish_s": 14.078529999998864,
+    "duration_s": 0.07848189998185262,
+    "errors": []
+  },
+  "all_outputs_off_independent_confirmation": true,
+  "precheck_passed": true,
+  "postcheck_passed": true,
+  "all_recorded_error_queue_codes_zero": true,
+  "every_amplitude_action_one_write_no_query": true,
+  "csv_matches_raw_events": true,
+  "sources_unchanged_during_measurement": true,
+  "unchanged_from_before_development": [
+    "microbubble_experiment/afg.py",
+    "customer_workspace/afg_timing.py",
+    "configs/afg.json",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "customer_workspace/wsl_launcher.py"
+  ],
+  "physical_voltage_timing_measured": false,
+  "completed_runs": 1
+}

@@ -1,0 +1,21 @@
+{
+  "calibration_samples": 1200,
+  "calibration_recomputed": true,
+  "selected_advance_ms": 22,
+  "schedule_commands": 500,
+  "schedule_recomputed": true,
+  "measurement_queries": 0,
+  "median_lateness_ms": 0.06890000164272436,
+  "p99_lateness_ms": 0.8606000017605808,
+  "max_lateness_ms": 2.86650000489308,
+  "minimum_adjacent_interval_ms": 57.19859999953769,
+  "minimum_interval_pair": [
+    61,
+    62
+  ],
+  "pair_lateness_ms": [
+    2.86650000489308,
+    0.06510000443071817
+  ],
+  "all_outputs_off_confirmed": true
+}

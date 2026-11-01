@@ -1,0 +1,389 @@
+{
+  "method": "schedule",
+  "channel": "PZT1",
+  "requested_commands": 500,
+  "interval_ms": 60.0,
+  "created_utc": "2026-10-23T19:39:07.925338+00:00",
+  "status": "completed",
+  "data_reliable": true,
+  "physical_voltage_timing_verified": false,
+  "max_allowed_schedule_lateness_s": 1.0,
+  "before_query_min_ms": 0.0,
+  "before_query_wait_method": null,
+  "schedule_wait_method": "Event.wait then perf_counter spin",
+  "schedule_wake_ahead_ms": 22.0,
+  "devices": {
+    "A": {
+      "resource": "USB::0x0699::0x0353::2147075::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2147075",
+      "firmware": "SCPI:99.0 FV:V1.0.9"
+    },
+    "B": {
+      "resource": "USB::0x0699::0x0353::2439003::INSTR",
+      "manufacturer": "TEKTRONIX",
+      "model": "AFG1062",
+      "serial": "2439003",
+      "firmware": "SCPI:99.0 FV:V1.1.0"
+    }
+  },
+  "precheck": {
+    "phase": "before",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 0,
+        "query_commands": 40
+      }
+    },
+    "passed": true
+  },
+  "timeline_started_utc": "2026-10-23T19:39:10.189346+00:00",
+  "measurement_io_counts": {
+    "A": {
+      "write_calls": 500,
+      "read_calls": 0,
+      "query_calls": 0,
+      "query_commands": 0
+    },
+    "B": {
+      "write_calls": 0,
+      "read_calls": 0,
+      "query_calls": 0,
+      "query_commands": 0
+    }
+  },
+  "shutdown_started_s": 29.94051980000222,
+  "shutdown_finished_s": 30.03292209999927,
+  "all_outputs_off_confirmed": true,
+  "shutdown_errors": [],
+  "postcheck_started_s": 30.0329250000068,
+  "postcheck": {
+    "phase": "after",
+    "channels": {
+      "PZT1": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT2": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT3": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      },
+      "PZT4": {
+        "output": false,
+        "load_ohm": 50.0,
+        "waveform": "SIN",
+        "frequency_hz": 2500000.0,
+        "amplitude_vpp": 0.001,
+        "offset_v": 0.0,
+        "phase_deg": 0.0,
+        "frequency_mode": "CW",
+        "burst_enabled": false,
+        "concurrent": false,
+        "modulation": {
+          "AM": false,
+          "FM": false,
+          "PM": false,
+          "PWM": false,
+          "FSKey": false,
+          "ASKey": false,
+          "PSKey": false
+        },
+        "peer_concurrent": false
+      }
+    },
+    "problems": [],
+    "error_queue_replies": {
+      "A": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ],
+      "B": [
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\"",
+        "0,\"No error\""
+      ]
+    },
+    "io_counts": {
+      "A": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 1,
+        "query_commands": 41
+      },
+      "B": {
+        "write_calls": 2,
+        "read_calls": 40,
+        "query_calls": 1,
+        "query_commands": 41
+      }
+    },
+    "passed": true
+  },
+  "recorded_commands": 500,
+  "finished_utc": "2026-10-23T19:39:40.814173+00:00",
+  "statistics": {
+    "samples": 500,
+    "metric": "schedule_lateness_ms",
+    "delay_ms": {
+      "count": 500,
+      "mean": 0.0949544037575838,
+      "median": 0.06890000164272436,
+      "sample_stddev": 0.1748905466847283,
+      "min": 0.049700000090524554,
+      "max": 2.86650000489308,
+      "range": 2.8168000048025554,
+      "p95": 0.12390000279971503,
+      "p99": 0.8606000017605808
+    },
+    "write_ms": {
+      "count": 500,
+      "mean": 0.4650108005735092,
+      "median": 0.4368499940028414,
+      "sample_stddev": 0.19962388313167478,
+      "min": 0.2570000069681555,
+      "max": 4.149299988057464,
+      "range": 3.892299981089309,
+      "p95": 0.680500001180917,
+      "p99": 0.89490000391379
+    },
+    "by_state": {
+      "ACTIVE": {
+        "count": 250,
+        "mean": 0.10204000381054534,
+        "median": 0.07010000757790014,
+        "sample_stddev": 0.22551655803159454,
+        "min": 0.049700000090524554,
+        "max": 2.86650000489308,
+        "range": 2.8168000048025554,
+        "p95": 0.12530001054988915,
+        "p99": 1.094999997295787
+      },
+      "IDLE": {
+        "count": 250,
+        "mean": 0.08786880370462224,
+        "median": 0.06800000352044644,
+        "sample_stddev": 0.1016745402930834,
+        "min": 0.059200008399429294,
+        "max": 0.9344999998575076,
+        "range": 0.8752999914580784,
+        "p95": 0.11019999918104872,
+        "p99": 0.8519000024538315
+      }
+    },
+    "slowest": {
+      "index": 61,
+      "delay_ms": 2.86650000489308
+    },
+    "trend": {
+      "slope_ms_per_100_commands": -0.01066591935062521,
+      "fitted_total_change_ms": -0.0532229375596198,
+      "intercept_ms": 0.12167253173089995,
+      "first_window_mean_ms": 0.1236120046814948,
+      "last_window_mean_ms": 0.09117600391618907,
+      "window_commands": 50,
+      "block_means_ms": [
+        0.1236120046814948,
+        0.16145200410392135,
+        0.08187000377802178,
+        0.08821400377200916,
+        0.0754380042781122,
+        0.08098800288280472,
+        0.07327800354687497,
+        0.09192000346956775,
+        0.08159600314684212,
+        0.09117600391618907
+      ]
+    },
+    "sent_at_least_one_interval_late": 0,
+    "previous_call_finished_after_next_deadline": 0,
+    "late_ready_max_ms": 0.0024000037228688598
+  },
+  "actual_command_intervals_ms": {
+    "count": 499,
+    "mean": 60.00003026052283,
+    "median": 60.00029999995604,
+    "sample_stddev": 0.24928934445017384,
+    "min": 57.19859999953769,
+    "max": 62.79880000511184,
+    "range": 5.600200005574152,
+    "p95": 60.05430000368506,
+    "p99": 60.79190000309609
+  }
+}

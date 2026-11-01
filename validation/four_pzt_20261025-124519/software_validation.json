@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/four_pzt_validation.py",
+      "customer_workspace/tests/test_four_pzt_validation.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/four_pzt_validation.py",
+      "customer_workspace/tests/test_four_pzt_validation.py"
+    ],
+    "returncode": 0,
+    "stdout": "2 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "customer_workspace/tests"
+    ],
+    "returncode": 0,
+    "stdout": "........................................................................ [ 41%]\n........................................................................ [ 82%]\n...............................                                          [100%]\n175 passed in 0.36s\n",
+    "stderr": ""
+  }
+]

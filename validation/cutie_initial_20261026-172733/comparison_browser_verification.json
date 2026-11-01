@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "all_links_exist": true,
+  "all_images_loaded": true,
+  "fonts": [
+    {
+      "familyName": "Arial",
+      "postScriptName": "ArialMT",
+      "isCustomFont": true,
+      "glyphCount": 15
+    }
+  ]
+}

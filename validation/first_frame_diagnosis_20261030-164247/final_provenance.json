@@ -1,0 +1,7 @@
+{
+  "data/raw/expA.mp4": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "results/B_offline/background.npy": "87b1441b36fc2ab23d2f40876028ae48e10a1f5d5656d859a3d996fc081c54e8",
+  "first_frame_diagnosis.py": "aa0e0ce8d748288ddd98e0852de7395fd18e403dac8b94320bf66ad98112b5e4",
+  "tests/test_first_frame_diagnosis.py": "a43426787b4b6663ab2fdfa97088bf2060a0602df39eb19bcb794803403efeb4",
+  "note": "Existing diagnostic conditions unchanged after initial runs; added labels/darkness controls and clarified synthetic diagnostic clock metadata. No production processing change."
+}

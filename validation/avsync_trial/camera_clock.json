@@ -1,0 +1,22 @@
+{
+  "experiment_id": "2d1306913023448c89d1e2975732a4c0",
+  "host": "烤鸡",
+  "os": "nt",
+  "pid": 4808,
+  "python": "3.14.2",
+  "clock": "windows_monotonic",
+  "monotonic": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "perf_counter": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "windows_s": 151891.3156583,
+  "port": 55054
+}

@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "frames": 1320,
+  "tables": 7,
+  "figures": 14,
+  "key_moment_sheets": 7,
+  "self_checks_passed": 9,
+  "tables_match_previous_run": true,
+  "original_files_unchanged": true,
+  "code_changes": [
+    "analysis/analyze.py: import figures as figs",
+    "analysis/viewer.py: import analyze"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source": "experiment/recording/video.mp4",
+  "selected_frames": [
+    {
+      "phase": "初始待机",
+      "requested_video_s": 3.5,
+      "actual_video_s": 3.5166444444444442,
+      "frame_index": 211
+    },
+    {
+      "phase": "第一次 A：PZT1",
+      "requested_video_s": 7.5,
+      "actual_video_s": 7.516644444444444,
+      "frame_index": 451
+    },
+    {
+      "phase": "B：PZT3",
+      "requested_video_s": 11.5,
+      "actual_video_s": 11.516644444444445,
+      "frame_index": 691
+    },
+    {
+      "phase": "第二次 A：PZT1",
+      "requested_video_s": 15.5,
+      "actual_video_s": 15.516644444444445,
+      "frame_index": 931
+    },
+    {
+      "phase": "后续待机",
+      "requested_video_s": 19.5,
+      "actual_video_s": 19.516644444444445,
+      "frame_index": 1171
+    }
+  ],
+  "meaning": "阶段截图用于人工观察；不预设运动方向或组装/变形效果；缩略图已缩小，原片保持不变。"
+}

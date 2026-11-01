@@ -1,0 +1,12 @@
+{
+  "pytest": {
+    "command": ".venv/bin/python -B -m pytest -q customer_workspace/tests",
+    "exit_code": 0,
+    "result": "111 passed in 0.21s"
+  },
+  "ruff": {
+    "check": "passed",
+    "format": "3 files already formatted"
+  },
+  "hardware_simulated": false
+}

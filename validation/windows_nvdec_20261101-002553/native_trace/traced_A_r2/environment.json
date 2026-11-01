@@ -1,0 +1,20 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "executable": "F:\\MB_gpu_decode\\python312\\python.exe",
+  "pid": 24920,
+  "tid": 47664,
+  "qpc_frequency": 10000000,
+  "perf_counter": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "versions": {
+    "pynvvideocodec": "2.2.3",
+    "numpy": "2.2.6",
+    "av": "19.0.1"
+  },
+  "scope": "H.264 packet to synchronized GPU frame; no image processing; no image download during timing"
+}

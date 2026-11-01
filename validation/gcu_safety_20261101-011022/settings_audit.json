@@ -1,0 +1,54 @@
+{
+  "files": {
+    "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/UserPofiles/MainOption.json": "aaf3ce6cfc08de4b2ebcf44ed5218738c9fede241d9fbe9684eb9c9056df66f4",
+    "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/GPUPowerSavingSettings/GPUPowerSavingSettings.json": "c51214740ec517199a94c744e6592545eb79f4e5fa2106caa57032ac57c0c286",
+    "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/UserPofiles/Mode2_Profile1.json": "1926d320af43aaedf69319173fcdedaa9e90e0faf079b481ddf7a1717f049f37",
+    "/mnt/c/Program Files/WindowsApps/ControlCenter3_5.17.51.19_x64__h329z55cwnj8g/Strings_Json/zh-cn.json": "21a0f2d2d97b00974730edf10c98312a3558002faf1b53d292d9c154702d0a59",
+    "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/GCUService.exe": "785150abc1b7344434459e74ed17ebaf487e58d24fe3bcb6d356cf8a29465d11"
+  },
+  "ui_labels": {
+    "strOcGpuDynamicBoostEnable": "开启 Dynamic Boost",
+    "strOcGpuDynamicBoostTotalProcessingPowerTarget": "Total Processing Power Target",
+    "strOcGpuDynamicBoostValue": "Dynamic Boost",
+    "strSmartMode": "均衡模式",
+    "strSmartMode_Balance": "均衡模式",
+    "strSmartMode_Basic": "效能模式",
+    "strSmartModeInfo": "系统智能判断"
+  },
+  "main_options": {
+    "GamingProfileIndex": 0,
+    "OfficeProfileIndex": 0,
+    "TurboProfileIndex": 0,
+    "CustomProfileIndex": 0,
+    "FanBoostEnable": 0,
+    "FanSafetyProtectNotify": 0,
+    "DefaultNotify": 0,
+    "BsodTimestampRestored": "0001-01-01T00:00:00",
+    "WhisperModeSwitch": 0,
+    "WhisperModeSetting": 0,
+    "WhisperModeMinFps_QUIETER": 0,
+    "WhisperModeMinFps_QUIET": 0,
+    "WhisperModeMinFps_BALANCED": 0,
+    "OperatingMode": 2
+  },
+  "gpu_power_saving": {
+    "GPUPowerSaving": {
+      "currentSaveingMode": 0,
+      "DisconnectMonitor": false,
+      "DC_Once": false,
+      "DC_HZ": false,
+      "MODE_HZ": false,
+      "Auto": false,
+      "currentHZ": 65,
+      "currentHZList": [
+        "60",
+        "72",
+        "75",
+        "70",
+        "65"
+      ],
+      "AutoEnable": false
+    }
+  },
+  "scope": "Read installed vendor UI resources, saved configuration and static timer startup code; did not toggle UI options or edit settings."
+}

@@ -1,0 +1,9 @@
+{
+  "only_intended_production_edits": true,
+  "unchanged": [
+    "online_store.py",
+    "async_store.py",
+    "paced_replay.py"
+  ],
+  "note": "Reversing only this task diff in memory reproduces before hashes; no historical source files written or executed."
+}

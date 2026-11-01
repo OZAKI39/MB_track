@@ -1,0 +1,57 @@
+{
+  "historical_root": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/queue_compare_20261031-211619",
+  "seconds": 22,
+  "default_waiting_frames": 1,
+  "runs": [
+    [
+      "file_A_q1",
+      "A",
+      1,
+      "file"
+    ],
+    [
+      "file_A_q2",
+      "A",
+      2,
+      "file"
+    ],
+    [
+      "file_B_q2",
+      "B",
+      2,
+      "file"
+    ],
+    [
+      "file_B_q1",
+      "B",
+      1,
+      "file"
+    ],
+    [
+      "rtsp_A_q2",
+      "A",
+      2,
+      "rtsp"
+    ],
+    [
+      "rtsp_A_q1",
+      "A",
+      1,
+      "rtsp"
+    ],
+    [
+      "rtsp_B_q1",
+      "B",
+      1,
+      "rtsp"
+    ],
+    [
+      "rtsp_B_q2",
+      "B",
+      2,
+      "rtsp"
+    ]
+  ],
+  "fair_comparison": "File starts at original frame 0; RTSP pairs matched by verified original pixel-frame mapping; common cohort and selection effect reported separately.",
+  "long_test": false
+}

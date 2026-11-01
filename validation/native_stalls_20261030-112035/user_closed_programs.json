@@ -1,0 +1,10 @@
+{
+  "recorded_perf_s": 204058.409083207,
+  "unix_s": 1793356424.3198807,
+  "user_confirmation": "已关闭部分不用的程序，可以做对照",
+  "exclude_from_before_after": [
+    "repeat_A_3",
+    "repeat_A_4"
+  ],
+  "note": "User action overlaps late repeat runs; only explicitly named after_close runs count as controlled post-close runs."
+}

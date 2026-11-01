@@ -1,0 +1,23 @@
+{
+  "scanned_source_count": 285,
+  "retained_source_imports_of_candidates": [],
+  "parse_errors": [],
+  "mainline_legacy_path_text_search_matches": 0,
+  "baseline_model": "customer_workspace/dependencies/MobileSAM/weights/mobile_sam.pt",
+  "baseline_implementation": "customer_workspace/microbubble_tracking/baseline/",
+  "protected_shared_helper": "customer_workspace/benchmark_report.py",
+  "shared_helper_callers": [
+    "customer_workspace/wait_calibration.py",
+    "customer_workspace/timing_benchmark.py"
+  ],
+  "current_mainline": "customer_workspace/microbubble_tracking/bubble_tracker.py",
+  "retired_tracker": "customer_workspace/bubble_tracking.py",
+  "process_check": {
+    "matched_local_legacy_python_processes": [],
+    "scope": "local /proc Python/pytest first arguments; check again before deletion"
+  },
+  "limitations": [
+    "Static imports and path references were checked; this is not a new runtime or hardware test.",
+    "Remote GPU servers and Windows deployments were not accessed."
+  ]
+}

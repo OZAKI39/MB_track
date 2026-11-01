@@ -1,0 +1,38 @@
+{
+  "completed": true,
+  "changes": [
+    "移除自动圈选参数面板及其预览线程、采用入口和专用辅助代码",
+    "手工工具直接展开，新增无需选中的跨类别直接擦除，快捷键 R",
+    "保留选中擦除；一笔直接擦除可一次撤销或重做",
+    "原图对照、画笔大小、空格平移、保存修订和翻页保护保持可用"
+  ],
+  "tests": {
+    "gui_passed": 29,
+    "gui_report": "drag_event_timing/checks.json",
+    "offline_passed": 15,
+    "offline_command": ".venv/bin/python -m pytest customer_workspace/tests/test_bubble_regions.py -q",
+    "read_only_actual_dataset": "real_dataset_check.json",
+    "preservation": "preservation_check.json",
+    "static_checks": "ruff check, ruff format --check, git diff --check 全部通过"
+  },
+  "resolved_findings": [
+    {
+      "evidence": "regression_gui/checks.json",
+      "finding": "重复赋值 visible=True 会恢复旧工具模式，导致擦除退出。",
+      "resolution": "只在隐藏时恢复显示，避免刷新改变当前工具。"
+    },
+    {
+      "evidence": [
+        "direct_erase_gui/checks.json",
+        "drag_diagnostic/checks.json"
+      ],
+      "finding": "软件一次性发送大量鼠标移动事件，被画布的事件限频合并，检查未覆盖整条拖动路径。",
+      "resolution": "真实 Qt 拖动检查在各位置之间处理事件队列；跨类别整笔擦除、撤销和重做均通过。"
+    }
+  ],
+  "limitations": [
+    "撤销历史保留当前图片最近 100 次编辑，切图或关闭后通过保存修订保留数据。",
+    "本次为离线界面修改，没有重新运行识别、训练或硬件实验。"
+  ],
+  "screenshot": "real_gui.png"
+}

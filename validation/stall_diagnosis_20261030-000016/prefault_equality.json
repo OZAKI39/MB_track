@@ -1,0 +1,8 @@
+{
+  "runs": 6,
+  "calls_per_run": 12,
+  "unique_output_sha256": [
+    "0a3a8efddcf8a29aa2cd1cc43250f0610d0395acbfec4e1b655fa98855d6bf73"
+  ],
+  "identical": true
+}

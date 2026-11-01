@@ -1,0 +1,68 @@
+{
+  "source_video": "customer_workspace/validation/rtsp_tracking_20261031-203916/B_01/recording/video.mp4",
+  "source_sha256": "036e79e0cfab8b4a70e3d48b94d7bdf7430b459286f467c991c05feb9d5d9f70",
+  "compared_video_frames": 1320,
+  "different_video_frames": 0,
+  "compared_analysis_frames": 1318,
+  "scientific_results_equal": true,
+  "actual": {
+    "frames": {
+      "rows": 1318,
+      "sha256": "7d9e2b1cd7ee3179ddec37e0565a8e26d02ad1a72fed4cf37200669945a83f76"
+    },
+    "observations": {
+      "rows": 17773,
+      "sha256": "d6f049934b15f01caa725488abcc631804d3d7692a8e1e1ae32e32b67ec84f8c"
+    },
+    "tracks": {
+      "rows": 81,
+      "sha256": "df5d3d59bac5436e373cd19720d03aebeb4ff64af7fd1c7986ca0c80f5e38d0d"
+    },
+    "events": {
+      "rows": 148,
+      "sha256": "9a199947d916d922dd7f750a30016393fd7c2ab08706b983627c434c1d2c1c1b"
+    },
+    "event_updates": {
+      "rows": 296,
+      "sha256": "e5c9b6be610862dfa0b3269f2192f6fbf2f780872da4a3222c2050d1e7af3e31"
+    },
+    "track_updates": {
+      "rows": 215,
+      "sha256": "4b52ceee59a8602b0ab5afaa159741a58b4def8bfa11b17788fc4210181dd99c"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "expected": {
+    "frames": {
+      "rows": 1318,
+      "sha256": "7d9e2b1cd7ee3179ddec37e0565a8e26d02ad1a72fed4cf37200669945a83f76"
+    },
+    "observations": {
+      "rows": 17773,
+      "sha256": "d6f049934b15f01caa725488abcc631804d3d7692a8e1e1ae32e32b67ec84f8c"
+    },
+    "tracks": {
+      "rows": 81,
+      "sha256": "df5d3d59bac5436e373cd19720d03aebeb4ff64af7fd1c7986ca0c80f5e38d0d"
+    },
+    "events": {
+      "rows": 148,
+      "sha256": "9a199947d916d922dd7f750a30016393fd7c2ab08706b983627c434c1d2c1c1b"
+    },
+    "event_updates": {
+      "rows": 296,
+      "sha256": "e5c9b6be610862dfa0b3269f2192f6fbf2f780872da4a3222c2050d1e7af3e31"
+    },
+    "track_updates": {
+      "rows": 215,
+      "sha256": "4b52ceee59a8602b0ab5afaa159741a58b4def8bfa11b17788fc4210181dd99c"
+    },
+    "input_rejections": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

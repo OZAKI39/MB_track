@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "recording": {
+    "passed": true,
+    "problems": [],
+    "received_window_frames": 1200,
+    "record_branch_frames": 1200,
+    "saved_frames": 1200,
+    "recording_extra_lost": 0,
+    "clock_comparison_max_error_ticks": 1,
+    "camera_play_count": 1,
+    "rtp_sequence_missing": 0,
+    "queue_overruns": {
+      "record_queue": 0,
+      "decode_queue": 0
+    },
+    "queue_max_buffers": {
+      "record_queue": 49,
+      "decode_queue": 2,
+      "latest_queue": 0
+    },
+    "decoded_frames_total": 1487
+  },
+  "analysis": {
+    "passed": true,
+    "problems": [],
+    "baseline_hz": 8.6,
+    "parallel_hz": 12.4,
+    "rate_ratio": 1.4418604651162792,
+    "p95_latency_limit_ms": 315.58758233149996,
+    "baseline": {
+      "window": {
+        "seconds": 20.0,
+        "start_windows_decode_s": 236709.749519,
+        "end_windows_decode_s": 236729.749519
+      },
+      "processed": 172,
+      "analysis_hz": 8.6,
+      "actual_detector_and_piv_results": 167,
+      "processing_ms": {
+        "median": 102.89347999787424,
+        "p95": 152.22200875141422,
+        "p99": 238.23297255235954,
+        "max": 281.92663899972104
+      },
+      "software_age_upper_bound_ms": {
+        "median": 152.43663599540014,
+        "p95": 262.9896519429166,
+        "p99": 333.15117870341055,
+        "max": 357.2824749862775
+      },
+      "completion_interval_ms": {
+        "median": 106.30126998876221,
+        "p95": 190.58863999089226,
+        "p99": 283.2068505027565,
+        "max": 452.6856210140977
+      },
+      "fresh_valid_results": 0,
+      "pipeline_error": null,
+      "recorder_dropped": 0,
+      "analysis_skipped": 802,
+      "bridge_overwritten": 525,
+      "threads_closed": true,
+      "latency_scope": "Windows 解码完成至分析完成的保守上界，不是曝光至结果的延迟"
+    },
+    "parallel": {
+      "window": {
+        "seconds": 20.0,
+        "first_seq": 274,
+        "last_seq": 1473,
+        "frames": 1200,
+        "ffmpeg_exit": 0
+      },
+      "processed": 248,
+      "analysis_hz": 12.4,
+      "actual_detector_and_piv_results": 248,
+      "processing_ms": {
+        "median": 78.62633001059294,
+        "p95": 100.56229005422209,
+        "p99": 122.3641441296786,
+        "max": 163.16024100524373
+      },
+      "software_age_upper_bound_ms": {
+        "median": 119.82434350647964,
+        "p95": 148.0491380498279,
+        "p99": 177.64847702666887,
+        "max": 195.10639202781022
+      },
+      "completion_interval_ms": {
+        "median": 78.8318759878166,
+        "p95": 100.68153020692989,
+        "p99": 122.47460896440313,
+        "max": 163.26545900665224
+      },
+      "fresh_valid_results": 0,
+      "pipeline_error": null,
+      "recorder_dropped": 0,
+      "analysis_skipped": 954,
+      "bridge_overwritten": 226,
+      "threads_closed": true,
+      "latency_scope": "Windows 解码完成至分析完成的保守上界，不是曝光至结果的延迟"
+    }
+  },
+  "baseline_directory": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/parallel_20261025-145352/baseline",
+  "parallel_directory": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/parallel_20261025-145352/parallel_complete_headers",
+  "limitations": [
+    "电脑端延迟不含无法测量的曝光及相机内部延迟。",
+    "同一参数、相近时间各测试20秒；不将本次速度差直接归因于分流。",
+    "分析有效性门槛保持原样；吞吐量不代表有效流速、检测准确率或闭环控制已经通过。"
+  ]
+}

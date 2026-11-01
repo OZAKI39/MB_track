@@ -1,0 +1,2520 @@
+{
+  "full": {
+    "A_sync": {
+      "process_total_ms": {
+        "mean": 19.32251992367321,
+        "median": 18.464173495885916,
+        "p99": 29.908573573920865,
+        "max": 44.28025198285468
+      },
+      "segment_ms": {
+        "mean": 10.808984467770312,
+        "median": 10.379814499174245,
+        "p99": 16.544511688407503,
+        "max": 25.62548901187256
+      },
+      "track_ms": {
+        "mean": 1.6591164630495547,
+        "median": 1.5885449975030497,
+        "p99": 2.890038725454357,
+        "max": 5.827343004057184
+      },
+      "pack_records_ms": {
+        "mean": 0.056638647374435976,
+        "median": 0.05233200499787927,
+        "p99": 0.12652805366087702,
+        "max": 0.20515202777460217
+      },
+      "database_write_ms": {
+        "mean": 0.24262399983303057,
+        "median": 0.23159703414421529,
+        "p99": 0.4430404971935785,
+        "max": 0.5621159507427365
+      },
+      "commit_ms": {
+        "mean": 4.603344490698708,
+        "median": 4.197317000944167,
+        "p99": 12.484086165204632,
+        "max": 24.782710010185838
+      },
+      "commit_cpu_ms": {
+        "mean": 0.2722588704545435,
+        "median": 0.16049350000102436,
+        "p99": 1.790783079999812,
+        "max": 11.18866099999849
+      }
+    },
+    "A_async": {
+      "process_total_ms": {
+        "mean": 13.47684640217763,
+        "median": 13.29896750394255,
+        "p99": 16.73779538134112,
+        "max": 27.740777004510164
+      },
+      "segment_ms": {
+        "mean": 9.693007674473902,
+        "median": 9.537888006889261,
+        "p99": 12.639370865945226,
+        "max": 24.14086999488063
+      },
+      "track_ms": {
+        "mean": 1.5714621788709227,
+        "median": 1.5213145088637248,
+        "p99": 2.3423696344252676,
+        "max": 2.7677630132529885
+      },
+      "pack_records_ms": {
+        "mean": 0.10290250839633783,
+        "median": 0.09990649414248765,
+        "p99": 0.1620233885478228,
+        "max": 0.3286080027464777
+      },
+      "database_write_ms": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "commit_ms": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "commit_cpu_ms": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      }
+    },
+    "B_sync": {
+      "process_total_ms": {
+        "mean": 18.773582419287944,
+        "median": 18.264490499859676,
+        "p99": 28.087846815760695,
+        "max": 38.54391002096236
+      },
+      "segment_ms": {
+        "mean": 10.549425987163417,
+        "median": 10.333915997762233,
+        "p99": 14.63764777523465,
+        "max": 21.32687799166888
+      },
+      "track_ms": {
+        "mean": 1.378659048923785,
+        "median": 1.3334995019249618,
+        "p99": 2.040904649184084,
+        "max": 2.9108570015523583
+      },
+      "pack_records_ms": {
+        "mean": 0.04828048922442549,
+        "median": 0.0455739937024191,
+        "p99": 0.10951557371299697,
+        "max": 0.21357301739044487
+      },
+      "database_write_ms": {
+        "mean": 0.1982964060902525,
+        "median": 0.19015994621440768,
+        "p99": 0.3473443340044466,
+        "max": 0.570417963899672
+      },
+      "commit_ms": {
+        "mean": 4.58258367068607,
+        "median": 4.21835899760481,
+        "p99": 12.371374961221585,
+        "max": 17.49235502211377
+      },
+      "commit_cpu_ms": {
+        "mean": 0.20765726969688922,
+        "median": 0.14699049999933322,
+        "p99": 0.9461863500018065,
+        "max": 8.137536999996087
+      }
+    },
+    "B_async": {
+      "process_total_ms": {
+        "mean": 13.508109689141609,
+        "median": 13.156761007849127,
+        "p99": 19.28566110873362,
+        "max": 26.80426399456337
+      },
+      "segment_ms": {
+        "mean": 9.870072382997904,
+        "median": 9.621913501177914,
+        "p99": 14.778529107279601,
+        "max": 20.317052985774353
+      },
+      "track_ms": {
+        "mean": 1.3796457225522096,
+        "median": 1.3396970025496557,
+        "p99": 2.12349826877471,
+        "max": 3.413738013477996
+      },
+      "pack_records_ms": {
+        "mean": 0.09877359627738991,
+        "median": 0.09505849448032677,
+        "p99": 0.16669489530613643,
+        "max": 0.33540200092829764
+      },
+      "database_write_ms": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "commit_ms": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "commit_cpu_ms": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "paced": [
+    {
+      "name": "paced_A_async_1",
+      "experiment": "A",
+      "mode": "async",
+      "iteration": 1,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1320,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 22.0,
+        "processed_fps": 60.0,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.17530799959786236,
+            "median": 0.25883750640787184,
+            "p95": 0.5897876835661007,
+            "p99": 6.947375517338514,
+            "max": 9.875428979285061
+          },
+          "process_ms": {
+            "min": 11.886614985996857,
+            "median": 13.483114002156071,
+            "p95": 15.4162608057959,
+            "p99": 17.530581935425285,
+            "max": 25.087599991820753
+          },
+          "core_ms": {
+            "min": 10.316867992514744,
+            "median": 11.81334700959269,
+            "p95": 13.602080286364071,
+            "p99": 15.569770057627457,
+            "max": 24.335787020390853
+          },
+          "age_ms": {
+            "min": 12.235638656420633,
+            "median": 13.946296341600828,
+            "p95": 16.700454005331267,
+            "p99": 23.43458770657888,
+            "max": 26.38086798833683
+          },
+          "send_late_ms": {
+            "min": 0.14399801148101687,
+            "median": 0.17207417113240808,
+            "p95": 0.26408705743961036,
+            "p99": 0.3275776002556085,
+            "max": 0.5507206660695374
+          },
+          "decode_ms": {
+            "min": 2.345173998037353,
+            "median": 3.6095329996896908,
+            "p95": 4.584564385004342,
+            "p99": 5.978966433613095,
+            "max": 32.6109970046673
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 14.37166499090381,
+          "last_5s_median_ms": 13.987823505885899
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.27734375,
+            "median": 152.876953125,
+            "p95": 153.205859375,
+            "p99": 153.225546875,
+            "max": 153.23046875
+          },
+          "source_rss_mb": {
+            "min": 119.9765625,
+            "median": 129.75390625,
+            "p95": 129.75390625,
+            "p99": 129.7569921875,
+            "max": 129.7578125
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": true,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 0
+        }
+      },
+      "process_ms": {
+        "mean": 13.660855694659844,
+        "median": 13.483114002156071,
+        "p99": 17.530581935425285,
+        "max": 25.087599991820753
+      },
+      "writer": {
+        "submitted_frames": 1320,
+        "committed_frames": 1320,
+        "pending_records": 0,
+        "peak_pending_records": 1,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1593,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1320,
+          "observations": 22041,
+          "tracks": 181,
+          "confirmed_tracks": 110,
+          "events_by_status": {
+            "confirmed_tracks": 206,
+            "rejected_short_track": 140,
+            "unresolved_at_end": 1
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 0,
+          "peak_active_tracks": 26
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.6245342941397349,
+            "median": 0.6099014863139018,
+            "p99": 0.9446570769068775,
+            "max": 3.1254980131052434
+          },
+          "durable_ms": {
+            "mean": 5.317430085371157,
+            "median": 5.008047999581322,
+            "p99": 13.160553754423741,
+            "max": 16.963735019089654
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.3487110377825571,
+            "median": 0.3297020011814311,
+            "p99": 0.7738466648152089,
+            "max": 1.2019640125799924
+          },
+          "commit_ms": {
+            "mean": 4.338211939664854,
+            "median": 4.059938510181382,
+            "p99": 12.187802673724939,
+            "max": 16.055443993536755
+          },
+          "commit_cpu_ms": {
+            "mean": 0.18823275075757595,
+            "median": 0.13446200000000186,
+            "p99": 1.1583263599999998,
+            "max": 4.800848999999996
+          }
+        },
+        "batches": 1320,
+        "largest_batch": 1
+      }
+    },
+    {
+      "name": "paced_A_async_2",
+      "experiment": "A",
+      "mode": "async",
+      "iteration": 2,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1298,
+        "replaced_frames": 22,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 22.0,
+        "processed_fps": 59.0,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.17534400103613734,
+            "median": 0.3059644950553775,
+            "p95": 6.794453019392674,
+            "p99": 13.233550284930955,
+            "max": 16.605424985755235
+          },
+          "process_ms": {
+            "min": 11.804687994299456,
+            "median": 13.89884648961015,
+            "p95": 19.41448705474612,
+            "p99": 22.493921122222673,
+            "max": 47.16412999550812
+          },
+          "core_ms": {
+            "min": 10.427069006254897,
+            "median": 12.480074990889989,
+            "p95": 17.400497791823,
+            "p99": 20.497380594315466,
+            "max": 45.441205002134666
+          },
+          "age_ms": {
+            "min": 12.189657689305022,
+            "median": 14.473654489847831,
+            "p95": 25.96719989815028,
+            "p99": 34.096603481739294,
+            "max": 61.2222773488611
+          },
+          "send_late_ms": {
+            "min": 0.14709867537021637,
+            "median": 0.19144649559166282,
+            "p95": 0.3338951704790815,
+            "p99": 0.44909236516105006,
+            "max": 1.0427800007164478
+          },
+          "decode_ms": {
+            "min": 2.230109996162355,
+            "median": 3.785587497986853,
+            "p95": 5.48069215437863,
+            "p99": 7.158389762626026,
+            "max": 25.083227024879307
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 14.323609007988125,
+          "last_5s_median_ms": 15.929145170957781
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.29296875,
+            "median": 152.98046875,
+            "p95": 153.1708984375,
+            "p99": 153.1996484375,
+            "max": 153.20703125
+          },
+          "source_rss_mb": {
+            "min": 119.79296875,
+            "median": 129.0,
+            "p95": 129.625,
+            "p99": 129.625,
+            "max": 129.625
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 0
+        }
+      },
+      "process_ms": {
+        "mean": 14.580912628088747,
+        "median": 13.89884648961015,
+        "p99": 22.493921122222673,
+        "max": 47.16412999550812
+      },
+      "writer": {
+        "submitted_frames": 1298,
+        "committed_frames": 1298,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1593,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1298,
+          "observations": 21679,
+          "tracks": 170,
+          "confirmed_tracks": 104,
+          "events_by_status": {
+            "confirmed_tracks": 194,
+            "rejected_short_track": 130,
+            "unresolved_at_end": 1
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 22,
+          "peak_active_tracks": 26
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.6787605738021198,
+            "median": 0.635288015473634,
+            "p99": 1.2681929807877166,
+            "max": 3.1523540092166513
+          },
+          "durable_ms": {
+            "mean": 5.560022881322717,
+            "median": 5.211699986830354,
+            "p99": 13.777968266222159,
+            "max": 17.439239018131047
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.39846038802610123,
+            "median": 0.3626354882726446,
+            "p99": 0.983279026986565,
+            "max": 1.986496994504705
+          },
+          "commit_ms": {
+            "mean": 4.4747660399473075,
+            "median": 4.173552006250247,
+            "p99": 12.608867771632504,
+            "max": 15.697277005529031
+          },
+          "commit_cpu_ms": {
+            "mean": 0.19259016024653308,
+            "median": 0.14864350000007298,
+            "p99": 1.148318019999994,
+            "max": 2.304640999999996
+          }
+        },
+        "batches": 1298,
+        "largest_batch": 1
+      }
+    },
+    {
+      "name": "paced_A_async_3",
+      "experiment": "A",
+      "mode": "async",
+      "iteration": 3,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1320,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 22.0,
+        "processed_fps": 60.0,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.1665199815761298,
+            "median": 0.25927099341060966,
+            "p95": 0.6187029110151343,
+            "p99": 7.932369864720347,
+            "max": 13.544280984206125
+          },
+          "process_ms": {
+            "min": 11.754976003430784,
+            "median": 13.473989514750428,
+            "p95": 15.729841083521023,
+            "p99": 17.870514866372094,
+            "max": 23.99399600108154
+          },
+          "core_ms": {
+            "min": 10.479819989996031,
+            "median": 12.06605599145405,
+            "p95": 14.09056104166666,
+            "p99": 16.001596168789536,
+            "max": 22.106747986981645
+          },
+          "age_ms": {
+            "min": 12.200549332192168,
+            "median": 13.922971818828955,
+            "p95": 17.000196006847542,
+            "p99": 24.446437803853737,
+            "max": 30.04560197587125
+          },
+          "send_late_ms": {
+            "min": 0.14504097634926438,
+            "median": 0.16963432426564395,
+            "p95": 0.26139997644349927,
+            "p99": 0.31894210143946106,
+            "max": 0.968021311564371
+          },
+          "decode_ms": {
+            "min": 2.3045499983709306,
+            "median": 3.637204019469209,
+            "p95": 4.595916678954381,
+            "p99": 5.832008675206449,
+            "max": 31.674054014729336
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 14.163665648084134,
+          "last_5s_median_ms": 13.91371498175431
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.20703125,
+            "median": 152.83203125,
+            "p95": 152.99140625,
+            "p99": 153.02921875,
+            "max": 153.0390625
+          },
+          "source_rss_mb": {
+            "min": 119.71484375,
+            "median": 128.1328125,
+            "p95": 129.3828125,
+            "p99": 129.3828125,
+            "max": 129.3828125
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": true,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 0
+        }
+      },
+      "process_ms": {
+        "mean": 13.710787358109938,
+        "median": 13.473989514750428,
+        "p99": 17.870514866372094,
+        "max": 23.99399600108154
+      },
+      "writer": {
+        "submitted_frames": 1320,
+        "committed_frames": 1320,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1593,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1320,
+          "observations": 22041,
+          "tracks": 181,
+          "confirmed_tracks": 110,
+          "events_by_status": {
+            "confirmed_tracks": 206,
+            "rejected_short_track": 140,
+            "unresolved_at_end": 1
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 0,
+          "peak_active_tracks": 26
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.6922817267574525,
+            "median": 0.6742060068063438,
+            "p99": 1.0249871230917043,
+            "max": 7.155662984587252
+          },
+          "durable_ms": {
+            "mean": 5.441867172670424,
+            "median": 5.138224994880147,
+            "p99": 13.552458896301683,
+            "max": 22.301346994936466
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.350262047692068,
+            "median": 0.3250775043852627,
+            "p99": 0.7436691317707297,
+            "max": 1.2643299996852875
+          },
+          "commit_ms": {
+            "mean": 4.3930004064432895,
+            "median": 4.107716988073662,
+            "p99": 12.428537584492002,
+            "max": 20.429169991984963
+          },
+          "commit_cpu_ms": {
+            "mean": 0.17583428030302936,
+            "median": 0.13787099999997693,
+            "p99": 0.8679208199999757,
+            "max": 1.7629000000000117
+          }
+        },
+        "batches": 1320,
+        "largest_batch": 1
+      }
+    },
+    {
+      "name": "paced_A_sync_1",
+      "experiment": "A",
+      "mode": "sync",
+      "iteration": 1,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1155,
+        "replaced_frames": 165,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 22.0,
+        "processed_fps": 52.5,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.11253598495386541,
+            "median": 7.558700977824628,
+            "p95": 15.913056198041886,
+            "p99": 16.634865686646666,
+            "max": 16.911818995140493
+          },
+          "process_ms": {
+            "min": 14.768228982575238,
+            "median": 18.1243350089062,
+            "p95": 23.156525602098554,
+            "p99": 26.597619733656767,
+            "max": 41.933401982532814
+          },
+          "core_ms": {
+            "min": 10.487120976904407,
+            "median": 12.130691000493243,
+            "p95": 14.464577502803877,
+            "p99": 16.608310600859124,
+            "max": 25.70221497444436
+          },
+          "age_ms": {
+            "min": 16.67110968264751,
+            "median": 26.7292533244472,
+            "p95": 35.235957489931025,
+            "p99": 39.44211477646605,
+            "max": 44.82338498928584
+          },
+          "send_late_ms": {
+            "min": 0.1325619814451784,
+            "median": 0.19067383254878223,
+            "p95": 0.29266165074659506,
+            "p99": 0.443427261780016,
+            "max": 1.37236068258062
+          },
+          "decode_ms": {
+            "min": 2.204715012339875,
+            "median": 3.7010149972047657,
+            "p95": 4.8343102374929,
+            "p99": 5.995154714328233,
+            "max": 29.835827997885644
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 28.410477490979247,
+          "last_5s_median_ms": 26.82165164151229
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 150.12890625,
+            "median": 151.298828125,
+            "p95": 151.9634765625,
+            "p99": 151.9802734375,
+            "max": 151.984375
+          },
+          "source_rss_mb": {
+            "min": 119.65625,
+            "median": 128.31640625,
+            "p95": 129.56640625,
+            "p99": 129.56640625,
+            "max": 129.56640625
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 7
+        }
+      },
+      "process_ms": {
+        "mean": 18.650924697169607,
+        "median": 18.1243350089062,
+        "p99": 26.597619733656767,
+        "max": 41.933401982532814
+      }
+    },
+    {
+      "name": "paced_A_sync_2",
+      "experiment": "A",
+      "mode": "sync",
+      "iteration": 2,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1119,
+        "replaced_frames": 201,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 22.0,
+        "processed_fps": 50.86363636363637,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.1569880114402622,
+            "median": 7.890281005529687,
+            "p95": 15.825194810167886,
+            "p99": 16.578664973494597,
+            "max": 16.982116998406127
+          },
+          "process_ms": {
+            "min": 14.917928987415507,
+            "median": 18.479641003068537,
+            "p95": 24.98085707775317,
+            "p99": 28.857085434719906,
+            "max": 38.55462299543433
+          },
+          "core_ms": {
+            "min": 10.07962299627252,
+            "median": 12.147584988269955,
+            "p95": 16.457166694453914,
+            "p99": 19.544504461809993,
+            "max": 22.717703017406166
+          },
+          "age_ms": {
+            "min": 16.70375932008028,
+            "median": 27.465362305520102,
+            "p95": 36.74346569168846,
+            "p99": 40.60181720647961,
+            "max": 48.41741931159049
+          },
+          "send_late_ms": {
+            "min": 0.13920798664912581,
+            "median": 0.20810049318242818,
+            "p95": 0.342538658878766,
+            "p99": 0.4698455811012536,
+            "max": 0.6960129830986261
+          },
+          "decode_ms": {
+            "min": 2.2755630197934806,
+            "median": 3.7835374823771417,
+            "p95": 5.228533397894353,
+            "p99": 6.072398490796328,
+            "max": 26.119445014046505
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 30.26525065070018,
+          "last_5s_median_ms": 27.351199809345417
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 150.12890625,
+            "median": 151.66015625,
+            "p95": 152.01015625,
+            "p99": 152.042578125,
+            "max": 152.05078125
+          },
+          "source_rss_mb": {
+            "min": 119.57421875,
+            "median": 128.361328125,
+            "p95": 129.4453125,
+            "p99": 129.4453125,
+            "max": 129.4453125
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 6
+        }
+      },
+      "process_ms": {
+        "mean": 19.247360162846235,
+        "median": 18.479641003068537,
+        "p99": 28.857085434719906,
+        "max": 38.55462299543433
+      }
+    },
+    {
+      "name": "paced_A_sync_3",
+      "experiment": "A",
+      "mode": "sync",
+      "iteration": 3,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1143,
+        "replaced_frames": 177,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 22.0,
+        "processed_fps": 51.95454545454545,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.14369501150213182,
+            "median": 7.936711015645415,
+            "p95": 15.926974007743409,
+            "p99": 16.630299900425598,
+            "max": 18.590581021271646
+          },
+          "process_ms": {
+            "min": 14.738180005224422,
+            "median": 18.279159994563088,
+            "p95": 23.39084341365377,
+            "p99": 26.48464851197786,
+            "max": 42.24858898669481
+          },
+          "core_ms": {
+            "min": 10.29458301491104,
+            "median": 12.140547012677416,
+            "p95": 14.368998486315826,
+            "p99": 16.181893550092354,
+            "max": 23.310306016355753
+          },
+          "age_ms": {
+            "min": 15.774436673382297,
+            "median": 27.10630599176511,
+            "p95": 35.58671626087744,
+            "p99": 39.52392930572386,
+            "max": 45.39830866269767
+          },
+          "send_late_ms": {
+            "min": 0.1394930004607886,
+            "median": 0.19894966681022197,
+            "p95": 0.30916648101992905,
+            "p99": 0.41075298009673106,
+            "max": 0.8471153269056231
+          },
+          "decode_ms": {
+            "min": 2.27740898844786,
+            "median": 3.6829385062446818,
+            "p95": 4.792207849095573,
+            "p99": 5.984835914277934,
+            "max": 25.394710013642907
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 27.31161264819093,
+          "last_5s_median_ms": 26.606294995872304
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 150.21484375,
+            "median": 150.7734375,
+            "p95": 151.955859375,
+            "p99": 151.9948828125,
+            "max": 152.00390625
+          },
+          "source_rss_mb": {
+            "min": 119.5703125,
+            "median": 128.0703125,
+            "p95": 129.3203125,
+            "p99": 130.3108984375,
+            "max": 130.57421875
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 6
+        }
+      },
+      "process_ms": {
+        "mean": 18.841468630156303,
+        "median": 18.279159994563088,
+        "p99": 26.48464851197786,
+        "max": 42.24858898669481
+      }
+    },
+    {
+      "name": "paced_B_async_1",
+      "experiment": "B",
+      "mode": "async",
+      "iteration": 1,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1320,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 21.99997776094276,
+        "processed_fps": 60.00006065203561,
+        "frame_budget_ms": 16.66664983164983,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.16804199549369514,
+            "median": 0.2572270022938028,
+            "p95": 0.46991710987640545,
+            "p99": 1.5689402181305923,
+            "max": 5.279428994981572
+          },
+          "process_ms": {
+            "min": 11.423094983911142,
+            "median": 12.98129050701391,
+            "p95": 15.027310892764945,
+            "p99": 16.775186439917885,
+            "max": 20.924591983202845
+          },
+          "core_ms": {
+            "min": 9.924601996317506,
+            "median": 11.444189498433843,
+            "p95": 13.32285555108683,
+            "p99": 14.934113425551912,
+            "max": 19.995738024590537
+          },
+          "age_ms": {
+            "min": 11.783912545070052,
+            "median": 13.44652849365957,
+            "p95": 15.744675236055626,
+            "p99": 17.985627545276657,
+            "max": 21.971744543407112
+          },
+          "send_late_ms": {
+            "min": 0.14573676162399352,
+            "median": 0.1710112119326368,
+            "p95": 0.25353043020004407,
+            "p99": 0.3345787478610873,
+            "max": 0.4192940832581371
+          },
+          "decode_ms": {
+            "min": 2.343937987461686,
+            "median": 3.687553995405324,
+            "p95": 4.668863512051757,
+            "p99": 6.081692638690583,
+            "max": 29.085410991683602
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 13.373508787481114,
+          "last_5s_median_ms": 13.244220477645285
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.46484375,
+            "median": 153.26171875,
+            "p95": 153.4958984375,
+            "p99": 153.5053515625,
+            "max": 153.5078125
+          },
+          "source_rss_mb": {
+            "min": 119.7578125,
+            "median": 129.58984375,
+            "p95": 129.58984375,
+            "p99": 129.58984375,
+            "max": 129.58984375
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": true,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 14,
+          "incomplete_action_ranges": 0
+        }
+      },
+      "process_ms": {
+        "mean": 13.180393790962901,
+        "median": 12.98129050701391,
+        "p99": 16.775186439917885,
+        "max": 20.924591983202845
+      },
+      "writer": {
+        "submitted_frames": 1320,
+        "committed_frames": 1320,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1593,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1320,
+          "observations": 17843,
+          "tracks": 75,
+          "confirmed_tracks": 48,
+          "events_by_status": {
+            "confirmed_tracks": 83,
+            "rejected_short_track": 54
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 0,
+          "peak_active_tracks": 17
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.5490131049141795,
+            "median": 0.5357845075195655,
+            "p99": 0.7976789577514865,
+            "max": 7.876816991483793
+          },
+          "durable_ms": {
+            "mean": 5.2501456293446775,
+            "median": 4.96061249577906,
+            "p99": 13.00937409774633,
+            "max": 20.99016201100312
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.3108467264885831,
+            "median": 0.2970080095110461,
+            "p99": 0.601578082423657,
+            "max": 1.4237470168154687
+          },
+          "commit_ms": {
+            "mean": 4.384153677374618,
+            "median": 4.100991500308737,
+            "p99": 12.102713591884822,
+            "max": 19.850835989927873
+          },
+          "commit_cpu_ms": {
+            "mean": 0.1558381143939393,
+            "median": 0.12984199999999113,
+            "p99": 0.6808036899999139,
+            "max": 1.4920390000000006
+          }
+        },
+        "batches": 1320,
+        "largest_batch": 1
+      }
+    },
+    {
+      "name": "paced_B_async_2",
+      "experiment": "B",
+      "mode": "async",
+      "iteration": 2,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1319,
+        "replaced_frames": 1,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 21.99997776094276,
+        "processed_fps": 59.95460606063255,
+        "frame_budget_ms": 16.66664983164983,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.16132197924889624,
+            "median": 0.25198201183229685,
+            "p95": 0.46174279705155613,
+            "p99": 4.448246225365398,
+            "max": 15.251478995196521
+          },
+          "process_ms": {
+            "min": 11.24725301633589,
+            "median": 12.844329001381993,
+            "p95": 14.840893817017786,
+            "p99": 17.162687359377742,
+            "max": 27.532999025424942
+          },
+          "core_ms": {
+            "min": 9.98649001121521,
+            "median": 11.493735015392303,
+            "p95": 13.273476890753951,
+            "p99": 15.304578649229365,
+            "max": 26.466429990250617
+          },
+          "age_ms": {
+            "min": 11.736772547010332,
+            "median": 13.291483133798465,
+            "p95": 15.747074218234042,
+            "p99": 21.046751396497683,
+            "max": 38.0716115469113
+          },
+          "send_late_ms": {
+            "min": 0.14748156536370516,
+            "median": 0.16890699043869972,
+            "p95": 0.2523307921364903,
+            "p99": 0.3072760807117446,
+            "max": 0.6565760995727032
+          },
+          "decode_ms": {
+            "min": 2.3949570022523403,
+            "median": 3.676240987260826,
+            "p95": 4.625713905261363,
+            "p99": 6.026474056998266,
+            "max": 30.553981981938705
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 13.378445873968303,
+          "last_5s_median_ms": 13.112762724631466
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.35546875,
+            "median": 153.13671875,
+            "p95": 153.4177734375,
+            "p99": 153.424140625,
+            "max": 153.42578125
+          },
+          "source_rss_mb": {
+            "min": 119.6171875,
+            "median": 128.76171875,
+            "p95": 129.38671875,
+            "p99": 129.38671875,
+            "max": 129.38671875
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 14,
+          "incomplete_action_ranges": 0
+        }
+      },
+      "process_ms": {
+        "mean": 13.075168489595384,
+        "median": 12.844329001381993,
+        "p99": 17.162687359377742,
+        "max": 27.532999025424942
+      },
+      "writer": {
+        "submitted_frames": 1319,
+        "committed_frames": 1319,
+        "pending_records": 0,
+        "peak_pending_records": 1,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1593,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1319,
+          "observations": 17826,
+          "tracks": 74,
+          "confirmed_tracks": 48,
+          "events_by_status": {
+            "confirmed_tracks": 83,
+            "rejected_short_track": 52
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 1,
+          "peak_active_tracks": 17
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.6269720602138752,
+            "median": 0.6180060154292732,
+            "p99": 0.9464154823217541,
+            "max": 1.4075580111239105
+          },
+          "durable_ms": {
+            "mean": 5.354820504186885,
+            "median": 5.030320025980473,
+            "p99": 13.356288037612092,
+            "max": 15.476240980206057
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.3037084404556003,
+            "median": 0.276317005045712,
+            "p99": 0.6472643098095424,
+            "max": 1.2727229914162308
+          },
+          "commit_ms": {
+            "mean": 4.418156755484614,
+            "median": 4.097866010852158,
+            "p99": 12.381915843579911,
+            "max": 14.603961986722425
+          },
+          "commit_cpu_ms": {
+            "mean": 0.16474411902956856,
+            "median": 0.12843600000000954,
+            "p99": 0.7648755200000581,
+            "max": 3.30367099999998
+          }
+        },
+        "batches": 1319,
+        "largest_batch": 1
+      }
+    },
+    {
+      "name": "paced_B_async_3",
+      "experiment": "B",
+      "mode": "async",
+      "iteration": 3,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1316,
+        "replaced_frames": 4,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 21.99997776094276,
+        "processed_fps": 59.81824228642338,
+        "frame_budget_ms": 16.66664983164983,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.16698497347533703,
+            "median": 0.25653249758761376,
+            "p95": 4.522303512203507,
+            "p99": 12.853436934528853,
+            "max": 15.566907008178532
+          },
+          "process_ms": {
+            "min": 11.560724989976734,
+            "median": 13.259247003588825,
+            "p95": 16.007156744308304,
+            "p99": 21.009986415447184,
+            "max": 29.798918985761702
+          },
+          "core_ms": {
+            "min": 10.356114013120532,
+            "median": 11.875939482706599,
+            "p95": 14.352034246257972,
+            "p99": 18.9443282462889,
+            "max": 28.692867985228077
+          },
+          "age_ms": {
+            "min": 11.95697407820262,
+            "median": 13.740635811700486,
+            "p95": 21.289097596309148,
+            "p99": 29.95290897233643,
+            "max": 40.32439208822325
+          },
+          "send_late_ms": {
+            "min": 0.14664852642454207,
+            "median": 0.17392965673934668,
+            "p95": 0.27378416707506403,
+            "p99": 0.3684905049158259,
+            "max": 6.052770448150113
+          },
+          "decode_ms": {
+            "min": 2.352227020310238,
+            "median": 3.805764004937373,
+            "p95": 4.955936805345118,
+            "p99": 6.2835305120097456,
+            "max": 32.594477001111954
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 13.3912225428503,
+          "last_5s_median_ms": 13.809250551275909
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.25390625,
+            "median": 153.068359375,
+            "p95": 153.2966796875,
+            "p99": 153.303046875,
+            "max": 153.3046875
+          },
+          "source_rss_mb": {
+            "min": 119.578125,
+            "median": 129.38671875,
+            "p95": 129.38671875,
+            "p99": 129.38671875,
+            "max": 129.38671875
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 14,
+          "incomplete_action_ranges": 0
+        }
+      },
+      "process_ms": {
+        "mean": 13.639321067483882,
+        "median": 13.259247003588825,
+        "p99": 21.009986415447184,
+        "max": 29.798918985761702
+      },
+      "writer": {
+        "submitted_frames": 1316,
+        "committed_frames": 1316,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1593,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1316,
+          "observations": 17789,
+          "tracks": 75,
+          "confirmed_tracks": 48,
+          "events_by_status": {
+            "confirmed_tracks": 83,
+            "rejected_short_track": 54
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 4,
+          "peak_active_tracks": 17
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.6351317100348602,
+            "median": 0.6103720079408959,
+            "p99": 1.1905009698239133,
+            "max": 3.1239219824783504
+          },
+          "durable_ms": {
+            "mean": 5.259367585718974,
+            "median": 4.97687300958205,
+            "p99": 12.37633399869082,
+            "max": 19.85096698626876
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.32212980060875673,
+            "median": 0.301559004583396,
+            "p99": 0.7432441940181882,
+            "max": 1.033793989336118
+          },
+          "commit_ms": {
+            "mean": 4.295579781445305,
+            "median": 4.031295989989303,
+            "p99": 11.377245660696643,
+            "max": 18.835686991224065
+          },
+          "commit_cpu_ms": {
+            "mean": 0.17310656231002988,
+            "median": 0.1373780000000005,
+            "p99": 0.831230949999981,
+            "max": 1.8180309999999977
+          }
+        },
+        "batches": 1316,
+        "largest_batch": 1
+      }
+    },
+    {
+      "name": "paced_B_sync_1",
+      "experiment": "B",
+      "mode": "sync",
+      "iteration": 1,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1165,
+        "replaced_frames": 155,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 21.99997776094276,
+        "processed_fps": 52.95459898456173,
+        "frame_budget_ms": 16.66664983164983,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.13924000086262822,
+            "median": 7.97015501302667,
+            "p95": 15.90804760926403,
+            "p99": 16.673180891666554,
+            "max": 17.004284978611395
+          },
+          "process_ms": {
+            "min": 14.973781013395637,
+            "median": 17.88999798009172,
+            "p95": 23.14135119668208,
+            "p99": 26.105659606400863,
+            "max": 43.67418901529163
+          },
+          "core_ms": {
+            "min": 10.189574997639284,
+            "median": 11.931229004403576,
+            "p95": 14.221507788170129,
+            "p99": 16.165380596648884,
+            "max": 27.602296002442017
+          },
+          "age_ms": {
+            "min": 16.96436310885474,
+            "median": 26.81294208741747,
+            "p95": 35.20396259264089,
+            "p99": 39.04910787474359,
+            "max": 47.62694099918008
+          },
+          "send_late_ms": {
+            "min": 0.13494177255779505,
+            "median": 0.19642709230538458,
+            "p95": 0.322798614797648,
+            "p99": 0.4985011456301426,
+            "max": 2.2539509809575975
+          },
+          "decode_ms": {
+            "min": 2.3309389944188297,
+            "median": 3.7095104926265776,
+            "p95": 4.791471511998679,
+            "p99": 6.34864306950476,
+            "max": 29.04910800862126
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 26.407537196064368,
+          "last_5s_median_ms": 26.87529055401683
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 150.5,
+            "median": 151.267578125,
+            "p95": 152.386328125,
+            "p99": 152.4021484375,
+            "max": 152.40625
+          },
+          "source_rss_mb": {
+            "min": 119.51171875,
+            "median": 128.09375,
+            "p95": 129.34375,
+            "p99": 129.3468359375,
+            "max": 129.34765625
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 14,
+          "incomplete_action_ranges": 10
+        }
+      },
+      "process_ms": {
+        "mean": 18.49070584574862,
+        "median": 17.88999798009172,
+        "p99": 26.105659606400863,
+        "max": 43.67418901529163
+      }
+    },
+    {
+      "name": "paced_B_sync_2",
+      "experiment": "B",
+      "mode": "sync",
+      "iteration": 2,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1166,
+        "replaced_frames": 154,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 21.99997776094276,
+        "processed_fps": 53.000053575964785,
+        "frame_budget_ms": 16.66664983164983,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.14405199908651412,
+            "median": 7.589156986796297,
+            "p95": 15.688637751736678,
+            "p99": 16.62103414273588,
+            "max": 17.001648026052862
+          },
+          "process_ms": {
+            "min": 14.930439996533096,
+            "median": 17.975795490201563,
+            "p95": 22.42637849849416,
+            "p99": 25.76342400425346,
+            "max": 56.260908022522926
+          },
+          "core_ms": {
+            "min": 10.047783987829462,
+            "median": 11.718920010025613,
+            "p95": 13.79257899679942,
+            "p99": 15.106804261449714,
+            "max": 49.863767984788865
+          },
+          "age_ms": {
+            "min": 16.139826853759587,
+            "median": 26.399606329505332,
+            "p95": 35.016232533962466,
+            "p99": 38.13738820026628,
+            "max": 62.720313551835716
+          },
+          "send_late_ms": {
+            "min": 0.14831908629275858,
+            "median": 0.19509581034071743,
+            "p95": 0.30567519715987135,
+            "p99": 0.42893925128737387,
+            "max": 1.2247019913047552
+          },
+          "decode_ms": {
+            "min": 2.3221280134748667,
+            "median": 3.7556770112132654,
+            "p95": 4.908973294368479,
+            "p99": 6.0131920440471704,
+            "max": 26.42683801241219
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 25.90292476816103,
+          "last_5s_median_ms": 25.885488372296095
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 150.46875,
+            "median": 151.71875,
+            "p95": 152.3275390625,
+            "p99": 152.3435546875,
+            "max": 152.34765625
+          },
+          "source_rss_mb": {
+            "min": 119.6328125,
+            "median": 129.55078125,
+            "p95": 129.55078125,
+            "p99": 130.53828125,
+            "max": 130.80078125
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 14,
+          "incomplete_action_ranges": 2
+        }
+      },
+      "process_ms": {
+        "mean": 18.471187064097673,
+        "median": 17.975795490201563,
+        "p99": 25.76342400425346,
+        "max": 56.260908022522926
+      }
+    },
+    {
+      "name": "paced_B_sync_3",
+      "experiment": "B",
+      "mode": "sync",
+      "iteration": 3,
+      "report": {
+        "status": "completed",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 1320,
+        "processed_frames": 1183,
+        "replaced_frames": 137,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 21.99997776094276,
+        "processed_fps": 53.772781629816755,
+        "frame_budget_ms": 16.66664983164983,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.12479801080189645,
+            "median": 7.682418014155701,
+            "p95": 15.877587604336435,
+            "p99": 16.687297171447426,
+            "max": 17.023905005771667
+          },
+          "process_ms": {
+            "min": 14.739211008418351,
+            "median": 17.79800999793224,
+            "p95": 21.78036760014947,
+            "p99": 25.526826948043894,
+            "max": 37.300360010704026
+          },
+          "core_ms": {
+            "min": 9.768732998054475,
+            "median": 11.64214700111188,
+            "p95": 13.411721799639054,
+            "p99": 14.918044080259284,
+            "max": 18.290742998942733
+          },
+          "age_ms": {
+            "min": 15.449425525730476,
+            "median": 26.24877353082411,
+            "p95": 34.62451258674264,
+            "p99": 38.01838031271473,
+            "max": 41.33078089216724
+          },
+          "send_late_ms": {
+            "min": 0.13020486221648753,
+            "median": 0.19182536925654858,
+            "p95": 0.2931070644990541,
+            "p99": 0.4274461648310534,
+            "max": 1.6403928748331964
+          },
+          "decode_ms": {
+            "min": 2.266274008434266,
+            "median": 3.7071839906275272,
+            "p95": 4.703949944814665,
+            "p99": 5.883050387783442,
+            "max": 27.209867985220626
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 27.022768816095777,
+          "last_5s_median_ms": 26.38759955880232
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 150.48046875,
+            "median": 151.44140625,
+            "p95": 152.1544921875,
+            "p99": 152.1593359375,
+            "max": 152.16015625
+          },
+          "source_rss_mb": {
+            "min": 119.6484375,
+            "median": 129.41796875,
+            "p95": 129.41796875,
+            "p99": 130.1431640625,
+            "max": 130.3359375
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 14,
+          "incomplete_action_ranges": 4
+        }
+      },
+      "process_ms": {
+        "mean": 18.216400782873702,
+        "median": 17.79800999793224,
+        "p99": 25.526826948043894,
+        "max": 37.300360010704026
+      }
+    }
+  ],
+  "long_report": {
+    "status": "completed",
+    "synthetic_repeated_replay": true,
+    "error": null,
+    "offered_frames": 19800,
+    "processed_frames": 19702,
+    "replaced_frames": 98,
+    "expired_frames": 0,
+    "failed_or_cancelled_frames": 0,
+    "abandoned_frames": 0,
+    "nominal_duration_s": 330.0,
+    "processed_fps": 59.7030303030303,
+    "frame_budget_ms": 16.666666666666668,
+    "metrics": {
+      "queue_ms": {
+        "min": 0.12828799663111567,
+        "median": 0.24877898977138102,
+        "p95": 1.8286646867636625,
+        "p99": 9.384775427752206,
+        "max": 26.475135993678123
+      },
+      "process_ms": {
+        "min": 11.302778002573177,
+        "median": 13.38997797574848,
+        "p95": 16.1307659567683,
+        "p99": 19.170182599627932,
+        "max": 213.2859850244131
+      },
+      "core_ms": {
+        "min": 10.067647002870217,
+        "median": 12.008701000013389,
+        "p95": 14.537967790965922,
+        "p99": 17.338514564908113,
+        "max": 211.90171301714145
+      },
+      "age_ms": {
+        "min": 11.705645971233025,
+        "median": 13.855380806489848,
+        "p95": 18.458915343217093,
+        "p99": 27.305127219588062,
+        "max": 228.231914981734
+      },
+      "send_late_ms": {
+        "min": 0.12567164958454669,
+        "median": 0.1756558194756508,
+        "p95": 0.2714313173783012,
+        "p99": 0.36040878010680877,
+        "max": 58.004351652925834
+      },
+      "decode_ms": {
+        "min": 2.2385059855878353,
+        "median": 3.5677955020219088,
+        "p95": 4.782939763390458,
+        "p99": 6.363166172814063,
+        "max": 74.20560801983811
+      }
+    },
+    "age_early_late": {
+      "first_5s_median_ms": 14.22843882755842,
+      "last_5s_median_ms": 13.248273156932555
+    },
+    "memory_sampled_mb": {
+      "consumer_rss_mb": {
+        "min": 151.4140625,
+        "median": 154.09375,
+        "p95": 154.16796875,
+        "p99": 154.21484375,
+        "max": 154.21484375
+      },
+      "source_rss_mb": {
+        "min": 119.47265625,
+        "median": 129.03125,
+        "p95": 130.30078125,
+        "p99": 130.30078125,
+        "max": 131.8046875
+      }
+    },
+    "max_pending_frames": 1,
+    "all_offered_frames_accounted": true,
+    "database_integrity": "ok",
+    "all_frames_processed": false,
+    "source_p99_within_frame_budget": true,
+    "results_older_than_limit": 2,
+    "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+    "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+    "action_links": null
+  },
+  "long_writer": {
+    "submitted_frames": 19702,
+    "committed_frames": 19702,
+    "pending_records": 0,
+    "peak_pending_records": 23,
+    "oldest_pending_ms": 0.0,
+    "last_committed_source_frame": 19799,
+    "error": null,
+    "settings": {
+      "queue_frames": 32,
+      "batch_frames": 4,
+      "max_pending_s": 1.0,
+      "close_timeout_s": 30.0
+    },
+    "error_details": null,
+    "uncommitted": [],
+    "all_submitted_saved": true,
+    "worker_finished": true,
+    "summary": {
+      "status": "completed",
+      "frames": 19702,
+      "observations": 355695,
+      "tracks": 2964,
+      "confirmed_tracks": 1918,
+      "events_by_status": {
+        "confirmed_tracks": 3815,
+        "rejected_short_track": 2096
+      },
+      "input_rejections": 0,
+      "skipped_source_frames": 98,
+      "peak_active_tracks": 41
+    },
+    "timing_ms": {
+      "queue_ms": {
+        "mean": 0.9295583198339638,
+        "median": 0.6219514907570556,
+        "p99": 1.0162198485340928,
+        "max": 378.18726000841707
+      },
+      "durable_ms": {
+        "mean": 5.6360575001340765,
+        "median": 5.038941992097534,
+        "p99": 13.447952410497239,
+        "max": 394.89253200008534
+      }
+    },
+    "batch_timing_ms": {
+      "database_ms": {
+        "mean": 0.38301364027137136,
+        "median": 0.3624910023063421,
+        "p99": 0.7903079997049642,
+        "max": 6.749915977707133
+      },
+      "commit_ms": {
+        "mean": 4.316260346156301,
+        "median": 4.032635013572872,
+        "p99": 12.270420292043125,
+        "max": 393.8833069987595
+      },
+      "commit_cpu_ms": {
+        "mean": 0.18090038233948763,
+        "median": 0.14288000000028944,
+        "p99": 0.7492888999999888,
+        "max": 18.204837999999945
+      }
+    },
+    "batches": 19671,
+    "largest_batch": 4
+  },
+  "memory": {
+    "first_60s_median_mb": 153.91796875,
+    "last_60s_median_mb": 154.1484375,
+    "min_mb": 151.4140625,
+    "max_mb": 154.21484375
+  },
+  "syscall_trace": {
+    "calls": 91,
+    "thread_ids": [
+      "467643"
+    ],
+    "duration_ms": {
+      "mean": 4.764120879120879,
+      "median": 4.213,
+      "p99": 15.911499999999995,
+      "max": 16.78
+    },
+    "caution": "Tracing overhead is substantial; not a throughput benchmark"
+  },
+  "final_checks": {
+    "final_guard_check": {
+      "replay": {
+        "status": "completed",
+        "synthetic_repeated_replay": true,
+        "error": null,
+        "offered_frames": 1800,
+        "processed_frames": 1794,
+        "replaced_frames": 6,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 0,
+        "nominal_duration_s": 30.0,
+        "processed_fps": 59.8,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.15370099572464824,
+            "median": 0.23780498304404318,
+            "p95": 1.5007241061539354,
+            "p99": 7.971371755411381,
+            "max": 14.116773003479466
+          },
+          "process_ms": {
+            "min": 11.511390999658033,
+            "median": 13.542247499572113,
+            "p95": 15.694590752536895,
+            "p99": 18.999220211990163,
+            "max": 70.6577870005276
+          },
+          "core_ms": {
+            "min": 9.932395012583584,
+            "median": 11.779493492213078,
+            "p95": 13.788765494246036,
+            "p99": 16.506021596142087,
+            "max": 68.88832899858244
+          },
+          "age_ms": {
+            "min": 12.04709365265444,
+            "median": 13.986652804305777,
+            "p95": 17.83774543000617,
+            "p99": 24.770425248425454,
+            "max": 73.67377399350516
+          },
+          "send_late_ms": {
+            "min": 0.14353133155964315,
+            "median": 0.17161498544737697,
+            "p95": 0.2559766755439341,
+            "p99": 0.35111069330014283,
+            "max": 6.054797966498882
+          },
+          "decode_ms": {
+            "min": 2.286895993165672,
+            "median": 3.6009409959660843,
+            "p95": 4.777527292026207,
+            "p99": 6.159227314929012,
+            "max": 63.96217001019977
+          }
+        },
+        "age_early_late": {
+          "first_5s_median_ms": 14.08236549468711,
+          "last_5s_median_ms": 13.902856968343258
+        },
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.64453125,
+            "median": 153.322265625,
+            "p95": 153.47265625,
+            "p99": 153.47265625,
+            "max": 153.47265625
+          },
+          "source_rss_mb": {
+            "min": 120.0703125,
+            "median": 129.7265625,
+            "p95": 129.81640625,
+            "p99": 129.81640625,
+            "max": 129.81640625
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": null
+      },
+      "writer": {
+        "submitted_frames": 1794,
+        "committed_frames": 1794,
+        "pending_records": 0,
+        "peak_pending_records": 2,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 1799,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "completed",
+          "frames": 1794,
+          "observations": 31296,
+          "tracks": 266,
+          "confirmed_tracks": 166,
+          "events_by_status": {
+            "confirmed_tracks": 315,
+            "rejected_short_track": 200
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 6,
+          "peak_active_tracks": 38
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.6485492678373687,
+            "median": 0.6331784970825538,
+            "p99": 1.0087620667763983,
+            "max": 1.7051900213118643
+          },
+          "durable_ms": {
+            "mean": 5.416290520065736,
+            "median": 5.090059508802369,
+            "p99": 14.52767192007741,
+            "max": 19.67562999925576
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.38618448918084164,
+            "median": 0.3776300000026822,
+            "p99": 0.7922374384361313,
+            "max": 2.3448310093954206
+          },
+          "commit_ms": {
+            "mean": 4.37537099332681,
+            "median": 4.057871003169566,
+            "p99": 13.354051023779892,
+            "max": 17.981466982746497
+          },
+          "commit_cpu_ms": {
+            "mean": 0.1817411627647726,
+            "median": 0.14112649999999116,
+            "p99": 0.9061264999999953,
+            "max": 2.2513929999999904
+          }
+        },
+        "batches": 1794,
+        "largest_batch": 1
+      }
+    },
+    "cancel_check": {
+      "replay": {
+        "status": "cancelled",
+        "synthetic_repeated_replay": false,
+        "error": null,
+        "offered_frames": 121,
+        "processed_frames": 120,
+        "replaced_frames": 0,
+        "expired_frames": 0,
+        "failed_or_cancelled_frames": 0,
+        "abandoned_frames": 1,
+        "nominal_duration_s": 2.0166666666666666,
+        "processed_fps": 59.50413223140496,
+        "frame_budget_ms": 16.666666666666668,
+        "metrics": {
+          "queue_ms": {
+            "min": 0.1663209986872971,
+            "median": 0.3760859981412068,
+            "p95": 8.449749514693394,
+            "p99": 9.861024672864007,
+            "max": 11.142895004013553
+          },
+          "process_ms": {
+            "min": 13.21090100100264,
+            "median": 15.019434009445831,
+            "p95": 17.508106054447126,
+            "p99": 19.55861122813076,
+            "max": 20.603640004992485
+          },
+          "core_ms": {
+            "min": 11.459114000899717,
+            "median": 13.224966489360668,
+            "p95": 15.620310897065792,
+            "p99": 18.066776328487325,
+            "max": 18.884419987443835
+          },
+          "age_ms": {
+            "min": 13.625726976897568,
+            "median": 15.855759149417281,
+            "p95": 24.694087359239347,
+            "p99": 26.321902753261384,
+            "max": 27.704020292731002
+          },
+          "send_late_ms": {
+            "min": 0.14676363207399845,
+            "median": 0.1873089640866965,
+            "p95": 0.2833026519510895,
+            "p99": 0.40404151077382244,
+            "max": 0.45795898768119514
+          },
+          "decode_ms": {
+            "min": 3.089956007897854,
+            "median": 4.0940530016087,
+            "p95": 5.116432992508635,
+            "p99": 7.666139391949397,
+            "max": 25.84773499984294
+          }
+        },
+        "age_early_late": null,
+        "memory_sampled_mb": {
+          "consumer_rss_mb": {
+            "min": 151.46875,
+            "median": 151.5078125,
+            "p95": 151.54296875,
+            "p99": 151.54609375,
+            "max": 151.546875
+          },
+          "source_rss_mb": {
+            "min": 119.80859375,
+            "median": 120.990234375,
+            "p95": 122.0537109375,
+            "p99": 122.1482421875,
+            "max": 122.171875
+          }
+        },
+        "max_pending_frames": 1,
+        "all_offered_frames_accounted": true,
+        "database_integrity": "ok",
+        "all_frames_processed": false,
+        "source_p99_within_frame_budget": true,
+        "results_older_than_limit": 0,
+        "scope": "1x software replay; no camera, recording load, Windows bridge or AFG commands",
+        "timing_limit": "Latency is local replay timing, not exposure-to-result latency",
+        "action_links": {
+          "actions": 20,
+          "incomplete_action_ranges": 40
+        }
+      },
+      "writer": {
+        "submitted_frames": 120,
+        "committed_frames": 120,
+        "pending_records": 0,
+        "peak_pending_records": 1,
+        "oldest_pending_ms": 0.0,
+        "last_committed_source_frame": 393,
+        "error": null,
+        "settings": {
+          "queue_frames": 32,
+          "batch_frames": 4,
+          "max_pending_s": 1.0,
+          "close_timeout_s": 30.0
+        },
+        "error_details": null,
+        "uncommitted": [],
+        "all_submitted_saved": true,
+        "worker_finished": true,
+        "summary": {
+          "status": "cancelled",
+          "frames": 120,
+          "observations": 2440,
+          "tracks": 30,
+          "confirmed_tracks": 27,
+          "events_by_status": {
+            "confirmed_tracks": 33,
+            "rejected_short_track": 6
+          },
+          "input_rejections": 0,
+          "skipped_source_frames": 0,
+          "peak_active_tracks": 23
+        },
+        "timing_ms": {
+          "queue_ms": {
+            "mean": 0.7069096243261205,
+            "median": 0.6983669882174581,
+            "p99": 0.983841276029125,
+            "max": 1.1139730049762875
+          },
+          "durable_ms": {
+            "mean": 5.990063441519548,
+            "median": 5.465194015414454,
+            "p99": 14.894720401498493,
+            "max": 15.765176998684183
+          }
+        },
+        "batch_timing_ms": {
+          "database_ms": {
+            "mean": 0.4579759903814799,
+            "median": 0.44898950727656484,
+            "p99": 0.9063281025737526,
+            "max": 1.0401500039733946
+          },
+          "commit_ms": {
+            "mean": 4.817160900711315,
+            "median": 4.254908984876238,
+            "p99": 13.787362761795524,
+            "max": 14.62570100557059
+          },
+          "commit_cpu_ms": {
+            "mean": 0.20939300833333335,
+            "median": 0.17011499999999846,
+            "p99": 0.8770664499999961,
+            "max": 0.9204030000000002
+          }
+        },
+        "batches": 120,
+        "largest_batch": 1
+      }
+    }
+  },
+  "unit_tests": "59 passed in 7.53s",
+  "equality": {
+    "A": {
+      "frames": {
+        "identical": true,
+        "rows": 1320
+      },
+      "observations": {
+        "identical": true,
+        "rows": 22041
+      },
+      "tracks": {
+        "identical": true,
+        "rows": 181
+      },
+      "events": {
+        "identical": true,
+        "rows": 347
+      },
+      "event_updates": {
+        "identical": true,
+        "rows": 694
+      },
+      "track_updates": {
+        "identical": true,
+        "rows": 472
+      },
+      "input_rejections": {
+        "identical": true,
+        "rows": 0
+      },
+      "background_initial.npy": {
+        "identical": true,
+        "sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+      },
+      "background_final.npy": {
+        "identical": true,
+        "sha256": "0935af57444548ed74712c492e2edc9c1817395ac7f3f943b84abc06e20a98a8"
+      },
+      "action_links.csv": {
+        "identical": true,
+        "sha256": "a57135547fbbffcb2cf08e7574ea80fdf2c03ef49c7c1153906532f4664dc4e0"
+      },
+      "source_actions.csv": {
+        "identical": true,
+        "sha256": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7"
+      },
+      "source_video_frames.csv": {
+        "identical": true,
+        "sha256": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2"
+      }
+    },
+    "A_previous": {
+      "frames": {
+        "identical": true,
+        "rows": 1320
+      },
+      "observations": {
+        "identical": true,
+        "rows": 22041
+      },
+      "tracks": {
+        "identical": true,
+        "rows": 181
+      },
+      "events": {
+        "identical": true,
+        "rows": 347
+      },
+      "event_updates": {
+        "identical": true,
+        "rows": 694
+      },
+      "track_updates": {
+        "identical": true,
+        "rows": 472
+      },
+      "input_rejections": {
+        "identical": true,
+        "rows": 0
+      },
+      "background_initial.npy": {
+        "identical": true,
+        "sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63"
+      },
+      "background_final.npy": {
+        "identical": true,
+        "sha256": "0935af57444548ed74712c492e2edc9c1817395ac7f3f943b84abc06e20a98a8"
+      },
+      "action_links.csv": {
+        "identical": true,
+        "sha256": "a57135547fbbffcb2cf08e7574ea80fdf2c03ef49c7c1153906532f4664dc4e0"
+      },
+      "source_actions.csv": {
+        "identical": true,
+        "sha256": "121cc2c1cb858a182f3950d18c509eed4645f1ae967123c3c8706f5fdee9a6a7"
+      },
+      "source_video_frames.csv": {
+        "identical": true,
+        "sha256": "76233f8db64d147143e6e35403f46db7d55f81718278bc4f78f39d85aae41aa2"
+      }
+    },
+    "B": {
+      "frames": {
+        "identical": true,
+        "rows": 1320
+      },
+      "observations": {
+        "identical": true,
+        "rows": 17843
+      },
+      "tracks": {
+        "identical": true,
+        "rows": 75
+      },
+      "events": {
+        "identical": true,
+        "rows": 137
+      },
+      "event_updates": {
+        "identical": true,
+        "rows": 274
+      },
+      "track_updates": {
+        "identical": true,
+        "rows": 198
+      },
+      "input_rejections": {
+        "identical": true,
+        "rows": 0
+      },
+      "background_initial.npy": {
+        "identical": true,
+        "sha256": "f50b6eace131e00b8ecd8521903d14a68eabe423be72d8aa681b857a62feafd2"
+      },
+      "background_final.npy": {
+        "identical": true,
+        "sha256": "923c13dc027a3e71a8881a74d7576a8950dba7a4fff5f512e7e46cce32da9240"
+      },
+      "action_links.csv": {
+        "identical": true,
+        "sha256": "55c24d17a4525555fe23f519f768c44df921808cca9984091c10253b926bde24"
+      },
+      "source_actions.csv": {
+        "identical": true,
+        "sha256": "dafcd50ff6127b8216d774f79c81d5e04b5a74828f27de27896eace93d1e5721"
+      },
+      "source_video_frames.csv": {
+        "identical": true,
+        "sha256": "b505124a09083355e35875fd775b1fb8ca4725e09cab30c44774521110a702bd"
+      }
+    },
+    "B_previous": {
+      "frames": {
+        "identical": true,
+        "rows": 1320
+      },
+      "observations": {
+        "identical": true,
+        "rows": 17843
+      },
+      "tracks": {
+        "identical": true,
+        "rows": 75
+      },
+      "events": {
+        "identical": true,
+        "rows": 137
+      },
+      "event_updates": {
+        "identical": true,
+        "rows": 274
+      },
+      "track_updates": {
+        "identical": true,
+        "rows": 198
+      },
+      "input_rejections": {
+        "identical": true,
+        "rows": 0
+      },
+      "background_initial.npy": {
+        "identical": true,
+        "sha256": "f50b6eace131e00b8ecd8521903d14a68eabe423be72d8aa681b857a62feafd2"
+      },
+      "background_final.npy": {
+        "identical": true,
+        "sha256": "923c13dc027a3e71a8881a74d7576a8950dba7a4fff5f512e7e46cce32da9240"
+      },
+      "action_links.csv": {
+        "identical": true,
+        "sha256": "55c24d17a4525555fe23f519f768c44df921808cca9984091c10253b926bde24"
+      },
+      "source_actions.csv": {
+        "identical": true,
+        "sha256": "dafcd50ff6127b8216d774f79c81d5e04b5a74828f27de27896eace93d1e5721"
+      },
+      "source_video_frames.csv": {
+        "identical": true,
+        "sha256": "b505124a09083355e35875fd775b1fb8ca4725e09cab30c44774521110a702bd"
+      }
+    }
+  },
+  "scope": "Offline replay only; no live camera recording or instrument control"
+}

@@ -1,0 +1,606 @@
+{
+  "version": 1,
+  "session_id": "review",
+  "rows": [
+    {
+      "id": "two_action_f000030",
+      "image": "data/candidates/two_action_f000030.png",
+      "image_sha256": "807634dc54f3843f24677ab5bb36661b632dec0fd5309bb358bf99aca48b3c03",
+      "overlay": "overlays/two_action_f000030.png",
+      "mask": "masks/two_action_f000030.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 30,
+      "source_pts": 45000,
+      "source_time_base": "1/90000",
+      "source_pts_s": 0.5,
+      "relative_time_s": 0.5,
+      "requested_time_s": 0.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 248,
+      "uncertain_count": 168
+    },
+    {
+      "id": "two_action_f000211",
+      "image": "data/candidates/two_action_f000211.png",
+      "image_sha256": "d21fe5d28fe97157a7d83e0782b111141a0a9272d898ac8327b2d8bba637de5d",
+      "overlay": "overlays/two_action_f000211.png",
+      "mask": "masks/two_action_f000211.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 211,
+      "source_pts": 316498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 3.5166444444444442,
+      "relative_time_s": 3.5166444444444442,
+      "requested_time_s": 3.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 241,
+      "uncertain_count": 160
+    },
+    {
+      "id": "two_action_f000253",
+      "image": "data/candidates/two_action_f000253.png",
+      "image_sha256": "2bd0e8d1d661b792c29a0bd0c468be2cdc98fde79afa6cad31d6d37832635dd6",
+      "overlay": "overlays/two_action_f000253.png",
+      "mask": "masks/two_action_f000253.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 253,
+      "source_pts": 379498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 4.216644444444444,
+      "relative_time_s": 4.216644444444444,
+      "requested_time_s": 4.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 250,
+      "uncertain_count": 169
+    },
+    {
+      "id": "two_action_f000331",
+      "image": "data/candidates/two_action_f000331.png",
+      "image_sha256": "896b4abd048fe0e1d8a56d9459ea12cee8c230fecbe455556cdfdb7dc3901c0e",
+      "overlay": "overlays/two_action_f000331.png",
+      "mask": "masks/two_action_f000331.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 331,
+      "source_pts": 496498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 5.516644444444444,
+      "relative_time_s": 5.516644444444444,
+      "requested_time_s": 5.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 245,
+      "uncertain_count": 163
+    },
+    {
+      "id": "two_action_f000451",
+      "image": "data/candidates/two_action_f000451.png",
+      "image_sha256": "c78b070c13aee250018111576dc7822972fedfafb1a25091ec9e18358b62f1d8",
+      "overlay": "overlays/two_action_f000451.png",
+      "mask": "masks/two_action_f000451.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 451,
+      "source_pts": 676498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 7.516644444444444,
+      "relative_time_s": 7.516644444444444,
+      "requested_time_s": 7.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 238,
+      "uncertain_count": 160
+    },
+    {
+      "id": "two_action_f000493",
+      "image": "data/candidates/two_action_f000493.png",
+      "image_sha256": "584da59aea40d6f217e1de694d9bceb285edc958cd0f38f03f9868da1ed2bd14",
+      "overlay": "overlays/two_action_f000493.png",
+      "mask": "masks/two_action_f000493.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 493,
+      "source_pts": 739498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 8.216644444444444,
+      "relative_time_s": 8.216644444444444,
+      "requested_time_s": 8.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 246,
+      "uncertain_count": 160
+    },
+    {
+      "id": "two_action_f000571",
+      "image": "data/candidates/two_action_f000571.png",
+      "image_sha256": "5d0e4406cc4605701e225ad01b2adba46e4824bc4e66e67a2e2a7ffcd83fedb5",
+      "overlay": "overlays/two_action_f000571.png",
+      "mask": "masks/two_action_f000571.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 571,
+      "source_pts": 856498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 9.516644444444445,
+      "relative_time_s": 9.516644444444445,
+      "requested_time_s": 9.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 237,
+      "uncertain_count": 156
+    },
+    {
+      "id": "two_action_f000691",
+      "image": "data/candidates/two_action_f000691.png",
+      "image_sha256": "7b1263f4b3148b958dcdb74e209ce2f9be66e100d2094c98a478657ae13b52bf",
+      "overlay": "overlays/two_action_f000691.png",
+      "mask": "masks/two_action_f000691.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 691,
+      "source_pts": 1036498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 11.516644444444445,
+      "relative_time_s": 11.516644444444445,
+      "requested_time_s": 11.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 265,
+      "uncertain_count": 179
+    },
+    {
+      "id": "two_action_f000733",
+      "image": "data/candidates/two_action_f000733.png",
+      "image_sha256": "fa2a6e853665c9e95907a26ecaadeba90ef29eeac20a3349659446f81297f560",
+      "overlay": "overlays/two_action_f000733.png",
+      "mask": "masks/two_action_f000733.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 733,
+      "source_pts": 1099498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 12.216644444444444,
+      "relative_time_s": 12.216644444444444,
+      "requested_time_s": 12.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 200,
+      "uncertain_count": 126
+    },
+    {
+      "id": "two_action_f000811",
+      "image": "data/candidates/two_action_f000811.png",
+      "image_sha256": "8ee0c9f58535c067a39041cf5fb0996a34c893fffe7a162a83de95f47dadc04b",
+      "overlay": "overlays/two_action_f000811.png",
+      "mask": "masks/two_action_f000811.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 811,
+      "source_pts": 1216498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 13.516644444444445,
+      "relative_time_s": 13.516644444444445,
+      "requested_time_s": 13.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 246,
+      "uncertain_count": 164
+    },
+    {
+      "id": "two_action_f000931",
+      "image": "data/candidates/two_action_f000931.png",
+      "image_sha256": "8265657a6ca48b456a3c13d691ab6256aa331483105f9e756484f4db08979721",
+      "overlay": "overlays/two_action_f000931.png",
+      "mask": "masks/two_action_f000931.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 931,
+      "source_pts": 1396498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 15.516644444444445,
+      "relative_time_s": 15.516644444444445,
+      "requested_time_s": 15.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 258,
+      "uncertain_count": 175
+    },
+    {
+      "id": "two_action_f000973",
+      "image": "data/candidates/two_action_f000973.png",
+      "image_sha256": "d15c99f0c420f15b628002ba508fdea80d924fcdd7e2326b140a8ab186198aa0",
+      "overlay": "overlays/two_action_f000973.png",
+      "mask": "masks/two_action_f000973.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 973,
+      "source_pts": 1459498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 16.216644444444444,
+      "relative_time_s": 16.216644444444444,
+      "requested_time_s": 16.2,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 242,
+      "uncertain_count": 160
+    },
+    {
+      "id": "two_action_f001051",
+      "image": "data/candidates/two_action_f001051.png",
+      "image_sha256": "1dfa7b474471222cc956a71c6cd8d27cfd578db4e91f16993ef50d8cf67b5888",
+      "overlay": "overlays/two_action_f001051.png",
+      "mask": "masks/two_action_f001051.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 1051,
+      "source_pts": 1576498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 17.516644444444445,
+      "relative_time_s": 17.516644444444445,
+      "requested_time_s": 17.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 244,
+      "uncertain_count": 161
+    },
+    {
+      "id": "two_action_f001171",
+      "image": "data/candidates/two_action_f001171.png",
+      "image_sha256": "bb3667f2058cac6a999cc120b40ac4cc4443dafe63540a9513ed4346d4d9a9dc",
+      "overlay": "overlays/two_action_f001171.png",
+      "mask": "masks/two_action_f001171.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 1171,
+      "source_pts": 1756498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 19.516644444444445,
+      "relative_time_s": 19.516644444444445,
+      "requested_time_s": 19.5,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 257,
+      "uncertain_count": 173
+    },
+    {
+      "id": "two_action_f001261",
+      "image": "data/candidates/two_action_f001261.png",
+      "image_sha256": "b4e8075eeeba47e39e0d91725d8800789ffdb71afcba6076efcae25bc489bc3c",
+      "overlay": "overlays/two_action_f001261.png",
+      "mask": "masks/two_action_f001261.png",
+      "source_kind": "ORIGINAL_RECORDED_VIDEO",
+      "source_file": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/avsync_20261025-165523_two_action/experiment/recording/video.mp4",
+      "source_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "source_id": "two_action",
+      "source_title": "A→B→A 双动作实验",
+      "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+      "frame_index": 1261,
+      "source_pts": 1891498,
+      "source_time_base": "1/90000",
+      "source_pts_s": 21.016644444444445,
+      "relative_time_s": 21.016644444444445,
+      "requested_time_s": 21.0,
+      "resolution_wh": [
+        1280,
+        1024
+      ],
+      "source_resolution_wh": [
+        1280,
+        1024
+      ],
+      "saved_roi_xywh": [
+        0,
+        0,
+        1280,
+        1024
+      ],
+      "resized": false,
+      "split": "review_only",
+      "sequence_id": "two_action",
+      "review_status": "UNREVIEWED",
+      "selection_reason": "覆盖初始、A、B、第二次 A、待机及关断；较密地查看切换前后，不预判移动方向和可重复性。",
+      "candidate_count": 257,
+      "uncertain_count": 169
+    }
+  ]
+}

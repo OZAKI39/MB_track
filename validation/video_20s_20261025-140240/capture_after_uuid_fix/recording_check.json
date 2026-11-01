@@ -1,0 +1,80 @@
+{
+  "passed": false,
+  "problems": [
+    "保存的相邻帧之间，来源编号共跳过 221 帧",
+    "原录像器未报告完整保存"
+  ],
+  "requested_duration_s": 20.0,
+  "timing": {
+    "passed": false,
+    "problems": [
+      "保存的相邻帧之间，来源编号共跳过 221 帧"
+    ],
+    "frames": 1011,
+    "first_to_last_frame_s": 19.999203357991064,
+    "observed_receive_fps": 50.502011601198866,
+    "source_sequence_missing_frames": 221,
+    "arrival_intervals": {
+      "count": 1010,
+      "median_ms": 17.276068494538777,
+      "p99_ms": 46.15610925771761,
+      "maximum_ms": 55.73980399640277
+    },
+    "decode_intervals": {
+      "count": 1010,
+      "median_ms": 17.668500004219823,
+      "p99_ms": 46.14999600016744,
+      "maximum_ms": 55.81700001494028
+    },
+    "gap_limit_ms": 100.0,
+    "discontinuities": []
+  },
+  "videos": [
+    {
+      "file": "experiment_raw.mp4",
+      "passed": true,
+      "problems": [],
+      "decoded_frames": 1011,
+      "metadata_rows": 1011,
+      "container_duration_s": 20.032536
+    },
+    {
+      "file": "experiment_overlay.mp4",
+      "passed": true,
+      "problems": [],
+      "decoded_frames": 1011,
+      "metadata_rows": 1011,
+      "container_duration_s": 20.032536
+    }
+  ],
+  "recorder_submitted": 1185,
+  "recorder_written": 1011,
+  "recorder_dropped": 174,
+  "upstream_sequence_skips_within_window": 47,
+  "receiver_reports": [
+    {
+      "state": "stopped",
+      "received_frames": 1233,
+      "receive_fps_last_5s": 60.30574892899234,
+      "receive_fps_first_to_last": 61.75828710746705,
+      "seconds_since_last_frame": 0.058947700017597526,
+      "connections": 1,
+      "connection_attempts": 1,
+      "failures": 0,
+      "reported_stream_fps": 60.0,
+      "decoder_threads": 1,
+      "manual_refreshes": 0,
+      "preview_source": "rtsp",
+      "latest_http_request_ms": null,
+      "rtsp_control_requests": 4,
+      "rtsp_control_errors": [],
+      "time_to_first_frame_ms": 1593.294699996477,
+      "last_error": "",
+      "recent_failure_events": []
+    }
+  ],
+  "afg_accessed": false,
+  "scope": "真实预览接收与录像；不含图像分析、GUI 负载或相机内部高速录像",
+  "timestamp_meaning": "电脑解码及收到画面的时间，不是相机曝光时间",
+  "upstream_camera_frame_loss": "相机源帧编号与曝光时间未知，不能统计解码前所有丢帧"
+}

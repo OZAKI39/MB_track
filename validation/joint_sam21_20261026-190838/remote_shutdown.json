@@ -1,0 +1,6 @@
+{
+  "own_supervisor_shutdown_requested": true,
+  "remote_instance_stopped": false,
+  "other_services_modified": false,
+  "data_transferred_and_hash_verified": true
+}

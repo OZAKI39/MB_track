@@ -1,0 +1,242 @@
+[
+  {
+    "name": "after_A_01",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_01"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_01",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_01"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_02",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_02"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_02",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_02"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_03",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_03"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_03",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_03"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_04",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_04"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_04",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_04"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_05",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_05"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_05",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_05"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_06",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_06"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_06",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_06"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_07",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_07"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_07",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_07"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_08",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_08"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_08",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_08"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_09",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_09"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_09",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_09"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_A_10",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_A_10"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "after_B_10",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-c",
+      "from pathlib import Path; import sys; from customer_workspace.microbubble_tracking.first_frame_diagnosis import run; run(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]),condition=\"cold\",frames=60,threads=24,diagnostics=False)",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/results/B_offline/background.npy",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_startup_20261030-183814/after_B_10"
+    ],
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "source": "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/GCUService.exe",
+  "sha256": "785150abc1b7344434459e74ed17ebaf487e58d24fe3bcb6d356cf8a29465d11",
+  "pattern": "::Get(CpuTemperature|GpuTemperature|CpuFanRpm|GpuFanRpm)|MyECIO.AcpiCtrl::Read$|CPUInfo::GetTInstance",
+  "caller_depth": 0,
+  "errors": [],
+  "methods": [
+    {
+      "name": "MyECIO.AcpiCtrl::Read",
+      "token": "0x60005b3",
+      "instructions": [
+        "000c ldarg.0 None",
+        "000d ldfld sw",
+        "0012 callvirt Reset",
+        "0017 ldarg.0 None",
+        "0018 ldfld sw",
+        "001d callvirt Start",
+        "0022 ldsfld m_lock_ec",
+        "0027 ldarg.0 None",
+        "0028 ldfld EC_TimeOut",
+        "002d call TryEnter",
+        "0032 brfalse.s 92",
+        "0034 ldarg.0 None",
+        "0035 ldc.i4 -1673485176",
+        "003a ldarg.2 None",
+        "003b ldarg.3 None",
+        "003c call MyECIO.AcpiCtrl::ReadACPI",
+        "0041 ldarg.0 None",
+        "0042 ldfld DelayTime",
+        "0047 call Sleep",
+        "004c leave.s 92",
+        "004e pop None",
+        "004f leave.s 92",
+        "0051 ldsfld m_lock_ec",
+        "0056 call Exit",
+        "005b endfinally None",
+        "005c ldarg.0 None",
+        "005d ldfld sw",
+        "0062 callvirt Stop",
+        "0067 ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.GPUTypeClass::GetGpuTemperature",
+      "token": "0x6000d4c",
+      "instructions": [
+        "0001 ldarg.0 None",
+        "0002 callvirt MyControlCenter.GPUTypeClass::SetGPUTempature",
+        "0007 ldarg.0 None",
+        "0008 call MyControlCenter.GPUTypeClass::get_GpuTempature",
+        "000d ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.MySystemManager_Intel::GetCpuTemperature",
+      "token": "0x6000da1",
+      "instructions": [
+        "000c ldarg.0 None",
+        "000d ldfld cCpuInfo",
+        "0012 callvirt MyControlCenter.CPUInfo::GetCPUTemperature",
+        "0017 stloc.0 None",
+        "0018 ldloca.s local(0x0000)",
+        "001a call ToString",
+        "001f ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.MySystemManager_Intel::GetGpuTemperature",
+      "token": "0x6000da3",
+      "instructions": [
+        "000c ldarg.0 None",
+        "000d ldfld cGpuInfo",
+        "0012 callvirt MyControlCenter.GPUInfo::GetGpuTemperature",
+        "0017 stloc.0 None",
+        "0018 ldloca.s local(0x0000)",
+        "001a call ToString",
+        "001f ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.CPUInfo::GetTInstance",
+      "token": "0x6001020",
+      "instructions": [
+        "000c ldstr ",
+        "0011 stloc.0 None",
+        "0012 ldstr Thermal Zone Information",
+        "0017 newobj .ctor",
+        "001c call get_CategoryType",
+        "0021 brtrue.s 74",
+        "0023 ldstr Temperature",
+        "0028 newobj .ctor",
+        "002d call GetCounters",
+        "0032 stloc.1 None",
+        "0033 ldc.i4.0 None",
+        "0034 stloc.2 None",
+        "0035 br.s 66",
+        "0037 ldloc.1 None",
+        "0038 ldloc.2 None",
+        "0039 ldelem.ref None",
+        "003a callvirt get_InstanceName",
+        "003f stloc.0 None",
+        "0040 ldloc.0 None",
+        "0041 ret None",
+        "0042 ldloc.2 None",
+        "0043 ldloc.1 None",
+        "0044 ldlen None",
+        "0045 conv.i4 None",
+        "0046 blt.s 55",
+        "0048 br.s 147",
+        "004a ldstr Thermal Zone Information",
+        "004f newobj .ctor",
+        "0054 stloc.3 None",
+        "0055 ldloc.3 None",
+        "0056 callvirt GetInstanceNames",
+        "005b stloc.s local(0x0004)",
+        "005d ldc.i4.0 None",
+        "005e stloc.2 None",
+        "005f br.s 140",
+        "0061 ldloc.s local(0x0004)",
+        "0063 ldloc.2 None",
+        "0064 ldelem.ref None",
+        "0065 stloc.s local(0x0005)",
+        "0067 ldloc.3 None",
+        "0068 ldloc.s local(0x0005)",
+        "006a callvirt GetCounters",
+        "006f stloc.1 None",
+        "0070 ldc.i4.0 None",
+        "0071 stloc.s local(0x0006)",
+        "0073 br.s 129",
+        "0075 ldloc.1 None",
+        "0076 ldloc.s local(0x0006)",
+        "0078 ldelem.ref None",
+        "0079 callvirt get_InstanceName",
+        "007e stloc.0 None",
+        "007f ldloc.0 None",
+        "0080 ret None",
+        "0081 ldloc.s local(0x0006)",
+        "0083 ldloc.1 None",
+        "0084 ldlen None",
+        "0085 conv.i4 None",
+        "0086 blt.s 117",
+        "0088 ldloc.2 None",
+        "0089 ldc.i4.1 None",
+        "008a add None",
+        "008b stloc.2 None",
+        "008c ldloc.2 None",
+        "008d ldloc.s local(0x0004)",
+        "008f ldlen None",
+        "0090 conv.i4 None",
+        "0091 blt.s 97",
+        "0093 ldloc.0 None",
+        "0094 ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.GPUInfo::GetGpuTemperature",
+      "token": "0x600103e",
+      "instructions": [
+        "0001 ldarg.0 None",
+        "0002 ldfld GPUType",
+        "0007 callvirt MyControlCenter.GPUTypeClass::GetGpuTemperature",
+        "000c ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.MySystemManager::GetCpuTemperature",
+      "token": "0x60010a2",
+      "instructions": [
+        "000c ldarg.0 None",
+        "000d ldfld cCpuInfo",
+        "0012 callvirt MyControlCenter.CPUInfo::GetCPUTemperature",
+        "0017 stloc.0 None",
+        "0018 ldloca.s local(0x0000)",
+        "001a call ToString",
+        "001f ret None"
+      ]
+    },
+    {
+      "name": "MyControlCenter.MySystemManager::GetGpuTemperature",
+      "token": "0x60010a5",
+      "instructions": [
+        "000c ldarg.0 None",
+        "000d ldfld cGpuInfo",
+        "0012 callvirt MyControlCenter.GPUInfo::GetGpuTemperature",
+        "0017 stloc.0 None",
+        "0018 ldloca.s local(0x0000)",
+        "001a call ToString",
+        "001f ret None"
+      ]
+    }
+  ]
+}

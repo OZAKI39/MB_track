@@ -1,0 +1,74 @@
+{
+  "qpc_origin": 2237638208844,
+  "run7": {
+    "frame": "2",
+    "stage": "convert_bgr",
+    "start_s": "209974.613121117",
+    "end_s": "209974.623319489",
+    "wall_ms": "10.198372008744627",
+    "thread_cpu_ms": "10.214853999999995",
+    "process_cpu_ms": "10.21788300000015",
+    "minor_faults": "960",
+    "major_faults": "0",
+    "voluntary_switches": "0",
+    "involuntary_switches": "0",
+    "process_minor_faults": "960",
+    "process_major_faults": "0",
+    "input_blocks": "0",
+    "output_blocks": "0",
+    "threads": "",
+    "thread_user_ms": "0.8819999999999939",
+    "thread_system_ms": "7.251000000000007",
+    "compact_stall": "",
+    "compact_fail": "",
+    "compact_success": "",
+    "allocstall_normal": "",
+    "allocstall_movable": "",
+    "run": 7,
+    "source_pid": 641170
+  },
+  "etw_window_s": [
+    30.210785046660998,
+    30.22100037569264
+  ],
+  "enclosing_sample_s": [
+    30.1938047,
+    30.295397
+  ],
+  "nearby_clock_samples": [
+    {
+      "wsl_before_s": "209974.595499839",
+      "wsl_after_s": "209974.596838075",
+      "linux_unix_s": "1793362340.5076356",
+      "windows_unix_s": "1793362340.5234132",
+      "windows_qpc": "2237940146891",
+      "windows_frequency": "10000000",
+      "roundtrip_ms": "1.338236004812643"
+    },
+    {
+      "wsl_before_s": "209974.696999783",
+      "wsl_after_s": "209974.698185453",
+      "linux_unix_s": "1793362340.608983",
+      "windows_unix_s": "1793362340.625325",
+      "windows_qpc": "2237941162814",
+      "windows_frequency": "10000000",
+      "roundtrip_ms": "1.1856700002681464"
+    }
+  ],
+  "rtt_ms_p50_p99_max": [
+    1.0378780134487897,
+    5.980452613439441,
+    8.812584012048319
+  ],
+  "residual_abs_ms_p50_p99_max": [
+    0.0577328281536893,
+    2.037132081524007,
+    3.5580684996610046
+  ],
+  "nearby_residual_ms": [
+    -0.12151096319712451,
+    0.08536455601060311,
+    -0.018482498951755133,
+    -0.004630748637879378
+  ]
+}

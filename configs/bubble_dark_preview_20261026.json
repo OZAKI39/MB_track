@@ -1,0 +1,42 @@
+{
+  "schema": "BUBBLE_DARK_PREVIEW_V1",
+  "source_dataset": "customer_workspace/validation/bubble_regions_20261025-222755/review",
+  "baseline_dataset": "customer_workspace/validation/bubble_adjustment_20261026-004629/review",
+  "reference_split": "customer_workspace/validation/bubble_adjustment_20261026-004629/reference_split.json",
+  "source_id": "two_action",
+  "frame_indices": [30, 211, 253, 331, 451, 571, 811, 1051],
+  "timing_repeats": 10,
+  "profiles": [
+    {
+      "id": "more",
+      "title": "保留较多",
+      "core_gray_max": 130,
+      "edge_gray_max": 138,
+      "min_core_area_px": 8,
+      "min_region_area_px": 20
+    },
+    {
+      "id": "balanced",
+      "title": "适中",
+      "core_gray_max": 115,
+      "edge_gray_max": 130,
+      "min_core_area_px": 12,
+      "min_region_area_px": 30
+    },
+    {
+      "id": "deep",
+      "title": "只留最深部分",
+      "core_gray_max": 100,
+      "edge_gray_max": 115,
+      "min_core_area_px": 20,
+      "min_region_area_px": 40
+    }
+  ],
+  "crops": [
+    {"id": "specks", "title": "上方细碎区域", "xywh": [550, 60, 285, 430]},
+    {"id": "left", "title": "左侧贴壁区域", "xywh": [280, 720, 300, 280]},
+    {"id": "right", "title": "右侧区域", "xywh": [760, 730, 300, 280]}
+  ],
+  "purpose": "仅比较 8 张图片的三档预览，等待用户选择；不采用方案、不改旧人工标注或冻结分组。",
+  "brightness_note": "本轮已查看 5 张确认图，流道内非标记区域灰度中位数均为 149。先比较固定亮度门槛，不根据每帧目标多少自动改变门槛，也不加入尚无必要的亮度补偿。"
+}

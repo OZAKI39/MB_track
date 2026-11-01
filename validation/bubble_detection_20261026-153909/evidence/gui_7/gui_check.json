@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_adjacent_frames_both_detection_overlays_Arial_no_training",
+    "real_clicks_select_highlight_and_toggle_both_views",
+    "S_records_same_and_clears_selection"
+  ],
+  "error": "AssertionError('Click inside a region to select it.')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_frame_gui.py\", line 133, in check\n    assert any(d[\"kind\"] == \"MERGE\" for d in w.current_pair_decisions), w.status.value\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Click inside a region to select it.\n"
+}

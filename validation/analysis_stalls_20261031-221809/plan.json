@@ -1,0 +1,52 @@
+{
+  "simulation": true,
+  "physical_hardware": false,
+  "seconds": 22,
+  "waiting_frames": 1,
+  "opencv_threads": 24,
+  "runs": [
+    [
+      "A_control",
+      "A",
+      false
+    ],
+    [
+      "B_control",
+      "B",
+      false
+    ],
+    [
+      "A_r1",
+      "A",
+      true
+    ],
+    [
+      "B_r1",
+      "B",
+      true
+    ],
+    [
+      "B_r2",
+      "B",
+      true
+    ],
+    [
+      "A_r2",
+      "A",
+      true
+    ],
+    [
+      "A_r3",
+      "A",
+      true
+    ],
+    [
+      "B_r3",
+      "B",
+      true
+    ]
+  ],
+  "algorithm_changes": false,
+  "diagnostic_default": false,
+  "description": "Two controls and three instrumented repeats for each A/B video; compare stage wall/CPU/scheduler/GC, preserve exact input and results."
+}

@@ -1,0 +1,73 @@
+--- a/customer_workspace/README.md
++++ b/customer_workspace/README.md
+@@ -2,7 +2,7 @@
+ 
+ 这里保存本项目的实验执行、视频采集、微泡识别与追踪、人工审核、数据分析和图表导出代码。目标是把三个问题连起来：**什么时候施加了什么超声动作，画面里的微泡怎样变化，能否据此预测下一步变化。**
+ 
+-目前的识别与追踪主线是 [microbubble_tracking](microbubble_tracking/README.md)。早期的深色区域识别、Mix A Mask、SAM 2.1、Cutie 和联合追踪代码仍保留，供追溯与比较；它们不是当前主线的必经步骤。
++目前的识别与追踪主线是 [microbubble_tracking](microbubble_tracking/README.md)。早期深色区域、Mask、SAM 2.1、Cutie 和联合方法的程序已停止使用并清理；原有数据和科研记录仍保留，见第 10.2 节。
+ 
+ 本文按实际操作顺序说明入口与模块。历史实验的数值、日志和验证证据仍在 [validation](validation/) 中，本文不把某次测试通过写成对所有环境的保证。
+ 
+@@ -37,7 +37,7 @@
+ rg --no-ignore -n '14.789' customer_workspace/validation/remaining_stalls_20261030-175436/REPORT.md
+ ```
+ 
+-早期 Mask、SAM、Cutie 和联合方法见第 10.2 节；只有追溯这些方法时才需要读取。
++早期方法的保留资料和清理记录见第 10.2 节；当前开发无需读取这些历史资料。
+ 
+ ## 1. 先找到自己要做的事
+ 
+@@ -154,8 +154,7 @@
+ ├── validation/              各次实验、诊断、对照及导出记录
+ ├── tests/                   软件测试与界面检查脚本
+ ├── tools/                   录像工具和安装说明
+-├── dependencies/、models/   比较方法所需的外部代码和模型资源
+-└── bubble_*.py、sam21_*.py 等 早期区域标注、Mask 和模型对照工具
++└── dependencies/、models/   保留的外部依赖与模型来源记录
+ ```
+ 
+ 两个当前常用实验不能混用：
+@@ -790,33 +789,15 @@
+ 
+ 通信错误 `VI_ERROR_IO`、`Syntax error`、查询无回复有各自的原始失败记录，不能只根据错误码断言硬件根因。诊断目录保留失败和不可靠轮次；统计时不能把它们悄悄当作成功样本。
+ 
+-### 10.2 早期识别、Mask 与模型试验
+-
+-| 一组模块                                                                                                                                                                                                       | 原来解决的问题                                                                        |
+-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+-| [bubble_regions.py](bubble_regions.py)、[bubble_dark_regions.py](bubble_dark_regions.py)、[bubble_dark_preview.py](bubble_dark_preview.py)                                                                        | 早期暗色区域候选与参数预览                                                            |
+-| [bubble_region_review.py](bubble_region_review.py)、[bubble_region_annotation.py](bubble_region_annotation.py)、[bubble_frame_review.py](bubble_frame_review.py)、[bubble_review_edits.py](bubble_review_edits.py) | 生成审阅画面、逐帧修轮廓、检查帧间关系及保存修订                                      |
+-| [bubble_region_calibration.py](bubble_region_calibration.py)、[bubble_region_comparison.py](bubble_region_comparison.py)                                                                                         | 根据人工标注检查识别参数及前后变化                                                    |
+-| [channel_mask.py](channel_mask.py)、[mask_shrink_review.py](mask_shrink_review.py)、[mask_shrink_sections.py](mask_shrink_sections.py)                                                                            | 智能剪刀绘制流道、线条光顺、比较整体或分段收缩参数，保存真实二值 Mask                 |
+-| [bubble_tracking.py](bubble_tracking.py)、[bubble_tracking_review.py](bubble_tracking_review.py)、[bubble_tracking_display.py](bubble_tracking_display.py)、[bubble_region_video.py](bubble_region_video.py)       | 连接早期已保存轮廓，导出编号、事件与对照视频                                          |
+-| [bubble_benchmark.py](bubble_benchmark.py)、[benchmark_report.py](benchmark_report.py)                                                                                                                           | 固定困难片段、人工关键帧与对应关系、冻结检查及报告                                    |
+-| [sam21_initial_tracking.py](sam21_initial_tracking.py)、[cutie_initial_tracking.py](cutie_initial_tracking.py)                                                                                                   | 只用首帧轮廓初始化，后续独立追踪                                                      |
+-| [sam21_tracking_review.py](sam21_tracking_review.py)、[initial_tracking_comparison.py](initial_tracking_comparison.py)                                                                                           | 包装 SAM/Cutie 结果，检查空预测及不同方法的差异                                       |
+-| [joint_sam21_runner.py](joint_sam21_runner.py)、[joint_region_fusion.py](joint_region_fusion.py)、[joint_tracking_review.py](joint_tracking_review.py)                                                            | 早期 OpenCV 与 SAM 逐帧互相检查的候选实现，详见 [JOINT_TRACKING.md](JOINT_TRACKING.md) |
+-
+-旧 `bubble_tracking.py` 与当前 `microbubble_tracking/bubble_tracker.py` 名字相近，但不是同一套算法。旧 Mix A Mask 及其人工边界也不会自动成为当前背景分割器的输入；当前 `bubble_tracker.py` 没有接受该 Mask 的命令行参数。
+-
+-需要继续检查旧数据时可运行：
+-
+-```bash
+-cd /home/lzy/projects/new_microbubble_experiment
+-.venv/bin/python -m customer_workspace.bubble_benchmark status \
+-  customer_workspace/validation/bubble_benchmark_20261026-120008
+-.venv/bin/python -m customer_workspace.bubble_benchmark annotate \
+-  customer_workspace/validation/bubble_benchmark_20261026-120008
+-```
+-
+-这是旧逐帧标注工作台，可能按其配置转到后续重识别数据；它不是第 5 节的轨迹审查网页。自动轮廓和建议编号不等于人工标准答案；只有实际检查并保存的审核才算确认。固定测试数据的 `input_lock.json`、已冻结修订与不确定区域必须保留，不能为新方法改换测试条件。
++### 10.2 已停用的早期方法与保留资料
++
++早期逐帧区域标注、智能剪刀与 Mask 收缩、旧规则追踪、SAM 2.1、Cutie 和联合方法的程序及专用测试已清理，对应旧命令不再使用。旧 SAM/Cutie 的四个专用权重也已移除；来源记录仍保留。
++
++现有 `validation/` 数据、人工标注、确认过的 Mask、固定困难片段及其 `input_lock.json`、旧方法输出、历史报告和配置均保留，供核查实验来源。它们不因停止使用旧程序而变为可以任意删除的缓存。
++
++本次没有改动当前 `microbubble_tracking/`、baseline 代码、MobileSAM 依赖与权重、已有运行环境、图表工具或相机在线接入。`benchmark_report.py` 属于 AFG 时序统计，被等待校准和时序测试调用，继续保留。
++
++具体文件及执行依据见 [清理清单](validation/cleanup_legacy_methods_20261031-194246/REPORT.md)。
+ 
+ ## 11. 历史证据、检查方法和使用边界
+ 

@@ -1,0 +1,20 @@
+{
+  "config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/bubble_dark_wall_narrow.json",
+  "recovered_observation_pixels": 1317,
+  "sample_changes": [
+    {
+      "frame_id": "two_action_f000331",
+      "added_dark_pixels": 242,
+      "removed_dark_pixels": 0
+    },
+    {
+      "frame_id": "four_pzt_f000930",
+      "added_dark_pixels": 515,
+      "removed_dark_pixels": 0
+    }
+  ],
+  "old_reviews": {
+    "two_action": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_wall_20261026-011240/review",
+    "four_pzt": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/bubble_four_pzt_20261026-012504/review"
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "check",
+      "customer_workspace/four_pzt_validation.py",
+      "customer_workspace/tests/test_four_pzt_validation.py",
+      "customer_workspace/validation/four_pzt_20261025-124519/verify_results.py",
+      "customer_workspace/validation/four_pzt_20261025-124519/plot_readbacks.py"
+    ],
+    "returncode": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "-B",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "customer_workspace/four_pzt_validation.py",
+      "customer_workspace/tests/test_four_pzt_validation.py",
+      "customer_workspace/validation/four_pzt_20261025-124519/verify_results.py",
+      "customer_workspace/validation/four_pzt_20261025-124519/plot_readbacks.py"
+    ],
+    "returncode": 0,
+    "stdout": "4 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "check": "changed files whitespace",
+    "passed": true
+  }
+]

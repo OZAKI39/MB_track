@@ -1,0 +1,14 @@
+{
+  "scope": "Formal analysis-process startup warm-up; existing algorithms and GC policy unchanged.",
+  "baseline": "20 independent processes, alternating A/B, 60 original frames each; no latest-frame replacement in this isolation test.",
+  "after": "Same 20 independent starts, plus full A/B replay and startup ordering/failure tests.",
+  "code_before": {
+    "online_tracking.py": "14578abb76e50001bf82de099270f851a442ea80aaf5d88cf01c9f71f5477b53",
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "paced_replay.py": "6aef08129d7b931b7530b379540224930fde5f68d4e219a7f4c309cbe0c33c7a",
+    "online_replay.py": "b3a8bca22d914d97dc29f929153fc519b549f5217148575a0be69b84bb9dbb85",
+    "first_frame_diagnosis.py": "ff7f7c9a8aa85b5b248b77b3fd7715f58ae49fd19d413a9ea62dd7e94f33cd02",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f"
+  }
+}

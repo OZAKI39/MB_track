@@ -1,0 +1,87 @@
+{
+  "simulation": true,
+  "physical_hardware": false,
+  "simulator_run": "/mnt/f/MB_camera_sim/runs/20261031-212015Z_analysis_stalls",
+  "runs": {
+    "A_control": {
+      "experiment": "A",
+      "diagnose_analysis": false,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_A.json",
+      "waiting_frames": 1
+    },
+    "B_control": {
+      "experiment": "B",
+      "diagnose_analysis": false,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_B.json",
+      "waiting_frames": 1
+    },
+    "A_r1": {
+      "experiment": "A",
+      "diagnose_analysis": true,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_A.json",
+      "waiting_frames": 1
+    },
+    "B_r1": {
+      "experiment": "B",
+      "diagnose_analysis": true,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_B.json",
+      "waiting_frames": 1
+    },
+    "B_r2": {
+      "experiment": "B",
+      "diagnose_analysis": true,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_B.json",
+      "waiting_frames": 1
+    },
+    "A_r2": {
+      "experiment": "A",
+      "diagnose_analysis": true,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_A.json",
+      "waiting_frames": 1
+    },
+    "A_r3": {
+      "experiment": "A",
+      "diagnose_analysis": true,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+      "original_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_A.npy",
+      "background_sha256": "37e4ac6ca92faf9087a9b73bc089c21e060af26eaeb15036da2a74e9e33e5a63",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_A.json",
+      "waiting_frames": 1
+    },
+    "B_r3": {
+      "experiment": "B",
+      "diagnose_analysis": true,
+      "original_video": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/microbubble_tracking/data/raw/expB.mp4",
+      "original_sha256": "6e2e272187aaa5e03bd9e058ab1afaf11e6e73e6e0800e23c8effe815f0218d1",
+      "background": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/camera_tracking_20261031_final/background_B.npy",
+      "background_sha256": "25c40f1ffe618045a67523ac12f5b28e4bec91ed2155a6f44dbe9db7990a6ae2",
+      "camera_config": "/home/lzy/projects/new_microbubble_experiment/customer_workspace/configs/rtsp_sim_B.json",
+      "waiting_frames": 1
+    }
+  }
+}

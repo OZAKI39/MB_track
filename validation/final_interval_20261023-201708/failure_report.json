@@ -1,0 +1,61 @@
+{
+  "recorded_utc": "2026-10-23T18:19:29.996500+00:00",
+  "intentional_error_injection": false,
+  "source_directory": "customer_workspace/validation/final_interval_20261023-201708/scheduled_readback_50ms",
+  "requested_commands": 500,
+  "successful_replies_before_failure": 352,
+  "failed_command": {
+    "index": 353,
+    "channel": "PZT1",
+    "state": "ACTIVE",
+    "amplitude_requested_vpp": 0.1,
+    "planned_s": 17.6,
+    "ready_s": 17.568860100000165,
+    "call_started_s": 17.603143300002557,
+    "query_started_s": 17.60372620000271,
+    "status": "failed",
+    "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+    "error_notes": [
+      "AFG USB0::0x0699::0x0353::2147075::0::INSTR：VISA query 失败，命令：SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?"
+    ],
+    "call_finished_s": 17.646519000001717,
+    "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.1Vpp",
+    "query": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+    "command_sent_s": 17.60326519999944,
+    "command_write_returned_s": 17.60371940000914,
+    "amplitude_reply_received_s": null,
+    "amplitude_reply": null,
+    "confirmed_s": null,
+    "command_to_confirmation_s": null,
+    "lateness_ms": 3.2651999994399716,
+    "write_ms": 0.45420000969897956,
+    "io_delta": {
+      "write_calls": 1,
+      "read_calls": 0,
+      "query_calls": 1,
+      "query_commands": 1
+    }
+  },
+  "error": "VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.",
+  "all_outputs_off_confirmed": true,
+  "postcheck_passed": true,
+  "postcheck_error_queue_replies": {
+    "A": [
+      "0,\"No error\"",
+      "0,\"No error\"",
+      "0,\"No error\"",
+      "0,\"No error\"",
+      "0,\"No error\""
+    ],
+    "B": [
+      "0,\"No error\"",
+      "0,\"No error\"",
+      "0,\"No error\"",
+      "0,\"No error\"",
+      "0,\"No error\""
+    ]
+  },
+  "excluded_from_success_statistics": true,
+  "cause_known": "VISA read failed while waiting for A/CH1 amplitude query response.",
+  "root_cause_unknown": "This error does not distinguish USB, VISA/driver, or instrument faults, and does not prove the 50 ms interval caused it."
+}

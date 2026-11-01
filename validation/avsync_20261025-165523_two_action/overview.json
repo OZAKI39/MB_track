@@ -1,0 +1,50 @@
+{
+  "experiment_id": "7f657c5b15b44d06a9e5e55a8b52b0ec",
+  "passed": true,
+  "recording": {
+    "passed": true,
+    "problems": [],
+    "received_window_frames": 1320,
+    "record_branch_frames": 1320,
+    "saved_frames": 1320,
+    "recording_extra_lost": 0,
+    "clock_comparison_max_error_ticks": 1,
+    "camera_play_count": 1,
+    "rtp_sequence_missing": 0,
+    "queue_overruns": {
+      "record_queue": 0,
+      "decode_queue": 0
+    },
+    "queue_max_buffers": {
+      "record_queue": 46,
+      "decode_queue": 2,
+      "latest_queue": 1
+    },
+    "decoded_frames_total": 1599
+  },
+  "analysis_hz": 12.909090909090908,
+  "baseline_hz": 11.318181818181818,
+  "latency_ms": {
+    "median": 115.36611150950193,
+    "p95": 141.59759471513098,
+    "p99": 161.65368705260337,
+    "max": 178.5303280048538
+  },
+  "baseline_latency_ms": {
+    "median": 124.10696700681001,
+    "p95": 168.9091228006873,
+    "p99": 206.9518609903756,
+    "max": 351.907658012351
+  },
+  "parameter_actions": 6,
+  "checks": 5,
+  "max_lateness_ms": 0.6732000038027763,
+  "stop_started_s": 20.000062000006437,
+  "all_off_confirmed_s": 20.11368539999239,
+  "independent_postflight_off": true,
+  "clock_margin_ms": 0.0953000271692872,
+  "max_receive_bracket_ms": 36.61980002652854,
+  "max_video_bracket_ms": 16.677777777779568,
+  "error_queue_replies": 48,
+  "nonzero_errors": []
+}

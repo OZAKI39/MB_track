@@ -1,0 +1,32 @@
+{
+  "source": "/mnt/c/Program Files/OEM/机械革命电竞控制台/UniwillService/MyControlCenter/GCUService.exe",
+  "sha256": "785150abc1b7344434459e74ed17ebaf487e58d24fe3bcb6d356cf8a29465d11",
+  "pattern": "CPUInfo::GetCPUUsageforCPUGPUCombine",
+  "caller_depth": 0,
+  "errors": [],
+  "methods": [
+    {
+      "name": "MyControlCenter.CPUInfo::GetCPUUsageforCPUGPUCombine",
+      "token": "0x6001023",
+      "instructions": [
+        "000c ldc.r4 0.0",
+        "0011 stloc.0 None",
+        "0012 ldsfld cpuCounterforCPUGPUCombine",
+        "0017 brfalse.s 36",
+        "0019 ldsfld cpuCounterforCPUGPUCombine",
+        "001e callvirt NextValue",
+        "0023 stloc.0 None",
+        "0024 ldloc.0 None",
+        "0025 ldc.r4 100.0",
+        "002a ble.un.s 50",
+        "002c ldc.r4 100.0",
+        "0031 stloc.0 None",
+        "0032 ldloc.0 None",
+        "0033 conv.r8 None",
+        "0034 call Round",
+        "0039 conv.i4 None",
+        "003a ret None"
+      ]
+    }
+  ]
+}

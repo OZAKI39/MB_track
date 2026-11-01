@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "identical_input_files_and_prompts": true,
+  "object_count": 43,
+  "all_frame_times_and_ids_verified": 1320,
+  "sampled_mask_frames": [
+    0,
+    1,
+    64,
+    180,
+    360,
+    600,
+    659,
+    834,
+    840,
+    850,
+    960,
+    1319
+  ],
+  "pixel_exact_contour_roundtrip_object_frames": 516,
+  "native_nonoverlap_verified_on_samples": true,
+  "fixed_benchmark_unchanged": true,
+  "mask_manifest_unchanged": true,
+  "sam_video_unchanged": true,
+  "inspection_samples_match_full_outputs": true
+}

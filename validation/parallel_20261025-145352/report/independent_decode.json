@@ -1,0 +1,20 @@
+{
+  "video_sha256": "78e90ffbcd31decc99a3ea42cef020f051ed8374b1c50e031a348e2280a4a674",
+  "decoded_frames": 1200,
+  "time_base": "1/90000",
+  "first_pts": 0,
+  "last_pts": 1798500,
+  "interval_ticks": {
+    "1501": 400,
+    "1499": 400,
+    "1500": 399
+  },
+  "sample_indices": [
+    0,
+    600,
+    1199
+  ],
+  "valid_windows_counts": {
+    "0": 248
+  }
+}

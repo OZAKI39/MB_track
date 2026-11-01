@@ -1,0 +1,89 @@
+{
+  "error": null,
+  "resources": [
+    {
+      "elapsed_s": 0.18814264200045727,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 1.1883667419970152,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 2.190208337997319,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 3.190840475996083,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 4.191299489000812,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 5.1916523890031385,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 6.192546008998761,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 7.193685197002196,
+      "rss_mib": 136.87890625
+    },
+    {
+      "elapsed_s": 8.200518573001318,
+      "rss_mib": 146.703125
+    },
+    {
+      "elapsed_s": 9.214519193999877,
+      "rss_mib": 147.69921875
+    },
+    {
+      "elapsed_s": 10.214867509996111,
+      "rss_mib": 148.60546875
+    },
+    {
+      "elapsed_s": 11.218819770001573,
+      "rss_mib": 148.73046875
+    },
+    {
+      "elapsed_s": 12.220535849002772,
+      "rss_mib": 148.8125
+    },
+    {
+      "elapsed_s": 13.221073850996618,
+      "rss_mib": 148.81640625
+    }
+  ],
+  "threads_closed": true,
+  "recorder_dropped": 0,
+  "analysis_skipped": 21,
+  "bridge_overwritten": 21,
+  "tracking": {
+    "status": "completed",
+    "frames": 279,
+    "observations": 5343,
+    "tracks": 83,
+    "confirmed_tracks": 44,
+    "events_by_status": {
+      "confirmed_tracks": 71,
+      "rejected_short_track": 76,
+      "unresolved_at_end": 1
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 21,
+    "peak_active_tracks": 25,
+    "persistence": {
+      "submitted_frames": 279,
+      "committed_frames": 279,
+      "pending_records": 0,
+      "peak_pending_records": 2,
+      "oldest_pending_ms": 0.0,
+      "last_committed_source_frame": 300,
+      "error": null
+    }
+  }
+}

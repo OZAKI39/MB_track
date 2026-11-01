@@ -1,0 +1,67 @@
+{
+  "uses_real_hardware": false,
+  "uses_real_wait": true,
+  "driver": "Existing microbubble_experiment.afg.Rig with tests.test_afg_control.FakeManager",
+  "wall_elapsed_s": 14.041156358995067,
+  "pzt1_software_calls": [
+    {
+      "event": "action_finished",
+      "action": "set_output",
+      "planned_s": 0,
+      "channel": "PZT1",
+      "output_requested": false,
+      "started_utc": "2026-10-23T11:28:55.422797+00:00",
+      "actual_start_s": 2.3155997041612864e-05,
+      "lateness_s": 2.3155997041612864e-05,
+      "actual_finish_s": 3.74549999833107e-05,
+      "duration_s": 1.4299002941697836e-05,
+      "status": "ok",
+      "result": false
+    },
+    {
+      "event": "action_finished",
+      "action": "set_output",
+      "planned_s": 5,
+      "channel": "PZT1",
+      "output_requested": true,
+      "started_utc": "2026-10-23T11:29:00.423168+00:00",
+      "actual_start_s": 5.00039418599772,
+      "lateness_s": 0.00039418599772034213,
+      "actual_finish_s": 5.000475102999189,
+      "duration_s": 8.091700146906078e-05,
+      "status": "ok",
+      "result": true
+    },
+    {
+      "event": "action_finished",
+      "action": "set_output",
+      "planned_s": 6,
+      "channel": "PZT1",
+      "output_requested": false,
+      "started_utc": "2026-10-23T11:29:01.422935+00:00",
+      "actual_start_s": 6.0001605869983905,
+      "lateness_s": 0.0001605869983904995,
+      "actual_finish_s": 6.000196993001737,
+      "duration_s": 3.640600334620103e-05,
+      "status": "ok",
+      "result": false
+    },
+    {
+      "event": "action_finished",
+      "action": "set_output",
+      "planned_s": 9,
+      "channel": "PZT1",
+      "output_requested": false,
+      "started_utc": "2026-10-23T11:29:04.422960+00:00",
+      "actual_start_s": 9.000185801000043,
+      "lateness_s": 0.00018580100004328415,
+      "actual_finish_s": 9.000223773997277,
+      "duration_s": 3.797299723373726e-05,
+      "status": "ok",
+      "result": false
+    }
+  ],
+  "summary_status": "completed",
+  "all_simulated_outputs_off": true,
+  "physical_timing_verified": false
+}

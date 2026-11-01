@@ -1,0 +1,5 @@
+{
+  "exit_code": 1,
+  "parent_cancel_requested_wsl_s": null,
+  "note": "WSL时间仅说明父进程行为，不用于动作与视频相减"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "-B",
+    "-"
+  ],
+  "started_utc": "2026-10-23T17:11:07.729739+00:00",
+  "finished_utc": "2026-10-23T17:11:26.163485+00:00",
+  "returncode": 0
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "blur_buffer_check",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/check_buffers.py"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "first_cold_1",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_1"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "first_analysis_1",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_analysis_1"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "first_cold_2",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_2"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "first_analysis_2",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_analysis_2"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "first_cold_3",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "cold",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_cold_3"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "first_analysis_3",
+    "command": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.first_frame_diagnosis",
+      "--condition",
+      "analysis",
+      "--frames",
+      "60",
+      "--diagnostics",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/remaining_stalls_20261030-175436/first_analysis_3"
+    ],
+    "exit": 0
+  }
+]

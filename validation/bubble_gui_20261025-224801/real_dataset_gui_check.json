@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "frames_available": 30,
+  "shown_frame": 16,
+  "original_annotations_changed": false,
+  "actual_cli_routes_to_new_gui": true,
+  "second_window_blocked": true
+}

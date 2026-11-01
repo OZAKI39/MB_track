@@ -1,0 +1,5 @@
+{
+  "endpoint": "tcp://127.0.0.1:36371",
+  "ttl_ms": 250.0,
+  "local_only": true
+}

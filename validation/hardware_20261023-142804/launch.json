@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-23T12:28:41.725256+00:00",
+  "finished_utc": "2026-10-23T12:28:57.713392+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--output-dir",
+    "customer_workspace/validation/hardware_20261023-142804/experiment"
+  ],
+  "returncode": 0,
+  "stdout": "从 WSL 调用 Windows Python：/mnt/f/Tektronix_control/.venv/Scripts/python.exe\n实验记录将保存到：\\\\wsl.localhost\\Ubuntu\\home\\lzy\\projects\\new_microbubble_experiment\\customer_workspace\\validation\\hardware_20261023-142804\\experiment\n{\n  \"status\": \"completed\",\n  \"created_utc\": \"2026-10-23T12:28:42.363262+00:00\",\n  \"planned_duration_s\": 14,\n  \"timeline_started_utc\": \"2026-10-23T12:28:43.407270+00:00\",\n  \"output_dir\": \"\\\\\\\\wsl.localhost\\\\Ubuntu\\\\home\\\\lzy\\\\projects\\\\new_microbubble_experiment\\\\customer_workspace\\\\validation\\\\hardware_20261023-142804\\\\experiment\",\n  \"error\": null,\n  \"timing_basis\": \"software_calls_and_driver_readback_not_physical_voltage\",\n  \"finished_utc\": \"2026-10-23T12:28:57.512785+00:00\",\n  \"elapsed_s\": 14.10542539999733,\n  \"all_outputs_off_confirmed\": true,\n  \"shutdown_errors\": []\n}\n",
+  "stderr": ""
+}

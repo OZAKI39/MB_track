@@ -1,0 +1,21 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.timing_benchmark",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--method",
+    "schedule",
+    "--count",
+    "500",
+    "--interval-ms",
+    "25",
+    "--output-dir",
+    "customer_workspace/validation/cadence_20261023-195655/schedule_25ms"
+  ],
+  "started_utc": "2026-10-23T17:57:54.335876+00:00",
+  "finished_utc": "2026-10-23T17:58:10.184716+00:00",
+  "returncode": 0
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASSED",
+  "processed_frames": 1320,
+  "frame_identity_and_time_unchanged": true,
+  "sample_masks_checked": 15,
+  "old_default_masks_reproduced": 15,
+  "wall_exclusion_pixels_remaining_all_frames": 0,
+  "right_wall_area_max_region_height_px": 64,
+  "right_protrusion_monitor_xywh": [
+    820,
+    930,
+    65,
+    94
+  ],
+  "right_protrusion_monitor_min_pixels": 408,
+  "frames_without_pixels_in_right_protrusion_monitor": 0,
+  "left_cluster_unchanged_in_samples": true,
+  "original_data_unchanged": true,
+  "existing_code_changes": [
+    "customer_workspace/bubble_regions.py",
+    "customer_workspace/bubble_region_review.py",
+    "customer_workspace/bubble_region_comparison.py"
+  ],
+  "software_tests_passed": 57,
+  "all_new_annotations_are_drafts": true,
+  "limitations": [
+    "贴壁微泡与管壁重叠部分仍无法可靠分开；剩余面积不是完整微团面积。",
+    "监测区域保留像素不代表完成逐帧人工识别验收；尚未接入实时分析。"
+  ]
+}

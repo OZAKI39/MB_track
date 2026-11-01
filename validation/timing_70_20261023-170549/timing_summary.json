@@ -1,0 +1,113 @@
+{
+  "requested_complete_runs": 70,
+  "total_attempts": 70,
+  "completed_runs": 70,
+  "failed_attempts": 0,
+  "batch_completed_counts": {
+    "experiments": 70
+  },
+  "statistics_ms": {
+    "on_confirmation_delay_ms": {
+      "count": 70,
+      "mean": 35.41480857072332,
+      "median": 35.3957499974058,
+      "sample_stddev": 0.2237469299373314,
+      "min": 34.99020000163,
+      "max": 35.93139999429695,
+      "range": 0.9411999926669523,
+      "p95_nearest_rank": 35.82069999538362
+    },
+    "off_confirmation_delay_ms": {
+      "count": 70,
+      "mean": 9.374547142735016,
+      "median": 9.125300006417092,
+      "sample_stddev": 5.1405114780633925,
+      "min": 1.1431000020820647,
+      "max": 36.390900000697,
+      "range": 35.24779999861494,
+      "p95_nearest_rank": 15.850399999180809
+    },
+    "on_schedule_delay_ms": {
+      "count": 70,
+      "mean": 181.3652485721312,
+      "median": 182.34534999646712,
+      "sample_stddev": 11.51596073561823,
+      "min": 168.23700000531971,
+      "max": 233.78100000263657,
+      "range": 65.54399999731686,
+      "p95_nearest_rank": 204.80680000036955
+    },
+    "off_schedule_delay_ms": {
+      "count": 70,
+      "mean": 8.516314285641004,
+      "median": 7.237450001412071,
+      "sample_stddev": 5.801232297761379,
+      "min": 1.220100006321445,
+      "max": 29.992800002219155,
+      "range": 28.77269999589771,
+      "p95_nearest_rank": 19.126300001516938
+    },
+    "on_before_call_ms": {
+      "count": 70,
+      "mean": 81.4831828563391,
+      "median": 82.08059999742545,
+      "sample_stddev": 11.450923305669669,
+      "min": 67.77930000680499,
+      "max": 137.32110000273678,
+      "range": 69.5417999959318,
+      "p95_nearest_rank": 100.88659999019
+    },
+    "on_precheck_ms": {
+      "count": 70,
+      "mean": 99.88206571579212,
+      "median": 99.87914999510394,
+      "sample_stddev": 1.6190825779571647,
+      "min": 96.27150000596885,
+      "max": 103.92020001017954,
+      "range": 7.648700004210696,
+      "p95_nearest_rank": 102.36219999205787
+    },
+    "on_write_ms": {
+      "count": 70,
+      "mean": 0.4121057136217132,
+      "median": 0.41044999670702964,
+      "sample_stddev": 0.16048523681932736,
+      "min": 0.1252999936696142,
+      "max": 0.7196000078693032,
+      "range": 0.594300014199689,
+      "p95_nearest_rank": 0.6877999985590577
+    },
+    "off_write_ms": {
+      "count": 70,
+      "mean": 0.5413199995278514,
+      "median": 0.45775000035064295,
+      "sample_stddev": 0.20690772859529957,
+      "min": 0.258400003076531,
+      "max": 1.1211000091861933,
+      "range": 0.8627000061096624,
+      "p95_nearest_rank": 0.9106999932555482
+    }
+  },
+  "failures": [],
+  "verification": {
+    "checked_utc": "2026-10-23T15:24:02.984847+00:00",
+    "complete_experiments_verified": 70,
+    "channel_switch_records_verified": 1120,
+    "four_timestamps_match_raw_events_and_batch_csv": true,
+    "timestamp_order_and_readbacks_verified": true,
+    "plan_and_config_match_previous_50": true,
+    "source_hashes_unchanged_during_batch": true,
+    "all_successful_runs_shutdown_confirmed": true,
+    "postflight_all_outputs_off": true,
+    "software_tests_passed": 62,
+    "ruff_check_passed": true,
+    "ruff_format_check_passed": true,
+    "real_hardware_failure_diagnostics_exercised": false,
+    "physical_voltage_timing_verified": false
+  },
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "output_state_reply_received_at_PC_and_subsequently_validated_by_driver",
+  "physical_voltage_timing_verified": false,
+  "code_change_since_previous_50": "failure-only VISA exception notes and error tracebacks; no changes to AFG driver, settings, schedule or queries"
+}

@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-10-23T18:28:49.727449+00:00",
+  "command": "Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match 'VID_0699|ROOT_HUB' } | Select-Object Status,Class,FriendlyName,InstanceId | ConvertTo-Json -Depth 3",
+  "returncode": 0,
+  "stdout": "[\n    {\n        \"Status\":  \"OK\",\n        \"Class\":  \"USBTestAndMeasurementDevice\",\n        \"FriendlyName\":  \"USB Test and Measurement Device (IVI)\",\n        \"InstanceId\":  \"USB\\\\VID_0699\\u0026PID_0353\\\\2147075\"\n    },\n    {\n        \"Status\":  \"OK\",\n        \"Class\":  \"USB\",\n        \"FriendlyName\":  \"USB Root Hub (USB 3.0)\",\n        \"InstanceId\":  \"USB\\\\ROOT_HUB30\\\\4\\u00262F9DE05B\\u00260\\u00260\"\n    },\n    {\n        \"Status\":  \"OK\",\n        \"Class\":  \"USBTestAndMeasurementDevice\",\n        \"FriendlyName\":  \"USB Test and Measurement Device (IVI)\",\n        \"InstanceId\":  \"USB\\\\VID_0699\\u0026PID_0353\\\\2439003\"\n    }\n]\n",
+  "stderr": ""
+}

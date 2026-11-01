@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "checks": [
+    "actual_arial_original_comparison_and_no_training",
+    "baseline_ids_filled_and_visible_without_typing",
+    "relationship_ids_are_suggested_without_human_confirmation",
+    "classification_id_assignment_and_grouped_undo_redo",
+    "accept_all_is_current_frame_only_preserves_uncertainty_ids_and_undo"
+  ],
+  "source_annotations_edited": false,
+  "error": "AssertionError: ('Channel outline', 'pan_zoom', (None, None), (749.2709416319888, 913.0332368083999))",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/lzy/projects/new_microbubble_experiment/customer_workspace/tests/check_bubble_benchmark_gui.py\", line 179, in inspect\n    assert w.channel_outline._moving_value[1] is not None, (\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('Channel outline', 'pan_zoom', (None, None), (749.2709416319888, 913.0332368083999))\n"
+}

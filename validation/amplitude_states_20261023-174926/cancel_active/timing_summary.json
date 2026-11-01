@@ -1,0 +1,20 @@
+{
+  "requested_runs": 1,
+  "completed_runs": 0,
+  "paired_pulses": 0,
+  "paired_intervals": 0,
+  "control_mode": "amplitude_states",
+  "runs": [
+    {
+      "run_index": 1,
+      "directory": "cancel_active",
+      "status": "cancelled",
+      "control_mode": "amplitude_states"
+    }
+  ],
+  "statistics_ms": {},
+  "time_reference": "seconds_since_each_run_timeline_started",
+  "command_sent_definition": "immediately_before_VISA_write_call",
+  "confirmed_definition": "amplitude_reply_received_at_PC_and_subsequently_validated_by_driver",
+  "physical_voltage_timing_verified": false
+}

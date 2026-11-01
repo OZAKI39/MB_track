@@ -1,0 +1,7 @@
+{
+  "decoded_frames": 1011,
+  "unique_grayscale_images": 1011,
+  "consecutive_identical_images": 0,
+  "longest_identical_image_run": 1,
+  "meaning": "完全相同画面的检查；静态场景或有细微差异的冻结不能仅凭此判定"
+}

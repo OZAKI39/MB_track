@@ -1,0 +1,23 @@
+{
+  "status": "cancelled",
+  "frames": 1128,
+  "observations": 15307,
+  "tracks": 73,
+  "confirmed_tracks": 48,
+  "events_by_status": {
+    "confirmed_tracks": 82,
+    "rejected_short_track": 50
+  },
+  "input_rejections": 0,
+  "skipped_source_frames": 0,
+  "peak_active_tracks": 17,
+  "persistence": {
+    "submitted_frames": 1128,
+    "committed_frames": 1128,
+    "pending_records": 0,
+    "peak_pending_records": 2,
+    "oldest_pending_ms": 0.0,
+    "last_committed_source_frame": 1401,
+    "error": null
+  }
+}

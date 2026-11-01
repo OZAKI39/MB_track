@@ -1,0 +1,1573 @@
+{
+  "command": [
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/dependencies/native_perf/installed/usr/lib/linux-tools-6.8.0-147/perf",
+    "script",
+    "-i",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_stalls_20261031-221809/A_r3_native.data",
+    "--ns",
+    "-F",
+    "tid,time,event,ip,sym,dso"
+  ],
+  "tid": 1595410,
+  "frames": [
+    411,
+    1217,
+    1221,
+    1327,
+    1329,
+    92
+  ],
+  "samples_per_stage": {
+    "blur": 15,
+    "contrast": 14,
+    "candidates": 9,
+    "components": 7,
+    "selection": 15,
+    "filter_areas": 4,
+    "tracking": 20,
+    "background": 7,
+    "find_contours": 3,
+    "input": 2,
+    "frame_setup": 1,
+    "draw_contours": 2,
+    "tail": 1
+  },
+  "samples": [
+    {
+      "source_frame": 92,
+      "stage": "blur",
+      "time_s": 83975.90549189,
+      "stack": [
+        "1595410 83975.905491890:                    cpu-clock:",
+        "\t    719c2ef3dbbb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "blur",
+      "time_s": 83975.906490531,
+      "stack": [
+        "1595410 83975.906490531:                    cpu-clock:",
+        "\t    719c2ef3db8a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "contrast",
+      "time_s": 83975.90749225,
+      "stack": [
+        "1595410 83975.907492250:                    cpu-clock:",
+        "\t    719c70423730 int introselect_<npy::float_tag, false, float>(float*, long*, long, long, long*, long*) [clone .isra.0] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "candidates",
+      "time_s": 83975.908491888,
+      "stack": [
+        "1595410 83975.908491888:                    cpu-clock:",
+        "\t    719c706fd7ad FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "candidates",
+      "time_s": 83975.909493281,
+      "stack": [
+        "1595410 83975.909493281:                    cpu-clock:",
+        "\t    719c2ef801a0 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef28fce [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6dc58 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e1d2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e705 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6f7a9 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e72d451 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "components",
+      "time_s": 83975.91051798,
+      "stack": [
+        "1595410 83975.910517980:                    cpu-clock:",
+        "\tffffffffb222b1db [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15c2495 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15f61ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15f8c57 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb158e1d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15909a2 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb1590ba5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12926a4 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb223630d [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100134b [unknown] ([kernel.kallsyms])",
+        "\t    719c2e96b9dd [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec57a60 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5fe35 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5ff1a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e2bc6 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "selection",
+      "time_s": 83975.911513961,
+      "stack": [
+        "1595410 83975.911513961:                    cpu-clock:",
+        "\tffffffffb222b1db [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15c2495 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15f61ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15f8c57 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb158e1d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb15909a2 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb1590ba5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12926a4 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb223630d [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100134b [unknown] ([kernel.kallsyms])",
+        "\t    719c704da835 UBYTE_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "selection",
+      "time_s": 83975.912498441,
+      "stack": [
+        "1595410 83975.912498441:                    cpu-clock:",
+        "\t    719c704da839 UBYTE_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "selection",
+      "time_s": 83975.913497317,
+      "stack": [
+        "1595410 83975.913497317:                    cpu-clock:",
+        "\t    719c7032d2d4 default_free (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "filter_areas",
+      "time_s": 83975.914499069,
+      "stack": [
+        "1595410 83975.914499069:                    cpu-clock:",
+        "\t    719c704dcaee USHORT_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "tracking",
+      "time_s": 83975.915499447,
+      "stack": [
+        "1595410 83975.915499447:                    cpu-clock:",
+        "\t          5d6bbd _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70337d22 dispatcher_vectorcall (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 92,
+      "stage": "background",
+      "time_s": 83975.916508881,
+      "stack": [
+        "1595410 83975.916508881:                    cpu-clock:",
+        "\t    719c704dcaee USHORT_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "blur",
+      "time_s": 83981.233845732,
+      "stack": [
+        "1595410 83981.233845732:                    cpu-clock:",
+        "\t          5d6e10 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "blur",
+      "time_s": 83981.234847141,
+      "stack": [
+        "1595410 83981.234847141:                    cpu-clock:",
+        "\t    719c2ea6a9b4 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3dacf [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "contrast",
+      "time_s": 83981.235847113,
+      "stack": [
+        "1595410 83981.235847113:                    cpu-clock:",
+        "\t    719c707ad415 FLOAT_divide_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "contrast",
+      "time_s": 83981.236848469,
+      "stack": [
+        "1595410 83981.236848469:                    cpu-clock:",
+        "\t    719c707aca68 FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "candidates",
+      "time_s": 83981.23785048,
+      "stack": [
+        "1595410 83981.237850480:                    cpu-clock:",
+        "\t    719c706fd7a4 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "components",
+      "time_s": 83981.238859256,
+      "stack": [
+        "1595410 83981.238859256:                    cpu-clock:",
+        "\tffffffffb22436d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d1f5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d50f [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13bb3d1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109ad7d futex_wake (inlined)",
+        "\t    719c7109ad7d ___pthread_cond_broadcast (inlined)",
+        "\t    719c2ea2b209 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ea16f64 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec576f5 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5fe35 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5ff1a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e2bc6 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "components",
+      "time_s": 83981.239854722,
+      "stack": [
+        "1595410 83981.239854722:                    cpu-clock:",
+        "\t          584b63 _PyObject_GetMethod (/usr/bin/python3.12)",
+        "\t          549830 PyObject_VectorcallMethod (/usr/bin/python3.12)",
+        "\t          6f0026 [unknown] (/usr/bin/python3.12)",
+        "\t          551590 [unknown] (/usr/bin/python3.12)",
+        "\t          54986e PyObject_VectorcallMethod (/usr/bin/python3.12)",
+        "\t          6f0b3e [unknown] (/usr/bin/python3.12)",
+        "\t          6f0260 [unknown] (/usr/bin/python3.12)",
+        "\t          5d8476 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "selection",
+      "time_s": 83981.242320427,
+      "stack": [
+        "1595410 83981.242320427:                    cpu-clock:",
+        "\t    719c706fd766 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "selection",
+      "time_s": 83981.242855567,
+      "stack": [
+        "1595410 83981.242855567:                    cpu-clock:",
+        "\t    719c704da829 UBYTE_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "selection",
+      "time_s": 83981.243857499,
+      "stack": [
+        "1595410 83981.243857499:                    cpu-clock:",
+        "\t    719c70702bf4 BOOL_logical_and_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "find_contours",
+      "time_s": 83981.244981338,
+      "stack": [
+        "1595410 83981.244981338:                    cpu-clock:",
+        "\tffffffffb22436d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d1f5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d50f [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13bb3d1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109ad7d futex_wake (inlined)",
+        "\t    719c7109ad7d ___pthread_cond_broadcast (inlined)",
+        "\t    719c2ea2b209 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ea16f64 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ee25225 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "tracking",
+      "time_s": 83981.24585664,
+      "stack": [
+        "1595410 83981.245856640:                    cpu-clock:",
+        "\t    719c70442c04 IsAligned (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "tracking",
+      "time_s": 83981.246859142,
+      "stack": [
+        "1595410 83981.246859142:                    cpu-clock:",
+        "\t          5d6089 [unknown] (/usr/bin/python3.12)",
+        "\t          5d57fe [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70337d22 dispatcher_vectorcall (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "tracking",
+      "time_s": 83981.247859701,
+      "stack": [
+        "1595410 83981.247859701:                    cpu-clock:",
+        "\t          5d7738 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70337d22 dispatcher_vectorcall (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "tracking",
+      "time_s": 83981.248861458,
+      "stack": [
+        "1595410 83981.248861458:                    cpu-clock:",
+        "\t          5da5f7 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 411,
+      "stage": "background",
+      "time_s": 83981.249862391,
+      "stack": [
+        "1595410 83981.249862391:                    cpu-clock:",
+        "\t    719c707ac8af FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "input",
+      "time_s": 83994.641651559,
+      "stack": [
+        "1595410 83994.641651559:                    cpu-clock:",
+        "\t    719c702721cc _aligned_contig_cast_ubyte_to_float (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "blur",
+      "time_s": 83994.642651652,
+      "stack": [
+        "1595410 83994.642651652:                    cpu-clock:",
+        "\t    719c71189087 __memcpy_avx_unaligned_erms (inlined)",
+        "\t    719c2ef28d0b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "blur",
+      "time_s": 83994.643650913,
+      "stack": [
+        "1595410 83994.643650913:                    cpu-clock:",
+        "\t    719c71189087 __memcpy_avx_unaligned_erms (inlined)",
+        "\t    719c2ef28d0b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "contrast",
+      "time_s": 83994.644652942,
+      "stack": [
+        "1595410 83994.644652942:                    cpu-clock:",
+        "\t    719c707ad40f FLOAT_divide_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "contrast",
+      "time_s": 83994.645656818,
+      "stack": [
+        "1595410 83994.645656818:                    cpu-clock:",
+        "\t    719c707acc68 FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "candidates",
+      "time_s": 83994.646657352,
+      "stack": [
+        "1595410 83994.646657352:                    cpu-clock:",
+        "\t    719c706fd766 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "candidates",
+      "time_s": 83994.647693746,
+      "stack": [
+        "1595410 83994.647693746:                    cpu-clock:",
+        "\t    719c2ef7ecbf [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef28fce [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6dc58 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e1d2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e622 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6f82d [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e72d451 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "components",
+      "time_s": 83994.648658411,
+      "stack": [
+        "1595410 83994.648658411:                    cpu-clock:",
+        "\t    719c2ec57a38 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5fe35 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5ff1a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e2bc6 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "selection",
+      "time_s": 83994.649660444,
+      "stack": [
+        "1595410 83994.649660444:                    cpu-clock:",
+        "\t    719c706fd766 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "selection",
+      "time_s": 83994.650663537,
+      "stack": [
+        "1595410 83994.650663537:                    cpu-clock:",
+        "\t    719c70442e44 get_array_memory_extents (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "selection",
+      "time_s": 83994.651664077,
+      "stack": [
+        "1595410 83994.651664077:                    cpu-clock:",
+        "\t    719c70335ff0 raw_array_assign_array (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "find_contours",
+      "time_s": 83994.652707135,
+      "stack": [
+        "1595410 83994.652707135:                    cpu-clock:",
+        "\tffffffffb22436d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d1f5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d50f [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13bb3d1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109ad7d futex_wake (inlined)",
+        "\t    719c7109ad7d ___pthread_cond_broadcast (inlined)",
+        "\t    719c2ea2b209 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ea16f64 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ee25225 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "filter_areas",
+      "time_s": 83994.653661489,
+      "stack": [
+        "1595410 83994.653661489:                    cpu-clock:",
+        "\t    719c703811dd count_nonzero_int (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "tracking",
+      "time_s": 83994.654664741,
+      "stack": [
+        "1595410 83994.654664741:                    cpu-clock:",
+        "\t          574a41 PyDict_GetItemWithError (/usr/bin/python3.12)",
+        "\t    719c703469c0 PyArray_GetCastingImpl (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "tracking",
+      "time_s": 83994.655669353,
+      "stack": [
+        "1595410 83994.655669353:                    cpu-clock:",
+        "\t          586d78 PyObject_Malloc (/usr/bin/python3.12)",
+        "\t          61c274 _PyObject_GC_NewVar (/usr/bin/python3.12)",
+        "\t          554ff5 [unknown] (/usr/bin/python3.12)",
+        "\t          5db536 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70337d22 dispatcher_vectorcall (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "tracking",
+      "time_s": 83994.656664562,
+      "stack": [
+        "1595410 83994.656664562:                    cpu-clock:",
+        "\t          56303e [unknown] (/usr/bin/python3.12)",
+        "\t          5bebb2 PyUnicode_Format (/usr/bin/python3.12)",
+        "\t          53f635 PyNumber_Remainder (/usr/bin/python3.12)",
+        "\t          5d8896 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          54a801 _PyObject_Call_Prepend (/usr/bin/python3.12)",
+        "\t          59e0fe [unknown] (/usr/bin/python3.12)",
+        "\t          599bd2 [unknown] (/usr/bin/python3.12)",
+        "\t          548fb4 _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70396b9d npy_forward_method (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "background",
+      "time_s": 83994.657665717,
+      "stack": [
+        "1595410 83994.657665717:                    cpu-clock:",
+        "\t          56b751 PyLong_AsDouble (/usr/bin/python3.12)",
+        "\t          556a44 [unknown] (/usr/bin/python3.12)",
+        "\t          53e3ad PyNumber_Multiply (/usr/bin/python3.12)",
+        "\t          5d8896 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1217,
+      "stage": "background",
+      "time_s": 83994.658670265,
+      "stack": [
+        "1595410 83994.658670265:                    cpu-clock:",
+        "\t    719c707acec5 FLOAT_multiply_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "input",
+      "time_s": 83994.726771871,
+      "stack": [
+        "1595410 83994.726771871:                    cpu-clock:",
+        "\t    719c702721cc _aligned_contig_cast_ubyte_to_float (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "frame_setup",
+      "time_s": 83994.727935213,
+      "stack": [
+        "1595410 83994.727935213:                    cpu-clock:",
+        "\tffffffffb130d4e3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13bb3d1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109b14f futex_wake (inlined)",
+        "\t    719c7109b14f ___pthread_cond_signal (inlined)",
+        "\t          5fc0c6 PyEval_SaveThread (/usr/bin/python3.12)",
+        "\t          639de3 [unknown] (/usr/bin/python3.12)",
+        "\t          551921 [unknown] (/usr/bin/python3.12)",
+        "\t          549d86 [unknown] (/usr/bin/python3.12)",
+        "\t          54b602 PyObject_CallMethodObjArgs (/usr/bin/python3.12)",
+        "\t          63d00d [unknown] (/usr/bin/python3.12)",
+        "\t          551921 [unknown] (/usr/bin/python3.12)",
+        "\t          54986e PyObject_VectorcallMethod (/usr/bin/python3.12)",
+        "\t          6f01e7 [unknown] (/usr/bin/python3.12)",
+        "\t          5d8476 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "blur",
+      "time_s": 83994.729021697,
+      "stack": [
+        "1595410 83994.729021697:                    cpu-clock:",
+        "\t    719c2ef3db91 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "blur",
+      "time_s": 83994.730019096,
+      "stack": [
+        "1595410 83994.730019096:                    cpu-clock:",
+        "\t    719c71189087 __memcpy_avx_unaligned_erms (inlined)",
+        "\t    719c2ef28d0b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "blur",
+      "time_s": 83994.731024332,
+      "stack": [
+        "1595410 83994.731024332:                    cpu-clock:",
+        "\t    719c2ef3db7f [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "blur",
+      "time_s": 83994.732058344,
+      "stack": [
+        "1595410 83994.732058344:                    cpu-clock:",
+        "\t    719c71189087 __memcpy_avx_unaligned_erms (inlined)",
+        "\t    719c2ef28d0b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "contrast",
+      "time_s": 83994.733025244,
+      "stack": [
+        "1595410 83994.733025244:                    cpu-clock:",
+        "\t    719c707ad415 FLOAT_divide_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "contrast",
+      "time_s": 83994.734024782,
+      "stack": [
+        "1595410 83994.734024782:                    cpu-clock:",
+        "\t    719c707ad415 FLOAT_divide_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "contrast",
+      "time_s": 83994.735024763,
+      "stack": [
+        "1595410 83994.735024763:                    cpu-clock:",
+        "\t    719c707aca68 FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "contrast",
+      "time_s": 83994.736023628,
+      "stack": [
+        "1595410 83994.736023628:                    cpu-clock:",
+        "\tffffffffb1375a50 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12c384a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb2235a83 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100187f [unknown] ([kernel.kallsyms])",
+        "\t    719c704236f9 int introselect_<npy::float_tag, false, float>(float*, long*, long, long, long*, long*) [clone .isra.0] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "candidates",
+      "time_s": 83994.737026774,
+      "stack": [
+        "1595410 83994.737026774:                    cpu-clock:",
+        "\t    719c706fd751 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "components",
+      "time_s": 83994.738036626,
+      "stack": [
+        "1595410 83994.738036626:                    cpu-clock:",
+        "\tffffffffb22436d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d1f5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d50f [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13bb3d1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109ad7d futex_wake (inlined)",
+        "\t    719c7109ad7d ___pthread_cond_broadcast (inlined)",
+        "\t    719c2ea2b209 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ea16f64 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec576f5 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5fe35 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5ff1a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e2bc6 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "selection",
+      "time_s": 83994.739037189,
+      "stack": [
+        "1595410 83994.739037189:                    cpu-clock:",
+        "\t    719c706fd766 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "selection",
+      "time_s": 83994.740053055,
+      "stack": [
+        "1595410 83994.740053055:                    cpu-clock:",
+        "\t    719c70336ac2 PyArray_AssignArray (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "draw_contours",
+      "time_s": 83994.741030978,
+      "stack": [
+        "1595410 83994.741030978:                    cpu-clock:",
+        "\t    719c7026968b _aligned_strided_to_contig_size2_srcstride0 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "tracking",
+      "time_s": 83994.742031165,
+      "stack": [
+        "1595410 83994.742031165:                    cpu-clock:",
+        "\t          55613f PyFloat_FromDouble (/usr/bin/python3.12)",
+        "\t          5406d1 PyNumber_Float (/usr/bin/python3.12)",
+        "\t          5576f7 [unknown] (/usr/bin/python3.12)",
+        "\t    719c702b58d1 double_arrtype_new (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "tracking",
+      "time_s": 83994.743032454,
+      "stack": [
+        "1595410 83994.743032454:                    cpu-clock:",
+        "\t          584fb8 _PyObject_GenericGetAttrWithDict (/usr/bin/python3.12)",
+        "\t          584e87 _PyObject_LookupAttr (/usr/bin/python3.12)",
+        "\t          5d2d39 [unknown] (/usr/bin/python3.12)",
+        "\t          5d86ac _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70396b9d npy_forward_method (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1221,
+      "stage": "background",
+      "time_s": 83994.744031961,
+      "stack": [
+        "1595410 83994.744031961:                    cpu-clock:",
+        "\t    719c71188f29 __memcpy_avx_unaligned_erms (inlined)",
+        "\t    719c2ef28d0b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6dc58 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e1d2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e705 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6f2bf2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          548fb4 _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "blur",
+      "time_s": 83996.493207242,
+      "stack": [
+        "1595410 83996.493207242:                    cpu-clock:",
+        "\t    719c2ef1d664 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef28e20 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "blur",
+      "time_s": 83996.494208692,
+      "stack": [
+        "1595410 83996.494208692:                    cpu-clock:",
+        "\t    719c2ef3dbe1 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "contrast",
+      "time_s": 83996.495212743,
+      "stack": [
+        "1595410 83996.495212743:                    cpu-clock:",
+        "\t    719c707ad40f FLOAT_divide_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "contrast",
+      "time_s": 83996.496212793,
+      "stack": [
+        "1595410 83996.496212793:                    cpu-clock:",
+        "\t    719c707aca68 FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "contrast",
+      "time_s": 83996.497269367,
+      "stack": [
+        "1595410 83996.497269367:                    cpu-clock:",
+        "\t    719c707acc68 FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "candidates",
+      "time_s": 83996.498272214,
+      "stack": [
+        "1595410 83996.498272214:                    cpu-clock:",
+        "\t    719c2ef80153 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef28fce [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6dc58 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e1d2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e705 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6f7a9 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e72d451 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "components",
+      "time_s": 83996.499213167,
+      "stack": [
+        "1595410 83996.499213167:                    cpu-clock:",
+        "\tffffffffb13bb341 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109ad7d futex_wake (inlined)",
+        "\t    719c7109ad7d ___pthread_cond_broadcast (inlined)",
+        "\t    719c2ea2b209 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ea16f64 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec576f5 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5fe35 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5ff1a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e2bc6 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "selection",
+      "time_s": 83996.500217282,
+      "stack": [
+        "1595410 83996.500217282:                    cpu-clock:",
+        "\t    719c706fd746 FLOAT_greater_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "selection",
+      "time_s": 83996.50121868,
+      "stack": [
+        "1595410 83996.501218680:                    cpu-clock:",
+        "\t    719c7118984a __memset_avx2_unaligned_erms (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7028f016 _aligned_strided_to_contig_size1_srcstride0 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "find_contours",
+      "time_s": 83996.502221036,
+      "stack": [
+        "1595410 83996.502221036:                    cpu-clock:",
+        "\t    719c2ec63cab [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec64913 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e83aa90 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          548fb4 _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "filter_areas",
+      "time_s": 83996.503221663,
+      "stack": [
+        "1595410 83996.503221663:                    cpu-clock:",
+        "\t    719c704dcafa USHORT_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.504222398,
+      "stack": [
+        "1595410 83996.504222398:                    cpu-clock:",
+        "\t          549e8b [unknown] (/usr/bin/python3.12)",
+        "\t          549b01 PyObject_CallFunctionObjArgs (/usr/bin/python3.12)",
+        "\t    719c703bd5f5 array_add (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.505222218,
+      "stack": [
+        "1595410 83996.505222218:                    cpu-clock:",
+        "\t          5d6e05 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70337d22 dispatcher_vectorcall (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.506224428,
+      "stack": [
+        "1595410 83996.506224428:                    cpu-clock:",
+        "\t          5d6bc4 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.507224934,
+      "stack": [
+        "1595410 83996.507224934:                    cpu-clock:",
+        "\t          57275a [unknown] (/usr/bin/python3.12)",
+        "\t          574a9c PyDict_GetItemWithError (/usr/bin/python3.12)",
+        "\t    719c703469c0 PyArray_GetCastingImpl (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.508225835,
+      "stack": [
+        "1595410 83996.508225835:                    cpu-clock:",
+        "\t          599481 _PyType_Lookup (/usr/bin/python3.12)",
+        "\t          584b3d _PyObject_GetMethod (/usr/bin/python3.12)",
+        "\t          5df7d6 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70337d22 dispatcher_vectorcall (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.509225715,
+      "stack": [
+        "1595410 83996.509225715:                    cpu-clock:",
+        "\t    719c702a8246 mapiter_get (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "tracking",
+      "time_s": 83996.510226076,
+      "stack": [
+        "1595410 83996.510226076:                    cpu-clock:",
+        "\t    719c7039d1b9 PyArray_MultiplyList (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1327,
+      "stage": "background",
+      "time_s": 83996.511227818,
+      "stack": [
+        "1595410 83996.511227818:                    cpu-clock:",
+        "\t    719c707aced9 FLOAT_multiply_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "blur",
+      "time_s": 83996.513316753,
+      "stack": [
+        "1595410 83996.513316753:                    cpu-clock:",
+        "\t    719c2ef3db91 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "blur",
+      "time_s": 83996.514317131,
+      "stack": [
+        "1595410 83996.514317131:                    cpu-clock:",
+        "\t    719c71189087 __memcpy_avx_unaligned_erms (inlined)",
+        "\t    719c2ef28d0b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "blur",
+      "time_s": 83996.515320769,
+      "stack": [
+        "1595410 83996.515320769:                    cpu-clock:",
+        "\t    719c2ef3dbab [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef3e47a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef2905b [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbbe5a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecbc21c [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2edf68ba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6ba8b3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "contrast",
+      "time_s": 83996.516320635,
+      "stack": [
+        "1595410 83996.516320635:                    cpu-clock:",
+        "\t    719c707ad415 FLOAT_divide_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "contrast",
+      "time_s": 83996.517321515,
+      "stack": [
+        "1595410 83996.517321515:                    cpu-clock:",
+        "\t    719c707aca64 FLOAT_subtract_AVX2 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "candidates",
+      "time_s": 83996.518486898,
+      "stack": [
+        "1595410 83996.518486898:                    cpu-clock:",
+        "\t          5d7e51 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "candidates",
+      "time_s": 83996.519489294,
+      "stack": [
+        "1595410 83996.519489294:                    cpu-clock:",
+        "\t    719c2ef7ecc3 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef28fce [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6dc58 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e1d2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e622 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6f82d [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e72d451 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "components",
+      "time_s": 83996.520491142,
+      "stack": [
+        "1595410 83996.520491142:                    cpu-clock:",
+        "\t    719c2ec58050 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5fe35 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec5ff1a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e2bc6 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          54907d _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "selection",
+      "time_s": 83996.521535739,
+      "stack": [
+        "1595410 83996.521535739:                    cpu-clock:",
+        "\t    719c704da829 UBYTE_greater (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "selection",
+      "time_s": 83996.522491901,
+      "stack": [
+        "1595410 83996.522491901:                    cpu-clock:",
+        "\t          58875d PyObject_Free (/usr/bin/python3.12)",
+        "\t          5916f9 [unknown] (/usr/bin/python3.12)",
+        "\t          5e02b7 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "draw_contours",
+      "time_s": 83996.523492935,
+      "stack": [
+        "1595410 83996.523492935:                    cpu-clock:",
+        "\t    719c7026968b _aligned_strided_to_contig_size2_srcstride0 (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "filter_areas",
+      "time_s": 83996.524493674,
+      "stack": [
+        "1595410 83996.524493674:                    cpu-clock:",
+        "\t    719c703811d1 count_nonzero_int (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "tracking",
+      "time_s": 83996.525495925,
+      "stack": [
+        "1595410 83996.525495925:                    cpu-clock:",
+        "\t    719c2ec65cba [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ec67f91 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6e6c9e [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "tracking",
+      "time_s": 83996.52649593,
+      "stack": [
+        "1595410 83996.526495930:                    cpu-clock:",
+        "\t          5d6b27 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t    719c70396b9d npy_forward_method (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "tracking",
+      "time_s": 83996.527496887,
+      "stack": [
+        "1595410 83996.527496887:                    cpu-clock:",
+        "\t          57253b [unknown] (/usr/bin/python3.12)",
+        "\t          574a9c PyDict_GetItemWithError (/usr/bin/python3.12)",
+        "\t    719c703313c9 PyArray_DiscoverDTypeAndShape_Recursive (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so)"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "background",
+      "time_s": 83996.528498311,
+      "stack": [
+        "1595410 83996.528498311:                    cpu-clock:",
+        "\t    719c2ef8016a [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef28fce [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ef43158 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ecba2bb [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6dc58 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e1d2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2ed6e705 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t    719c2e6f2bf2 [unknown] (/home/lzy/projects/new_microbubble_experiment/.venv/lib/python3.12/site-packages/cv2/cv2.abi3.so)",
+        "\t          58216e [unknown] (/usr/bin/python3.12)",
+        "\t          548fb4 _PyObject_MakeTpCall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\tffffffffffffffff [unknown] ([unknown])"
+      ]
+    },
+    {
+      "source_frame": 1329,
+      "stage": "tail",
+      "time_s": 83996.529529502,
+      "stack": [
+        "1595410 83996.529529502:                    cpu-clock:",
+        "\tffffffffb22436d3 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d1f5 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb130d50f [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13bb3d1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7a4a [unknown] ([kernel.kallsyms])",
+        "\tffffffffb13b7be1 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb12032a9 [unknown] ([kernel.kallsyms])",
+        "\tffffffffb22300ce [unknown] ([kernel.kallsyms])",
+        "\tffffffffb100012f [unknown] ([kernel.kallsyms])",
+        "\t    719c7109b14f futex_wake (inlined)",
+        "\t    719c7109b14f ___pthread_cond_signal (inlined)",
+        "\t          5fc0c6 PyEval_SaveThread (/usr/bin/python3.12)",
+        "\t          639de3 [unknown] (/usr/bin/python3.12)",
+        "\t          551921 [unknown] (/usr/bin/python3.12)",
+        "\t          549d86 [unknown] (/usr/bin/python3.12)",
+        "\t          54b602 PyObject_CallMethodObjArgs (/usr/bin/python3.12)",
+        "\t          63d00d [unknown] (/usr/bin/python3.12)",
+        "\t          551921 [unknown] (/usr/bin/python3.12)",
+        "\t          54986e PyObject_VectorcallMethod (/usr/bin/python3.12)",
+        "\t          6f01e7 [unknown] (/usr/bin/python3.12)",
+        "\t          5d8476 _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          5d55ea PyEval_EvalCode (/usr/bin/python3.12)",
+        "\t          5d33db [unknown] (/usr/bin/python3.12)",
+        "\t          581fec [unknown] (/usr/bin/python3.12)",
+        "\t          5499b4 PyObject_Vectorcall (/usr/bin/python3.12)",
+        "\t          5d710e _PyEval_EvalFrameDefault (/usr/bin/python3.12)",
+        "\t          6bcf21 [unknown] (/usr/bin/python3.12)",
+        "\t          6bcb51 Py_RunMain (/usr/bin/python3.12)",
+        "\t          6bc7bc Py_BytesMain (/usr/bin/python3.12)",
+        "\t    719c7102a1c9 __libc_start_call_main (/usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "\t    719c7102a28a __libc_start_main_impl (inlined)",
+        "\t          657a04 _start (/usr/bin/python3.12)"
+      ]
+    }
+  ]
+}

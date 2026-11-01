@@ -1,0 +1,38 @@
+{
+  "host.etl": {
+    "bytes": 268959744,
+    "sha256": "84f1aa8192e0efc8a3c37e5281be3c85713d03c9b7f76c7f621987607cf1462d"
+  },
+  "startup_01.data": {
+    "bytes": 57600472,
+    "sha256": "5c0618957bcad6d075f20c9710b9ec270116a00292ada05f45d16a85948b20fe"
+  },
+  "startup_02.data": {
+    "bytes": 52820652,
+    "sha256": "9f19c744f45469341e8dbedaca4cb7cbb7245d0c3c7da792dd95465b403d1528"
+  },
+  "startup_03.data": {
+    "bytes": 58720952,
+    "sha256": "a4fe48236b0d1b2e87b49de8a9fac055c3ae640b8fdf491c0485a9e8427b006b"
+  },
+  "startup_04.data": {
+    "bytes": 57308188,
+    "sha256": "f5ff61efb9b4ca081cbbb89a153d14d4fa4edad6050cfb0c76f4ba4e67cea842"
+  },
+  "startup_05.data": {
+    "bytes": 56625008,
+    "sha256": "fcc9be7790c0a0a0b30d3db773cdd1f7a2c9c6b3c98ec80de9e593aef7004c78"
+  },
+  "startup_06.data": {
+    "bytes": 56660524,
+    "sha256": "b497b566c514e71249b88c211d1bdcca788352e4fe6b251224a89f75713c5de7"
+  },
+  "startup_07.data": {
+    "bytes": 54538412,
+    "sha256": "38257c4de329d8c9c5abc85909dccd3f62b8b76f3481a7c6a6483031a7d57c04"
+  },
+  "startup_08.data": {
+    "bytes": 56548560,
+    "sha256": "7b6e0acd8842afc17a0ed74a5890a54a4189db58fc1798b601cab93da90371c4"
+  }
+}

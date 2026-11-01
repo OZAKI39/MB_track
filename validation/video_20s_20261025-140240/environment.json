@@ -1,0 +1,12 @@
+[
+  {
+    "returncode": 0,
+    "stdout": "{\n  \"platform\": \"Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39\",\n  \"python\": \"3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]\",\n  \"executable\": \"/home/lzy/projects/new_microbubble_experiment/.venv/bin/python\",\n  \"opencv\": \"4.10.0\",\n  \"monotonic\": \"namespace(implementation='clock_gettime(CLOCK_MONOTONIC)', monotonic=True, adjustable=False, resolution=1e-09)\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "returncode": 0,
+    "stdout": "{\n  \"platform\": \"Windows-11-10.0.26200-SP0\",\n  \"python\": \"3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]\",\n  \"executable\": \"F:\\\\CHRONOS_control\\\\.venv\\\\Scripts\\\\python.exe\",\n  \"opencv\": \"5.0.0\",\n  \"monotonic\": \"namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)\"\n}\n",
+    "stderr": ""
+  }
+]

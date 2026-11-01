@@ -1,0 +1,7 @@
+{
+  "query": "[Security.Principal.WindowsPrincipal]::new([Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)",
+  "returncode": 0,
+  "stdout": "False\n",
+  "stderr": "",
+  "trace_started": false
+}

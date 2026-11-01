@@ -1,0 +1,63 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.experiment_runner",
+    "customer_workspace/configs/pzt1_pulse.json",
+    "--output-dir",
+    "customer_workspace/validation/amplitude_states_20261023-174926/cancel_active"
+  ],
+  "pid": 261111,
+  "started_utc": "2026-10-23T15:51:41.533061+00:00",
+  "cancel_requested_utc": "2026-10-23T15:51:48.705057+00:00",
+  "matched_active_event": {
+    "event": "action_finished",
+    "action": "apply_live",
+    "planned_s": 5,
+    "state_requested": "ACTIVE",
+    "channel": "PZT1",
+    "amplitude_requested_vpp": 0.1,
+    "started_utc": "2026-10-23T15:51:48.333019+00:00",
+    "actual_start_s": 5.013178999986849,
+    "lateness_s": 0.013178999986848794,
+    "amplitude_timing": {
+      "command": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude 0.1Vpp",
+      "query": "SOURce1:VOLTage:LEVel:IMMediate:AMPLitude?",
+      "command_sent_s": 5.110205299992231,
+      "command_write_returned_s": 5.110458399998606,
+      "amplitude_reply_received_s": 5.1575469999952475,
+      "amplitude_reply": "1.000000e-01",
+      "confirmed_s": 5.1575469999952475,
+      "command_to_confirmation_s": 0.04734170000301674
+    },
+    "actual_finish_s": 5.167382199986605,
+    "duration_s": 0.15420319999975618,
+    "status": "ok",
+    "result": {
+      "output": true,
+      "load_ohm": 50.0,
+      "waveform": "SIN",
+      "frequency_hz": 2500000.0,
+      "amplitude_vpp": 0.1,
+      "offset_v": 0.0,
+      "phase_deg": 0.0,
+      "frequency_mode": "CW",
+      "burst_enabled": false,
+      "concurrent": false,
+      "modulation": {
+        "AM": false,
+        "FM": false,
+        "PM": false,
+        "PWM": false,
+        "FSKey": false,
+        "ASKey": false,
+        "PSKey": false
+      },
+      "peer_concurrent": false
+    }
+  },
+  "returncode": 130,
+  "finished_utc": "2026-10-23T15:51:49.270150+00:00"
+}

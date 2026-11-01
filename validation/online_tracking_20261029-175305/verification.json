@@ -1,0 +1,118 @@
+{
+  "full_replay": {
+    "A": {
+      "replay": {
+        "status": "completed",
+        "frames": 1320,
+        "observations": 22041,
+        "tracks": 181,
+        "confirmed_tracks": 110,
+        "events_by_status": {
+          "confirmed_tracks": 206,
+          "rejected_short_track": 140,
+          "unresolved_at_end": 1
+        },
+        "input_rejections": 0,
+        "skipped_source_frames": 0,
+        "peak_active_tracks": 26,
+        "actions": 20,
+        "incomplete_action_ranges": 0,
+        "decoded_frames": 1320,
+        "intentionally_omitted_frames": 0,
+        "drop_every": 0,
+        "max_video_pts_error_s": 0.0,
+        "scope": "Offline sequential replay, no hardware connection or real-time pacing",
+        "timing_limit": "Video receive-time ranges only; exposure and acoustic onset remain unknown"
+      },
+      "legacy_confirmed_observations": 21907,
+      "online_confirmed_observations": 21907,
+      "geometry_mismatches": 0,
+      "contour_mismatches": 0,
+      "same_confirmed_events": true,
+      "same_final_background": true,
+      "velocity_formula_errors": 0,
+      "sqlite_integrity": "ok",
+      "foreign_key_errors": 0,
+      "tracks_left_active": 0,
+      "legacy_entry_regression": {
+        "objects.csv": true,
+        "events.csv": true,
+        "background_final.npy": true,
+        "contours": true
+      }
+    },
+    "B": {
+      "replay": {
+        "status": "completed",
+        "frames": 1320,
+        "observations": 17843,
+        "tracks": 75,
+        "confirmed_tracks": 48,
+        "events_by_status": {
+          "confirmed_tracks": 83,
+          "rejected_short_track": 54
+        },
+        "input_rejections": 0,
+        "skipped_source_frames": 0,
+        "peak_active_tracks": 17,
+        "actions": 14,
+        "incomplete_action_ranges": 0,
+        "decoded_frames": 1320,
+        "intentionally_omitted_frames": 0,
+        "drop_every": 0,
+        "max_video_pts_error_s": 0.0,
+        "scope": "Offline sequential replay, no hardware connection or real-time pacing",
+        "timing_limit": "Video receive-time ranges only; exposure and acoustic onset remain unknown"
+      },
+      "legacy_confirmed_observations": 17790,
+      "online_confirmed_observations": 17790,
+      "geometry_mismatches": 0,
+      "contour_mismatches": 0,
+      "same_confirmed_events": true,
+      "same_final_background": true,
+      "velocity_formula_errors": 0,
+      "sqlite_integrity": "ok",
+      "foreign_key_errors": 0,
+      "tracks_left_active": 0,
+      "legacy_entry_regression": {
+        "objects.csv": true,
+        "events.csv": true,
+        "background_final.npy": true,
+        "contours": true
+      }
+    }
+  },
+  "drop_test": {
+    "status": "completed",
+    "frames": 880,
+    "observations": 14634,
+    "tracks": 172,
+    "confirmed_tracks": 96,
+    "events_by_status": {
+      "confirmed_tracks": 178,
+      "rejected_short_track": 152
+    },
+    "input_rejections": 0,
+    "skipped_source_frames": 439,
+    "peak_active_tracks": 27,
+    "actions": 20,
+    "incomplete_action_ranges": 26,
+    "decoded_frames": 1320,
+    "intentionally_omitted_frames": 440,
+    "drop_every": 3,
+    "max_video_pts_error_s": 0.0,
+    "scope": "Offline sequential replay, no hardware connection or real-time pacing",
+    "timing_limit": "Video receive-time ranges only; exposure and acoustic onset remain unknown"
+  },
+  "inputs_unchanged": {
+    "customer_workspace/microbubble_tracking/data/raw/expA.mp4": true,
+    "customer_workspace/microbubble_tracking/data/raw/expB.mp4": true,
+    "customer_workspace/microbubble_tracking/results/A_offline/background.npy": true,
+    "customer_workspace/microbubble_tracking/results/B_offline/background.npy": true
+  },
+  "notes": [
+    "Online IDs are stable and sparse; legacy IDs remapped only inside this comparison, never in online records.",
+    "Time-based velocities intentionally differ from legacy pixels/frame; displacement/dt checked for every observation.",
+    "After final replay, the only implementation edit was Optional[float] for old Python annotation compatibility."
+  ]
+}

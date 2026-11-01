@@ -46,16 +46,16 @@
   {
    "model": "Graph world model",
    "horizon_s": 0.5,
-   "mean_error_px": 28.707366943359375,
-   "mean_error_at_switch_px": 40.45340347290039,
+   "mean_error_px": 30.140634536743164,
+   "mean_error_at_switch_px": 37.87947082519531,
    "training_sessions": 1,
    "training_switches": 13
   },
   {
    "model": "Graph world model",
    "horizon_s": 1.0,
-   "mean_error_px": 52.6087760925293,
-   "mean_error_at_switch_px": 67.54439544677734,
+   "mean_error_px": 48.0989875793457,
+   "mean_error_at_switch_px": 58.72077560424805,
    "training_sessions": 1,
    "training_switches": 13
   },
@@ -94,16 +94,16 @@
   {
    "model": "Graph world model",
    "horizon_s": 0.5,
-   "mean_error_px": 12.091874122619629,
-   "mean_error_at_switch_px": 25.016326904296875,
+   "mean_error_px": 12.588729858398438,
+   "mean_error_at_switch_px": 23.985441207885742,
    "training_sessions": 4,
    "training_switches": 52
   },
   {
    "model": "Graph world model",
    "horizon_s": 1.0,
-   "mean_error_px": 22.788063049316406,
-   "mean_error_at_switch_px": 35.83266830444336,
+   "mean_error_px": 23.276288986206055,
+   "mean_error_at_switch_px": 34.69875717163086,
    "training_sessions": 4,
    "training_switches": 52
   },
@@ -142,19 +142,19 @@
   {
    "model": "Graph world model",
    "horizon_s": 0.5,
-   "mean_error_px": 5.918160438537598,
-   "mean_error_at_switch_px": 10.582409858703613,
+   "mean_error_px": 5.994173049926758,
+   "mean_error_at_switch_px": 10.766319274902344,
    "training_sessions": 12,
    "training_switches": 158
   },
   {
    "model": "Graph world model",
    "horizon_s": 1.0,
-   "mean_error_px": 9.871143341064453,
-   "mean_error_at_switch_px": 14.007535934448242,
+   "mean_error_px": 10.331796646118164,
+   "mean_error_at_switch_px": 14.805280685424805,
    "training_sessions": 12,
    "training_switches": 158
   }
  ],
- "runtime_s": 2076.9881958961487
+ "runtime_s": 3213.4272956848145
 }

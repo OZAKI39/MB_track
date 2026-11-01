@@ -1,0 +1,8 @@
+{
+  "frames_checked": 30,
+  "missing_dts_supported": true,
+  "nonzero_source_pts_preserved": true,
+  "pixel_difference": 0,
+  "input": "customer_workspace/microbubble_tracking/data/raw/expA.mp4",
+  "scope": "simulated RTSP timestamp metadata, not live hardware"
+}

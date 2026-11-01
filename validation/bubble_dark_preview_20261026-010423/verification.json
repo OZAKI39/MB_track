@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "source_images_pixel_identical": 8,
+  "masks_and_contours_checked": 24,
+  "dark_cores_meet_size_requirement": true,
+  "all_selected_pixels_within_threshold_and_roi": true,
+  "stricter_profiles_are_subsets": true,
+  "image_panels": 40,
+  "local_link_occurrences_checked": 247,
+  "protected_files_unchanged": 375,
+  "timing_samples_checked": 320,
+  "software_tests_passed": 51,
+  "profile_adopted": false,
+  "full_video_processed": false,
+  "browser_rendering_tested": false
+}

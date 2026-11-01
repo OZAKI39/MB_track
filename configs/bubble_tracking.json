@@ -1,0 +1,18 @@
+{
+  "schema": "BUBBLE_REGION_TRACKING_V1",
+  "position_slack_px": 4.0,
+  "max_speed_px_s": 240.0,
+  "minimum_area_ratio": 0.35,
+  "maximum_match_cost": 0.72,
+  "ambiguity_margin": 0.10,
+  "topology_overlap_fraction": 0.35,
+  "topology_minimum_pixels": 4,
+  "topology_total_coverage": 0.50,
+  "maximum_missing_s": 0.20,
+  "maximum_frame_gap_s": 0.15,
+  "image_edge_margin_px": 3,
+  "exit_min_speed_px_s": 2.0,
+  "trail_duration_s": 2.0,
+  "event_display_s": 0.8,
+  "note": "仅用于当前固定视野的离线区域对应。阈值是待人工审查的初值，不代表已验证的真实微泡身份或运动上限。"
+}

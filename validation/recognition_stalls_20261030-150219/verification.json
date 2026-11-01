@@ -1,0 +1,106 @@
+{
+  "inputs_unchanged": {
+    "customer_workspace/microbubble_tracking/data/raw/expA.mp4": true,
+    "customer_workspace/microbubble_tracking/results/B_offline/background.npy": true,
+    "customer_workspace/microbubble_tracking/data/pzt/expA/video_frames.csv": true
+  },
+  "runs": {
+    "basic": {
+      "offered": 3960,
+      "processed": 3960,
+      "replaced": 0,
+      "all_processed_ids_match_database": true,
+      "all_submitted_saved": true,
+      "pending": 0,
+      "peak_pending": 2,
+      "database_integrity": "ok",
+      "process_ms": {
+        "min": 7.7459159947466105,
+        "median": 9.30587800394278,
+        "p95": 11.411660736484913,
+        "p99": 14.316997347050334,
+        "max": 29.96909699868411
+      }
+    },
+    "details": {
+      "offered": 3960,
+      "processed": 3958,
+      "replaced": 2,
+      "all_processed_ids_match_database": true,
+      "all_submitted_saved": true,
+      "pending": 0,
+      "peak_pending": 2,
+      "database_integrity": "ok",
+      "process_ms": {
+        "min": 7.821676990715787,
+        "median": 9.332840505521744,
+        "p95": 11.46892774559091,
+        "p99": 14.74989930778974,
+        "max": 31.577271001879126
+      }
+    },
+    "native": {
+      "offered": 3960,
+      "processed": 3957,
+      "replaced": 3,
+      "all_processed_ids_match_database": true,
+      "all_submitted_saved": true,
+      "pending": 0,
+      "peak_pending": 2,
+      "database_integrity": "ok",
+      "process_ms": {
+        "min": 7.915466994745657,
+        "median": 9.504039015155286,
+        "p95": 11.829873791430144,
+        "p99": 15.034598043421283,
+        "max": 30.501228000503033
+      }
+    },
+    "host_correlated/replay": {
+      "offered": 7920,
+      "processed": 7916,
+      "replaced": 4,
+      "all_processed_ids_match_database": true,
+      "all_submitted_saved": true,
+      "pending": 0,
+      "peak_pending": 2,
+      "database_integrity": "ok",
+      "process_ms": {
+        "min": 7.9227260139305145,
+        "median": 9.56480398599524,
+        "p95": 11.327774998790119,
+        "p99": 12.950684552197348,
+        "max": 34.147855010814965
+      }
+    }
+  },
+  "tests": "See tests.log",
+  "hardware": "No camera or AFG connection or actions",
+  "trace_files": {
+    "host_correlated/host.etl": {
+      "bytes": 420216832,
+      "sha256": "060c15004e631ae6044676a2e1c993ec0578009b4419d7c3581c2d05c18bcbe2"
+    },
+    "host_correlated/native_watch.data": {
+      "bytes": 373725588,
+      "sha256": "24c09f3260c7cd1d80606b9c5cd49e692d12895d3a9563f0650567db1e489511"
+    },
+    "native_watch.data": {
+      "bytes": 188350264,
+      "sha256": "dca4d6cbeb3ea082b204d682cb234191b1e8b8ed0a13bba3b72e32bc3cc1158a"
+    }
+  },
+  "windows_stop": {
+    "stop_exit_code": 0,
+    "instance": "MBTrack_b6525f36888a461fba41981b295498a6",
+    "unix_ms": 1793369395187
+  },
+  "current_code_sha256": {
+    "bubble_tracker.py": "14d64f570c0b050d55ed744fd9655a3d8691629da729430d3dc7d005f4fafe12",
+    "paced_replay.py": "43059dde2ee8c73223e8ddf19e83b98121edcab80311185e0bc5e7d2392b3de1",
+    "paced_source.py": "4f6fef88aca61ecf9fab7426eeeff5a934d7e5d8cf9956426c60542aa61f1fc0",
+    "stall_probe.py": "4f2fd99545029582bb7a01ec4d81013c207dcc631690a1ef0667559b2e5ead02",
+    "native_stall_watch.py": "9533e96de1bf5832af789c68d23c31454c6c84c41c11d98d280a024d9cc696cb",
+    "stall_detail_report.py": "47a1b010d7fbce801efd4f547ba5d48b7f07d2f73b6eb3af70856895864f80b0"
+  }
+}

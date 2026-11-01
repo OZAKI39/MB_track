@@ -1,0 +1,508 @@
+{
+  "schema": 2,
+  "candidate_id": "four_pzt_f000360",
+  "image_sha256": "f3d7bd201e831fe2b5a1db8172eccd5a6cdb8895177e20b46c6ae7f939342b8d",
+  "source_sha256": "51813182757fa09e12ada5c7810f5bb67865942f2de1cd051ab3f370a7b4da03",
+  "split": "benchmark_review_only",
+  "sequence_id": "four_pzt",
+  "revision": "20261026T142854_b8c2b2c3",
+  "utc": "2026-10-26T14:28:54.164151+00:00",
+  "mask_file": "20261026T142854_b8c2b2c3.npz",
+  "mask_sha256": "1a10133f1dfaa5e62771f9bed0de1034c33620ac53458e6dda7ba1bceefb08a0",
+  "reviewer": "zhiyao",
+  "expert_confirmed": false,
+  "status": "DRAFT_UNREVIEWED",
+  "review_scope": "FULL_FRAME",
+  "review_regions": [],
+  "invalidated_region_ids": [],
+  "workspace_roi_yxyx": null,
+  "proposal_sources": [
+    {
+      "method": "frozen_opencv_baseline",
+      "human_verified": false
+    },
+    {
+      "method": "review_assistance",
+      "baseline_seeded": true,
+      "explicit_uncertain": [],
+      "baseline_keys": {
+        "202": "AGGREGATE:2",
+        "2": "AGGREGATE:3",
+        "5": "AGGREGATE:4",
+        "110": "AGGREGATE:5",
+        "150": "AGGREGATE:6",
+        "206": "AGGREGATE:7",
+        "241": "AGGREGATE:8",
+        "215": "AGGREGATE:9",
+        "216": "AGGREGATE:10",
+        "12": "AGGREGATE:11",
+        "80": "AGGREGATE:12",
+        "173": "AGGREGATE:13",
+        "135": "AGGREGATE:14",
+        "21": "AGGREGATE:15",
+        "146": "AGGREGATE:16",
+        "24": "AGGREGATE:17",
+        "25": "AGGREGATE:18",
+        "130": "AGGREGATE:19",
+        "32": "AGGREGATE:20",
+        "107": "AGGREGATE:21",
+        "34": "AGGREGATE:22",
+        "35": "AGGREGATE:23",
+        "37": "AGGREGATE:24",
+        "39": "AGGREGATE:25",
+        "42": "AGGREGATE:26"
+      },
+      "wall": {
+        "revision": "original_settings",
+        "geometry": {
+          "image_wh": [
+            1280,
+            1024
+          ],
+          "lumen_polygon_xy": [
+            [
+              562,
+              0
+            ],
+            [
+              821,
+              0
+            ],
+            [
+              815,
+              160
+            ],
+            [
+              811,
+              240
+            ],
+            [
+              805,
+              360
+            ],
+            [
+              800,
+              447
+            ],
+            [
+              806,
+              477
+            ],
+            [
+              821,
+              515
+            ],
+            [
+              845,
+              580
+            ],
+            [
+              854,
+              600
+            ],
+            [
+              872,
+              650
+            ],
+            [
+              893,
+              700
+            ],
+            [
+              913,
+              750
+            ],
+            [
+              933,
+              800
+            ],
+            [
+              953,
+              850
+            ],
+            [
+              973,
+              900
+            ],
+            [
+              995,
+              950
+            ],
+            [
+              1014,
+              1000
+            ],
+            [
+              1023,
+              1023
+            ],
+            [
+              844,
+              1023
+            ],
+            [
+              835,
+              1000
+            ],
+            [
+              800,
+              910
+            ],
+            [
+              763,
+              815
+            ],
+            [
+              748,
+              775
+            ],
+            [
+              725,
+              710
+            ],
+            [
+              708,
+              665
+            ],
+            [
+              695,
+              631
+            ],
+            [
+              687,
+              609
+            ],
+            [
+              678,
+              594
+            ],
+            [
+              671,
+              588
+            ],
+            [
+              661,
+              591
+            ],
+            [
+              654,
+              600
+            ],
+            [
+              642,
+              625
+            ],
+            [
+              624,
+              660
+            ],
+            [
+              603,
+              700
+            ],
+            [
+              578,
+              750
+            ],
+            [
+              554,
+              800
+            ],
+            [
+              505,
+              900
+            ],
+            [
+              454,
+              1000
+            ],
+            [
+              442,
+              1023
+            ],
+            [
+              247,
+              1023
+            ],
+            [
+              279,
+              960
+            ],
+            [
+              305,
+              910
+            ],
+            [
+              330,
+              860
+            ],
+            [
+              358,
+              810
+            ],
+            [
+              386,
+              760
+            ],
+            [
+              415,
+              710
+            ],
+            [
+              441,
+              666
+            ],
+            [
+              454,
+              647
+            ],
+            [
+              485,
+              631
+            ],
+            [
+              505,
+              618
+            ],
+            [
+              525,
+              613
+            ],
+            [
+              547,
+              605
+            ],
+            [
+              557,
+              596
+            ],
+            [
+              566,
+              580
+            ],
+            [
+              569,
+              570
+            ],
+            [
+              574,
+              550
+            ],
+            [
+              575,
+              530
+            ],
+            [
+              572,
+              500
+            ],
+            [
+              566,
+              480
+            ],
+            [
+              556,
+              450
+            ],
+            [
+              552,
+              430
+            ],
+            [
+              554,
+              400
+            ],
+            [
+              561,
+              360
+            ],
+            [
+              560,
+              330
+            ],
+            [
+              557,
+              300
+            ],
+            [
+              549,
+              260
+            ],
+            [
+              548,
+              240
+            ],
+            [
+              549,
+              213
+            ],
+            [
+              554,
+              160
+            ],
+            [
+              560,
+              100
+            ]
+          ],
+          "excluded_polygons_xy": [
+            [
+              [
+                675,
+                585
+              ],
+              [
+                683,
+                590
+              ],
+              [
+                691,
+                625
+              ],
+              [
+                700,
+                650
+              ],
+              [
+                720,
+                700
+              ],
+              [
+                743,
+                750
+              ],
+              [
+                759,
+                800
+              ],
+              [
+                783,
+                850
+              ],
+              [
+                798,
+                900
+              ],
+              [
+                820,
+                950
+              ],
+              [
+                839,
+                1000
+              ],
+              [
+                849,
+                1023
+              ],
+              [
+                820,
+                1023
+              ],
+              [
+                810,
+                1000
+              ],
+              [
+                790,
+                950
+              ],
+              [
+                770,
+                900
+              ],
+              [
+                750,
+                850
+              ],
+              [
+                730,
+                800
+              ],
+              [
+                710,
+                750
+              ],
+              [
+                690,
+                700
+              ],
+              [
+                670,
+                650
+              ],
+              [
+                650,
+                600
+              ],
+              [
+                650,
+                585
+              ]
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "classes": [
+    "SINGLE_BUBBLE",
+    "AGGREGATE",
+    "BACKGROUND_ARTIFACT",
+    "UNCERTAIN",
+    "OUT_OF_FOCUS"
+  ],
+  "class_overlap_pixels": 0,
+  "instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 33,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 0,
+    "OUT_OF_FOCUS": 0
+  },
+  "track_ids": {
+    "AGGREGATE:1": "N54bb4c2f73",
+    "AGGREGATE:2": "T202",
+    "AGGREGATE:3": "T2",
+    "AGGREGATE:4": "T5",
+    "AGGREGATE:5": "T110",
+    "AGGREGATE:6": "T150",
+    "AGGREGATE:7": "T206",
+    "AGGREGATE:8": "T241",
+    "AGGREGATE:9": "T215",
+    "AGGREGATE:10": "T216",
+    "AGGREGATE:11": "T12",
+    "AGGREGATE:12": "T80",
+    "AGGREGATE:13": "T173",
+    "AGGREGATE:14": "T135",
+    "AGGREGATE:15": "T21",
+    "AGGREGATE:16": "T146",
+    "AGGREGATE:17": "T24",
+    "AGGREGATE:18": "T25",
+    "AGGREGATE:19": "T130",
+    "AGGREGATE:20": "T32",
+    "AGGREGATE:21": "T107",
+    "AGGREGATE:22": "T34",
+    "AGGREGATE:23": "T35",
+    "AGGREGATE:24": "T37",
+    "AGGREGATE:25": "T39",
+    "AGGREGATE:26": "T42",
+    "AGGREGATE:27": "Ne0f844ed51",
+    "AGGREGATE:28": "N4177495e62",
+    "AGGREGATE:29": "N85dfdf317f",
+    "AGGREGATE:30": "N39523dd88d",
+    "AGGREGATE:31": "N9411abfc7b",
+    "AGGREGATE:32": "N32ee462f64",
+    "AGGREGATE:33": "N30f9a3c135"
+  },
+  "notes": "",
+  "units": "pixels",
+  "physical_fusion_claim": false,
+  "reviewed_instance_counts": {
+    "SINGLE_BUBBLE": 0,
+    "AGGREGATE": 0,
+    "BACKGROUND_ARTIFACT": 0,
+    "UNCERTAIN": 0,
+    "OUT_OF_FOCUS": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "started_at": "2026-10-31T12:43:22.794069+01:00",
+  "deleted_directories": [
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-134318",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-134324",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144848",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144914"
+  ],
+  "deleted_files": [
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/01_trajectory_segmentation.frames.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/02_kinematics.mp4",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/visible_labels.json",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/provenance.json",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/trajectory_cut_events.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/03_morphology.frames.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/slide6_animations.zip",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/pzt_command_intervals.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/03_morphology.mp4",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/validation_samples.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/01_trajectory_segmentation.mp4",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-141412/02_kinematics.frames.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/visible_labels.json",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/verification.json",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/provenance.json",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/slide6_animations.zip",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/validation_samples.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/04_collective_metrics.mp4",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/analysis_slides_20261028-143326/04_collective_metrics.frames.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144914/example_trace.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144914/summary.csv",
+    "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/stimulus_response_slides_20261028-144914/responses.csv"
+  ],
+  "skipped": [],
+  "errors": [],
+  "deleted_bytes": 28155122,
+  "finished_at": "2026-10-31T12:43:22.948677+01:00",
+  "retained_files_verified_after": 19,
+  "deleted_paths_absent": true,
+  "git_status_unchanged": true,
+  "status": "completed"
+}

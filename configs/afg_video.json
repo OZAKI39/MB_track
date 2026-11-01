@@ -1,0 +1,46 @@
+{
+  "visa_library": "",
+  "timeout_ms": 3000,
+  "query_batch_mode": "legacy_lines",
+  "devices": {
+    "A": {
+      "serial": "2147075"
+    },
+    "B": {
+      "serial": "2439003"
+    }
+  },
+  "channels": {
+    "PZT1": {
+      "device": "A",
+      "channel": 1,
+      "max_input_vpp": 0.8,
+      "max_frequency_hz": 10000000,
+      "phase_correction_deg": 0
+    },
+    "PZT2": {
+      "device": "A",
+      "channel": 2,
+      "max_input_vpp": 0.8,
+      "max_frequency_hz": 10000000,
+      "phase_correction_deg": 0
+    },
+    "PZT3": {
+      "device": "B",
+      "channel": 1,
+      "max_input_vpp": 0.8,
+      "max_frequency_hz": 10000000,
+      "phase_correction_deg": 0
+    },
+    "PZT4": {
+      "device": "B",
+      "channel": 2,
+      "max_input_vpp": 0.8,
+      "max_frequency_hz": 10000000,
+      "phase_correction_deg": 0
+    }
+  },
+  "wiring_note": "4 x High Wave 3.2, one input per amplifier; PZT between the two red 4 mm output sockets (bridge). Physical PZT numbering must follow the cables.",
+  "clock_note": "External 10 MHz wiring, front-panel selection and phase calibration must be completed manually. No cross-device synchronization is claimed.",
+  "experiment_note": "项目统一 AFG 配置：四路幅值上限为0.8 Vpp；实际工作幅值和频率由实验时间表指定，驱动4 Vpp硬上限保持原样。"
+}

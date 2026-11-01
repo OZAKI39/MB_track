@@ -1,0 +1,15 @@
+{
+  "microbubble_experiment/camera.py": "672dd4d4300d29ca93d92b0d0088fcaff0da62d40b48fef3cc0e8d6f29d4fcd9",
+  "microbubble_experiment/camera_server.py": "e7659ed502661bd01d98b896c832bafeb89a26c156e6a5bcfc61c2a91330b5dc",
+  "microbubble_experiment/camera_bridge.py": "3b7fb4bc42300f57c60ad79089b1137174193e1f69c4990906d0817a535bac93",
+  "microbubble_experiment/frames.py": "762f67a584f217e4e9a57c3b3c78fbece05af6b3977611762a226f938028677f",
+  "microbubble_experiment/recording.py": "8db21da04225f27c0f89f407183b7c0c1af346f63cdb0b645502c4e64a667d55",
+  "microbubble_experiment/pipeline.py": "58ef87a5fb2b9da23d1b1e2acd1e197669df006620bf9f07c3e2f3829a1ad64b",
+  "configs/chronos_config.json": "c130bfbb78db3f788fa6762feceb0be0c708ec6cc03b7f42277b00c38a1ae518",
+  "configs/default.json": "b3b1beb5317ff43680af0d2d1440368e177746a353dcb2534fd99da8d5e2ed9a",
+  "customer_workspace/experiment_runner.py": "b88209f8fb5fd986b92a6cbaf479c7bcc2d60c99d20ff69ad94438a6cb66ad45",
+  "customer_workspace/afg_timing.py": "6ba7a244432672400d0ccc89fc21e3e07d81e6001c128b2f4348908e15be20e3",
+  "customer_workspace/README.md": "1f9589a49d8fcab9b20b530bfce5d599d522512c3504cacfafb7104947b3ddf6",
+  "customer_workspace/video_recording_check.py": "b6fe294c28a2b5300bc7b166a7a24e1fd6c26d45e505259f292b148a7d584575",
+  "customer_workspace/tests/test_video_recording_check.py": "8e8d3cf346b16d6cc53dd894642b4ff6c841ef55e464fbd3236cb4d71215bd71"
+}

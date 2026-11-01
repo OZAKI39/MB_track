@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-23T18:03:28.759726+00:00",
+  "all_checks_passed": true,
+  "full_customer_workspace_tests_passed": 103,
+  "final_affected_tests_passed": 39,
+  "ruff_check_passed": true,
+  "ruff_format_check_passed": true,
+  "tracked_and_new_file_whitespace_checks_passed": true,
+  "source_hashes_at_completion": {
+    "microbubble_experiment/afg.py": "668f76c102e4f1e91f4da775d323629b1979277419dba0ceb951dde032fdce54",
+    "customer_workspace/afg_timing.py": "d2e4d1a7258a8aef95d6fd1545b019c212d1ac240598494c0e59b3f466c2683e",
+    "customer_workspace/experiment_runner.py": "b716f16ca13d5ebd42bf4a87ff80f706e64e50c8637b29416cbe7cb4bbe1d03c",
+    "customer_workspace/timing_report.py": "d2fdbdc21b33acb0bae0702a81ad14682eb138e3413ec093a24200353ade35e0",
+    "customer_workspace/wsl_launcher.py": "ff7363698978333e80fec0440a32ab37081b1c701a21a70fce7f499df100cfc9",
+    "customer_workspace/timing_benchmark.py": "39ee7751f673950ceef7cd37d23713fcfad938e556dac56cfa41560ecb6410f5",
+    "customer_workspace/benchmark_report.py": "08883bc4a5735d81a82fbb8fbb4580bbcec1a6e5805f36420efb17f00abd5223",
+    "configs/afg.json": "457501e5ca842d9a875406e7b6300973693eb5db1f0d9731e5cdb7c05099403d",
+    "customer_workspace/configs/pzt1_pulse.json": "0a5ddf221479480f8ef140d1e648ebd2ffca708eb97b7d6f2f93b1b51587f02b"
+  },
+  "post_measurement_code_changes": "Only plot window labels, plot y-axis margin, and common histogram bins. Acquisition and numerical analysis logic unchanged. Earlier figures retained; figures_final contains reviewed plots.",
+  "reviewed_files": [
+    "customer_workspace/timing_benchmark.py",
+    "customer_workspace/benchmark_report.py",
+    "customer_workspace/wsl_launcher.py",
+    "customer_workspace/tests/test_benchmark_report.py",
+    "customer_workspace/tests/test_wsl_launcher.py",
+    "customer_workspace/README.md"
+  ],
+  "result_bytes": 6127028
+}

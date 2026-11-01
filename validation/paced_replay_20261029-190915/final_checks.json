@@ -1,0 +1,37 @@
+{
+  "unit_tests": 39,
+  "static_check": "ruff: new modules and tests passed; shared online_replay checked E4,E7,E9,F",
+  "sequential_regression": "See verification.json: all observations, contours, events, tracks, frame mappings and final background identical",
+  "final_code_hashes": {
+    "paced_replay.py": "9520e916c48fbb73d129189acfa86fc8f3d60dbbaba8697f9502130400853c57",
+    "paced_source.py": "a43862f65addfd84e689b10fd5d539e6323bbe9682f6de003eda5039d7a8f3ea",
+    "paced_report.py": "c813dff38e8f8f0d92e0c4959207f7a5e593bf48f65673ea6970e423dc1d9e1d",
+    "online_replay.py": "69ae244de071db828563704798e8f3f0a7d609d46387cc559a97d48fb8976130"
+  },
+  "figures": {
+    "A_default": {
+      "png_sha256": "8a76c40ff893761016af413c22551098caa690edd18884d355cc2a032ba8dc02",
+      "pdf_sha256": "cafa502e48bcdd9005330e2969480717874c512fb2b79b40f52a0f1881d920e2",
+      "pdf_fonts": [
+        "OFRJUC+ArialMT",
+        "OFRJUC+ArialMT"
+      ]
+    },
+    "B_default": {
+      "png_sha256": "a670522077964c31735de3b27db6cdfcee411f262aa7cfa1623e16e62311d98a",
+      "pdf_sha256": "6b373ee45f8c762df45c3857e35ec4ae1aaf123bd2f537edb3f5b631e8fbcc40",
+      "pdf_fonts": [
+        "OFRJUC+ArialMT",
+        "OFRJUC+ArialMT"
+      ]
+    },
+    "A_overload": {
+      "png_sha256": "bd251b0cab2982430c3c77a1309913efe06e9ed8c5e624db53246ad8c87e9888",
+      "pdf_sha256": "c399638d547a09189c3156b1c85f12635a4ce7da0ba4f01c1a8392e93a37ee6d",
+      "pdf_fonts": [
+        "BQAWFA+ArialMT",
+        "BQAWFA+ArialMT"
+      ]
+    }
+  }
+}

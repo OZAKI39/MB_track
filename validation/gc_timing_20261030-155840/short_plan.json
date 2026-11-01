@@ -1,0 +1,70 @@
+{
+  "order": [
+    [
+      "normal_1",
+      "normal"
+    ],
+    [
+      "precollect_1",
+      "precollect"
+    ],
+    [
+      "defer_full_1",
+      "defer_full"
+    ]
+  ],
+  "threads": {
+    "analysis": 24,
+    "conversion": 1
+  },
+  "repeats": 3,
+  "normal_gc_enabled": true,
+  "original_thresholds": [
+    700,
+    10,
+    10
+  ],
+  "code_sha256": {
+    "gc_replay_check.py": "be005855ca64f2a911d94ac8e5136499849fedd9cbe4543800a8631cfabf832b",
+    "paced_replay.py": "20a0b5b76083a75533d89c073225a131c65805c1916a638ee91495269a5cf565",
+    "bubble_tracker.py": "47cc23ed362f793dde16c64e60f4001b18e0dff4d78034b82cd293845f5f9a2c",
+    "online_tracking.py": "97e73ee7ec808f7e263f1dd1689d014c666b857d90c061f48363e9d318ed3d63",
+    "async_store.py": "e75f3c976667f407082ca080af8cf5ba7b036eec8893a3dce6058bf65a77d980",
+    "online_store.py": "beea35b7a7a98869cb2f1c440471a2abd2b859f6e130d896f53fa6a4461fe21f"
+  },
+  "commands": {
+    "normal_1": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_timing_20261030-155840/normal_1",
+      "--mode",
+      "normal",
+      "--repeats",
+      "3"
+    ],
+    "precollect_1": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_timing_20261030-155840/precollect_1",
+      "--mode",
+      "precollect",
+      "--repeats",
+      "3"
+    ],
+    "defer_full_1": [
+      "/home/lzy/projects/new_microbubble_experiment/.venv/bin/python",
+      "-m",
+      "customer_workspace.microbubble_tracking.gc_replay_check",
+      "--output-dir",
+      "/home/lzy/projects/new_microbubble_experiment/customer_workspace/validation/gc_timing_20261030-155840/defer_full_1",
+      "--mode",
+      "defer_full",
+      "--repeats",
+      "3"
+    ]
+  }
+}

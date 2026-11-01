@@ -1,0 +1,22 @@
+[
+  {
+    "module": "parallel_video_check",
+    "exit_code": 0,
+    "background_required": true
+  },
+  {
+    "module": "stability_check",
+    "exit_code": 0,
+    "background_required": true
+  },
+  {
+    "module": "afg_video_check",
+    "exit_code": 0,
+    "background_required": true
+  },
+  {
+    "module": "parallel_camera",
+    "exit_code": 0,
+    "background_required": false
+  }
+]

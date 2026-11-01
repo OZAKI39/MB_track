@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/mnt/f/Tektronix_control/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "-B",
+    "-m",
+    "customer_workspace.visa_diagnostics",
+    "--mode",
+    "write_query",
+    "--channel",
+    "PZT1",
+    "--count",
+    "1000",
+    "--interval-ms",
+    "50",
+    "--before-query-ms",
+    "0",
+    "--reader",
+    "pyvisa",
+    "--output-dir",
+    "customer_workspace/validation/io_diagnosis_20261023-202752/a_immediate_pyvisa_repeat"
+  ],
+  "started_utc": "2026-10-23T18:36:27.501672+00:00",
+  "finished_utc": "2026-10-23T18:37:01.829459+00:00",
+  "returncode": 1,
+  "stdout": "{\n  \"status\": \"failed\",\n  \"recorded_commands\": 623,\n  \"successful_replies\": 622,\n  \"error\": \"VisaIOError: VI_ERROR_IO (-1073807298): Could not perform operation because of I/O error.\",\n  \"all_outputs_off_confirmed\": true,\n  \"cleanup_error\": null\n}\n",
+  "stderr": ""
+}

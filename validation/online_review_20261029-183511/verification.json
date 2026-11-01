@@ -1,0 +1,71 @@
+{
+  "font": "Arial",
+  "videos": [
+    {
+      "file": "videos/01_expA_full_review.mp4",
+      "frames": 1320,
+      "monotonic_source_times": true
+    },
+    {
+      "file": "videos/02_expB_full_review.mp4",
+      "frames": 1320,
+      "monotonic_source_times": true
+    },
+    {
+      "file": "videos/03_skipped_frame_comparison.mp4",
+      "frames": 120,
+      "monotonic_source_times": true,
+      "frames_without_reduced_input": 40
+    },
+    {
+      "file": "videos/04_merge_candidate.mp4",
+      "frames": 78,
+      "monotonic_source_times": true
+    },
+    {
+      "file": "videos/05_split_confirmation.mp4",
+      "frames": 78,
+      "monotonic_source_times": true,
+      "delayed_confirmation_frames": [
+        304,
+        308
+      ]
+    },
+    {
+      "file": "videos/06_tracking_loss.mp4",
+      "frames": 87,
+      "monotonic_source_times": true
+    },
+    {
+      "file": "videos/07_unresolved_target.mp4",
+      "frames": 42,
+      "monotonic_source_times": true,
+      "final_state": "unresolved_at_end"
+    }
+  ],
+  "pdf_fonts": {
+    "01_frame_timing.pdf": [
+      "GNVYOT+ArialMT"
+    ],
+    "02_track_lifetimes.pdf": [
+      "GBRNLQ+ArialMT"
+    ],
+    "03_history_and_active_targets.pdf": [
+      "GNQCTD+ArialMT"
+    ],
+    "04_pzt_video_alignment.pdf": [
+      "SROHPX+ArialMT"
+    ]
+  },
+  "source_hashes_unchanged": true,
+  "existing_guide_and_notes_preserved": true,
+  "video_decoder_validation": {
+    "videos/01_expA_full_review.mp4": "passed",
+    "videos/02_expB_full_review.mp4": "passed",
+    "videos/03_skipped_frame_comparison.mp4": "passed",
+    "videos/04_merge_candidate.mp4": "passed",
+    "videos/05_split_confirmation.mp4": "passed",
+    "videos/06_tracking_loss.mp4": "passed",
+    "videos/07_unresolved_target.mp4": "passed"
+  }
+}

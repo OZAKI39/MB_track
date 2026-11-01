@@ -1,0 +1,15 @@
+{
+  "status": "cancelled",
+  "frames": 89,
+  "observations": 1813,
+  "tracks": 30,
+  "confirmed_tracks": 25,
+  "events_by_status": {
+    "confirmed_tracks": 30,
+    "rejected_short_track": 8,
+    "unresolved_at_end": 1
+  },
+  "input_rejections": 0,
+  "skipped_source_frames": 31,
+  "peak_active_tracks": 23
+}

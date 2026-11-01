@@ -1,0 +1,8 @@
+{
+  "package": "acpica-tools_20230628-1_amd64.deb",
+  "source": "Ubuntu noble/universe repository via apt download acpica-tools",
+  "sha256": "1282c3e0f5f3e53759350e98e68b96bf31d1f381aaf1e0abdbd750f7a131841c",
+  "bytes": 919728,
+  "installation": "Extracted only; system package database unchanged",
+  "purpose": "Read-only disassembly of the saved local DSDT table"
+}
